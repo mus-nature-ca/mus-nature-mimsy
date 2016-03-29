@@ -1,0 +1,1 @@
+This folder contains (or will) command line executables for running queries and performing functions against MIMSY XG.
