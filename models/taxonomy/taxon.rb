@@ -22,19 +22,14 @@ class Taxon < ActiveRecord::Base
     variations
   end
 
-  def self.ancestry(who)
-    @tree ||= []
-
-    if who.parent.nil?
-      return @tree.reverse
-    else
-      @tree << who.parent
-      ancestry(who.parent)
-    end
-  end
-
   def ancestors
-    @ancestors ||= Taxon.ancestry(self)
+    return enum_for(:ancestors) unless block_given?
+
+    element = self
+    while element
+      yield element
+      element = element.parent
+    end
   end
 
 end
