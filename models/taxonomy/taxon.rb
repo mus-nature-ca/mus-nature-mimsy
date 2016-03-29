@@ -14,6 +14,9 @@ class Taxon < ActiveRecord::Base
   has_many :publications, through: :taxon_publications, source: :publication
   has_many :taxon_publications, foreign_key: "speckey"
 
+  alias_attribute :collection, :taxon_name
+  alias_attribute :rank, :level_text
+
   def self.search_by_prefix (prefix)
     self.where("lower(scientific_name) LIKE '#{prefix.downcase}%'")
   end

@@ -8,4 +8,8 @@ class TaxonVariation < ActiveRecord::Base
   belongs_to :taxon, foreign_key: "speckey"
 
   alias_attribute :scientific_name, :variation
+
+  def self.search_by_prefix (prefix)
+    self.where("lower(variation) LIKE '#{prefix.downcase}%'")
+  end
 end

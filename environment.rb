@@ -24,6 +24,8 @@ require 'nokogiri'
 require 'uri'
 require 'net/http'
 require 'progressbar'
+require 'byebug'
+require 'csv'
 
 require_all 'lib'
 require_all 'helpers'
