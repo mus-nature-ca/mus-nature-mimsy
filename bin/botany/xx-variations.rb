@@ -5,8 +5,7 @@ require_relative '../../environment.rb'
 #Issue: https://trello.com/c/JOeYqhyC
 
 results = []
-output_dir = File.dirname(__FILE__) + "/output/"
-CSV.open(output_dir + "xx-variations.csv", 'w') do |csv|
+CSV.open(File.dirname(__FILE__) + "/xx-variations.csv", 'w') do |csv|
   csv << ["speckey", "scientific_name", "variation"]
   TaxonVariation.search_by_prefix("xx").each do |tv|
     if tv.taxon.collection == "Botany" && tv.scientific_name[2..-1] == tv.taxon.scientific_name
