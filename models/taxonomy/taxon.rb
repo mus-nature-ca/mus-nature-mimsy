@@ -35,4 +35,8 @@ class Taxon < ActiveRecord::Base
     end
   end
 
+  def root
+    ancestors.min
+  end
+
 end
