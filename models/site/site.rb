@@ -7,4 +7,6 @@ class Site < ActiveRecord::Base
 
   has_many :catalogs, through: :catalog_sites, source: :catalog
   has_many :catalog_sites, foreign_key: "skey"
+
+  has_many :measurements, class_name: "SiteMeasurement", foreign_key: "skey"
 end

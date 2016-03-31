@@ -7,6 +7,8 @@ class Taxon < ActiveRecord::Base
 
   belongs_to :parent, class_name: "Taxon", foreign_key: "broader_key1"
 
+  has_many :children, class_name: "Taxon", foreign_key: "broader_key1"
+
   has_many :catalogs, through: :catalog_taxa, source: :taxon
   has_many :catalog_taxa, foreign_key: "speckey"
   has_many :variations, class_name: "TaxonVariation", foreign_key: "speckey"
@@ -26,17 +28,41 @@ class Taxon < ActiveRecord::Base
   end
 
   def ancestors
-    return enum_for(:ancestors) unless block_given?
+    node, nodes = self, []
+    nodes << node = node.parent while node.parent
+    nodes.reverse
+  end
 
-    element = self
-    while element
-      yield element
-      element = element.parent
-    end
+  def descendants
+    children.each_with_object(children.to_a) {|child, arr|
+      arr.concat child.descendants
+    }.uniq
+  end
+
+  def siblings
+    self_and_siblings - [self]
+  end
+
+  def self_and_siblings
+    parent.children
+  end
+
+  def self_and_ancestors
+    [self] + self.ancestors
   end
 
   def root
-    ancestors.min
+    node = self
+    node = node.parent while node.parent
+    node
+  end
+
+  def root?
+    parent.nil?
+  end
+
+  def leaf?
+    children.size.zero?
   end
 
 end
