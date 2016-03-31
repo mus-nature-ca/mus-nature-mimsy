@@ -5,7 +5,6 @@ require_relative '../../environment.rb'
 #Issue: https://trello.com/c/ZpAqA6HN
 
 count = 0
-#Everything under genus
 pbar = ProgressBar.new("HOMONYMY", Taxon.count)
 
 CSV.open(File.dirname(__FILE__) + "/homonymy.csv", 'w') do |csv|
@@ -13,7 +12,7 @@ CSV.open(File.dirname(__FILE__) + "/homonymy.csv", 'w') do |csv|
   Taxon.find_each do |t|
     count += 1
     pbar.set(count)
-    if t.collection != t.root.collection
+    if t.collection != t.parent.collection
       csv << [t.speckey.to_i, t.scientific_name]
     end rescue nil
   end
