@@ -1,3 +1,5 @@
+ENV['NLS_LANG'] = "AMERICAN_CANADA.AL32UTF8"
+
 require 'bundler'
 require 'ostruct'
 require 'logger'
@@ -26,6 +28,7 @@ require 'net/http'
 require 'progressbar'
 require 'byebug'
 require 'csv'
+require 'geo_point'
 
 require_all 'lib'
 require_all 'helpers'

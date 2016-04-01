@@ -17,6 +17,7 @@ gem 'thin'
 gem 'require_all'
 gem 'nokogiri'
 gem 'progressbar'
+gem 'geo_point'
 
 group :production do
 end
