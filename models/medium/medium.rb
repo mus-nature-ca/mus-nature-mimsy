@@ -5,6 +5,9 @@ class Medium < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "mediakey"
 
+  # override boolean set
+  set_string_columns :orientation
+
   has_many :catalogs, through: :catalog_media, source: :catalog
   has_many :catalog_media, foreign_key: "mediakey"
 

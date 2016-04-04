@@ -5,6 +5,9 @@ class Person < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "link_id"
 
+  # override boolean set
+  set_string_columns :gender
+
   has_many :collectors, through: :catalog_collectors, source: :catalog
   has_many :catalog_collectors, foreign_key: "link_id"
   
