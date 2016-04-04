@@ -7,4 +7,9 @@ class CatalogTaxon < ActiveRecord::Base
 
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :taxon, foreign_key: "speckey"
+
+  alias_attribute :identifier, :attributor
+  alias_attribute :date_identified, :attrib_date
+  alias_attribute :scientific_name, :taxonomy
+  alias_attribute :type_status, :affiliation
 end

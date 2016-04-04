@@ -64,7 +64,7 @@ class Catalog < ActiveRecord::Base
   has_many :other_measurements, class_name: "CatalogOtherMeasurement", foreign_key: "mkey"
   has_many :other_numbers, class_name: "CatalogOtherNumber", foreign_key: "mkey"
   
-  has_many :owners, through: :catalog_owners, source: :owner
+  has_many :owners, through: :catalog_owners, source: :person
   has_many :catalog_owners, foreign_key: "mkey"
   
   has_many :people, through: :catalog_people, source: :person
@@ -101,5 +101,6 @@ class Catalog < ActiveRecord::Base
 
   alias_attribute :collection, :category1
   alias_attribute :specimen_nature, :materials
+  alias_attribute :acquisition_number, :credit_line
 
 end
