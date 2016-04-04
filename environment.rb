@@ -33,11 +33,9 @@ require 'geo_point'
 require_all 'lib'
 require_all 'helpers'
 require_all 'routes'
-require_all 'models'
 
 register Sinatra::ConfigFile
 config_file File.join(File.dirname(__FILE__), 'config.yml')
 
-ActiveRecord::ConnectionAdapters::OracleEnhancedAdapter.emulate_booleans_from_strings = true
-
+require_relative 'models/initialize'
 register Sinatra::Mimsy::Model::Initialize

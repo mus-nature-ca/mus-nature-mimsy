@@ -13,6 +13,14 @@ module Sinatra
             :username => app.settings.username,
             :password => app.settings.password
           )
+          require_all 'models'
+        end
+
+        ActiveSupport.on_load(:active_record) do
+          ActiveRecord::ConnectionAdapters::OracleEnhancedAdapter.class_eval do
+            # true and false will be stored as 'Y' and 'N'
+            self.emulate_booleans_from_strings = true
+          end
         end
 
         ActiveSupport::Inflector.inflections do |inflect|
