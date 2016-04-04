@@ -38,4 +38,6 @@ require_all 'models'
 register Sinatra::ConfigFile
 config_file File.join(File.dirname(__FILE__), 'config.yml')
 
+ActiveRecord::ConnectionAdapters::OracleEnhancedAdapter.emulate_booleans_from_strings = true
+
 register Sinatra::Mimsy::Model::Initialize

@@ -5,6 +5,10 @@ class Place < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "placekey"
 
+  belongs_to :parent, class_name: "Place", foreign_key: "broader_key"
+
+  has_many :children, class_name: "Place", foreign_key: "broader_key"
+
   has_many :catalogs, through: :catalog_places, source: :catalog
   has_many :catalog_places, foreign_key: "placekey"
   
@@ -13,4 +17,48 @@ class Place < ActiveRecord::Base
   
   has_many :made_catalogs, through: :catalog_made_places, source: :catalog
   has_many :catalog_made_places, foreign_key: "placekey"
+  
+  has_many :sites, through: :place_sites, source: :site
+  has_many :place_sites, foreign_key: "placekey"
+
+  alias_attribute :name, :place1
+
+  def ancestors
+    node, nodes = self, []
+    nodes << node = node.parent while node.parent
+    nodes.reverse
+  end
+
+  def descendants
+    children.each_with_object(children.to_a) {|child, arr|
+      arr.concat child.descendants
+    }.uniq
+  end
+
+  def siblings
+    self_and_siblings - [self]
+  end
+
+  def self_and_siblings
+    parent.children
+  end
+
+  def self_and_ancestors
+    [self] + self.ancestors
+  end
+
+  def root
+    node = self
+    node = node.parent while node.parent
+    node
+  end
+
+  def root?
+    parent.nil?
+  end
+
+  def leaf?
+    children.size.zero?
+  end
+
 end

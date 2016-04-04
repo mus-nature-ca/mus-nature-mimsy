@@ -9,6 +9,9 @@ class Site < ActiveRecord::Base
   has_many :catalog_sites, foreign_key: "skey"
 
   has_many :measurements, class_name: "SiteMeasurement", foreign_key: "skey"
+  
+  has_many :places, through: :place_sites, source: :place
+  has_many :place_sites, foreign_key: "skey"
 
   def self.dms_to_dd(coord)
     GeoPoint.new coord

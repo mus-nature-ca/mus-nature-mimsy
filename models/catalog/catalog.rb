@@ -32,7 +32,7 @@ class Catalog < ActiveRecord::Base
   has_many :conservations, foreign_key: "m_id"
   has_many :cultures, foreign_key: "mkey"
   has_many :damages, foreign_key: "m_id"
-  has_many :daytes, foreign_key: "mkey" #avoid clash with superclass Date
+  has_many :daytes, foreign_key: "mkey"
   has_many :descriptions, class_name: "CatalogDescription", foreign_key: "mkey"
   
   has_many :events, through: :catalog_events, source: :event
@@ -98,5 +98,8 @@ class Catalog < ActiveRecord::Base
   
   has_many :vessels, through: :catalog_vessels, source: :vessel
   has_many :catalog_vessels, foreign_key: "mkey"
+
+  alias_attribute :collection, :category1
+  alias_attribute :specimen_nature, :materials
 
 end
