@@ -13,5 +13,4 @@ class Publication < ActiveRecord::Base
 
   has_many :taxa, through: :taxon_publications, source: :taxon
   has_many :taxon_publications, foreign_key: "pkey"
-
 end
