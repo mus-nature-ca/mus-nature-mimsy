@@ -20,7 +20,7 @@ optparse = OptionParser.new do |opts|
     options[:end_date] = date
   end
 
-  opts.on("-t", "--type [new, edit, all]", String, "New, edit, accession, all") do |type|
+  opts.on("-t", "--type [new, edit, acquisition, all]", String, "New, edit, acquisition, all") do |type|
     options[:type] = type
   end
 end
@@ -40,8 +40,9 @@ begin
     puts Catalog.group("category1").where(create_date: start_date..end_date).order("category1").count
   when "edit"
     puts Catalog.group("category1").where(update_date: start_date..end_date).order("category1").count
-  when "accession"
-    puts "WIP"
+  when "acquisition"
+    puts Acquisition.group("option1").where(legal_date: start_date..end_date).count
+    #TODO: get total counts of specimens within these acquisitions via :total_approved
   else
     puts "Start date / End date ignored"
     puts Catalog.group("category1").order("category1").count

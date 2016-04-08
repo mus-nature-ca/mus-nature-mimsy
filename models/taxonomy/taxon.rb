@@ -9,7 +9,7 @@ class Taxon < ActiveRecord::Base
 
   has_many :children, class_name: "Taxon", foreign_key: "broader_key1"
 
-  has_many :catalogs, through: :catalog_taxa, source: :taxon
+  has_many :catalogs, through: :catalog_taxa, source: :catalog
   has_many :catalog_taxa, foreign_key: "speckey"
   has_many :variations, class_name: "TaxonVariation", foreign_key: "speckey"
 
@@ -23,7 +23,7 @@ class Taxon < ActiveRecord::Base
     self.where("lower(scientific_name) LIKE '#{prefix.downcase}%'")
   end
 
-  def all_synonyms
+  def synonyms
     variations
   end
 

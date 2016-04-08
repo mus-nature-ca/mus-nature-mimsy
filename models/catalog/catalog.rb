@@ -102,4 +102,10 @@ class Catalog < ActiveRecord::Base
   alias_attribute :collection, :category1
   alias_attribute :specimen_nature, :materials
   alias_attribute :acquisition_number, :credit_line
+  alias_attribute :scientific_name, :item_name
+
+  def determinations
+    names
+  end
+
 end

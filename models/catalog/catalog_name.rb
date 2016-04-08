@@ -6,4 +6,6 @@ class CatalogName < ActiveRecord::Base
   self.primary_key = "id"
 
   belongs_to :catalog, foreign_key: "mkey"
+
+  alias_attribute :scientific_name, :item_name
 end
