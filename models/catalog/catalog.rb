@@ -8,6 +8,9 @@ class Catalog < ActiveRecord::Base
   has_one :acquisition, through: :acquisition_catalog, source: :acquisition
   has_one :acquisition_catalog, foreign_key: "m_id"
 
+  has_many :agents, through: :catalog_agents, source: :person
+  has_many :catalog_agents, foreign_key: "mkey"
+
   has_one :current_condition, primary_key: "m_id", foreign_key: "m_id"
   has_one :current_legal_status, primary_key: "mkey", foreign_key: "mkey"
   has_one :current_location, primary_key: "m_id", foreign_key: "m_id"
@@ -66,7 +69,7 @@ class Catalog < ActiveRecord::Base
   
   has_many :owners, through: :catalog_owners, source: :person
   has_many :catalog_owners, foreign_key: "mkey"
-  
+
   has_many :people, through: :catalog_people, source: :person
   has_many :catalog_people, foreign_key: "mkey"
   

@@ -8,14 +8,13 @@ class Person < ActiveRecord::Base
   # override boolean set
   set_string_columns :gender
 
-  has_many :collectors, through: :catalog_collectors, source: :catalog
+  belongs_to :catalog_collector, foreign_key: "link_id"
+  
+  has_many :catalogs, through: :catalog_agents, source: :catalog
+  has_many :catalog_agents, foreign_key: "link_id"
+
+  has_many :collections, through: :catalog_collectors, source: :catalog
   has_many :catalog_collectors, foreign_key: "link_id"
-  
-  has_many :catalogs, through: :catalog_people, source: :catalog
-  has_many :catalog_people, foreign_key: "link_id"
-  
-  has_many :makers, through: :catalog_makers, source: :catalog
-  has_many :catalog_makers, foreign_key: "link_id"
 
   has_many :acquisitions, through: :acquisition_sources, source: :acquisition
   has_many :acquisition_sources, foreign_key: "link_id"

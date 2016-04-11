@@ -41,8 +41,9 @@ begin
   when "edit"
     puts Catalog.group("category1").where(update_date: start_date..end_date).order("category1").count
   when "acquisition"
-    puts Acquisition.group("option1").where(legal_date: start_date..end_date).count
-    #TODO: get total counts of specimens within these acquisitions via :total_approved
+    puts Acquisition.group("option1").where(legal_date: start_date..end_date).order("option1").count
+    acqs = Acquisition.where(legal_date: start_date..end_date).map{|acq| { acq.option1 => acq.total_approved }}
+    puts acqs.inject{|memo, el| memo.merge(el){|k, old_v, new_v| old_v + new_v}}.sort.to_h
   else
     puts "Start date / End date ignored"
     puts Catalog.group("category1").order("category1").count
