@@ -8,13 +8,12 @@ sites = Site.where("site_id LIKE ?", "CMNFV%")
 pbar = ProgressBar.new("PALAEO-SITES", sites.size)
 count = 0
 
-CSV.open(File.dirname(__FILE__) + "/sites-removed.csv", 'w') do |csv|
+CSV.open(File.dirname(__FILE__) + "/sites-removed-other.csv", 'w') do |csv|
   csv << ["skey", "site_id", "site_name", "description", "create_date"]
   sites.each do |site|
     count += 1
     pbar.set(count)
     if site.catalogs.empty? && 
-        site.other_numbers.empty? && 
         site.events.empty? && 
         site.media.empty? && 
         site.people.empty? &&
@@ -29,9 +28,8 @@ CSV.open(File.dirname(__FILE__) + "/sites-removed.csv", 'w') do |csv|
         site.permits.empty? &&
         site.photos.empty? &&
         site.surveys.empty?
-        byebug
       csv << [site.skey, site.site_id, site.site_name, site.description, site.create_date]
-      site.delete
+      site.destroy
     end
   end
 end
