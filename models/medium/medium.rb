@@ -40,4 +40,7 @@ class Medium < ActiveRecord::Base
 
   has_many :loans, through: :loan_media, source: :loan
   has_many :loan_media, foreign_key: "mediakey"
+
+  has_many :sites, through: :site_media, source: :site
+  has_many :site_media, foreign_key: "mediakey"
 end

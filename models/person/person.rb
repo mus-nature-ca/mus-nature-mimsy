@@ -24,4 +24,7 @@ class Person < ActiveRecord::Base
 
   has_many :loans, through: :loan_venues, source: :loan
   has_many :loan_venues, foreign_key: "link_id"
+
+  has_many :sites, through: :site_people, source: :site
+  has_many :site_people, foreign_key: "link_id"
 end

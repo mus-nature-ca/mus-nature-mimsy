@@ -7,4 +7,7 @@ class Event < ActiveRecord::Base
 
   has_many :catalogs, through: :catalog_events, source: :catalog
   has_many :catalog_events, foreign_key: "vkey"
+  
+  has_many :events, through: :site_events, source: :site
+  has_many :site_events, foreign_key: "vkey"
 end

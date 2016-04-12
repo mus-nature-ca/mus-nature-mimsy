@@ -4,22 +4,19 @@ require_relative '../../environment.rb'
 
 #Issue: https://trello.com/c/ZpAqA6HN
 
-skeys = []
+@skeys = []
 count = 0
 pbar = ProgressBar.new("COORDINATES", Site.count)
 
 def add_record(csv, item)
-  if !skeys.include?(item.skey)
-    csv << [item.skey, item.site_id, item.start_latitude, item.start_latitude_dec, item.start_longitude, item.start_longitude_dec]
-    skeys << item.skey
+  if !@skeys.include?(item.skey)
+    csv << [item.skey, item.site_id, item.start_latitude, item.start_longitude, item.start_latitude_dec, item.start_longitude_dec]
+    @skeys << item.skey
   end
 end
 
-def parsed_coord(item)
-end
-
 CSV.open(File.dirname(__FILE__) + "/coordinates.csv", 'w') do |csv|
-  csv << ["skey", "site_id", "start_latitude", "start_latitude_dec", "start_longitude", "start_longitude_dec"]
+  csv << ["skey", "site_id", "start_latitude", "start_longitude", "start_latitude_dec", "start_longitude_dec"]
   Site.find_each do |item|
     count += 1
     pbar.set(count)
@@ -27,6 +24,9 @@ CSV.open(File.dirname(__FILE__) + "/coordinates.csv", 'w') do |csv|
     lng = item.start_longitude
     lat_d = item.start_latitude_dec ? item.start_latitude_dec.to_f : nil
     lng_d = item.start_longitude_dec ? item.start_longitude_dec.to_f : nil
+    if (item.start_latitude.present? && !item.start_longitude.present?) || (!item.start_latitude.present? && item.start_longitude.present?)
+      add_record(csv, item)
+    end
     if lat_d && lng_d && (lat_d == 0 || lng_d == 0 || lat_d > 90 || lat_d < -90 || lng_d > 180 || lng_d < -180)
       add_record(csv, item)
     end
