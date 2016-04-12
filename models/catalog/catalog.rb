@@ -107,6 +107,7 @@ class Catalog < ActiveRecord::Base
   alias_attribute :acquisition_number, :credit_line
   alias_attribute :scientific_name, :item_name
 
+  #TODO: determination histories held in both CatalogName and CatalogTaxon
   def determinations
     names
   end

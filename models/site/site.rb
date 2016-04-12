@@ -12,13 +12,4 @@ class Site < ActiveRecord::Base
   
   has_many :places, through: :place_sites, source: :place
   has_many :place_sites, foreign_key: "skey"
-
-  def self.dms_to_dd(coord)
-    GeoPoint.new coord
-  end
-
-  def dms_to_dd
-    GeoPoint.new start_latitude, start_longitude
-  end
-
 end
