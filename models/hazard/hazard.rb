@@ -1,9 +1,9 @@
 class Hazard < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "hazard"
+  self.table_name = :hazard
 
   # specify primary key name
-  self.primary_key = "hkey"
+  self.primary_key = :hkey
 
   # override decimal set
   set_integer_columns :m_id

@@ -1,9 +1,9 @@
 class Site < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "sites"
+  self.table_name = :sites
 
   # specify primary key name
-  self.primary_key = "skey"
+  self.primary_key = :skey
 
   # override decimal set
   set_integer_columns :skey

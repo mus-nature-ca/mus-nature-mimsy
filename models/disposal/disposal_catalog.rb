@@ -1,9 +1,9 @@
 class DisposalCatalog < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "disposal_items"
+  self.table_name = :disposal_items
 
   # specify primary key name
-  self.primary_key = "id"
+  self.primary_key = :id
 
   # override decimal set
   set_integer_columns :akey, :m_id

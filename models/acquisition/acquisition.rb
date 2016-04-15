@@ -1,9 +1,9 @@
 class Acquisition < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "acquisitions"
+  self.table_name = :acquisitions
 
   # specify primary key name
-  self.primary_key = "akey"
+  self.primary_key = :akey
 
   has_many :catalogs, through: :acquisition_catalogs, source: :catalog
   has_many :acquisition_catalogs, foreign_key: "akey"

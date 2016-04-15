@@ -1,9 +1,9 @@
 class AcquisitionMedium < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "acquisitions_media"
+  self.table_name = :acquisitions_media
 
   # specify primary key name
-  self.primary_key = "id"
+  self.primary_key = :id
 
   # override decimal set
   set_integer_columns :mediakey

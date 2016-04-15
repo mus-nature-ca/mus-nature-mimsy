@@ -1,9 +1,9 @@
 class Valuation < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "valuation"
+  self.table_name = :valuation
 
   # specify primary key name
-  self.primary_key = "trans_id"
+  self.primary_key = :trans_id
 
   # override decimal set
   set_integer_columns :trans_id, :m_id

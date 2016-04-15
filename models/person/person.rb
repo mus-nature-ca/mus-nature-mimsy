@@ -1,9 +1,9 @@
 class Person < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "people"
+  self.table_name = :people
 
   # specify primary key name
-  self.primary_key = "link_id"
+  self.primary_key = :link_id
 
   # override decimal set
   set_integer_columns :link_id

@@ -1,10 +1,10 @@
 # Table does not exist, but provided here because it is indicated in Tables_Links.pdf
 class ValuationMedium < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "valuation_media"
+  self.table_name = :valuation_media
 
   # specify primary key name
-  self.primary_key = "id"
+  self.primary_key = :id
 
   # override decimal set
   set_integer_columns :trans_id, :mediakey

@@ -1,9 +1,9 @@
 class Medium < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "media"
+  self.table_name = :media
 
   # specify primary key name
-  self.primary_key = "mediakey"
+  self.primary_key = :mediakey
 
   # override decimal set
   set_integer_columns :mediakey

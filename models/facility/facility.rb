@@ -1,9 +1,9 @@
 class Facility < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "facilities"
+  self.table_name = :facilities
 
   # specify primary key name
-  self.primary_key = "lockey"
+  self.primary_key = :lockey
 
   # override decimal set
   set_integer_columns :lockey

@@ -1,9 +1,9 @@
 class TaxonVariation < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "taxonomy_variations"
+  self.table_name = :taxonomy_variations
 
   # specify primary key name
-  self.primary_key = "taxvarkey"
+  self.primary_key = :taxvarkey
 
   # override decimal set
   set_integer_columns :speckey

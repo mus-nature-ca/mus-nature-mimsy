@@ -1,9 +1,9 @@
 class Catalog < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "catalogue"
+  self.table_name = :catalogue
 
   # specify primary key name
-  self.primary_key = "mkey"
+  self.primary_key = :mkey
 
   # override decimal set
   set_integer_columns :mkey
@@ -12,6 +12,7 @@ class Catalog < ActiveRecord::Base
   alias_attribute :specimen_nature, :materials
   alias_attribute :acquisition_number, :credit_line
   alias_attribute :scientific_name, :item_name
+  alias_attribute :collection_code, :id_prefix
 
   validates :id_number, presence: true
   validates :category1, presence: true

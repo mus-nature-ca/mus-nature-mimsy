@@ -1,9 +1,9 @@
 class SiteEvent < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "sites_events"
+  self.table_name = :sites_events
 
   # specify primary key name
-  self.primary_key = "authlinkkey"
+  self.primary_keys = :skey, :vkey
 
   # override decimal set
   set_integer_columns :skey, :vkey

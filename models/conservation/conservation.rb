@@ -1,12 +1,14 @@
 class Conservation < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "conservation"
+  self.table_name = :conservation
 
   # specify primary key name
-  self.primary_key = "conskey"
+  self.primary_key = :conskey
 
   # override decimal set
   set_integer_columns :conskey
+
+  validates :m_id, presence: true
 
   belongs_to :catalog, primary_key: "conskey", foreign_key: "m_id"
   

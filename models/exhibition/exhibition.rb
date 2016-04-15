@@ -1,9 +1,9 @@
 class Exhibition < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "exhibitions"
+  self.table_name = :exhibitions
 
   # specify primary key name
-  self.primary_key = "ekey"
+  self.primary_key = :ekey
 
   # override decimal set
   set_integer_columns :ekey

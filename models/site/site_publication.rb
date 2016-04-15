@@ -1,9 +1,9 @@
 class SitePublication < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "sites_publications"
+  self.table_name = :sites_publications
 
   # specify primary key name
-  self.primary_key = "authlinkkey"
+  self.primary_keys = :skey, :pkey
 
   # override decimal set
   set_integer_columns :skey, :pkey

@@ -1,12 +1,14 @@
 class Condition < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "condition"
+  self.table_name = :condition
 
   # specify primary key name
-  self.primary_key = "condkey"
+  self.primary_key = :condkey
 
   # override decimal set
   set_integer_columns :condkey
+
+  validates :m_id, presence: true
 
   belongs_to :catalog, primary_key: "condkey", foreign_key: "m_id"
 

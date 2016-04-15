@@ -1,9 +1,9 @@
 class Loan < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "loans"
+  self.table_name = :loans
 
   # specify primary key name
-  self.primary_key = "lkey"
+  self.primary_key = :lkey
 
   # override decimal set
   set_integer_columns :lkey

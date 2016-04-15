@@ -1,9 +1,9 @@
 class Place < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "places"
+  self.table_name = :places
 
   # specify primary key name
-  self.primary_key = "placekey"
+  self.primary_key = :placekey
 
   # override decimal set
   set_integer_columns :broader_key

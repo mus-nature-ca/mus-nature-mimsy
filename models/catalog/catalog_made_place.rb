@@ -1,9 +1,9 @@
 class CatalogMadePlace < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "items_places_made"
+  self.table_name = :items_places_made
 
   # specify primary key name
-  self.primary_key = "authlinkkey"
+  self.primary_keys = :mkey, :placekey
 
   # override decimal set
   set_integer_columns :mkey, :placekey

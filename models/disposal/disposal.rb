@@ -1,9 +1,9 @@
 class Disposal < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "disposals"
+  self.table_name = :disposals
 
   # specify primary key name
-  self.primary_key = "akey"
+  self.primary_key = :akey
 
   # override decimal set
   set_integer_columns :akey

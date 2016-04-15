@@ -1,9 +1,9 @@
 class Taxon < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "taxonomy"
+  self.table_name = :taxonomy
 
   # specify primary key name
-  self.primary_key = "speckey"
+  self.primary_key = :speckey
 
   alias_attribute :collection, :taxon_name
   alias_attribute :rank, :level_text

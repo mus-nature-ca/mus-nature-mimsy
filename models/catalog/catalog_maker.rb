@@ -1,9 +1,9 @@
 class CatalogMaker < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "items_makers"
+  self.table_name = :items_makers
 
   # specify primary key name
-  self.primary_key = "authlinkkey"
+  self.primary_keys = :mkey, :link_id
 
   # override decimal set
   set_integer_columns :mkey, :link_id

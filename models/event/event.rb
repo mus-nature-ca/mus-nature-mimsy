@@ -1,9 +1,9 @@
 class Event < ActiveRecord::Base
   # specify schema and table name
-  self.table_name = "events"
+  self.table_name = :events
 
   # specify primary key name
-  self.primary_key = "vkey"
+  self.primary_key = :vkey
 
   # override decimal set
   set_integer_columns :vkey
