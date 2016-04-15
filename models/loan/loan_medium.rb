@@ -5,6 +5,9 @@ class LoanMedium < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "id"
 
+  # override decimal set
+  set_integer_columns :lkey, :mediakey
+
   belongs_to :loan, foreign_key: "lkey"
   belongs_to :medium, foreign_key: "mediakey"
 end

@@ -5,6 +5,9 @@ class Exhibition < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "ekey"
 
+  # override decimal set
+  set_integer_columns :ekey
+
   has_many :catalogs, through: :exhibition_catalogs, source: :catalog
   has_many :exhibition_catalogs, foreign_key: "ekey"
 

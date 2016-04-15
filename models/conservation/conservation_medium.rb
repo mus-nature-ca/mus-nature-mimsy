@@ -5,6 +5,9 @@ class ConservationMedium < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "id"
 
+  # override decimal set
+  set_integer_columns :conskey, :mediakey
+
   belongs_to :conservation, foreign_key: "conskey"
   belongs_to :media, foreign_key: "mediakey"
 end

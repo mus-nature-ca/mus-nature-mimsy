@@ -5,11 +5,14 @@ class CatalogTaxon < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "authlinkkey"
 
-  belongs_to :catalog, foreign_key: "mkey"
-  belongs_to :taxon, foreign_key: "speckey"
+  # override decimal set
+  set_integer_columns :mkey, :speckey
 
   alias_attribute :identifier, :attributor
   alias_attribute :date_identified, :attrib_date
   alias_attribute :scientific_name, :taxonomy
   alias_attribute :type_status, :affiliation
+
+  belongs_to :catalog, foreign_key: "mkey"
+  belongs_to :taxon, foreign_key: "speckey"
 end

@@ -30,6 +30,7 @@ require 'byebug'
 require 'csv'
 require 'geo_point'
 require 'date'
+require 'elasticsearch/model'
 
 require_all 'lib'
 require_all 'helpers'

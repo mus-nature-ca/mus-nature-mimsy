@@ -5,6 +5,9 @@ class Facility < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "lockey"
 
+  # override decimal set
+  set_integer_columns :lockey
+
   has_many :catalogs, through: :catalog_facilities, source: :catalog
   has_many :catalog_facilities, foreign_key: "lockey"
 end

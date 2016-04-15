@@ -5,6 +5,9 @@ class Person < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "link_id"
 
+  # override decimal set
+  set_integer_columns :link_id
+
   # override boolean set
   set_string_columns :gender
 
@@ -27,4 +30,6 @@ class Person < ActiveRecord::Base
 
   has_many :sites, through: :site_people, source: :site
   has_many :site_people, foreign_key: "link_id"
+
+  has_many :variations, class_name: "PersonVariation", foreign_key: "link_id"
 end

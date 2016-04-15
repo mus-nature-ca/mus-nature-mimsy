@@ -5,6 +5,9 @@ class Loan < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "lkey"
 
+  # override decimal set
+  set_integer_columns :lkey
+
   has_many :catalogs, through: :loan_catalogs, source: :catalog
   has_many :loan_catalogs, foreign_key: "lkey"
 

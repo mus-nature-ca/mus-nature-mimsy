@@ -5,6 +5,17 @@ class Catalog < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "mkey"
 
+  # override decimal set
+  set_integer_columns :mkey
+
+  alias_attribute :collection, :category1
+  alias_attribute :specimen_nature, :materials
+  alias_attribute :acquisition_number, :credit_line
+  alias_attribute :scientific_name, :item_name
+
+  validates :id_number, presence: true
+  validates :category1, presence: true
+
   has_one :acquisition, through: :acquisition_catalog, source: :acquisition
   has_one :acquisition_catalog, foreign_key: "m_id"
 
@@ -102,14 +113,13 @@ class Catalog < ActiveRecord::Base
   has_many :vessels, through: :catalog_vessels, source: :vessel
   has_many :catalog_vessels, foreign_key: "mkey"
 
-  alias_attribute :collection, :category1
-  alias_attribute :specimen_nature, :materials
-  alias_attribute :acquisition_number, :credit_line
-  alias_attribute :scientific_name, :item_name
-
-  #TODO: determination histories held in both CatalogName and CatalogTaxon
+  #TODO: determination histories held in both CatalogName and CatalogTaxon (?)
   def determinations
     names
+  end
+
+  def self.find_by_catalog(id)
+    self.find_by_id_number(id)
   end
 
 end

@@ -5,6 +5,9 @@ class LoanCatalog < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "litmkey"
 
+  # override decimal set
+  set_integer_columns :m_id, :lkey
+
   belongs_to :catalog, foreign_key: "m_id"
   belongs_to :loan, foreign_key: "lkey"
 end

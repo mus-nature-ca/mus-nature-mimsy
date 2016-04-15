@@ -6,6 +6,9 @@ class HazardMedium < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "id"
 
+  # override decimal set
+  set_integer_columns :hkey, :mediakey
+
   belongs_to :hazard, foreign_key: "hkey"
   belongs_to :media, foreign_key: "mediakey"
 end

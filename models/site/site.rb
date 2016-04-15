@@ -5,6 +5,11 @@ class Site < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "skey"
 
+  # override decimal set
+  set_integer_columns :skey
+
+  validates :site_id, presence: true
+
   has_many :catalogs, through: :catalog_sites, source: :catalog
   has_many :catalog_sites, foreign_key: "skey"
 

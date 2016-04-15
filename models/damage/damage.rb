@@ -5,6 +5,9 @@ class Damage < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "dkey"
 
+  # override decimal set
+  set_integer_columns :dkey, :m_id
+
   belongs_to :catalog, primary_key: "dkey", foreign_key: "m_id"
 
   has_many :media, through: :damage_media, source: :medium

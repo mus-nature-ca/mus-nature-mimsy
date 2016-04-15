@@ -5,6 +5,9 @@ class Conservation < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "conskey"
 
+  # override decimal set
+  set_integer_columns :conskey
+
   belongs_to :catalog, primary_key: "conskey", foreign_key: "m_id"
   
   has_many :details, class_name: "ConservationDetail", foreign_key: "conskey"

@@ -5,6 +5,9 @@ class CatalogEvent < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "authlinkkey"
 
+  # override decimal set
+  set_integer_columns :mkey, :vkey
+
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :event, foreign_key: "vkey"
 end

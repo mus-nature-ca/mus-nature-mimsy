@@ -5,6 +5,9 @@ class Event < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "vkey"
 
+  # override decimal set
+  set_integer_columns :vkey
+
   has_many :catalogs, through: :catalog_events, source: :catalog
   has_many :catalog_events, foreign_key: "vkey"
   

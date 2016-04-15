@@ -5,6 +5,11 @@ class Taxon < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "speckey"
 
+  alias_attribute :collection, :taxon_name
+  alias_attribute :rank, :level_text
+
+  validates :taxon_name, presence: true
+
   belongs_to :parent, class_name: "Taxon", foreign_key: "broader_key1"
 
   has_many :children, class_name: "Taxon", foreign_key: "broader_key1"
@@ -15,9 +20,6 @@ class Taxon < ActiveRecord::Base
 
   has_many :publications, through: :taxon_publications, source: :publication
   has_many :taxon_publications, foreign_key: "speckey"
-
-  alias_attribute :collection, :taxon_name
-  alias_attribute :rank, :level_text
 
   def self.search_by_prefix (prefix)
     self.where("lower(scientific_name) LIKE '#{prefix.downcase}%'")

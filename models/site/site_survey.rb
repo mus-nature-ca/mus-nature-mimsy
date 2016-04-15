@@ -5,5 +5,8 @@ class SiteSurvey < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "id"
 
+  # override decimal set
+  set_integer_columns :skey
+
   belongs_to :site, foreign_key: "skey"
 end

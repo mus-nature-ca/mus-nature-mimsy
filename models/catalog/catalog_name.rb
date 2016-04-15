@@ -5,7 +5,10 @@ class CatalogName < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "id"
 
-  belongs_to :catalog, foreign_key: "mkey"
+  # override decimal set
+  set_integer_columns :mkey
 
   alias_attribute :scientific_name, :item_name
+
+  belongs_to :catalog, foreign_key: "mkey"
 end

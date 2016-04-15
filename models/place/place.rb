@@ -5,6 +5,9 @@ class Place < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "placekey"
 
+  # override decimal set
+  set_integer_columns :broader_key
+
   belongs_to :parent, class_name: "Place", foreign_key: "broader_key"
 
   has_many :children, class_name: "Place", foreign_key: "broader_key"

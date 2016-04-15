@@ -5,9 +5,12 @@ class TaxonVariation < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "taxvarkey"
 
-  belongs_to :taxon, foreign_key: "speckey"
+  # override decimal set
+  set_integer_columns :speckey
 
   alias_attribute :scientific_name, :variation
+  
+  belongs_to :taxon, foreign_key: "speckey"
 
   def self.search_by_prefix (prefix)
     self.where("lower(variation) LIKE '#{prefix.downcase}%'")

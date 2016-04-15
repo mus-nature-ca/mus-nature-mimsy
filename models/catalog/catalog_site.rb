@@ -5,6 +5,9 @@ class CatalogSite < ActiveRecord::Base
   # specify primary key name
   self.primary_key = "authlinkkey"
 
+  # override decimal set
+  set_integer_columns :mkey, :skey
+
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :site, foreign_key: "skey"
 end
