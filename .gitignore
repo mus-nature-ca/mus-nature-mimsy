@@ -7,5 +7,3 @@ tags
 log/*.log
 config.yml
 public/files/*
-*.csv
-*.txt
