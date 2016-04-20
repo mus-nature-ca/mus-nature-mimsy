@@ -1171,8 +1171,6 @@ speckey,scientific_name
 1104342,xxAster sagittifolius
 1106365,xxHelianthus deserticola
 1103953,xxArctotis stoechadifolia var. grandis
-1103956,?Argyrautia
-1103957,?Argyrautia degeneri
 1103960,xxArgyroxiphium forbesii
 1103972,xxArnica alpina var. alpina
 1103973,xxArnica alpina var. angustifolia
@@ -1203,13 +1201,6 @@ speckey,scientific_name
 1111951,xxFestuca rubra var. multiflora
 1111952,xxFestuca rubra var. mutica
 1111954,xxFestuca rubra var. rubra f. prolifera
-1111691,?Elyleymus
-1111692,?Elyleymus aleuticus
-1111693,?Elyleymus aristatus
-1111694,?Elyleymus colvillensis
-1111695,?Elyleymus hirtiflorus
-1111696,?Elyleymus jamesensis
-1111698,?Elyleymus ungavensis
 1110637,xxRhynchospora cephalantha var. microcephala
 1111955,xxFestuca rubra subsp. densiuscula
 1110247,xxCladium jamaicense
@@ -1340,7 +1331,7 @@ speckey,scientific_name
 1109745,xxCarex granularis var. haleana
 1109747,xxCarex gravida var. gravida
 1109748,xxCarex gravida var. lunelliana
-1109485,xxCarex ?abitibiana
+1109485,xxCarex ×abitibiana
 1109489,xxCarex x absconditiformis
 1108521,xxVirgulus sericeus var. microphyllus
 1108522,xxVirgulus sericeus var. sericeus
@@ -3285,8 +3276,6 @@ speckey,scientific_name
 1146658,xxPolytrichastrum
 1146663,xxPogonatum
 1146667,xxPolytrichum
-1146339,cf. Scorpidium scorpioides
-1146340,cf. Scorpidium sp.
 1146341,xxArchidiaceae
 1146342,xxArchidium
 1146343,xxArchidium alternifolium
@@ -3338,7 +3327,6 @@ speckey,scientific_name
 1146681,xxAloina
 1146682,xxAloina rigida
 1146683,xxAnoectangium
-1146684,xxAnoectangium aestivum
 1146685,xxBarbula
 1146694,xxEucladium
 1146695,xxEucladium verticillatum
@@ -3378,7 +3366,6 @@ speckey,scientific_name
 1146270,xxDrepanocladus sp.
 1146271,xxHygrohypnum
 1146272,xxHygrohypnum sp.
-1146274,xxScorpidium scorpioides
 1146277,xxAmblystegium kochii
 1142530,xxCeanothus
 1142532,xxCeanothus sanguineus
@@ -3656,6 +3643,8 @@ speckey,scientific_name
 1146239,xxCalamostachys
 1146249,xxSphenophyllum sp.
 1142516,xxRhamnaceae
+1157307,Alvania moerchi
+1153752,Grammaria immersa
 1185543,xxElymus diversiglumis
 1149608,XXCostazia
 1149611,XXCostazia surcularis
@@ -3794,7 +3783,6 @@ speckey,scientific_name
 1147310,xxRiccia frostii
 1147311,xxAneuraceae
 1147312,xxRiccardia
-1147313,xxRiccardia pinguis
 1147314,xxCleveaceae
 1147315,xxPeltolepis
 1147316,xxPeltolepis quadrata
@@ -3886,8 +3874,6 @@ speckey,scientific_name
 1148508,xxFilicales
 1149592,XXCellepora surcularis
 1184545,xxAchnatherum richardsonii
-1185463,?Pascoleymus
-1185465,?Pascoleymus bowdenii
 1182554,xxCalliergonella cuspidata var. brevifolia
 1184387,xxArtemisia borealis v. latisecta
 1183820,phyllopeltula
@@ -3900,13 +3886,11 @@ speckey,scientific_name
 1169911,xxFestuca rubra subsp. richardsonii
 1167368,xxDryopteris austriaca var. dilatata
 1167378,***Anomiopus melancolicus
-1167391,?Elyleymus turneri
 1167430,xxPoa abbreviata subsp. pattersonii
 1169518,xxDasiphora fruticosa
 1182271,Prion
 1182273,Mammalian Prions
 1165737,xxWoodsia confusa
-1168972,xxScorpidium cossoni
 1166919,xxGoniophlebium triseriale
 1167222,xxArnica chamissonis var. incana
 1167223,xxArnica frigida
@@ -4202,7 +4186,6 @@ speckey,scientific_name
 1009650,xxAnisothecium crispum
 1085315,xxMentzelia hirsutissima var. stenophylla
 1086035,xxCardamine parviflora subsp. parviflora
-1111697,?Elyleymus uclueletensis
 1087694,xxGlaux
 1193947,xxCephalozia extensa
 1193977,xxCephalozia multiflora
@@ -4259,8 +4242,8 @@ speckey,scientific_name
 1132900,xxLactuca canadensis
 1132581,xxCentaurea americana
 1133321,xxTabernaemontana citrifolia
-1187351,xxAmelanchier bartramiana ? A. laevis
-1187369,xxCarex ?gardneri
+1187351,xxAmelanchier bartramiana × A. laevis
+1187369,xxCarex ×gardneri
 1137618,xxGuttiferae
 1135240,xxCastilleja
 1142856,xxRibes glandulosum
@@ -4293,4 +4276,7 @@ speckey,scientific_name
 1147676,xxBolbitis
 1194983,Porella%
 1196571,xxAdelolecia
+1195034,Brachythecium cirrosum
+1195036,Ptychostomum wrightii
 1196339,cirroteuthis mulleri
+1196727,XXXStrophitus undulatus
