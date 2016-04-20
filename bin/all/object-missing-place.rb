@@ -9,7 +9,7 @@ places = CatalogCollectionPlace.pluck(:mkey)
 residual = catalogs - places
 residual.each do |r|
   obj = Catalog.find(r)
-  if !obj.sites.empty? && obj.sites.first.site_name != "NO SITE"
+  if !obj.sites.empty? && obj.sites.first.site_id != "NO SITE"
     missing_arr << [obj.collection, obj.id_number]
   end
 end
