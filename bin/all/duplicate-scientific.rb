@@ -1,14 +1,13 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 require_relative '../../environment.rb'
-
-#Issue: https://trello.com/c/ZpAqA6HN
+include Sinatra::Mimsy::Helpers
 
 duplicates = Taxon.select("scientific_name, count(speckey)").group(:scientific_name).having("count(speckey) > 1")
 pbar = ProgressBar.new("DUPLICATES", duplicates.length)
 count = 0
 
-CSV.open(File.dirname(__FILE__) + "/duplicate-scientific.csv", 'w') do |csv|
+CSV.open(output_dir(__FILE__) + "/duplicate-scientific.csv", 'w') do |csv|
   csv << ["speckey", "scientific_name", "collection", "rank", "ancestors", "catalog_count"]
   duplicates.each do |t|
     count += 1

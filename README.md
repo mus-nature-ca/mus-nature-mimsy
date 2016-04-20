@@ -1,5 +1,5 @@
-MUS-NATURE-MIMSY
-================
+Canadian Museum of Nature Mimsy XG
+==================================
 Ruby/ActiveRecord framework to query the MIMSY XG / Oracle instance at the [Canadian Museum of Nature](http://nature.ca).
 
 Requirements
@@ -9,7 +9,7 @@ Requirements
 
 License
 -------
-See included LICENSE-en and LICENCE-fr
+See included [LICENSE-en](blob/master/LICENSE-en) and [LICENCE-fr]((blob/master/LICENCE-fr).
 
 Disclaimer
 ----------

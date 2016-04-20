@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 require_relative '../../environment.rb'
-
-#Issue: https://trello.com/c/ZpAqA6HN
+include Sinatra::Mimsy::Helpers
 
 @skeys = []
 count = 0
@@ -15,7 +14,7 @@ def add_record(csv, item)
   end
 end
 
-CSV.open(File.dirname(__FILE__) + "/coordinates.csv", 'w') do |csv|
+CSV.open(output_dir(__FILE__) + "/coordinates.csv", 'w') do |csv|
   csv << ["skey", "site_id", "start_latitude", "start_longitude", "start_latitude_dec", "start_longitude_dec"]
   Site.find_each do |item|
     count += 1

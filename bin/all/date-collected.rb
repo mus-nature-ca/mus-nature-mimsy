@@ -1,13 +1,12 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 require_relative '../../environment.rb'
-
-#Issue: https://trello.com/c/ZpAqA6HN
+include Sinatra::Mimsy::Helpers
 
 pbar = ProgressBar.new("DATE-COLLECTED", Catalog.count)
 count = 0
 
-CSV.open(File.dirname(__FILE__) + "/date-collected.csv", 'w') do |csv|
+CSV.open(output_dir(__FILE__) + "/date-collected.csv", 'w') do |csv|
   csv << ["mkey", "date_collected"]
   Catalog.find_each do |item|
     count += 1

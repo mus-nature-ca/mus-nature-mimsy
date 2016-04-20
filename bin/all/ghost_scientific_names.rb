@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 require_relative '../../environment.rb'
+include Sinatra::Mimsy::Helpers
 
 parser = ScientificNameParser.new
 
@@ -22,7 +23,7 @@ end
 
 missing_names = catalog_names.keys.uniq - taxon_names.uniq
 
-CSV.open(File.dirname(__FILE__) + "/ghost-names.csv", 'w') do |csv|
+CSV.open(output_dir(__FILE__) + "/ghost-names.csv", 'w') do |csv|
   csv << ["Collection", "ID Number", "Verbatim name", "Parsed name"]
   missing_names.each do |missing|
     mkey = catalog_names[missing][:mkey]

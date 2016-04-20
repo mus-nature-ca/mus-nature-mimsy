@@ -1,13 +1,12 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 require_relative '../../environment.rb'
-
-#Issue: https://trello.com/c/ZpAqA6HN
+include Sinatra::Mimsy::Helpers
 
 count = 0
 pbar = ProgressBar.new("HOMONYMY", Taxon.count)
 
-CSV.open(File.dirname(__FILE__) + "/homonymy.csv", 'w') do |csv|
+CSV.open(output_dir(__FILE__) + "/homonymy.csv", 'w') do |csv|
   csv << ["speckey", "scientific_name"]
   Taxon.find_each do |t|
     count += 1
