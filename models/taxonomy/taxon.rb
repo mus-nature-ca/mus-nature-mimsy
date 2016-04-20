@@ -5,6 +5,9 @@ class Taxon < ActiveRecord::Base
   # specify primary key name
   self.primary_key = :speckey
 
+  # override decimal set
+  set_integer_columns :speckey
+
   alias_attribute :collection, :taxon_name
   alias_attribute :rank, :level_text
 
