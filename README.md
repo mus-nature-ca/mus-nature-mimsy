@@ -1,10 +1,19 @@
 MUS-NATURE-MIMSY
 ================
-Ruby/Sinatra framework to use the MIMSY XG / Oracle instance at the Canadian Museum of Nature
+Ruby/ActiveRecord framework to query the MIMSY XG / Oracle instance at the [Canadian Museum of Nature](http://nature.ca).
 
 Requirements
 ------------
-ruby 2.3.0
+- ruby 2.3.0
+- [Mimsy XG](http://alm.axiell.com/sites/default/files/Mimsy.pdf)
+
+License
+-------
+See included LICENSE-en and LICENCE-fr
+
+Disclaimer
+----------
+This project is in incubation status, is incomplete, and is unstable. It has yet to be fully endorsed by the Canadian Museum of Nature and is unlikely to persist.
 
 Contact
 -------
