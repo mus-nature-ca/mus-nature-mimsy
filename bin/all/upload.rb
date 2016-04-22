@@ -29,11 +29,11 @@ begin
   optparse.parse!
   if options[:file]
     raise "File not found" unless File.exists?(options[:file])
-    csv_options = { col_sep: separator, 
-                    headers: true, 
-                    return_headers: true, 
-                    header_converters: :symbol, 
-                    converters: :all }
+    csv_options = { :col_sep => separator, 
+                    :headers => :first_row, 
+                    :return_headers => false, 
+                    :header_converters => :symbol, 
+                    :converters => :all }
     CSV.foreach(options[:file], csv_options) do |row|
       puts row.inspect
     end
