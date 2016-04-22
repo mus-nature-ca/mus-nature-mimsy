@@ -24,9 +24,9 @@ CSV.open(output_dir(__FILE__) + "/xx-deletions.csv", 'w') do |csv|
         catalog_taxa = catalog.taxa.map(&:speckey)
         if catalog.collection == collection && (catalog_taxa & [valid_speckey, taxon.speckey]).present?
           ct = CatalogTaxon.where(speckey: taxon.speckey, mkey: catalog.mkey)
-          csv << [catalog.id_number, taxon.speckey, taxon.scientific_name]
           #ct.first.delete
-          candidate_deletions.add(taxon.speckey)
+          csv << [catalog.id_number, taxon.speckey, taxon.scientific_name]
+          candidate_deletions << taxon.speckey
         end
       end
     end
@@ -38,7 +38,7 @@ pbar.finish
 
 candidate_deletions.each do |candidate|
   taxon = Taxon.find(candidate)
-  if taxon.leaf?
-    taxon.destroy
+  if taxon.leaf? && taxon.catalogs.empty?
+    #taxon.destroy
   end
 end

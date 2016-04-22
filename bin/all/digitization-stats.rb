@@ -5,7 +5,7 @@ require_relative '../../environment.rb'
 options = {}
 
 optparse = OptionParser.new do |opts|
-  opts.banner = "Usage: digitization_stats.rb [options]"
+  opts.banner = "Usage: digitization-stats.rb [options]"
 
   opts.on("-h", "--help", "Prints this help") do
     puts opts
