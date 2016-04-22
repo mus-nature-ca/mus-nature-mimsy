@@ -9,7 +9,7 @@ Requirements
 
 License
 -------
-See included [LICENSE-en](blob/master/LICENSE-en) and [LICENCE-fr](blob/master/LICENCE-fr).
+See included [LICENSE-en](LICENSE-en) and [LICENCE-fr](LICENCE-fr).
 
 Disclaimer
 ----------
