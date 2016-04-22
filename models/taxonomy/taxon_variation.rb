@@ -6,7 +6,7 @@ class TaxonVariation < ActiveRecord::Base
   self.primary_key = :taxvarkey
 
   # override decimal set
-  set_integer_columns :speckey
+  set_integer_columns :taxvarkey, :speckey
 
   alias_attribute :scientific_name, :variation
   
