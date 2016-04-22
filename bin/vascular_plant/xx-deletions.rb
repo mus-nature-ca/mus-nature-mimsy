@@ -11,9 +11,6 @@ count = 0
 
 candidate_deletions = Set.new
 
-#date = Date.parse "2016-04-20"
-#if taxon.update_date.strftime("%F") == date.strftime("%F") && taxon.updated_by == "JDOUBT"
-
 CSV.open(output_dir(__FILE__) + "/xx-obj-deletions.csv", 'w') do |csv|
   csv << ["ID Number", "xx speckey", "xx Scientific Name"]
   xxtaxa.each do |xxtaxon|
