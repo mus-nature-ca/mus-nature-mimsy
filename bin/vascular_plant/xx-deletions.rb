@@ -14,19 +14,30 @@ candidate_deletions = Set.new
 #date = Date.parse "2016-04-20"
 #if taxon.update_date.strftime("%F") == date.strftime("%F") && taxon.updated_by == "JDOUBT"
 
-CSV.open(output_dir(__FILE__) + "/xx-deletions.csv", 'w') do |csv|
-  csv << ["ID Number", "xx-speckey", "xx-name"]
-  xxtaxa.each do |taxon|
-    similar = Taxon.find_by_scientific_name(taxon.scientific_name[2..-1])
+CSV.open(output_dir(__FILE__) + "/xx-obj-deletions.csv", 'w') do |csv|
+  csv << ["ID Number", "xx speckey", "xx Scientific Name"]
+  xxtaxa.each do |xxtaxon|
+    similar = Taxon.find_by_scientific_name(xxtaxon.scientific_name[2..-1])
     if similar
       valid_speckey = similar.speckey
-      taxon.catalogs.each do |catalog|
-        catalog_taxa = catalog.taxa.map(&:speckey)
-        if catalog.collection == collection && (catalog_taxa & [valid_speckey, taxon.speckey]).present?
-          ct = CatalogTaxon.where(speckey: taxon.speckey, mkey: catalog.mkey)
-          #ct.first.delete
-          csv << [catalog.id_number, taxon.speckey, taxon.scientific_name]
-          candidate_deletions << taxon.speckey
+      xxtaxon.catalogs.each do |catalog|
+        if catalog.collection == collection
+          ct = CatalogTaxon.where(speckey: valid_speckey, mkey: catalog.mkey).first
+          xxct = CatalogTaxon.where(speckey: xxtaxon.speckey, mkey: catalog.mkey).first
+          
+          if ct && xxct
+            if ct.attributor.nil? && xxct.attributor
+              ct.attributor = xxct.attributor
+            end
+            if ct.attrib_date.nil? && xxct.attrib_date
+              ct.attrib_date = xxct.attrib_date
+            end
+            ct.save if ct.changed?
+            xxct.delete
+            csv << [catalog.id_number, xxtaxon.speckey, xxtaxon.scientific_name]
+            candidate_deletions << xxtaxon.speckey
+          end
+
         end
       end
     end
@@ -36,9 +47,13 @@ CSV.open(output_dir(__FILE__) + "/xx-deletions.csv", 'w') do |csv|
 end
 pbar.finish
 
-candidate_deletions.each do |candidate|
-  taxon = Taxon.find(candidate)
-  if taxon.leaf? && taxon.catalogs.empty?
-    #taxon.destroy
+CSV.open(output_dir(__FILE__) + "/xx-taxa-deletions.csv", 'w') do |csv|
+  csv << ["speckey", "Scientific Name", "Parent", "Level Name", "Author/Date"]
+  candidate_deletions.each do |candidate|
+    xxtaxon = Taxon.find(candidate)
+    if xxtaxon.leaf? && xxtaxon.catalogs.empty?
+      csv << [xxtaxon.speckey, xxtaxon.scientific_name, xxtaxon.broader_key1, xxtaxon.level_text, xxtaxon.source]
+      xxtaxon.destroy
+    end
   end
 end

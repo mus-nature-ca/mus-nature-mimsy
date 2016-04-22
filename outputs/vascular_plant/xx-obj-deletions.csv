@@ -1,4 +1,4 @@
-ID Number,xx-speckey,xx-name
+ID Number,xx speckey,xx Scientific Name
 CAN 438240,500146,xxIsoetes
 CAN 437801,500146,xxIsoetes
 CAN 439772,500148,xxEquisetum
@@ -86,8 +86,6 @@ CAN 547998,500179,xxPotentilla argentea
 CAN 526996,500179,xxPotentilla argentea
 CAN 530363,500179,xxPotentilla argentea
 CAN 540944,500179,xxPotentilla argentea
-CAN 578426,500196,xxStellaria graminea
-CAN 578430,500196,xxStellaria graminea
 CAN 319094,500196,xxStellaria graminea
 CAN 439022,500196,xxStellaria graminea
 CAN 452371,500196,xxStellaria graminea
@@ -113,7 +111,6 @@ CAN 527409,500196,xxStellaria graminea
 CAN 521346,500196,xxStellaria graminea
 CAN 530298,500196,xxStellaria graminea
 CAN 526420,500196,xxStellaria graminea
-CAN 578438,500565,xxAnemone virginiana
 CAN 452718,500565,xxAnemone virginiana
 CAN 451270,500565,xxAnemone virginiana
 CAN 416436,500565,xxAnemone virginiana
@@ -144,7 +141,6 @@ CAN 500822,500575,xxLobelia spicata
 CAN 501645,500575,xxLobelia spicata
 CAN 542782,500575,xxLobelia spicata
 CAN 549351,500575,xxLobelia spicata
-CAN 578412,500584,xxGalium trifidum
 CAN 342651,500584,xxGalium trifidum
 CAN 410023,500584,xxGalium trifidum
 CAN 415231,500584,xxGalium trifidum
@@ -221,7 +217,6 @@ CAN 544010,500584,xxGalium trifidum
 CAN 542210,500584,xxGalium trifidum
 CAN 542245,500584,xxGalium trifidum
 CAN 551430,500584,xxGalium trifidum
-CAN 578415,500586,xxArenaria serpyllifolia
 CAN 336684,500586,xxArenaria serpyllifolia
 CAN 435652,500586,xxArenaria serpyllifolia
 CAN 451262,500586,xxArenaria serpyllifolia
@@ -243,9 +238,6 @@ CAN 527229,500586,xxArenaria serpyllifolia
 CAN 530509,500586,xxArenaria serpyllifolia
 CAN 551750,500586,xxArenaria serpyllifolia
 CAN 551350,500586,xxArenaria serpyllifolia
-CAN 508914,500586,xxArenaria serpyllifolia
-CAN 459720,500586,xxArenaria serpyllifolia
-CAN 54024,500586,xxArenaria serpyllifolia
 CAN 434497,500588,xxCampanula aparinoides
 CAN 441044,500588,xxCampanula aparinoides
 CAN 436590,500588,xxCampanula aparinoides
@@ -283,34 +275,6 @@ CAN 542945,500588,xxCampanula aparinoides
 CAN 544096,500588,xxCampanula aparinoides
 CAN 544032,500588,xxCampanula aparinoides
 CAN 544038,500588,xxCampanula aparinoides
-CAN 266035,501036,xxPinus albicaulis
-CAN 6369,501036,xxPinus albicaulis
-CAN 243235,501036,xxPinus albicaulis
-CAN 6368,501036,xxPinus albicaulis
-CAN 568845,501036,xxPinus albicaulis
-CAN 568850,501036,xxPinus albicaulis
-CAN 568840,501036,xxPinus albicaulis
-CAN 568846,501036,xxPinus albicaulis
-CAN 568841,501036,xxPinus albicaulis
-CAN 568844,501036,xxPinus albicaulis
-CAN 451594,502947,xxPapaver lapponicum subsp. occidentale
-CAN 498288,502947,xxPapaver lapponicum subsp. occidentale
-CAN 453811,502947,xxPapaver lapponicum subsp. occidentale
-CAN 485965,502947,xxPapaver lapponicum subsp. occidentale
-CAN 465802,502947,xxPapaver lapponicum subsp. occidentale
-CAN 486191,502947,xxPapaver lapponicum subsp. occidentale
-CAN 486202,502947,xxPapaver lapponicum subsp. occidentale
-CAN 523651,502947,xxPapaver lapponicum subsp. occidentale
-CAN 486316,502947,xxPapaver lapponicum subsp. occidentale
-CAN 500219,502947,xxPapaver lapponicum subsp. occidentale
-CAN 500270,502947,xxPapaver lapponicum subsp. occidentale
-CAN 533236,502947,xxPapaver lapponicum subsp. occidentale
-CAN 534005,502947,xxPapaver lapponicum subsp. occidentale
-CAN 534117,502947,xxPapaver lapponicum subsp. occidentale
-CAN 526664,502947,xxPapaver lapponicum subsp. occidentale
-CAN 550859,502947,xxPapaver lapponicum subsp. occidentale
-CAN 550705,502950,xxPapaver macounii
-CAN 533926,502950,xxPapaver macounii
 CAN 465666,503185,xxAndrosace chamaejasme
 CAN 439856,1078005,xxCryptogramma stelleri
 CAN 436696,1078005,xxCryptogramma stelleri
@@ -327,7 +291,6 @@ CAN 502684,1078005,xxCryptogramma stelleri
 CAN 475584,1078005,xxCryptogramma stelleri
 CAN 530327,1078005,xxCryptogramma stelleri
 CAN 526909,1078005,xxCryptogramma stelleri
-CAN 2354,1078005,xxCryptogramma stelleri
 CAN 410055,1079059,xxSelaginella rupestris
 CAN 5441,1079059,xxSelaginella rupestris
 CAN 25737,1079059,xxSelaginella rupestris
@@ -427,12 +390,6 @@ CAN 551725,1079127,xxJuniperus virginiana
 CAN 457171,1079204,xxPinus contorta
 CAN 525619,1079204,xxPinus contorta
 CAN 523978,1079204,xxPinus contorta
-CAN 568906,1079204,xxPinus contorta
-CAN 568902,1079204,xxPinus contorta
-CAN 555316,1079204,xxPinus contorta
-CAN 569049,1079204,xxPinus contorta
-CAN 569048,1079204,xxPinus contorta
-CAN 569046,1079204,xxPinus contorta
 CAN 89525,1078930,xxOsmunda cinnamomea
 CAN 439632,1078930,xxOsmunda cinnamomea
 CAN 452603,1078930,xxOsmunda cinnamomea
@@ -511,12 +468,6 @@ CAN 530454,1078935,xxOsmunda regalis
 CAN 530495,1078935,xxOsmunda regalis
 CAN 530139,1078935,xxOsmunda regalis
 CAN 542290,1078935,xxOsmunda regalis
-CAN 303467,1080477,xxPapaver lapponicum subsp. occidentale
-CAN 451594,1080477,xxPapaver lapponicum subsp. occidentale
-CAN 498288,1080477,xxPapaver lapponicum subsp. occidentale
-CAN 486202,1080477,xxPapaver lapponicum subsp. occidentale
-CAN 500270,1080477,xxPapaver lapponicum subsp. occidentale
-CAN 500219,1080477,xxPapaver lapponicum subsp. occidentale
 CAN 5847,1079106,xxJuniperus communis
 CAN 259043,1079106,xxJuniperus communis
 CAN 259044,1079106,xxJuniperus communis
@@ -582,119 +533,6 @@ CAN 524646,1079106,xxJuniperus communis
 CAN 542751,1079106,xxJuniperus communis
 CAN 542682,1079106,xxJuniperus communis
 CAN 542683,1079106,xxJuniperus communis
-CAN 411008,1083101,xxStellaria longipes subsp. longipes
-CAN 411344,1083101,xxStellaria longipes subsp. longipes
-CAN 410441,1083101,xxStellaria longipes subsp. longipes
-CAN 410557,1083101,xxStellaria longipes subsp. longipes
-CAN 51389,1083101,xxStellaria longipes subsp. longipes
-CAN 51390,1083101,xxStellaria longipes subsp. longipes
-CAN 51317,1083101,xxStellaria longipes subsp. longipes
-CAN 372313,1083101,xxStellaria longipes subsp. longipes
-CAN 51892,1083101,xxStellaria longipes subsp. longipes
-CAN 277620,1083101,xxStellaria longipes subsp. longipes
-CAN 263965,1083101,xxStellaria longipes subsp. longipes
-CAN 51306b,1083101,xxStellaria longipes subsp. longipes
-CAN 583599,1083101,xxStellaria longipes subsp. longipes
-CAN 583600,1083101,xxStellaria longipes subsp. longipes
-CAN 51106,1083101,xxStellaria longipes subsp. longipes
-CAN 51080,1083101,xxStellaria longipes subsp. longipes
-CAN 51094,1083101,xxStellaria longipes subsp. longipes
-CAN 51095,1083101,xxStellaria longipes subsp. longipes
-CAN 51083,1083101,xxStellaria longipes subsp. longipes
-CAN 234233,1083101,xxStellaria longipes subsp. longipes
-CAN 234453,1083101,xxStellaria longipes subsp. longipes
-CAN 234230,1083101,xxStellaria longipes subsp. longipes
-CAN 234231,1083101,xxStellaria longipes subsp. longipes
-CAN 234232,1083101,xxStellaria longipes subsp. longipes
-CAN 508840,1083101,xxStellaria longipes subsp. longipes
-CAN 51200,1083101,xxStellaria longipes subsp. longipes
-CAN 51292,1083101,xxStellaria longipes subsp. longipes
-CAN 51157,1083101,xxStellaria longipes subsp. longipes
-CAN 255668,1083101,xxStellaria longipes subsp. longipes
-CAN 234111,1083101,xxStellaria longipes subsp. longipes
-CAN 312051,1083101,xxStellaria longipes subsp. longipes
-CAN 51876,1083101,xxStellaria longipes subsp. longipes
-CAN 261576,1083101,xxStellaria longipes subsp. longipes
-CAN 246421,1083101,xxStellaria longipes subsp. longipes
-CAN 233791,1083101,xxStellaria longipes subsp. longipes
-CAN 233792,1083101,xxStellaria longipes subsp. longipes
-CAN 220211,1083101,xxStellaria longipes subsp. longipes
-CAN 220212,1083101,xxStellaria longipes subsp. longipes
-CAN 220210,1083101,xxStellaria longipes subsp. longipes
-CAN 51006,1083101,xxStellaria longipes subsp. longipes
-CAN 51212,1083101,xxStellaria longipes subsp. longipes
-CAN 51004,1083101,xxStellaria longipes subsp. longipes
-CAN 51005,1083101,xxStellaria longipes subsp. longipes
-CAN 394375,1083101,xxStellaria longipes subsp. longipes
-CAN 51187,1083101,xxStellaria longipes subsp. longipes
-CAN 229197,1083101,xxStellaria longipes subsp. longipes
-CAN 219661,1083101,xxStellaria longipes subsp. longipes
-CAN 51186,1083101,xxStellaria longipes subsp. longipes
-CAN 51185,1083101,xxStellaria longipes subsp. longipes
-CAN 226077,1083101,xxStellaria longipes subsp. longipes
-CAN 312047,1083101,xxStellaria longipes subsp. longipes
-CAN 312048,1083101,xxStellaria longipes subsp. longipes
-CAN 295874,1083101,xxStellaria longipes subsp. longipes
-CAN 267622,1083101,xxStellaria longipes subsp. longipes
-CAN 267614,1083101,xxStellaria longipes subsp. longipes
-CAN 267615,1083101,xxStellaria longipes subsp. longipes
-CAN 410018,1083915,xxRumex occidentalis
-CAN 411316,1083915,xxRumex occidentalis
-CAN 411066,1083915,xxRumex occidentalis
-CAN 429754,1083915,xxRumex occidentalis
-CAN 525652,1083915,xxRumex occidentalis
-CAN 525653,1083915,xxRumex occidentalis
-CAN 524210,1083915,xxRumex occidentalis
-CAN 543199,1083915,xxRumex occidentalis
-CAN 543200,1083915,xxRumex occidentalis
-CAN 43400,1083915,xxRumex occidentalis
-CAN 262180,1083915,xxRumex occidentalis
-CAN 262181,1083915,xxRumex occidentalis
-CAN 43353,1083915,xxRumex occidentalis
-CAN 534506,1083947,xxRumex triangulivalvis
-CAN 530408,1083947,xxRumex triangulivalvis
-CAN 534607,1083947,xxRumex triangulivalvis
-CAN 527673,1083947,xxRumex triangulivalvis
-CAN 527703,1083947,xxRumex triangulivalvis
-CAN 415098,1087396,xxOrthilia secunda subsp. obtusata
-CAN 415233,1087396,xxOrthilia secunda subsp. obtusata
-CAN 440872,1087396,xxOrthilia secunda subsp. obtusata
-CAN 132108,1087397,xxOrthilia secunda subsp. secunda
-CAN 37528,1087397,xxOrthilia secunda subsp. secunda
-CAN 439657,1087397,xxOrthilia secunda subsp. secunda
-CAN 440186,1087397,xxOrthilia secunda subsp. secunda
-CAN 440137,1087397,xxOrthilia secunda subsp. secunda
-CAN 439669,1087397,xxOrthilia secunda subsp. secunda
-CAN 439605,1087397,xxOrthilia secunda subsp. secunda
-CAN 439908,1087397,xxOrthilia secunda subsp. secunda
-CAN 440180,1087397,xxOrthilia secunda subsp. secunda
-CAN 319514,1087397,xxOrthilia secunda subsp. secunda
-CAN 319747,1087397,xxOrthilia secunda subsp. secunda
-CAN 416411,1087397,xxOrthilia secunda subsp. secunda
-CAN 441020,1087397,xxOrthilia secunda subsp. secunda
-CAN 463094,1087397,xxOrthilia secunda subsp. secunda
-CAN 431054,1087397,xxOrthilia secunda subsp. secunda
-CAN 458378,1087397,xxOrthilia secunda subsp. secunda
-CAN 457911,1087397,xxOrthilia secunda subsp. secunda
-CAN 457910,1087397,xxOrthilia secunda subsp. secunda
-CAN 457909,1087397,xxOrthilia secunda subsp. secunda
-CAN 457908,1087397,xxOrthilia secunda subsp. secunda
-CAN 435513,1087397,xxOrthilia secunda subsp. secunda
-CAN 452044,1087397,xxOrthilia secunda subsp. secunda
-CAN 440006,1087397,xxOrthilia secunda subsp. secunda
-CAN 439983,1087397,xxOrthilia secunda subsp. secunda
-CAN 439536,1087397,xxOrthilia secunda subsp. secunda
-CAN 439889,1087397,xxOrthilia secunda subsp. secunda
-CAN 476354,1087397,xxOrthilia secunda subsp. secunda
-CAN 470450,1087397,xxOrthilia secunda subsp. secunda
-CAN 477864,1087397,xxOrthilia secunda subsp. secunda
-CAN 465556,1087397,xxOrthilia secunda subsp. secunda
-CAN 465844,1087397,xxOrthilia secunda subsp. secunda
-CAN 470342,1087397,xxOrthilia secunda subsp. secunda
-CAN 486480,1087397,xxOrthilia secunda subsp. secunda
-CAN 486501,1087397,xxOrthilia secunda subsp. secunda
-CAN 477907,1087397,xxOrthilia secunda subsp. secunda
-CAN 485656,1087397,xxOrthilia secunda subsp. secunda
 CAN 464539,1091941,xxOxytropis varians
 CAN 464425,1091941,xxOxytropis varians
 CAN 464437,1091941,xxOxytropis varians
@@ -705,13 +543,6 @@ CAN 535858,1091941,xxOxytropis varians
 CAN 476221,1100255,xxPlantago media
 CAN 542764,1100255,xxPlantago media
 CAN 542767,1100255,xxPlantago media
-CAN 104050,1105796,xxErigeron trifidus
-CAN 441166,1105796,xxErigeron trifidus
-CAN 447385,1111651,xxDupontia fisheri subsp. psilosantha
-CAN 518314,1111651,xxDupontia fisheri subsp. psilosantha
-CAN 534282,1111651,xxDupontia fisheri subsp. psilosantha
-CAN 524390,1111651,xxDupontia fisheri subsp. psilosantha
-CAN 545756,1111651,xxDupontia fisheri subsp. psilosantha
 CAN 482746,1110544,xxEriophorum triste
 CAN 496781,1110544,xxEriophorum triste
 CAN 534104,1110544,xxEriophorum triste
@@ -1159,9 +990,6 @@ CAN 535622,1131362,xxLuzula confusa
 CAN 533916,1131362,xxLuzula confusa
 CAN 523715,1131362,xxLuzula confusa
 CAN 528675,1131362,xxLuzula confusa
-CAN 582824,1131362,xxLuzula confusa
-CAN 582865,1131362,xxLuzula confusa
-CAN 582658,1131362,xxLuzula confusa
 CAN 29834,1130299,xxSymplocarpus foetidus
 CAN 452669,1130299,xxSymplocarpus foetidus
 CAN 445864,1130299,xxSymplocarpus foetidus
@@ -1625,7 +1453,6 @@ CAN 527517,1132936,xxCampanula rapunculoides
 CAN 62068,1136022,xxDraba
 CAN 255057,1136022,xxDraba
 CAN 236115,1136022,xxDraba
-CAN 452364,1136022,xxDraba
 CAN 464402,1136022,xxDraba
 CAN 464403,1136022,xxDraba
 CAN 464438,1136022,xxDraba
@@ -1634,13 +1461,11 @@ CAN 464478,1136022,xxDraba
 CAN 464551,1136022,xxDraba
 CAN 454070,1136022,xxDraba
 CAN 466251,1136022,xxDraba
-CAN 502434,1136022,xxDraba
 CAN 535358,1136022,xxDraba
 CAN 535363,1136022,xxDraba
 CAN 527221,1136022,xxDraba
 CAN 533284,1136022,xxDraba
 CAN 532966,1136022,xxDraba
-CAN 464531,1136023,xxDraba alpina
 CAN 454057,1136023,xxDraba alpina
 CAN 451338,1136023,xxDraba alpina
 CAN 451341,1136023,xxDraba alpina
@@ -1656,7 +1481,6 @@ CAN 518137,1136023,xxDraba alpina
 CAN 486503,1136023,xxDraba alpina
 CAN 486329,1136023,xxDraba alpina
 CAN 486419,1136023,xxDraba alpina
-CAN 526650,1136023,xxDraba alpina
 CAN 518366,1136023,xxDraba alpina
 CAN 527886,1136023,xxDraba alpina
 CAN 550819,1136023,xxDraba alpina
@@ -1828,7 +1652,6 @@ CAN 533013,1135859,xxOxyria digyna
 CAN 526718,1135859,xxOxyria digyna
 CAN 550686,1135859,xxOxyria digyna
 CAN 550743,1135859,xxOxyria digyna
-CAN 582743,1135859,xxOxyria digyna
 CAN 439214,1137475,xxPopulus deltoides
 CAN 451070,1137475,xxPopulus deltoides
 CAN 482456,1137475,xxPopulus deltoides
@@ -2071,7 +1894,6 @@ CAN 485541,1135318,xxPedicularis groenlandica
 CAN 476281,1135318,xxPedicularis groenlandica
 CAN 476282,1135318,xxPedicularis groenlandica
 CAN 476283,1135318,xxPedicularis groenlandica
-CAN 476501,1135318,xxPedicularis groenlandica
 CAN 492878,1135318,xxPedicularis groenlandica
 CAN 446629,1135318,xxPedicularis groenlandica
 CAN 540126,1135318,xxPedicularis groenlandica
@@ -2142,7 +1964,6 @@ CAN 446625,1135322,xxPedicularis lapponica
 CAN 446532,1135322,xxPedicularis lapponica
 CAN 486356,1135322,xxPedicularis lapponica
 CAN 502508,1135322,xxPedicularis lapponica
-CAN 486292,1135322,xxPedicularis lapponica
 CAN 541753,1135322,xxPedicularis lapponica
 CAN 447637,1135323,xxPedicularis parviflora
 CAN 447501,1135323,xxPedicularis parviflora
@@ -2208,14 +2029,12 @@ CAN 484860,1135242,xxCastilleja elegans
 CAN 485216,1135242,xxCastilleja elegans
 CAN 485230,1135242,xxCastilleja elegans
 CAN 518513,1135242,xxCastilleja elegans
-CAN 486510,1135242,xxCastilleja elegans
 CAN 503624,1135242,xxCastilleja elegans
 CAN 484966,1135242,xxCastilleja elegans
 CAN 485053,1135242,xxCastilleja elegans
 CAN 502506,1135242,xxCastilleja elegans
 CAN 535808,1135242,xxCastilleja elegans
 CAN 535966,1135242,xxCastilleja elegans
-CAN 534040,1135242,xxCastilleja elegans
 CAN 534050,1135242,xxCastilleja elegans
 CAN 535455,1135242,xxCastilleja elegans
 CAN 534228,1135242,xxCastilleja elegans
@@ -2371,7 +2190,6 @@ CAN 550708,1133037,xxLinnaea borealis
 CAN 542412,1133037,xxLinnaea borealis
 CAN 542557,1133037,xxLinnaea borealis
 CAN 542203,1133037,xxLinnaea borealis
-CAN 582655,1133037,xxLinnaea borealis
 CAN 1553,1133039,xxLonicera
 CAN 451799,1133039,xxLonicera
 CAN 417867,1133045,xxSymphoricarpos albus
@@ -2441,7 +2259,6 @@ CAN 527317,1133045,xxSymphoricarpos albus
 CAN 526991,1133045,xxSymphoricarpos albus
 CAN 530649,1133045,xxSymphoricarpos albus
 CAN 529952,1133045,xxSymphoricarpos albus
-CAN 121696,1133046,xxSymphoricarpos occidentalis
 CAN 121658,1133046,xxSymphoricarpos occidentalis
 CAN 227629,1133046,xxSymphoricarpos occidentalis
 CAN 121660,1133046,xxSymphoricarpos occidentalis
@@ -3126,7 +2943,6 @@ CAN 325601,1137501,xxSalix eriocephala
 CAN 325600,1137501,xxSalix eriocephala
 CAN 394688,1137501,xxSalix eriocephala
 CAN 371254,1137501,xxSalix eriocephala
-CAN 371255,1137501,xxSalix eriocephala
 CAN 371256,1137501,xxSalix eriocephala
 CAN 371257,1137501,xxSalix eriocephala
 CAN 371258,1137501,xxSalix eriocephala
@@ -7195,7 +7011,6 @@ CAN 465157,1131061,xxEriophorum
 CAN 410453,1131062,xxEriophorum angustifolium
 CAN 410735,1131062,xxEriophorum angustifolium
 CAN 451602,1131062,xxEriophorum angustifolium
-CAN 453905,1131062,xxEriophorum angustifolium
 CAN 455479,1131062,xxEriophorum angustifolium
 CAN 439715,1131062,xxEriophorum angustifolium
 CAN 440177,1131062,xxEriophorum angustifolium
@@ -7209,9 +7024,7 @@ CAN 452205,1131062,xxEriophorum angustifolium
 CAN 452046,1131062,xxEriophorum angustifolium
 CAN 436063,1131062,xxEriophorum angustifolium
 CAN 436023,1131062,xxEriophorum angustifolium
-CAN 464488,1131062,xxEriophorum angustifolium
 CAN 440108,1131062,xxEriophorum angustifolium
-CAN 464295,1131062,xxEriophorum angustifolium
 CAN 429460,1131062,xxEriophorum angustifolium
 CAN 429439,1131062,xxEriophorum angustifolium
 CAN 492831,1131062,xxEriophorum angustifolium
@@ -7221,44 +7034,17 @@ CAN 434456,1131062,xxEriophorum angustifolium
 CAN 430918,1131062,xxEriophorum angustifolium
 CAN 450175,1131062,xxEriophorum angustifolium
 CAN 457570,1131062,xxEriophorum angustifolium
-CAN 466283,1131062,xxEriophorum angustifolium
 CAN 446530,1131062,xxEriophorum angustifolium
 CAN 465576,1131062,xxEriophorum angustifolium
 CAN 518072,1131062,xxEriophorum angustifolium
-CAN 518154,1131062,xxEriophorum angustifolium
-CAN 518255,1131062,xxEriophorum angustifolium
-CAN 518324,1131062,xxEriophorum angustifolium
-CAN 517932,1131062,xxEriophorum angustifolium
-CAN 517934,1131062,xxEriophorum angustifolium
-CAN 517935,1131062,xxEriophorum angustifolium
 CAN 503590,1131062,xxEriophorum angustifolium
 CAN 503622,1131062,xxEriophorum angustifolium
-CAN 489193,1131062,xxEriophorum angustifolium
-CAN 489224,1131062,xxEriophorum angustifolium
-CAN 476044,1131062,xxEriophorum angustifolium
-CAN 502510,1131062,xxEriophorum angustifolium
 CAN 487435,1131062,xxEriophorum angustifolium
-CAN 486628,1131062,xxEriophorum angustifolium
-CAN 535895,1131062,xxEriophorum angustifolium
-CAN 535899,1131062,xxEriophorum angustifolium
-CAN 535867,1131062,xxEriophorum angustifolium
-CAN 535871,1131062,xxEriophorum angustifolium
-CAN 535878,1131062,xxEriophorum angustifolium
-CAN 535886,1131062,xxEriophorum angustifolium
-CAN 535891,1131062,xxEriophorum angustifolium
 CAN 526617,1131062,xxEriophorum angustifolium
-CAN 535435,1131062,xxEriophorum angustifolium
 CAN 533906,1131062,xxEriophorum angustifolium
-CAN 523671,1131062,xxEriophorum angustifolium
-CAN 523712,1131062,xxEriophorum angustifolium
 CAN 524326,1131062,xxEriophorum angustifolium
-CAN 524327,1131062,xxEriophorum angustifolium
-CAN 522658,1131062,xxEriophorum angustifolium
-CAN 518063,1131062,xxEriophorum angustifolium
-CAN 527796,1131062,xxEriophorum angustifolium
 CAN 542746,1131062,xxEriophorum angustifolium
 CAN 540927,1131062,xxEriophorum angustifolium
-CAN 535492,1131062,xxEriophorum angustifolium
 CAN 430867,1131064,xxEriophorum russeolum
 CAN 448898,1131064,xxEriophorum russeolum
 CAN 492830,1131064,xxEriophorum russeolum
@@ -7638,7 +7424,6 @@ CAN 451332,1143950,xxAstragalus alpinus
 CAN 464337,1143950,xxAstragalus alpinus
 CAN 476347,1143950,xxAstragalus alpinus
 CAN 484840,1143950,xxAstragalus alpinus
-CAN 484870,1143950,xxAstragalus alpinus
 CAN 485098,1143950,xxAstragalus alpinus
 CAN 486093,1143950,xxAstragalus alpinus
 CAN 496132,1143950,xxAstragalus alpinus
@@ -7947,7 +7732,6 @@ CAN 543242,1140752,xxGeranium bicknellii
 CAN 534565,1140752,xxGeranium bicknellii
 CAN 542959,1140752,xxGeranium bicknellii
 CAN 551753,1140752,xxGeranium bicknellii
-CAN 582620,1140752,xxGeranium bicknellii
 CAN 498256,1140755,xxGeranium erianthum
 CAN 363671,1138711,xxMyrica gale
 CAN 415064,1138711,xxMyrica gale
@@ -8226,7 +8010,6 @@ CAN 530975,1139757,xxCaltha palustris
 CAN 530096,1139757,xxCaltha palustris
 CAN 527760,1139757,xxCaltha palustris
 CAN 542126,1139757,xxCaltha palustris
-CAN 550858,1139757,xxCaltha palustris
 CAN 542633,1139757,xxCaltha palustris
 CAN 439967,1139814,xxRanunculus reptans
 CAN 457824,1139814,xxRanunculus reptans
@@ -8347,7 +8130,6 @@ CAN 414553,1135604,xxStellaria humifusa
 CAN 486337,1135604,xxStellaria humifusa
 CAN 536336,1135604,xxStellaria humifusa
 CAN 549435,1135604,xxStellaria humifusa
-CAN 582782,1135604,xxStellaria humifusa
 CAN 452593,1135613,xxAtriplex
 CAN 474797,1135613,xxAtriplex
 CAN 474802,1135613,xxAtriplex
@@ -9037,7 +8819,6 @@ CAN 450991,1137529,xxSalix purpurea
 CAN 456354,1137529,xxSalix purpurea
 CAN 483917,1137529,xxSalix purpurea
 CAN 535411,1137529,xxSalix purpurea
-CAN 535419,1137529,xxSalix purpurea
 CAN 535420,1137529,xxSalix purpurea
 CAN 532095,1137529,xxSalix purpurea
 CAN 532107,1137529,xxSalix purpurea
@@ -11130,21 +10911,13 @@ CAN 547933,1144386,xxRosa blanda
 CAN 551410,1144386,xxRosa blanda
 CAN 542649,1144386,xxRosa blanda
 CAN 534541,1144386,xxRosa blanda
-CAN 118549,1144390,xxRubus
-CAN 70831,1144390,xxRubus
-CAN 118538,1144390,xxRubus
-CAN 70681,1144390,xxRubus
-CAN 70680,1144390,xxRubus
-CAN 118527,1144390,xxRubus
 CAN 445930,1144390,xxRubus
-CAN 70477,1144392,xxRubus arcticus
 CAN 70488,1144392,xxRubus arcticus
 CAN 70487,1144392,xxRubus arcticus
 CAN 70486,1144392,xxRubus arcticus
 CAN 70485,1144392,xxRubus arcticus
 CAN 70483,1144392,xxRubus arcticus
 CAN 70482,1144392,xxRubus arcticus
-CAN 70481,1144392,xxRubus arcticus
 CAN 412045,1144392,xxRubus arcticus
 CAN 412066,1144392,xxRubus arcticus
 CAN 411598,1144392,xxRubus arcticus
@@ -11576,7 +11349,6 @@ CAN 534491,1144438,xxHeuchera richardsonii
 CAN 534436,1144438,xxHeuchera richardsonii
 CAN 534576,1144438,xxHeuchera richardsonii
 CAN 533327,1144438,xxHeuchera richardsonii
-CAN 582615,1144438,xxHeuchera richardsonii
 CAN 139284,1144440,xxMitella nuda
 CAN 139407,1144440,xxMitella nuda
 CAN 33654B,1144440,xxMitella nuda
@@ -12410,7 +12182,6 @@ CAN 502139,1144304,xxGeum rivale
 CAN 501969,1144304,xxGeum rivale
 CAN 505169,1144304,xxGeum rivale
 CAN 530249,1144304,xxGeum rivale
-CAN 410807,1144305,xxGeum triflorum
 CAN 435314,1144305,xxGeum triflorum
 CAN 458300,1144305,xxGeum triflorum
 CAN 458824,1144305,xxGeum triflorum
@@ -12509,13 +12280,11 @@ CAN 433187,1148234,xxAdiantum pedatum
 CAN 498548,1148234,xxAdiantum pedatum
 CAN 500868,1148234,xxAdiantum pedatum
 CAN 502059,1148234,xxAdiantum pedatum
-CAN 525604,1148234,xxAdiantum pedatum
 CAN 522257,1148234,xxAdiantum pedatum
 CAN 502368,1148234,xxAdiantum pedatum
 CAN 524483,1148234,xxAdiantum pedatum
 CAN 530202,1148234,xxAdiantum pedatum
 CAN 542285,1148234,xxAdiantum pedatum
-CAN 446996,1145964,xxAngelica
 CAN 410857,1145966,xxAngelica lucida
 CAN 474780,1145966,xxAngelica lucida
 CAN 525748,1145966,xxAngelica lucida
@@ -12593,17 +12362,11 @@ CAN 411030,1144352,xxPotentilla nivea
 CAN 453913,1144352,xxPotentilla nivea
 CAN 335520,1144352,xxPotentilla nivea
 CAN 360455,1144352,xxPotentilla nivea
-CAN 454016,1144352,xxPotentilla nivea
 CAN 453993,1144352,xxPotentilla nivea
 CAN 486110,1144352,xxPotentilla nivea
 CAN 448909,1144352,xxPotentilla nivea
 CAN 465597,1144352,xxPotentilla nivea
-CAN 522827,1144352,xxPotentilla nivea
 CAN 486449,1144352,xxPotentilla nivea
-CAN 490735,1144352,xxPotentilla nivea
-CAN 533231,1144352,xxPotentilla nivea
-CAN 524400,1144352,xxPotentilla nivea
-CAN 518395,1144352,xxPotentilla nivea
 CAN 415168,1144353,xxPotentilla norvegica
 CAN 338431,1144353,xxPotentilla norvegica
 CAN 415363,1144353,xxPotentilla norvegica
@@ -12899,7 +12662,6 @@ CAN 550888,1144203,xxParnassia kotzebuei
 CAN 535532,1144203,xxParnassia kotzebuei
 CAN 67338,1144204,xxParnassia multiseta
 CAN 67337,1144204,xxParnassia multiseta
-CAN 67333,1144204,xxParnassia multiseta
 CAN 260312,1144204,xxParnassia multiseta
 CAN 260313,1144204,xxParnassia multiseta
 CAN 67347,1144204,xxParnassia multiseta
@@ -13360,7 +13122,6 @@ CAN 457132,1146217,xxEquisetum arvense
 CAN 452265,1146217,xxEquisetum arvense
 CAN 439478,1146217,xxEquisetum arvense
 CAN 439543,1146217,xxEquisetum arvense
-CAN 470638,1146217,xxEquisetum arvense
 CAN 482799,1146217,xxEquisetum arvense
 CAN 476071,1146217,xxEquisetum arvense
 CAN 482777,1146217,xxEquisetum arvense
@@ -13391,7 +13152,6 @@ CAN 529858,1146217,xxEquisetum arvense
 CAN 534698,1146217,xxEquisetum arvense
 CAN 526548,1146217,xxEquisetum arvense
 CAN 540554,1146217,xxEquisetum arvense
-CAN 526866,1146217,xxEquisetum arvense
 CAN 529823,1146217,xxEquisetum arvense
 CAN 526815,1146217,xxEquisetum arvense
 CAN 530904,1146217,xxEquisetum arvense
@@ -13586,7 +13346,6 @@ CAN 449254,1146981,xxPicea glauca
 CAN 440135,1146981,xxPicea glauca
 CAN 448958,1146981,xxPicea glauca
 CAN 448011,1146981,xxPicea glauca
-CAN 457169,1146981,xxPicea glauca
 CAN 436197,1146981,xxPicea glauca
 CAN 475088,1146981,xxPicea glauca
 CAN 482817,1146981,xxPicea glauca
@@ -13673,7 +13432,6 @@ CAN 517122,1146991,xxPinus banksiana
 CAN 529934,1146991,xxPinus banksiana
 CAN 521104,1146991,xxPinus banksiana
 CAN 534548,1146991,xxPinus banksiana
-CAN 568863,1146991,xxPinus banksiana
 CAN 6482,1147003,xxPinus resinosa
 CAN 440143,1147003,xxPinus resinosa
 CAN 440219,1147003,xxPinus resinosa
@@ -13693,7 +13451,6 @@ CAN 205469,1147004,xxPinus rigida
 CAN 0205469A,1147004,xxPinus rigida
 CAN 0122951A,1147004,xxPinus rigida
 CAN 319400A,1147004,xxPinus rigida
-CAN 462623,1147004,xxPinus rigida
 CAN 135991,1147005,xxPinus strobus
 CAN 440201,1147005,xxPinus strobus
 CAN 440220,1147005,xxPinus strobus
@@ -13735,7 +13492,6 @@ CAN 530636,1141720,xxEpilobium hirsutum
 CAN 551533,1141720,xxEpilobium hirsutum
 CAN 542794,1141720,xxEpilobium hirsutum
 CAN 551569,1141720,xxEpilobium hirsutum
-CAN 77180,1143845,xxOxytropis maydelliana
 CAN 418863,1143845,xxOxytropis maydelliana
 CAN 451590,1143845,xxOxytropis maydelliana
 CAN 482760,1143845,xxOxytropis maydelliana
@@ -14216,23 +13972,6 @@ CAN 542943,1146229,xxEquisetum sylvaticum
 CAN 542415,1146229,xxEquisetum sylvaticum
 CAN 542593,1146229,xxEquisetum sylvaticum
 CAN 551443,1146229,xxEquisetum sylvaticum
-CAN 409991,1147441,xxIsoetes echinospora
-CAN 70619,1147441,xxIsoetes echinospora
-CAN 458359,1147441,xxIsoetes echinospora
-CAN 452259,1147441,xxIsoetes echinospora
-CAN 452300,1147441,xxIsoetes echinospora
-CAN 458696,1147441,xxIsoetes echinospora
-CAN 437340,1147441,xxIsoetes echinospora
-CAN 438100,1147441,xxIsoetes echinospora
-CAN 521653,1147441,xxIsoetes echinospora
-CAN 516656,1147441,xxIsoetes echinospora
-CAN 534391,1147441,xxIsoetes echinospora
-CAN 534683,1147441,xxIsoetes echinospora
-CAN 534706,1147441,xxIsoetes echinospora
-CAN 526584,1147441,xxIsoetes echinospora
-CAN 521072,1147441,xxIsoetes echinospora
-CAN 547950,1147441,xxIsoetes echinospora
-CAN 158030,1147451,xxIsoetes melanopoda
 CAN 437925,1147460,xxIsoetes riparia
 CAN 437990,1147460,xxIsoetes riparia
 CAN 437989,1147460,xxIsoetes riparia
@@ -14615,7 +14354,6 @@ CAN 522004,1147664,xxCystopteris fragilis
 CAN 505268,1147664,xxCystopteris fragilis
 CAN 500834,1147664,xxCystopteris fragilis
 CAN 500306,1147664,xxCystopteris fragilis
-CAN 485298,1147664,xxCystopteris fragilis
 CAN 487913,1147664,xxCystopteris fragilis
 CAN 465132,1147664,xxCystopteris fragilis
 CAN 492962,1147664,xxCystopteris fragilis
@@ -14638,10 +14376,6 @@ CAN 542028,1147664,xxCystopteris fragilis
 CAN 542032,1147664,xxCystopteris fragilis
 CAN 550780,1147664,xxCystopteris fragilis
 CAN 533936,1147664,xxCystopteris fragilis
-CAN 320193,1147664,xxCystopteris fragilis
-CAN 229262,1147664,xxCystopteris fragilis
-CAN 407242,1147664,xxCystopteris fragilis
-CAN 537,1147664,xxCystopteris fragilis
 CAN 287164,1147672,xxGymnocarpium dryopteris
 CAN 221360,1147672,xxGymnocarpium dryopteris
 CAN 299065,1147672,xxGymnocarpium dryopteris
@@ -15204,113 +14938,7 @@ CAN 542284,1148493,xxBotrychium virginianum
 CAN 542120,1148493,xxBotrychium virginianum
 CAN 540693,1148493,xxBotrychium virginianum
 CAN 533332,1148493,xxBotrychium virginianum
-CAN 199888,1168289,xxSalix niphoclada
-CAN 440663,1168289,xxSalix niphoclada
-CAN 440662,1168289,xxSalix niphoclada
-CAN 440661,1168289,xxSalix niphoclada
-CAN 440657,1168289,xxSalix niphoclada
-CAN 440655,1168289,xxSalix niphoclada
-CAN 440628,1168289,xxSalix niphoclada
-CAN 440624,1168289,xxSalix niphoclada
-CAN 440623,1168289,xxSalix niphoclada
-CAN 440617,1168289,xxSalix niphoclada
-CAN 440615,1168289,xxSalix niphoclada
-CAN 440612,1168289,xxSalix niphoclada
-CAN 353872,1168289,xxSalix niphoclada
-CAN 350652,1168289,xxSalix niphoclada
-CAN 350651,1168289,xxSalix niphoclada
-CAN 350650,1168289,xxSalix niphoclada
-CAN 350649,1168289,xxSalix niphoclada
-CAN 350648,1168289,xxSalix niphoclada
-CAN 350647,1168289,xxSalix niphoclada
-CAN 358403,1168289,xxSalix niphoclada
-CAN 429919,1168289,xxSalix niphoclada
-CAN 429918,1168289,xxSalix niphoclada
-CAN 429907,1168289,xxSalix niphoclada
-CAN 429906,1168289,xxSalix niphoclada
-CAN 429904,1168289,xxSalix niphoclada
-CAN 429901,1168289,xxSalix niphoclada
-CAN 429944,1168289,xxSalix niphoclada
-CAN 485118,1168289,xxSalix niphoclada
-CAN 485443,1168289,xxSalix niphoclada
-CAN 485444,1168289,xxSalix niphoclada
-CAN 485454,1168289,xxSalix niphoclada
-CAN 485881,1168289,xxSalix niphoclada
-CAN 485882,1168289,xxSalix niphoclada
-CAN 485893,1168289,xxSalix niphoclada
-CAN 485894,1168289,xxSalix niphoclada
-CAN 485023,1168289,xxSalix niphoclada
-CAN 485038,1168289,xxSalix niphoclada
-CAN 485046,1168289,xxSalix niphoclada
-CAN 485047,1168289,xxSalix niphoclada
-CAN 485057,1168289,xxSalix niphoclada
-CAN 486655,1168289,xxSalix niphoclada
-CAN 526812,1168289,xxSalix niphoclada
-CAN 526813,1168289,xxSalix niphoclada
-CAN 526814,1168289,xxSalix niphoclada
-CAN 529403,1168289,xxSalix niphoclada
-CAN 46597,1168289,xxSalix niphoclada
-CAN 47524,1168289,xxSalix niphoclada
-CAN 47522,1168289,xxSalix niphoclada
-CAN 46596,1168289,xxSalix niphoclada
-CAN 46595,1168289,xxSalix niphoclada
-CAN 46594,1168289,xxSalix niphoclada
-CAN 47523,1168289,xxSalix niphoclada
-CAN 46762,1168289,xxSalix niphoclada
-CAN 350765,1168289,xxSalix niphoclada
-CAN 46598,1168289,xxSalix niphoclada
-CAN 567756,1168289,xxSalix niphoclada
-CAN 303132,1168289,xxSalix niphoclada
-CAN 573816,1168289,xxSalix niphoclada
-CAN 573817,1168289,xxSalix niphoclada
-CAN 573823,1168289,xxSalix niphoclada
-CAN 573825,1168289,xxSalix niphoclada
-CAN 573824,1168289,xxSalix niphoclada
-CAN 357106,1168289,xxSalix niphoclada
-CAN 357107,1168289,xxSalix niphoclada
-CAN 265585,1168289,xxSalix niphoclada
-CAN 362946,1168289,xxSalix niphoclada
-CAN 395527,1168289,xxSalix niphoclada
-CAN 235477,1168289,xxSalix niphoclada
-CAN 395478,1168289,xxSalix niphoclada
-CAN 445969,1168289,xxSalix niphoclada
-CAN 431820,1168289,xxSalix niphoclada
 CAN 431819,1168289,xxSalix niphoclada
-CAN 357105,1168289,xxSalix niphoclada
-CAN 573819,1168289,xxSalix niphoclada
-CAN 461311,1168289,xxSalix niphoclada
-CAN 565120,1168289,xxSalix niphoclada
-CAN 565121,1168289,xxSalix niphoclada
-CAN 565119,1168289,xxSalix niphoclada
-CAN 565105,1168289,xxSalix niphoclada
-CAN 220112,1168289,xxSalix niphoclada
-CAN 127665,1168289,xxSalix niphoclada
-CAN 127637,1168289,xxSalix niphoclada
-CAN 330687,1168289,xxSalix niphoclada
-CAN 127666,1168289,xxSalix niphoclada
-CAN 287922,1168289,xxSalix niphoclada
-CAN 287921,1168289,xxSalix niphoclada
-CAN 287923,1168289,xxSalix niphoclada
-CAN 46712,1168289,xxSalix niphoclada
-CAN 47526,1168289,xxSalix niphoclada
-CAN 46710,1168289,xxSalix niphoclada
-CAN 291027,1168289,xxSalix niphoclada
-CAN 46968,1168289,xxSalix niphoclada
-CAN 47530,1168289,xxSalix niphoclada
-CAN 241965,1168289,xxSalix niphoclada
-CAN 202780,1168289,xxSalix niphoclada
-CAN 202783,1168289,xxSalix niphoclada
-CAN 46604,1168289,xxSalix niphoclada
-CAN 46711,1168289,xxSalix niphoclada
-CAN 46713,1168289,xxSalix niphoclada
-CAN 47521,1168289,xxSalix niphoclada
-CAN 400662,1168289,xxSalix niphoclada
-CAN 390574,1168289,xxSalix niphoclada
-CAN 490807,1168289,xxSalix niphoclada
-CAN 573822,1168289,xxSalix niphoclada
-CAN 376405,1168289,xxSalix niphoclada
-CAN 390595,1168289,xxSalix niphoclada
-CAN 165852,1175688,xxJuncus exiguus
 CAN 233648,1136515,xxArctostaphylos uva-ursi
 CAN 89316,1136515,xxArctostaphylos uva-ursi
 CAN 89314,1136515,xxArctostaphylos uva-ursi
