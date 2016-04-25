@@ -21,7 +21,7 @@ CSV.open(output_dir(__FILE__) + "/xx-obj-deletions.csv", 'w') do |csv|
         if catalog.collection == collection
           ct = CatalogTaxon.where(speckey: valid_speckey, mkey: catalog.mkey).first
           xxct = CatalogTaxon.where(speckey: xxtaxon.speckey, mkey: catalog.mkey).first
-          
+
           if ct && xxct
             if ct.attributor.nil? && xxct.attributor
               ct.attributor = xxct.attributor

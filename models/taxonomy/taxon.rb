@@ -10,6 +10,7 @@ class Taxon < ActiveRecord::Base
 
   alias_attribute :collection, :taxon_name
   alias_attribute :rank, :level_text
+  alias_attribute :authority, :source
 
   validates :taxon_name, presence: true
 
