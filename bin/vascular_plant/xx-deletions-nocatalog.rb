@@ -15,7 +15,7 @@ CSV.open(output_dir(__FILE__) + "/xx-taxa-deletions-nocatalog.csv", 'w') do |csv
     count += 1
     pbar.set(count)
 
-    next if xx.collection != "Botany"
+    next if xx.collection != collection
     next if !xx.leaf?
     next if !xx.catalogs.empty?
     similar = Taxon.find_by_scientific_name(xx.scientific_name[2..-1])
@@ -24,7 +24,7 @@ CSV.open(output_dir(__FILE__) + "/xx-taxa-deletions-nocatalog.csv", 'w') do |csv
 
     parent_id = (xx.parent) ? xx.parent.id : nil
     csv << [xx.id, xx.scientific_name, xx.authority, parent_id, xx.rank]
-    #xx.destroy
+    xx.destroy
   end
 end
 pbar.finish

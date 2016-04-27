@@ -3,7 +3,7 @@ class CatalogTaxon < ActiveRecord::Base
   self.table_name = :items_taxonomy
 
   # specify primary key name
-  self.primary_keys = :mkey, :speckey
+  self.primary_keys = :authlinkkey, :mkey, :speckey
 
   # override decimal set
   set_integer_columns :mkey, :speckey

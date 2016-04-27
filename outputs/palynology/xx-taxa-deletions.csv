@@ -1,0 +1,783 @@
+speckey,Scientific Name,Parent,Level Name,Author/Date
+500147,xxEquisetaceae,500124,FAMILY,
+1079059,xxSelaginella rupestris,1147467,SPECIES,(L.) Spring
+1078930,xxOsmunda cinnamomea,1148083,SPECIES,L.
+1078934,xxOsmunda claytoniana,1148083,SPECIES,L.
+1078935,xxOsmunda regalis,1148083,SPECIES,L.
+1078602,xxLindsaea ensifolia,1078601,SPECIES,Sw.
+1078603,xxLindsaea lancea,1078601,SPECIES,(L.) Bedd.
+1078604,xxLindsaea portoricensis,1078601,SPECIES,Desv.
+1078605,xxLindsaea quadrangularis,1078601,SPECIES,Raddi
+1096693,xxCatharanthus roseus,1096692,SPECIES,(L.) G. Don
+1131163,xxCynosurus cristatus,1131162,SPECIES,L.
+1131165,xxDactylis glomerata,1131164,SPECIES,L.
+1131198,xxHordeum jubatum,1131197,SPECIES,L.
+1131214,xxLolium multiflorum,1131213,SPECIES,
+1130107,xxScheuchzeria palustris,1130106,SPECIES,L.
+1131537,xxNolina bigelovii,1131536,SPECIES,(Torr.) Wats.
+1131554,xxAllium ampeloprasum,1131552,SPECIES,L.
+1131555,xxAllium brevistylum,1131552,SPECIES,Watson
+1130213,xxArisaema dracontium,1130210,SPECIES,
+1130218,xxArisaema triphyllum,1130210,SPECIES,(L.) Schott
+1131557,xxAllium stellatum,1131552,SPECIES,Ker.
+1131558,xxAllium textile,1131552,SPECIES,Nels. & Macbr.
+1131559,xxAllium tricoccum,1131552,SPECIES,
+1131092,xxScirpus atrocinctus,1131090,SPECIES,Fernald
+1131096,xxScirpus mucronatus,1131090,SPECIES,L.
+1131100,xxScleria secans,1131099,SPECIES,L. Urb.
+1131319,xxEriocaulon lineare,1131312,SPECIES,Sm.
+1131324,xxEriocaulon parkeri,1131312,SPECIES,Rob.
+1131325,xxEriocaulon ravenelii,1131312,SPECIES,Chapm.
+1131332,xxEriocaulon texense,1131312,SPECIES,Korn
+1131117,xxAgropyron repens,1131116,SPECIES,Beauv.
+1131120,xxAgrostis hyemalis,1131118,SPECIES,
+1131121,xxAgrostis nebulosa,1131118,SPECIES,B.R.
+1131123,xxAira caryophyllea,1131122,SPECIES,L.
+1130225,xxCalla palustris,1130224,SPECIES,L.
+1131447,xxSparganium angustifolium,1131445,SPECIES,Michaux
+1131450,xxSparganium erectum,1131445,SPECIES,
+1131455,xxSparganium hyperboreum,1131445,SPECIES,
+1131456,xxSparganium minimum,1131445,SPECIES,
+1130029,xxAlisma gramineum,1130027,SPECIES,Gmelin
+1131292,xxTriticum aestivum,1131291,SPECIES,L.
+1131295,xxTriticum compactum,1131291,SPECIES,
+1131298,xxTriticum durum,1131291,SPECIES,
+1131302,xxTriticum spelta,1131291,SPECIES,L.
+1131316,xxEriocaulon decangulare,1131312,SPECIES,L.
+1130055,xxSagittaria cuneata,1130052,SPECIES,Sheldon
+1131358,xxJuncus marginatus,1131355,SPECIES,Rostk.
+1131361,xxLuzula campestris,1131360,SPECIES,(L.) DC.
+1130299,xxSymplocarpus foetidus,1130298,SPECIES,(L.) Salisb.; Nutt.
+1131039,xxCarex aquatilis,1131038,SPECIES,
+1131040,xxCarex arenaria,1131038,SPECIES,L.
+1130061,xxSagittaria latifolia,1130052,SPECIES,Willdenow
+1130064,xxSagittaria rigida,1130052,SPECIES,
+1131134,xxAnthoxanthum odoratum,1131133,SPECIES,L.
+1130065,xxSagittaria sagittifolia,1130052,SPECIES,
+1130101,xxPotamogeton amplifolius,1130100,SPECIES,
+1130103,xxPotamogeton pectinatus,1130100,SPECIES,L.
+1130104,xxPotamogeton richardsonii,1130100,SPECIES,
+1131146,xxBromus carinatus,1131145,SPECIES,
+1131147,xxBromus inermis,1131145,SPECIES,L.
+1131149,xxCalamagrostis canadensis,1131148,SPECIES,
+1131151,xxCenchrus ciliaris,1131150,SPECIES,
+1131526,xxDasylirion leiophyllum,1131524,SPECIES,Engelm.
+1132936,xxCampanula rapunculoides,1102331,SPECIES,L.
+1136024,xxDraba aurea,1136022,SPECIES,Vahl
+1136027,xxDraba glabella,1136022,SPECIES,
+1136028,xxDraba incerta,1136022,SPECIES,Payson
+1136031,xxDraba nemorosa,1136022,SPECIES,L.
+1136032,xxDraba nivalis,1136022,SPECIES,
+1131973,xxClintonia borealis,1131972,SPECIES,(Aiton) Raf.
+1132697,xxHelenium microcephalum,1132695,SPECIES,DC.
+1132699,xxHelianthella quinquenervis,1132698,SPECIES,
+1135842,xxRumex obtusifolius,1083856,SPECIES,
+1137478,xxPopulus grandidentata,1137473,SPECIES,Michaux
+1137479,xxPopulus heterophylla,1137473,SPECIES,L.
+1137483,xxPopulus tremuloides,1137473,SPECIES,Michaux
+1135315,xxPedicularis bracteosa,1135313,SPECIES,Bentham
+1135316,xxPedicularis capitata,1135313,SPECIES,Adams
+1135317,xxPedicularis flammea,1135313,SPECIES,L.
+1135319,xxPedicularis hirsuta,1135313,SPECIES,L.
+1135320,xxPedicularis labradorica,1135313,SPECIES,Panzer.
+1135321,xxPedicularis lanata,1135313,SPECIES,
+1132701,xxHemizonia corymbosa,1132700,SPECIES,
+1132702,xxHemizonia fasciculata,1132700,SPECIES,
+1133635,xxSabatia capitata,1133633,SPECIES,
+1133636,xxSabatia gentianoides,1133633,SPECIES,
+1133638,xxSabatia stellaris,1133633,SPECIES,Pursh
+1135697,xxBoerhavia gracillima,1135694,SPECIES,Heimerl
+1135323,xxPedicularis parviflora,1135313,SPECIES,Smith
+1135328,xxPenstemon albidus,1135327,SPECIES,Nutt.
+1135329,xxPenstemon calycosus,1135327,SPECIES,
+1135333,xxPenstemon procerus,1135327,SPECIES,Dougl.
+1136077,xxNeslia paniculata,1136076,SPECIES,Desv.
+1135244,xxCastilleja occidentalis,1135240,SPECIES,Torr.
+1135245,xxCastilleja pallida,1135240,SPECIES,(L.) Spreng.
+1135250,xxCymbalaria muralis,1135249,SPECIES,Gaertn.
+1137450,xxAndrosace filiformis,1087619,SPECIES,
+1137462,xxPrimula incana,1137460,SPECIES,M.E. Jones
+1133043,xxLonicera utahensis,1133039,SPECIES,S. Wats.
+1133045,xxSymphoricarpos albus,1133044,SPECIES,(L.) Blake
+1134056,xxNymphoides peltata,1134049,SPECIES,(Gmel.) Ktze.
+1134070,xxCollomia linearis,1134069,SPECIES,Nutt.
+1134078,xxPhlox divaricata,1134077,SPECIES,L.
+1134079,xxPhlox hoodii,1134077,SPECIES,Richards.
+1134080,xxPhlox paniculata,1134077,SPECIES,L.
+1134081,xxPhlox pilosa,1134077,SPECIES,L.
+1134083,xxPolemonium acutiflorum,1134082,SPECIES,Willdenow
+1136043,xxEutrema edwardsii,1136042,SPECIES,R. Br.
+1134085,xxPolemonium pulcherrimum,1134082,SPECIES,Hooker
+1132706,xxHymenoxys odorata,1132705,SPECIES,DC.
+1137016,xxMalva alcea,1137014,SPECIES,L.
+1137019,xxMalva moschata,1137014,SPECIES,L.
+1137020,xxMalva neglecta,1137014,SPECIES,Wallr.
+1137022,xxMalva parviflora,1137014,SPECIES,L.
+1137494,xxSalix candida,1137471,SPECIES,Fluegge
+1137495,xxSalix caroliniana,1137471,SPECIES,Michaux
+1137497,xxSalix commutata,1137471,SPECIES,Bebb
+1137498,xxSalix cordata,1137471,SPECIES,Muhl.
+1137499,xxSalix daphnoides,1137471,SPECIES,L.
+1137505,xxSalix herbacea,1137471,SPECIES,L.
+1137506,xxSalix hookeriana,1137471,SPECIES,Hooker
+1137507,xxSalix humboldtiana,1137471,SPECIES,
+1137508,xxSalix humilis,1137471,SPECIES,Marsh
+1137512,xxSalix laevigata,1137471,SPECIES,Bebb.
+1137516,xxSalix lasiolepis,1137471,SPECIES,Bentham
+1137517,xxSalix lucida,1137471,SPECIES,Muhl.
+1137518,xxSalix lutea,1137471,SPECIES,Nutt.
+1137519,xxSalix myricoides,1137471,SPECIES,Muhl.
+1132737,xxThelesperma megapotamicum,1132736,SPECIES,(Sprengel) Kuntze.
+1133472,xxCentaurium pulchellum,1133469,SPECIES,(Sw.) Druce
+1135438,xxAmaranthus hybridus,1135433,SPECIES,L.
+1135440,xxAmaranthus retroflexus,1135433,SPECIES,L.
+1135442,xxAmaranthus spinosus,1135433,SPECIES,
+1137879,xxHelianthemum canadense,1137875,SPECIES,(L.) Michaux
+1137882,xxHelianthemum corymbosum,1137875,SPECIES,Michaux
+1136533,xxCassiope tetragona,1136530,SPECIES,D. Don; L.
+1133051,xxViburnum dentatum,1133049,SPECIES,
+1133052,xxViburnum edule,1133049,SPECIES,Rafinesque-Schmaltz
+1133054,xxViburnum nudum,1133049,SPECIES,
+1136547,xxGaylussacia baccata,1136546,SPECIES,Koch
+1136549,xxKalmia angustifolia,1136548,SPECIES,L.
+1135100,xxUtricularia intermedia,1135088,SPECIES,Hayne
+1135756,xxClaytonia sarmentosa,1135752,SPECIES,C.A. Mey
+1135758,xxMontia fontana,1135757,SPECIES,
+1135764,xxTalinum triangulare,1135763,SPECIES,(Jacquin) Willdenow
+1136558,xxLedum palustre,1136554,SPECIES,L.
+1137490,xxSalix barclayi,1137471,SPECIES,Anderss.
+1137491,xxSalix bebbiana,1137471,SPECIES,Sarg.
+1137492,xxSalix bonplandiana,1137471,SPECIES,HBK.
+1137493,xxSalix brachycarpa,1137471,SPECIES,Nutt.
+1133067,xxKnautia arvensis,1133066,SPECIES,(L.) Coult.
+1133802,xxCallitriche heterophylla,1133799,SPECIES,Pursh
+1136228,xxDiospyros ferrea,1136226,SPECIES,
+1136233,xxDiospyros virginiana,1136226,SPECIES,L.
+1136892,xxAbutilon glabriflorum,1136883,SPECIES,Hochr.
+1136893,xxAbutilon hulseanum,1136883,SPECIES,(Torrey & Gray) Torrey ex Chapman
+1136895,xxAbutilon incanum,1136883,SPECIES,(Link.) Sweet
+1136896,xxAbutilon indicum,1136883,SPECIES,(L.) Sweet
+1136897,xxAbutilon malacum,1136883,SPECIES,S. Watson
+1136901,xxAbutilon permolle,1136883,SPECIES,Don
+1131849,xxSisyrinchium montanum,1131847,SPECIES,Greene
+1132559,xxSolidago altissima,1107956,SPECIES,
+1133474,xxCentaurium spicatum,1133469,SPECIES,
+1136598,xxVaccinium angustifolium,1136597,SPECIES,Bentham
+1132169,xxHeteranthera limosa,1132167,SPECIES,(Sw.) Wild.
+1137864,xxCarica papaya,1137862,SPECIES,L.
+1135537,xxCerastium arcticum,1082569,SPECIES,Lge.
+1132539,xxGymnosperma glutinosum,1132538,SPECIES,(Sprengel) Less
+1132547,xxHaplopappus venetus,1132542,SPECIES,(HBK.) Blake
+1132892,xxCichorium intybus,1132891,SPECIES,L.
+1132896,xxHieracium aurantiacum,1132895,SPECIES,L.
+1132898,xxHieracium pilosella,1132895,SPECIES,L.
+1132865,xxTussilago farfara,1132864,SPECIES,L.
+1133805,xxCallitriche stagnalis,1133799,SPECIES,
+1133816,xxAgastache foeniculum,1133815,SPECIES,(Pursh) Ktze.; Ktze.
+1135525,xxArenaria humifusa,1082501,SPECIES,Wahlenb.
+1132872,xxElephantopus carolinianus,1132871,SPECIES,Willdenow
+1132576,xxArctium minus,1132575,SPECIES,Schk.
+1132578,xxCarduus crispus,1132577,SPECIES,
+1132579,xxCarduus nutans,1132577,SPECIES,
+1132582,xxCentaurea diffusa,1132580,SPECIES,Lam.
+1132592,xxBrickellia californica,1132591,SPECIES,
+1132593,xxBrickellia grandiflora,1132591,SPECIES,
+1132595,xxEupatorium album,1105843,SPECIES,
+1132596,xxEupatorium purpureum,1105843,SPECIES,L.
+1132305,xxCypripedium candidum,1132301,SPECIES,Muhl.
+1135570,xxMinuartia arctica,1135569,SPECIES,
+1135578,xxSagina procumbens,1135577,SPECIES,
+1133303,xxRhabdadenia biflora,1133302,SPECIES,
+1134048,xxMenyanthes trifoliata,1134047,SPECIES,L.
+1134050,xxNymphoides aquatica,1134049,SPECIES,
+1134051,xxNymphoides cordata,1134049,SPECIES,
+1134055,xxNymphoides indica,1134049,SPECIES,
+1132905,xxSonchus arvensis,1132904,SPECIES,L.
+1132909,xxTaraxacum officinale,1132906,SPECIES,Weber
+1133846,xxLamium amplexicaule,1133845,SPECIES,L.
+1133856,xxLycopus uniflorus,1133853,SPECIES,Michaux
+1132614,xxAmblyolepis setigera,1132613,SPECIES,DC.
+1132618,xxAmbrosia bidentata,1103824,SPECIES,Michaux
+1132620,xxAmbrosia hispida,1103824,SPECIES,
+1132621,xxAmbrosia trifida,1103824,SPECIES,
+1132627,xxBahia absinthifolia,1132626,SPECIES,Bentham
+1132628,xxBahia bigelovii,1132626,SPECIES,Gray
+1132629,xxBahia biternata,1132626,SPECIES,Gray
+1132630,xxBahia dissecta,1132626,SPECIES,Britt.
+1132633,xxBaileya multiradiata,1132632,SPECIES,Harv. & Gray
+1132634,xxBaileya pleniradiata,1132632,SPECIES,Harv. & Gray ex Gray
+1132636,xxBidens cernua,1132635,SPECIES,
+1132637,xxBidens pilosa,1132635,SPECIES,
+1132640,xxChrysactinia mexicana,1132639,SPECIES,Gray
+1132289,xxCalypso bulbosa,1132288,SPECIES,(L.) Rehb. f.
+1132302,xxCypripedium acaule,1132301,SPECIES,Aiton
+1131565,xxBrodiaea californica,1131564,SPECIES,Lindl.
+1131566,xxBrodiaea coronaria,1131564,SPECIES,Jepson
+1133369,xxCynanchum cubense,1133366,SPECIES,
+1134025,xxCuscuta europaea,1097542,SPECIES,L.
+1132660,xxDyssodia papposa,1132653,SPECIES,(Lag.) Hitch.
+1131246,xxPhleum alpinum,1131245,SPECIES,
+1131247,xxPhleum pratense,1131245,SPECIES,L.
+1131250,xxPoa annua,1112610,SPECIES,L.
+1131253,xxPoa pratensis,1112610,SPECIES,
+1132413,xxSpiranthes cinnabarina,1132411,SPECIES,
+1132414,xxSpiranthes costaricensis,1132411,SPECIES,
+1132418,xxSpiranthes michuacana,1132411,SPECIES,
+1132419,xxSpiranthes ochroleuca,1132411,SPECIES,
+1132420,xxSpiranthes praecox,1132411,SPECIES,
+1132059,xxLloydia serotina,1132058,SPECIES,(L.) Reichb.
+1132063,xxMaianthemum canadense,1132062,SPECIES,Desf.
+1132951,xxLobelia dortmanna,1102670,SPECIES,L.
+1132952,xxLobelia inflata,1102670,SPECIES,L.
+1132954,xxLobelia puberula,1102670,SPECIES,
+1132675,xxEncelia californica,1132674,SPECIES,
+1132676,xxEncelia farinosa,1132674,SPECIES,
+1132680,xxEriophyllum ambiguum,1132679,SPECIES,
+1132681,xxEriophyllum confertiflorum,1132679,SPECIES,
+1132684,xxFlaveria linearis,1132683,SPECIES,Lag.
+1132692,xxGalinsoga parviflora,1132691,SPECIES,Cavanilles
+1132432,xxAchillea millefolium,1103755,SPECIES,L.
+1132441,xxEupatorium perfoliatum,1105843,SPECIES,L.
+1132446,xxHelianthus decapetalus,1132444,SPECIES,
+1132450,xxRudbeckia hirta,1132449,SPECIES,L.
+1133145,xxApocynum androsaemifolium,1133144,SPECIES,L.
+1133146,xxApocynum cannabinum,1133144,SPECIES,L.
+1133704,xxLabordia cyrtandrae,1133703,SPECIES,
+1133705,xxLabordia hirtella,1133703,SPECIES,
+1134378,xxGalium asprellum,1102984,SPECIES,Michaux
+1134379,xxGalium boreale,1102984,SPECIES,L.
+1134380,xxGalium circaezans,1102984,SPECIES,Michaux
+1134381,xxGalium mollugo,1102984,SPECIES,L.
+1134382,xxGalium palustre,1102984,SPECIES,L.
+1132112,xxSmilacina stellata,1132109,SPECIES,Desf.
+1132116,xxStreptopus roseus,1132115,SPECIES,Michaux
+1132467,xxArtemisia annua,1104016,SPECIES,
+1132468,xxArtemisia biennis,1104016,SPECIES,
+1133394,xxHoya carnosa,1133393,SPECIES,R. Br.
+1132840,xxChaenactis glabriuscula,1132836,SPECIES,DC.
+1132845,xxEmilia sonchifolia,1132843,SPECIES,(L.) DC. ex Wight
+1133900,xxPhryma leptostachya,1133899,SPECIES,L.
+1133024,xxAdoxa moschatellina,1133023,SPECIES,L.
+1133742,xxSpigelia anthelmia,1133741,SPECIES,L.
+1130315,xxLemna aequinoctialis,1130314,SPECIES,
+1130316,xxLemna gibba,1130314,SPECIES,L.
+1130317,xxLemna minor,1130314,SPECIES,L.
+1132103,xxSchoenocaulon dubium,1132102,SPECIES,(Michaux) Small
+1132797,xxAntennaria alpina,1132796,SPECIES,(L.) Gaertn.
+1132798,xxAntennaria plantaginifolia,1132796,SPECIES,
+1132513,xxConyza bonariensis,1132511,SPECIES,
+1133456,xxBartonia virginica,1133455,SPECIES,
+1133739,xxMitreola sessilifolia,1133737,SPECIES,
+1132470,xxArtemisia californica,1104016,SPECIES,
+1132471,xxArtemisia frigida,1104016,SPECIES,
+1132474,xxArtemisia ludoviciana,1104016,SPECIES,Nutt.
+1132475,xxArtemisia suksdorfii,1104016,SPECIES,
+1132518,xxErigeron divergens,1105552,SPECIES,T&G
+1132526,xxErigeron foliosus,1105552,SPECIES,Nutt.
+1132527,xxErigeron geiseri,1105552,SPECIES,Shinners
+1132528,xxErigeron inornatus,1105552,SPECIES,Gray
+1132530,xxErigeron pulchellus,1105552,SPECIES,Michx.
+1132533,xxGrindelia squarrosa,1132532,SPECIES,(Pursh) Dunal
+1132535,xxGutierrezia sarothrae,1132534,SPECIES,
+1132777,xxXanthium strumarium,1132772,SPECIES,L.
+1132476,xxArtemisia tridentata,1104016,SPECIES,Nutt.
+1132477,xxArtemisia vulgaris,1104016,SPECIES,
+1132481,xxChrysanthemum coronarium,1132480,SPECIES,L.
+1132484,xxCotula coronopifolia,1132483,SPECIES,
+1132494,xxBerkheya heterophylla,1132493,SPECIES,(Thunb.) O. Hoffm.
+1134821,xxRuellia tuberosa,1134819,SPECIES,L.
+1132502,xxBaccharis pilularis,1132500,SPECIES,DC.
+1130012,xxAnthoceros fusiformis,1130010,SPECIES,Aust.
+1130013,xxAnthoceros husnoti,1130010,SPECIES,St.
+1130016,xxAnthoceros punctatus,1130010,SPECIES,L.
+1131085,xxRhynchospora alba,1131084,SPECIES,(L.) Vahl
+1132830,xxArnica alpina,1132829,SPECIES,Olin. & Ladau
+1132831,xxArnica cordifolia,1132829,SPECIES,
+1133556,xxGentiana glauca,1133544,SPECIES,Pall.
+1133559,xxGentiana nivalis,1133544,SPECIES,
+1133560,xxGentiana prostrata,1133544,SPECIES,Haenke
+1133359,xxCalotropis procera,1133358,SPECIES,(Aiton) R. Br.
+1133363,xxCryptostegia grandiflora,1133362,SPECIES,R. Br.
+1133213,xxFuntumia elastica,1133212,SPECIES,
+1133942,xxPlantago cordata,1100211,SPECIES,Lam.
+1133943,xxPlantago eriopoda,1100211,SPECIES,Torr.
+1133944,xxPlantago lanceolata,1100211,SPECIES,L.
+1133947,xxPlantago ovata,1100211,SPECIES,
+1133948,xxPlantago rugelii,1100211,SPECIES,Dcne.
+1133950,xxPlantago virginica,1100211,SPECIES,L.
+1132743,xxVerbesina encelioides,1132742,SPECIES,Cavanilles
+1131900,xxAletris aurea,1131899,SPECIES,Walt
+1131049,xxCarex vaginata,1131038,SPECIES,Tausch.
+1131059,xxEleocharis acicularis,1131058,SPECIES,(L.) R & S
+1131064,xxEriophorum russeolum,1131061,SPECIES,
+1131067,xxFimbristylis dichotoma,1131066,SPECIES,L.
+1133545,xxGentiana alba,1133544,SPECIES,
+1133548,xxGentiana andrewsii,1133544,SPECIES,Grisebach
+1133550,xxGentiana calycosa,1133544,SPECIES,Grisebach
+1131924,xxAsparagus officinalis,1131921,SPECIES,L.
+1132937,xxCampanula rotundifolia,1102331,SPECIES,L.
+1132938,xxCampanula uniflora,1102331,SPECIES,L.
+1132646,xxClibadium erosum,1132644,SPECIES,(Sw.) DC.
+1133568,xxGentianella amarella,1133567,SPECIES,(L.) Borner
+1133579,xxGentianella propinqua,1133567,SPECIES,(Richards) J.M. Gillett
+1131233,xxPanicum dichotomiflorum,1131231,SPECIES,Michaux
+1131234,xxPanicum maximum,1131231,SPECIES,
+1132355,xxGoodyera oblongifolia,1132354,SPECIES,Rafinesque-Schmaltz
+1132356,xxGoodyera pubescens,1132354,SPECIES,
+1133966,xxConvolvulus althaeoides,1133965,SPECIES,L.
+1133967,xxConvolvulus arvensis,1133965,SPECIES,L.
+1133972,xxCuscuta campestris,1097542,SPECIES,Yunker
+1133102,xxValeriana capitata,1133101,SPECIES,
+1133105,xxValeriana officinalis,1133101,SPECIES,L.
+1133107,xxValerianella dentata,1133106,SPECIES,
+1139812,xxRanunculus pygmaeus,1080044,SPECIES,Wahlenb.
+1138822,xxCeltis occidentalis,1138810,SPECIES,L.
+1139184,xxLiriodendron tulipifera,1139182,SPECIES,L.
+1142193,xxElaeagnus angustifolia,1142192,SPECIES,L.
+1142194,xxElaeagnus commutata,1142192,SPECIES,Bernh.
+1142196,xxShepherdia argentea,1142195,SPECIES,
+1142197,xxShepherdia canadensis,1142195,SPECIES,Nutt.
+1138877,xxBoehmeria cylindrica,1138875,SPECIES,(L.) Sw.
+1143944,xxLathyrus ochroleucus,1143939,SPECIES,Hooker
+1143945,xxLathyrus palustris,1143939,SPECIES,L.
+1143951,xxAstragalus vexilliflexus,1090072,SPECIES,Sheld
+1140962,xxCordia alba,1098559,SPECIES,
+1140966,xxCordia collococca,1098559,SPECIES,L.
+1137985,xxSechium edule,1137984,SPECIES,
+1140352,xxArgythamnia lanceolata,1140351,SPECIES,
+1138276,xxAlnus glutinosa,1138268,SPECIES,(L.) Gaertn.
+1138277,xxAlnus incana,1138268,SPECIES,(L.) Moench.
+1138279,xxAlnus maritima,1138268,SPECIES,(Marsh.) Muhl.
+1138282,xxAlnus rhombifolia,1138268,SPECIES,Nutt.
+1138283,xxAlnus rubra,1138268,SPECIES,Bong.; Bongard
+1138285,xxAlnus serrulata,1138268,SPECIES,(Aiton) Willdenow
+1138287,xxAlnus viridis,1138268,SPECIES,L.
+1138291,xxBetula glandulosa,1081133,SPECIES,Michaux
+1138296,xxBetula nigra,1081133,SPECIES,L.
+1138297,xxBetula occidentalis,1081133,SPECIES,Hooker
+1138298,xxBetula papyrifera,1081133,SPECIES,Marsh; Marsh.
+1141096,xxLinum perenne,1141091,SPECIES,
+1141098,xxLinum usitatissimum,1141091,SPECIES,L.
+1138299,xxBetula populifolia,1081133,SPECIES,Marsh
+1138300,xxBetula pumila,1081133,SPECIES,L.
+1143975,xxOxytropis huddelsonii,1091883,SPECIES,Pers.
+1143977,xxRobinia pseudoacacia,1143976,SPECIES,L.
+1143989,xxHedysarum boreale,1143987,SPECIES,Nutt.
+1143991,xxHedysarum sulphurescens,1143987,SPECIES,Rydb.
+1138326,xxCorylus cornuta,1138319,SPECIES,Marsh
+1143014,xxGymnocladus dioicus,1143012,SPECIES,(L.) Koch.
+1138669,xxJuglans cinerea,1138663,SPECIES,Ehrenberg; L.
+1138116,xxPetalonyx nitidus,1138115,SPECIES,
+1138117,xxPetalonyx thurberi,1138115,SPECIES,
+1140754,xxGeranium dissectum,1140751,SPECIES,L.
+1140755,xxGeranium erianthum,1140751,SPECIES,DC.
+1140757,xxGeranium molle,1140751,SPECIES,L.
+1138707,xxMyrica californica,1138705,SPECIES,Cham.; Cham. & Schlecht.
+1138709,xxMyrica cerifera,1138705,SPECIES,L.
+1138711,xxMyrica gale,1138705,SPECIES,L.
+1138713,xxMyrica inodora,1138705,SPECIES,Bartram
+1138717,xxMyrica pensylvanica,1138705,SPECIES,
+1140882,xxAmsinckia intermedia,1140880,SPECIES,
+1138100,xxFrankenia pulverulenta,1138097,SPECIES,L.
+1139766,xxClematis vitalba,1139761,SPECIES,L.
+1139775,xxDelphinium bicolor,1139774,SPECIES,Nutt.
+1141093,xxLinum catharticum,1141091,SPECIES,L.
+1138114,xxMentzelia involucrata,1138112,SPECIES,
+1139738,xxAnemone drummondii,1079706,SPECIES,S. Wats.
+1139741,xxAnemone multifida,1079706,SPECIES,Poir.
+1139744,xxAnemone parviflora,1079706,SPECIES,
+1139748,xxAnemone riparia,1079706,SPECIES,Fernald
+1139750,xxAquilegia canadensis,1139749,SPECIES,L.
+1140731,xxImpatiens capensis,1140729,SPECIES,Meerb.
+1139751,xxAquilegia flavescens,1139749,SPECIES,S. Wats.
+1139752,xxAquilegia formosa,1139749,SPECIES,Fisch.
+1139753,xxAquilegia vulgaris,1139749,SPECIES,L.
+1139814,xxRanunculus reptans,1080044,SPECIES,
+1139819,xxThalictrum dasycarpum,1139818,SPECIES,Fisch. & Ave-Lall.
+1139820,xxThalictrum dioicum,1139818,SPECIES,L.
+1139825,xxThalictrum pubescens,1139818,SPECIES,Pursh
+1138440,xxQuercus coccinea,1080906,SPECIES,Muenchh.
+1138156,xxTamarix africana,1138155,SPECIES,Poiret
+1138158,xxTamarix aphylla,1138155,SPECIES,(L.) Karsten
+1138159,xxTamarix aralensis,1138155,SPECIES,Bunge
+1138160,xxTamarix gallica,1138155,SPECIES,L.
+1141051,xxLantana camara,1141050,SPECIES,L.
+1139781,xxDelphinium nuttallianum,1139774,SPECIES,Pritz.
+1139804,xxRanunculus arvensis,1080044,SPECIES,L.
+1139808,xxRanunculus lapponicus,1080044,SPECIES,
+1139809,xxRanunculus nivalis,1080044,SPECIES,
+1139810,xxRanunculus pedatifidus,1080044,SPECIES,Sm.
+1138548,xxQuercus prinoides,1080906,SPECIES,Willdenow
+1140909,xxLappula echinata,1140907,SPECIES,Gilib.
+1140924,xxMyosotis arvensis,1140920,SPECIES,(L.) Hill.
+1140926,xxMyosotis scorpioides,1140920,SPECIES,L.
+1136416,xxEmpetrum nigrum,1136415,SPECIES,L.
+1137520,xxSalix nigra,1137471,SPECIES,Marsh
+1137522,xxSalix ovalifolia,1137471,SPECIES,Trautv.
+1137523,xxSalix pedicellaris,1137471,SPECIES,Pursh
+1137525,xxSalix pentandra,1137471,SPECIES,L.
+1135830,xxEriogonum ovalifolium,1135826,SPECIES,Nutt.
+1135839,xxRumex crispus,1083856,SPECIES,L.
+1135840,xxRumex longifolius,1083856,SPECIES,DC.
+1140845,xxMyriophyllum heterophyllum,1140840,SPECIES,Michaux
+1140846,xxMyriophyllum humile,1140840,SPECIES,(Raf.) Morong.
+1140852,xxMyriophyllum tenellum,1140840,SPECIES,
+1137527,xxSalix planifolia,1137471,SPECIES,Pursh
+1137528,xxSalix prolixa,1137471,SPECIES,Anderss.
+1137530,xxSalix pyrifolia,1137471,SPECIES,Anderss.
+1137531,xxSalix reticulata,1137471,SPECIES,L.
+1137532,xxSalix scouleriana,1137471,SPECIES,Hooker
+1137533,xxSalix sericea,1137471,SPECIES,Marsh
+1137534,xxSalix serissima,1137471,SPECIES,(Bailey) Fern.
+1135357,xxVeronica americana,1135354,SPECIES,(Raf.) Schw.
+1140291,xxAcalypha indica,1140288,SPECIES,L.
+1139724,xxActaea rubra,1139722,SPECIES,(Aiton) Willdenow
+1135434,xxAmaranthus albus,1135433,SPECIES,L.
+1135435,xxAmaranthus australis,1135433,SPECIES,(A. Gray) J.D. Sauer
+1135810,xxPolygonum bistortoides,1083722,SPECIES,Pursh
+1135811,xxPolygonum careyi,1083722,SPECIES,Olney
+1135812,xxPolygonum cilinode,1083722,SPECIES,Michaux
+1135814,xxPolygonum convolvulus,1083722,SPECIES,L.
+1135815,xxPolygonum cuspidatum,1083722,SPECIES,Sieb. & Zucc.
+1135816,xxPolygonum douglasii,1083722,SPECIES,Greene
+1135819,xxPolygonum pensylvanicum,1083722,SPECIES,L.
+1136506,xxAndromeda polifolia,1136503,SPECIES,L.
+1135822,xxPolygonum scandens,1083722,SPECIES,L.
+1135823,xxPolygonum tenue,1083722,SPECIES,Michaux
+1136606,xxVaccinium vitis-idaea,1136597,SPECIES,L.
+1136613,xxMonotropa hypopithys,1136612,SPECIES,L.
+1136619,xxPterospora andromedea,1136618,SPECIES,Nutt.
+1137535,xxSalix sitchensis,1137471,SPECIES,Sanson
+1137538,xxSalix uva-ursi,1137471,SPECIES,Pursh
+1139414,xxPapaver nudicaule,1080467,SPECIES,L.
+1139416,xxPapaver rhoeas,1080467,SPECIES,L.
+1135194,xxBoschniakia rossica,1135193,SPECIES,(C. & S.) B. Fetsch.
+1139360,xxNymphaea alba,1139359,SPECIES,L.
+1139364,xxNymphaea lotus,1139359,SPECIES,
+1139366,xxNymphaea odorata,1139359,SPECIES,Aiton
+1139368,xxNymphaea tuberosa,1139359,SPECIES,Paine
+1139372,xxAdlumia fungosa,1139371,SPECIES,(Aiton) Greene
+1139827,xxThalictrum venulosum,1139818,SPECIES,Trel.
+1139840,xxIlex verticillata,1139833,SPECIES,Gray
+1136624,xxChimaphila menziesii,1136623,SPECIES,(R. Br.) Sprengel
+1140758,xxGeranium richardsonii,1140751,SPECIES,Fisch. & Trautv.
+1140759,xxGeranium robertianum,1140751,SPECIES,L.
+1140760,xxGeranium rotundifolium,1140751,SPECIES,L.
+1140761,xxGeranium viscosissimum,1140751,SPECIES,Fisch. & Mey.
+1139717,xxPodophyllum peltatum,1139715,SPECIES,L.
+1136903,xxAbutilon theophrasti,1136883,SPECIES,Medic.
+1136627,xxMoneses uniflora,1136626,SPECIES,(L.) A. Gray; (L.) Gray
+1136633,xxPyrola americana,1136632,SPECIES,(Sweet) Fern.
+1136637,xxPyrola chlorantha,1136632,SPECIES,Swartz
+1136638,xxPyrola elliptica,1136632,SPECIES,Nutt.
+1136639,xxPyrola grandiflora,1136632,SPECIES,Radius
+1136640,xxPyrola minor,1136632,SPECIES,L.
+1137947,xxEchinocystis lobata,1137944,SPECIES,(Michaux) T&G; (Michaux) Torrey & Gray
+1135588,xxSilene menziesii,1135583,SPECIES,Hooker
+1135589,xxSilene noctiflora,1135583,SPECIES,L.
+1135590,xxSilene parryi,1135583,SPECIES,(S. Wats.) C.L. Hitchcock & Maguire
+1135591,xxSilene repens,1135583,SPECIES,
+1138739,xxCannabis sativa,1138738,SPECIES,L.
+1134869,xxCampsis radicans,1134867,SPECIES,Seem
+1135971,xxBarbarea orthoceras,1135970,SPECIES,
+1137691,xxTriadenum tubulosum,1137690,SPECIES,(Walt.) Gleason
+1140841,xxMyriophyllum alterniflorum,1140840,SPECIES,DC.
+1140842,xxMyriophyllum elatinoides,1140840,SPECIES,Gaudich.
+1140844,xxMyriophyllum farwellii,1140840,SPECIES,Morong
+1138545,xxQuercus nigra,1080906,SPECIES,L.
+1138210,xxViola glabella,1084851,SPECIES,Nutt.
+1138213,xxViola nuttallii,1084851,SPECIES,Pursh
+1138214,xxViola orbiculata,1084851,SPECIES,Geyer
+1135601,xxStellaria crassifolia,1083061,SPECIES,Ehrk.
+1135990,xxCapsella bursa-pastoris,1135988,SPECIES,Medic.
+1135992,xxCardamine hirsuta,1135991,SPECIES,
+1136014,xxDescurainia sophia,1136012,SPECIES,(L.) Webb.
+1146477,xxDiscelium nudum,1146476,SPECIES,(Dicks.) Brid.
+1144382,xxRosa acicularis,1089403,SPECIES,
+1144383,xxRosa arkansana,1089403,SPECIES,Porter
+1147150,xxTaxus canadensis,1147148,SPECIES,Marsh
+1146768,xxSplachnum ampullaceum,1146767,SPECIES,L.
+1147812,xxLophosoria quadripinnata,1147811,SPECIES,
+1144386,xxRosa blanda,1089403,SPECIES,Aiton
+1144395,xxRubus chamaemorus,1144390,SPECIES,L.
+1144396,xxRubus deliciosus,1144390,SPECIES,Torr.
+1144398,xxRubus parviflorus,1144390,SPECIES,Nutt.
+1144399,xxRubus pubescens,1144390,SPECIES,Rafinesque-Schmaltz
+1144402,xxSanguisorba officinalis,1144401,SPECIES,L.
+1144409,xxSpiraea alba,1144408,SPECIES,DuRoi
+1144412,xxSpiraea betulifolia,1144408,SPECIES,Pall.
+1144415,xxSpiraea japonica,1144408,SPECIES,
+1144419,xxSpiraea tomentosa,1144408,SPECIES,L.
+1144804,xxAcer leucoderme,1144799,SPECIES,Small
+1144805,xxAcer macrophyllum,1144799,SPECIES,Pursh
+1144133,xxRhynchosia americana,1144131,SPECIES,Mill.
+1146054,xxSanicula marilandica,1146052,SPECIES,L.
+1146063,xxSium suave,1146060,SPECIES,
+1146525,xxFabronia pusilla,1146524,SPECIES,Raddi
+1144437,xxHeuchera cylindrica,1144436,SPECIES,Dougl.
+1144440,xxMitella nuda,1144439,SPECIES,L.
+1144138,xxRhynchosia difformis,1144131,SPECIES,DC.
+1144141,xxRhynchosia edulis,1144131,SPECIES,Griesenbach
+1144147,xxRhynchosia minima,1144131,SPECIES,(L.) DC.
+1144148,xxRhynchosia phaseoloides,1144131,SPECIES,DC.
+1144152,xxRhynchosia reticulata,1144131,SPECIES,(Sw.) Millsp.
+1144173,xxTrifolium hybridum,1092351,SPECIES,L.
+1147236,xxGinkgo biloba,1079158,SPECIES,L.
+1144764,xxGeocaulon lividum,1144763,SPECIES,(Richards) Fern.
+1144801,xxAcer campestre,1144799,SPECIES,L.
+1144802,xxAcer circinatum,1144799,SPECIES,Pursh
+1144813,xxAcer pensylvanicum,1144799,SPECIES,L.
+1144816,xxAcer pseudoplatanus,1144799,SPECIES,L.
+1144818,xxAcer rubrum,1144799,SPECIES,L.
+1144819,xxAcer saccharinum,1144799,SPECIES,L.
+1144820,xxAcer saccharum,1144799,SPECIES,Marsh; Marsh.; Marshall
+1144822,xxAcer spicatum,1144799,SPECIES,Lam.
+1146529,xxFissidens crassipes,1146527,SPECIES,Wils.
+1147591,xxPolystichum lonchitis,1147586,SPECIES,
+1147593,xxPolystichum munitum,1147586,SPECIES,
+1147594,xxPolystichum muricatum,1147586,SPECIES,
+1147595,xxPolystichum scopulinum,1147586,SPECIES,
+1147603,xxTectaria cicutaria,1147602,SPECIES,
+1147604,xxTectaria heracleifolia,1147602,SPECIES,
+1147608,xxWoodsia ilvensis,1147606,SPECIES,
+1147609,xxWoodsia obtusa,1147606,SPECIES,
+1146561,xxHookeria lucens,1146560,SPECIES,(L.) Sm.
+1146569,xxRhytidiadelphus squarrosus,1008832,SPECIES,(L.) Warnst.
+1144900,xxRhus trilobata,1144889,SPECIES,
+1144901,xxRhus typhina,1144889,SPECIES,L.
+1147886,xxPteridium aquilinum,1147885,SPECIES,
+1146876,xxChamaecyparis lawsoniana,1146861,SPECIES,Parl.
+1146877,xxChamaecyparis nootkatensis,1146861,SPECIES,(D. Don) Spach
+1146881,xxChamaecyparis thyoides,1146861,SPECIES,(L.) B.S.P.; (L.) BSP
+1148041,xxHymenophyllum microcarpum,1148036,SPECIES,
+1144264,xxAmelanchier alnifolia,1144263,SPECIES,Nutt.
+1144266,xxAmelanchier bartramiana,1144263,SPECIES,
+1144270,xxAronia melanocarpa,1144269,SPECIES,(Michaux) Willdenow
+1146378,xxEurhynchium rusciforme,1008644,SPECIES,(Neck.) Milde.
+1144286,xxDryas drummondii,1144285,SPECIES,Richardson
+1144290,xxDryas octopetala,1144285,SPECIES,L.
+1144294,xxFragaria chiloensis,1144293,SPECIES,
+1144302,xxGeum canadense,1144299,SPECIES,Jacquin
+1144304,xxGeum rivale,1144299,SPECIES,L.
+1144313,xxLuetkea pectinata,1144312,SPECIES,(Pursh) Kuntze
+1148204,xxPolypodium scouleri,1148191,SPECIES,
+1148211,xxPolypodium virginianum,1148191,SPECIES,
+1148232,xxAdiantum hispidulum,1077912,SPECIES,
+1146656,xxPlagiothecium undulatum,1146653,SPECIES,(L.) B.S.G.
+1146343,xxArchidium alternifolium,1146342,SPECIES,(Dicks.) Schimp.
+1146349,xxAulacomnium turgidum,1146345,SPECIES,
+1146352,xxBartramia ithyphylla,1146351,SPECIES,Brid.
+1145966,xxAngelica lucida,1145964,SPECIES,L.
+1146721,xxCampylostelium saxicola,1146720,SPECIES,(W&M) B.S.G.
+1147587,xxPolystichum acrostichoides,1147586,SPECIES,
+1147588,xxPolystichum andersonii,1147586,SPECIES,
+1146387,xxRhynchostegium murale,1146386,SPECIES,(Neck) B.S.G.
+1146401,xxBryum alpinum,1146399,SPECIES,Huds.
+1146678,xxPsilopilum laevigatum,1146677,SPECIES,
+1146680,xxAcaulon triquetrum,1146679,SPECIES,(Spruce) C. Mull.
+1146682,xxAloina rigida,1146681,SPECIES,(Hedw.) Kindb.
+1146695,xxEucladium verticillatum,1146694,SPECIES,
+1146407,xxBryum schleicheri,1146399,SPECIES,
+1146417,xxPohlia elongata,1146415,SPECIES,Hedw.
+1146421,xxRhodobryum roseum,1146420,SPECIES,(Weis) Limpr.
+1142940,xxCassia fistula,1090787,SPECIES,L.
+1142941,xxCassia grandis,1090787,SPECIES,L. f.
+1142943,xxCassia javanica,1090787,SPECIES,L.
+1142532,xxCeanothus sanguineus,1142530,SPECIES,Pursh
+1142533,xxCeanothus velutinus,1142530,SPECIES,Dougl.; Dougl. ex Hook.
+1142538,xxColubrina elliptica,1142537,SPECIES,(Sw.) Briz. & Stern.
+1142539,xxColubrina glandulosa,1142537,SPECIES,Perkins
+1142972,xxCercis canadensis,1142971,SPECIES,L.
+1146445,xxBrachydontium trichodes,1146444,SPECIES,(Weber) Bruch
+1146451,xxDicranella cerviculata,1009658,SUBGENUS,(Hedw.) Schimp.
+1146461,xxDicranum elongatum,1146438,SPECIES,Schleich.
+1146466,xxOreas martiana,1146465,SPECIES,
+1142749,xxSedum rhodanthum,1142727,SPECIES,
+1142753,xxSedum sexangulare,1142727,SPECIES,L.
+1142756,xxSedum stenopetalum,1142727,SPECIES,Pursh
+1142631,xxVitis arizonica,1142629,SPECIES,
+1146771,xxTetraplodon angustatus,1146770,SPECIES,(Hedw.) B.S.G.
+1143718,xxApios americana,1143717,SPECIES,
+1144531,xxArceuthobium americanum,1144529,SPECIES,Nutt.
+1144533,xxArceuthobium laricis,1144529,SPECIES,(Piper) St. John
+1144535,xxArceuthobium pusillum,1144529,SPECIES,Peck
+1144344,xxPotentilla glandulosa,1089130,SPECIES,Lindl.
+1144345,xxPotentilla gracilis,1089130,SPECIES,
+1144347,xxPotentilla hippiana,1089130,SPECIES,Lehm.
+1144351,xxPotentilla multifida,1089130,SPECIES,
+1144353,xxPotentilla norvegica,1089130,SPECIES,L.
+1142722,xxRhodiola rosea,1142721,SPECIES,L.
+1142728,xxSedum acre,1142727,SPECIES,L.
+1142729,xxSedum album,1142727,SPECIES,L.
+1144357,xxPotentilla plattensis,1089130,SPECIES,Nutt.
+1144359,xxPotentilla recta,1089130,SPECIES,L.
+1144362,xxPrunus avium,1144361,SPECIES,
+1144364,xxPrunus domestica,1144361,SPECIES,
+1144366,xxPrunus ilicifolia,1144361,SPECIES,
+1144368,xxPrunus pensylvanica,1144361,SPECIES,L. f.; L.f.
+1144369,xxPrunus serotina,1144361,SPECIES,Ehrenberg; Ehrhart
+1144372,xxPrunus virginiana,1144361,SPECIES,L.
+1145985,xxCicuta bulbifera,1145984,SPECIES,L.
+1145986,xxCicuta douglasii,1145984,SPECIES,(DC.) Coult. & Rose
+1145987,xxCicuta maculata,1145984,SPECIES,L.
+1144183,xxCassia bicapsularis,1090787,SPECIES,L.
+1144202,xxParnassia asarifolia,1144201,SPECIES,Vent.
+1144203,xxParnassia kotzebuei,1144201,SPECIES,
+1144207,xxParnassia parviflora,1144201,SPECIES,
+1142738,xxSedum hispanicum,1142727,SPECIES,L.
+1142741,xxSedum lanceolatum,1142727,SPECIES,Torr.
+1142747,xxSedum purpureum,1142727,SPECIES,Link
+1142748,xxSedum reflexum,1142727,SPECIES,L.
+1142759,xxSedum villosum,1142727,SPECIES,L.
+1146019,xxHeracleum lanatum,1146017,SPECIES,Michaux
+1146956,xxAbies balsamea,1146948,SPECIES,(L.) Mill.
+1146957,xxAbies bracteata,1146948,SPECIES,
+1146958,xxAbies concolor,1146948,SPECIES,Hoops
+1146960,xxAbies fraseri,1146948,SPECIES,(Pursh) Poir.
+1146961,xxAbies grandis,1146948,SPECIES,
+1146962,xxAbies lasiocarpa,1146948,SPECIES,
+1146963,xxAbies magnifica,1146948,SPECIES,
+1146966,xxAbies procera,1146948,SPECIES,Rehder
+1143827,xxMedicago lupulina,1091789,SPECIES,L.
+1145831,xxAralia californica,1145830,SPECIES,S. Wats.
+1145833,xxAralia nudicaulis,1145830,SPECIES,L.
+1145835,xxAralia racemosa,1145830,SPECIES,L.
+1145836,xxAralia spinosa,1145830,SPECIES,L.
+1143879,xxPsoralea argophylla,1143878,SPECIES,
+1143880,xxPsoralea cuspidata,1143878,SPECIES,
+1142853,xxRibes americanum,1142852,SPECIES,Mill.
+1142854,xxRibes aureum,1142852,SPECIES,Pursh
+1141031,xxPrunella vulgaris,1141029,SPECIES,L.
+1141041,xxScutellaria galericulata,1141040,SPECIES,L.
+1146218,xxEquisetum fluviatile,1146216,SPECIES,L.
+1146220,xxEquisetum hyemale,1146216,SPECIES,L.
+1143817,xxLupinus argenteus,1143815,SPECIES,Pursh
+1146227,xxEquisetum scirpoides,1146216,SPECIES,Michaux
+1146975,xxLarix laricina,1146974,SPECIES,(Du Roi) K.Koch; (DuRoi) K.Koch; C. Koch.
+1146976,xxLarix occidentalis,1146974,SPECIES,Nutt.
+1146978,xxPicea abies,1079181,SPECIES,
+1146982,xxPicea mariana,1079181,SPECIES,(Mill.) BSP
+1146985,xxPicea sitchensis,1079181,SPECIES,(Bong.) Carr.; Trauto & Mey
+1146996,xxPinus lambertiana,1146952,SPECIES,Dougl.
+1146999,xxPinus mugo,1146952,SPECIES,Turra
+1147000,xxPinus nigra,1146952,SPECIES,
+1147003,xxPinus resinosa,1146952,SPECIES,Aiton
+1147005,xxPinus strobus,1146952,SPECIES,L.
+1147006,xxPinus sylvestris,1146952,SPECIES,L.
+1141718,xxEpilobium clavatum,1141715,SPECIES,Trel.
+1141720,xxEpilobium hirsutum,1141715,SPECIES,L.
+1143847,xxOxytropis podocarpa,1091883,SPECIES,A. Gray
+1143851,xxOxytropis viscida,1091883,SPECIES,Nutt.
+1142859,xxRibes hudsonianum,1142852,SPECIES,Richard
+1142862,xxRibes missouriense,1142852,SPECIES,Nutt.; Nutt. ex Torr.
+1142864,xxRibes odoratum,1142852,SPECIES,
+1142866,xxRibes rotundifolium,1142852,SPECIES,
+1142867,xxRibes rubrum,1142852,SPECIES,L.
+1142868,xxRibes setosum,1142852,SPECIES,Lindl.
+1142870,xxRibes triste,1142852,SPECIES,Pall.
+1143911,xxTrifolium repens,1092351,SPECIES,L.
+1143916,xxVicia caroliniana,1143914,SPECIES,Walt.
+1143917,xxVicia cracca,1143914,SPECIES,L.
+1143918,xxVicia villosa,1143914,SPECIES,Roth.
+1143630,xxMimosa pigra,1143622,SPECIES,L.
+1143631,xxMimosa strigillosa,1143622,SPECIES,
+1141810,xxOenothera perennis,1141768,SPECIES,L.
+1146229,xxEquisetum sylvaticum,1146216,SPECIES,L.
+1147439,xxIsoetes butleri,1147435,SPECIES,Engelm.
+1147443,xxIsoetes flaccida,1147435,SPECIES,Shuttlew.
+1147446,xxIsoetes howellii,1147435,SPECIES,Engelm.
+1147448,xxIsoetes lacustris,1147435,SPECIES,Triana
+1147453,xxIsoetes nuttallii,1147435,SPECIES,A. Br.
+1147456,xxIsoetes orcuttii,1147435,SPECIES,A. A. Eaton
+1147460,xxIsoetes riparia,1147435,SPECIES,Engelm.; Engelm. ex A. Br.
+1147462,xxIsoetes saccharata,1147435,SPECIES,Engelm.
+1147464,xxIsoetes tuckermanii,1147435,SPECIES,A. Br. ex Engelm.
+1147465,xxIsoetes virginica,1147435,SPECIES,Pfeiffer
+1147547,xxCyclopeltis semicordata,1147546,SPECIES,
+1147549,xxCyrtomium falcatum,1147548,SPECIES,
+1147551,xxDryopteris arguta,1147550,SPECIES,
+1147552,xxDryopteris cristata,1147550,SPECIES,
+1147557,xxDryopteris fragrans,1147550,SPECIES,
+1147558,xxDryopteris goldiana,1147550,SPECIES,
+1147560,xxDryopteris ludoviciana,1147550,SPECIES,
+1147575,xxMatteuccia struthiopteris,1147573,SPECIES,
+1147577,xxOnoclea sensibilis,1147576,SPECIES,
+1147319,xxFossombronia pusilla,1147318,SPECIES,(L.) Dum.
+1147320,xxFossombronia wondraczekii,1147318,SPECIES,(Corda) Dum.
+1148309,xxPityrogramma austroamericana,1078059,SPECIES,
+1148329,xxCheilanthes covillei,1077955,SPECIES,
+1148330,xxCheilanthes feei,1077955,SPECIES,
+1148331,xxCheilanthes gracillima,1077955,SPECIES,
+1148332,xxCheilanthes lanosa,1077955,SPECIES,
+1148336,xxCheilanthes siliquosa,1077955,SPECIES,
+1148338,xxCheilanthes villosa,1077955,SPECIES,
+1148339,xxCheilanthes wrightii,1077955,SPECIES,
+1147337,xxTargionia hypophylla,1147336,SPECIES,L.
+1148005,xxDicranopteris flexuosa,1148003,SPECIES,
+1148006,xxDicranopteris linearis,1148003,SPECIES,
+1148007,xxDicranopteris pectinata,1148003,SPECIES,
+1147304,xxBucegia romanica,1147303,SPECIES,Radian
+1147310,xxRiccia frostii,1147308,SPECIES,Austin
+1147316,xxPeltolepis quadrata,1147315,SPECIES,(Sauter) K. Mull.
+1147615,xxAsplenium adiantum-nigrum,1147613,SPECIES,
+1147623,xxAsplenium macraei,1147613,SPECIES,
+1147624,xxAsplenium nidus,1147613,SPECIES,
+1147626,xxAsplenium platyneuron,1147613,SPECIES,
+1147629,xxAsplenium trichomanes,1147613,SPECIES,
+1147710,xxThelypteris palustris,1147709,SPECIES,
+1147711,xxThelypteris phegopteris,1147709,SPECIES,
+1147726,xxBlechnum orientale,1147714,SPECIES,
+1147672,xxGymnocarpium dryopteris,1147670,SPECIES,
+1147744,xxSadleria cyatheoides,1147743,SPECIES,
+1147752,xxWoodwardia areolata,1147751,SPECIES,
+1147754,xxWoodwardia fimbriata,1147751,SPECIES,
+1147773,xxCyathea andina,1147770,SPECIES,
+1147774,xxCyathea arborea,1147770,SPECIES,
+1148067,xxMarsilea quadrifolia,1148064,SPECIES,
+1148179,xxMicrogramma lycopodioides,1148178,SPECIES,
+1148194,xxPolypodium hesperium,1148191,SPECIES,
+1148489,xxBotrychium dissectum,1078876,SPECIES,
+1148490,xxBotrychium lanceolatum,1078876,SPECIES,
+1148491,xxBotrychium lunaria,1078876,SPECIES,
+1148492,xxBotrychium simplex,1078876,SPECIES,
+1148493,xxBotrychium virginianum,1078876,SPECIES,
+1136515,xxArctostaphylos uva-ursi,1136511,SPECIES,(L.) Sprengel
+1131452,xxSparganium eurycarpum,1131445,SPECIES,Engelm.; Englm.
+1135837,xxRumex acetosella,1083856,SPECIES,L.
+1146282,xxCalliergon cuspidatum,1146279,SPECIES,(L.) Kindb.
+1130102,xxPotamogeton crispus,1130100,SPECIES,L.
+1144414,xxSpiraea douglasii,1144408,SPECIES,Hooker
+1139723,xxActaea pachypoda,1139722,SPECIES,Ell.
+1100306,xxPolypremum procumbens,1100305,SPECIES,L.
+1139335,xxBrasenia schreberi,1139334,SPECIES,Gmelin
+1137526,xxSalix petiolaris,1137471,SPECIES,J.E. Sm.
+1136121,xxThlaspi arvense,1136120,SPECIES,L.
+1135972,xxBarbarea vulgaris,1135970,SPECIES,
+1136013,xxDescurainia richardsonii,1136012,SPECIES,
+1146955,xxAbies amabilis,1146948,SPECIES,(Dougl.) Forbes
+1147002,xxPinus ponderosa,1146952,SPECIES,Dougl.; Dougl. ex Laws.; Laws.
+1087799,xxWeinmannia pinnata,1087798,SPECIES,L.
+1134151,xxSolanum dulcamara,1134144,SPECIES,L.
+1132501,xxBaccharis halimifolia,1132500,SPECIES,
+1133251,xxNerium oleander,1133249,SPECIES,
+1132650,xxCoreopsis lanceolata,1132648,SPECIES,L.
+1140756,xxGeranium maculatum,1140751,SPECIES,L.
+1139822,xxThalictrum occidentale,1139818,SPECIES,A. Gray
+1132671,xxEchinacea angustifolia,1132670,SPECIES,
+1133776,xxMertensia virginica,1133772,SPECIES,(L.) Pers.
+1133286,xxPlumeria rubra,1133285,SPECIES,
+1132696,xxHelenium autumnale,1132695,SPECIES,
+1133042,xxLonicera involucrata,1133039,SPECIES,(Richards) Banks
+1132738,xxThelesperma simplicifolium,1132736,SPECIES,A. Gray
+1132900,xxLactuca canadensis,1132899,SPECIES,L.
+1132581,xxCentaurea americana,1132580,SPECIES,
+1133321,xxTabernaemontana citrifolia,1133319,SPECIES,L.
+1142856,xxRibes glandulosum,1142852,SPECIES,Grauer
+1141717,xxEpilobium angustifolium,1141715,SPECIES,L.
+1133690,xxGelsemium sempervirens,1133688,SPECIES,
+1137024,xxMalvastrum americanum,1137023,SPECIES,(L.) Torrey
+1135439,xxAmaranthus palmeri,1135433,SPECIES,
+1147628,xxAsplenium resiliens,1147613,SPECIES,
+1133946,xxPlantago maritima,1100211,SPECIES,L.
+1139186,xxMagnolia acuminata,1139185,SPECIES,L.
+1147309,xxRiccia cavernosa,1147308,SPECIES,Hoffm.
