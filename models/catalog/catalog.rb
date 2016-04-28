@@ -6,7 +6,7 @@ class Catalog < ActiveRecord::Base
   self.primary_key = :mkey
 
   # override decimal set
-  set_integer_columns :mkey
+  set_integer_columns :mkey, :m_id
 
   alias_attribute :collection, :category1
   alias_attribute :specimen_nature, :materials
