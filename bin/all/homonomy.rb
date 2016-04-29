@@ -3,12 +3,14 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
+species = Taxon.where(rank: "SPECIES")
+
 count = 0
-pbar = ProgressBar.new("HOMONYMY", Taxon.count)
+pbar = ProgressBar.new("HOMONYMY", species.count)
 
 CSV.open(output_dir(__FILE__) + "/homonymy.csv", 'w') do |csv|
   csv << ["speckey", "scientific_name"]
-  Taxon.find_each do |t|
+  species.find_each do |t|
     count += 1
     pbar.set(count)
     if t.collection != t.parent.collection
