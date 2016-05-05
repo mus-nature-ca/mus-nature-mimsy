@@ -12,6 +12,7 @@ gem 'biodiversity'
 gem 'thin'
 gem 'require_all'
 gem 'progressbar'
+gem 'rubyzip'
 
 group :production do
 end

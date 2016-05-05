@@ -1,4 +1,5 @@
 class Catalog < ActiveRecord::Base
+
   # specify schema and table name
   self.table_name = :catalogue
 
@@ -13,6 +14,7 @@ class Catalog < ActiveRecord::Base
   alias_attribute :acquisition_number, :credit_line
   alias_attribute :scientific_name, :item_name
   alias_attribute :collection_code, :id_prefix
+  alias_attribute :catalog_number, :id_number
 
   validates :id_number, presence: true
   validates :category1, presence: true
@@ -114,13 +116,12 @@ class Catalog < ActiveRecord::Base
   has_many :vessels, through: :catalog_vessels, source: :vessel
   has_many :catalog_vessels, foreign_key: "mkey"
 
-  #TODO: determination histories held in both CatalogName and CatalogTaxon (?)
-  def determinations
-    names
-  end
-
   def self.find_by_catalog(id)
     self.find_by_id_number(id)
+  end
+
+  def determinations
+    names
   end
 
 end

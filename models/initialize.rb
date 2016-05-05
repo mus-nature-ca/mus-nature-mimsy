@@ -14,6 +14,9 @@ module Sinatra
             :password => app.settings.password
           )
           require_all 'models'
+          ActiveRecord::Base.class_eval do
+            include ModelUtility
+          end
         end
 
         ActiveSupport.on_load(:active_record) do
