@@ -25,22 +25,31 @@ optparse = OptionParser.new do |opts|
 end.parse!
 
 dt = DateTime.now.strftime("%Y-%d-%m-%H-%M")
+exclusions = ["CatalogAgent"]
 
 if options[:collection]
   catalogs = Catalog.where(collection: options[:collection])
-  File.write(output_dir(__FILE__) + "/catalog-#{dt}.csv", catalogs.to_csv)
+  File.write(output_dir(__FILE__) + "/catalog.csv", catalogs.to_csv)
 elsif options[:all]
+  Dir.mkdir(output_dir(__FILE__) + "/export/#{dt}")
   models = ActiveRecord::Base.descendants
-  pbar = ProgressBar.new("EXPORT", models.size)
   count = 0
   models.each do |model|
-    count += 1
-    pbar.set(count)
-    File.write(output_dir(__FILE__) + "/export/#{model}.csv", model.to_csv)
+    next if exclusions.include? model.name
+    pbar = ProgressBar.new("#{model}", model.count)
+    count = 0
+    CSV.open(output_dir(__FILE__) + "/export/#{dt}/#{model}.csv", 'w') do |csv|
+      csv << model.attribute_names
+      model.find_each do |row|
+        count += 1
+        pbar.set(count)
+        csv << row.attributes.values
+      end
+    end
+    pbar.finish
   end
-  directoryToZip = output_dir(__FILE__) + "/export"
-  outputFile = output_dir(__FILE__) + "/export-#{dt}.zip"
-  zf = ZipFileGenerator.new(directoryToZip, outputFile)
+  dir_zip = output_dir(__FILE__) + "/export/#{dt}"
+  output_file = output_dir(__FILE__) + "/export/#{dt}.zip"
+  zf = ZipFileGenerator.new(dir_zip, output_file)
   zf.write()
-  pbar.finish
 end

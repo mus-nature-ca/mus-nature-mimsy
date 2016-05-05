@@ -3,7 +3,7 @@ class CatalogAgent < ActiveRecord::Base
   self.table_name = :items_people_all
 
   # specify primary key name
-  self.primary_keys = :mkey, :link_id
+  self.primary_keys = :authlinkkey, :mkey, :link_id
 
   # override decimal set
   set_integer_columns :mkey, :link_id
