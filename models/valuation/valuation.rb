@@ -8,6 +8,9 @@ class Valuation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :trans_id, :m_id
 
+  custom_attribute :id, :trans_id
+  custom_attribute :catalog_id, :m_id
+
   belongs_to :catalog, primary_key: "trans_id", foreign_key: "m_id"
 
   has_many :media, through: :valuation_media, source: :medium

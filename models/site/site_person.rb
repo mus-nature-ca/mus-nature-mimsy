@@ -8,6 +8,9 @@ class SitePerson < ActiveRecord::Base
   # override decimal set
   set_integer_columns :skey, :link_id
 
+  custom_attribute :site_id, :skey
+  custom_attribute :person_id, :link_id
+
   belongs_to :site, foreign_key: "skey"
   belongs_to :person, foreign_key: "link_id"
 end

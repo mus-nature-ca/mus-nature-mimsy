@@ -8,6 +8,9 @@ class DamageMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :dkey, :mediakey
 
+  custom_attribute :damage_id, :dkey
+  custom_attribute :medium_id, :mediakey
+
   belongs_to :damage, foreign_key: "dkey"
   belongs_to :media, foreign_key: "mediakey"
 end

@@ -8,6 +8,9 @@ class CatalogSubject < ActiveRecord::Base
   # override decimal set
   set_integer_columns :mkey, :subkey
 
+  custom_attribute :catalog_id, :mkey
+  custom_attribute :subject_id, :subkey
+
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :subject, foreign_key: "subkey"
 end

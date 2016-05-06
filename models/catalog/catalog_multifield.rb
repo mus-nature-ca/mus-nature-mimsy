@@ -8,5 +8,7 @@ class CatalogMultifield < ActiveRecord::Base
   # override decimal set
   set_integer_columns :mkey, :mkey
 
+  custom_attribute :catalog_id, :mkey
+
   belongs_to :catalog, foreign_key: "mkey"
 end

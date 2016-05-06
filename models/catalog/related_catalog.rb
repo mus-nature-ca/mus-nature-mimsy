@@ -8,5 +8,8 @@ class RelatedCatalog < ActiveRecord::Base
   # override decimal set
   set_integer_columns :mkey
 
+  custom_attribute :catalog_id, :mkey
+  custom_attribute :related_catalog_id, :related_mkey
+
   belongs_to :catalog, primary_key: "related_mkey", foreign_key: "mkey"
 end

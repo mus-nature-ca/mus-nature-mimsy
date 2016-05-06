@@ -4,4 +4,6 @@ class Reproduction < ActiveRecord::Base
 
   # specify primary key name
   self.primary_key = :rreqkey
+
+  custom_attribute :id, :rreqkey
 end

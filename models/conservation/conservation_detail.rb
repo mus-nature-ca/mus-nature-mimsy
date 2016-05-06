@@ -8,5 +8,7 @@ class ConservationDetail < ActiveRecord::Base
   # override decimal set
   set_integer_columns :consmatkey, :conskey
 
+  custom_attribute :conservation_id, :conskey
+
   belongs_to :conservation, foreign_key: "conskey"
 end

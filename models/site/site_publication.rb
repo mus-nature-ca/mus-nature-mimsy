@@ -8,6 +8,9 @@ class SitePublication < ActiveRecord::Base
   # override decimal set
   set_integer_columns :skey, :pkey
 
+  custom_attribute :site_id, :skey
+  custom_attribute :publication_id, :pkey
+
   belongs_to :site, foreign_key: "skey"
   belongs_to :publication, foreign_key: "pkey"
 end

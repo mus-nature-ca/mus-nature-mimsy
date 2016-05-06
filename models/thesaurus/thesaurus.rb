@@ -5,6 +5,9 @@ class Thesaurus < ActiveRecord::Base
   # specify primary key name
   self.primary_key = :class_id
 
+  custom_attribute :id, :class_id
+  custom_attribute :parent_id, :broder_id
+
   has_many :catalogs, through: :catalog_terms, source: :catalog
   has_many :catalg_terms, foreign_key: "class_id"
 

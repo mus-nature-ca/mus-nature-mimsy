@@ -6,7 +6,9 @@ class Disposal < ActiveRecord::Base
   self.primary_key = :akey
 
   # override decimal set
-  set_integer_columns :akey
+  set_integer_columns :akey, :record_view
+
+  custom_attribute :id, :akey
 
   has_many :catalogs, through: :disposal_catalogs, source: :catalog
   has_many :disposal_catalogs, foreign_key: "akey"

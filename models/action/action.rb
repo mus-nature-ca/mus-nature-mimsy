@@ -4,4 +4,6 @@ class Action < ActiveRecord::Base
 
   # specify primary key name
   self.primary_key = :actkey
+
+  custom_attribute :id, :actkey
 end

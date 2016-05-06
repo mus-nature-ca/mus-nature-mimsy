@@ -8,6 +8,9 @@ class CatalogTerm < ActiveRecord::Base
   # override decimal set
   set_integer_columns :mkey, :class_id
 
+  custom_attribute :catalog_id, :mkey
+  custom_attribute :thesaurus_id, :class_id
+
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :thesaurus, foreign_key: "class_id"
 end

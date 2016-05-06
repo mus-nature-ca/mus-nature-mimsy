@@ -8,8 +8,9 @@ class TaxonVariation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :taxvarkey, :speckey
 
-  alias_attribute :scientific_name, :variation
-  
+  custom_attribute :taxon_id, :speckey
+  custom_attribute :scientific_name, :variation
+
   belongs_to :taxon, foreign_key: "speckey"
 
   def self.search_by_prefix (prefix)

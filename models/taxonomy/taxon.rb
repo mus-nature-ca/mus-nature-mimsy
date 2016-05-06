@@ -8,9 +8,11 @@ class Taxon < ActiveRecord::Base
   # override decimal set
   set_integer_columns :speckey, :broader_key1
 
-  alias_attribute :collection, :taxon_name
-  alias_attribute :rank, :level_text
-  alias_attribute :authority, :source
+  custom_attribute :id, :speckey
+  custom_attribute :parent_id, :broader_key1
+  custom_attribute :collection, :taxon_name
+  custom_attribute :rank, :level_text
+  custom_attribute :authority, :source
 
   validates :taxon_name, presence: true
 

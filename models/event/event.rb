@@ -8,6 +8,8 @@ class Event < ActiveRecord::Base
   # override decimal set
   set_integer_columns :vkey
 
+  custom_attribute :id, :vkey
+
   has_many :catalogs, through: :catalog_events, source: :catalog
   has_many :catalog_events, foreign_key: "vkey"
   

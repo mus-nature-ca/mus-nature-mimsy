@@ -7,6 +7,9 @@ class CatalogFacility < ActiveRecord::Base
 
   # override decimal set
   set_integer_columns :mkey, :lockey
+  
+  custom_attribute :catalog_id, :mkey
+  custom_attribute :facility_id, :lockey
 
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :facility, foreign_key: "lockey"

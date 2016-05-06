@@ -8,5 +8,7 @@ class SiteSurvey < ActiveRecord::Base
   # override decimal set
   set_integer_columns :skey
 
+  custom_attribute :id, :skey
+
   belongs_to :site, foreign_key: "skey"
 end

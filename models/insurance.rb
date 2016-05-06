@@ -4,4 +4,6 @@ class Insurance < ActiveRecord::Base
 
   # specify primary key name
   self.primary_key = :inskey
+
+  custom_attribute :id, :inskey
 end

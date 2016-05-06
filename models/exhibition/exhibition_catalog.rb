@@ -8,6 +8,9 @@ class ExhibitionCatalog < ActiveRecord::Base
   # override decimal set
   set_integer_columns :ekey, :m_id
 
+  custom_attribute :exhibition_id, :ekey
+  custom_attribute :catalog_id, :m_id
+
   belongs_to :exhibition, foreign_key: "ekey"
   belongs_to :catalog, foreign_key: "m_id"
 end

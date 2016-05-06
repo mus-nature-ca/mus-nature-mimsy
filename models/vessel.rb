@@ -5,6 +5,8 @@ class Vessel < ActiveRecord::Base
   # specify primary key name
   self.primary_key = :vbkey
 
+  custom_attribute :id, :vbkey
+
   has_many :catalogs, through: :catalog_vessels, source: :catalog
   has_many :catalog_vessels, foreign_key: "vbkey"
 end

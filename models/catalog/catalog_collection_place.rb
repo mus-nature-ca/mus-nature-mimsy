@@ -8,6 +8,9 @@ class CatalogCollectionPlace < ActiveRecord::Base
   # override decimal set
   set_integer_columns :mkey, :placekey
 
+  custom_attribute :catalog_id, :mkey
+  custom_attribute :place_id, :placekey
+
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :place, foreign_key: "placekey"
 end

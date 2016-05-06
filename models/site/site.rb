@@ -8,6 +8,8 @@ class Site < ActiveRecord::Base
   # override decimal set
   set_integer_columns :skey
 
+  custom_attribute :id, :skey
+
   validates :site_id, presence: true
 
   has_many :catalogs, through: :catalog_sites, source: :catalog

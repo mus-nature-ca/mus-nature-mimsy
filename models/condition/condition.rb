@@ -10,6 +10,9 @@ class Condition < ActiveRecord::Base
 
   validates :m_id, presence: true
 
+  custom_attribute :id, :condkey
+  custom_attribute :catalog_id, :m_id
+
   belongs_to :catalog, primary_key: "condkey", foreign_key: "m_id"
 
   has_many :media, through: :condition_media, source: :medium

@@ -4,4 +4,6 @@ class Dispatch < ActiveRecord::Base
 
   # specify primary key name
   self.primary_key = :dispkey
+
+  custom_attribute :id, :dispkey
 end

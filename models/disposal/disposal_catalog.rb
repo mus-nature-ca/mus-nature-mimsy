@@ -8,6 +8,9 @@ class DisposalCatalog < ActiveRecord::Base
   # override decimal set
   set_integer_columns :akey, :m_id
 
+  custom_attribute :disposal_id, :akey
+  custom_attribute :catalog_id, :m_id
+
   belongs_to :disposal, foreign_key: "akey"
   belongs_to :catalog, foreign_key: "m_id"
 end

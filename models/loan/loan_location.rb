@@ -8,6 +8,8 @@ class LoanLocation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :lkey, :loc_id
 
+  custom_attribute :loan_id, :lkey
+
   belongs_to :loan, foreign_key: "lkey"
   belongs_to :location, foreign_key: "loc_id"
 end

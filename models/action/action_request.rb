@@ -4,4 +4,6 @@ class ActionRequest < ActiveRecord::Base
 
   # specify primary key name
   self.primary_key = :actreqkey
+
+  custom_attribute :id, :actreqkey
 end

@@ -6,10 +6,12 @@ class Person < ActiveRecord::Base
   self.primary_key = :link_id
 
   # override decimal set
-  set_integer_columns :link_id
+  set_integer_columns :link_id, :record_view
 
   # override boolean set
   set_string_columns :gender
+
+  custom_attribute :id, :link_id
 
   belongs_to :catalog_collector, foreign_key: "link_id"
   

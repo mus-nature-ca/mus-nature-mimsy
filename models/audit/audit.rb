@@ -4,4 +4,6 @@ class Audit < ActiveRecord::Base
 
   # specify primary key name
   self.primary_key = :audkey
+
+  custom_attribute :id, :audkey
 end

@@ -4,4 +4,6 @@ class Instruction < ActiveRecord::Base
 
   # specify primary key name
   self.primary_key = :instructkey
+
+  custom_attribute :id, :instructkey
 end

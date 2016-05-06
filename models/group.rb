@@ -4,4 +4,6 @@ class Group < ActiveRecord::Base
 
   # specify primary key name
   self.primary_key = :group_id
+
+  custom_attribute :id, :group_id
 end

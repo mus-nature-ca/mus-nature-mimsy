@@ -39,7 +39,7 @@ elsif options[:all]
     pbar = ProgressBar.new("#{model}", model.count)
     count = 0
     CSV.open(output_dir(__FILE__) + "/export/#{dt}/#{model}.csv", 'w') do |csv|
-      csv << model.attribute_names
+      csv << model.custom_attribute_names
       model.find_each do |row|
         count += 1
         pbar.set(count)

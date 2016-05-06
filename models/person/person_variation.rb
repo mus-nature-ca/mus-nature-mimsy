@@ -7,6 +7,9 @@ class PersonVariation < ActiveRecord::Base
 
   # override decimal set
   set_integer_columns :link_id
-  
+
+  custom_attribute :id, :nvarkey
+  custom_attribute :person_id, :link_id
+
   belongs_to :person, foreign_key: "link_id"
 end

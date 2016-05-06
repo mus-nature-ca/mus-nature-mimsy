@@ -11,6 +11,8 @@ class Publication < ActiveRecord::Base
   # override boolean set
   set_string_columns :illustrated
 
+  custom_attribute :id, :pkey
+
   has_many :catalogs, through: :catalog_publications, source: :catalog
   has_many :catalog_publications, foreign_key: "pkey"
 

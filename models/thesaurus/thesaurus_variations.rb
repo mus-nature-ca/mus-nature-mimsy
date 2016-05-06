@@ -7,6 +7,8 @@ class ThesaurusVariation < ActiveRecord::Base
 
   # override decimal set
   set_integer_columns :class_id
-  
+
+  custom_attribute :thesaurus_id, :class_id
+
   belongs_to :thesaurus, foreign_key: "class_id"
 end

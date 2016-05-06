@@ -8,6 +8,9 @@ class LoanMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :lkey, :mediakey
 
+  custom_attribute :loan_id, :lkey
+  custom_attribute :medium_id, :mediakey
+
   belongs_to :loan, foreign_key: "lkey"
   belongs_to :medium, foreign_key: "mediakey"
 end

@@ -4,4 +4,6 @@ class Entry < ActiveRecord::Base
 
   # specify primary key name
   self.primary_key = :ikey
+
+  custom_attribute :id, :ikey
 end

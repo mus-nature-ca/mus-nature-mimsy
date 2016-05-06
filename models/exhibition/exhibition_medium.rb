@@ -8,6 +8,9 @@ class ExhibitionMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :ekey, :mediakey
 
+  custom_attribute :exhibition_id, :ekey
+  custom_attribute :medium_id, :mediakey
+
   belongs_to :exhibition, foreign_key: "ekey"
   belongs_to :media, foreign_key: "mediakey"
 end

@@ -8,6 +8,9 @@ class DisposalMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :akey, :mediakey
 
+  custom_attribute :disposal_id, :akey
+  custom_attribute :medium_id, :mediakey
+
   belongs_to :disposal, foreign_key: "akey"
   belongs_to :medium, foreign_key: "mediakey"
 end

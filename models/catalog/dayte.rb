@@ -8,5 +8,8 @@ class Dayte < ActiveRecord::Base
   # override decimal set
   set_integer_columns :mkey
 
+  custom_attribute :id, :timekey
+  custom_attribute :catalog_id, :mkey
+
   belongs_to :catalog, foreign_key: "mkey"
 end

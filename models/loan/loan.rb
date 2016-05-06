@@ -8,6 +8,8 @@ class Loan < ActiveRecord::Base
   # override decimal set
   set_integer_columns :lkey
 
+  custom_attribute :id, :lkey
+
   has_many :catalogs, through: :loan_catalogs, source: :catalog
   has_many :loan_catalogs, foreign_key: "lkey"
 

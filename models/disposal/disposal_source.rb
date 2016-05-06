@@ -8,6 +8,9 @@ class DisposalSource < ActiveRecord::Base
   # override decimal set
   set_integer_columns :akey, :link_id
 
+  custom_attribute :disposal_id, :akey
+  custom_attribute :person_id, :link_id
+
   belongs_to :disposal, foreign_key: "akey"
   belongs_to :person, foreign_key: "link_id"
 end

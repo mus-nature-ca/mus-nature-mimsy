@@ -10,6 +10,9 @@ class Conservation < ActiveRecord::Base
 
   validates :m_id, presence: true
 
+  custom_attribute :id, :conskey
+  custom_attribute :catalog_id, :m_id
+
   belongs_to :catalog, primary_key: "conskey", foreign_key: "m_id"
   
   has_many :details, class_name: "ConservationDetail", foreign_key: "conskey"

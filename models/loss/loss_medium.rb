@@ -8,6 +8,9 @@ class LossMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :losskey, :mediakey
 
+  custom_attribute :loss_id, :losskey
+  custom_attribute :medium_id, :mediakey
+
   belongs_to :loss, foreign_key: "losskey"
   belongs_to :media, foreign_key: "mediakey"
 end

@@ -8,10 +8,12 @@ class CatalogTaxon < ActiveRecord::Base
   # override decimal set
   set_integer_columns :mkey, :speckey
 
-  alias_attribute :identifier, :attributor
-  alias_attribute :date_identified, :attrib_date
-  alias_attribute :scientific_name, :taxonomy
-  alias_attribute :type_status, :affiliation
+  custom_attribute :catalog_id, :mkey
+  custom_attribute :taxon_id, :speckey
+  custom_attribute :identifier, :attributor
+  custom_attribute :date_identified, :attrib_date
+  custom_attribute :scientific_name, :taxonomy
+  custom_attribute :type_status, :affiliation
 
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :taxon, foreign_key: "speckey"

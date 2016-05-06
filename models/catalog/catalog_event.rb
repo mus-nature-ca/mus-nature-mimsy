@@ -7,6 +7,9 @@ class CatalogEvent < ActiveRecord::Base
 
   # override decimal set
   set_integer_columns :mkey, :vkey
+  
+  custom_attribute :catalog_id, :mkey
+  custom_attribute :event_id, :vkey
 
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :event, foreign_key: "vkey"

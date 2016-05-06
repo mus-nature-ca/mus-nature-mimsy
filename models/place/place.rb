@@ -8,6 +8,8 @@ class Place < ActiveRecord::Base
   # override decimal set
   set_integer_columns :broader_key
 
+  custom_attribute :id, :placekey
+
   belongs_to :parent, class_name: "Place", foreign_key: "broader_key"
 
   has_many :children, class_name: "Place", foreign_key: "broader_key"

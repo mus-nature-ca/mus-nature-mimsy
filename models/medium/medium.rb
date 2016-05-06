@@ -23,9 +23,6 @@ class Medium < ActiveRecord::Base
   has_many :damages, through: :damage_media, source: :damage
   has_many :damage_media, foreign_key: "mediakey"
 
-  has_many :hazards, through: :hazard_media, source: :hazard
-  has_many :hazard_media, foreign_key: "mediakey"
-
   has_many :losses, through: :loss_media, source: :loss
   has_many :loss_media, foreign_key: "mediakey"
 

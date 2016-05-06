@@ -8,6 +8,9 @@ class SiteMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :skey, :mediakey
 
+  custom_attribute :site_id, :skey
+  custom_attribute :medium_id, :mediakey
+
   belongs_to :site, foreign_key: "skey"
   belongs_to :medium, foreign_key: "mediakey"
 end

@@ -8,6 +8,9 @@ class PlaceSite < ActiveRecord::Base
   # override decimal set
   set_integer_columns :skey, :placekey
 
+  custom_attribute :place_id, :placekey
+  custom_attribute :site_id, :skey
+
   belongs_to :site, foreign_key: "skey"
   belongs_to :place, foreign_key: "placekey"
 end

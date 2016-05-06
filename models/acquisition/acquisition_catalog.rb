@@ -8,7 +8,8 @@ class AcquisitionCatalog < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id
 
-  alias_attribute :mkey, :m_id
+  custom_attribute :catalog_id, :m_id
+  custom_attribute :acquisition_id, :akey
 
   validates :id_number, presence: true
 

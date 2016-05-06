@@ -9,12 +9,13 @@ class Catalog < ActiveRecord::Base
   # override decimal set
   set_integer_columns :mkey, :m_id
 
-  alias_attribute :collection, :category1
-  alias_attribute :specimen_nature, :materials
-  alias_attribute :acquisition_number, :credit_line
-  alias_attribute :scientific_name, :item_name
-  alias_attribute :collection_code, :id_prefix
-  alias_attribute :catalog_number, :id_number
+  custom_attribute :id, :mkey
+  custom_attribute :collection, :category1
+  custom_attribute :specimen_nature, :materials
+  custom_attribute :acquisition_number, :credit_line
+  custom_attribute :scientific_name, :item_name
+  custom_attribute :collection_code, :id_prefix
+  custom_attribute :catalog_number, :id_number
 
   validates :id_number, presence: true
   validates :category1, presence: true
