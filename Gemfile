@@ -11,7 +11,7 @@ gem 'rest-client'
 gem 'biodiversity'
 gem 'thin'
 gem 'require_all'
-gem 'progressbar'
+gem 'ruby-progressbar'
 gem 'rubyzip'
 
 group :production do

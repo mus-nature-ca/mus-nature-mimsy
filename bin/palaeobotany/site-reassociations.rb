@@ -4,9 +4,7 @@ require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
 catalogs = Catalog.where("id_number LIKE 'CMN%' AND place_collected LIKE '%McAbee%'")
-
-pbar = ProgressBar.new("NEW-SITES", catalogs.count)
-count = 0
+pbar = ProgressBar.create(title: "NEW-SITES", total: catalogs.count, autofinish: false, format: '%t %b>> %i| %e')
 
 new_site = Site.find_by_site_id("P8461")
 
@@ -23,8 +21,7 @@ CSV.open(output_dir(__FILE__) + "/site-reassociations.csv", 'w') do |csv|
       site.reload
       site.destroy if site.catalogs.empty?
     end
-    count += 1
-    pbar.set(count)
+    pbar.increment
   end
 end
 pbar.finish

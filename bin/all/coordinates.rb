@@ -4,8 +4,7 @@ require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
 @skeys = []
-count = 0
-pbar = ProgressBar.new("COORDINATES", Site.count)
+pbar = ProgressBar.create(title: "Coordinates", total: Site.count, autofinish: false, format: '%t %b>> %i| %e')
 
 def add_record(csv, item)
   if !@skeys.include?(item.skey)
@@ -17,8 +16,7 @@ end
 CSV.open(output_dir(__FILE__) + "/coordinates.csv", 'w') do |csv|
   csv << ["skey", "site_id", "start_latitude", "start_longitude", "start_latitude_dec", "start_longitude_dec"]
   Site.find_each do |item|
-    count += 1
-    pbar.set(count)
+    pbar.increment
     lat = item.start_latitude
     lng = item.start_longitude
     lat_d = item.start_latitude_dec ? item.start_latitude_dec.to_f : nil

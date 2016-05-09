@@ -3,18 +3,16 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-count = 0
-pbar = ProgressBar.new("MISSING", Catalog.count)
+pbar = ProgressBar.create(title: "Missing", total: Catalog.count, autofinish: false, format: '%t %b>> %i| %e')
 
 CSV.open(output_dir(__FILE__) + "/missing-taxonomy.csv", 'w') do |csv|
   csv << ["mkey", "Collection", "ID Number"]
   Catalog.find_each do |obj|
-    count += 1
-    pbar.set(count)
+    pbar.increment
     next if obj.legal_status != "PERMANENT COLLECTION"
-    next if obj.names.map(&:scientific_name).compact.empty?
-    next if obj.scientific_name == "TOP"
     next if !obj.taxa.empty?
+    next if obj.scientific_name == "TOP"
+    next if obj.names.map(&:scientific_name).compact.empty?
     csv << [obj.mkey, obj.collection, obj.id_number]
   end
 end

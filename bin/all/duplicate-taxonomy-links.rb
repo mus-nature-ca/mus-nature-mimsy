@@ -4,8 +4,7 @@ require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
 dup_list = CatalogTaxon.select(:mkey, :speckey).group(:mkey,:speckey).having("count(*) > 1")
-pbar = ProgressBar.new("DUPS", dup_list.length)
-count = 0
+pbar = ProgressBar.create(title: "Duplicates", total: dupl_list.length, autofinish: false, format: '%t %b>> %i| %e')
 
 CSV.open(output_dir(__FILE__) + "/duplicate-taxonomy-links.csv", 'w') do |csv|
   cols = CatalogTaxon.columns.map(&:name)
@@ -28,8 +27,7 @@ CSV.open(output_dir(__FILE__) + "/duplicate-taxonomy-links.csv", 'w') do |csv|
         csv << attribute_set.first.values.to_a
       end
     end
-    count += 1
-    pbar.set(count)
+    pbar.increment
     
   end
 end

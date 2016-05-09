@@ -5,15 +5,12 @@ include Sinatra::Mimsy::Helpers
 
 collection = "Botany"
 xxtaxa = Taxon.search_by_prefix('xx')
-
-pbar = ProgressBar.new("XX-NAMES", xxtaxa.count)
-count = 0
+pbar = ProgressBar.create(title: "XX-NAMES", total: xxtaxa.count, autofinish: false, format: '%t %b>> %i| %e')
 
 CSV.open(output_dir(__FILE__) + "/xx-taxa-deletions-nocatalog.csv", 'w') do |csv|
   csv << ["speckey", "Scientific Name", "Author/Date", "Parent", "Level Name"]
   xxtaxa.each do |xx|
-    count += 1
-    pbar.set(count)
+    pbar.increment
 
     next if xx.collection != collection
     next if !xx.leaf?

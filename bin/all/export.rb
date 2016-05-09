@@ -25,7 +25,7 @@ optparse = OptionParser.new do |opts|
 end.parse!
 
 dt = DateTime.now.strftime("%Y-%d-%m-%H-%M")
-exclusions = ["CatalogAgent"]
+exclusions = ["AuthorityLinks","CatalogAgent"]
 
 if options[:collection]
   catalogs = Catalog.where(collection: options[:collection])
@@ -34,16 +34,14 @@ elsif options[:all]
   start = Time.now
   Dir.mkdir(output_dir(__FILE__) + "/export/#{dt}")
   models = ActiveRecord::Base.descendants
-  count = 0
   models.each do |model|
     next if exclusions.include? model.name
-    pbar = ProgressBar.new("#{model}", model.count)
+    pbar = ProgressBar.create(title: "#{model}", total: model.count, autofinish: false, format: '%t %b>> %i| %e')
     CSV.open(output_dir(__FILE__) + "/export/#{dt}/#{model}.csv", 'w') do |csv|
       csv << model.custom_attribute_names
       model.find_each do |row|
-        count += 1
-        pbar.set(count) rescue nil
         csv << row.attributes.values
+        pbar.increment
       end
     end
     pbar.finish

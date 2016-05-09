@@ -31,14 +31,12 @@ taxon_map = {
   ]
 }
 
-count = 0
-pbar = ProgressBar.new("KINGDOM-MISMATCH", Catalog.count)
+pbar = ProgressBar.create(title: "Kingdom Mismatch", total: Catalog.count, autofinish: false, format: '%t %b>> %i| %e')
 
 CSV.open(output_dir(__FILE__) + "/kingdom-mismatch.csv", 'w') do |csv|
   csv << ["mkey", "Collection", "ID Number"]
   Catalog.find_each do |cat|
-    count += 1
-    pbar.set(count)
+    pbar.increment
     taxon_collections = cat.taxa.map(&:collection).uniq
     taxon_collections.each do |tc|
       if !taxon_map[tc].include? cat.collection

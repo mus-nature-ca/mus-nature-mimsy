@@ -4,14 +4,12 @@ require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
 objects = Catalog.where(collection_code: "CMNFI")
-pbar = ProgressBar.new("FISH-MISSING-SITES", objects.count)
-count = 0
+pbar = ProgressBar.create(title: "Fish-Missing-Sites", total: objects.count, autofinish: false, format: '%t %b>> %i| %e')
 
 CSV.open(output_dir(__FILE__) + "/fish-missing-sites.csv", 'w') do |csv|
   csv << ["object", "site_id", "site_name", "note"]
   objects.each do |obj|
-    count += 1
-    pbar.set(count)
+    pbar.increment
     if obj.site && obj.sites.empty?
       site = Site.find_by(site_name: obj.site)
       if site

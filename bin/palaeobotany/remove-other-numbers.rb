@@ -5,9 +5,7 @@ include Sinatra::Mimsy::Helpers
 
 catalogs = Catalog.where("id_number LIKE 'CMNFV%'")
 
-pbar = ProgressBar.new("OTHER-NUMS", catalogs.count)
-count = 0
-
+pbar = ProgressBar.create(title: "OTHER-NUMS", total: catalogs.count, autofinish: false, format: '%t %b>> %i| %e')
 catalogs.find_each do |catalog|
   others = catalog.other_numbers
   others.each do |other|
@@ -15,8 +13,6 @@ catalogs.find_each do |catalog|
       other.delete
     end
   end
-
-  count += 1
-  pbar.set(count)
+  pbar.increment
 end
 pbar.finish

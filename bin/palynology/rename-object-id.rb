@@ -4,9 +4,7 @@ require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
 catalogs = Catalog.where(id_prefix: "CMNPYF")
-
-pbar = ProgressBar.new("ZERO-PAD", catalogs.count)
-count = 0
+pbar = ProgressBar.create(title: "ZERO-PAD", total: catalogs.count, autofinish: false, format: '%t %b>> %i| %e')
 
 catalogs.find_each do |catalog|
   new_id = catalog.id_number.gsub(/([A-Z]+)(\d+)/, '\1 \2').gsub(/([A-Z]+)\s0+(\d+)/, '\1 \2')
@@ -14,8 +12,6 @@ catalogs.find_each do |catalog|
     catalog.id_number = new_id
     catalog.save
   end
-
-  count += 1
-  pbar.set(count)
+  pbar.increment
 end
 pbar.finish

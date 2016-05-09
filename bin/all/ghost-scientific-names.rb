@@ -6,8 +6,7 @@ include Sinatra::Mimsy::Helpers
 parser = ScientificNameParser.new
 
 catalogs = CatalogName.pluck(:scientific_name).uniq
-pbar = ProgressBar.new("CATALOG-NAMES", catalogs.size)
-count = 0
+pbar = ProgressBar.create(title: "Catalog Names", total: catalogs.size, autofinish: false, format: '%t %b>> %i| %e')
 
 ignored = ["undetermined specimen", "indeterminate specimen", "unidentified specimen"]
 
@@ -17,14 +16,12 @@ catalogs.each do |cn|
     if name && name[:scientificName] && name[:scientificName][:parsed] && ignored.select{|i| i.match(/^#{cn.gsub(/[^A-Za-z\s]/, "")}/i)}.empty?
       catalog_names[name[:scientificName][:canonical]] = { name: cn }
     end
-    count += 1
-    pbar.set(count)
+    pbar.increment
 end
 pbar.finish
 
 known_names = (Taxon.pluck(:speckey, :scientific_name) + TaxonVariation.pluck(:speckey, :scientific_name)).uniq
-pbar = ProgressBar.new("TAXON-NAMES", known_names.size)
-count = 0
+pbar = ProgressBar.create(title: "Known Names", total: known_names.size, autofinish: false, format: '%t %b>> %i| %e')
 
 taxon_names = {}
 known_names.each do |tn|
@@ -32,15 +29,13 @@ known_names.each do |tn|
     if name && name[:scientificName] && name[:scientificName][:parsed]
       taxon_names[name[:scientificName][:canonical]] = { speckey: tn[0], name: tn[1] }
     end
-    count += 1
-    pbar.set(count)
+    pbar.increment
 end
 pbar.finish
 
 missing_names = catalog_names.keys.uniq - taxon_names.keys.uniq
 
-pbar = ProgressBar.new("GHOST-NAMES", missing_names.size)
-count = 0
+pbar = ProgressBar.create(title: "Ghost Names", total: missing_names.size, autofinish: false, format: '%t %b>> %i| %e')
 
 CSV.open(output_dir(__FILE__) + "/ghost-names-revised.csv", 'w') do |csv|
   csv << ["Collection", "ID Number", "Verbatim object name", "Type", "Taxonomy Name(s)"]
@@ -67,9 +62,7 @@ CSV.open(output_dir(__FILE__) + "/ghost-names-revised.csv", 'w') do |csv|
 #      csv << [cat.collection, cat.id_number, catalog_names[missing][:name], resolved_name, candidate_name, candidate_speckey]
       csv << [cat.collection, cat.id_number, name, cn[1], cat.taxa.map(&:scientific_name).join(" | ")]
     end
-
-    count += 1
-    pbar.set(count)
+    pbar.increment
   end
 end
 pbar.finish

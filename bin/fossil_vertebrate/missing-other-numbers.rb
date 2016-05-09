@@ -4,8 +4,7 @@ require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
 sites = Site.where("site_id LIKE ?", "CMNFV%")
-pbar = ProgressBar.new("PALAEO-SITES", sites.count)
-count = 0
+pbar = ProgressBar.create(title: "PALEO-SITES", total: sites.count, autofinish: false, format: '%t %b>> %i| %e')
 
 STRIP_OUT = %r{
   (?i:LOC)\.?\s+?\??0?|
@@ -16,8 +15,7 @@ STRIP_OUT = %r{
 CSV.open(output_dir(__FILE__) + "/missing-other-numbers.csv", 'w') do |csv|
   csv << ["site_id", "status"]
   sites.each do |site|
-    count += 1
-    pbar.set(count)
+    pbar.increment
     if site.catalogs.empty? && 
         site.events.empty? && 
         site.media.empty? && 

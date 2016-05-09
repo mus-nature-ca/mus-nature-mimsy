@@ -5,9 +5,7 @@ include Sinatra::Mimsy::Helpers
 
 collection = "Vascular Plant"
 xxtaxa = Taxon.search_by_prefix('xx')
-
-pbar = ProgressBar.new("XX-NAMES", xxtaxa.count)
-count = 0
+pbar = ProgressBar.create(title: "XX-NAMES", total: xxtaxa.count, autofinish: false, format: '%t %b>> %i| %e')
 
 candidate_deletions = Set.new
 
@@ -38,8 +36,7 @@ CSV.open(output_dir(__FILE__) + "/xx-obj-deletions.csv", 'w') do |csv|
         end
       end
     end
-    count += 1
-    pbar.set(count)
+    pbar.increment
   end
 end
 pbar.finish

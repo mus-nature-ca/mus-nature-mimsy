@@ -4,14 +4,12 @@ require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
 duplicates = Taxon.select("scientific_name, count(speckey)").group(:scientific_name).having("count(speckey) > 1")
-pbar = ProgressBar.new("DUPLICATES", duplicates.length)
-count = 0
+pbar = ProgressBar.create(title: "Duplicates", total: duplicates.length, autofinish: false, format: '%t %b>> %i| %e')
 
 CSV.open(output_dir(__FILE__) + "/duplicate-scientific.csv", 'w') do |csv|
   csv << ["speckey", "scientific_name", "collection", "rank", "ancestors", "catalog_count"]
   duplicates.each do |t|
-    count += 1
-    pbar.set(count)
+    pbar.increment
     Taxon.where(scientific_name: t[:scientific_name]).each do |dup|
       csv << [dup.speckey.to_i,
               dup.scientific_name,
