@@ -9,6 +9,7 @@ class Event < ActiveRecord::Base
   set_integer_columns :vkey
 
   custom_attribute :id, :vkey
+  custom_attribute :category, :category1
 
   has_many :catalogs, through: :catalog_events, source: :catalog
   has_many :catalog_events, foreign_key: "vkey"

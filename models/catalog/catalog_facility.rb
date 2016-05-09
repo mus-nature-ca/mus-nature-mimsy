@@ -10,6 +10,7 @@ class CatalogFacility < ActiveRecord::Base
   
   custom_attribute :catalog_id, :mkey
   custom_attribute :facility_id, :lockey
+  custom_attribute :parent, :parent_facility
 
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :facility, foreign_key: "lockey"

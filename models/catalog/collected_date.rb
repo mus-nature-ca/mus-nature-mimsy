@@ -9,6 +9,7 @@ class CollectedDate < ActiveRecord::Base
   set_integer_columns :mkey
 
   custom_attribute :catalog_id, :mkey
+  custom_attribute :context, :collection_position
 
   belongs_to :catalog, foreign_key: "mkey"
 end

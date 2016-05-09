@@ -16,6 +16,12 @@ class Catalog < ActiveRecord::Base
   custom_attribute :scientific_name, :item_name
   custom_attribute :collection_code, :id_prefix
   custom_attribute :catalog_number, :id_number
+  custom_attribute :specimen_name, :title
+  custom_attribute :geologic_age, :age
+  custom_attribute :other_dates, :timeline
+  custom_attribute :copies, :item_copies
+  custom_attribute :gbif, :flag4
+  custom_attribute :gbif_export_date, :date2
 
   validates :id_number, presence: true
   validates :category1, presence: true

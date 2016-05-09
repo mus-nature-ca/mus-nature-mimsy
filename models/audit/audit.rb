@@ -6,4 +6,6 @@ class Audit < ActiveRecord::Base
   self.primary_key = :audkey
 
   custom_attribute :id, :audkey
+  custom_attribute :number_missing, :number_not_found
+  custom_attribute :reason, :audit_reason
 end

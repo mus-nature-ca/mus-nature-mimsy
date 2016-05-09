@@ -6,4 +6,5 @@ class Entry < ActiveRecord::Base
   self.primary_key = :ikey
 
   custom_attribute :id, :ikey
+  custom_attribute :total_objects, :entry_count
 end

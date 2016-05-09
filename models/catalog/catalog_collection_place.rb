@@ -3,7 +3,7 @@ class CatalogCollectionPlace < ActiveRecord::Base
   self.table_name = :items_places_collected
 
   # specify primary key name
-  self.primary_keys = :mkey, :placekey
+  self.primary_key = :authlinkkey
 
   # override decimal set
   set_integer_columns :mkey, :placekey

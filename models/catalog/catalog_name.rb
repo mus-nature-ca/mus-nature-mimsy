@@ -9,8 +9,8 @@ class CatalogName < ActiveRecord::Base
   set_integer_columns :mkey
 
   custom_attribute :catalog_id, :mkey
-
-  alias_attribute :scientific_name, :item_name
+  custom_attribute :type, :tna_type
+  custom_attribute :scientific_name, :item_name
 
   belongs_to :catalog, foreign_key: "mkey"
 end

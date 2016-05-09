@@ -10,8 +10,9 @@ class CatalogTaxon < ActiveRecord::Base
 
   custom_attribute :catalog_id, :mkey
   custom_attribute :taxon_id, :speckey
-  custom_attribute :identifier, :attributor
+  custom_attribute :identified_by, :attributor
   custom_attribute :date_identified, :attrib_date
+  custom_attribute :identifier_comment, :attrib_comment
   custom_attribute :scientific_name, :taxonomy
   custom_attribute :type_status, :affiliation
 

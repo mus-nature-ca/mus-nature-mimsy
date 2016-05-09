@@ -31,18 +31,18 @@ if options[:collection]
   catalogs = Catalog.where(collection: options[:collection])
   File.write(output_dir(__FILE__) + "/catalog.csv", catalogs.to_csv)
 elsif options[:all]
+  start = Time.now
   Dir.mkdir(output_dir(__FILE__) + "/export/#{dt}")
   models = ActiveRecord::Base.descendants
   count = 0
   models.each do |model|
     next if exclusions.include? model.name
     pbar = ProgressBar.new("#{model}", model.count)
-    count = 0
     CSV.open(output_dir(__FILE__) + "/export/#{dt}/#{model}.csv", 'w') do |csv|
       csv << model.custom_attribute_names
       model.find_each do |row|
         count += 1
-        pbar.set(count)
+        pbar.set(count) rescue nil
         csv << row.attributes.values
       end
     end
@@ -52,4 +52,5 @@ elsif options[:all]
   output_file = output_dir(__FILE__) + "/export/#{dt}.zip"
   zf = ZipFileGenerator.new(dir_zip, output_file)
   zf.write()
+  puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 end

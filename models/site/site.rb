@@ -9,6 +9,7 @@ class Site < ActiveRecord::Base
   set_integer_columns :skey
 
   custom_attribute :id, :skey
+  custom_attribute :environment, :site_class
 
   validates :site_id, presence: true
 

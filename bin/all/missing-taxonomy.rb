@@ -12,6 +12,8 @@ CSV.open(output_dir(__FILE__) + "/missing-taxonomy.csv", 'w') do |csv|
     count += 1
     pbar.set(count)
     next if obj.legal_status != "PERMANENT COLLECTION"
+    next if obj.names.map(&:scientific_name).compact.empty?
+    next if obj.scientific_name == "TOP"
     next if !obj.taxa.empty?
     csv << [obj.mkey, obj.collection, obj.id_number]
   end

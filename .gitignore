@@ -7,3 +7,4 @@ tags
 log/*.log
 config.yml
 public/files/*
+outputs/all/export/*

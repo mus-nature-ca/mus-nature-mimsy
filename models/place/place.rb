@@ -9,6 +9,7 @@ class Place < ActiveRecord::Base
   set_integer_columns :broader_key
 
   custom_attribute :id, :placekey
+  custom_attribute :name, :place1
 
   belongs_to :parent, class_name: "Place", foreign_key: "broader_key"
 
@@ -25,8 +26,6 @@ class Place < ActiveRecord::Base
   
   has_many :sites, through: :place_sites, source: :site
   has_many :place_sites, foreign_key: "placekey"
-
-  alias_attribute :name, :place1
 
   def ancestors
     node, nodes = self, []

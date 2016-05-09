@@ -10,6 +10,7 @@ class TaxonVariation < ActiveRecord::Base
 
   custom_attribute :taxon_id, :speckey
   custom_attribute :scientific_name, :variation
+  custom_attribute :variation_type, :var_type
 
   belongs_to :taxon, foreign_key: "speckey"
 

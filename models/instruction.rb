@@ -6,4 +6,6 @@ class Instruction < ActiveRecord::Base
   self.primary_key = :instructkey
 
   custom_attribute :id, :instructkey
+  custom_attribute :type, :instruction_type
+  custom_attribute :regarding, :carryover
 end

@@ -11,6 +11,7 @@ class Acquisition < ActiveRecord::Base
   # custom attribute
   custom_attribute :id, :akey
   custom_attribute :acquisition_number, :ref_number
+  custom_attribute :collection, :option1
 
   has_many :catalogs, through: :acquisition_catalogs, source: :catalog
   has_many :acquisition_catalogs, foreign_key: "akey"
