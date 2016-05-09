@@ -9,8 +9,8 @@ class Taxon < ActiveRecord::Base
   set_integer_columns :speckey, :broader_key1
 
   custom_attribute :id, :speckey
-  custom_attribute :parent, :male_single_parent
-  custom_attribute :second_parent, :female_multi_parent
+  custom_attribute :parent_path, :male_single_parent
+  custom_attribute :second_parent_path, :female_multi_parent
   custom_attribute :parent_id, :broader_key1
   custom_attribute :collection, :taxon_name
   custom_attribute :rank, :level_text
