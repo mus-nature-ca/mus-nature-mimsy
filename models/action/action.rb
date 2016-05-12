@@ -6,4 +6,7 @@ class Action < ActiveRecord::Base
   self.primary_key = :actkey
 
   custom_attribute :id, :actkey
+
+  # override decimal set
+  set_integer_columns :id, :actkey
 end

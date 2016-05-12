@@ -24,6 +24,7 @@ require 'byebug'
 require 'csv'
 require 'date'
 require 'zip'
+require 'parallel'
 
 require_all 'lib'
 require_all 'helpers'

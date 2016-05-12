@@ -7,7 +7,7 @@ pbar = ProgressBar.create(title: "Missing", total: Catalog.count, autofinish: fa
 
 CSV.open(output_dir(__FILE__) + "/missing-taxonomy.csv", 'w') do |csv|
   csv << ["mkey", "Collection", "ID Number"]
-  Catalog.find_each do |obj|
+  Catalog.find_each(batch_size: 5_000) do |obj|
     pbar.increment
     next if obj.legal_status != "PERMANENT COLLECTION"
     next if !obj.taxa.empty?

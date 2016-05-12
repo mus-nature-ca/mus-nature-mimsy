@@ -1,4 +1,4 @@
-class CatagogUsage < ActiveRecord::Base
+class CatalogUsage < ActiveRecord::Base
   # specify schema and table name
   self.table_name = :item_usage
 

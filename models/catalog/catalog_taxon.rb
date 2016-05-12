@@ -3,7 +3,7 @@ class CatalogTaxon < ActiveRecord::Base
   self.table_name = :items_taxonomy
 
   # specify primary key name
-  self.primary_keys = :authlinkkey, :mkey, :speckey
+  self.primary_key = :authlinkkey
 
   # override decimal set
   set_integer_columns :mkey, :speckey
@@ -15,6 +15,8 @@ class CatalogTaxon < ActiveRecord::Base
   custom_attribute :identifier_comment, :attrib_comment
   custom_attribute :scientific_name, :taxonomy
   custom_attribute :type_status, :affiliation
+
+  validates :mkey, :speckey, presence: true
 
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :taxon, foreign_key: "speckey"

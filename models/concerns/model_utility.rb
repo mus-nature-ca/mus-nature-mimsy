@@ -24,6 +24,24 @@ module Sinatra
 end
 
 module ActiveRecord
+  module ConnectionAdapters
+    module OracleEnhanced
+      module DatabaseStatements
+        # Override method such that RETURNING statement does not get appended for views
+        def sql_for_insert(sql, pk, id_value, sequence_name, binds)
+          blacklist = ["authlinkkey"]
+          unless id_value || pk.nil? || blacklist.include?(pk) || 
+            (defined?(CompositePrimaryKeys) && pk.kind_of?(CompositePrimaryKeys::CompositeKeys))
+            sql = "#{sql} RETURNING #{quote_column_name(pk)} INTO :returning_id"
+            returning_id_col = new_column("returning_id", nil, Type::Value.new, "number", true, "dual", true, true)
+            (binds = binds.dup) << [returning_id_col, nil]
+          end
+          [sql, binds]
+        end
+      end
+    end
+  end
+
   class Base
 
     def self.custom_attribute(new_attribute, old_attribute)

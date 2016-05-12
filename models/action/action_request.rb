@@ -6,4 +6,7 @@ class ActionRequest < ActiveRecord::Base
   self.primary_key = :actreqkey
 
   custom_attribute :id, :actreqkey
+
+  # override decimal set
+  set_integer_columns :id, :actreqkey
 end

@@ -6,7 +6,7 @@ class Taxon < ActiveRecord::Base
   self.primary_key = :speckey
 
   # override decimal set
-  set_integer_columns :speckey, :broader_key1
+  set_integer_columns :speckey, :broader_key1, :mtax_id, :hierarchy_level, :record_view
 
   custom_attribute :id, :speckey
   custom_attribute :parent_path, :male_single_parent

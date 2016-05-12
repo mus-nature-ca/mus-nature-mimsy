@@ -3,13 +3,15 @@ class CatalogVessel < ActiveRecord::Base
   self.table_name = :items_vessels
 
   # specify primary key name
-  self.primary_keys = :mkey, :vbkey
+  self.primary_key = :authlinkkey
 
   # override decimal set
   set_integer_columns :mkey, :vbkey
 
   custom_attribute :catalog_id, :mkey
   custom_attribute :vessel_id, :vbkey
+
+  validates :mkey, :vbkey, presence: true
 
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :vessel, foreign_key: "vbkey"

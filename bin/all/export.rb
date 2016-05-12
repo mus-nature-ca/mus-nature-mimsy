@@ -15,8 +15,12 @@ optparse = OptionParser.new do |opts|
     exit
   end
 
-  opts.on("-c", "--collection [collection]", String, "Collection to export") do |collection|
-    options[:collection] = collection
+  opts.on("-m", "--model [MODEL]", String, "Model to export") do |model|
+    options[:model] = model
+  end
+
+  opts.on("-p", "--processes [processes]", Integer, "Number of processes") do |process|
+    options[:processes] = process
   end
 
   opts.on("-a", "--all", "Export all data") do
@@ -25,30 +29,50 @@ optparse = OptionParser.new do |opts|
 end.parse!
 
 dt = DateTime.now.strftime("%Y-%d-%m-%H-%M")
-exclusions = ["AuthorityLinks","CatalogAgent"]
+dir_zip = output_dir(__FILE__) + "/export/#{dt}"
 
-if options[:collection]
-  catalogs = Catalog.where(collection: options[:collection])
-  File.write(output_dir(__FILE__) + "/catalog.csv", catalogs.to_csv)
+if options[:model]
+  File.write(output_dir(__FILE__) + "/#{model}-#{dt}.csv", model.to_csv)
 elsif options[:all]
+  exclusions = ["CatalogAgent"]
+  processes = options[:processes] ||= 3
   start = Time.now
-  Dir.mkdir(output_dir(__FILE__) + "/export/#{dt}")
+  Dir.mkdir(dir_zip)
+
   models = ActiveRecord::Base.descendants
-  models.each do |model|
-    next if exclusions.include? model.name
-    pbar = ProgressBar.create(title: "#{model}", total: model.count, autofinish: false, format: '%t %b>> %i| %e')
-    CSV.open(output_dir(__FILE__) + "/export/#{dt}/#{model}.csv", 'w') do |csv|
-      csv << model.custom_attribute_names
-      model.find_each do |row|
-        csv << row.attributes.values
-        pbar.increment
+  models.delete_if{|m| exclusions.include?(m.name)}
+  part = models.length/processes
+
+  model_counts = {}
+  Parallel.map(0..4, progress: "Sorting", in_threads: 4) do |i|
+    ActiveRecord::Base.connection_pool.with_connection do
+      sub = models.slice(models.length/4*i, models.length/4)
+      sub.each do |model|
+        model_counts[model.name] = model.count
       end
     end
-    pbar.finish
   end
-  dir_zip = output_dir(__FILE__) + "/export/#{dt}"
-  output_file = output_dir(__FILE__) + "/export/#{dt}.zip"
-  zf = ZipFileGenerator.new(dir_zip, output_file)
+
+  #remove large models from array & later evenly distribute them among available processes
+  large_models = model_counts.sort_by{|_key, value| value}.reverse.first(processes).to_h.keys
+  models.delete_if{|m| model_counts[m.name] == 0 || large_models.include?(m.name)}.shuffle!
+  part = models.length/processes
+
+  Parallel.map(0..processes, progress: "Exporting", in_processes: processes) do |i|
+    sub = models.slice(part*i, part)
+    sub << large_models[i].constantize if i < processes
+    sub.each do |model|
+      CSV.open(output_dir(__FILE__) + "/export/#{dt}/#{model.name}.csv", 'w') do |csv|
+        csv << model.custom_attribute_names
+        model.find_each do |row|
+          csv << row.attributes.values
+        end
+      end
+    end
+  end
+
+  zf = ZipFileGenerator.new(dir_zip, dir_zip + ".zip")
   zf.write()
+  FileUtils.rm_rf(dir_zip)
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 end

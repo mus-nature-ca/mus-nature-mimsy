@@ -6,7 +6,10 @@ class CatalogName < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :mkey
+  set_integer_columns :id, :mkey
+
+  # override boolean set
+  set_string_columns :attrib_comment
 
   custom_attribute :catalog_id, :mkey
   custom_attribute :type, :tna_type

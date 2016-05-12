@@ -13,6 +13,7 @@ gem 'thin'
 gem 'require_all'
 gem 'ruby-progressbar'
 gem 'rubyzip'
+gem 'parallel'
 
 group :production do
 end

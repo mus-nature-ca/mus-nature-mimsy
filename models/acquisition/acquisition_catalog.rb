@@ -6,7 +6,7 @@ class AcquisitionCatalog < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :id
+  set_integer_columns :id, :m_id, :akey
 
   custom_attribute :catalog_id, :m_id
   custom_attribute :acquisition_id, :akey

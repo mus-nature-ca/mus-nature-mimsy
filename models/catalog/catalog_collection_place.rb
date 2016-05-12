@@ -11,6 +11,8 @@ class CatalogCollectionPlace < ActiveRecord::Base
   custom_attribute :catalog_id, :mkey
   custom_attribute :place_id, :placekey
 
+  validates :mkey, :placekey, presence: true
+
   belongs_to :catalog, foreign_key: "mkey"
   belongs_to :place, foreign_key: "placekey"
 end

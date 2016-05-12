@@ -7,7 +7,7 @@ class Catalog < ActiveRecord::Base
   self.primary_key = :mkey
 
   # override decimal set
-  set_integer_columns :mkey, :m_id
+  set_integer_columns :mkey, :m_id, :record_view
 
   custom_attribute :id, :mkey
   custom_attribute :collection, :category1
@@ -23,8 +23,7 @@ class Catalog < ActiveRecord::Base
   custom_attribute :gbif, :flag4
   custom_attribute :gbif_export_date, :date2
 
-  validates :id_number, presence: true
-  validates :category1, presence: true
+  validates :id_number, :category1, presence: true
 
   has_one :acquisition, through: :acquisition_catalog, source: :acquisition
   has_one :acquisition_catalog, foreign_key: "m_id"
@@ -78,7 +77,7 @@ class Catalog < ActiveRecord::Base
   has_many :made_places, through: :catalog_made_places, source: :place
   has_many :catalog_made_places, foreign_key: "mkey"
   
-  has_many :measurements, class_name: "CatalogMeasurement", foreign_key: "mkey"
+  #has_many :measurements, class_name: "CatalogMeasurement", foreign_key: "mkey"
   
   has_many :media, through: :catalog_media, source: :medium
   has_many :catalog_media, foreign_key: "mkey"
