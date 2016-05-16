@@ -32,7 +32,7 @@ dt = DateTime.now.strftime("%Y-%d-%m-%H-%M")
 dir_zip = output_dir(__FILE__) + "/export/#{dt}"
 
 if options[:model]
-  File.write(output_dir(__FILE__) + "/#{model}-#{dt}.csv", model.to_csv)
+  File.write(output_dir(__FILE__) + "/#{model}-#{dt}.csv", model.constantize.to_csv)
 elsif options[:all]
   exclusions = ["CatalogAgent"]
   processes = options[:processes] ||= 3

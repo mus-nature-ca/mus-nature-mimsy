@@ -14,6 +14,7 @@ gem 'require_all'
 gem 'ruby-progressbar'
 gem 'rubyzip'
 gem 'parallel'
+gem 'namae'
 
 group :production do
 end

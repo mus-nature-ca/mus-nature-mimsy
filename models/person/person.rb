@@ -6,7 +6,7 @@ class Person < ActiveRecord::Base
   self.primary_key = :link_id
 
   # override decimal set
-  set_integer_columns :link_id, :record_view
+  set_integer_columns :link_id, :record_view, :mpeo_id
 
   # override boolean set
   set_string_columns :gender

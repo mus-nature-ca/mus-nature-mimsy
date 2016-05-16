@@ -77,7 +77,7 @@ class Catalog < ActiveRecord::Base
   has_many :made_places, through: :catalog_made_places, source: :place
   has_many :catalog_made_places, foreign_key: "mkey"
   
-  #has_many :measurements, class_name: "CatalogMeasurement", foreign_key: "mkey"
+  has_many :measurements, class_name: "CatalogMeasurement", foreign_key: "mkey"
   
   has_many :media, through: :catalog_media, source: :medium
   has_many :catalog_media, foreign_key: "mkey"

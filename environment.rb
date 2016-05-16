@@ -25,6 +25,7 @@ require 'csv'
 require 'date'
 require 'zip'
 require 'parallel'
+require 'namae'
 
 require_all 'lib'
 require_all 'helpers'
