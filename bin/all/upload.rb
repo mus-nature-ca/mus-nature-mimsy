@@ -5,7 +5,8 @@ include Sinatra::Mimsy::Helpers
 
 options = {}
 
-separator = ","
+separator = "\t"
+encoding = "utf-8"
 
 optparse = OptionParser.new do |opts|
   opts.banner = "Usage: upload.rb [options]"
@@ -19,6 +20,10 @@ optparse = OptionParser.new do |opts|
     separator = sep
   end
 
+  opts.on("-e", "--encoding [encoding]", String, "Character encoding, default is utf-8") do |enc|
+    encoding = enc
+  end
+
   opts.on("-f", "--file [file]", String, "File path to csv with header row") do |file|
     options[:file] = file
   end
@@ -30,12 +35,16 @@ begin
   if options[:file]
     raise "File not found" unless File.exists?(options[:file])
     csv_options = { :col_sep => separator, 
+                    :quote_char => '"',
                     :headers => :first_row, 
                     :return_headers => false, 
                     :header_converters => :symbol, 
-                    :converters => :all }
+                    :converters => :all,
+                    :encoding => encoding}
     CSV.foreach(options[:file], csv_options) do |row|
-      puts row.inspect
+#      row[:publish] = true
+#      site = Site.create(row.to_h)
+      puts site.id
     end
   end
   

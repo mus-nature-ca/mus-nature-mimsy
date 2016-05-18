@@ -6,27 +6,15 @@ include Sinatra::Mimsy::Helpers
 attributors = Set.new
 missing = Set.new
 
-pbar = ProgressBar.create(title: "MissingName", total: CatalogTaxon.count, autofinish: false, format: '%t %b>> %i| %e')
-CatalogTaxon.find_each do |cn|
-  pbar.increment
-  next if cn.attributor.nil?
-  attributor = cn.attributor.squish
-  if cn.attributor != attributor
-    cn.attributor = attributor
-    cn.save
-  end
-end
-=begin
+pbar = ProgressBar.create(title: "MissingName", total: CatalogName.count, autofinish: false, format: '%t %b>> %i| %e')
 CatalogName.pluck(:attributor).compact.uniq do |cn|
   pbar.increment
   cn.split("; ").each do |attributor|
     attributors.add attributor
   end
 end
-=end
 pbar.finish
 
-=begin
 pbar = ProgressBar.create(title: "MissingTaxa", total: CatalogTaxon.count, autofinish: false, format: '%t %b>> %i| %e')
 CatalogTaxon.pluck(:attributor).compact.uniq do |ct|
   pbar.increment
@@ -56,4 +44,3 @@ pbar.finish
 
 puts missing.to_a
 puts missing.size
-=end
