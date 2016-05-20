@@ -6,7 +6,7 @@ class Place < ActiveRecord::Base
   self.primary_key = :placekey
 
   # override decimal set
-  set_integer_columns :broader_key
+  set_integer_columns :record_view, :broader_key
 
   custom_attribute :id, :placekey
   custom_attribute :name, :place1

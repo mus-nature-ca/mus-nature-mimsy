@@ -7,7 +7,11 @@ missing_arr = []
 catalogs = Catalog.pluck(:mkey)
 places = CatalogCollectionPlace.pluck(:mkey)
 residual = catalogs - places
+
+pbar = ProgressBar.create(title: "MissingPlace", total: residual.size, autofinish: false, format: '%t %b>> %i| %e')
+
 residual.each do |r|
+  pbar.increment
   obj = Catalog.find(r)
   if !obj.sites.empty? && obj.sites.first.site_id != "NO SITE"
     missing_arr << [obj.collection, obj.id_number]
@@ -15,5 +19,11 @@ residual.each do |r|
 end
 
 missing_arr.sort_by!{|collection, id| [collection, id]}
-file = output_dir(__FILE__) + "/object-missing-place.csv"
-File.open(file,'w'){ |f| f << missing_arr.map(&:to_csv).join }
+CSV.open(output_dir(__FILE__) + "/object-missing-place.csv", 'w') do |csv|
+  csv << ["collection", "id_number"]
+  missing_arr.each do |item|
+    csv << item
+  end
+end
+
+pbar.finish

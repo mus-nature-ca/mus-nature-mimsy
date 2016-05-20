@@ -6,7 +6,7 @@ class CatalogMultifield < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :mkey, :mkey
+  set_integer_columns :id, :mkey, :mkey
 
   custom_attribute :catalog_id, :mkey
 
