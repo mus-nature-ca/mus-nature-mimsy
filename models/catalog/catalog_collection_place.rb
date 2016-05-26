@@ -6,7 +6,7 @@ class CatalogCollectionPlace < ActiveRecord::Base
   self.primary_key = :authlinkkey
 
   # override decimal set
-  set_integer_columns :mkey, :placekey
+  set_integer_columns :mkey, :placekey, :mplac_id
 
   custom_attribute :catalog_id, :mkey
   custom_attribute :place_id, :placekey

@@ -6,7 +6,7 @@ include Sinatra::Mimsy::Helpers
 attributors = Set.new
 missing = Set.new
 
-pbar = ProgressBar.create(title: "MissingName", total: CatalogName.count, autofinish: false, format: '%t %b>> %i| %e')
+pbar = ProgressBar.create(title: "GatheringCatalogNameAttributors", total: CatalogName.count, autofinish: false, format: '%t %b>> %i| %e')
 CatalogName.pluck(:attributor).compact.uniq do |cn|
   pbar.increment
   cn.split("; ").each do |attributor|
@@ -15,7 +15,7 @@ CatalogName.pluck(:attributor).compact.uniq do |cn|
 end
 pbar.finish
 
-pbar = ProgressBar.create(title: "MissingTaxa", total: CatalogTaxon.count, autofinish: false, format: '%t %b>> %i| %e')
+pbar = ProgressBar.create(title: "GatheringCatalogTaxonAttributors", total: CatalogTaxon.count, autofinish: false, format: '%t %b>> %i| %e')
 CatalogTaxon.pluck(:attributor).compact.uniq do |ct|
   pbar.increment
   ct.split("; ").each do |attributor|
@@ -24,7 +24,7 @@ CatalogTaxon.pluck(:attributor).compact.uniq do |ct|
 end
 pbar.finish
 
-pbar = ProgressBar.create(title: "MissingCollector", total: CatalogCollector.count, autofinish: false, format: '%t %b>> %i| %e')
+pbar = ProgressBar.create(title: "GatheringCatalogCollectorAttributors", total: CatalogCollector.count, autofinish: false, format: '%t %b>> %i| %e')
 CatalogCollector.pluck(:attributor).compact.uniq do |cc|
   pbar.increment
   cc.split("; ").each do |attributor|
@@ -33,14 +33,16 @@ CatalogCollector.pluck(:attributor).compact.uniq do |cc|
 end
 pbar.finish
 
-pbar = ProgressBar.create(title: "MissingPerson", total: attributors.size, autofinish: false, format: '%t %b>> %i| %e')
-attributors.each do |attributor|
-  pbar.increment
-  next if !Person.find_by_preferred_name(attributor).nil?
-  next if !PersonVariation.find_by_variation(attributor).nil?
-  missing.add attributor
+attributors.to_a.in_groups_of(10, false) do |batch|
+  batch.each do |attributor|
+    next if !Person.find_by_preferred_name(attributor).nil?
+    next if !PersonVariation.find_by_variation(attributor).nil?
+    missing.add attributor
+  end
 end
-pbar.finish
 
-puts missing.to_a
-puts missing.size
+CSV.open(output_dir(__FILE__) + "/missing-agents.csv", 'w') do |csv|
+  missing.each do |agent|
+    csv << [agent]
+  end
+end
