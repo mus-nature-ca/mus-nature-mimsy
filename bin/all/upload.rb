@@ -5,7 +5,7 @@ include Sinatra::Mimsy::Helpers
 
 options = {}
 
-separator = "\t"
+separator = ","
 encoding = "utf-8"
 
 optparse = OptionParser.new do |opts|
@@ -42,9 +42,7 @@ begin
                     :converters => :all,
                     :encoding => encoding}
     CSV.foreach(options[:file], csv_options) do |row|
-#      row[:publish] = true
-#      site = Site.create(row.to_h)
-      puts site.id
+      #DO SOME STUFF HERE
     end
   end
   

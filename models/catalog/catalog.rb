@@ -22,6 +22,7 @@ class Catalog < ActiveRecord::Base
   custom_attribute :copies, :item_copies
   custom_attribute :gbif, :flag4
   custom_attribute :gbif_export_date, :date2
+  custom_attribute :specimen_nature, :materials
 
   validates :id_number, :category1, presence: true
 

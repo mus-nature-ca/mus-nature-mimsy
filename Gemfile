@@ -16,6 +16,7 @@ gem 'ruby-progressbar'
 gem 'rubyzip'
 gem 'parallel'
 gem 'namae'
+gem 'chronic'
 
 group :production do
 end

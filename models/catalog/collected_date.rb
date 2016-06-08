@@ -6,7 +6,7 @@ class CollectedDate < ActiveRecord::Base
   self.primary_key = :timekey
 
   # override decimal set
-  set_integer_columns :mkey
+  set_integer_columns :mkey, :timekey
 
   custom_attribute :catalog_id, :mkey
   custom_attribute :context, :collection_position
