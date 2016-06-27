@@ -2,7 +2,7 @@ Collection,ID Number,Verbatim object name,Type,Taxonomy Name(s)
 Vascular Plant,CAN 578394,Polygonum muhlenbergia (Mn) Wats.,,xxPolygonum muhlenbergia
 Vascular Plant,CAN 578400,Polygonum pennsylvanicum L.,,xxPolygonum pennsylvanicum
 Vascular Plant,CAN 578410,Galium trifolium Michx.,,Galium triflorum
-Palynology,CMNPYM03290,Ranunculus aquatilis var. capillaceus,scientific name,xxRanunculus aquatilis var. capillaceus
+Palynology,CMNPYM 3290,Ranunculus aquatilis var. capillaceus,scientific name,Ranunculus trichophyllus var. trichophyllus
 Vascular Plant,CAN 362290,Ranunculus aquatilis var. capillaceus,original identification,Ranunculus subrigidus
 Vascular Plant,CAN 55422,Ranunculus aquatilis var. capillaceus,previous name,Ranunculus subrigidus
 Vascular Plant,CAN 55415,Ranunculus aquatilis var. capillaceus,previous name,Ranunculus confervoides
@@ -20,7 +20,6 @@ Vascular Plant,CAN 91984,Armeria vulgaris Willd. ssp. sibirica (Turcz.) n. comb.
 Vascular Plant,CAN 268713,Sedum roseum var. integrifolium,original identification,Rhodiola integrifolia
 Vascular Plant,CAN 268712,Sedum roseum var. integrifolium,original identification,Rhodiola integrifolia
 Insect,CMNEN 00012115,Apion goldilox,,Coelocephalapion goldilox
-Bryophyte,CANM 188114,Brotherella canadensis,,""
 Crustacea,CMNC 2003-0157,Isopod sp. B,,Isopoda
 Crustacea,CMNC 2003-0158,Isopod sp. B,,Isopoda
 Crustacea,CMNC 2003-0153,Isopod sp. B,,Isopoda
@@ -75,7 +74,7 @@ Crustacea,CMNC 1981-0153,Gammaracanthus longicornis,manuscript name,Gammaracanth
 Crustacea,CMNC 2003-1906,Gammaracanthus longicornis,manuscript name,Gammaracanthus (Gammaracanthus) loricatus
 Crustacea,CMNC 2003-1749,Gammaracanthus longicornis,manuscript name,Gammaracanthus (Gammaracanthus) loricatus
 Crustacea,CMNC 2003-1944,Gammaracanthus brevidactylus ?,manuscript name,Gammaracanthus (Gammaracanthus) loricatus
-Crustacea,CMNC 1981-0551,Nipponorchestia,scientific name,""
+Crustacea,CMNC 1981-0551,Nipponorchestia,scientific name,Talitridae
 Crustacea,CMNC 1983-1694,Neopleustes pulchella,scientific name,Neopleustes pulchellus
 Crustacea,CMNC 1983-1695,Neopleustes pulchella,scientific name,Neopleustes pulchellus
 Crustacea,CMNC 2004-0338,Neopleustes pulchella,,Neopleustes pulchellus
@@ -112,6 +111,7 @@ Bryophyte,CANM 294439,Schistidium sphaericum var. carpaticum Zmuda,previous scie
 Bryophyte,CANM 295600,Zygodon viridissimus var. saxicola Mol.,previous scientific name,Zygodon gracilis
 Bryophyte,CANM 295598,Hypnum filicinum var. lacustre Lein. in Rabenh.,previous scientific name,Hymenostylium recurvirostre var. cataractarum
 Bryophyte,CANM 111315,Elmeriobryum philippinense Broth.,previous scientific name,Gollania philippinense
+Vascular Plant,CAN 92004,Armeria vulgaris var.,original identification,Armeria scabra
 Bryophyte,CANM 198238,Kindb.,,Oligotrichum hercynicum
 Bryophyte,CANM 244743,Plagiothecium sylvaticum var. squarrosum Kindb. in Mac.,previous scientific name,Plagiothecium denticulatum
 Bryophyte,CANM 4109,Jamesoniella myriocarpa Brinkm.,previous scientific name,Jamesoniella autumnalis var. myriocarpa
@@ -166,6 +166,15 @@ Bryophyte,CANM 120940,Dicranum rugosum,item name,Dicranum polysetum
 Bryophyte,CANM 109031,Fissidens pusillus,original identification,Fissidens minutulus
 Bryophyte,CANM 274077,Conostomum tetragonus (Hedw.) Lindb.,previous scientific name,Conostomum tetragonum
 Bryophyte,CANM 308733,Pseudotaxiphyllum distachaceum,previous scientific name,Pseudotaxiphyllum distichaceum
+Vascular Plant,CAN 91916,Statice labradorica var. submutica f. pubiscapa,original identification,Armeria scabra
+Vascular Plant,CAN 91880,Statice labradorica var. submutica f. pubiscapa,previous name,Armeria scabra
+Vascular Plant,CAN 91975,Statice labradorica var. submutica f. pubiscapa,original identification,Armeria scabra
+Vascular Plant,CAN 91974,Statice labradorica var. submutica f. pubiscapa,original identification,Armeria scabra
+Vascular Plant,CAN 91904,Statice labradorica var. submutica f. pubiscapa,previous name,Armeria scabra
+Vascular Plant,CAN 91902,Statice labradorica var. submutica f. pubiscapa,previous name,Armeria scabra
+Vascular Plant,CAN 91901,Statice labradorica var. submutica f. pubiscapa,previous name,Armeria scabra
+Vascular Plant,CAN 91977,Statice labradorica var. submutica f. pubiscapa,original identification,Armeria scabra
+Vascular Plant,CAN 91914,Statice labradorica var. submutica f. pubiscapa,original identification,Armeria scabra
 Bryophyte,CANM 295594,Barbula pagorum Milde,previous scientific name,Tortula pagorum
 Bryophyte,CANM 304628,Barbula fallax var. reflexa,previous scientific name,Didymodon ferrugineus
 Bryophyte,CANM 237179,Tetraplodon mnioides var. cavifolius Schimp.,,Aulacomnium palustre | Tetraplodon mnioides
@@ -228,7 +237,7 @@ Bryophyte,CANM 456276,Sphagnum capilliforme var. tenellum (Schimp.) Crum,previou
 Bryophyte,CANM 232930,Grimmia arctolimnia Steere,previous scientific name,Coscinodon arctolimnius
 Bryophyte,CANM 226826,Originally determined as G. trichophylla Grev.,previous scientific name,Grimmia muehlenbeckii
 Bryophyte,CANM 197612,Mnium nudum Britt. & Williams,previous scientific name,Rhizomnium nudum
-Bryophyte,CANM 124628,Molendoa sendtneriana (B.S.G.) Limpr. var. limprichtii Gyorffy,previous scientific name,""
+Bryophyte,CANM 124628,Molendoa sendtneriana (B.S.G.) Limpr. var. limprichtii Gyorffy,previous scientific name,Molendoa sendtneriana
 Bryophyte,CANM 197847,Brachythecium pseudocollinum Kindb. in Mac. & Kindb.,type name,Brachythecium salebrosum
 Bryophyte,CANM 197865,Brachythecium velutinum (Hedw.) B.S.G. ssp. curvirameun Kindb.,type name,Brachythecium reflexum
 Bryophyte,CANM 197866,Brachythecium velutinum (Hedw.) B.S.G. ssp. curvirameun Kindb.,type name,Brachythecium reflexum
@@ -236,7 +245,6 @@ Bryophyte,CANM 197875,Bryum capillare Hedw. var. brevicuspidatum Kindb. in Mac. 
 Bryophyte,CANM 197882,Bryum cucullatiforme Kindb.,type name,Pohlia obtusifolia
 Bryophyte,CANM 197317,Hygroamblystegium irriguum f. marianopolitana Dupret,previous scientific name,Hygroamblystegium tenax
 Bryophyte,CANM 265702,Hylocomium splendens (Hedw.) B.S.G. ssp. giganteum Perss. ex Vitt,previous scientific name,Calliergon giganteum
-Bryophyte,CANM 197620,Oreoweisia subintegra Broth. & Ther. in Ther.,previous scientific name,""
 Bryophyte,CANM 152820,Orthotrichum juranum v. defluens Culm.,type name,Orthotrichum cupulatum var. juranum
 Bryophyte,CANM 279237,Oxystegus tenuirostre,original identification,Trichostomum tenuirostre
 Bryophyte,CANM 288097,Oxystegus tenuirostre,original identification,Trichostomum tenuirostre
@@ -251,7 +259,7 @@ Bryophyte,CANM 292910,Oxystegus tenuirostre,original identification,Trichostomum
 Bryophyte,CANM 277642,Oxystegus tenuirostre,original identification,Trichostomum tenuirostre | Pohlia filiformis
 Bryophyte,CANM 277684,Oxystegus tenuirostre,original identification,Trichostomum tenuirostre
 Bryophyte,CANM 22052,Cephalozia lanulifolia (Dum.) Dum.,previous scientific name,Cephalozia lunulifolia | Mylia anomala
-Palynology,CMNPYM02191,Fissidens adiantoides,scientific name,xxFissidens adiantoides
+Palynology,CMNPYM 2191,Fissidens adiantoides,scientific name,Fissidens dubius
 Bryophyte,CANM 108831,Fissidens adiantoides,original identification,Fissidens adianthoides
 Bryophyte,CANM 328116,Fissidens adiantoides,original identification,Fissidens dubius
 Bryophyte,CANM 197175,Fontinalis dalecarlica Schimp. ex B.S.G. var. macounii Card. ex Ren. & Card.,previous scientific name,Fontinalis dalecarlica
@@ -261,14 +269,14 @@ Bryophyte,CANM 197923,Bryum pallescens Schleich. ex Schwaegr. var. grande Kindb.
 Bryophyte,CANM 197925,Bryum pallescens Schleich. ex Schwaegr. var. laxifolium Kindb. in Mac.,type name,Bryum boreale
 Bryophyte,CANM 197934,Bryum pseudotriquetrum var. hyalodontium C. M>ll. & Kindb. in Mac. & Kindb.,previous scientific name,Bryum pseudotriquetrum
 Bryophyte,CANM 6172,Lejeunea cardotii Steph.,previous scientific name,Lejeunea cardoti
-Bryophyte,CANM 6417,Nardia macounii Underw.,previous scientific name,""
+Bryophyte,CANM 6417,Nardia macounii Underw.,previous scientific name,Bryophyta
 Bryophyte,CANM 9251,Scapania nemorosa var. intermedia Husn.,previous scientific name,Scapania undulata | Scapania undulata var. undulata
 Bryophyte,CANM 199516,Ulota subulifolia C. Müll. & Kindb. in Mac. & Kindb. ora,type name,Ulota megalospora
 Bryophyte,CANM 198333,Webera ludwigii v. microphylla Kindb. in Mac. & Kindb.,type name,Pohlia ludwigii
-Bryophyte,CANM 17046,Plagiochila cleefii Inoue,previous scientific name,""
-Bryophyte,CANM 10532,Riccardia multifida ssp. synoica Schust,previous scientific name,""
-Bryophyte,CANM 10522,Riccia treubiana var. subrubescens Schiffn.,previous scientific name,""
+Bryophyte,CANM 10532,Riccardia multifida ssp. synoica Schust,previous scientific name,Bryophyta
+Bryophyte,CANM 10522,Riccia treubiana var. subrubescens Schiffn.,previous scientific name,Bryophyta
 Bryophyte,CANM 8886,Riella ballandieri Trabut,previous scientific name,Riella battandieri
+Bryophyte,CANM 265,Anthoceros husnoti Steph.,previous scientific name,Anthoceros husnotii
 Bryophyte,CANM 2623,Drepanolejeunea bidens Schust. ssp. appalachiana,previous scientific name,Drepanolejeunea appalachiana
 Bryophyte,CANM 10530,Frullana inconstans Verd.,previous scientific name,Frullania inconstans
 Bryophyte,CANM 10427,Frullana nodulosa f. irreflexa Verd.,previous scientific name,Frullania nodulosa f. irreflexa
@@ -288,7 +296,7 @@ Bryophyte,CANM 102073,Sphagnum acutufolium v. flavicomans Card.,type name,Sphagn
 Bryophyte,CANM 102656,Sphagnum acutifolium var. intermedium,original identification,Sphagnum capillifolium
 Bryophyte,CANM 105667,Sphagnum molluscum Bruch var. hydrophilum Warnst.,previous scientific name,Sphagnum tenellum var. hydrophilum
 Bryophyte,CANM 157096,Fontinalis neo-mexicana Sull. & Lesq. var. columbica Card.,previous scientific name,Pohlia columbica
-Bryophyte,CANM 197719,Thuidium toyamae Nog.,previous scientific name,""
+Bryophyte,CANM 197719,Thuidium toyamae Nog.,previous scientific name,Bryophyta
 Bryophyte,CANM 197734,Tortula propagulosa Sharp.,previous scientific name,Rhacithecium perpusillum
 Bryophyte,CANM 197747,Weissiopsis spathulifolius Crum & Bartr.,previous scientific name,Weisiopsis spathulifolius
 Bryophyte,CANM 197752,Weissiopsis spathulifolius Crum & Bartr.,previous scientific name,Weisiopsis spathulifolius
@@ -934,8 +942,8 @@ Fish,CMNFI 1966-0588.1,Cristivomer namaycush,previous scientific name,Salvelinus
 Fish,CMNFI 1967-0006.1,Cristivomer namaycush,previous scientific name,Salvelinus namaycush
 Fish,CMNFI 1967-0318.1,Cristivomer namaycush,previous scientific name,Salvelinus namaycush
 Fish,CMNFI 1964-0039S.3,Cristivomer namaycush,previous scientific name,Salvelinus namaycush
-Fish,CMNFI 1967-0327.3,Cristivomer namaycush,Old Identification,Salvelinus namaycush
-Fish,CMNFI 1967-0327A.5,Cristivomer namaycush,Old identification,Salvelinus namaycush
+Fish,CMNFI 1967-0327.3,Cristivomer namaycush,old identification,Salvelinus namaycush
+Fish,CMNFI 1967-0327A.5,Cristivomer namaycush,old identification,Salvelinus namaycush
 Fish,CMNFI 1967-0317.1,Cristivomer namaycush,previous name,Salvelinus namaycush
 Fish,CMNFI 1966-0589.1,Cristivomer namaycush,previous name,Salvelinus namaycush
 Fish,CMNFI 1966-0590.1,Cristivomer namaycush,previous name,Salvelinus namaycush
@@ -2300,7 +2308,7 @@ Vascular Plant,CAN 256460,Carex aquatilis × Carex stricta,item name,Carex aquat
 Vascular Plant,CAN 206884,Carex miliaris var. major X C. rostrata var. rostula,previous scientific name,Carex ×stenolepis
 Vascular Plant,CAN 265822,"Carex assiniboinsnsis for. ambulans Bernard, J.P.",previous scientific name,Carex assiniboinensis
 Vascular Plant,CAN 23135,Carex koraginensis,previous name,Carex atrofusca
-Vascular Plant,CAN 26207,"Carex compacta Brown, R. in Richardson, J. in Franklin, J.",Type; previous name,Carex
+Vascular Plant,CAN 26207,"Carex compacta Brown, R. in Richardson, J. in Franklin, J.",type; previous name,Carex
 Vascular Plant,CAN 26207,Carex pulla Good,previous name,Carex
 Vascular Plant,CAN 185498,Polemonium van-bruntiae,scientific name,Polemonium vanbruntiae
 Vascular Plant,CAN 94059,Echinospermum brachycentrum var. brachystylum Gray.,previous name,Lappula
@@ -2379,7 +2387,7 @@ Vascular Plant,CAN 47236,Salix callicarpea Trautv.,previous scientific name,Sali
 Vascular Plant,CAN 49102,Salix pedcellaris var. hypoglauca Fern,previous scientific name,Salix pedicellaris
 Vascular Plant,CAN 164353,"Carex trisperma X tenuiflora Fernald, M.L.",previous scientific name,Carex trisperma
 Vascular Plant,CAN 270478,Carex viridula f. pygmaea Lepage,,Carex viridula
-Vascular Plant,CAN 124004,"Carex vulgaris var. limnophila Holm, H.T.",HOLOTYPE; previous name,Carex lenticularis var. limnophila
+Vascular Plant,CAN 124004,"Carex vulgaris var. limnophila Holm, H.T.",holotype; previous name,Carex lenticularis var. limnophila
 Vascular Plant,CAN 246358,"Salix glaucophylla var. latifolia Bebb, M.S.",type name; previous name,Salix myricoides var. myricoides
 Vascular Plant,CAN 246322,"Salix glaucophylla var. latifolia Bebb, M.S.",type name,Salix myricoides var. myricoides
 Vascular Plant,CAN 37924,"Festuca elatior L., F. rubra L.",previous scientific name,Schedonorus pratensis | Schedonorus pratensis
@@ -2411,7 +2419,7 @@ Vascular Plant,CAN 382904,"Sanicula gregaria Bickn., S. marilandica L.",previous
 Vascular Plant,CAN 300991,"Sanicula gregaria Bickn., S. marilandica L.",previous scientific name,Sanicula odorata
 Vascular Plant,CAN 469472,"Sanicula gregaria Bickn., S. marilandica L.",previous scientific name,Sanicula odorata
 Vascular Plant,CAN 470448,"Sanicula gregaria Bickn., S. trifoliata Bickn.",previous scientific name,Sanicula odorata
-Vascular Plant,CAN 123666,Alnus crispa (Ait.) Pursh var. harricanensis Lepage,HOLOTYPE; previous name,Alnus viridis subsp. crispa | Alnus
+Vascular Plant,CAN 123666,Alnus crispa (Ait.) Pursh var. harricanensis Lepage,holotype; previous name,Alnus viridis subsp. crispa | Alnus
 Vascular Plant,CAN 505228,"Sanicula gregaria Bickn.,Laportea canadensis (L.) Weddell",previous scientific name,Sanicula odorata
 Vascular Plant,CAN 187803,"Castilleja linariaefolia for omnipubescens Pennell, F.W.",type name,Castilleja linariifolia
 Vascular Plant,CAN 185342,"Navarretia abramsii Elmer, A.D.E.",previous scientific name,Eriastrum abramsii
@@ -2555,7 +2563,7 @@ Vascular Plant,CAN 46134,Salix fullertonensis x S. groenlandica,previous name,Sa
 Vascular Plant,CAN 46221,Salix fullertonensis x S. groenlandica,previous name,Salix arctica
 Vascular Plant,CAN 46222,Salix fullertonensis x S. groenlandica,previous name,Salix arctica
 Vascular Plant,CAN 104872,Antennaria pulcherrima (Hook.) Greene var. angustisquama,type name,Antennaria pulcherrima
-Palynology,CMNPYM03235,Lychnis taylorae,scientific name,xxLychnis taylorae
+Palynology,CMNPYM 3235,Lychnis taylorae,misspelling?,Silene tayloriae
 Vascular Plant,CAN 54939,Lychnis taylorae,previous name,Silene involucrata subsp. involucrata
 Vascular Plant,CAN 55018,Melandrium ostenfeldii,previous name,Silene taimyrensis
 Vascular Plant,CAN 55033,Melandrium ostenfeldii,previous name,Silene taimyrensis
@@ -2897,7 +2905,7 @@ Vascular Plant,CAN 35246,"Poa arctica R. Br. ssp. caespitans Nannf., Poa rigens 
 Vascular Plant,CAN 35236,"Poa arctica R. Br. ssp. caespitans Nannf., Poa rigens Hartm.",previous scientific name,Poa arctica
 Vascular Plant,CAN 35288,"Poa arctica R. Br. ssp. caespitans Nannf., Poa rigens Hartm.",previous scientific name,Poa arctica
 Vascular Plant,CAN 46752,Salix brachycarpa var. glabellicarpa Schneider,type name,xxSalix brachycarpa subsp. brachycarpa var. brachycarpa
-Vascular Plant,CAN 50113,Salix ovalifolia  var. camdensis Schneid.,HOLOTYPE; previous name,Salix ovalifolia var. ovalifolia
+Vascular Plant,CAN 50113,Salix ovalifolia  var. camdensis Schneid.,holotype; previous name,Salix ovalifolia var. ovalifolia
 Vascular Plant,CAN 80681,"Helianthemum canadense Michaux,Helianthemum majus BSP.",previous scientific name,Helianthemum bicknellii
 Vascular Plant,CAN 85299,Osmorhiza obtusata (Coult. & Rose) Fern.,previous scientific name,Osmorhiza depauperata
 Vascular Plant,CAN 85298,Osmorhiza obtusata (Coult. & Rose) Fern.,previous scientific name,Osmorhiza depauperata
@@ -2905,20 +2913,6 @@ Vascular Plant,CAN 81918,"Opuntia compressa (Salisb.) Macbr.,Opuntia rafinesquii
 Vascular Plant,CAN 94795,"A. scrophulariaefolia (Willd.) Ktze., Lophanthus scrophulariaefolius Benth.",previous scientific name,Agastache scrophulariifolia
 Vascular Plant,CAN 95530,Pycnanthemum muticum Pers. var. pilosum,previous scientific name,Pycnanthemum pilosum
 Vascular Plant,CAN 95529,Pycnanthemum muticum Pers. var. pilosum,previous scientific name,Pycnanthemum pilosum
-Vascular Plant,CAN 591504,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590868,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590869,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590917,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590755,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590865,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590878,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590877,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590922,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590876,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590861,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590862,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590863,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
-Vascular Plant,CAN 590864,Trisetum spicatum (L.) K. Richt. var. spicatum,,""
 Vascular Plant,CAN 35191,"Poa arctica R. Br., Poa flexuosa elongata Blytt",previous scientific name,Poa arctica subsp. arctica
 Vascular Plant,CAN 204488,"Poa alpigena (Fr.) Lindm. var. vivipara, P. alpigena var. colpodea (Fr.) Schol",previous scientific name,Poa pratensis subsp. colpodea
 Vascular Plant,CAN 2786,"Botrychium silaifolium Presl., B. ternatum var. linarioides",previous scientific name,Botrychium multifidum
@@ -3077,7 +3071,7 @@ Vascular Plant,CAN 44598,"Polygonum hydropiperoides var. psilostachyum St. John,
 Vascular Plant,CAN 254031,"Streptopus roseus var. longipes (Fern.) Fassett f. indivisus Lepage, E.",type name,Streptopus
 Vascular Plant,CAN 14082,Maianthemum stellata,scientific name,Maianthemum stellatum
 Vascular Plant,CAN 86686,Pyrola canadensis Andres,previous scientific name,Pyrola grandiflora var. canadensis
-Vascular Plant,CAN 149027,"Rhytiglossa dasyclados Martins, C.F.P. ex Nees von Esenbeck, C., Justicia d.",previous scientific name,Justicia | Justicia
+Vascular Plant,CAN 149027,"Rhytiglossa dasyclados Martins, C.F.P. ex Nees von Esenbeck, C., Justicia d.",previous scientific name,Justicia
 Vascular Plant,CAN 157712,Equisetum hiemale var. intermedium Eaton,,Equisetum ×errissii
 Vascular Plant,CAN 157712,Equisetum ferrissii,scientific name,Equisetum ×errissii
 Vascular Plant,CAN 435254,Equisetum hyemale L. var. intermedium A.A.Eaton,previous scientific name,Equisetum hyemale
@@ -3085,7 +3079,7 @@ Vascular Plant,CAN 157713,Equisetum hiemale var. suksdorfi A.A. Eaton,type name,
 Vascular Plant,CAN 1868,"Asplenium thelypteroides var. serratum Lawson, G.",previous scientific name,Asplenium serratum
 Vascular Plant,CAN 2055,"Athyrium filix-femina Lawson, G. var. rigidum",previous scientific name,Athyrium filix-femina
 Vascular Plant,CAN 364,"Cystopteris bulbifera var. horizontalis Lawson, G.",previous scientific name,Cystopteris bulbifera
-Palynology,CMNPYM10094,Cystopteris fragilis var. mackayii,scientific name,xxCystopteris fragilis var. mackayii
+Palynology,CMNPYM 10094,Cystopteris fragilis var. mackayii,misspelling?,Cystopteris tenuis
 Vascular Plant,CAN 332157,"Poa epilis Scribn., Poa purpurascens",previous scientific name,Poa cusickii subsp. epilis
 Vascular Plant,CAN 119501,Cornus circinata L'Her.,previous scientific name,Cornus rugosa
 Vascular Plant,CAN 245060,Corispermum nitidum,original identification,Corispermum americanum
@@ -3153,7 +3147,7 @@ Vascular Plant,CAN 236076,"Cineraria frigida for. tomentosa Kjellman, F.R.",prev
 Vascular Plant,CAN 236076A,"Cineraria frigida for. tomentosa Kjellman, F.R.",previous scientific name,Senecio
 Vascular Plant,CAN 157943,Selaginella extensa Underwood,,Selaginella
 Vascular Plant,CAN 157944,Selaginella extensa Underwood,,Selaginella
-Vascular Plant,CAN 1873,Thelipteris alpestris,Object type,Athyrium distentifolium var. americanum
+Vascular Plant,CAN 1873,Thelipteris alpestris,object type,Athyrium distentifolium var. americanum
 Vascular Plant,CAN 236030,"Epilobium opacum Lehmann, J.G.C.",previous scientific name,Epilobium
 Vascular Plant,CAN 236021,"Sanicula menziesii Hooker, W.J. in Hooker, W.J. and Arnott, G.A.W.",previous scientific name,Sanicula
 Vascular Plant,CAN 236004,"Seseli divaricatum Pursh, F.",previous scientific name,Musineon divaricatum var. divaricatum
@@ -3236,7 +3230,7 @@ Vascular Plant,CAN 125808,Lonicera caerulea var. hirsuta,previous scientific nam
 Vascular Plant,CAN 125809,Lonicera caerulea var. hirsuta,original identification,Lonicera hirsuta
 Vascular Plant,CAN 245585,Lonicera tararica,identification confirmation,Lonicera tatarica
 Vascular Plant,CAN 121413,Lonicera tartarica,original identification,Lonicera tatarica
-Vascular Plant,CAN 469785,Lonicera tartarica,previous scientific nam; identification confirmation,Lonicera tatarica
+Vascular Plant,CAN 469785,Lonicera tartarica,previous scientific name; identification confirmation,Lonicera tatarica
 Vascular Plant,CAN 38425,"Festuca brevifolia R. Br., F. ovina L.",previous scientific name,Festuca lenensis
 Vascular Plant,CAN 38134,Festuca rubra var. longearistata,previous scientific name,Festuca occidentalis
 Vascular Plant,CAN 38125,Festuca rubra var. longearistata,previous scientific name,Festuca occidentalis
@@ -3925,7 +3919,7 @@ Vascular Plant,CAN 79719,Acer circinatus Pursh,item name,Acer circinatum
 Vascular Plant,CAN 331761,"Dryopteris disjuncta (Ledeb.) Mort., D. linneana Christ.",previous scientific name,Gymnocarpium dryopteris
 Vascular Plant,CAN 331759,"Dryopteris disjuncta (Ledeb.) Mort., D. linneana Christ.",previous scientific name,Gymnocarpium dryopteris
 Vascular Plant,CAN 501150,Betula glandulifera (Regel) Butter,previous scientific name,Betula pumila var. glandulifera
-Vascular Plant,CAN 410104,Corispermum orientale Lam.,previous identifation,Corispermum hookeri
+Vascular Plant,CAN 410104,Corispermum orientale Lam.,previous identification,Corispermum hookeri
 Vascular Plant,CAN 410128,Nymphaea tetragona subsp. liebergii,scientific name,Nymphaea liebergii
 Vascular Plant,CAN 410208,Myriophyllum verticillatum L. var pectinatum Wallr.,previous scientific name,Myriophyllum verticillatum
 Vascular Plant,CAN 410009,Juncus arcticus Willd. ssp littoralis (Engelm.) Hult.,previous scientific name,Juncus balticus var. littoralis
@@ -3965,8 +3959,6 @@ Vascular Plant,CAN 437966,Sparganium chlorocarpon Rydb.,previous scientific name
 Vascular Plant,CAN 437945,Equisetum hyemale L. var. pseudohyemale (Farw.) Morton,previous scientific name,Equisetum hyemale var. affine
 Vascular Plant,CAN 439864,Equisetum hyemale L. var. pseudohyemale (Farw.) Morton,previous scientific name,Equisetum hyemale var. affine
 Vascular Plant,CAN 448074,Equisetum hyemale L. var. pseudohyemale (Farw.) Morton,previous scientific name,Equisetum hyemale var. affine
-Vascular Plant,CAN 439818,Prunus depressa,previous scientific name,Prunus pumila var. depressa
-Vascular Plant,CAN 100591,Prunus depressa,,""
 Vascular Plant,CAN 439795,Astragalus robbinsii (Oakes) Gray var. blakei (Eggl.) Barneby,previous scientific name,Astragalus robbinsii var. minor
 Vascular Plant,CAN 439747,Arisaema stewardsoni,previous scientific name,Arisaema triphyllum subsp. stewardsonii
 Vascular Plant,CAN 587972,Epilobium glandulosum v. adenocaulon,original identification,Epilobium ciliatum subsp. ciliatum
@@ -4030,7 +4022,7 @@ Vascular Plant,CAN 457187,Anemone narcissifolia L.,previous scientific name,Anem
 Vascular Plant,CAN 457193,Ranunculus escholtzii C.&S.,previous scientific name,Ranunculus eschscholtzii
 Vascular Plant,CAN 440554,Antennaria cf. plantiginifolia,previous scientific name,Antennaria plantaginifolia
 Vascular Plant,CAN 437777,Carex interior Bailey f. keween-awensis (F.J. Hern.) Fern.,previous scientific name,Carex interior
-Palynology,CMNPYM03198,Veronica wormskjoldii alterniflora,scientific name,Veronica wormskjoldii
+Palynology,CMNPYM 3198,Veronica wormskjoldii alterniflora,scientific name,Veronica wormskjoldii
 Vascular Plant,CAN 562457,Arenaria arctica,previous name,Minuartia arctica
 Vascular Plant,CAN 562458,Arenaria arctica,previous name,Minuartia arctica
 Vascular Plant,CAN 53042,Arenaria arctica,previous name,Minuartia arctica
@@ -4373,7 +4365,7 @@ Vascular Plant,CAN 534492,Hackelia americana,previous scientific name,Hackelia d
 Vascular Plant,CAN 429859,Circaea lutetima L. ssp. canadensis L.,previous scientific name,Circaea lutetiana subsp. canadensis
 Vascular Plant,CAN 450727,Cirsium arvense (L.) Scop. f. albiflorum (Rand & Redf.) Hoffm.,previous scientific name,xxCirsium arvense var. arvense f. albiflorum
 Vascular Plant,CAN 434586,Aster punicens L.,previous scientific name,Symphyotrichum puniceum
-Palynology,CMNPYM08636,Helianthus maximiliani,scientific name,xxHelianthus maximiliani
+Palynology,CMNPYM 8636,Helianthus maximiliani,misspelling?,Helianthus maximilianii
 Vascular Plant,CAN 582606,Helianthus maximiliani,,xxHelianthus maximiliani
 Vascular Plant,CAN 434698,Helianthus laetiflorus Pers. var. rigidus (Cass.) Fern.,previous scientific name,Helianthus pauciflorus
 Vascular Plant,CAN 434570,Liparis loesellii (L.) Richard,previous scientific name,Liparis loeselii
@@ -4461,7 +4453,7 @@ Vascular Plant,CAN 466401,Quercus bicolor Willd. X muehlenbergii Engelm.,previou
 Vascular Plant,CAN 438429,Lycopodium lucidulum Michaux var. occidentale (Clute) L.R.Wilson,previous scientific name,Lycopodium occidentale
 Vascular Plant,CAN 436271,Setaria faberi Herrm.,previous scientific name,Setaria faberii
 Vascular Plant,CAN 436273,Heleochloa schoenoides (L.) Host.,previous scientific name,Crypsis schoenoides
-Palynology,CMNPYM03276,Claytonia megarrhiza,scientific name,xxClaytonia megarrhiza
+Palynology,CMNPYM 3276,Claytonia megarrhiza,misspelling,Claytonia megarhiza
 Vascular Plant,CAN 465603,Senecio freemontii T. & G.,previous scientific name,Senecio fremontii
 Vascular Plant,CAN 465609,Erigeron perigrinus (Pursh) Greene,previous scientific name,Erigeron peregrinus
 Vascular Plant,CAN 466028,Scirpus atrovrons Willd.,previous scientific name,Scirpus atrovirens
@@ -4477,7 +4469,7 @@ Vascular Plant,CAN 441056,Anaphalis margaritaces (L.) Clarke,previous scientific
 Vascular Plant,CAN 443976,Viola cracca L. f. albida (Peterm.) Gams.,previous scientific name,Vicia cracca
 Vascular Plant,CAN 432858,"Poa cusickii Vasey, Festuca ovina L.",previous scientific name,Poa cusickii subsp. pallida
 Vascular Plant,CAN 487610,Helianthus angustifolius L. ssp. nuttallii (T. & G.) A.V. Anashenko,previous scientific name,Helianthus nuttallii
-Palynology,CMNPYM03926,Ranunculus gmelini,scientific name,xxRanunculus gmelini
+Palynology,CMNPYM 3926,Ranunculus gmelini,scientific name,Ranunculus gmelinii
 Vascular Plant,CAN 528362,Moldavica parviflora,previous scientific name,Dracocephalum parviflorum
 Vascular Plant,CAN 264113,Moldavica parviflora,previous name,Dracocephalum parviflorum
 Vascular Plant,CAN 280442,Moldavica parviflora,previous name,Dracocephalum parviflorum
@@ -4660,7 +4652,7 @@ Vascular Plant,CAN 455699,Epilobium hornemanni Reich.,previous scientific name,E
 Vascular Plant,CAN 474764,Spartina alternifolia Loisel.,previous scientific name,Spartina alterniflora
 Vascular Plant,CAN 455715,Glaux maritina L. var. obtusifolia Fern.,previous scientific name,Lysimachia maritima
 Vascular Plant,CAN 455722,Isanthus brachiatus (L.) BSP. var. linearis Fassett,previous scientific name,Trichostema brachiatum
-Vascular Plant,CAN 470263,Amelanchier alnifolia Nutt. var. compacta (Neilson) MacKay,previous scientific name,Amelanchier humilis
+Vascular Plant,CAN 69210,Amelanchier alnifolia var. compacta,item name,Amelanchier alnifolia
 Vascular Plant,CAN 457591,Polygonum cuspitatum Sieb. & Zucc.,previous scientific name,Polygonum cuspidatum
 Vascular Plant,CAN 455259,Carex curta Good.,previous scientific name,Carex canescens subsp. canescens
 Vascular Plant,CAN 455675,D. sabulorum (Lam.) Gould&Clark var. patulum (Scribn. & Merr.) Gould&Clark,previous scientific name,Dichanthelium commonsianum var. euchlamydeum
@@ -4752,6 +4744,10 @@ Vascular Plant,CAN 501306,Echinocloa pungens (Poir.) Rydb.,previous scientific n
 Vascular Plant,CAN 501415,Echinocloa pungens (Poir.) Rydb.,previous scientific name,Echinochloa muricata var. muricata
 Vascular Plant,CAN 501098,Echinocloa pungens (Poir.) Rydb.,previous scientific name,Echinochloa muricata var. muricata
 Vascular Plant,CAN 476037,Senecio congestus var. palustris,previous scientific name,Tephroseris palustris subsp. congesta
+Vascular Plant,CAN 605786,Senecio congestus var. palustris,original identification,Tephroseris palustris
+Vascular Plant,CAN 605787,Senecio congestus var. palustris,original identification,Tephroseris palustris
+Vascular Plant,CAN 605788,Senecio congestus var. palustris,original identification,Tephroseris palustris
+Vascular Plant,CAN 605789,Senecio congestus var. palustris,original identification,Tephroseris palustris
 Vascular Plant,CAN 525608,Asplenium cyclosorum Rupr.,previous scientific name,Athyrium filix-femina subsp. cyclosorum
 Vascular Plant,CAN 525607,Asplenium cyclosorum Rupr.,previous scientific name,Athyrium filix-femina subsp. cyclosorum
 Vascular Plant,CAN 525605,Pteris aquilina L. var lanuginosa Bong.,previous scientific name,Pteridium aquilinum
@@ -7280,9 +7276,9 @@ Fossil Vertebrate,CMNFV 39873,Dicrostonyx renidens-simplicior,,Dicrostonyx simpl
 Fossil Vertebrate,CMNFV 39907,Dicrostonyx renidens-simplicior,,Dicrostonyx simplicior
 Fossil Vertebrate,CMNFV 40049,Dicrostonyx venidens - simplicior,,Dicrostonyx simplicior
 Fossil Vertebrate,CMNFV 15266,Arctodus simus yukonesis,scientific name,Arctodus simus yukonensis
-Palynology,CMNPYM01673,Pontederia cordata var. coradata,previous name,Pontederia cordata
-Palynology,CMNPYM01672,Pontederia cordata var. coradata,previous name,Pontederia cordata
-Palynology,CMNPYM10819,Populus tricocarpa,scientific name,xxPopulus tricocarpa
+Palynology,CMNPYM 1673,Pontederia cordata var. coradata,previous name,Pontederia cordata
+Palynology,CMNPYM 1672,Pontederia cordata var. coradata,previous name,Pontederia cordata
+Palynology,CMNPYM 10819,Populus tricocarpa,misspelling,Populus trichocarpa
 Fossil Vertebrate,CMNFV 30014,Tolypelepinae indet.,,Tolypelepidinae
 Fossil Vertebrate,CMNFV 30016,Tolypelepinae indet.,,Tolypelepidinae
 Fossil Vertebrate,CMNFV 30012,Tolypelepinae indet.,,Tolypelepidinae
@@ -7364,7 +7360,7 @@ Fossil Vertebrate,CMNFV 30087,Tolypelepinae indet.,,Tolypelepidinae
 Fossil Vertebrate,CMNFV 30088,Tolypelepinae indet.,,Tolypelepidinae
 Fossil Vertebrate,CMNFV 30089,Tolypelepinae indet.,,Tolypelepidinae
 Palaeobotany,CMNPB W00005,Asidosperma album,scientific name,Aspidosperma album
-Palynology,CMNPYM11550,Ceratodon purpurens,scientific name,Ceratodon purpureus
+Palynology,CMNPYM 11550,Ceratodon purpurens,scientific name,Ceratodon purpureus
 Fossil Vertebrate,CMNFV 38376,Microtus cf pennsylvanicus?,,Microtus pennsylvanicus
 Fossil Vertebrate,CMNFV 39800,Microtus sp. X or Microtus xanthognathus,,Microtus | Microtus xanthognathus
 Fossil Vertebrate,CMNFV 39801,Microtus sp. X or Microtus xanthognathus,,Microtus | Microtus xanthognathus
@@ -7414,11 +7410,11 @@ Fossil Vertebrate,CMNFV 53468,Lemmus sibericus,,Lemmus trimucronatus
 Fossil Vertebrate,CMNFV 53469,Lemmus sibericus,,Lemmus trimucronatus
 Fossil Vertebrate,CMNFV 53470,Lemmus sibericus,,Lemmus trimucronatus
 Fossil Vertebrate,CMNFV 53471,Lemmus sibericus,,Lemmus trimucronatus
-Palaeobotany,CMNPB 01847,Pinus tetrafoliia,scientific name,Pinus tetrafolia
-Palaeobotany,CMNPB 03258,Gen indet.,scientific name,Plantae
-Palynology,CMNPYM11701,Lycopodium billardierii,original identification,Huperzia billardierei
+Palaeobotany,CMNPB 1847,Pinus tetrafoliia,scientific name,Pinus tetrafolia
+Palaeobotany,CMNPB 3258,Gen indet.,scientific name,Plantae
+Palynology,CMNPYM 11701,Lycopodium billardierii,original identification,Huperzia billardierei
 Fossil Vertebrate,CMNFV 12230,Panthera atrox,original identification,Panthera leo spelaea
-Mollusc,CMNML 2016-0057,Limniidae,misspelled,Lymnaeidae
+Mollusc,CMNML 2016-0057,Limniidae,misspelled on label,Lymnaeidae
 Lichen,CANL 123959,Sterile sorediate crust,original identification,Lecanora
 Lichen,CANL 128127,Sterile sorediate crust,original identification,Sterile crust
 Lichen,CANL 128136,Sterile sorediate crust,original identification,Sterile crust
@@ -7459,27 +7455,27 @@ Fossil Vertebrate,CMNFV 29475,Clupeiformes? and crustacean,,Clupeiformes
 Fossil Vertebrate,CMNFV 29476,Clupeiformes? and crustacean,,Clupeiformes
 Fossil Vertebrate,CMNFV 29477,Clupeiformes? and crustacean,,Clupeiformes
 Fossil Vertebrate,CMNFV 8946,Desmathyus sieuxensis,previous name,Hesperhys siouxensis
-Palynology,CMNPYM14493,Paesia scaberula,scientific name,[Paesia scaberula
-Palynology,CMNPYM00945,Solidago neomoralis,scientific name,xxSolidago neomoralis
-Palynology,CMNPYM00947,Gerardia papercula,previous name,Gerardia paupercula
-Palynology,CMNPYM01511,Chrysoplenium tetrandrum,scientific name,Chrysosplenium tetrandrum
-Palynology,CMNPYM03906,Chrysoplenium tetrandrum,scientific name,Chrysosplenium tetrandrum
+Palynology,CMNPYM 14493,Paesia scaberula,scientific name,[Paesia scaberula
+Palynology,CMNPYM 945,Solidago neomoralis,misspelling,Solidago nemoralis
+Palynology,CMNPYM 947,Gerardia papercula,previous name,Gerardia paupercula
+Palynology,CMNPYM 1511,Chrysoplenium tetrandrum,scientific name,Chrysosplenium tetrandrum
+Palynology,CMNPYM 3906,Chrysoplenium tetrandrum,scientific name,Chrysosplenium tetrandrum
 Vascular Plant,CAN 411750,Chrysoplenium tetrandrum,,Chrysosplenium tetrandrum
 Vascular Plant,CAN 280663,Chrysoplenium tetrandrum,,Chrysosplenium tetrandrum
 Vascular Plant,CAN 583577,Chrysoplenium tetrandrum,,Chrysosplenium tetrandrum
-Palynology,CMNPYM00086,Clappia suaedaefolia,scientific name,Clappia suaedifolia
-Palynology,CMNPYM00742,Corydalis sempervirans,scientific name,xxCorydalis sempervirans
-Palynology,CMNPYM08738,Cordia allidora,scientific name,xxCordia allidora
-Palynology,CMNPYM09549,Cordia allidora,scientific name,xxCordia allidora
-Palynology,CMNPYM07581,Cordia allidora,scientific name,xxCordia allidora
-Palynology,CMNPYM05217,Allium cernum,scientific name,xxAllium cernum
-Palynology,CMNPYM00136,Helianthus annus,typo,Helianthus annuus
-Palynology,CMNPYM03178,Ambrosia artemisifolia,scientific name,xxAmbrosia artemisifolia
-Palynology,CMNPYM06964,Ambrosia artemisifolia,scientific name,xxAmbrosia artemisifolia
-Palynology,CMNPYM08290,Cynanchum barbigarum,scientific name,xxCynanchum barbigarum
-Palynology,CMNPYM10117,Apocynum medium var. floribundum,scientific name,xxApocynum medium var. floribundum
-Palynology,CMNPYM03303,Arabis holboelii,scientific name,xxArabis holboelii
-Palynology,CMNPYM08441,Arceuthobium campulopodum,scientific name,xxArceuthobium campulopodum
+Palynology,CMNPYM 86,Clappia suaedaefolia,scientific name,Clappia suaedifolia
+Palynology,CMNPYM 742,Corydalis sempervirans,typo error,Corydalis sempervirens
+Palynology,CMNPYM 8738,Cordia allidora,misspelling,Cordia alliodora
+Palynology,CMNPYM 9549,Cordia allidora,misspelling,Cordia alliodora
+Palynology,CMNPYM 7581,Cordia allidora,misspelling,Cordia alliodora
+Palynology,CMNPYM 5217,Allium cernum,misspelling,Allium cernuum
+Palynology,CMNPYM 136,Helianthus annus,typo error,Helianthus annuus
+Palynology,CMNPYM 3178,Ambrosia artemisifolia,misspelling,Ambrosia artemisiifolia
+Palynology,CMNPYM 6964,Ambrosia artemisifolia,scientific name,Ambrosia artemisiifolia
+Palynology,CMNPYM 8290,Cynanchum barbigarum,misspelling,Cynanchum barbigerum
+Palynology,CMNPYM 10117,Apocynum medium var. floribundum,scientific name,Apocynum ×floribundum
+Palynology,CMNPYM 3303,Arabis holboelii,scientific name,Arabis holboellii
+Palynology,CMNPYM 8441,Arceuthobium campulopodum,misspelling,Arceuthobium campylopodum
 Mollusc,CMNML 040076,Slugs,scientific name,Gastropoda
 Mollusc,CMNML 050164,Slugs,scientific name,Gastropoda
 Mollusc,CMNML 050047,Slugs,scientific name,Gastropoda
@@ -7495,24 +7491,6 @@ Mollusc,CMNML 050047,Gastropod,,Gastropoda
 Mollusc,CMNML 039603,Gastropod,,Deroceras reticulatum
 Mollusc,CMNML 040879,Gastropod,,Gastropoda
 Mollusc,CMNML 048307,Gastropod,,Gastropoda
-Mollusc,CMNML 2015-0023,Gastropod,,""
-Mollusc,CMNML 2015-0024,Gastropod,,""
-Mollusc,CMNML 2015-0025,Gastropod,,""
-Mollusc,CMNML 2015-0027,Gastropod,,""
-Mollusc,CMNML 2015-0028,Gastropod,,""
-Mollusc,CMNML 2015-0029,Gastropod,,""
-Mollusc,CMNML 2015-0030,Gastropod,,""
-Mollusc,CMNML 2015-0031,Gastropod,,""
-Mollusc,CMNML 2015-0032,Gastropod,,""
-Mollusc,CMNML 2015-0020,Gastropod,,""
-Mollusc,CMNML 2015-0022,Gastropod,,""
-Mollusc,CMNML 2015-0033,Gastropod,,""
-Mollusc,CMNML 2015-0034,Gastropod,,""
-Mollusc,CMNML 2015-0035,Gastropod,,""
-Mollusc,CMNML 2015-0012,Gastropod,,Gastropoda
-Mollusc,CMNML 2015-0014,Gastropod,,Gastropoda
-Mollusc,CMNML 2015-0017,Gastropod,,Gastropoda
-Mollusc,CMNML 2015-0018,Gastropod,,Gastropoda
 Mollusc,CMNML 040077,Nudibranch,scientific name,Nudibranchia
 Mollusc,CMNML 035118,Nudibranch,scientific name,Nudibranchia
 Mollusc,CMNML 036702,Nudibranch,scientific name,Nudibranchia
@@ -7879,32 +7857,32 @@ Mollusc,CMNML 060472,Pododesmus macroschisma,scientific name,Pododesmus macrochi
 Mollusc,CMNML 060071,Pododesmus macroschisma,scientific name,Pododesmus macrochisma
 Mollusc,CMNML 000866,Pododesmus macroschisma,scientific name,Pododesmus macrochisma
 Mollusc,CMNML 035035,Anodonta cateracta,previous name,Pyganodon cataracta
-Palynology,CMNPYM08897,Orthiopteris minor,scientific name,[Orthiopteris minor
-Palynology,CMNPYM03050,Culcita coniifolia,scientific name,[Culcita coniifolia
-Palynology,CMNPYM05930,Culcita coniifolia,scientific name,[Culcita coniifolia
-Palynology,CMNPYM04577,Culcita macrocarpa,scientific name,[Culcita macrocarpa
-Palynology,CMNPYM08898,Paesia radula,scientific name,[Paesia radula
-Palynology,CMNPYM03278,Papaver lapponicum occientale,original identification,Papaver radicatum subsp. radicatum
-Palynology,CMNPYM14284,Equisetum hyenale,scientific name,xxEquisetum hyenale
+Palynology,CMNPYM 8897,Orthiopteris minor,scientific name,[Orthiopteris minor
+Palynology,CMNPYM 3050,Culcita coniifolia,scientific name,[Culcita coniifolia
+Palynology,CMNPYM 5930,Culcita coniifolia,scientific name,[Culcita coniifolia
+Palynology,CMNPYM 4577,Culcita macrocarpa,scientific name,[Culcita macrocarpa
+Palynology,CMNPYM 8898,Paesia radula,scientific name,[Paesia radula
+Palynology,CMNPYM 3278,Papaver lapponicum occientale,original identification,Papaver radicatum subsp. radicatum
+Palynology,CMNPYM 14284,Equisetum hyenale,misspelling,Equisetum hyemale
 Mollusc,CMNML 042413,Zoogentes harpa,scientific name,Zoogenetes harpa
 Mollusc,CMNML 042415,Stenotrema leaiStenotrema leai,,Euchemotrema leai
 Mollusc,CMNML 042717,Helisoma canipanulatum,scientific name,Planorbella campanulata
-Palynology,CMNPYM03272,Epilobium hornemanii,scientific name,xxEpilobium hornemanii
-Palynology,CMNPYM09242,Epilobium hornemanii,scientific name,xxEpilobium hornemanii
-Palynology,CMNPYM00124,Erigeron eatoni,scientific name,Erigeron eatonii
-Palynology,CMNPYM00126,Erigeron engelmanni,typo,Erigeron engelmannii
-Palynology,CMNPYM04943,Ervatamia divaricata,scientific name,xxErvatamia divaricata
-Palynology,CMNPYM13628,Utricularia weiwitschii,scientific name,Utricularia welwitschii
-Palynology,CMNPYM13731,Blotiella stipitata,scientific name,[Blotiella stipitata
-Palynology,CMNPYM12532,Blotiella stipitata,scientific name,[Blotiella stipitata
+Palynology,CMNPYM 3272,Epilobium hornemanii,misspelling,Epilobium hornemannii
+Palynology,CMNPYM 9242,Epilobium hornemanii,misspelling,Epilobium hornemannii
+Palynology,CMNPYM 124,Erigeron eatoni,scientific name,Erigeron eatonii
+Palynology,CMNPYM 126,Erigeron engelmanni,typo error,Erigeron engelmannii
+Palynology,CMNPYM 4943,Ervatamia divaricata,scientific name,Tabernaemontana divaricata
+Palynology,CMNPYM 13628,Utricularia weiwitschii,scientific name,Utricularia welwitschii
+Palynology,CMNPYM 13731,Blotiella stipitata,scientific name,[Blotiella stipitata
+Palynology,CMNPYM 12532,Blotiella stipitata,scientific name,[Blotiella stipitata
 Mollusc,CMNML 035065,Cyclopectea groenlandicum,scientific name,Similipecten greenlandicus
 Mollusc,CMNML 035066,Astarte montagic,scientific name,Astarte montagui
 Mollusc,CMNML 035074,Amauropsis pupurea,scientific name,Amauropsis purpurea
 Mollusc,CMNML 035123,Margarites groenlanicus,scientific name,Margarites groenlandicus
 Mollusc,CMNML 035150,Devoceras laeve,scientific name,Deroceras laeve
 Mollusc,CMNML 035210,Solariella cf obscuta,scientific name,Solariella obscura
-Palynology,CMNPYM12438,Salix pellta,scientific name,xxPellta
-Palynology,CMNPYM12442,Populus tacamahaca,scientific name,Populus balsamifera
+Palynology,CMNPYM 12438,Salix pellta,misspelling,Salix pellita
+Palynology,CMNPYM 12442,Populus tacamahaca,scientific name,Populus balsamifera
 Vascular Plant,CAN 40668,Populus tacamahaca,original identification,Populus balsamifera
 Vascular Plant,CAN 40672,Populus tacamahaca,original identification,Populus balsamifera
 Vascular Plant,CAN 40669,Populus tacamahaca,original identification,Populus balsamifera
@@ -7917,47 +7895,42 @@ Vascular Plant,CAN 40632,Populus tacamahaca,original identification,Populus bals
 Vascular Plant,CAN 40634,Populus tacamahaca,original identification,Populus balsamifera
 Vascular Plant,CAN 40639,Populus tacamahaca,original identification,Populus balsamifera
 Vascular Plant,CAN 40640,Populus tacamahaca,original identification,Populus balsamifera
-Palynology,CMNPYM10090,Athyrium thelypterioides,scientific name,xxAthyrium thelypterioides
-Palynology,CMNPYM01714,Athyrium thelypterioides,scientific name,xxAthyrium thelypterioides
-Palynology,CMNPYM07751,Boerhavia difusa,scientific name,xxBoerhavia difusa
-Palynology,CMNPYM04831,Chironia gracilis,scientific name,Chironia linoides subsp. nana
-Palynology,CMNPYM13130,Oenotrichia tripinnata,scientific name,[Oenotrichia tripinnata
-Palynology,CMNPYM07583,Cordia boissierii,scientific name,xxCordia boissierii
-Palynology,CMNPYM07650,Malva niceaensis,scientific name,xxMalva niceaensis
-Palynology,CMNPYM14413,Scirpus olneyi,scientific name,xxScirpus olneyi
-Palynology,CMNPYM14415,Ambrosia tennuifolium,scientific name,xxAmbrosia tennuifolium
-Palynology,CMNPYM00586,Doryalis caffra,scientific name,Dovyalis caffra
-Palynology,CMNPYM02286,Drepanocladus revolrens,scientific name,Limprichtia revolvens
-Palynology,CMNPYM01791,Dryopteris noveboracense,scientific name,xxDryopteris noveboracense
-Palynology,CMNPYM00044,Eatonella congdoni,scientific name,Lembertia congdonii
-Palynology,CMNPYM11277,Saccoloma ferulaceum,scientific name,[Saccoloma ferulaceum
-Palynology,CMNPYM05790,Orthiopteris minus,scientific name,[Orthiopteris minus
-Palynology,CMNPYM08761,Arenaria conjesta,scientific name,xxArenaria conjesta
+Palynology,CMNPYM 10090,Athyrium thelypterioides,scientific name,Deparia acrostichoides
+Palynology,CMNPYM 1714,Athyrium thelypterioides,scientific name,Deparia acrostichoides
+Palynology,CMNPYM 7751,Boerhavia difusa,misspelling,Boerhavia diffusa
+Palynology,CMNPYM 4831,Chironia gracilis,scientific name,Chironia linoides subsp. nana
+Palynology,CMNPYM 13130,Oenotrichia tripinnata,scientific name,[Oenotrichia tripinnata
+Palynology,CMNPYM 7583,Cordia boissierii,misspelling,Cordia boissieri
+Palynology,CMNPYM 7650,Malva niceaensis,misspelling?,Malva nicaeensis
+Palynology,CMNPYM 14413,Scirpus olneyi,scientific name,Schoenoplectus americanus
+Palynology,CMNPYM 14415,Ambrosia tennuifolium,misspelling,Ambrosia tenuifolia
+Palynology,CMNPYM 586,Doryalis caffra,scientific name,Dovyalis caffra
+Palynology,CMNPYM 2286,Drepanocladus revolrens,scientific name,Limprichtia revolvens
+Palynology,CMNPYM 1791,Dryopteris noveboracense,scientific name,Thelypteris noveboracensis
+Palynology,CMNPYM 44,Eatonella congdoni,scientific name,Lembertia congdonii
+Palynology,CMNPYM 11277,Saccoloma ferulaceum,scientific name,[Saccoloma ferulaceum
+Palynology,CMNPYM 5790,Orthiopteris minus,scientific name,[Orthiopteris minus
+Palynology,CMNPYM 8761,Arenaria conjesta,misspelling,Arenaria congesta
 Vascular Plant,CAN 518184,Arenaria peploides L. var. diffusa Hornem.,synonym,Honckenya peploides subsp. diffusa
-Palynology,CMNPYM08787,Artemisia absinthinum,scientific name,xxArtemisia absinthinum
-Palynology,CMNPYM05564,Lindsaea guianensis lanceastrum,scientific name,Lindsaea guianensis sp. lanceastrum
-Palynology,CMNPYM11260,Cystodium sorbifolium,scientific name,[Cystodium sorbifolium
-Palynology,CMNPYM11272,Saccoloma chartaceum,scientific name,[Saccoloma chartaceum
-Palynology,CMNPYM11274,Saccoloma domingense,scientific name,[Saccoloma domingense | xxSaccoloma domingense
-Palynology,CMNPYM11273,Saccoloma elegans,scientific name,[Saccoloma elegans
-Palynology,CMNPYM11275,Saccoloma elegans,scientific name,[Saccoloma elegans
-Palynology,CMNPYM08912,Saccoloma elegans,scientific name,[Saccoloma elegans
-Palynology,CMNPYM11354,Bolbitis cladorhizans,scientific name,xxBolbitis cladorhizans
-Palynology,CMNPYM11377,Isoetes engelmanni,scientific name,xxIsoetes engelmanni
-Palynology,CMNPYM11376,Isoetes engelmanni,scientific name,xxIsoetes engelmanni
-Palynology,CMNPYM11250,Lappula squarrosa squarrosa,scientific name,xxLappula squarrosa squarrosa
-Palynology,CMNPYM00021,Dyssodia treculil,previous name,Thymophylla tenuiloba var. treculii
-Palynology,CMNPYM02171,Ceratodon pupureus,scientific name,Ceratodon purpureus
-Palynology,CMNPYM00087,Chaenactis fremonti,scientific name,Chaenactis fremontii
-Palynology,CMNPYM08633,Triglochin concinna,scientific name,xxTriglochin concinna
-Palynology,CMNPYM05791,Saccoloma inaequale,scientific name,[Saccoloma inaequale | xxSaccoloma inaequale
-Palynology,CMNPYM05789,Saccoloma moluccanum,scientific name,[Saccoloma moluccanum
-Palynology,CMNPYM04106,Helianthemum scoparium var. vulgare,original identification,Helianthemum scoparium
-Palynology,CMNPYM11502,Acer plantanoides,scientific name,xxAcer plantanoides
-Palynology,CMNPYM11501,Acer plantanoides,scientific name,xxAcer plantanoides
-Palaeobotany,CMNPB 03325 [dup2],Drepanocladus aduncus var. kneifii,scientific name,Drepanocladus aduncus var. kneiffii
-Palaeobotany,CMNPB 01377,Liliatae,scientific name,Anthophyta
-Palynology,CMNPYM11276,Saccoloma campylura,scientific name,[Saccoloma campylura
+Palynology,CMNPYM 8787,Artemisia absinthinum,misspelling,Artemisia absinthium
+Palynology,CMNPYM 5564,Lindsaea guianensis lanceastrum,scientific name,Lindsaea guianensis sp. lanceastrum
+Palynology,CMNPYM 11260,Cystodium sorbifolium,scientific name,[Cystodium sorbifolium
+Palynology,CMNPYM 11272,Saccoloma chartaceum,scientific name,[Saccoloma chartaceum
+Palynology,CMNPYM 11354,Bolbitis cladorhizans,scientific name,Bolbitis portoricensis
+Palynology,CMNPYM 11377,Isoetes engelmanni,misspelling,Isoetes engelmannii
+Palynology,CMNPYM 11376,Isoetes engelmanni,misspelling,Isoetes engelmannii
+Palynology,CMNPYM 11250,Lappula squarrosa squarrosa,scientific name,Lappula squarrosa
+Palynology,CMNPYM 21,Dyssodia treculil,previous name,Thymophylla tenuiloba var. treculii
+Palynology,CMNPYM 2171,Ceratodon pupureus,scientific name,Ceratodon purpureus
+Palynology,CMNPYM 87,Chaenactis fremonti,scientific name,Chaenactis fremontii
+Palynology,CMNPYM 8633,Triglochin concinna,misspelling,Triglochin concinnum
+Palynology,CMNPYM 5789,Saccoloma moluccanum,scientific name,[Saccoloma moluccanum
+Palynology,CMNPYM 4106,Helianthemum scoparium var. vulgare,original identification,Helianthemum scoparium
+Palynology,CMNPYM 11502,Acer plantanoides,misspelling,Acer platanoides
+Palynology,CMNPYM 11501,Acer plantanoides,misspelling,Acer platanoides
+Palaeobotany,CMNPB 3325 [dup2],Drepanocladus aduncus var. kneifii,scientific name,Drepanocladus aduncus var. kneiffii
+Palaeobotany,CMNPB 1377,Liliatae,scientific name,Anthophyta
+Palynology,CMNPYM 11276,Saccoloma campylura,scientific name,[Saccoloma campylurum
 Mollusc,CMNML 033772,Sphaerium rhombordeum,scientific name,Sphaerium rhomboideum
 Mollusc,CMNML 033842,Pisidum cf walkeri,previous name,Pisidium walkeri
 Mollusc,CMNML 033908,Pisidium lilljebogi,scientific name,Pisidium lilljeborgi
@@ -8218,8 +8191,8 @@ Mollusc,CMNML 036430,Opisthobranch,scientific name,Opisthobranchia
 Mollusc,CMNML 036603,Tricrotropis,scientific name,Trichotropis
 Mollusc,CMNML 036617,Margarits helicinus,scientific name,Margarites helicinus
 Mollusc,CMNML 035279,Margarits helicinus,scientific name,Margarites helicinus
-Mollusc,CMNML 036645,Rissoid,scientific name,""
-Mollusc,CMNML 036646,Rissoid,scientific name,""
+Mollusc,CMNML 036645,Rissoid,scientific name,Rissoidae
+Mollusc,CMNML 036646,Rissoid,scientific name,Rissoidae
 Mollusc,CMNML 036680,Alvania jan-meyeni,scientific name,Frigidoalvania janmayeni
 Mollusc,CMNML 036685,Opioth,scientific name,Opisthobranchia
 Mollusc,CMNML 036235,Opioth,scientific name,Opisthobranchia
@@ -8375,7 +8348,7 @@ Mollusc,CMNML 067388,Sphaerids,scientific name,Sphaerium
 Mollusc,CMNML 067401,Gyraulus porvus,scientific name,Gyraulus parvus
 Mollusc,CMNML 068094,Sphaerium lucustre,scientific name,Musculium lacustre
 Mollusc,CMNML 067129,Onchidorus aspersa,scientific name,Onchidoris aspersa
-Palynology,CMNPYM01332,Populus deltoides wislizeni,scientific name,xxPopulus deltoides wislizeni
+Palynology,CMNPYM 1332,Populus deltoides wislizeni,misspelling,Populus deltoides subsp. wislizenii
 Vascular Plant,CAN 72118,Potentilla cf. hookeriana subsp. hookeriana,previous name,Potentilla arenosa subsp. arenosa
 Mollusc,CMNML 041334,Serripes groenlendicus,scientific name,Serripes groenlandicus
 Mollusc,CMNML 041431,Pisidium simile,scientific name,Sphaerium simile
@@ -8401,8 +8374,8 @@ Mollusc,CMNML 045585,Axinopsis orbiculatus,scientific name,Axinopsida orbiculata
 Mollusc,CMNML 041251,Thracia deuexa,scientific name,Thracia devexa
 Mollusc,CMNML 041256,Astarte borcalis,scientific name,Astarte borealis
 Mollusc,CMNML 041261,Thracia thracia DEUEXA,scientific name,Thracia devexa
-Palynology,CMNPYM04116,Lechea minor var. maritima,previous name,Lechea maritima var. maritima
-Palynology,CMNPYM03846,Silene menzeisii,scientific name,xxSilene menzeisii
+Palynology,CMNPYM 4116,Lechea minor var. maritima,previous name,Lechea maritima var. maritima
+Palynology,CMNPYM 3846,Silene menzeisii,misspelling,Silene menziesii
 Mollusc,CMNML 066693,Lymnaea artica,,Stagnicola arctica
 Mollusc,CMNML 043413,Helisoma companulatum,scientific name,Planorbella campanulata
 Mollusc,CMNML 048639,Helisoma companulatum,scientific name,Planorbella campanulata
@@ -8421,17 +8394,15 @@ Mollusc,CMNML 035403,Velatina undata,scientific name,Limneria undata
 Mollusc,CMNML 035661,Acmaea rabella,scientific name,Erginus rubellus
 Mollusc,CMNML 035687,Arca glacialis,scientific name,Bathyarca glacialis
 Mollusc,CMNML 035703,Oenopota novaja-semljensis,scientific name,Curtitoma novajasemljensis
-Palynology,CMNPYM09634,Zuelenia guidonia,typo error,Zuelania guidonia
-Palynology,CMNPYM00321,Anemone richardsoni,typo,Anemone richardsonii
-Palynology,CMNPYM04296,Anthoceros erectus,scientific name,xxAnthoceros erectus
-Palynology,CMNPYM04302,Anthoceros nagasakiensis,scientific name,xxAnthoceros nagasakiensis
+Palynology,CMNPYM 9634,Zuelenia guidonia,typo error,Zuelania guidonia
+Palynology,CMNPYM 321,Anemone richardsoni,typo error,Anemone richardsonii
 Mollusc,CMNML 027427,Helicodisus parallelus,scientific name,Helicodiscus parallelus
 Mollusc,CMNML 026838,Helicodisus parallelus,scientific name,Helicodiscus parallelus
 Mollusc,CMNML 027435,Strobilops labyrinthisa,previous name,Strobilops labyrinthicus
-Palynology,CMNPYM03204,Viola nephrophila,scientific name,xxViola nephrophila
+Palynology,CMNPYM 3204,Viola nephrophila,misspelling,Viola nephrophylla
 Mollusc,CMNML 040201,Ceratosoma foliatum,scientific name,Ceratostoma foliatum
-Palynology,CMNPYM08893,Microlepia hirsuta,scientific name,[Microlepia hirsuta
-Palynology,CMNPYM01750,Microlepia wiffordii,scientific name,[Microlepia wiffordii
+Palynology,CMNPYM 8893,Microlepia hirsuta,scientific name,[Microlepia hirsuta
+Palynology,CMNPYM 1750,Microlepia wiffordii,scientific name,[Microlepia wiffordii
 Mollusc,CMNML 039583,Lymnaea atkensis,scientific name,Lymnaea atkaensis
 Mollusc,CMNML 039621,Land,scientific name,Mollusca
 Mollusc,CMNML 039636,Land,scientific name,Mollusca
@@ -8511,10 +8482,10 @@ Mollusc,CMNML 070774,Quadrula pustulosa pustul,scientific name,Quadrula pustulos
 Mollusc,CMNML 093034,Quadrula pustulosa pustul,scientific name,Quadrula pustulosa pustulosa
 Mollusc,CMNML 062746,Quadrula pustulosa pustul,scientific name,Quadrula pustulosa pustulosa
 Mollusc,CMNML 070985,Quadrula pustulosa pustul,scientific name,Quadrula pustulosa pustulosa
-Palynology,CMNPYM08901,Phymatoides lucida,scientific name,xxPhymatoides lucida
-Palynology,CMNPYM01802,Picea engelmanni,scientific name,xxPicea engelmanni
-Palynology,CMNPYM03398,Pedicularis verticellata,scientific name,xxPedicularis verticellata
-Palynology,CMNPYM08640,Phalaris arundinaceae,original identification,Phalaris arundinacea
+Palynology,CMNPYM 8901,Phymatoides lucida,misspelling,Microsorum lucida
+Palynology,CMNPYM 1802,Picea engelmanni,misspelling,Picea engelmannii
+Palynology,CMNPYM 3398,Pedicularis verticellata,misspelling,Pedicularis verticillata
+Palynology,CMNPYM 8640,Phalaris arundinaceae,original identification,Phalaris arundinacea
 Mollusc,CMNML 040372,Fossaria modicella rusticaFossaria modicella MORPH RUSTICA,,Fossaria rustica
 Mollusc,CMNML 040358,Fossaria modicella rusticaFossaria modicella MORPH RUSTICA,,Fossaria rustica
 Mollusc,CMNML 040377,Arion subfuseus,,Arion subfuscus
@@ -8533,8 +8504,8 @@ Mollusc,CMNML 041159,Astarte warami,,Astarte montagui
 Mollusc,CMNML 041161,Pandora glacilais,scientific name,Pandora glacialis
 Mollusc,CMNML 041162,Pandora glacilais,scientific name,Pandora glacialis
 Mollusc,CMNML 041163,Pandora glacilais,scientific name,Pandora glacialis
-Palynology,CMNPYM02420,Stellaria gramineae,scientific name,xxStellaria gramineae
-Palynology,CMNPYM03152,Rhynchosia cystisoides,scientific name,xxRhynchosia cystisoides
+Palynology,CMNPYM 2420,Stellaria gramineae,misspelling,Stellaria graminea
+Palynology,CMNPYM 3152,Rhynchosia cystisoides,misspelling,Rhynchosia cytisoides
 Mollusc,CMNML 066033,Elliptio dilata,scientific name,Elliptio dilatata
 Mollusc,CMNML 049287,Elliptio dilata,scientific name,Elliptio dilatata
 Mollusc,CMNML 066035,Carunculina parva,,Toxolasma parvum
@@ -8556,7 +8527,7 @@ Mollusc,CMNML 040644,Carunculina parva,,Toxolasma parvum
 Mollusc,CMNML 080420,Carunculina parva,,Toxolasma parvum
 Mollusc,CMNML 067018,Illyanassa obsoletas,scientific name,Nassarius obsoletus
 Mollusc,CMNML 067079,Illyanassa say,scientific name,Ilyanassa
-Palynology,CMNPYM03892,Ranunculus trochophyllus,scientific name,Ranunculus trichophyllus
+Palynology,CMNPYM 3892,Ranunculus trochophyllus,scientific name,Ranunculus trichophyllus
 Mollusc,CMNML 043795,Spisula polynema,scientific name,Spisula polynyma
 Mollusc,CMNML 043796,Spisula polynema,scientific name,Spisula polynyma
 Mollusc,CMNML 043797,Spisula polynema,scientific name,Spisula polynyma
@@ -8577,12 +8548,11 @@ General Invertebrate,CMNI 2010-0001,Brachiopod,scientific name,Brachiopoda
 Mollusc,CMNML 035358,Aporrhais occidentaiis,scientific name,Aporrhais occidentalis
 Mollusc,CMNML 035374,Margarit helicinus,scientific name,Margarites helicinus
 Mollusc,CMNML 043277,Sphaerium clessin,scientific name,Sphaerium nitidum
-Palynology,CMNPYM07441,Triticum dicoccoides var. spontaneonigrum,scientific name,xxTriticum dicoccoides var. spontaneonigrum
-Palynology,CMNPYM02403,Lycopodium annotinum var. acrifolium,original identification,Lycopodium annotinum
-Palynology,CMNPYM05928,Culcita copelandii,scientific name,[Culcita copelandii
-Palynology,CMNPYM05929,Culcita straminea,scientific name,[Culcita straminea
-Palynology,CMNPYM05927,Culcita villosa,scientific name,[Culcita villosa
-Palynology,CMNPYM04301,Anthoceros multifidus,scientific name,xxAnthoceros multifidus
+Palynology,CMNPYM 7441,Triticum dicoccoides var. spontaneonigrum,scientific name,Triticum turgidum
+Palynology,CMNPYM 2403,Lycopodium annotinum var. acrifolium,original identification,Lycopodium annotinum
+Palynology,CMNPYM 5928,Culcita copelandii,scientific name,[Culcita copelandii
+Palynology,CMNPYM 5929,Culcita straminea,scientific name,[Culcita straminea
+Palynology,CMNPYM 5927,Culcita villosa,scientific name,[Culcita villosa
 Mollusc,CMNML 066012,Alasmidonta claceola,previous scientific name,Alasmidonta viridis
 Mollusc,CMNML 041499,Spherium striatinum F ACUMINATUM,scientific name,Sphaerium striatinum acuminatus
 Mollusc,CMNML 066099,Pyganodon grandiss,,Pyganodon grandis
@@ -9318,7 +9288,6 @@ Mollusc,CMNML 045363,Tritogonia vettucosa,scientific name,Quadrula verrucosa
 Mollusc,CMNML 045374,Drupa horrides,scientific name,Drupa horrida
 Mollusc,CMNML 045418,Ppolygyra septemvolva,scientific name,Polygyra septemvolva
 Mollusc,CMNML 045445,Illyanssa obsoleta,scientific name,Nassarius obsoletus
-Mollusc,CMNML 045462,Costacallista eucymata,scientific name,""
 Mollusc,CMNML 045472,Hemitrochis varians,scientific name,Hemitrochus varians
 Mollusc,CMNML 046279,Lithoglypus naticoides,previous name,Lithoglyphus naticoides
 Mollusc,CMNML 046290,Sadleriana pannotica v.,scientific name,Bythinella pannonica
@@ -9895,7 +9864,7 @@ Fossil Vertebrate,CMNFV 907,Trachodontidae,,Hadrosauridae
 Fossil Vertebrate,CMNFV 908,Trachodontidae,,Hadrosauridae
 Fossil Vertebrate,CMNFV 909,Trachodontidae,,Hadrosauridae
 Fossil Vertebrate,CMNFV 1249,Trachodontidae,,Hadrosauridae
-Fossil Vertebrate,CMNFV 1250,Trachodontidae,,""
+Fossil Vertebrate,CMNFV 1250,Trachodontidae,,Hadrosauridae
 Fossil Vertebrate,CMNFV 1251,Trachodontidae,,Hadrosauridae
 Fossil Vertebrate,CMNFV 1252,Trachodontidae,,Hadrosauridae
 Fossil Vertebrate,CMNFV 1253,Trachodontidae,,Hadrosauridae
@@ -10133,9 +10102,9 @@ Vascular Plant,CAN 206877,Agroelymus jamesenesis v. stoloniferus Lepage,type nam
 Fish,CMNFI 1969-0132.2,Lampanyctus  leucopsarus,previous name,Stenobrachius leucopsarus
 Fish,CMNFI 1969-0136.2,Lampanyctus  leucopsarus,previous name,Stenobrachius leucopsarus
 Bryophyte,CANM 197987,Dicranum brachycaulon Kindb. ex Macoun,previous name,Dicranum spurium
-Crustacea,CMNC 1994-0393,Polycheria myxillae,MS name,Polycheria mixillae
-Crustacea,CMNC 1994-0394,Polycheria myxillae,MS name,Polycheria mixillae
-Crustacea,CMNC 1994-0395,Polycheria myxillae,MS name,Polycheria mixillae
+Crustacea,CMNC 1994-0393,Polycheria myxillae,manuscript name,Polycheria mixillae
+Crustacea,CMNC 1994-0394,Polycheria myxillae,manuscript name,Polycheria mixillae
+Crustacea,CMNC 1994-0395,Polycheria myxillae,manuscript name,Polycheria mixillae
 Mollusc,CMNML 002023,Physa lordii,previous scientific name,Physa lordi
 Mollusc,CMNML 002024,Physa brevispira,previous scientific name,Physella
 Mollusc,CMNML 002004,Lymnea elodes;Lymnaea elodes,previous scientific name,Stagnicola elodes
@@ -10436,7 +10405,7 @@ Mollusc,CMNML 002467,Unio coccineus,previous scientific name,Pleurobema sintoxia
 Mollusc,CMNML 002469,Unio coccineum,previous scientific name,Pleurobema sintoxia
 Mollusc,CMNML 002470,Unio quadrulas,previous scientific name,Obliquaria reflexa
 Mollusc,CMNML 002474,Elliptio diatata,scientific name,Elliptio dilatata
-Mollusc,CMNML 002475,Unio subrotundus,previous scientific name,""
+Mollusc,CMNML 002475,Unio subrotundus,previous scientific name,Pleurobema sintoxia
 Mollusc,CMNML 002417,Unio subrotundus,previous scientific name,Pleurobema sintoxia
 Mollusc,CMNML 002608,Unio subrotundus,previous scientific name,Fusconaia subrotunda subrotunda
 Mollusc,CMNML 002478,Lampsilis alata,previous scientific name,Potamilus alatus
@@ -10543,7 +10512,7 @@ Fossil Vertebrate,CMNFV 2276,Trachodont,,Hadrosauridae
 Fossil Vertebrate,CMNFV 327,Trachodont,,Hadrosaurus
 Fossil Vertebrate,CMNFV 253,Trachodont,,Hadrosaurus
 Fossil Vertebrate,CMNFV 2453,Hadrosarus,,Hadrosauridae
-Lichen,CANL 3785,Nephroma lepidophyllum f. hypomel,Object type,Nephroma lepidophyllum f. hypomelaenum
+Lichen,CANL 3785,Nephroma lepidophyllum f. hypomel,object type,Nephroma lepidophyllum f. hypomelaenum
 Mollusc,CMNML 002133,Stagnicola caperataLymnaea caperata,,Stagnicola caperata
 Mollusc,CMNML 002133,Lymnoea caperata,previous scientific name,Stagnicola caperata
 Mollusc,CMNML 002148,Lymnoea caperata,previous scientific name,Stagnicola caperata
@@ -10842,7 +10811,7 @@ Mollusc,CMNML 001655,Ischnoradsia mertensii,previous scientific name,Lepidozona 
 Mollusc,CMNML 000380,Ischnoradsia mertensii,previous scientific name,Lepidozona mertensii
 Mollusc,CMNML 000381,Ischnoradsia mertensii,previous scientific name,Lepidozona mertensii
 Mollusc,CMNML 001514,Ischnoradsia mertensii,previous scientific name,Lepidozona mertensii
-Mollusc,CMNML 001662,Placiphorella,,""
+Mollusc,CMNML 001662,Placiphorella,,Polyplacophora
 Mollusc,CMNML 001519,Phaciphorella,previous scientific name,Mopalia imporcata
 Mollusc,CMNML 001663,Thais lamellosa,previous scientific name,Nucella lamellosa
 Mollusc,CMNML 001665,Purpura lamellosa,previous scientific name,Nucella lamellosa
@@ -11098,13 +11067,13 @@ Mollusc,CMNML 002375,Lampsilis radiata borealis,scientific name,Lampsilis radiat
 Mollusc,CMNML 002376,Unio canadeusis,previous scientific name,Lampsilis ovata
 Mollusc,CMNML 002379,Anodonta amblema,previous scientific name,Amblema plicata
 Mollusc,CMNML 002379,Lampsilis amblema plicata,scientific name,Amblema plicata
-Insect,CMNEN 00011673,Ateuchus perezrelai,Object type,Ateuchus perezvelai
+Insect,CMNEN 00011673,Ateuchus perezrelai,object type,Ateuchus perezvelai
 Insect,CMNEN 00011674,Ateuchus perezrelai,,Ateuchus perezvelai
 Insect,CMNEN 00000158,Ateuchus perezrelai,,Ateuchus perezvelai
 Insect,CMNEN 00000157,Ateuchus perezrelai,,Ateuchus perezvelai
 Insect,CMNEN 00000159,Ateuchus perezrelai,,Ateuchus perezvelai
-Mollusc,CMNML 061548,Oxytrema sp.,scientific name,""
-Mollusc,CMNML 061548,Oxytrema cf. comalensis,previous scientific name,""
+Mollusc,CMNML 061548,Oxytrema sp.,previous scientific name,Pleurocera
+Mollusc,CMNML 061548,Oxytrema cf. comalensis,previous scientific name,Pleurocera
 Mollusc,CMNML 006123,Actebcina canaliculata,scientific name,Acteocina canaliculata
 Mollusc,CMNML 006123,Actebina (Tornatina) canaliculata,previous scientific name,Acteocina canaliculata
 Mollusc,CMNML 006132,Elliptio dilatatus subgibbosus,scientific name,Elliptio dilatata subgibbosa
@@ -11175,6 +11144,7 @@ Mollusc,CMNML 001190,Cancellaria circumcincta,previous scientific name,Admete ci
 Mollusc,CMNML 000586,Buccinum polare var compectum,previous scientific name,Buccinum plectrum
 Mollusc,CMNML 000251,Buccinum polare var compectum,previous scientific name,Buccinum polaris
 Mollusc,CMNML 071249,Glyphyalina indentata,scientific name,Glyphyalinia indentata
+Mollusc,CMNML 2016-0261,Glyphyalina indentata,misspelling,Glyphyalinia indentata
 Mollusc,CMNML 071262,Helicodisucs shimeki,scientific name,Helicodiscus shimeki
 Mollusc,CMNML 005147,Dromas dromas,previous scientific name,Dromus dromas
 Mollusc,CMNML 057023,Dromas dromas,,Dromus dromas
@@ -11482,7 +11452,7 @@ Bird,CMNAV E1028,Clidris bairdii,,Calidris bairdii
 Bird,CMNAV 78997,Clidris bairdii,,Calidris bairdii
 Crustacea,CMNC 1993-0032,Microjassa litodes,,Microjassa litotes
 Crustacea,CMNC 1993-0033,Ischyrocer,,Ischyrocerus socia
-Annelid,CMNA 1978-0285,Glossoscolex (Glossoscolex) corderoi,,Glossoscolex (glossoscolex) corderoi
+Annelid,CMNA 1978-0285,Glossoscolex corderoi,type name,Glossoscolex (glossoscolex) corderoi
 Bird,CMNAV E1038,Sizella arborea,,Spizella arborea
 Bird,CMNAV E1047,Calcrius lapponicus,,Calcarius lapponicus
 Bird,CMNAV E1052,Stercoranrius parasiticus,,Stercorarius parasiticus
@@ -11505,7 +11475,7 @@ Mollusc,CMNML 091314,Anodonata grandis,previous name,Pyganodon grandis
 Bird,CMNAV E4221,Struthio camelus massaicus,,Struthio camelus
 Bird,CMNAV E2271,Psaltriparus mnimus,,Psaltriparus minimus
 NU Fossil Vertebrate,NUFV 1914,Hadrosaur indet.,,Hadrosauridae
-Annelid,CMNA 1978-0263,Plutellus teuis,,Plutellus tenuis
+Annelid,CMNA 1978-0263,Plutellus teuis,mis-spelling,Plutellus tenuis
 Vascular Plant,CAN 33122,Deschampsia mackenziana,previous name,Deschampsia cespitosa subsp. cespitosa
 Vascular Plant,CAN 351266,Deschampsia mackenziana,,Deschampsia mackenzieana
 Crustacea,CMNC 1993-0034,Theristina gasterostei,,Thersitina gasterostei | Gasterosteus wheatlandi
@@ -11610,7 +11580,7 @@ Vascular Plant,CAN 385464,Calamagrostis stricta var. borealis,previous name,Cala
 Vascular Plant,CAN 416020,Calamagrostis stricta var. borealis,previous name,Calamagrostis stricta subsp. groenlandica
 Vascular Plant,CAN 513539,Calamagrostis stricta var. borealis,previous name,Calamagrostis stricta subsp. inexpansa
 Amphibian and Reptile,CMNAR 35168,Scincella laterale,item name,Scincella lateralis
-Fossil Vertebrate,CMNFV 1551,"Bottosaurus perrugosus, Cope",,Leidyosuchus canadensis
+Fossil Vertebrate,CMNFV 1551,"Bottosaurus perrugosus, Cope",original identification,Leidyosuchus canadensis
 Vascular Plant,CAN 1230,Thelypteris fragrans,previous name,Dryopteris fragrans
 Vascular Plant,CAN 1225,Thelypteris fragrans,previous name,Dryopteris fragrans
 Vascular Plant,CAN 1226,Thelypteris fragrans,previous name,Dryopteris fragrans
@@ -11879,7 +11849,7 @@ Mollusc,CMNML 005872,Epioblasma rangiana,,Epioblasma torulosa rangiana
 Mollusc,CMNML 026207,Sphearium strictinum,,Sphaerium striatinum
 Mollusc,CMNML 019642,Sphearium striatinum,,Sphaerium striatinum
 Mollusc,CMNML 018615,Sphaerium striatum,,Sphaerium striatinum
-Crustacea,CMNC 1991-0809,Orconectes virilis laurentiana,previous name,""
+Crustacea,CMNC 1991-0809,Orconectes virilis laurentiana,previous name,Orconectes virilis
 Crustacea,CMNC 1991-0810,Orconectes virilis laurentiana,previous name,Orconectes virilis
 Crustacea,CMNC 1991-0811,Orconectes virilis laurentiana,previous name,Orconectes virilis
 Crustacea,CMNC 1991-0812,Orconectes virilis laurentiana,previous name,Orconectes virilis
@@ -11891,7 +11861,7 @@ Vascular Plant,CAN 124606,Bromu pumpellianus Scribn.,previous name,Bromus pumpel
 Vascular Plant,CAN 215400,Calamagrostis canadensis var. acuminata Vasey,original identification,Calamagrostis canadensis var. langsdorfii
 Mollusc,CMNML 030860,Quadrula pustulosa kienariana,,Quadrula pustulosa
 Fossil Vertebrate,CMNFV 6307,Aceratherium occidentalis (Leidy),,Subhyracodon occidentalis
-Fossil Vertebrate,CMNFV 6309,Leptaceratherium trigonodon,Figured name,Subhyracodon mitis
+Fossil Vertebrate,CMNFV 6309,Leptaceratherium trigonodon,figured name,Subhyracodon mitis
 Lichen,CANL 45365,Aspicilia aquatica f. flavescens Magn.,,Aspicilia aquatica
 Mollusc,CMNML 002824,Caelatara dupontia,,Caelatura aegyptiaca
 Vascular Plant,CAN 24727,Carex vulgaris Fries,previous name,Carex lenticularis var. lipocarpa
@@ -12189,7 +12159,7 @@ Vascular Plant,CAN 315806,Puccinellia retroflexa,original identification,Puccine
 Lichen,CANL 91513,Bryocaulon devergens,,Bryocaulon divergens
 Vascular Plant,CAN 381451,Antennaria freisiana ssp. alaskana (Malte) Hultén,item name,Antennaria friesiana
 Vascular Plant,CAN 258600,Puccinellia alpigina,previous name,Puccinellia vaginata
-Fossil Vertebrate,CMNFV 9438,Tephrocyon,Previous ID,Tomarctus hippophagus
+Fossil Vertebrate,CMNFV 9438,Tephrocyon,previous identification,Tomarctus hippophagus
 Fish,CMNFI 1967-0207.1,Chrosomus erythrogaster eos,previous name,Phoxinus eos
 Fish,CMNFI 1967-0296.1,Moxostoma macrolepidotum macrolepidotum,,Moxostoma macrolepidotum
 Fish,CMNFI 1967-0338.7,Micropterus dolomieui dolomieui,,Micropterus dolomieu
@@ -12515,8 +12485,6 @@ Vascular Plant,CAN 195439,Seriocarpus californicus Durand,previous name,Sericoca
 Vascular Plant,CAN 195435,Seriocarpus oregonensis,previous name,Sericocarpus rigidus
 Insect,CMNEN 00014911,Phanaeus pseudofurcosus,,Phanaeus (Phanaeus) furiosus pseudofurcosus
 Insect,CMNEN 00014912,Phanaeus pseudofurcosus,,Phanaeus (Phanaeus) furiosus pseudofurcosus
-Vascular Plant,CAN 557169,Aster solidajinensis,,""
-Vascular Plant,CAN 557169,Sericocarpus solidagineus,,""
 Insect,CMNEN 00014829,Phanaeus prasinys trinidadensis,,Phanaeus (Phanaeus) prasinus trinidadensis
 Fish,CMNFI 1969-0132.4,Lampanyctus townsendi,previous name,Ceratoscopelus townsendi
 Fish,CMNFI 1969-0135.3,Lampanyctus townsendi,previous name,Ceratoscopelus townsendi
@@ -12567,7 +12535,7 @@ Vascular Plant,CAN 583912,Hultheniella integrifolia,item name,Hulteniella integr
 Vascular Plant,CAN 583610,Sagina cespitosa,previous name,Sagina caespitosa
 Vascular Plant,CAN 234114,Sagina cespitosa,previous name,Stellaria longipes
 Crustacea,CMNC 1999-0021,Maera gracilis,previous name,Maera bousfieldi
-Vascular Plant,CAN 23029,Savage Harbour,,Carex fuliginosa subsp. misandra
+Vascular Plant,CAN 23029,Savage Harbour,,Carex fuliginosa
 Vascular Plant,CAN 583857,Pedicularis arctoeuropeae,original identification,Pedicularis arctoeuropaea
 Vascular Plant,CAN 583857,Pedicularis arctoeuropeae,identification confirmation,Pedicularis arctoeuropaea
 Vascular Plant,CAN 583673,Potentilla arenosa x crebridens ssp. hemicryophila,original identification,Potentilla
@@ -12576,7 +12544,7 @@ Fish,CMNFI 1968-1049.4,Balistes bursa,previous name,Sufflamen bursa
 Fish,CMNFI 1968-1049.5,Lactophrys tridricornis,previous name,Lactophrys quadricornis
 Vascular Plant,CAN 583885,Antenneria friesiana ssp. alaskana,,Antennaria friesiana subsp. alaskana
 Vascular Plant,CAN 244610,Carex langiana,,Carex ×langeana
-Crustacea,CMNC 1989-0240,Spirontocaris phippsi,,""
+Crustacea,CMNC 1989-0240,Spirontocaris phippsi,misspelling,Spirontocaris phippsii
 Crustacea,CMNC 1995-0047,Spirontocaris phippsi,,Spirontocaris phippsii
 Crustacea,CMNC 1995-0048,Spirontocaris phippsi,,Spirontocaris phippsii
 Fossil Vertebrate,CMNFV 32358,Ischyromyid,,Microparamys bayi
@@ -12599,9 +12567,9 @@ Lichen,CANL 88328,Bryoria vhlybeiformis,,Bryoria chalybeiformis
 Lichen,CANL 88328,Bryoria chlybeiformis,,Bryoria chalybeiformis
 Fish,CMNFI 1973-0143.3,Hybognatuhs hankinsoni,,Hybognathus hankinsoni
 Fish,CMNFI 1973-0155.1,Osmerus erperlanus,previous name,Osmerus mordax
-Vascular Plant,CAN 267854,Carex misandra f. pallida,original identification,Carex fuliginosa subsp. misandra
-Vascular Plant,CAN 267854,Carex misandra f. pallida,previous name,Carex fuliginosa subsp. misandra
-Gem,CMNGE 21643,Brooch,Object type,""
+Vascular Plant,CAN 267854,Carex misandra f. pallida,original identification,Carex fuliginosa
+Vascular Plant,CAN 267854,Carex misandra f. pallida,previous name,Carex fuliginosa
+Gem,CMNGE 21643,Brooch,object type,""
 Crustacea,CMNC 1995-0117,Echinogammarus trichiatus,previous name,Eulimnogammarus trichiatus
 Vascular Plant,CAN 583554,Smelowskia borealis ssp. jordalis,previous name,Smelowskia media
 Vascular Plant,CAN 400047,Cerastium beeringianum × regelii,item name,Cerastium alpinum subsp. alpinum | Cerastium beeringianum
@@ -12941,12 +12909,12 @@ Bird,CMNAV T420,Catharus bicknellii,,Catharus bicknelli
 Lichen,CANL 40645,Buellia lactoidea,,Buellia lacteoidea
 Vascular Plant,CAN 577791,Taraxacum erythrosperm,previous name,Taraxacum laevigatum
 Vascular Plant,CAN 469687,Ipomea purpurea,,Ipomoea purpurea
-Vascular Plant,CAN 94269,Lithospernum hirtum,,""
+Vascular Plant,CAN 94269,Lithospermum hirtum,item name,Lithospermum caroliniense
+Vascular Plant,CAN 94271,Lithospermum hirtum,previous name,xxLithospermum croceum
 Vascular Plant,CAN 42341,Quercus rubra var. runcinata,previous name,Quercus rubra
 Vascular Plant,CAN 357027,Salix interoir Rowlee,previous name,Salix exigua
 Vascular Plant,CAN 95918,Lycium vulgare,previous name,Lycium barbarum
 Vascular Plant,CAN 95918,Lycium halinifolium,previous name,Lycium barbarum
-Vascular Plant,CAN 94271,Lithospermum hirtum,previous name,xxLithospermum croceum
 Vascular Plant,CAN 576264,D. humidusa Raf.,previous name,Opuntia ficus-indica
 Fish,CMNFI 1974-0219.4,Lane 1974-01-11 CMNFI 74-0219,,Pleuronichthys ritteri
 Fish,CMNFI 1984-1110.9,Aspidorphoroides olriki,previous name,Ulcina olrikii
@@ -13053,7 +13021,7 @@ Vascular Plant,CAN 56230,Ranunculus affinis,previous name,Ranunculus sabinei
 Vascular Plant,CAN 56309,Ranunculus affinis,previous name,Ranunculus pedatifidus
 Vascular Plant,CAN 56310,Ranunculus affinis,previous name,Ranunculus pedatifidus
 Vascular Plant,CAN 56312,Ranunculus affinis,previous name,Ranunculus pedatifidus
-Vascular Plant,CAN 56311,Ranunculus affinis,previous name,""
+Vascular Plant,CAN 56311,Ranunculus affinis,previous name,Ranunculus pedatifidus
 Vascular Plant,CAN 56315,Ranunculus affinis,previous name,Ranunculus pedatifidus
 Vascular Plant,CAN 56314,Ranunculus affinis,previous name,Ranunculus pedatifidus
 Vascular Plant,CAN 56313,Ranunculus affinis,previous name,Ranunculus pedatifidus
@@ -13372,7 +13340,6 @@ Vascular Plant,CAN 509506,Ranunculus yukonensis,previous name,Ranunculus gmelini
 Vascular Plant,CAN 509507,Ranunculus yukonensis,previous name,Ranunculus gmelinii
 Vascular Plant,CAN 55590,Ranunculus yukonensis,previous name,Ranunculus gmelinii
 Lichen,CANL 116335,Stereocaulon dactyllophyllum,,Stereocaulon dactylophyllum
-Vascular Plant,CAN 585464,Circeae alpina,,""
 Crustacea,CMNC 2003-1325,Grophioidea + Pratogeneioidea,,Pontogeneiidae | Corophiidea
 Lichen,CANL 14868,Cetrarirlla delisei,,Cetrariella delisei
 Vascular Plant,CAN 41026,Alnus crepis,previous name,Alnus viridis subsp. crispa
@@ -13440,6 +13407,7 @@ Vascular Plant,CAN 277407,Saxifraga punctata ssp. porsildii,previous name,Micran
 Vascular Plant,CAN 280614,Saxifraga punctata ssp. porsildii,previous name,Micranthes porsildiana
 Vascular Plant,CAN 312728,Saxifraga punctata ssp. porsildii,previous name,Micranthes porsildiana
 Vascular Plant,CAN 213121,Saxifraga punctata ssp. porsildii,previous name,Micranthes porsildiana
+Vascular Plant,CAN 313184,Saxifraga punctata ssp. porsildii,previous name,Micranthes porsildiana
 Lichen,CANL 119302,Phyacia caesia,,Physcia caesia
 Lichen,CANL 119284,Umbilicaria havasii,,Umbilicaria havaasii
 Lichen,CANL 119266,Peltigera kristinsson,,Peltigera kristinssonii
@@ -13588,7 +13556,7 @@ Crustacea,CMNC 2005-0036,Petrolisthes rudis,previous name,Pachycheles rudis
 Vascular Plant,CAN 153736,Erigeron scribneri,previous name,Erigeron hyperboreus
 Crustacea,CMNC 2004-1349,Ameroculodes aestuarius,manuscript name,Ameroculodes edwardsi
 Crustacea,CMNC 2004-1350,Ameroculodes aestuarius,manuscript name,Ameroculodes edwardsi
-Vascular Plant,CAN 388832,Fallopia x bohemica (Chrtek & Chrtková) J. Bailey,manuscript name,""
+Vascular Plant,CAN 388832,Fallopia x bohemica (Chrtek & Chrtková) J. Bailey,manuscript name,Polygonum cuspidatum
 Lichen,CANL 118560,Canomaculina subtinctorum,,Canomaculina subtinctoria
 Lichen,CANL 118565,Caloplaca incomspecta,,Caloplaca inconspecta
 Vascular Plant,CAN 387932,Polygonum sieboldi,original identification,Polygonum cuspidatum
@@ -13656,6 +13624,7 @@ NU Fossil Vertebrate,NUFV 168,Lamniform shark,,Lamniformes
 Vascular Plant,CAN 48084,Salix eriocephala ssp. eriocephala var. famelica or  var. mackenziana,previous name,Salix famelica
 Lichen,CANL 118725,Tuckermannopsis sepineola,,Tuckermannopsis sepincola
 NU Fossil Invertebrate,NUIF 20,Invertebrate?,,Animalia
+Fossil Vertebrate,CMNFV 40909,Invertebrate?,,Animalia
 NU Fossil Invertebrate,NUIF 21,Coral? Bryozoan?,,Bryozoa
 NU Fossil Vertebrate,NUFV 174,Lamniforme Shark,,Lamniformes
 Lichen,CANL 118381,Rhizocarpon chrysoleuca,,Rhizoplaca chrysoleuca
@@ -13708,7 +13677,6 @@ Fossil Invertebrate,CMNIF 180,Dysagrion packardii,,Insecta
 Fossil Invertebrate,CMNIF 182,Plecia pealei,,Insecta
 Fossil Invertebrate,CMNIF 183,Inoceramid clams,,Dysodonta
 Vascular Plant,CAN 96790,Gratiola aurea f. leucantha,original identification,Gratiola aurea
-Fossil Vertebrate,CMNFV 52727,Terminonaris sp.,,""
 Fossil Invertebrate,CMNIF 192,Lithoblatta lithophila(?),,Insecta
 Vascular Plant,CAN 1384,Aspidium cristatum,original identification,Dryopteris cristata
 Lichen,CANL 2336,Leptogium albociliatum,original identification,Leptochidium albociliatum
@@ -13741,17 +13709,17 @@ Vascular Plant,CAN 127782,Papaver radicatum var. albiflorum,original identificat
 Vascular Plant,CAN 509779,Papaver radicatum var. albiflorum,original identification,Papaver hultenii
 Vascular Plant,CAN 59490,Papaver radicatum var. albiflorum,original identification,Papaver dahlianum
 Vascular Plant,CAN 538730,Dianthus gratianopolipetalus,original identification,Dianthus plumarius
-Palaeobotany,CMNPB 04623,Plantaea,,Plantae
-Palaeobotany,CMNPB 04624,Plantaea,,Plantae
-Palaeobotany,CMNPB 04625,Plantaea,,Plantae
+Palaeobotany,CMNPB 4623,Plantaea,,Plantae
+Palaeobotany,CMNPB 4624,Plantaea,,Plantae
+Palaeobotany,CMNPB 4625,Plantaea,,Plantae
 Lichen,CANL 7117,Cladonia cornucopioides,previous name,Cladonia borealis
 Lichen,CANL 9126,Cladonia cornucopioides,original identification,Cladonia pleurota
-Palaeobotany,CMNPB 04627,Vitas stantoni,,Plantae
-Palaeobotany,CMNPB 04627,Vitis stantoni,,Plantae
-Palaeobotany,CMNPB 04628,Petrified bark with amber,,Plantae
-Palaeobotany,CMNPB 04629,Pseudocycas dunkeriana,,Plantae
-Palaeobotany,CMNPB 04630,Ginkgo pluripartita,,Ginkgo
-Palaeobotany,CMNPB 04631,Ginkgo pluripartita,,Ginkgo
+Palaeobotany,CMNPB 4627,Vitas stantoni,,Plantae
+Palaeobotany,CMNPB 4627,Vitis stantoni,,Plantae
+Palaeobotany,CMNPB 4628,Petrified bark with amber,,Plantae
+Palaeobotany,CMNPB 4629,Pseudocycas dunkeriana,,Plantae
+Palaeobotany,CMNPB 4630,Ginkgo pluripartita,,Ginkgo
+Palaeobotany,CMNPB 4631,Ginkgo pluripartita,,Ginkgo
 Parasite,CMNPA 2005-0051,Ixodes hexagonus (cookei?),previous name,Ixodes cookei | Canis familiaris
 Vascular Plant,CAN 2354,Pellaea gracilis,original identification,xxCryptogramma stelleri
 Vascular Plant,CAN 2355,Pellaea gracilis,original identification,Cryptogramma stelleri
@@ -13951,8 +13919,8 @@ Lichen,CANL 71983,Cetraria orbata,previous name,Tuckermannopsis orbata
 Lichen,CANL 89369,Cetraria orbata,previous name,Tuckermannopsis americana
 Vascular Plant,CAN 503719,Draba casia,previous name,Draba palanderiana
 Vascular Plant,CAN 61906,Draba casia,previous name,Draba palanderiana
-Vascular Plant,CAN 61975,Draba pallandriana,original identification/typo error,Draba palanderiana
-Vascular Plant,CAN 61977,Draba pallandriana,original identification/typo error,Draba palanderiana
+Vascular Plant,CAN 61975,Draba pallandriana,original identification; typo error,Draba palanderiana
+Vascular Plant,CAN 61977,Draba pallandriana,original identification; typo error,Draba palanderiana
 Vascular Plant,CAN 62735,Draba aurea f. hybrida,original identification,Draba praealta
 Vascular Plant,CAN 393059,Draba steniloba,original identification,Draba albertina
 Fish,CMNFI 1967-0127.1,Hemiodon unifasciatus,previous name,Reganella
@@ -14149,7 +14117,7 @@ NU Fossil Invertebrate,NUIF 151,Timaniella harkeri,,Brachiopoda
 Vascular Plant,CAN 588158,Solidago canadensis cf v. fallax,previous name,Solidago brendiae
 Bryophyte,CANM 179080,Brachythecium flexicaule Ren. & Card.,original identification,Brachythecium calcareum
 Bryophyte,CANM 159463,Leptodon trichomitrion,original identification,Forsstroemia trichomitria
-Bryophyte,CANM 159461,Leptodon trichomitrion,pervious identification,Forsstroemia trichomitria
+Bryophyte,CANM 159461,Leptodon trichomitrion,previous identification,Forsstroemia trichomitria
 Bryophyte,CANM 159470,Leptodon trichomitrion,original identification,Forsstroemia trichomitria
 Bryophyte,CANM 159465,Leptodon trichomitrion,original identification,Forsstroemia trichomitria
 Bryophyte,CANM 159462,Leptodon trichomitrion,original identification,Forsstroemia trichomitria
@@ -14203,9 +14171,6 @@ Lichen,CANL 7537,Cladonia deformis f. cornuta Torssell,,Cladonia deformis
 Bryophyte,CANM 103725,Sphagnum striatum Lindb.,original identification,Sphagnum girgensohnii
 Vascular Plant,CAN 587218,Carex pennsylvanica,original identification,Carex pensylvanica
 Bryophyte,CANM 231156,Chamberlainia salebrosa v. flexicaule (R & C) Robins.,original identification,Brachythecium calcareum
-Vascular Plant,CAN 525158,Ledum macrophyllum,,""
-Vascular Plant,CAN 246875,Ledum macrophyllum,,""
-Vascular Plant,CAN 246876,Ledum macrophyllum,,""
 Bryophyte,CANM 330607,Sphagnum cf. capillare,original identification,Sphagnum girgensohnii
 Vascular Plant,CAN 587074,Potentilla anserina subsp. ededii,item name,Potentilla anserina subsp. egedii
 Vascular Plant,CAN 233457,Solidago canadensis × rugosa Mill.,original identification,Solidago canadensis × S. rugosa
@@ -14253,7 +14218,7 @@ NU Fossil Invertebrate,NUIF 115,Spiriferiida,,Brachiopoda
 NU Fossil Invertebrate,NUIF 107,Productiida,,Productida
 NU Fossil Invertebrate,NUIF 113,Timaniella convexa,,Brachiopoda
 NU Fossil Invertebrate,NUIF 113,Thuleproductus arcticus,,Brachiopoda
-Annelid,CMNA 1990-0041,Unknown,,""
+Annelid,CMNA 1990-0041,Unknown,,Annelida
 Lichen,CANL 41814,Unknown,item name,Crust
 Bryophyte,CANM 179036,Hypnum illecebrum,original identification,Brachythecium digastrum
 Bryophyte,CANM 181246,Hypnum illecebrum,original identification,Bryoandersonia illecebra
@@ -14268,19 +14233,17 @@ Vascular Plant,CAN 101901,Solidago pitcheri,previous name,Solidago gigantea var.
 Vascular Plant,CAN 101903,Solidago pitcheri,original identification,Solidago gigantea var. serotina
 Vascular Plant,CAN 195720,Solidago pitcheri,original identification,Solidago gigantea
 Bryophyte,CANM 330430,Polytrichum juniperum,,Polytrichum juniperinum
-Bryophyte,CANM 330400,Aquatic moss,,""
-Bryophyte,CANM 330401,Aquatic moss,,""
-Bryophyte,CANM 330404,Aquatic moss,,""
-Bryophyte,CANM 330403,Aquatic moss,,""
+Bryophyte,CANM 330400,Aquatic moss,,Musci
+Bryophyte,CANM 330401,Aquatic moss,,Musci
+Bryophyte,CANM 330404,Aquatic moss,,Musci
+Bryophyte,CANM 330403,Aquatic moss,,Musci
 Bryophyte,CANM 330407,Drepanocladus revovens,typo error,Limprichtia revolvens
-Bryophyte,CANM 330418,Hylocomium splendous,Typo error,Hylocomium splendens
+Bryophyte,CANM 330418,Hylocomium splendous,typo error,Hylocomium splendens
 Bryophyte,CANM 330419,Alga?,,""
 Bryophyte,CANM 330423,Stokesiella praelonga,original identification,Eurhynchium pumilum
 Lichen,CANL 37034,Sphaerophorus globosus var. gracilis,original identification,Sphaerophorus venerabilis
 Lichen,CANL 36889,Sphaerophorus globosus var. gracilis,original identification,Sphaerophorus venerabilis
 Vascular Plant,CAN 101696,Solidao canadensis var. fallax,item name,Solidago fallax var. fallax
-Bryophyte,CANM 15622,Leiocolea obtusa,,""
-Bryophyte,CANM 15623,Leiocolea obtusa,,""
 Bryophyte,CANM 16243,Orthocaulis ?,original identification,Lophozia guttulata
 Bryophyte,CANM 5355,Lyptobryum pyriforme,,Lophozia ventricosa var. longiflora
 Bryophyte,CANM 105335,Sphagnum squarrosum var. speciosum,original identification,Sphagnum squarrosum
@@ -14454,7 +14417,7 @@ Bryophyte,CANM 217995,Mnium orthorrhychum,item name,Mnium thomsonii
 Bryophyte,CANM 146610,Mnium orthorrhychum,original identification,Mnium ambiguum | Timmia austriaca
 Bryophyte,CANM 146609,Mnium orthorrhychum,original identification,Mnium ambiguum
 Bryophyte,CANM 146625,Mnium orthorrhychum,original identification,Mnium ambiguum
-Bryophyte,CANM 146404,Mnium lycopodioides ssp. orthorrhynchum (Lindb.) Wijk & Marg.,original identification,""
+Bryophyte,CANM 146404,Mnium lycopodioides ssp. orthorrhynchum (Lindb.) Wijk & Marg.,original identification,Mnium ambiguum
 Bryophyte,CANM 146622,Mnium orthorrhymchum,original identification,Mnium thomsonii
 Bryophyte,CANM 146627,Mnium orthorrhynchium,original identification,Mnium thomsonii
 Bryophyte,CANM 275546,Mnium orthorrhynchium,original identification,Mnium thomsonii
@@ -14466,15 +14429,12 @@ Lichen,CANL 6705,Cladonia macilenta f. styracella,previous name,Cladonia macilen
 Lichen,CANL 8381,Cladonia macilenta f. styracella,previous name,Cladonia macilenta
 Lichen,CANL 44030,Cladonia macilenta f. styracella,previous name,Cladonia macilenta
 Lichen,CANL 8387,Cladonia macilenta f. styracella,previous name,Cladonia macilenta
-Alga,CANA 588168.1,Ptilota plumosa,,""
+Alga,CANA 588168.1,Ptilota plumosa,,Ptilota
 Vascular Plant,CAN 40289,Elymus glaucus var. robustus,original identification,Elymus glaucus subsp. virescens
 Vascular Plant,CAN 514132,Agropyron angustifolium,original identification,Elymus violaceus
 Vascular Plant,CAN 514134,Agropyron angustiglume,original identification,Elymus violaceus
 Vascular Plant,CAN 514130,Agropyron angustiglume,original identification,Elymus violaceus
 Vascular Plant,CAN 514133,Agropyron angustiglume,original identification,Elymus violaceus
-Vascular Plant,CAN 544587,Salicornia europaea ssp. rubra,,""
-Vascular Plant,CAN 379728,Salicornia europaea ssp. rubra,,Salicornia rubra
-Vascular Plant,CAN 573204,Salicornia europaea ssp. rubra,,""
 Bryophyte,CANM 112870,Leptotrichum vaginans,original identification,Ditrichum lineare
 Bryophyte,CANM 155778,Mnium medium,original identification,Plagiomnium medium | Rhizomnium magnifolium
 Bryophyte,CANM 146324,Mnium medium,original identification,Plagiomnium rostratum
@@ -14691,7 +14651,6 @@ Lichen,CANL 9136,Cladonia pohlia Sant.,original identification,Cladonia confusa 
 Lichen,CANL 58620,Cladina confusa f. confusa,item name,Cladonia confusa f. confusa
 Lichen,CANL 23172,Cladina confusa f. confusa,item name,Cladonia confusa f. confusa
 Lichen,CANL 23172,Cladonia pycnoclada,original identification,Cladonia confusa f. confusa
-Lichen,CANL 31044,Cladonia dendroides,,""
 Lichen,CANL 95437,Cladonia mediterranea,,Cladonia
 Lichen,CANL 107699,Cladina pycnoclada,,Cladonia
 Lichen,CANL 108823,Cladina leptoclada,,Cladonia
@@ -14849,7 +14808,7 @@ Bryophyte,CANM 169389,Thudium minutulum,original identification,Pelekium minutul
 Bryophyte,CANM 169390,Thuidium minututum,original identification,Pelekium minutulum
 Bryophyte,CANM 169388,Hypmum minututum,original identification,Pelekium minutulum
 Bryophyte,CANM 169386,Hypnum minutulum,original identification,Pelekium pygmaeum
-Bryophyte,CANM 119411,Dicranum muchlenbeckii,previous attribution,Dicranum acutifolium
+Bryophyte,CANM 119411,Dicranum muchlenbeckii,previous identification,Dicranum acutifolium
 Bryophyte,CANM 119411,Dicranum fuscenscens,original identification,Dicranum acutifolium
 Bryophyte,CANM 156029,Drummondia clavelletta,previous name,Drummondia prorepens
 Bryophyte,CANM 124314,Encalypta rhapdocarpa,previous name,Encalypta rhabtocarpa
@@ -14912,12 +14871,12 @@ Bryophyte,CANM 155060,Orthotrichum curifolia,original identification,Ulota curvi
 Bryophyte,CANM 155059,Ulota hutchinsae,original identification,Ulota curvifolia
 Vascular Plant,CAN 391789,Euphrasia americana var. canadensis,original identification,Euphrasia nemorosa
 Vascular Plant,CAN 390970,Euphrasia americana var. canadensis,original identification,Euphrasia nemorosa
-Vascular Plant,CAN 156786,Euphrasia americana var. canadensis,original identification,""
-Vascular Plant,CAN 156787,Euphrasia americana var. canadensis,original identification,""
-Vascular Plant,CAN 156788,Euphrasia americana var. canadensis,original identification,""
-Vascular Plant,CAN 390933,Euphrasia americana var. canadensis,original identification,""
-Vascular Plant,CAN 505916,Euphrasia americana var. canadensis,original identification,""
-Bryophyte,CANM 102711,Sphagnum acutifolium var. tenellum,original identification,""
+Vascular Plant,CAN 156786,Euphrasia americana var. canadensis,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 156787,Euphrasia americana var. canadensis,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 156788,Euphrasia americana var. canadensis,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 390933,Euphrasia americana var. canadensis,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 505916,Euphrasia americana var. canadensis,original identification,Euphrasia nemorosa
+Bryophyte,CANM 102711,Sphagnum acutifolium var. tenellum,original identification,Sphagnum tenellum
 Bryophyte,CANM 102708,Sphagnum acutifolium var. tenellum,original identification,Sphagnum rubellum
 Bryophyte,CANM 102709,Sphagnum acutifolium var. tenellum,original identification,Sphagnum rubellum
 Vascular Plant,CAN 61487,Forma inter Draba macrocarpa et Draba bellii,original identification,Draba corymbosa
@@ -15046,7 +15005,7 @@ Vascular Plant,CAN 330887,Papaver radicatum subsp. dahlianum,previous name,Papav
 Vascular Plant,CAN 295491,Papaver radicatum subsp. dahlianum,previous name,Papaver lapponicum
 Vascular Plant,CAN 267638,Papaver radicatum subsp. dahlianum,previous name,Papaver dahlianum
 Vascular Plant,CAN 233372,Papaver radicatum subsp. dahlianum,previous name,Papaver cornwallisense
-Bryophyte,CANM 219826,Cirriphyllum piliferun,typo,Cirriphyllum piliferum
+Bryophyte,CANM 219826,Cirriphyllum piliferun,typo error,Cirriphyllum piliferum
 Fossil Vertebrate,CMNFV 32984,Unidentified microfauna,,Mammalia
 Vascular Plant,CAN 54935,Melandrium involucrata,previous name,Silene involucrata
 Vascular Plant,CAN 267675,Draba cinerea × glabella,identification confirmation,Draba cinerea
@@ -15123,58 +15082,57 @@ Lichen,CANL 9517,Cladonia scabriuscula f. surrecta,previous name,Cladonia scabri
 Lichen,CANL 9516,Cladonia scabriuscula f. surrecta,previous name,Cladonia scabriuscula
 Lichen,CANL 9520,Cladonia scabriuscula f. surrecta,previous name,Cladonia scabriuscula
 Lichen,CANL 9493,Cldonia scabriuscula f. surrecta,previous name,Cladonia scabriuscula
-Vascular Plant,CAN 96746,Euphrasia officinalis var. tartarica,original identification,""
-Vascular Plant,CAN 96747,Euphrasia officinalis var. tartarica,original identification,""
-Vascular Plant,CAN 96721,Euphrasia officinalis var. tartarica,original identification,""
-Vascular Plant,CAN 96747,Euphrasia purpurea,previous name,""
-Vascular Plant,CAN 125258,Euphrasia purpurea,previous name,""
-Vascular Plant,CAN 505877,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96721,Euphrasia purpurea,previous name,""
-Vascular Plant,CAN 96716,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96717,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96718,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96719,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96720,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96744,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96745,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 505875,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96722,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96724,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96725,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96727,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96729,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96730,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96731,Euphrasia purpurea,original identification,Euphrasia randii var. randii
-Vascular Plant,CAN 96732,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 96733,Euphrasia purpurea,original identification,""
-Vascular Plant,CAN 125258,Euphrasia randii f. glabrescens,original identification,""
-Vascular Plant,CAN 289902,Euphrasia randii var. reeksii,original identification,""
-Vascular Plant,CAN 509350,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 188044,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 505880,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 96734,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 96735,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 96736,Euphrasia purpurea var. farlowii,previous name,""
-Vascular Plant,CAN 96737,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 505876,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 96738,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 96739,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 96740,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 96741,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 96742,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 96743,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 96763,Euphrasia purpurea var. farlowii,original identification,""
-Vascular Plant,CAN 96764,Euphrasia purpurea var. farlowii,original identification,""
+Vascular Plant,CAN 96746,Euphrasia officinalis var. tartarica,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 96747,Euphrasia officinalis var. tartarica,original identification,Euphrasia randii var. farlowii
+Vascular Plant,CAN 96721,Euphrasia officinalis var. tartarica,original identification,Euphrasia randii
+Vascular Plant,CAN 96747,Euphrasia purpurea,previous name,Euphrasia randii var. farlowii
+Vascular Plant,CAN 125258,Euphrasia purpurea,previous name,Euphrasia randii
+Vascular Plant,CAN 505877,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96721,Euphrasia purpurea,previous name,Euphrasia randii
+Vascular Plant,CAN 96716,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96717,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96718,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96719,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96720,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96744,Euphrasia purpurea,original identification,Euphrasia randii var. farlowii
+Vascular Plant,CAN 96745,Euphrasia purpurea,original identification,Euphrasia randii var. farlowii
+Vascular Plant,CAN 505875,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96722,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96724,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96725,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96727,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96729,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96730,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96731,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96732,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 96733,Euphrasia purpurea,original identification,Euphrasia randii
+Vascular Plant,CAN 125258,Euphrasia randii f. glabrescens,original identification,Euphrasia randii
+Vascular Plant,CAN 509350,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii
+Vascular Plant,CAN 188044,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii var. farlowii
+Vascular Plant,CAN 505880,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii
+Vascular Plant,CAN 96734,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii var. farlowii
+Vascular Plant,CAN 96735,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii var. farlowii
+Vascular Plant,CAN 96736,Euphrasia purpurea var. farlowii,previous name,Euphrasia randii var. farlowii
+Vascular Plant,CAN 96737,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii var. farlowii
+Vascular Plant,CAN 505876,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii
+Vascular Plant,CAN 96738,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii var. farlowii
+Vascular Plant,CAN 96739,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii var. farlowii
+Vascular Plant,CAN 96740,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii var. farlowii
+Vascular Plant,CAN 96741,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii var. farlowii
+Vascular Plant,CAN 96742,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii
+Vascular Plant,CAN 96743,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii
+Vascular Plant,CAN 96763,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii
+Vascular Plant,CAN 96764,Euphrasia purpurea var. farlowii,original identification,Euphrasia randii
 Vascular Plant,CAN 96753,Euphrasia purpurea var randii,previous name,""
 Vascular Plant,CAN 371405,Trifolium spumosum,item name,Trifolium
-Vascular Plant,CAN 156703,Euphrasia apparently intermediate between nemorosa & brevipila,previous name,""
-Vascular Plant,CAN 234874,Euphrasia ? brevipila x stricta,previous name,""
-Vascular Plant,CAN 96774,Euphrasia stricta var. tatarica,original identification,""
-Vascular Plant,CAN 96775,Euphrasia stricta var. tatarica,original identification,""
-Vascular Plant,CAN 125256,Euphrasia stricta var. tatarica,previous name,""
-Vascular Plant,CAN 125256,Euphrasia latifolia,original identification,""
-Vascular Plant,CAN 125275,Euphrasia latifolia,original identification,""
-Vascular Plant,CAN 125277,Euphrasia latifolia,original identification,""
+Vascular Plant,CAN 156703,Euphrasia apparently intermediate between nemorosa & brevipila,previous name,Euphrasia stricta
+Vascular Plant,CAN 234874,Euphrasia ? brevipila x stricta,previous name,Euphrasia stricta
+Vascular Plant,CAN 96774,Euphrasia stricta var. tatarica,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 96775,Euphrasia stricta var. tatarica,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 125256,Euphrasia stricta var. tatarica,previous name,Euphrasia nemorosa
+Vascular Plant,CAN 125256,Euphrasia latifolia,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 125275,Euphrasia latifolia,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 125277,Euphrasia latifolia,original identification,Euphrasia nemorosa
 Vascular Plant,CAN 156718,Euphrasia latifolia,original identification,Euphrasia frigida
 Vascular Plant,CAN 156722,Euphrasia latifolia,original identification,Euphrasia frigida
 Vascular Plant,CAN 241383,Euphrasia latifolia,original identification,Euphrasia frigida
@@ -15275,26 +15233,22 @@ Lichen,CANL 9179,Cladonia pyxidata f. cerina,previous name,Cladonia pyxidata
 Lichen,CANL 9219,Cladonia pyxidata var. neglecta f. lophyra,previous name,Cladonia pyxidata
 Lichen,CANL 9248,Cladonia pyxidata var. neglecta f. lophyra,previous name,Cladonia pyxidata
 Lichen,CANL 59910,Cladonia nrmoxyna,previous name,Cladonia rei
-Fossil Invertebrate,CMNIF 195,Stromatolite,,""
+Fossil Invertebrate,CMNIF 195,Stromatolite,,Animalia
 Vascular Plant,CAN 65948,Saxifraga caespitosa f. groenlandica,previous name,Saxifraga cespitosa
 Vascular Plant,CAN 172744,Papaver alpinus,original identification,Papaver uintaense
 Lichen,CANL 68590,Arthonia junctiformus,item name,Arthonia
 Lichen,CANL 1801,Pyrenula punctiformis var. fallax,original identification,Arthopyrenia
-Vascular Plant,CAN 321027,Euphrasia canadiensis,original identification,""
-Vascular Plant,CAN 505921,Euphrasia canadiensis,previous name,""
+Vascular Plant,CAN 321027,Euphrasia canadiensis,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 505921,Euphrasia canadiensis,previous name,Euphrasia nemorosa
 Lichen,CANL 1846,Myranqium,original identification,Arthonia
 Lichen,CANL 1791,Arthonia lobata,item name,Arthonia
-Vascular Plant,CAN 96694,Euphrasia probably subarctica,item name,""
-Vascular Plant,CAN 213503,Euphrasia probably subarctica,item name,""
+Vascular Plant,CAN 96694,Euphrasia probably subarctica,item name,Euphrasia subarctica
+Vascular Plant,CAN 213503,Euphrasia probably subarctica,item name,Euphrasia subarctica
 Vascular Plant,CAN 241066,Papaver radicatum subsp. labradoricum,previous name,Papaver labradoricum
 Lichen,CANL 7900,Cladonia furcata var. foliolosa,previous name,Cladonia scabriuscula
 Lichen,CANL 7957,Cladonia furcata var. racelmosa,previous name,Cladonia scabriuscula
 Lichen,CANL 7976,Cladonia furcata var. racemosa,previous name,Cladonia scabriuscula
-Vascular Plant,CAN 96681,Euphrasia disjuncat,original identification,""
-Vascular Plant,CAN 156742,Euphrasia wettsteinii,item name,""
-Vascular Plant,CAN 223788,Euphrasia wettsteinii,item name,""
-Vascular Plant,CAN 583010,Euphrasia wettsteinii,item name,Euphrasia arctica
-Vascular Plant,CAN 586606,Euphrasia wettsteinii,item name,Euphrasia frigida
+Vascular Plant,CAN 96681,Euphrasia disjuncat,original identification,Euphrasia hudsoniana var. hudsoniana
 Vascular Plant,CAN 364932,Euphrasia arctica var. dolosa,original identification,Euphrasia subarctica
 Vascular Plant,CAN 583978,Papaver dahlianum subsp. dahlianum,original identification,Papaver cornwallisense
 Lichen,CANL 93369,Collema occultatum var. juniperinum,item name,Collema occultatum
@@ -15343,14 +15297,14 @@ Vascular Plant,CAN 43859,Polygonum spergulariaeforme,original identification,Pol
 Vascular Plant,CAN 393873,Polygonum spergularieforme,original identification,Polygonum nuttallii
 Vascular Plant,CAN 104267,Erigeron glabellus subs pubescens,previous identification,Erigeron asper
 Vascular Plant,CAN 104302,Erigeron turneri,original identification,Erigeron glabellus
-Vascular Plant,CAN 243676,Euphrasia ? stricta x nemorosa,previous name,""
-Vascular Plant,CAN 505918,Euphrasia america,original identification,""
-Vascular Plant,CAN 505920,Euphrasia americana var. canadiensis,original identification,""
-Vascular Plant,CAN 505921,Euphrasia americana var. canadiensis,original identification,""
-Vascular Plant,CAN 188046,Euphrasia probably stricta,previous name,""
+Vascular Plant,CAN 243676,Euphrasia ? stricta x nemorosa,previous name,Euphrasia stricta
+Vascular Plant,CAN 505918,Euphrasia america,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 505920,Euphrasia americana var. canadiensis,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 505921,Euphrasia americana var. canadiensis,original identification,Euphrasia nemorosa
+Vascular Plant,CAN 188046,Euphrasia probably stricta,previous name,Euphrasia
 Vascular Plant,CAN 66051,Saxifraga caespitosa subsp. monticola,original identification,Saxifraga cespitosa subsp. monticola
 Lichen,CANL 23452,Placynthium asprotile,item name,Placynthium
-Vascular Plant,CAN 217015,Euphrasia apparent intermetiate betwween nemorosa & brevipila,item name,""
+Vascular Plant,CAN 217015,Euphrasia apparent intermetiate betwween nemorosa & brevipila,item name,Euphrasia nemorosa
 Vascular Plant,CAN 66043,Saxifraga sternbergii,previous name,Saxifraga cespitosa
 Vascular Plant,CAN 66043,Saxifraga sternbergii ssp. exaratoides,previous name,Saxifraga cespitosa
 Vascular Plant,CAN 204432,Papver labradoricum,item name,Papaver labradoricum
@@ -15360,9 +15314,9 @@ Lichen,CANL 61543,Arthonia trilocularis,item name,Arthonia
 Lichen,CANL 1857,Arthothelium orbillifera,original identification,Arthothelium orbilliferum
 Vascular Plant,CAN 59471,Papaver nudicaule f. albiflora,original identification,Papaver labradoricum
 Vascular Plant,CAN 239605,Papaver radicatum subsp. kluanense,previous name,Papaver kluanense
-Vascular Plant,CAN 96759,Euhrasia randii,original identification,""
-Vascular Plant,CAN 96726,Euphrasia purpurea f. candida,original identification,""
-Vascular Plant,CAN 96728,Euphrasia purpurea f. candida,previous name,""
+Vascular Plant,CAN 96759,Euhrasia randii,original identification,Euphrasia randii
+Vascular Plant,CAN 96726,Euphrasia purpurea f. candida,original identification,Euphrasia randii
+Vascular Plant,CAN 96728,Euphrasia purpurea f. candida,previous name,Euphrasia randii
 Vascular Plant,CAN 59429,Papaver macounii subsp. alaskanum,previous name,Papaver macounii subsp. macounii
 Lichen,CANL 84100,Phacophyscia endococcimea,original identification,Phaeophyscia ciliata
 Crustacea,CMNC 2010-5814.1,Cypricercus tincta,previous name,Bradleystrandesia tincta
@@ -15515,7 +15469,7 @@ Vascular Plant,CAN 586461,Poa arctica subsp. caespitosa,item name,Poa arctica su
 Vascular Plant,CAN 62299,Draba hirta var. lejocarpa,original identification,Draba glabella
 Vascular Plant,CAN 62283,Draba daurica ad D. auream,original identification,Draba glabella
 Lichen,CANL 7577,Clasdonia cariosa,original identification,Cladonia symphycarpa
-Vascular Plant,CAN 593883,Schedonnorus arundinacea,original identification/typo error,Schedonorus arundinaceus
+Vascular Plant,CAN 593883,Schedonnorus arundinacea,original identification; typo error,Schedonorus arundinaceus
 Vascular Plant,CAN 593883,Schedonnorus arundinacea,identification confirmation,Schedonorus arundinaceus
 Vascular Plant,CAN 593841,Bromus sitchnsis,original identification,Bromus carinatus var. carinatus
 Bryophyte,CANM 102208,Sphagnum acutifolium var. vinde,original identification,Sphagnum subtile
@@ -15525,7 +15479,7 @@ Lichen,CANL 123178,Lichinella stipulata,,Lichinella
 Lichen,CANL 123182,Lichinella robusta,,Lichinella
 Vascular Plant,CAN 552093,Lycopodium selago ssp. arctica,original identification,Huperzia selago var. densa
 Vascular Plant,CAN 200652,Huperzia appalachiana × selago,item name,Huperzia appalachiana
-Vascular Plant,CAN 593846,Pascopyron smithii,original identification/typo error,Pascopyrum smithii
+Vascular Plant,CAN 593846,Pascopyron smithii,original identification; typo error,Pascopyrum smithii
 Vascular Plant,CAN 593846,Pascopyron smithii,previous name,Pascopyrum smithii
 Lichen,CANL 123236,Cladonia pseudoalcicornis,original identification,Cladonia pseudalcicornis
 Vascular Plant,CAN 455366,Salix rigida var. mackenzieana,original identification,Salix prolixa
@@ -15621,8 +15575,8 @@ Bryophyte,CANM 219933,Hypnum alleghaniense,original identification,Thamnobryum a
 Bryophyte,CANM 246486,Rhytidiadelphus squarrosum,original identification,Rhytidiadelphus subpinnatus
 Bryophyte,CANM 230785,Rhytidiadelphus squarrosum var. calvescens,original identification,Rhytidiadelphus subpinnatus
 Bryophyte,CANM 230778,Hylocomnium brevirostre,original identification,Rhytidiadelphus subpinnatus
-Bryophyte,CANM 134004,Schistidium viride,pervious identification,Schistidium dupretii
-Bryophyte,CANM 298604,Schistidium viride,pervious identification,Schistidium dupretii
+Bryophyte,CANM 134004,Schistidium viride,previous identification,Schistidium dupretii
+Bryophyte,CANM 298604,Schistidium viride,previous identification,Schistidium dupretii
 Bryophyte,CANM 229742,Grimmia arpicola,original identification,Schistidium dupretii
 Bryophyte,CANM 268726,Grimmia alpicol,original identification,Schistidium dupretii
 Lichen,CANL 9622,Cladonia subsquamosa f. luscurians,previous name,Cladonia squamosa var. subsquamosa
@@ -15671,212 +15625,6 @@ Vascular Plant,CAN 170272,Corispermum rydbergii,previous identification,Corisper
 Lichen,CANL 7348,Cladonia cornutoradiata f. radiata,previous name,Cladonia subulata
 Lichen,CANL 7360,Cladonia cornutoradiata f. subulata,previous name,Cladonia subulata
 Lichen,CANL 7343,Cladonia cornutoradiata f. subulata,previous name,Cladonia subulata
-Vascular Plant,CAN 278061,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63244,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 277678,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 266189,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 263988,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 411177,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 410791,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 525674,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica | Arabidopsis lyrata subsp. lyrata
-Vascular Plant,CAN 63264,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 411380,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 255113,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63239,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 392928,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 342126,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 363135,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 342394,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510066,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510067,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63247,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63245,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63246,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 304190,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 304191,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63250,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63249,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63248,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63251,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63265,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63289,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63286,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63290,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63293,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 124880,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63294,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 154739,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 154738,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 154737,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 207353,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 225121,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 243364,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 238269,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 243365,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 253408,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 253407,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63288,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 453314,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 453284,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63278,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63280,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63279,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63281,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63283,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63282,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63284,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63285,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63230,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510072,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510071,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510077,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510078,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510079,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510073,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510074,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510075,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510080,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 299642,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63224,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63225,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510069,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510070,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510068,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510082,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 509731,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 363525,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510081,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 510076,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63226,Arabis kamtschatica,,""
-Vascular Plant,CAN 63223,Arabis kamtschatica,,""
-Vascular Plant,CAN 63229,Arabis kamtschatica,,""
-Vascular Plant,CAN 63228,Arabis kamtschatica,,""
-Vascular Plant,CAN 263057,Arabis kamtschatica,,""
-Vascular Plant,CAN 362309,Arabis kamtschatica,,""
-Vascular Plant,CAN 263058,Arabis kamtschatica,,""
-Vascular Plant,CAN 328367,Arabis kamtschatica,,""
-Vascular Plant,CAN 212346,Arabis kamtschatica,,""
-Vascular Plant,CAN 63227,Arabis kamtschatica,,""
-Vascular Plant,CAN 276708,Arabis kamtschatica,,""
-Vascular Plant,CAN 552692,Arabis kamtschatica,,""
-Vascular Plant,CAN 278059,Arabis kamtschatica,,""
-Vascular Plant,CAN 299644,Arabis kamtschatica,,""
-Vascular Plant,CAN 328368,Arabis kamtschatica,,""
-Vascular Plant,CAN 328369,Arabis kamtschatica,,""
-Vascular Plant,CAN 172996,Arabis kamtschatica,,""
-Vascular Plant,CAN 253405,Arabis kamtschatica,,""
-Vascular Plant,CAN 253406,Arabis kamtschatica,,""
-Vascular Plant,CAN 63208,Arabis kamtschatica,,""
-Vascular Plant,CAN 404486,Arabis kamtschatica,,""
-Vascular Plant,CAN 63292,Arabis kamtschatica,,""
-Vascular Plant,CAN 63291,Arabis kamtschatica,,""
-Vascular Plant,CAN 509836,Arabis kamtschatica,,""
-Vascular Plant,CAN 503779,Arabis kamtschatica,,""
-Vascular Plant,CAN 510084,Arabis kamtschatica,,""
-Vascular Plant,CAN 453335,Arabis kamtschatica,,""
-Vascular Plant,CAN 404485,Arabis kamtschatica,,""
-Vascular Plant,CAN 312966,Arabis kamtschatica,,""
-Vascular Plant,CAN 283020,Arabis kamtschatica,,""
-Vascular Plant,CAN 63266,Arabis kamtschatica,,""
-Vascular Plant,CAN 63269,Arabis kamtschatica,,""
-Vascular Plant,CAN 63267,Arabis kamtschatica,,""
-Vascular Plant,CAN 308219,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63240,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63241,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63238,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63260,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63260,Arabis kamtschatica,identification confirmation,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63262,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63262,Arabis kamtschatica,identification confirmation,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63261,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63261,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 274019,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63237,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63242,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 411091,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 411198,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63243,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 278058,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 278062,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 278060,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 359868,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 285459,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 285445,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 285445,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 293643,Arabis kamtschatica,,""
-Vascular Plant,CAN 270161,Arabis kamtschatica,,""
-Vascular Plant,CAN 293642,Arabis kamtschatica,,""
-Vascular Plant,CAN 312280,Arabis kamtschatica,,""
-Vascular Plant,CAN 318642,Arabis kamtschatica,,""
-Vascular Plant,CAN 318788,Arabis kamtschatica,,""
-Vascular Plant,CAN 127015,Arabis kamtschatica,,""
-Vascular Plant,CAN 63270,Arabis kamtschatica,,""
-Vascular Plant,CAN 312965,Arabis kamtschatica,,""
-Vascular Plant,CAN 63277,Arabis kamtschatica,,""
-Vascular Plant,CAN 303469,Arabis kamtschatica,,""
-Vascular Plant,CAN 63273,Arabis kamtschatica,,""
-Vascular Plant,CAN 303468,Arabis kamtschatica,,""
-Vascular Plant,CAN 318398,Arabis kamtschatica,,""
-Vascular Plant,CAN 63268,Arabis kamtschatica,,""
-Vascular Plant,CAN 503696,Arabis kamtschatica,,""
-Vascular Plant,CAN 270158,Arabis kamtschatica,,""
-Vascular Plant,CAN 63254,Arabis kamtschatica,,""
-Vascular Plant,CAN 63253,Arabis kamtschatica,,""
-Vascular Plant,CAN 63252,Arabis kamtschatica,,""
-Vascular Plant,CAN 63256,Arabis kamtschatica,,""
-Vascular Plant,CAN 63255,Arabis kamtschatica,,""
-Vascular Plant,CAN 63257,Arabis kamtschatica,,""
-Vascular Plant,CAN 270160,Arabis kamtschatica,,""
-Vascular Plant,CAN 270159,Arabis kamtschatica,,""
-Vascular Plant,CAN 63274,Arabis kamtschatica,,""
-Vascular Plant,CAN 63272,Arabis kamtschatica,,""
-Vascular Plant,CAN 63276,Arabis kamtschatica,,""
-Vascular Plant,CAN 63275,Arabis kamtschatica,,""
-Vascular Plant,CAN 63271,Arabis kamtschatica,,""
-Vascular Plant,CAN 278057,Arabis kamtschatica,,""
-Vascular Plant,CAN 285444,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 285444,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 288465,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 288466,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 288466,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 288464,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 266191,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 266191,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 266188,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 288463,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 288463,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 258260,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 258260,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 288462,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 285443,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 285443,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63235,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63235,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63231,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63231,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63234,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63234,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63232,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63232,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63233,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63233,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 197915,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 197915,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 220577,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 220577,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 197914,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 399754,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 399754,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63236,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63236,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 477154,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 477154,Arabis kamtschatica,identification confirmation,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63204,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63204,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63204,Arabis kamtschatica,identification confirmation,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63105,Arabis kamtschatica,,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63105,Arabis kamtschatica,item name,Arabidopsis lyrata var. kamchatica
-Vascular Plant,CAN 63105,Arabis kamtschatica,identification confirmation,Arabidopsis lyrata var. kamchatica
 Vascular Plant,CAN 263988,Arabis lyrata ssp. kamtschatica,original identification,Arabidopsis lyrata var. kamchatica
 Vascular Plant,CAN 255113,Arabis lyrata ssp. kamtschatica,original identification,Arabidopsis lyrata var. kamchatica
 Bryophyte,CANM 111762,Schistidium apocarpum var. alpicola,original identification,Schistidium dupretii
@@ -15952,7 +15700,7 @@ Lichen,CANL 46428,Cladonua squamosa denticollis,previous name,Cladonia squamosa
 Bryophyte,CANM 146324,Mnium longirostrum,previous identification,Plagiomnium rostratum
 Lichen,CANL 56738,Cladonia squam,,Cladonia squamosa
 Fossil Vertebrate,CMNFV 21861,Ophthalmosauria indet.,,Ophthalmosaurus
-Lichen,CANL 58816,Rocella,,""
+Lichen,CANL 58816,Rocella,,Roccella
 Vascular Plant,CAN 481524,Polygonum douglassis,typo error,Polygonum douglasii
 Vascular Plant,CAN 2312,Peltaea gracilis,original identification,Cryptogramma stelleri
 Vascular Plant,CAN 285445,Arabislyrata,original identification,Arabidopsis lyrata var. kamchatica
@@ -15981,7 +15729,7 @@ Vascular Plant,CAN 108423,Artemisia hokkeriana,original identification,Artemisia
 Bryophyte,CANM 243931,Scorpidium scorpoides,original identification,Pseudocalliergon turgescens
 Bryophyte,CANM 166915,Pterigyandrum filiforme,original identification,Pseudoleskeella tectorum
 Vascular Plant,CAN 131547,Typha laxmanni,original identification,Typha laxmannii
-Vascular Plant,CAN 294602,Typha laxmanni,original identification/typo error,Typha laxmannii
+Vascular Plant,CAN 294602,Typha laxmanni,original identification; typo error,Typha laxmannii
 Vascular Plant,CAN 294601,Typha laxmanni,original identification,Typha laxmannii
 Vascular Plant,CAN 131542,Typha latifolia var. media Syme,original identification,Typha latifolia
 Fossil Vertebrate,CMNFV 53940,Paleonisciformes,,Palaeonisciformes
@@ -16027,8 +15775,8 @@ Bryophyte,CANM 168949,Thuidium scita,original identification,Rauiella scita
 Lichen,CANL 47307,Cladonia squamosa squamosissima,previous name,Cladonia squamosa
 Lichen,CANL 46435,Cladonia squamosa squamosissima,previous name,Cladonia squamosa
 Lichen,CANL 47306,Cladonia squamosa squamossimum,previous name,Cladonia squamosa
-Vascular Plant,CAN 61973,Draba palandriana,original identification/typo error,Draba palanderiana
-Vascular Plant,CAN 61978,Draba palandriana,original identification/typo error,Draba palanderiana
+Vascular Plant,CAN 61973,Draba palandriana,original identification; typo error,Draba palanderiana
+Vascular Plant,CAN 61978,Draba palandriana,original identification; typo error,Draba palanderiana
 Vascular Plant,CAN 39666,Agropyron richardsoni var. tenerum,original identification,Elymus trachycaulus
 Vascular Plant,CAN 39666,Agropyron trachycaulum var. typicum,previous name,Elymus trachycaulus
 Vascular Plant,CAN 39666,Agropyron pauciflorum subsp. pauciflorum,previous name,Elymus trachycaulus
@@ -16095,17 +15843,8 @@ Lichen,CANL 53506,Anaptychia galactophylla,original identification,Heterodermia 
 Vascular Plant,CAN 593615,Saxifraga platysepetala,typo error,Saxifraga platysepala
 Vascular Plant,CAN 223352,Tarxacum pumilum,original identification,Taraxacum holmenianum
 Vascular Plant,CAN 370908,Taraxacum acrtogenum,original identification,Taraxacum holmenianum
-Vascular Plant,CAN 93581,Polemonium villosissimum,item name,""
-Vascular Plant,CAN 312166,Polemonium villosissimum,item name,""
-Vascular Plant,CAN 324090,Polemonium villosissimum,item name,""
-Vascular Plant,CAN 93580,Polemonium villosissimum,item name,""
-Vascular Plant,CAN 153783,Polemonium villosissimum,item name,""
-Vascular Plant,CAN 464790,Polemonium villosissimum,item name,""
-Vascular Plant,CAN 418873,Polemonium villosissimum,item name,Polemonium boreale subsp. boreale
-Vascular Plant,CAN 362434,Polemonium villosissimum,item name,""
-Vascular Plant,CAN 313208,Polemonium villosissimum,item name,""
-Vascular Plant,CAN 153783,Polemonium richardsonii,original identification,""
-Vascular Plant,CAN 464790,Polemonium boreale ssp. boreale var. villosissimum,original identification,""
+Vascular Plant,CAN 153783,Polemonium richardsonii,original identification,Polemonium villosissimum
+Vascular Plant,CAN 464790,Polemonium boreale ssp. boreale var. villosissimum,original identification,Polemonium villosissimum
 Vascular Plant,CAN 153803,Polemonium boreale ssp. muchranthum,previous name,Polemonium boreale
 Vascular Plant,CAN 93583,Polemonium lanatum,original identification,Polemonium boreale
 Vascular Plant,CAN 153802,Polemonium boreale ssp. macroanthum,previous name,Polemonium boreale
@@ -16331,7 +16070,7 @@ Vascular Plant,CAN 586961,Deschampsia cespitosa subsp. brevifolia ssp. borealis,
 Vascular Plant,CAN 368142,Arctagrosic latifolia,original identification,xxDeschampsia cespitosa subsp. brevifolia
 Vascular Plant,CAN 410703,Deschampsia caespitosa subsp. pumila,item name,Deschampsia cespitosa
 Bryophyte,CANM 140175,Tetradontium brownianum,original identification,Tetrodontium brownianum var. ovatum
-Bryophyte,CANM 111711,Tetradontium brownianum,original speilling,Tetrodontium brownianum | Scapania nemorea
+Bryophyte,CANM 111711,Tetradontium brownianum,original spelling,Tetrodontium brownianum | Scapania nemorea
 Bryophyte,CANM 204193,Tetradontium brownianum,original identification,Tetrodontium brownianum
 Bryophyte,CANM 159994,Tetradontium brownianum,original spelling,Tetrodontium brownianum
 Bryophyte,CANM 111711,Tetradontium brownianum,identification confirmation,Tetrodontium brownianum | Scapania nemorea
@@ -16511,7 +16250,7 @@ Lichen,CANL 117716,Pallavicinia flotowiana,original identification,Collema bachm
 Lichen,CANL 117717,Pallavicinia flotowiana,original identification,Collema bachmanianum
 Bryophyte,CANM 6222,Pallavicinia flotowiana,original identification,Moerckia hibernica
 Vascular Plant,CAN 503673,Draba hirta var. leiocarpa,original identification,Draba glabella
-Vascular Plant,CAN 78292,Erodium circutarium,incorrect spelling,Erodium cicutarium
+Vascular Plant,CAN 78292,Erodium circutarium,misspelling,Erodium cicutarium
 Vascular Plant,CAN 526729,Carex ×physocarpiodes [Saxatilis ×utriculata],previous name,Carex saxatilis
 Fossil Vertebrate,CMNFV 13094,Ostracoderm indet.,,Traquairaspis illautia
 Vascular Plant,CAN 48036,Salix glaucophylloides var. glaucophylla,previous name,Salix myricoides
@@ -16727,7 +16466,7 @@ Lichen,CANL 31699,Porpidia macrocarpa var. superba,item name,Porpidia macrocarpa
 Lichen,CANL 31699,Huilia superba,previous name,Porpidia macrocarpa
 Vascular Plant,CAN 72408,Potentilla an hookeriana,original identification,Potentilla arenosa
 Crustacea,CMNC 2011-0148,Metaprotella kennerlyi,,Metacaprella kennerlyi
-Crustacea,CMNC 2010-6982,Metaprotella kennerlyi,,""
+Crustacea,CMNC 2010-6982,Metaprotella kennerlyi,,Crustacea
 Crustacea,CMNC 2015-0050,Metaprotella kennerlyi,,Metaprotella
 Crustacea,CMNC 2015-0243,Metaprotella kennerlyi,,Caprella
 Lichen,CANL 66596,Cladonia subcarvicornis,original identification,Cladonia stricta
@@ -16933,7 +16672,6 @@ Vascular Plant,CAN 91979,Statice labradorica var. submutica f. glabriscapa,previ
 Vascular Plant,CAN 91975,Statice labradorica var. submutica f. glabriscapa,previous name,Armeria scabra
 Vascular Plant,CAN 91956,Statice labradorica var. submutica f. glabriscapa,previous name,Armeria scabra
 Vascular Plant,CAN 91998,Statice labradorica var. submutica f. glabriscapa,previous name,Armeria scabra
-Vascular Plant,CAN 92004,Armeria vulgaris var.,original identification,Armeria scabra
 Vascular Plant,CAN 91952,Armeria maritima var. purpurea,previous name,Armeria scabra
 Vascular Plant,CAN 91956,Armeria maritima var. purpurea,previous name,Armeria scabra
 Vascular Plant,CAN 91995,Statice arctica var. genuina,original identification,Armeria scabra
@@ -16974,32 +16712,6 @@ Vascular Plant,CAN 29610,Scirpus smithii var. levisetus,original identification,
 Vascular Plant,CAN 29613,Scirpus smithii var. levisetus,original identification,Schoenoplectiella smithii var. leviseta
 Vascular Plant,CAN 29611,Scirpus smithii var. levisetus,original identification,Schoenoplectiella smithii var. leviseta
 Vascular Plant,CAN 29612,Scirpus smithii var. levisetus,original identification,Schoenoplectiella smithii var. leviseta
-Vascular Plant,CAN 387124,Stachys scopulorum,,""
-Vascular Plant,CAN 95852,Stachys scopulorum,,""
-Vascular Plant,CAN 95851,Stachys scopulorum,,""
-Vascular Plant,CAN 505556,Stachys scopulorum,,""
-Vascular Plant,CAN 505555,Stachys scopulorum,,""
-Vascular Plant,CAN 248052,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95844,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95837,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95838,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95834,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95835,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95836,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95840,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95842,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95841,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95843,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95847,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95845,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95846,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95849,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 311020,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95848,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 267981,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95839,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 229864,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95850,Stachys scopulorum,original identification,Stachys palustris subsp. pilosa
 Vascular Plant,CAN 228850,Oxycoccus quadripetala,previous name,Vaccinium oxycoccos
 Vascular Plant,CAN 481845,Oxycoccus quadripetala,original identification,Vaccinium oxycoccos
 Bryophyte,CANM 330684,Pogonatum pensylvanicum,,Pogonatum pensilvanicum
@@ -17038,17 +16750,11 @@ Vascular Plant,CAN 91982,Armeria labradorica f. glabriscapa,original identificat
 Vascular Plant,CAN 91983,Armeria maritima intermediate,previous name,Armeria scabra
 Vascular Plant,CAN 91982,Armeria maritima intermediate,previous name,Armeria scabra
 Vascular Plant,CAN 91974,Armeria maritima intermediate,previous name,Armeria scabra
-Vascular Plant,CAN 91975,Statice labradorica var. submutica f. pubiscapa,original identification,Armeria scabra
-Vascular Plant,CAN 91974,Statice labradorica var. submutica f. pubiscapa,original identification,Armeria scabra
-Vascular Plant,CAN 91904,Statice labradorica var. submutica f. pubiscapa,previous name,Armeria scabra
-Vascular Plant,CAN 91902,Statice labradorica var. submutica f. pubiscapa,previous name,Armeria scabra
-Vascular Plant,CAN 91901,Statice labradorica var. submutica f. pubiscapa,previous name,Armeria scabra
-Vascular Plant,CAN 91977,Statice labradorica var. submutica f. pubiscapa,original identification,Armeria scabra
-Vascular Plant,CAN 95855,Stachys aspera (S. tenuifolia var. aspera),original identification,Stachys palustris subsp. pilosa
-Vascular Plant,CAN 95855,Stachys ambigua Sm.,previous name,Stachys palustris subsp. pilosa
+Vascular Plant,CAN 95855,Stachys aspera (S. tenuifolia var. aspera),original identification,Stachys pilosa var. pilosa
+Vascular Plant,CAN 95855,Stachys ambigua Sm.,previous name,Stachys pilosa var. pilosa
 Vascular Plant,CAN 322734,Carex amblyorhincha,original identification,Carex marina | Carex mackenziei
 Lichen,CANL 124257,Cladonia tenuis,original identification,Cladonia ciliata f. flavicans
-Vascular Plant,CAN 226140,Stachys palustris var. homotrichia,original identification,Stachys palustris subsp. pilosa
+Vascular Plant,CAN 226140,Stachys palustris var. homotrichia,original identification,Stachys pilosa var. pilosa
 Mollusc,CMNML 002107,Helisoma corpulentum corpulentum,previous name,Planorbella corpulenta corpulenta
 Mollusc,CMNML 002260,Helisoma corpulentum corpulentum,previous name,Planorbella corpulenta corpulenta
 Mollusc,CMNML 002156,Helisoma plexatum,previous name,Planorbella trivolvis trivolvis
@@ -17079,7 +16785,6 @@ Lichen,CANL 127670,Hymenelia epulotica ssp. epulotica,original identification,Hy
 Vascular Plant,CAN 430643,Medicago sativa f. alba Bonke,original identification,Medicago sativa subsp. sativa
 Vascular Plant,CAN 298426,Medicago hybrid with M. falcata L.,original identification,Medicago sativa subsp. ×varia
 Vascular Plant,CAN 596912,Carex lachenallii Schk.,previous name,Carex marina
-Vascular Plant,CAN 596122,Carex stipitata Boeckeler,,""
 Vascular Plant,CAN 96168,Castilleja pallida arctica,previous name,Castilleja elegans
 Vascular Plant,CAN 96162,Castilleja pallida arctica,previous name,Castilleja elegans
 Vascular Plant,CAN 96161,Castilleja pallida arctica,previous name,Castilleja elegans
@@ -17125,7 +16830,7 @@ Vascular Plant,CAN 231873,Oxycoccus macrocarpon,original identification,Vacciniu
 Vascular Plant,CAN 333288,Oxicoccus macrocarpus,original identification,Vaccinium macrocarpon
 Lichen,CANL 125171,Lichenomphalia ericetorum,original identification,Lichenomphalia umbellifera
 Vascular Plant,CAN 107614,Matricaria inodorata v. grandiflora (Hook.) Ostf.,original identification,Tripleurospermum inodorum
-Vascular Plant,CAN 107617,Matricaria inodora var. grandiflora,original identification,""
+Vascular Plant,CAN 107617,Matricaria inodora var. grandiflora,original identification,Tripleurospermum inodorum
 Vascular Plant,CAN 107616,Matricaria inodora var. grandiflora,original identification,Tripleurospermum inodorum
 Vascular Plant,CAN 107799,Chrysanthemum intregrifolium,previous name,Hulteniella integrifolia
 Vascular Plant,CAN 107799,Chrysanthemum intregrifolium,original identification,Hulteniella integrifolia
@@ -17206,7 +16911,6 @@ Vascular Plant,CAN 121477,Lonicera cerulea,original identification,Lonicera vill
 Vascular Plant,CAN 82422,Epilobium latifolium var. albiflorum,previous name,Chamerion latifolium
 Vascular Plant,CAN 259142,Epilobium latifolium var. albiflorum,original identification,Chamerion latifolium
 Vascular Plant,CAN 413052,Lonicera villosa var. colvescens,typo error,Lonicera villosa
-Vascular Plant,CAN 596907,Carex fulignosa Schk. subsp. misandra (R. Br.) Nyman,,""
 Bryophyte,CANM 10174,Tritiomaria quinquedentata,item name,Tritomaria quinquedentata
 Bryophyte,CANM 126071,Trichostomum anomalum,original identification,Timmiella anomala
 Bryophyte,CANM 126069,Trichostomum anomalum,original identification,Timmiella anomala
@@ -17437,7 +17141,7 @@ Bryophyte,CANM 473,Lophozie barbata,typo error,Barbilophozia barbata
 Bryophyte,CANM 16152,Lophocolea badensis,original identification,Barbilophozia barbata
 Bryophyte,CANM 16152,Lophocolea badensis,identification confirmation,Barbilophozia barbata
 Fish,CMNFI 1973-0348.9,Apogon quadrimaculatus,,Apogon
-Vascular Plant,CAN 582400,Poa pratensis ssp. colpeaea,original identification; mispelling,Poa pratensis subsp. colpodea
+Vascular Plant,CAN 582400,Poa pratensis ssp. colpeaea,original identification; misspelling,Poa pratensis subsp. colpodea
 Bryophyte,CANM 15841,Moerkia blyttii,original identification,Calycularia crispula
 Vascular Plant,CAN 116826,Trillium grandiflorum f. polymerum,previous name,Trillium grandiflorum
 Bryophyte,CANM 24642,Herberta,original identification,Herbertus aduncus
@@ -17487,7 +17191,7 @@ Bryophyte,CANM 3983,Isopaches bicrenatus,previous name,Lophozia bicrenata
 Bryophyte,CANM 4013,Isopaches bicrenatus,original identification,Lophozia bicrenata
 Bryophyte,CANM 3983,Jungermannia bicrenata,original identification,Lophozia bicrenata
 Bryophyte,CANM 22665,L. heterocolpa,original identification; associated species,Lophozia collaris | Leiocolea heterocolpos | Tritomaria polita | Cephalozia pleniceps
-Bryophyte,CANM 4363,Lophozia (Leiocolea) muelleri,original identification; synonyms,Lophozia collaris | Aneura pinguis
+Bryophyte,CANM 4363,Lophozia (Leiocolea) muelleri,original identification; synonym,Lophozia collaris | Aneura pinguis
 Bryophyte,CANM 4379,Lophozia mulleri,original identification,Lophozia collaris | Platydictya jungermannioides
 Bryophyte,CANM 4346,Lophozia mulleri,original identification synonym,Lophozia collaris | Leiocolea heterocolpos
 Bryophyte,CANM 4342,Jungermannia mulleri,original identification,Lophozia collaris
@@ -17616,7 +17320,7 @@ Bryophyte,CANM 18817,Fossombronia faviolata,typo error,Fossombronia foveolata
 Fossil Vertebrate,CMNFV 54970,Acanthomorpha indet.,,Teleostei
 Bryophyte,CANM 9166,Scapania compacta var irrigua,original identification,Scapania irrigua
 Bryophyte,CANM 13203,Moerkia hibernica,original identification,Blasia pusilla
-Bryophyte,CANM 13610,Scapania nemora (L.) Dum.,(mispelled?) previous name,Scapania nemorea
+Bryophyte,CANM 13610,Scapania nemora (L.) Dum.,(misspelling?) previous name,Scapania nemorea
 Bryophyte,CANM 2842,Frullania grayana var. californica,original identification,Frullania tamarisci subsp. nisquallensis
 Bryophyte,CANM 2843,Frullania grayana var. californica,original identification,Frullania tamarisci subsp. nisquallensis
 Bryophyte,CANM 2855,Frullania grayana var. californica,original identification,Frullania tamarisci subsp. nisquallensis
@@ -17662,7 +17366,7 @@ Bryophyte,CANM 5250,Junermannia incisa,original identification,Lophozia incisa
 Bryophyte,CANM 4298,Leiocolea gilmanii,item name,Leiocolea gillmanii | Scapania cuspiduligera
 Bryophyte,CANM 325592,Lophoza gillmanii,original identification,Leiocolea gillmanii
 Bryophyte,CANM 4347,Lophozia meulleri,original identification; synonym,Lophozia collaris
-Bryophyte,CANM 4347,Leiocolea collaris,Synonym,Lophozia collaris
+Bryophyte,CANM 4347,Leiocolea collaris,synonym,Lophozia collaris
 Bryophyte,CANM 4352,Jungermannia lancedata,original identification,Lophozia collaris
 Bryophyte,CANM 11649,Leiocolea muelleri,original identification,Lophozia collaris
 Bryophyte,CANM 11645,Leiocolea muelleri,original identification; synonym,Lophozia collaris
@@ -17711,8 +17415,8 @@ Parasite,CMNPA 1900-1667,D. lobotes,original identification,Centrovarium lobotes
 Parasite,CMNPA 1900-1668,D. lobotes,original identification,Centrovarium lobotes | Esox lucius
 Parasite,CMNPA 1900-1678,Bunodera nodulosum,previous scientific name,Crepidostomum cooperi | Perca flavescens
 Parasite,CMNPA 1900-1711,Distomum medians,previous name,Loxogenes arcanum | Lithobates catesbeianus
-Lichen,CANL 105738,Corticolous crust sp. 01,item name,""
-Lichen,CANL 105758,Foliicolous crust sp. 01,item name,""
+Lichen,CANL 105738,Corticolous crust sp. 01,item name,Chitinous Fungi
+Lichen,CANL 105758,Foliicolous crust sp. 01,item name,Chitinous Fungi
 Parasite,CMNPA 1900-1720,Sinistrporus simplex,previous name,Podocotyle atomon | Scomber scombrus
 Parasite,CMNPA 1900-1721,Sinistrporus simplex,previous name,Podocotyle atomon | Myoxocephalus scorpius
 Parasite,CMNPA 1900-1722,Sinistrporus simplex,previous name,Podocotyle atomon | Sebastes marinus
@@ -17780,7 +17484,7 @@ Bryophyte,CANM 221443,Pohlia cruoides,original identification,Pohlia drummondii
 Bryophyte,CANM 140868,Pohlia gracilis,original identification,Pohlia filum
 Bryophyte,CANM 6076,Metzgeria furcata proliferons,item name,Metzgeria furcata
 Bryophyte,CANM 6054,Lejuenea cavifolia,previous name; associated species,Metzgeria furcata
-Bryophyte,CANM 6054,Lejuenia ? patens,prior name: associated species,Metzgeria furcata
+Bryophyte,CANM 6054,Lejuenia ? patens,prior name; associated species,Metzgeria furcata
 Bryophyte,CANM 6092,Metzgeria hanata,original identification,Metzgeria leptoneura
 Bryophyte,CANM 7771,Preissia commutata,original identification,Preissia quadrata
 Bryophyte,CANM 7813,Preissia commutata,original identification,Preissia quadrata
@@ -18791,6 +18495,7 @@ Bryophyte,CANM 208232,Barbula rufa,original identification,Didymodon asperifoliu
 Bryophyte,CANM 208180,Barbula rufa,original identification,Didymodon asperifolius
 Bryophyte,CANM 200798,Barbula rufa,original identification,Didymodon asperifolius
 Bryophyte,CANM 128354,Barbula rufa,original identification,Didymodon rigidulus var. icmadophilus
+Bryophyte,CANM 217690,Barbula rufa,item name,Didymodon asperifolius
 Bryophyte,CANM 127423,Weissia curvirostra,previous name,Bryoerythrophyllum recurvirostrum
 Bryophyte,CANM 198366,Didymodon rubellus brachycarpus,original identification,Bryoerythrophyllum recurvirostrum
 Bryophyte,CANM 153328,Orthotrichum blyttii,original identification,Orthotrichum anomalum
@@ -18805,7 +18510,7 @@ Bryophyte,CANM 112357,Ditrichum cylindricum,original identification,Barbula conv
 Bryophyte,CANM 211578,Sphagnum papillosum form epapillose,original identification,Sphagnum papillosum
 Bryophyte,CANM 103841,Sphagnum lindbergii var. microphyllum,original identification,Sphagnum lenense
 Bryophyte,CANM 103839,Sphagnum lindbergii var. microphyllum,taxonomic update without examination,Sphagnum lenense
-Bryophyte,CANM 103843,Sphagnum lindbergii var. microphyllum,identification confirmation,""
+Bryophyte,CANM 103843,Sphagnum lindbergii var. microphyllum,identification confirmation,Sphagnum lenense
 Bryophyte,CANM 250807,Sphagnum lindbergii var. microphyllum,original identification,Sphagnum lenense
 Bryophyte,CANM 250807,Sphagnum lindbergii var. microphyllum,identification confirmation,Sphagnum lenense
 Bryophyte,CANM 103884,Sphagnum lindbergii Schimp. var. macrophyllum,original identification,Sphagnum lindbergii
@@ -19257,11 +18962,10 @@ Fossil Vertebrate,CMNFV 54921,Ammiinae,,Amiidae
 Fossil Vertebrate,CMNFV 54920,Amiinae,,Amiidae
 Vascular Plant,CAN 32420,Calamagrostis hyperborea var. elongata,original identification,Calamagrostis stricta subsp. inexpansa
 Vascular Plant,CAN 32615,Deyeuxia crassiglumis,original identification,Calamagrostis stricta subsp. inexpansa
-Vascular Plant,CAN 510735,Saxifraga tricus,,Saxifraga tricuspidata
 Lichen,CANL 126464,Caloplaca epthallina,original identification,Caloplaca epithallina
 Lichen,CANL 126465,Caloplaca epthallina,original identification,Caloplaca epithallina
 Crustacea,CMNC 2010-7021,Aciconula acanthosoma,,Aciconula
-Crustacea,CMNC 2010-6982,Perotripus brevi,,""
+Crustacea,CMNC 2010-6982,Perotripus brevi,,Crustacea
 Crustacea,CMNC 2010-7018,Caprella cf gracilior?,,Caprella
 Fish,CMNFI 1982-0073.1,Lycengraulis grossidens,,Lycengraulis
 Vascular Plant,CAN 269756,Saxifraga hirculus var. typica,original identification,Saxifraga hirculus
@@ -19283,17 +18987,12 @@ Bryophyte,CANM 117850,Oroweisia serrulata,original identification,Dichodontium p
 Vascular Plant,CAN 607522,Dieteria canescens var. canescens,item name,Machaeranthera canescens subsp. canescens
 Vascular Plant,CAN 204439,Saxifraga oppositifolia var. albiflora,original identification,Saxifraga oppositifolia
 Vascular Plant,CAN 510362,Saxifraga oppositifoliav,item name,Saxifraga oppositifolia
-Parasite,Vasquez 2015-05-14 Antigua,Gyrodactylus pakan,,Gyrodactylus | Astyanax
-Parasite,CMNPA 2015-0001,Gyrodactylus pakan,,Gyrodactylus
-Parasite,CMNPA 2015-0009,Gyrodactylus pakan,,Gyrodactylus
 Vascular Plant,CAN 249128,Saxifraga hieracifolia var. rufopilosa,original identification,Micranthes nivalis
 Vascular Plant,CAN 64987,Saxifraga punctata var. nana,original identification,Saxifraga nudicaulis
 Vascular Plant,CAN 64987,Saxifraga neglecta var. stolonifera,previous name,Saxifraga nudicaulis
 Vascular Plant,CAN 64989,Saxifraga niglecta,original identification,Saxifraga nudicaulis
 Lichen,CANL 127828,Lecanora zosterea var. zosterae,original identification,Lecanora zosterae
 Crustacea,CMNC 2015-0251,Notostracan,,Notostraca
-Parasite,CMNPA 2015-0010,Gyrodactylus tomahuac,,Gyrodactylus
-Parasite,CMNPA 2015-0011,Gyrodactylus tomahuac,,Gyrodactylus
 Lichen,CANL 127637,Hymenelia haematima,original identification,Hymenelia haematina
 Vascular Plant,CAN 48438,Salix barrattiana var. angustifolia,original identification,Salix richardsonii
 Vascular Plant,CAN 352305,Salix barrattiana var. angustifolia,original identification,Salix richardsonii
@@ -19338,7 +19037,6 @@ Vascular Plant,CAN 62848,Sisymbrium alliaria,original identification,Alliaria pe
 Lichen,CANL 126771,Lecanora flowesiana,,Lecanora flowersiana
 Lichen,CANL 127764,Leprolomma,original identification,Lepraria torii
 Lichen,CANL 127767,Sterile isidiate crust (no substances),item name,Sterile crust
-Parasite,CMNPA 2015-0002,Gyrodactylus teken,,Gyrodactylus | Astyanax
 Crustacea,CMNC 2010-6997,Metacaprella horrida,,Caprella horrida
 Vascular Plant,CAN 332275,Scirpus purchianus,previous name,Schoenoplectiella purshiana var. purshiana
 General Invertebrate,CMNI 2012-0037,Pandia maasi,scientific name,Sarsia flammea
@@ -19367,6 +19065,8 @@ Fish,CMNFI 1971-0664.1,Etrumeus sadina,,Etrumeus
 Vascular Plant,CAN 575112,Amelanchier cusickii,original identification,Amelanchier alnifolia var. cusickii
 Vascular Plant,CAN 217104,Amelanchier cusickii,original identification,Amelanchier alnifolia var. cusickii
 Vascular Plant,CAN 69570,Amelanchier cusickii,original identification,Amelanchier alnifolia var. cusickii
+Vascular Plant,CAN 65238,Saxifraga yukonensis,original identification,Micranthes reflexa
+Vascular Plant,CAN 65237,Saxifraga radulina,original identification,Micranthes reflexa
 General Invertebrate,CMNI 2015-0028,Aquatic invertebrate,,Animalia
 General Invertebrate,CMNI 2015-0025,Aquatic invertebrate,,Animalia
 General Invertebrate,CMNI 2015-0026,Aquatic invertebrate,,Animalia
@@ -19379,13 +19079,21 @@ Vascular Plant,CAN 607506,Atriplex gardneri var. cuneata,item name,Atriplex cune
 Vascular Plant,CAN 607507,Atriplex gardneri var. cuneata,item name,Atriplex cuneata
 Vascular Plant,CAN 241304,Saxifraga flagellaris ssp. platesepala,previous name,Saxifraga platysepala
 Vascular Plant,CAN 220735,Saxifraga flagellaris ssp. playtsepala,previous name,Saxifraga platysepala
+Fossil Vertebrate,CMNFV 1887,Boreodon matutin,original identification,Boreodon matutinus
+Fossil Vertebrate,CMNFV 38441,Stegosauroid,original identification,Ankylosauria
+Fossil Vertebrate,CMNFV 38443,Stegosauroid,original identification,Ankylosauria
+Fossil Vertebrate,CMNFV 40596,Megalosauroid,original identification,Troodon formosus
+Bryophyte,CANM 336525,Ctenidium suberectifolium,,""
 Vascular Plant,CAN 565322,Doryphora sassafras,,""
 Vascular Plant,CAN 234857,Prosperinaca pectinata,identification confirmation,Proserpinaca pectinata
 Vascular Plant,CAN 511703,Proserpinacapectinata,identification confirmation,Proserpinaca pectinata
+Mollusc,CMNML 069296,Capsa rufa,not accepted,Gari elongata
 Vascular Plant,CAN 164770,Dichromena leucocephala,original identification,Rhynchospora colorata
 Fish,CMNFI 1968-0574.1,Triakis maculatus,,Triakis
+Palynology,CMNPYM 3157,Rhynchosia menispermoidea,,Rhynchosia americana
+Vascular Plant,CAN 303172,Saxifraga adscebdens,original identification,Saxifraga radiata
+Vascular Plant,CAN 589408,Saxifraga razshivinii,original identification,Micranthes razshivinii
 Mollusc,CMNML 035751,Buccinum undulatum,scientific name,Buccinum cyaneum
-Mollusc,CMNML 2016-0026,Strophitus undilatus,,Strophitus undulatus
 Vascular Plant,CAN 473084,Saxifraga pulvinata,original identification,Saxifraga oppositifolia
 Fossil Invertebrate,CMNIF 142,Dipteria (Bibionidae),,Bibionidae
 Vascular Plant,CAN 512876,Salix pulchra x S. arctica or S. Chamissonis,most recent attribution,Salix pulchra
@@ -19427,5 +19135,32 @@ Vascular Plant,CAN 61508,Draba bellii x subcapitata,original identification,Drab
 Crustacea,CMNC 2004-2539,Hippomedon propinqvus ssp. eous Gurjanova,,Hippomedon propinqvus
 Lichen,CANL 42522,Alectroria chalybeiformis,previous name,Bryoria vrangiana
 Vascular Plant,CAN 603306,Drab simmonsii,previous name,Draba micropetala
+Vascular Plant,CAN 64922,Saxifraga punctata ssp. punctata,original identification,Micranthes nelsoniana subsp. nelsoniana
+Vascular Plant,CAN 207994,Saxifraga flabellifolia,original identification,Micranthes nelsoniana var. pacifica
+Mollusc,CMNML 2016-0256,Strobilops  labrinthusicus,misspelling,Strobilops labyrinthicus
+Mollusc,CMNML 2016-0263,Gastrocpta pentodon,misspelling,Gastrocopta pentodon
 Bryophyte,CANM 232542,Plagiothecium denticulatum var. donii,original identification,Hygrohypnum eugyrium
 Vascular Plant,CAN 385597,Cyprpipedium calceolus,,Cypripedium calceolus
+Vascular Plant,CAN 65046,Saxifraga unalaschcensis,original identification,Micranthes unalaschcensis
+Vascular Plant,CAN 65045,Saxifraga unalaschcensis,original identification,Micranthes unalaschcensis
+Vascular Plant,CAN 65048,Saxifraga unalaschcensis,previous name,Micranthes unalaschcensis
+Vascular Plant,CAN 65047,Saxifraga unalaschcensis,original identification,Micranthes unalaschcensis
+Vascular Plant,CAN 65050,Saxifraga unalaschcensis,previous name,Micranthes unalaschcensis
+Vascular Plant,CAN 326862,Saxifraga unalaschcensis,original identification,Micranthes unalaschcensis
+Vascular Plant,CAN 207376,Saxifraga unalaschcensis,original identification,Micranthes unalaschcensis
+Vascular Plant,CAN 253728,Saxifraga unalaschcensis,original identification,Micranthes unalaschcensis
+Vascular Plant,CAN 65044,Saxifraga unalaschcensis,previous name,Micranthes unalaschcensis
+Vascular Plant,CAN 65043,Saxifraga unalaschcensis,original identification,Micranthes unalaschcensis | Saxifraga punctata
+Vascular Plant,CAN 65048,Saxifraga daverica,original identification,Micranthes unalaschcensis
+Vascular Plant,CAN 65049,Saxifraga davinica,original identification,Micranthes unalaschcensis
+Vascular Plant,CAN 65050,Saxifraga davinica,original identification,Micranthes unalaschcensis
+Vascular Plant,CAN 65044,Saxifraga davinica,original identification,Micranthes unalaschcensis
+Fish,CMNFI 1968-0249.7,Brockius nigricinctus,,Labrisomus
+Alga,CANA 29272,Gaillardotella natans,original identification,Rivulariaceae
+Alga,CANA 29359,Leda capucina,item name,Zygnemataceae
+Alga,CANA 29379,Nostoc demangeoni,item name,Nostoc
+Alga,CANA 29401,Lyngbia discolor,item name,Oscillatoriaceae
+Alga,CANA 29425,Oscillaria urbica,item name,Oscillatoria
+Alga,CANA 29429,Oscillaria nigrescens,item name,Oscillatoria
+Vascular Plant,CAN 473087,Saxifraga sileneflora,original identification,Saxifraga cespitosa subsp. sileneflora
+Vascular Plant,CAN 380575,Saxifraga stellaris var. stellaris,original identification,Micranthes stellaris

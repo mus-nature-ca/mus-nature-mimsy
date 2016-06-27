@@ -15,6 +15,7 @@ class CatalogTaxon < ActiveRecord::Base
   custom_attribute :identifier_comment, :attrib_comment
   custom_attribute :scientific_name, :taxonomy
   custom_attribute :type_status, :affiliation
+  custom_attribute :higher_taxonomy, :broader_text
 
   validates :mkey, :speckey, presence: true
 

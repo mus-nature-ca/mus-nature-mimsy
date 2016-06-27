@@ -28,7 +28,7 @@ optparse = OptionParser.new do |opts|
   end
 end.parse!
 
-dt = DateTime.now.strftime("%Y-%d-%m-%H-%M")
+dt = DateTime.now.strftime("%Y-%m-%d-%H-%M")
 dir_zip = output_dir(__FILE__) + "/export/#{dt}"
 
 if options[:model]
