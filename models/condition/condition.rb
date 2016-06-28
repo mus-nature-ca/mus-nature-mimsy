@@ -17,4 +17,7 @@ class Condition < ActiveRecord::Base
 
   has_many :media, through: :condition_media, source: :medium
   has_many :condition_media, foreign_key: "condkey"
+
+  has_many :conservations, through: :condition_conservations, source: :conservation
+  has_many :condition_conservations, foreign_key: "condkey"
 end

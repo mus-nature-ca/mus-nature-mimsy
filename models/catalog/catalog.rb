@@ -131,4 +131,8 @@ class Catalog < ActiveRecord::Base
     names
   end
 
+  def related
+    related_catalogs
+  end
+
 end

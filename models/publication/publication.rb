@@ -6,7 +6,7 @@ class Publication < ActiveRecord::Base
   self.primary_key = :pkey
 
   # override decimal set
-  set_integer_columns :pkey
+  set_integer_columns :pkey, :mpub_id, :record_view
 
   # override boolean set
   set_string_columns :illustrated
@@ -15,6 +15,15 @@ class Publication < ActiveRecord::Base
 
   has_many :catalogs, through: :catalog_publications, source: :catalog
   has_many :catalog_publications, foreign_key: "pkey"
+
+  has_many :events, through: :event_publications, source: :event
+  has_many :event_publications, foreign_key: "pkey"
+
+  has_many :media, through: :medium_publications, source: :medium
+  has_many :medium_publications, foreign_key: "pkey"
+
+  has_many :people, through: :person_publications, source: :person
+  has_many :person_publications, foreign_key: "pkey"
 
   has_many :taxa, through: :taxon_publications, source: :taxon
   has_many :taxon_publications, foreign_key: "pkey"

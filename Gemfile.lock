@@ -26,6 +26,8 @@ GEM
       unicode_utils (~> 1.4)
     builder (3.2.2)
     byebug (8.2.2)
+    chronic (0.10.2)
+    colorize (0.8.0)
     composite_primary_keys (8.1.2)
       activerecord (~> 4.2.0)
     daemons (1.2.3)
@@ -108,6 +110,8 @@ DEPENDENCIES
   activerecord-oracle_enhanced-adapter
   biodiversity
   byebug
+  chronic
+  colorize
   composite_primary_keys
   namae
   parallel

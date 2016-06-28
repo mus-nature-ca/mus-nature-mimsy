@@ -16,4 +16,6 @@ class Facility < ActiveRecord::Base
 
   has_many :catalogs, through: :catalog_facilities, source: :catalog
   has_many :catalog_facilities, foreign_key: "lockey"
+
+  has_many :levels, class_name: "FacilityLevel", foreign_key: "lockey"
 end

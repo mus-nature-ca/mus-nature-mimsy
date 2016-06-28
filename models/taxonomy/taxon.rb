@@ -25,10 +25,16 @@ class Taxon < ActiveRecord::Base
   has_many :catalogs, through: :catalog_taxa, source: :catalog
   has_many :catalog_taxa, foreign_key: "speckey"
 
-  has_many :variations, class_name: "TaxonVariation", foreign_key: "speckey", :dependent => :destroy
+  has_many :media, through: :medium_taxa, source: :medium
+  has_many :medium_taxa, foreign_key: "speckey"
+
+  has_many :people, through: :person_taxa, source: :person
+  has_many :person_taxa, foreign_key: "speckey"
 
   has_many :publications, through: :taxon_publications, source: :publication
   has_many :taxon_publications, foreign_key: "speckey"
+
+  has_many :variations, class_name: "TaxonVariation", foreign_key: "speckey", dependent: :destroy
 
   def self.search_by_prefix (prefix)
     self.where("lower(scientific_name) LIKE '#{prefix.downcase}%'")

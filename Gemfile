@@ -17,6 +17,8 @@ gem 'rubyzip'
 gem 'parallel'
 gem 'namae'
 gem 'chronic'
+gem 'byebug'
+gem 'colorize'
 
 group :production do
 end
@@ -24,5 +26,4 @@ end
 group :test, :development do
   gem 'rake'
   gem 'rspec'
-  gem 'byebug'
 end

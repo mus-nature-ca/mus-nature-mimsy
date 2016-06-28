@@ -20,4 +20,7 @@ class Conservation < ActiveRecord::Base
 
   has_many :media, through: :conservation_media, source: :medium
   has_many :conservation_media, foreign_key: "conskey"
+
+  has_many :conditions, through: :condition_conservations, source: :condition
+  has_many :condition_conservations, foreign_key: "conskey"
 end

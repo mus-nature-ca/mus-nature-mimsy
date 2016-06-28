@@ -23,7 +23,13 @@ class Place < ActiveRecord::Base
   
   has_many :made_catalogs, through: :catalog_made_places, source: :catalog
   has_many :catalog_made_places, foreign_key: "placekey"
-  
+
+  has_many :media, through: :medium_places, source: :place
+  has_many :medium_places, foreign_key: "placekey"
+
+  has_many :people, through: :person_places, source: :person
+  has_many :person_places, foreign_key: "placekey"
+
   has_many :sites, through: :place_sites, source: :site
   has_many :place_sites, foreign_key: "placekey"
 
