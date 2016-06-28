@@ -11,7 +11,8 @@ class Thesaurus < ActiveRecord::Base
   belongs_to :parent, class_name: "Thesaurus", foreign_key: "broader_id"
 
   has_many :catalogs, through: :catalog_terms, source: :catalog
-  has_many :catalg_terms, foreign_key: "class_id"
+  has_many :catalog_terms, foreign_key: "class_id"
+
   has_many :children, class_name: "Thesaurus", foreign_key: "broader_id"
   has_many :variations, class_name: "TaxonVariation", foreign_key: "class_id"
 

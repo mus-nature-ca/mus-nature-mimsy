@@ -12,6 +12,4 @@ class Hazard < ActiveRecord::Base
   custom_attribute :catalog_id, :m_id
 
   belongs_to :catalog, foreign_key: "m_id"
-
-  has_many :hazard_media, foreign_key: "hkey"
 end

@@ -19,6 +19,7 @@ gem 'namae'
 gem 'chronic'
 gem 'byebug'
 gem 'colorize'
+gem 'rails-erd'
 
 group :production do
 end

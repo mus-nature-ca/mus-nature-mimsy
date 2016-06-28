@@ -23,7 +23,7 @@ class Medium < ActiveRecord::Base
   has_many :damages, through: :damage_media, source: :damage
   has_many :damage_media, foreign_key: "mediakey"
 
-  has_many :descriptors, class_name: "MediumDescrioptor", foreign_key: "mediakey"
+  has_many :descriptors, class_name: "MediumDescriptor", foreign_key: "mediakey"
 
   has_many :events, through: :medium_events, source: :event
   has_many :medium_events, foreign_key: "mediakey"

@@ -22,6 +22,6 @@ class Exhibition < ActiveRecord::Base
   has_many :media, through: :exhibition_media, source: :medium
   has_many :exhibition_media, foreign_key: "ekey"
 
-  has_many :themes, foreign_key: "ekey"
-  has_many :venues, foreign_key: "ekey"
+  has_many :themes, class_name: "ExhibitionTheme", foreign_key: "ekey"
+  has_many :venues, class_name: "ExhibitionVenue", foreign_key: "ekey"
 end

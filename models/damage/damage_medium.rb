@@ -12,5 +12,5 @@ class DamageMedium < ActiveRecord::Base
   custom_attribute :medium_id, :mediakey
 
   belongs_to :damage, foreign_key: "dkey"
-  belongs_to :media, foreign_key: "mediakey"
+  belongs_to :medium, foreign_key: "mediakey"
 end

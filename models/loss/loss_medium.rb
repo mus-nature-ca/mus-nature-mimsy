@@ -12,5 +12,5 @@ class LossMedium < ActiveRecord::Base
   custom_attribute :medium_id, :mediakey
 
   belongs_to :loss, foreign_key: "losskey"
-  belongs_to :media, foreign_key: "mediakey"
+  belongs_to :medium, foreign_key: "mediakey"
 end

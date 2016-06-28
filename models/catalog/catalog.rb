@@ -54,7 +54,7 @@ class Catalog < ActiveRecord::Base
   has_many :components, class_name: "CatalogComponent", foreign_key: "mkey"
   has_many :conditions, foreign_key: "m_id"
   has_many :conservations, foreign_key: "m_id"
-  has_many :cultures, foreign_key: "mkey"
+  has_many :cultures, class_name: "CatalogCulture", foreign_key: "mkey"
   has_many :damages, foreign_key: "m_id"
   has_many :daytes, foreign_key: "mkey"
   has_many :descriptions, class_name: "CatalogDescription", foreign_key: "mkey"
