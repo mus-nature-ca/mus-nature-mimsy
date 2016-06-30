@@ -6,9 +6,11 @@ class CatalogOtherNumber < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :mkey
+  set_integer_columns :id, :mkey
 
   custom_attribute :catalog_id, :mkey
+  custom_attribute :type, :on_type
+  custom_attribute :sort, :step
 
   belongs_to :catalog, foreign_key: "mkey"
 end

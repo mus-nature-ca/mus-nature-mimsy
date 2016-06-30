@@ -6,9 +6,16 @@ class CatalogInscription < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :mkey
+  set_integer_columns :id, :mkey
   
   custom_attribute :catalog_id, :mkey
+  custom_attribute :type, :inscription_type
+  custom_attribute :text, :inscription_text
+  custom_attribute :method, :inscription_method
+  custom_attribute :location, :inscription_location
+  custom_attribute :script, :inscription_script
+  custom_attribute :number, :inscription_number
+  custom_attribute :language, :original_language
 
   belongs_to :catalog, foreign_key: "mkey"
 end

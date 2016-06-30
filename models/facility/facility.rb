@@ -6,7 +6,7 @@ class Facility < ActiveRecord::Base
   self.primary_key = :lockey
 
   # override decimal set
-  set_integer_columns :lockey
+  set_integer_columns :lockey, :record_view
 
   custom_attribute :id, :lockey
   custom_attribute :address_line1, :address1
@@ -18,4 +18,5 @@ class Facility < ActiveRecord::Base
   has_many :catalog_facilities, foreign_key: "lockey"
 
   has_many :levels, class_name: "FacilityLevel", foreign_key: "lockey"
+  has_many :locations, class_name: "Location", foreign_key: "lockey"
 end

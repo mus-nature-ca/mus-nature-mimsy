@@ -6,11 +6,17 @@ class CatalogFacility < ActiveRecord::Base
   self.primary_key = :authlinkkey
 
   # override decimal set
-  set_integer_columns :mkey, :lockey
-  
+  set_integer_columns :authlinkkey, :mkey, :lockey
+
+  custom_attribute :id, :authlinkkey
   custom_attribute :catalog_id, :mkey
   custom_attribute :facility_id, :lockey
   custom_attribute :parent, :parent_facility
+  custom_attribute :sort, :step
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   validates :mkey, :lockey, presence: true
 

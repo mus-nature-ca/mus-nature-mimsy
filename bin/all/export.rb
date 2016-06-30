@@ -32,10 +32,11 @@ dt = DateTime.now.strftime("%Y-%m-%d-%H-%M")
 dir_zip = output_dir(__FILE__) + "/export/#{dt}"
 
 if options[:model]
+  model = options[:model]
   File.write(output_dir(__FILE__) + "/#{model}-#{dt}.csv", model.constantize.to_csv)
 elsif options[:all]
   exclusions = ["CatalogAgent"]
-  processes = options[:processes] ||= 3
+  processes = options[:processes] ||= 4
   start = Time.now
   Dir.mkdir(dir_zip)
 

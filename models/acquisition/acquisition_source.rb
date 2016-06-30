@@ -5,11 +5,12 @@ class AcquisitionSource < ActiveRecord::Base
   # specify primary key name
   self.primary_key = :id
 
-  custom_attribute :acquisition_id, :akey
-  custom_attribute :person_id, :link_id
-
   # override decimal set
   set_integer_columns :id, :link_id, :akey
+
+  custom_attribute :acquisition_id, :akey
+  custom_attribute :person_id, :link_id
+  custom_attribute :sort, :step
 
   belongs_to :acquisition, foreign_key: "akey"
   belongs_to :person, foreign_key: "link_id"

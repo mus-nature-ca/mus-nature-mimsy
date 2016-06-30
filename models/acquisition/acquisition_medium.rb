@@ -5,11 +5,11 @@ class AcquisitionMedium < ActiveRecord::Base
   # specify primary key name
   self.primary_key = :id
 
-  custom_attribute :acquisition_id, :akey
-  custom_attribute :medium_id, :mediakey
-
   # override decimal set
   set_integer_columns :id, :akey, :mediakey
+
+  custom_attribute :acquisition_id, :akey
+  custom_attribute :medium_id, :mediakey
 
   belongs_to :acquisition, foreign_key: "akey"
   belongs_to :medium, foreign_key: "mediakey"

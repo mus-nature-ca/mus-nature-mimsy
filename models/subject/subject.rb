@@ -9,4 +9,6 @@ class Subject < ActiveRecord::Base
 
   has_many :catalogs, through: :catalog_subjects, source: :catalog
   has_many :catalog_subjects, foreign_key: "subkey"
+
+  has_many :variations, class_name: "SubjectVariation", foreign_key: "subkey", dependent: :destroy
 end

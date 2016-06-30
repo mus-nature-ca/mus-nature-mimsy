@@ -33,6 +33,8 @@ class Place < ActiveRecord::Base
   has_many :sites, through: :place_sites, source: :site
   has_many :place_sites, foreign_key: "placekey"
 
+  has_many :variations, class_name: "PlaceVariation", foreign_key: "placekey", dependent: :destroy
+
   def ancestors
     node, nodes = self, []
     nodes << node = node.parent while node.parent

@@ -6,16 +6,20 @@ class CatalogTaxon < ActiveRecord::Base
   self.primary_key = :authlinkkey
 
   # override decimal set
-  set_integer_columns :mkey, :speckey
+  set_integer_columns :authlinkkey, :mkey, :speckey, :taxvarkey
 
+  custom_attribute :id, :authlinkkey
   custom_attribute :catalog_id, :mkey
   custom_attribute :taxon_id, :speckey
+  custom_attribute :taxon_variation_id, :taxvarkey
   custom_attribute :identified_by, :attributor
   custom_attribute :date_identified, :attrib_date
   custom_attribute :identifier_comment, :attrib_comment
   custom_attribute :scientific_name, :taxonomy
   custom_attribute :type_status, :affiliation
   custom_attribute :higher_taxonomy, :broader_text
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_source, :attrib_source
 
   validates :mkey, :speckey, presence: true
 

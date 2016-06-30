@@ -1,5 +1,4 @@
 class Catalog < ActiveRecord::Base
-
   # specify schema and table name
   self.table_name = :catalogue
 

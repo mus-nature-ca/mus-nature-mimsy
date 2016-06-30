@@ -14,6 +14,11 @@ class CatalogName < ActiveRecord::Base
   custom_attribute :catalog_id, :mkey
   custom_attribute :type, :tna_type
   custom_attribute :scientific_name, :item_name
+  custom_attribute :sort, :step
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   belongs_to :catalog, foreign_key: "mkey"
 end
