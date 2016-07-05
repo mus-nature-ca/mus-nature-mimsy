@@ -6,10 +6,12 @@ class ExhibitionLocation < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :ekey, :loc_id
+  set_integer_columns :id, :ekey, :loc_id, :eikey
 
   custom_attribute :exhibition_id, :ekey
   custom_attribute :location_id, :loc_id
+  custom_attribute :exhibition_catalog_id, :eikey
+  custom_attribute :sort, :step
 
   belongs_to :exhibition, foreign_key: "ekey"
   belongs_to :location, foreign_key: "loc_id"

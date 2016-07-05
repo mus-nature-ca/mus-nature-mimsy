@@ -6,9 +6,12 @@ class ExhibitionVenue < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :ekey
+  set_integer_columns :id, :ekey, :link_id
 
   custom_attribute :exhibition_id, :ekey
+  custom_attribute :installation_start, :install_start
+  custom_attribute :installation_end, :install_end
+  custom_attribute :person_id, :link_id
 
   belongs_to :exhibition, foreign_key: "ekey"
 end

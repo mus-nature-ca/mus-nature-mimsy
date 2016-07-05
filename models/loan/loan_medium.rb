@@ -6,10 +6,12 @@ class LoanMedium < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :lkey, :mediakey
+  set_integer_columns :id, :lkey, :mediakey, :litmkey
 
   custom_attribute :loan_id, :lkey
   custom_attribute :medium_id, :mediakey
+  custom_attribute :loan_catalog_id, :litmkey
+  custom_attribute :sort, :step
 
   belongs_to :loan, foreign_key: "lkey"
   belongs_to :medium, foreign_key: "mediakey"

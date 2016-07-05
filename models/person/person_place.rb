@@ -6,10 +6,18 @@ class PersonPlace < ActiveRecord::Base
   self.primary_key = :authlinkkey
 
   # override decimal set
-  set_integer_columns :link_id, :placekey
+  set_integer_columns :authlinkkey, :link_id, :placekey, :placevarkey, :nvarkey
 
+  custom_attribute :id, :authlinkkey
   custom_attribute :place_id, :placekey
+  custom_attribute :place_variation_id, :placevarkey
   custom_attribute :person_id, :link_id
+  custom_attribute :person_variation_id, :nvarkey
+  custom_attribute :sort, :step
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   belongs_to :place, foreign_key: "placekey"
   belongs_to :person, foreign_key: "link_id"

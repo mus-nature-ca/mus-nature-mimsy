@@ -9,6 +9,13 @@ class VesselMeasurement < ActiveRecord::Base
   set_integer_columns :id, :vbkey
 
   custom_attribute :vessel_id, :vbkey
+  custom_attribute :length_overall, :loa
+  custom_attribute :length_overall_unit, :loa_unit
+  custom_attribute :gross_tonnage, :weight1,
+  custom_attribute :gross_tonnage_unit, :wunit1
+  custom_attribute :net_tonnage, :weight2
+  custom_attribute :net_tonnage_unit, :wunit2
+  custom_attribute :sort, :step
 
   belongs_to :vessel, foreign_key: "vbkey"
 end

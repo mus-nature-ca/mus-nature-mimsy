@@ -9,6 +9,12 @@ class VesselType < ActiveRecord::Base
   set_integer_columns :id, :vbkey
 
   custom_attribute :vessel_id, :vbkey
+  custom_attribute :type, :vt_type
+  custom_attribute :sort, :step
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   belongs_to :vessel, foreign_key: "vbkey"
 end

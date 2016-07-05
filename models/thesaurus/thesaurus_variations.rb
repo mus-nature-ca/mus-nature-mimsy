@@ -10,6 +10,15 @@ class ThesaurusVariation < ActiveRecord::Base
 
   custom_attribute :id, :thesvarkey
   custom_attribute :thesaurus_id, :class_id
+  custom_attribute :sort, :step
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   belongs_to :thesaurus, foreign_key: "class_id"
+
+  def siblings
+    ThesaurusVariation.where(class_id: class_id).where.not(thesvarkey: thesvarkey)
+  end
 end

@@ -7,6 +7,8 @@ class SiteCoordinate < ActiveRecord::Base
 
   # override decimal set
   set_integer_columns :id, :skey
+
+  # override boolean set
   set_string_columns :direction
 
   custom_attribute :site_id, :skey

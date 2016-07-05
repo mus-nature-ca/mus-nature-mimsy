@@ -6,10 +6,13 @@ class PersonTaxon < ActiveRecord::Base
   self.primary_key = :authlinkkey
 
   # override decimal set
-  set_integer_columns :link_id, :speckey
+  set_integer_columns :authlinkkey, :link_id, :speckey, :taxvarkey, :nvarkey
 
+  custom_attribute :id, :authlinkkey
   custom_attribute :taxon_id, :speckey
+  custom_attribute :taxon_variation_id, :taxvarkey
   custom_attribute :person_id, :link_id
+  custom_attribute :person_variation_id, :nvarkey
 
   belongs_to :taxon, foreign_key: "speckey"
   belongs_to :person, foreign_key: "link_id"

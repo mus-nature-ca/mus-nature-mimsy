@@ -122,6 +122,9 @@ class Catalog < ActiveRecord::Base
   has_many :vessels, through: :catalog_vessels, source: :vessel
   has_many :catalog_vessels, foreign_key: "mkey"
 
+  scope :created_between, lambda {|start_date, end_date| where("create_date >= ? AND create_date <= ?", start_date, end_date )}
+  scope :updated_between, lambda {|start_date, end_date| where("update_date >= ? AND update_date <= ?", start_date, end_date )}
+
   def self.find_by_catalog(id)
     self.find_by_id_number(id)
   end

@@ -3,11 +3,12 @@ class LoanCatalog < ActiveRecord::Base
   self.table_name = :loan_items
 
   # specify primary key name
-  self.primary_keys = :m_id, :lkey
+  self.primary_key = :litmkey
 
   # override decimal set
-  set_integer_columns :m_id, :lkey
+  set_integer_columns :litmkey, :m_id, :lkey
 
+  custom_attribute :id, :litmkey
   custom_attribute :loan_id, :lkey
   custom_attribute :catalog_id, :m_id
   custom_attribute :description, :item_summary

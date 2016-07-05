@@ -6,7 +6,7 @@ class Condition < ActiveRecord::Base
   self.primary_key = :condkey
 
   # override decimal set
-  set_integer_columns :condkey
+  set_integer_columns :condkey, :m_id
 
   validates :m_id, presence: true
 

@@ -6,10 +6,14 @@ class Loan < ActiveRecord::Base
   self.primary_key = :lkey
 
   # override decimal set
-  set_integer_columns :lkey
+  set_integer_columns :lkey, :record_view, :link_id, :nvarkey
 
   custom_attribute :id, :lkey
   custom_attribute :institution, :name
+  custom_attribute :person_id, :link_id
+  custom_attribute :person_variation_id, :nvarkey
+
+  has_one :person, class_name: "Person", primary_key: "link_id", foreign_key: "link_id"
 
   has_many :catalogs, through: :loan_catalogs, source: :catalog
   has_many :loan_catalogs, foreign_key: "lkey"
@@ -27,10 +31,10 @@ class Loan < ActiveRecord::Base
   has_many :loan_venues, foreign_key: "lkey"
 
   def institutions
-    venues.map{ |v| v.preferred_name }
+    venues.map(&:preferred_name)
   end
 
   def contacts
-    loan_venues.map{ |lv| lv.contact }
+    loan_venues.map(&:contact)
   end
 end

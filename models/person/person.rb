@@ -12,6 +12,11 @@ class Person < ActiveRecord::Base
   set_string_columns :gender
 
   custom_attribute :id, :link_id
+  custom_attribute :title, :title_name
+  custom_attribute :first_name, :firstmid_name
+  custom_attribute :last_name, :lastsuff_name
+  custom_attribute :suffix, :suffix_name
+  custom_attribute :contacts, :people_contacts
 
   belongs_to :catalog_collector, foreign_key: "link_id"
   

@@ -6,10 +6,15 @@ class PersonVariation < ActiveRecord::Base
   self.primary_key = :nvarkey
 
   # override decimal set
-  set_integer_columns :link_id
+  set_integer_columns :nvarkey, :link_id
 
   custom_attribute :id, :nvarkey
   custom_attribute :person_id, :link_id
+  custom_attribute :type, :nvar_type
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   belongs_to :person, foreign_key: "link_id"
 end

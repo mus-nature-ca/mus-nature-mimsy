@@ -8,8 +8,14 @@ class RelatedMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :relreckey, :mediakey, :related_mediakey
 
+  custom_attribute :id, :relreckey
   custom_attribute :medium_id, :mediakey
   custom_attribute :related_medium_id, :related_mediakey
+  custom_attribute :summary, :item_summary
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   belongs_to :medium, primary_key: "related_mediakey", foreign_key: "mediakey"
 end

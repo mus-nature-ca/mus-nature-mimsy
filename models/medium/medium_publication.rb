@@ -6,10 +6,16 @@ class MediumPublication < ActiveRecord::Base
   self.primary_key = :authlinkkey
 
   # override decimal set
-  set_integer_columns :pkey, :mediakey
+  set_integer_columns :authlinkkey, :pkey, :mediakey
 
+  custom_attribute :id, :authlinkkey
   custom_attribute :publication_id, :pkey
   custom_attribute :medium_id, :mediakey
+  custom_attribute :sort, :step
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   belongs_to :publication, foreign_key: "pkey"
   belongs_to :medium, foreign_key: "mediakey"

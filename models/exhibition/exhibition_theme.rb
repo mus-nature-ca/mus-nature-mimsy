@@ -6,7 +6,7 @@ class ExhibitionTheme < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :ekey
+  set_integer_columns :id, :ekey
 
   custom_attribute :exhibition_id, :ekey
 

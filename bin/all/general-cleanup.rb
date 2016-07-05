@@ -3,6 +3,21 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
+media = Medium.where.not(locator: nil)
+
+pbar = ProgressBar.create(title: "MediaPaths", total: media.count, autofinish: false, format: '%t %b>> %i| %e')
+media.find_each do |m|
+  pbar.increment
+  if m.locator[0].downcase == "m"
+    m.locator.sub! 'm:\mimsy', '\\n-fs1.mus-nature.ca\dept\MIMSY'
+    m.locator.sub! 'M:\MIMSY', '\\n-fs1.mus-nature.ca\dept\MIMSY'
+    m.save
+  end
+end
+pbar.finish
+
+
+=begin
 file = File.join(__dir__, '../../', 'db', 'tables.txt')
 
 CSV.foreach(file) do |row|
@@ -20,3 +35,4 @@ CSV.foreach(file) do |row|
     puts "#{table}".red
   end
 end
+=end

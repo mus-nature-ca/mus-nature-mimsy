@@ -8,9 +8,14 @@ class TaxonVariation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :taxvarkey, :speckey
 
+  custom_attribute :id, :taxvarkey
   custom_attribute :taxon_id, :speckey
   custom_attribute :scientific_name, :variation
   custom_attribute :variation_type, :var_type
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   belongs_to :taxon, foreign_key: "speckey"
 

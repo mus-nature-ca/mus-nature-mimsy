@@ -6,7 +6,7 @@ class Hazard < ActiveRecord::Base
   self.primary_key = :hkey
 
   # override decimal set
-  set_integer_columns :m_id
+  set_integer_columns :hkey, :m_id
 
   custom_attribute :id, :hkey
   custom_attribute :catalog_id, :m_id

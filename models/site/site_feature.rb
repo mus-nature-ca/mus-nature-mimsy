@@ -6,7 +6,7 @@ class SiteFeature < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :skey
+  set_integer_columns :id, :skey
 
   custom_attribute :site_id, :skey
 

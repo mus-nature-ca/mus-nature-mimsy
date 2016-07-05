@@ -6,7 +6,7 @@ class EventComponent < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :vkey
+  set_integer_columns :id, :vkey
 
   custom_attribute :event_id, :vkey
 

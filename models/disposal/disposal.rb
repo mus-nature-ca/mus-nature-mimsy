@@ -9,6 +9,7 @@ class Disposal < ActiveRecord::Base
   set_integer_columns :akey, :record_view
 
   custom_attribute :id, :akey
+  custom_attribute :reference_number, :ref_number
 
   has_many :catalogs, through: :disposal_catalogs, source: :catalog
   has_many :disposal_catalogs, foreign_key: "akey"

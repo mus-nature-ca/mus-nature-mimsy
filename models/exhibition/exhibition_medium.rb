@@ -6,10 +6,12 @@ class ExhibitionMedium < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :ekey, :mediakey
+  set_integer_columns :id, :ekey, :mediakey, :eikey
 
   custom_attribute :exhibition_id, :ekey
   custom_attribute :medium_id, :mediakey
+  custom_attribute :exhibition_catalog_id, :eikey
+  custom_attribute :sort, :step
 
   belongs_to :exhibition, foreign_key: "ekey"
   belongs_to :medium, foreign_key: "mediakey"

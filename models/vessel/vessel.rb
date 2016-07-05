@@ -5,7 +5,13 @@ class Vessel < ActiveRecord::Base
   # specify primary key name
   self.primary_key = :vbkey
 
+  # override decimal set
+  set_integer_columns :id, :vbkey
+
   custom_attribute :id, :vbkey
+  custom_attribute :class, :vessel_class
+  custom_attribute :type, :vessel_type
+  custom_attribute :name, :vessel_name
 
   has_many :accessories, class_name: "VesselAccessory", foreign_key: "vbkey"
 

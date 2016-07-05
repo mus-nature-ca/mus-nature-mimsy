@@ -6,7 +6,7 @@ class Site < ActiveRecord::Base
   self.primary_key = :skey
 
   # override decimal set
-  set_integer_columns :skey, :msite_id
+  set_integer_columns :skey, :msite_id, :record_view
 
   custom_attribute :id, :skey
   custom_attribute :environment, :site_class

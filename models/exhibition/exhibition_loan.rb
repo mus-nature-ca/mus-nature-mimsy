@@ -6,10 +6,12 @@ class ExhibitionLoan < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :ekey, :lkey
+  set_integer_columns :id, :ekey, :lkey, :eikey
 
   custom_attribute :exhibition_id, :ekey
+  custom_attribute :exhibition_catalog_id, :eikey
   custom_attribute :loan_id, :lkey
+  custom_attribute :sort, :step
 
   belongs_to :exhibition, foreign_key: "ekey"
   belongs_to :loan, foreign_key: "lkey"

@@ -5,6 +5,9 @@ class Subject < ActiveRecord::Base
   # specify primary key name
   self.primary_key = :subkey
 
+  # override decimal set
+  set_integer_columns :subkey, :msub_id, :record_view
+
   custom_attribute :id, :subkey
 
   has_many :catalogs, through: :catalog_subjects, source: :catalog

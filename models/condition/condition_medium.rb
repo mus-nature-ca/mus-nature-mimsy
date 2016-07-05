@@ -3,14 +3,17 @@ class ConditionMedium < ActiveRecord::Base
   self.table_name = :condition_media
 
   # specify primary key name
-  self.primary_keys = :condkey, :mediakey
+  self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :condkey, :mediakey
+  set_integer_columns :id, :condkey, :mediakey, :m_id
 
+  custom_attribute :catalog_id, :m_id
   custom_attribute :condition_id, :condkey
   custom_attribute :medium_id, :mediakey
+  custom_attribute :sort, :step
 
   belongs_to :condition, foreign_key: "condkey"
   belongs_to :medium, foreign_key: "mediakey"
+  belongs_to :catalog, foreign_key: "m_id"
 end

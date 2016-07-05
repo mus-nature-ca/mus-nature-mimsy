@@ -6,10 +6,11 @@ class DisposalMedium < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :akey, :mediakey
+  set_integer_columns :id, :akey, :mediakey
 
   custom_attribute :disposal_id, :akey
   custom_attribute :medium_id, :mediakey
+  custom_attribute :sort, :step
 
   belongs_to :disposal, foreign_key: "akey"
   belongs_to :medium, foreign_key: "mediakey"

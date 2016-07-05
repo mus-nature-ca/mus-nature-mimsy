@@ -6,10 +6,16 @@ class SiteEvent < ActiveRecord::Base
   self.primary_key = :authlinkkey
 
   # override decimal set
-  set_integer_columns :skey, :vkey
+  set_integer_columns :authlinkkey, :skey, :vkey
 
+  custom_attribute :id, :authlinkkey
   custom_attribute :site_id, :skey
   custom_attribute :event_id, :vkey
+  custom_attribute :sort, :step
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   validates :skey, :vkey, presence: true
 

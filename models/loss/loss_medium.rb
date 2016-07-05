@@ -6,10 +6,12 @@ class LossMedium < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :losskey, :mediakey
+  set_integer_columns :id, :losskey, :mediakey, :m_id
 
+  custom_attribute :catalog_id, :m_id
   custom_attribute :loss_id, :losskey
   custom_attribute :medium_id, :mediakey
+  custom_attribute :sort, :step
 
   belongs_to :loss, foreign_key: "losskey"
   belongs_to :medium, foreign_key: "mediakey"

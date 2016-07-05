@@ -6,10 +6,17 @@ class EventPublication < ActiveRecord::Base
   self.primary_key = :authlinkkey
 
   # override decimal set
-  set_integer_columns :vkey, :pkey
+  set_integer_columns :authlinkkey, :vkey, :pkey
 
+  custom_attribute :id, :authlinkkey
   custom_attribute :event_id, :vkey
   custom_attribute :publication_id, :pkey
+  custom_attribute :illustrated, :illustration
+  custom_attribute :sort, :step
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   belongs_to :event, foreign_key: "vkey"
   belongs_to :publication, foreign_key: "pkey"

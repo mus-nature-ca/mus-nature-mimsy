@@ -6,7 +6,7 @@ class Medium < ActiveRecord::Base
   self.primary_key = :mediakey
 
   # override decimal set
-  set_integer_columns :mmed_id, :mediakey, :primary, :record_view
+  set_integer_columns :mediakey, :mmed_id, :primary, :record_view
 
   # override boolean set
   set_string_columns :orientation

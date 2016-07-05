@@ -6,10 +6,11 @@ class DisposalSource < ActiveRecord::Base
   self.primary_key = :id
 
   # override decimal set
-  set_integer_columns :akey, :link_id
+  set_integer_columns :id, :akey, :link_id, :nvarkey
 
   custom_attribute :disposal_id, :akey
   custom_attribute :person_id, :link_id
+  custom_attribute :person_variation_id, :nvarkey
 
   belongs_to :disposal, foreign_key: "akey"
   belongs_to :person, foreign_key: "link_id"

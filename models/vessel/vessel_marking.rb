@@ -8,12 +8,12 @@ class VesselMarking < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :vbkey
 
-  alias_attribute :type, :marking_type
-  alias_attribute :text, :marking_text
-  alias_attribute :method, :marking_method
-  alias_attribute :location, :marking_location
-
   custom_attribute :vessel_id, :vbkey
+  custom_attribute :type, :marking_type
+  custom_attribute :text, :marking_text
+  custom_attribute :method, :marking_method
+  custom_attribute :location, :marking_location
+  custom_attribute :sort, :step
 
   belongs_to :vessel, foreign_key: "vbkey"
 end

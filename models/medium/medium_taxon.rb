@@ -6,10 +6,17 @@ class MediumTaxon < ActiveRecord::Base
   self.primary_key = :authlinkkey
 
   # override decimal set
-  set_integer_columns :speckey, :mediakey
+  set_integer_columns :authlinkkey, :speckey, :mediakey
 
+  custom_attribute :id, :authlinkkey
   custom_attribute :taxon_id, :speckey
+  custom_attribute :taxon_variation_id, :taxvarkey
   custom_attribute :medium_id, :mediakey
+  custom_attribute :sort, :step
+  custom_attribute :attribution_type, :attrib_type
+  custom_attribute :attribution_date, :attrib_date
+  custom_attribute :attribution_comment, :attrib_comment
+  custom_attribute :attribution_source, :attrib_source
 
   belongs_to :taxon, foreign_key: "speckey"
   belongs_to :medium, foreign_key: "mediakey"

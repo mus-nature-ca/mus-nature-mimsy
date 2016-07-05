@@ -9,6 +9,7 @@ class VesselAccessory < ActiveRecord::Base
   set_integer_columns :id, :vbkey
 
   custom_attribute :vessel_id, :vbkey
+  custom_attribute :sort, :step
 
   belongs_to :vessel, foreign_key: "vbkey"
 end

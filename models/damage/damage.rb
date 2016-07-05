@@ -10,10 +10,10 @@ class Damage < ActiveRecord::Base
 
   validates :m_id, presence: true
 
-  custom_attribute :catalog_id, :m_id
   custom_attribute :id, :dkey
+  custom_attribute :catalog_id, :m_id
 
-  belongs_to :catalog, primary_key: "dkey", foreign_key: "m_id"
+  belongs_to :catalog, primary_key: "m_id", foreign_key: "mkey"
 
   has_many :media, through: :damage_media, source: :medium
   has_many :damage_media, foreign_key: "dkey"
