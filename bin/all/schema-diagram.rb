@@ -7,7 +7,6 @@ config = {
   title: "Canadian Museum of Nature :: MIMSY XG",
   attributes: ['primary_keys', 'foreign_keys', 'content', 'timestamps'],
   direct: true,
-  only: "Catalog",
   exclude: nil
 }
 
