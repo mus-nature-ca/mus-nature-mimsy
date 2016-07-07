@@ -32,12 +32,14 @@ dt = DateTime.now.strftime("%Y-%m-%d-%H-%M")
 dir_zip = output_dir(__FILE__) + "/export/#{dt}"
 
 if options[:model]
+  start = Time.now
   model = options[:model]
   File.write(output_dir(__FILE__) + "/#{model}-#{dt}.csv", model.constantize.to_csv)
+  puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 elsif options[:all]
-  exclusions = ["CatalogAgent"]
-  processes = options[:processes] ||= 4
   start = Time.now
+  exclusions = ["CatalogAgent"]
+  processes = options[:processes] || 4
   Dir.mkdir(dir_zip)
 
   models = ActiveRecord::Base.descendants
@@ -66,7 +68,7 @@ elsif options[:all]
       CSV.open(output_dir(__FILE__) + "/export/#{dt}/#{model.name}.csv", 'w') do |csv|
         csv << model.custom_attribute_names
         model.find_each do |row|
-          csv << row.attributes.values
+          csv << row.custom_attributes.values
         end
       end
     end

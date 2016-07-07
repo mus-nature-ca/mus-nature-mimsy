@@ -20,6 +20,8 @@ gem 'chronic'
 gem 'byebug'
 gem 'colorize'
 gem 'rails-erd'
+gem 'haml'
+gem 'ignorable'
 
 group :production do
 end

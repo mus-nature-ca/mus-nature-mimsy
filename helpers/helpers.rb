@@ -19,6 +19,10 @@ module Sinatra
         %w{even odd}[@_cycle = ((@_cycle || -1) + 1) % 2]
       end
 
+      def reset_cycle
+        @_cycle = nil
+      end
+
       def output_dir(file)
         File.join(ENV['PWD'], 'outputs', File.basename(File.dirname(file)))
       end

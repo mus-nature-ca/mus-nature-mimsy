@@ -8,6 +8,9 @@ class CatalogTaxon < ActiveRecord::Base
   # override decimal set
   set_integer_columns :authlinkkey, :mkey, :speckey, :taxvarkey
 
+  ignore_columns :option1, :option2, :option3, :option4
+  ignore_columns :unlinked_value, :portion, :position, :certainty, :step
+
   custom_attribute :id, :authlinkkey
   custom_attribute :catalog_id, :mkey
   custom_attribute :taxon_id, :speckey
@@ -20,6 +23,7 @@ class CatalogTaxon < ActiveRecord::Base
   custom_attribute :higher_taxonomy, :broader_text
   custom_attribute :attribution_type, :attrib_type
   custom_attribute :attribution_source, :attrib_source
+  custom_attribute :sort, :step
 
   validates :mkey, :speckey, presence: true
 

@@ -8,6 +8,12 @@ class Catalog < ActiveRecord::Base
   # override decimal set
   set_integer_columns :mkey, :m_id, :record_view
 
+  ignore_columns :m_id, :record_view
+  ignore_columns :id_sort1, :id_sort2, :id_sort3, :id_sort4, :id_sort5, :id_sort6
+  ignore_columns :option8, :option9, :option10
+  ignore_columns :number1, :number2
+  ignore_columns :date1, :date2
+
   custom_attribute :id, :mkey
   custom_attribute :collection, :category1
   custom_attribute :specimen_nature, :materials
@@ -121,9 +127,6 @@ class Catalog < ActiveRecord::Base
   
   has_many :vessels, through: :catalog_vessels, source: :vessel
   has_many :catalog_vessels, foreign_key: "mkey"
-
-  scope :created_between, lambda {|start_date, end_date| where("create_date >= ? AND create_date <= ?", start_date, end_date )}
-  scope :updated_between, lambda {|start_date, end_date| where("update_date >= ? AND update_date <= ?", start_date, end_date )}
 
   def self.find_by_catalog(id)
     self.find_by_id_number(id)

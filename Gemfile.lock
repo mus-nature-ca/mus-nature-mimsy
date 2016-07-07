@@ -37,9 +37,13 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     eventmachine (1.2.0.1)
     gn_uuid (0.5.0)
+    haml (4.0.7)
+      tilt
     http-cookie (1.0.2)
       domain_name (~> 0.5)
     i18n (0.7.0)
+    ignorable (0.3.0)
+      activerecord (>= 3)
     json (1.8.3)
     mime-types (2.99.1)
     minitest (5.8.4)
@@ -120,6 +124,8 @@ DEPENDENCIES
   chronic
   colorize
   composite_primary_keys
+  haml
+  ignorable
   namae
   parallel
   rails-erd

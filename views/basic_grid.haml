@@ -1,0 +1,14 @@
+.row-fluid
+
+  %dl.dl-horizontal.span6
+    - @result.attributes.each do |k,v|
+      %dt= k
+      - value = !v.nil? ? "#{v}" : "nil"
+      %dd{class: cycle}= value
+
+  %dl.dl-horizontal.span6
+    - reset_cycle
+    - @result.custom_attributes.each do |k,v|
+      %dt= k
+      - value = !v.nil? ? "#{v}" : "nil"
+      %dd{class: cycle}= value
