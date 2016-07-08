@@ -11,7 +11,7 @@ class Person < ActiveRecord::Base
   # override boolean set
   set_string_columns :gender
 
-  ignore_columns :mpeo_id, :record_view
+  ignore_columns :mpeo_id, :step, :record_view
   ignore_columns :flag1, :flag2, :option1, :option2, :number1, :number2, :date1, :date2
 
   custom_attribute :id, :link_id

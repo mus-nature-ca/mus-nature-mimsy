@@ -8,6 +8,8 @@ class PersonContact < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :link_id
 
+  ignore_columns :step, :record_view, :contact_other
+
   custom_attribute :person_id, :link_id
 
   belongs_to :person, foreign_key: "link_id"
