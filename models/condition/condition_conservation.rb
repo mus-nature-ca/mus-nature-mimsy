@@ -8,6 +8,8 @@ class ConditionConservation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :m_id, :condkey, :conskey
 
+  ignore_columns :step, :record_view, :note
+
   custom_attribute :catalog_id, :m_id
   custom_attribute :condition_id, :condkey
   custom_attribute :conservation_id, :conskey

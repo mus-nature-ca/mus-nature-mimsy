@@ -8,6 +8,8 @@ class Conservation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :conskey, :m_id
 
+  ignore_columns :step, :record_view, :depositor, :released_to, :job_number, :projected_duration, :proj_duration_unit, :actual_duration, :act_duration_unit, :next_treat_date, :external_file, :note, :option1, :option2, :number1, :number2, :date1, :date2
+
   validates :m_id, presence: true
 
   custom_attribute :id, :conskey

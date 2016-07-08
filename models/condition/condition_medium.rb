@@ -8,6 +8,8 @@ class ConditionMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :condkey, :mediakey, :m_id
 
+  ignore_columns :step, :record_view, :relationship, :begin_date, :end_date, :note
+
   custom_attribute :catalog_id, :m_id
   custom_attribute :condition_id, :condkey
   custom_attribute :medium_id, :mediakey
