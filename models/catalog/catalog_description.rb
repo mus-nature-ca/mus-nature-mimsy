@@ -7,7 +7,9 @@ class CatalogDescription < ActiveRecord::Base
 
   # override decimal set
   set_integer_columns :id, :mkey
-  
+
+  ignore_columns :step, :record_view, :descript_source, :attrib_type, :attributor, :attrib_date, :attrib_source, :attrib_comment, :certainty, :note
+
   custom_attribute :catalog_id, :mkey
   custom_attribute :sort, :step
   custom_attribute :attribution_type, :attrib_type

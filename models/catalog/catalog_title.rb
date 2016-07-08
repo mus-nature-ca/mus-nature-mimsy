@@ -8,6 +8,8 @@ class CatalogTitle < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :mkey
 
+  ignore_columns :step, :record_view, :attrib_type, :attrib_source, :certainty, :attrib_comment, :note
+
   custom_attribute :catalog_id, :mkey
   custom_attribute :sort, :step
   custom_attribute :attribution_type, :attrib_type

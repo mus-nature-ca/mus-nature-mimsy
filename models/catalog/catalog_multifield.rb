@@ -8,6 +8,8 @@ class CatalogMultifield < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :mkey
 
+  ignore_columns :step, :record_view
+
   custom_attribute :catalog_id, :mkey
   custom_attribute :sort, :step
 

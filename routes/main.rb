@@ -20,19 +20,10 @@ module Sinatra
           models = ActiveRecord::Base.descendants
           models.each do |model|
             app.get "/#{model.name.underscore}/:id" do
-              @result = model.find(params[:id])
+              @model = model.name
+              @result = model.find(params[:id]) rescue not_found
               haml :basic_grid
             end
-          end
-
-          app.get '/person/:id' do
-            @result = Person.find(params[:id])
-            haml :basic_grid
-          end
-
-          app.get '/taxon/:id' do
-            @result = Taxon.find(params[:id])
-            haml :basic_grid
           end
 
           app.get '/main.css' do

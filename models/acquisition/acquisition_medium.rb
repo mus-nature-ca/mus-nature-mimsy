@@ -8,6 +8,8 @@ class AcquisitionMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :akey, :mediakey
 
+  ignore_columns :step, :record_view, :id_acq, :object, :relationship, :begin_date, :end_date
+
   custom_attribute :acquisition_id, :akey
   custom_attribute :medium_id, :mediakey
 

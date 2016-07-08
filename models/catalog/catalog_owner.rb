@@ -8,6 +8,8 @@ class CatalogOwner < ActiveRecord::Base
   # override decimal set
   set_integer_columns :authlinkkey, :mkey, :link_id, :nvarkey
 
+  ignore_columns :step, :record_view, :how_acquired, :disposal_method, :relationship, :affiliation, :portion, :position, :attrib_type, :attributor, :attrib_date, :attrib_source, :certainty, :attrib_comment, :note, :option1, :option2, :option3, :option4, :unlinked_value, :nvarkey
+
   custom_attribute :id, :authlinkkey
   custom_attribute :catalog_id, :mkey
   custom_attribute :person_id, :link_id

@@ -13,6 +13,7 @@ class Catalog < ActiveRecord::Base
   ignore_columns :option8, :option9, :option10
   ignore_columns :number1, :number2
   ignore_columns :date1, :date2
+  ignore_columns :extent, :portion, :use, :custodial_history, :appraisal, :arrangement, :access_restrictions, :phystech_requirements, :other_finding_aids, :location_originals, :location_copies, :processing_info, :descriptive_rules, :hazards
 
   custom_attribute :id, :mkey
   custom_attribute :collection, :category1
@@ -37,9 +38,9 @@ class Catalog < ActiveRecord::Base
   has_many :agents, through: :catalog_agents, source: :person
   has_many :catalog_agents, foreign_key: "mkey"
 
-  has_one :current_condition, primary_key: "m_id", foreign_key: "m_id"
+  has_one :current_condition, primary_key: "mkey", foreign_key: "m_id"
   has_one :current_legal_status, primary_key: "mkey", foreign_key: "mkey"
-  has_one :current_location, primary_key: "m_id", foreign_key: "m_id"
+  has_one :current_location, primary_key: "mkey", foreign_key: "m_id"
 
   has_one :disposal, through: :disposal_catalog, source: :disposal
   has_one :disposal_catalog, foreign_key: "m_id"

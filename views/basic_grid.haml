@@ -1,14 +1,21 @@
+-content_for :title do
+  #{@result.class.name}
+
+%h1= @result.class.name
+
 .row-fluid
-
-  %dl.dl-horizontal.span6
-    - @result.attributes.each do |k,v|
-      %dt= k
-      - value = !v.nil? ? "#{v}" : "nil"
-      %dd{class: cycle}= value
-
-  %dl.dl-horizontal.span6
-    - reset_cycle
-    - @result.custom_attributes.each do |k,v|
-      %dt= k
-      - value = !v.nil? ? "#{v}" : "nil"
-      %dd{class: cycle}= value
+  .span6
+    %h2 Source Attributes
+    %dl.dl-horizontal
+      - @result.attributes.each do |k,v|
+        %dt= k
+        - value = !v.nil? ? "#{v}" : "nil"
+        %dd{class: cycle}= value
+  .span6
+    %h2 Custom Attributes
+    %dl.dl-horizontal
+      - reset_cycle
+      - @result.custom_attributes.each do |k,v|
+        %dt= k
+        - value = !v.nil? ? "#{v}" : "nil"
+        %dd{class: cycle}= value

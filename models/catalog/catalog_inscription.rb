@@ -7,7 +7,9 @@ class CatalogInscription < ActiveRecord::Base
 
   # override decimal set
   set_integer_columns :id, :mkey
-  
+
+  ignore_columns :step, :record_view, :inscription_method, :inscription_location, :inscriber, :original_language, :inscription_script, :translation, :transliteration, :inscription_number, :description, :note
+
   custom_attribute :catalog_id, :mkey
   custom_attribute :type, :inscription_type
   custom_attribute :text, :inscription_text

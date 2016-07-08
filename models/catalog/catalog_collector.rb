@@ -8,6 +8,8 @@ class CatalogCollector < ActiveRecord::Base
   # override decimal set
   set_integer_columns :authlinkkey, :mkey, :link_id, :nvarkey
 
+  ignore_columns :step, :record_view, :begin_date, :end_date, :portion, :attrib_type, :attrib_source, :certainty, :option2, :option3, :option4, :unlinked_value
+
   custom_attribute :id, :authlinkkey
   custom_attribute :catalog_id, :mkey
   custom_attribute :person_id, :link_id

@@ -8,6 +8,10 @@ class Acquisition < ActiveRecord::Base
   # override decimal set
   set_integer_columns :akey, :record_view
 
+  ignore_columns :step, :record_view
+  ignore_columns :source, :description, :return_instructions, :credit_line, :accession_number, :exchange_rate, :rate_date, :funding_amount, :accruals
+  ignore_columns :option2, :number1, :number2, :date1, :date2
+
   # custom attribute
   custom_attribute :id, :akey
   custom_attribute :acquisition_number, :ref_number

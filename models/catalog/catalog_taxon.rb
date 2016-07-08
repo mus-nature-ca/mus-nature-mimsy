@@ -9,7 +9,8 @@ class CatalogTaxon < ActiveRecord::Base
   set_integer_columns :authlinkkey, :mkey, :speckey, :taxvarkey
 
   ignore_columns :option1, :option2, :option3, :option4
-  ignore_columns :unlinked_value, :portion, :position, :certainty, :step
+  ignore_columns :unlinked_value, :portion, :position, :certainty
+  ignore_columns :step, :record_view, :begin_date, :end_date
 
   custom_attribute :id, :authlinkkey
   custom_attribute :catalog_id, :mkey

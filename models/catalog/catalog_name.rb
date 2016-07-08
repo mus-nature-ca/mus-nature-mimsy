@@ -11,7 +11,7 @@ class CatalogName < ActiveRecord::Base
   # override boolean set
   set_string_columns :attrib_comment
 
-  ignore_columns :step
+  ignore_columns :step, :record_view
 
   custom_attribute :catalog_id, :mkey
   custom_attribute :type, :tna_type

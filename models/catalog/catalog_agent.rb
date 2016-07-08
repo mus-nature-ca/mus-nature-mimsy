@@ -8,6 +8,8 @@ class CatalogAgent < ActiveRecord::Base
   # override decimal set
   set_integer_columns :authlinkkey, :mkey, :link_id, :nvarkey
 
+  ignore_columns :step
+
   custom_attribute :id, :authlinkkey
   custom_attribute :catalog_id, :mkey
   custom_attribute :person_id, :link_id

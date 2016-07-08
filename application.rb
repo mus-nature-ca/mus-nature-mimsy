@@ -5,6 +5,7 @@ class MIMSY < Sinatra::Base
   set :root, File.dirname(__FILE__)
   set :haml, :format => :html5
   set :public_folder, 'public'
+  set :bind, '0.0.0.0'
 
   register Sinatra::ConfigFile
   config_file File.join(root, 'config.yml')

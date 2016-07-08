@@ -8,6 +8,8 @@ class Dayte < ActiveRecord::Base
   # override decimal set
   set_integer_columns :timekey, :mkey
 
+  ignore_columns :step, :record_view, :date_type, :century, :period_era, :age, :relationship, :attrib_type, :attributor, :attrib_date, :attrib_comment, :attrib_source, :certainty, :dating_method, :context_identifier, :context, :stratigraphic_type, :stratigraphic_unit, :year_dated
+
   custom_attribute :id, :timekey
   custom_attribute :catalog_id, :mkey
   custom_attribute :sort, :step
