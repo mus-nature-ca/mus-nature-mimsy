@@ -8,6 +8,8 @@ class Event < ActiveRecord::Base
   # override decimal set
   set_integer_columns :vkey
 
+  ignore_columns :step, :record_view, :display_date, :start_reason, :end_reason, :note, :option1, :option2, :number1, :number2, :date1, :date2
+
   custom_attribute :id, :vkey
   custom_attribute :category, :category1
 
