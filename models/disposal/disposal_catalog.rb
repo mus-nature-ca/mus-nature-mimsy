@@ -8,6 +8,8 @@ class DisposalCatalog < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :akey, :m_id
 
+  ignore_columns :step, :record_view, :offer_price, :price, :price_currency, :price_exchange_rate, :price_rate_date, :repro_order_number, :dispatch_number, :dispatched_to
+
   custom_attribute :disposal_id, :akey
   custom_attribute :catalog_id, :m_id
   custom_attribute :description, :item_summary

@@ -8,6 +8,8 @@ class DisposalMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :akey, :mediakey
 
+  ignore_columns :step, :record_view, :id_dspl, :object, :relationship, :begin_date, :end_date, :note
+
   custom_attribute :disposal_id, :akey
   custom_attribute :medium_id, :mediakey
   custom_attribute :sort, :step
