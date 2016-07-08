@@ -8,6 +8,8 @@ class VesselMeasurement < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :vbkey
 
+  ignore_columns :step, :record_view
+
   custom_attribute :vessel_id, :vbkey
   custom_attribute :length_overall, :loa
   custom_attribute :length_overall_unit, :loa_unit

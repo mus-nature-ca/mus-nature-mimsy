@@ -8,6 +8,8 @@ class VesselType < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :vbkey
 
+  ignore_columns :step, :record_view
+
   custom_attribute :vessel_id, :vbkey
   custom_attribute :type, :vt_type
   custom_attribute :sort, :step
