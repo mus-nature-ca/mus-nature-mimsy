@@ -8,6 +8,8 @@ class Group < ActiveRecord::Base
   # override decimal set
   set_integer_columns :group_id, :link_type
 
+  ignore_columns :step, :record_view
+
   custom_attribute :id, :group_id
   custom_attribute :name, :group_name
   custom_attribute :module, :link_type
