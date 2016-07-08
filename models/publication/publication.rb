@@ -11,6 +11,8 @@ class Publication < ActiveRecord::Base
   # override boolean set
   set_string_columns :illustrated
 
+  ignore_columns :step, :record_view, :option2, :number1, :number2, :date1, :date2
+
   custom_attribute :id, :pkey
 
   has_many :catalogs, through: :catalog_publications, source: :catalog

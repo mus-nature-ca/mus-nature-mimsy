@@ -8,6 +8,8 @@ class SiteEvent < ActiveRecord::Base
   # override decimal set
   set_integer_columns :authlinkkey, :skey, :vkey
 
+  ignore_columns :step, :record_view, :specific_locale, :habitat, :relationship, :affiliation, :begin_date, :end_date, :portion, :position, :attrib_type, :attributor, :attrib_date, :attrib_source, :certainty, :attrib_comment, :note, :option1, :option2, :option3, :option4, :unlinked_value, :vvarkey
+
   custom_attribute :id, :authlinkkey
   custom_attribute :site_id, :skey
   custom_attribute :event_id, :vkey

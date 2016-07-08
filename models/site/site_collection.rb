@@ -8,6 +8,8 @@ class SiteCollection < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :skey
 
+  ignore_columns :step, :record_view
+
   custom_attribute :site_id, :skey
 
   belongs_to :site, foreign_key: "skey"

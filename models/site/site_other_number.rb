@@ -8,6 +8,8 @@ class SiteOtherNumber < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :skey
 
+  ignore_columns :step, :record_view
+
   custom_attribute :site_id, :skey
   custom_attribute :type, :site_othnum_type
 

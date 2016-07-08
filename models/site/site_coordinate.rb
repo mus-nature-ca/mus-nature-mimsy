@@ -11,6 +11,8 @@ class SiteCoordinate < ActiveRecord::Base
   # override boolean set
   set_string_columns :direction
 
+  ignore_columns :step, :record_view, :map, :map_locator, :point_name, :decimal_coord_type, :max_uncertainty, :uncertainty_unit, :status, :source
+
   custom_attribute :site_id, :skey
   custom_attribute :type, :coord_type
   custom_attribute :degrees, :part1
