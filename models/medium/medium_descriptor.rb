@@ -8,6 +8,8 @@ class MediumDescriptor < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :mediakey
 
+  ignore_columns :step, :record_view, :note
+
   custom_attribute :medium_id, :mediakey
 
   belongs_to :medium, foreign_key: "mediakey"

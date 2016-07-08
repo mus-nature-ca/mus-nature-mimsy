@@ -11,6 +11,13 @@ class Medium < ActiveRecord::Base
   # override boolean set
   set_string_columns :orientation
 
+  ignore_columns :step, :record_view, :frequency, :bitdepth_audio, :object_length, :length_unit, :start_point, :end_point, :media_size, :scale, :source_path, :compression_method, :mold_template_ref, :option1, :option2, :number1, :number2, :date1, :date2
+
+  custom_attribute :mediakey, :id
+  custom_attribute :horizontal_size, :h_size
+  custom_attribute :vertical_size, :v_size
+  custom_attribute :length, :object_length
+
   has_many :catalogs, through: :catalog_media, source: :catalog
   has_many :catalog_media, foreign_key: "mediakey"
 
