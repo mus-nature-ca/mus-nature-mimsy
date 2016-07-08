@@ -8,6 +8,8 @@ class TaxonVariation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :taxvarkey, :speckey
 
+  ignore_columns :step, :record_view, :certainty
+
   custom_attribute :id, :taxvarkey
   custom_attribute :taxon_id, :speckey
   custom_attribute :scientific_name, :variation

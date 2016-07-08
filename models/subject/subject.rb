@@ -8,6 +8,8 @@ class Subject < ActiveRecord::Base
   # override decimal set
   set_integer_columns :subkey, :msub_id, :record_view
 
+  ignore_columns :step, :record_view, :subcategory, :source, :option1, :option2, :date2, :number1, :number2
+
   custom_attribute :id, :subkey
 
   has_many :catalogs, through: :catalog_subjects, source: :catalog
