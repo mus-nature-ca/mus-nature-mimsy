@@ -8,6 +8,8 @@ class ExhibitionLocation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :ekey, :loc_id, :eikey
 
+  ignore_columns :step, :record_view, :note
+
   custom_attribute :exhibition_id, :ekey
   custom_attribute :location_id, :loc_id
   custom_attribute :exhibition_catalog_id, :eikey

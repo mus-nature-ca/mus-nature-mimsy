@@ -8,6 +8,8 @@ class Exhibition < ActiveRecord::Base
   # override decimal set
   set_integer_columns :ekey, :pexh_id, :record_view
 
+  ignore_columns :step, :record_view, :curated_by, :designed_by, :sponsors, :visitor_count, :catalogue, :pkey, :external_file, :note, :option1, :option2, :number1, :number2, :date1, :date2
+
   custom_attribute :id, :ekey
   custom_attribute :publication_id, :pkey
 

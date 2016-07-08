@@ -8,6 +8,8 @@ class ExhibitionTheme < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :ekey
 
+  ignore_columns :step, :record_view, :theme_sub6
+
   custom_attribute :exhibition_id, :ekey
 
   belongs_to :exhibition, foreign_key: "ekey"
