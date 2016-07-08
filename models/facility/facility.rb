@@ -8,6 +8,8 @@ class Facility < ActiveRecord::Base
   # override decimal set
   set_integer_columns :lockey, :record_view
 
+  ignore_columns :step, :record_view, :address2, :address3, :telephone, :fax, :location_manager, :emergency_contact, :emergency_phone, :note, :policy_number, :maximum_object_value, :maximum_total_value, :height, :width, :loc_length, :dim_unit, :maximum_load_weight, :weight_unit, :dock_dimensions, :elevator_dimensions, :doorway_dimensions, :low_humidity, :high_humidity, :humidity_unit, :low_radiation, :high_radiation, :radiation_unit, :low_temperature, :high_temperature, :temperature_unit, :low_uv, :high_uv, :uv_unit, :low_lux, :high_lux, :lux_unit, :low_pollutants, :high_pollutants, :pollutants_unit, :restrictions, :option1, :option2, :number1, :number2, :date1, :date2
+
   custom_attribute :id, :lockey
   custom_attribute :address_line1, :address1
   custom_attribute :address_line2, :address2
