@@ -8,6 +8,8 @@ class LoanLocation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :lkey, :loc_id, :litmkey
 
+  ignore_columns :step, :record_view, :note
+
   custom_attribute :loan_id, :lkey
   custom_attribute :location_id, :loc_id
   custom_attribute :loan_catalog_id, :litmkey

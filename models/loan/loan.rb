@@ -8,6 +8,8 @@ class Loan < ActiveRecord::Base
   # override decimal set
   set_integer_columns :lkey, :record_view, :link_id, :nvarkey
 
+  ignore_columns :step, :record_view, :contact2, :address2, :phone2, :fax2, :email2, :loan_fee, :est_total_cost, :act_total_cost, :assessment, :option2, :number1, :number2, :date2
+
   custom_attribute :id, :lkey
   custom_attribute :institution, :name
   custom_attribute :person_id, :link_id

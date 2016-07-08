@@ -8,6 +8,8 @@ class LoanMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :lkey, :mediakey, :litmkey
 
+  ignore_columns :step, :record_view, :litmkey, :object, :relationship, :begin_date, :end_date, :note
+
   custom_attribute :loan_id, :lkey
   custom_attribute :medium_id, :mediakey
   custom_attribute :loan_catalog_id, :litmkey
