@@ -74,7 +74,7 @@ elsif options[:all]
     end
   end
 
-  zf = ZipFileGenerator.new(dir_zip, dir_zip + ".zip")
+  zf = ZipFileGenerator.new(dir_zip, "mimsy-" + dir_zip + ".zip")
   zf.write()
   FileUtils.rm_rf(dir_zip)
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
