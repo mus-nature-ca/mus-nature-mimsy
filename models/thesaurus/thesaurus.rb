@@ -8,7 +8,8 @@ class Thesaurus < ActiveRecord::Base
   # override decimal set
   set_integer_columns :class_id, :mthes_id, :record_view, :broader_id
 
-  ignore_columns :step, :record_view, :term1_2, :term2_2, :term3_2, :sort2, :other_sort, :option1, :option2, :number1, :number2, :date1, :date2
+  ignore_columns :step, :record_view, :term1_2, :term2_2, :term3_2, :sort2, 
+    :other_sort, :option1, :option2, :number1, :number2, :date1, :date2
 
   custom_attribute :id, :class_id
   custom_attribute :parent_id, :broader_id

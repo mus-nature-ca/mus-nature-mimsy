@@ -8,7 +8,9 @@ class Disposal < ActiveRecord::Base
   # override decimal set
   set_integer_columns :akey, :record_view
 
-  ignore_columns :step, :record_view, :legal_date_display, :source, :total_price, :currency, :exchange_rate, :rate_date, :terms, :provisos, :option1, :option2, :number1, :number2, :date1, :date2
+  ignore_columns :step, :record_view, :legal_date_display, :source, 
+    :total_price, :currency, :exchange_rate, :rate_date, :terms, 
+    :provisos, :option1, :option2, :number1, :number2, :date1, :date2
 
   custom_attribute :id, :akey
   custom_attribute :reference_number, :ref_number

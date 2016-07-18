@@ -8,7 +8,10 @@ class RelatedCatalog < ActiveRecord::Base
   # override decimal set
   set_integer_columns :relreckey, :mkey
 
-  ignore_columns :step, :record_view, :begin_date, :end_date, :item_summary, :attrib_type, :attributor, :attrib_date, :attrib_source, :certainty, :attrib_comment, :option1, :option2, :option3, :option4
+  ignore_columns :step, :record_view, :begin_date, :end_date, 
+    :item_summary, :attrib_type, :attributor, :attrib_date, 
+    :attrib_source, :certainty, :attrib_comment, 
+    :option1, :option2, :option3, :option4
 
   custom_attribute :id, :relreckey
   custom_attribute :catalog_id, :mkey

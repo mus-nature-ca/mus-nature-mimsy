@@ -8,7 +8,8 @@ class AcquisitionSource < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :link_id, :akey
 
-  ignore_columns :step, :record_view, :phone, :fax, :email, :funding_amount
+  ignore_columns :step, :record_view, :phone, 
+    :fax, :email, :funding_amount
 
   custom_attribute :acquisition_id, :akey
   custom_attribute :person_id, :link_id

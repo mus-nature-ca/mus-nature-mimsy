@@ -8,7 +8,12 @@ class MediumPublication < ActiveRecord::Base
   # override decimal set
   set_integer_columns :authlinkkey, :pkey, :mediakey
 
-  ignore_columns :step, :record_view, :relationship, :affiliation, :begin_date, :end_date, :portion, :position, :attrib_type, :attributor, :attrib_date, :attrib_source, :certainty, :attrib_comment, :note, :option1, :option2, :option3, :option4, :unlinked_value, :pages
+  ignore_columns :step, :record_view, :relationship, 
+    :affiliation, :begin_date, :end_date, :portion, 
+    :position, :attrib_type, :attributor, :attrib_date, 
+    :attrib_source, :certainty, :attrib_comment, :note, 
+    :option1, :option2, :option3, :option4, 
+    :unlinked_value, :pages
 
   custom_attribute :id, :authlinkkey
   custom_attribute :publication_id, :pkey

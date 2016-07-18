@@ -8,7 +8,11 @@ class EventPerson < ActiveRecord::Base
   # override decimal set
   set_integer_columns :authlinkkey, :vkey, :link_id, :nvarkey
 
-  ignore_columns :step, :record_view, :affiliation, :portion, :position, :attrib_type, :attributor, :attrib_date, :attrib_source, :certainty, :attrib_comment, :option1, :option2, :option3, :option4, :unlinked_value, :nvarkey, :vvarkey
+  ignore_columns :step, :record_view, :affiliation, :portion, 
+    :position, :attrib_type, :attributor, :attrib_date, 
+    :attrib_source, :certainty, :attrib_comment, :option1, 
+    :option2, :option3, :option4, :unlinked_value, 
+    :nvarkey, :vvarkey
 
   custom_attribute :id, :authlinkkey
   custom_attribute :event_id, :vkey

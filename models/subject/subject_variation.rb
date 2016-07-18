@@ -8,7 +8,9 @@ class SubjectVariation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :svarkey, :subkey
 
-  ignore_columns :step, :record_view, :begin_date, :end_date, :note, :attributor, :attrib_date, :attrib_source, :certainty, :attrib_type, :attrib_comment
+  ignore_columns :step, :record_view, :begin_date, :end_date, 
+    :note, :attributor, :attrib_date, :attrib_source, 
+    :certainty, :attrib_type, :attrib_comment
 
   custom_attribute :id, :svarkey
   custom_attribute :subject_id, :subkey

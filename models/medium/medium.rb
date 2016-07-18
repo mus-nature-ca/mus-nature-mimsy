@@ -11,7 +11,10 @@ class Medium < ActiveRecord::Base
   # override boolean set
   set_string_columns :orientation
 
-  ignore_columns :step, :record_view, :mmed_id, :frequency, :bitdepth_audio, :object_length, :length_unit, :start_point, :end_point, :media_size, :scale, :source_path, :compression_method, :mold_template_ref, :option1, :option2, :number1, :number2, :date1, :date2
+  ignore_columns :step, :record_view, :mmed_id, :frequency, :bitdepth_audio, 
+    :object_length, :length_unit, :start_point, :end_point, :media_size, 
+    :scale, :source_path, :compression_method, :mold_template_ref, :option1, 
+    :option2, :number1, :number2, :date1, :date2
 
   custom_attribute :id, :mediakey
   custom_attribute :horizontal_size, :h_size

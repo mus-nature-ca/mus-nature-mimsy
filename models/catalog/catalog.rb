@@ -8,12 +8,15 @@ class Catalog < ActiveRecord::Base
   # override decimal set
   set_integer_columns :mkey, :m_id, :record_view
 
-  ignore_columns :m_id, :record_view
-  ignore_columns :id_sort1, :id_sort2, :id_sort3, :id_sort4, :id_sort5, :id_sort6
-  ignore_columns :option8, :option9, :option10
-  ignore_columns :number1, :number2
-  ignore_columns :date1, :date2
-  ignore_columns :extent, :portion, :use, :custodial_history, :appraisal, :arrangement, :access_restrictions, :phystech_requirements, :other_finding_aids, :location_originals, :location_copies, :processing_info, :descriptive_rules, :hazards
+  ignore_columns :m_id, :record_view, :id_sort1, 
+    :id_sort2, :id_sort3, :id_sort4, :id_sort5, 
+    :id_sort6, :option8, :option9, :option10, 
+    :number1, :number2, :date1, :date2, :extent, 
+    :portion, :use, :custodial_history, :appraisal, 
+    :arrangement, :access_restrictions, 
+    :phystech_requirements, :other_finding_aids, 
+    :location_originals, :location_copies, 
+    :processing_info, :descriptive_rules, :hazards
 
   custom_attribute :id, :mkey
   custom_attribute :collection, :category1

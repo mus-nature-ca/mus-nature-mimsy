@@ -8,7 +8,9 @@ class EventVariation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :vvarkey, :vkey
 
-  ignore_columns :step, :record_view, :begin_date, :end_date, :note, :attributor, :attrib_date, :attrib_source, :certainty, :attrib_type, :attrib_comment
+  ignore_columns :step, :record_view, :begin_date, :end_date, 
+    :note, :attributor, :attrib_date, :attrib_source, 
+    :certainty, :attrib_type, :attrib_comment
 
   custom_attribute :id, :vvarkey
   custom_attribute :event_id, :vkey

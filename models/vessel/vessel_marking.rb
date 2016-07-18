@@ -8,7 +8,8 @@ class VesselMarking < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :vbkey
 
-  ignore_columns :step, :record_view, :marking_method, :marking_location, :description, :note
+  ignore_columns :step, :record_view, :marking_method, 
+    :marking_location, :description, :note
 
   custom_attribute :vessel_id, :vbkey
   custom_attribute :type, :marking_type

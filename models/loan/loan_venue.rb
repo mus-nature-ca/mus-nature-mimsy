@@ -8,7 +8,11 @@ class LoanVenue < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :lkey, :link_id, :nvarkey
 
-  ignore_columns :step, :record_view, :nvarkey, :address, :phone, :fax, :email, :status, :status_date, :date_visited, :checkin_by, :condition_in, :courier_in, :courier_in_date, :checkout_by, :condition_out, :courier_out, :courier_out_date, :note, :unlinked_value
+  ignore_columns :step, :record_view, :nvarkey, :address, 
+    :phone, :fax, :email, :status, :status_date, :date_visited, 
+    :checkin_by, :condition_in, :courier_in, :courier_in_date, 
+    :checkout_by, :condition_out, :courier_out, 
+    :courier_out_date, :note, :unlinked_value
 
   custom_attribute :loan_id, :lkey
   custom_attribute :person_id, :link_id

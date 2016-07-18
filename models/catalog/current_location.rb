@@ -8,7 +8,11 @@ class CurrentLocation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :loc_id, :m_id
 
-  ignore_columns :step, :record_view, :loc_level5, :loc_level6, :location_date_time, :container, :ckey, :last_level5, :last_level6, :audit_by, :audit_status, :audit_date, :external_file, :option1, :option2, :number1, :number2, :date1, :date2, :ekey
+  ignore_columns :step, :record_view, :loc_level5, :loc_level6, 
+    :location_date_time, :container, :ckey, :last_level5, 
+    :last_level6, :audit_by, :audit_status, :audit_date, 
+    :external_file, :option1, :option2, :number1, :number2, 
+    :date1, :date2, :ekey
 
   custom_attribute :catalog_id, :m_id
   custom_attribute :location_id, :loc_id

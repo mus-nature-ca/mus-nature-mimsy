@@ -8,7 +8,8 @@ class PlaceVariation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :placevarkey, :placekey
 
-  ignore_columns :step, :record_view, :attributor, :attrib_type, :attrib_date, :attrib_source, :attrib_comment, :certainty
+  ignore_columns :step, :record_view, :attributor, :attrib_type, 
+    :attrib_date, :attrib_source, :attrib_comment, :certainty
 
   custom_attribute :id, :placevarkey
   custom_attribute :place_id, :placekey

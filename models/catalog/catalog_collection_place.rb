@@ -8,7 +8,10 @@ class CatalogCollectionPlace < ActiveRecord::Base
   # override decimal set
   set_integer_columns :authlinkkey, :mkey, :placekey, :mplac_id
 
-  ignore_columns :step, :record_view, :affiliation, :begin_date, :end_date, :position, :attrib_type, :attrib_source, :certainty, :option1, :option2, :option3, :option4, :unlinked_value
+  ignore_columns :step, :record_view, :affiliation, :begin_date, 
+    :end_date, :position, :attrib_type, :attrib_source, 
+    :certainty, :option1, :option2, :option3, :option4, 
+    :unlinked_value
 
   custom_attribute :id, :authlinkkey
   custom_attribute :catalog_id, :mkey

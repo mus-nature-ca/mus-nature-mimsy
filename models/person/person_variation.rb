@@ -8,7 +8,8 @@ class PersonVariation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :nvarkey, :link_id
 
-  ignore_columns :step, :record_view, :attrib_type, :attributor, :attrib_date, :attrib_comment, :certainty
+  ignore_columns :step, :record_view, :attrib_type, 
+    :attributor, :attrib_date, :attrib_comment, :certainty
 
   custom_attribute :id, :nvarkey
   custom_attribute :person_id, :link_id

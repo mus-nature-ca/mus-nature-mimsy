@@ -8,7 +8,8 @@ class CollectedDate < ActiveRecord::Base
   # override decimal set
   set_integer_columns :timekey, :mkey
 
-  ignore_columns :step, :record_view, :relationship, :attrib_comment
+  ignore_columns :step, :record_view, :relationship, 
+    :attrib_comment
 
   custom_attribute :id, :timekey
   custom_attribute :catalog_id, :mkey

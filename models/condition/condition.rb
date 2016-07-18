@@ -8,7 +8,8 @@ class Condition < ActiveRecord::Base
   # override decimal set
   set_integer_columns :condkey, :m_id
 
-  ignore_columns :step, :record_view, :external_file, :option1, :option2, :number1, :number2, :date1, :date2
+  ignore_columns :step, :record_view, :external_file, 
+    :option1, :option2, :number1, :number2, :date1, :date2
 
   validates :m_id, presence: true
 

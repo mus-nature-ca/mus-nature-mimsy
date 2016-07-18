@@ -6,7 +6,8 @@ class Entry < ActiveRecord::Base
   self.primary_key = :ikey
 
   # override decimal set
-  set_integer_columns :ikey, :entry_count, :link_id, :nvarkey, :record_view
+  set_integer_columns :ikey, :entry_count, :link_id, 
+    :nvarkey, :record_view
 
   custom_attribute :id, :ikey
   custom_attribute :total_objects, :entry_count

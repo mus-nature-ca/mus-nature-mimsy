@@ -8,7 +8,11 @@ class LoanCatalog < ActiveRecord::Base
   # override decimal set
   set_integer_columns :litmkey, :m_id, :lkey
 
-  ignore_columns :step, :record_view, :crate_number, :insured_by, :contact, :address, :phone, :fax, :email, :policy_number, :insurance_value, :begin_insurance, :end_insurance, :assessed_by, :assessment, :option1, :option2, :number1, :number2, :date1, :date2
+  ignore_columns :step, :record_view, :crate_number, :insured_by, 
+    :contact, :address, :phone, :fax, :email, :policy_number, 
+    :insurance_value, :begin_insurance, :end_insurance, 
+    :assessed_by, :assessment, :option1, :option2, :number1, 
+    :number2, :date1, :date2
 
   custom_attribute :id, :litmkey
   custom_attribute :loan_id, :lkey

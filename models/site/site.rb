@@ -8,7 +8,9 @@ class Site < ActiveRecord::Base
   # override decimal set
   set_integer_columns :skey, :msite_id, :record_view
 
-  ignore_columns :step, :record_view, :start_direction, :end_direction, :site_length, :site_width, :site_depth, :size_unit, :number1, :number2, :date1, :date2
+  ignore_columns :step, :record_view, :start_direction, :end_direction, 
+    :site_length, :site_width, :site_depth, :size_unit, :number1, 
+    :number2, :date1, :date2
 
   custom_attribute :id, :skey
   custom_attribute :environment, :site_class

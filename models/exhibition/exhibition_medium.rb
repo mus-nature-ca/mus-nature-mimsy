@@ -8,7 +8,8 @@ class ExhibitionMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :id, :ekey, :mediakey, :eikey
 
-  ignore_columns :step, :record_view, :eikey, :object, :relationship, :begin_date, :end_date, :note
+  ignore_columns :step, :record_view, :eikey, :object, 
+    :relationship, :begin_date, :end_date, :note
 
   custom_attribute :exhibition_id, :ekey
   custom_attribute :medium_id, :mediakey

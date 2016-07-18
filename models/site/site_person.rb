@@ -8,7 +8,10 @@ class SitePerson < ActiveRecord::Base
   # override decimal set
   set_integer_columns :authlinkkey, :skey, :link_id
 
-  ignore_columns :step, :record_view, :portion, :position, :attrib_type, :attributor, :attrib_date, :attrib_source, :certainty, :attrib_comment, :option1, :option2, :option3, :option4, :unlinked_value
+  ignore_columns :step, :record_view, :portion, :position, 
+    :attrib_type, :attributor, :attrib_date, :attrib_source, 
+    :certainty, :attrib_comment, :option1, :option2, 
+    :option3, :option4, :unlinked_value
 
   custom_attribute :id, :authlinkkey
   custom_attribute :site_id, :skey

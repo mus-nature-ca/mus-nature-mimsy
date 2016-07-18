@@ -8,7 +8,8 @@ class ThesaurusVariation < ActiveRecord::Base
   # override decimal set
   set_integer_columns :thesvarkey, :class_id
 
-  ignore_columns :step, :record_view, :begin_date, :end_date, :note, :attributor, :attrib_type, :attrib_date, :attrib_source, :attrib_comment, :certainty
+  ignore_columns :step, :record_view, :begin_date, :end_date, :note, :attributor, 
+    :attrib_type, :attrib_date, :attrib_source, :attrib_comment, :certainty
 
   custom_attribute :id, :thesvarkey
   custom_attribute :thesaurus_id, :class_id
