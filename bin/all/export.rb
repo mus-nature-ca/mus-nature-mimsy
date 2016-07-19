@@ -29,7 +29,7 @@ optparse = OptionParser.new do |opts|
 end.parse!
 
 dt = DateTime.now.strftime("%Y-%m-%d-%H-%M")
-dir_zip = output_dir(__FILE__) + "/export/#{dt}"
+dir_zip = output_dir(__FILE__) + "/export/mimsy-#{dt}"
 
 if options[:model]
   start = Time.now
@@ -65,7 +65,7 @@ elsif options[:all]
     sub = models.slice(part*i, part)
     sub << large_models[i].constantize if i < processes
     sub.each do |model|
-      CSV.open(output_dir(__FILE__) + "/export/#{dt}/#{model.name}.csv", 'w') do |csv|
+      CSV.open(dir_zip + "/#{model.name}.csv", 'w') do |csv|
         csv << model.custom_attribute_names
         model.find_each do |row|
           csv << row.custom_attributes.values
@@ -74,7 +74,7 @@ elsif options[:all]
     end
   end
 
-  zf = ZipFileGenerator.new(dir_zip, "mimsy-" + dir_zip + ".zip")
+  zf = ZipFileGenerator.new(dir_zip, dir_zip + ".zip")
   zf.write()
   FileUtils.rm_rf(dir_zip)
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
