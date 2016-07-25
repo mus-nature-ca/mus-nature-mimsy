@@ -33,6 +33,9 @@ class Catalog < ActiveRecord::Base
   custom_attribute :gbif_export_date, :date2
   custom_attribute :specimen_nature, :materials
 
+  categorical :collection, :collection_code, :whole_part, :legal_status, 
+    :language_of_material
+
   validates :id_number, :category1, presence: true
 
   has_one :acquisition, through: :acquisition_catalog, source: :acquisition

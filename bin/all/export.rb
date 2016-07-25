@@ -7,6 +7,12 @@ ARGV << '-h' if ARGV.empty?
 
 options = {}
 
+def interleave(a,*args)
+  max_length = args.map(&:size).max
+  padding = [nil]*[max_length-a.size, 0].max
+  (a+padding).zip(*args)
+end
+
 optparse = OptionParser.new do |opts|
   opts.banner = "Usage: export.rb [options]"
 
@@ -26,19 +32,79 @@ optparse = OptionParser.new do |opts|
   opts.on("-a", "--all", "Export all data") do
     options[:all] = true
   end
+
+  opts.on("-f", "--fields", "Export fields only") do
+    options[:fields] = true
+  end
+
+  opts.on("-l", "--lists", "Export categorical values for lists") do
+    options[:lists] = true
+  end
 end.parse!
 
 dt = DateTime.now.strftime("%Y-%m-%d-%H-%M")
 dir_zip = output_dir(__FILE__) + "/export/mimsy-#{dt}"
+
+exclusions = ["CatalogAgent"]
 
 if options[:model]
   start = Time.now
   model = options[:model]
   File.write(output_dir(__FILE__) + "/#{model}-#{dt}.csv", model.constantize.to_csv)
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
+
+elsif options[:fields]
+  start = Time.now
+  processes = options[:processes] || 4
+  Dir.mkdir(dir_zip)
+
+  models = ActiveRecord::Base.descendants
+  models.delete_if{|m| exclusions.include?(m.name)}
+  part = models.length/processes
+
+  Parallel.map(0..processes, progress: "Exporting Fields", in_processes: processes) do |i|
+    sub = models.slice(part*i, part)
+    sub.each do |model|
+      CSV.open(dir_zip + "/#{model.name}_fields.csv", 'w') do |csv|
+        csv << ["original", "custom"]
+        original = model.attribute_names
+        custom = model.custom_attribute_names
+        pairs = Hash[custom.zip(original)].to_a.map{ |pair| pair.reverse }
+        pairs.each do |pair|
+          csv << pair
+        end
+      end
+    end
+  end
+  puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
+
+elsif options[:lists]
+  start = Time.now
+  processes = options[:processes] || 4
+  Dir.mkdir(dir_zip)
+
+  models = ActiveRecord::Base.descendants
+  models.delete_if{|m| exclusions.include?(m.name)}
+  models.delete_if{|m| m.categorical_columns.empty?}
+  if processes >= models.length
+    processes = models.length
+  end
+  part = models.length/processes
+
+  Parallel.map(0..processes, progress: "Exporting Lists", in_processes: processes) do |i|
+    sub = models.slice(part*i, part)
+    sub.each do |model|
+      CSV.open(dir_zip + "/#{model.name}_lists.csv", 'w') do |csv|
+        csv << model.categorical_columns
+        values = model.categorical_values.values
+        interleave(values[0],*values[1..-1]).each{ |i| csv << i }
+      end
+    end
+  end
+  puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
+
 elsif options[:all]
   start = Time.now
-  exclusions = ["CatalogAgent"]
   processes = options[:processes] || 4
   Dir.mkdir(dir_zip)
 

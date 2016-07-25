@@ -58,5 +58,17 @@ module ActiveRecord
       @custom_attribute_names ||= attribute_names.dup
     end
 
+    def self.categorical(*columns)
+      @categorical_columns = columns.to_a
+    end
+
+    def self.categorical_columns
+      @categorical_columns ||= []
+    end
+
+    def self.categorical_values
+      Hash[@categorical_columns.map{ |col| [col, pluck(col).uniq.compact.sort] }]
+    end
+
   end
 end
