@@ -16,6 +16,8 @@ class Condition < ActiveRecord::Base
   custom_attribute :id, :condkey
   custom_attribute :catalog_id, :m_id
 
+  categorical :condition, :purpose, :status
+
   belongs_to :catalog, primary_key: "condkey", foreign_key: "m_id"
 
   has_many :media, through: :condition_media, source: :medium

@@ -17,7 +17,10 @@ class Conservation < ActiveRecord::Base
 
   custom_attribute :id, :conskey
   custom_attribute :catalog_id, :m_id
+  custom_attribute :condition_id, :condkey
   custom_attribute :conservator, :performed_by
+
+  categorical :process, :purpose, :status
 
   belongs_to :catalog, primary_key: "m_id", foreign_key: "mkey"
   

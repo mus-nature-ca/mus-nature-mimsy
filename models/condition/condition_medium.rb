@@ -16,6 +16,8 @@ class ConditionMedium < ActiveRecord::Base
   custom_attribute :medium_id, :mediakey
   custom_attribute :sort, :step
 
+  categorical :condition
+
   belongs_to :condition, foreign_key: "condkey"
   belongs_to :medium, foreign_key: "mediakey"
   belongs_to :catalog, foreign_key: "m_id"

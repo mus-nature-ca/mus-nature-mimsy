@@ -12,5 +12,7 @@ class MediumDescriptor < ActiveRecord::Base
 
   custom_attribute :medium_id, :mediakey
 
+  categorical :component
+
   belongs_to :medium, foreign_key: "mediakey"
 end

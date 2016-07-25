@@ -15,6 +15,8 @@ class Disposal < ActiveRecord::Base
   custom_attribute :id, :akey
   custom_attribute :reference_number, :ref_number
 
+  categorical :status, :method
+
   has_many :catalogs, through: :disposal_catalogs, source: :catalog
   has_many :disposal_catalogs, foreign_key: "akey"
 

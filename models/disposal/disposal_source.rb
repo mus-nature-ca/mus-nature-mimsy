@@ -15,6 +15,8 @@ class DisposalSource < ActiveRecord::Base
   custom_attribute :person_id, :link_id
   custom_attribute :person_variation_id, :nvarkey
 
+  categorical :source_role
+
   belongs_to :disposal, foreign_key: "akey"
   belongs_to :person, foreign_key: "link_id"
 end

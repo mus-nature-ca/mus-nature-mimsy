@@ -86,6 +86,22 @@ elsif options[:lists]
   models = ActiveRecord::Base.descendants
   models.delete_if{|m| exclusions.include?(m.name)}
   models.delete_if{|m| m.categorical_columns.empty?}
+
+  model_counts = {}
+  Parallel.map(0..4, progress: "Sorting", in_threads: 4) do |i|
+    ActiveRecord::Base.connection_pool.with_connection do
+      sub = models.slice(models.length/4*i, models.length/4)
+      sub.each do |model|
+        model_counts[model.name] = model.count
+      end
+    end
+  end
+
+  #remove large models from array & later evenly distribute them among available processes
+  large_models = model_counts.sort_by{|_key, value| value}.reverse.first(processes).to_h.keys
+  models.delete_if{|m| model_counts[m.name] == 0 || large_models.include?(m.name)}.shuffle!
+  part = models.length/processes
+
   if processes >= models.length
     processes = models.length
   end
@@ -97,7 +113,11 @@ elsif options[:lists]
       CSV.open(dir_zip + "/#{model.name}_lists.csv", 'w') do |csv|
         csv << model.categorical_columns
         values = model.categorical_values.values
-        interleave(values[0],*values[1..-1]).each{ |i| csv << i }
+        if model.categorical_columns.size > 1
+          interleave(values[0],*values[1..-1]).each{ |i| csv << i }
+        else
+          values[0].each{ |i| csv << [i] }
+        end
       end
     end
   end

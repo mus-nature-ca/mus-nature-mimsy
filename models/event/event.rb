@@ -14,6 +14,10 @@ class Event < ActiveRecord::Base
 
   custom_attribute :id, :vkey
   custom_attribute :category, :category1
+  custom_attribute :occurrence_type, :occurence_type
+
+  categorical :language, :category, :occurrence_type, :duration_unit,
+    :current_status
 
   has_many :catalogs, through: :catalog_events, source: :catalog
   has_many :catalog_events, foreign_key: "vkey"

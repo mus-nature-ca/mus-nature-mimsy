@@ -15,6 +15,8 @@ class ConditionConservation < ActiveRecord::Base
   custom_attribute :conservation_id, :conskey
   custom_attribute :sort, :step
 
+  categorical :condition
+
   belongs_to :condition, foreign_key: "condkey"
   belongs_to :conservation, foreign_key: "conskey"
   belongs_to :catalog, foreign_key: "m_id"

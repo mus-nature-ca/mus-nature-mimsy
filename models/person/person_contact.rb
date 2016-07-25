@@ -12,5 +12,7 @@ class PersonContact < ActiveRecord::Base
 
   custom_attribute :person_id, :link_id
 
+  categorical :address_type, :salutation, :country
+
   belongs_to :person, foreign_key: "link_id"
 end

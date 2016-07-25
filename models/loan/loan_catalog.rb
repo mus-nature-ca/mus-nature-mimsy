@@ -22,6 +22,8 @@ class LoanCatalog < ActiveRecord::Base
   custom_attribute :shipper, :loan_item_shipping
   custom_attribute :fees, :loan_item_fees
 
+  categorical :status
+
   belongs_to :catalog, foreign_key: "m_id"
   belongs_to :loan, foreign_key: "lkey"
 end

@@ -21,6 +21,7 @@ class Facility < ActiveRecord::Base
     :number2, :date1, :date2
 
   custom_attribute :id, :lockey
+  custom_attribute :parent_id, :broader_lockey
   custom_attribute :address_line1, :address1
   custom_attribute :address_line2, :address2
   custom_attribute :address_line3, :address3
@@ -29,6 +30,8 @@ class Facility < ActiveRecord::Base
   custom_attribute :manager, :location_manager
   custom_attribute :length, :loc_length
   custom_attribute :dimension_unit, :dim_unit
+
+  categorical :type
 
   has_many :catalogs, through: :catalog_facilities, source: :catalog
   has_many :catalog_facilities, foreign_key: "lockey"

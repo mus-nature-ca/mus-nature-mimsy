@@ -20,5 +20,7 @@ class EventVariation < ActiveRecord::Base
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
 
+  categorical :type
+
   belongs_to :event, foreign_key: "vkey"
 end

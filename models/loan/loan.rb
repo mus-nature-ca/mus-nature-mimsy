@@ -18,6 +18,8 @@ class Loan < ActiveRecord::Base
   custom_attribute :person_id, :link_id
   custom_attribute :person_variation_id, :nvarkey
 
+  categorical :direction, :status, :purpose
+
   has_one :person, class_name: "Person", primary_key: "link_id", foreign_key: "link_id"
 
   has_many :catalogs, through: :loan_catalogs, source: :catalog

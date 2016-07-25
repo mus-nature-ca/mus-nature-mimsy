@@ -17,9 +17,13 @@ class Medium < ActiveRecord::Base
     :option2, :number1, :number2, :date1, :date2
 
   custom_attribute :id, :mediakey
+  custom_attribute :parent_id, :broader_key
   custom_attribute :horizontal_size, :h_size
   custom_attribute :vertical_size, :v_size
   custom_attribute :length, :object_length
+
+  categorical :record_type, :format, :media_type, :location_status, :orientation,
+    :capture_method, :capture_device, :storage_media
 
   has_many :catalogs, through: :catalog_media, source: :catalog
   has_many :catalog_media, foreign_key: "mediakey"

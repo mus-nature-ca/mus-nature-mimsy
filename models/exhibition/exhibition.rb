@@ -15,6 +15,8 @@ class Exhibition < ActiveRecord::Base
   custom_attribute :id, :ekey
   custom_attribute :publication_id, :pkey
 
+  categorical :language, :status
+
   has_many :catalogs, through: :exhibition_catalogs, source: :catalog
   has_many :exhibition_catalogs, foreign_key: "ekey"
 

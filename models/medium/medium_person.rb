@@ -24,6 +24,8 @@ class MediumPerson < ActiveRecord::Base
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
 
+  categorical :relationship
+
   belongs_to :person, foreign_key: "link_id"
   belongs_to :medium, foreign_key: "mediakey"
 end

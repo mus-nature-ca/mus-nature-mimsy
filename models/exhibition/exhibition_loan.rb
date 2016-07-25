@@ -14,6 +14,7 @@ class ExhibitionLoan < ActiveRecord::Base
   custom_attribute :exhibition_catalog_id, :eikey
   custom_attribute :loan_id, :lkey
   custom_attribute :sort, :step
+  custom_attribute :loan_catalog_id, :litmkey
 
   belongs_to :exhibition, foreign_key: "ekey"
   belongs_to :loan, foreign_key: "lkey"

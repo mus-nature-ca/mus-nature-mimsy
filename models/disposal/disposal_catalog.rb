@@ -16,6 +16,8 @@ class DisposalCatalog < ActiveRecord::Base
   custom_attribute :catalog_id, :m_id
   custom_attribute :description, :item_summary
 
+  categorical :status, :disposal_method
+
   belongs_to :disposal, foreign_key: "akey"
   belongs_to :catalog, foreign_key: "m_id"
 end

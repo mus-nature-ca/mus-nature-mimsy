@@ -24,6 +24,8 @@ class PersonPublication < ActiveRecord::Base
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
 
+  categorical :relationship
+
   belongs_to :publication, foreign_key: "pkey"
   belongs_to :person, foreign_key: "link_id"
 end

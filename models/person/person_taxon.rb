@@ -19,6 +19,8 @@ class PersonTaxon < ActiveRecord::Base
   custom_attribute :person_id, :link_id
   custom_attribute :person_variation_id, :nvarkey
 
+  categorical :relationship
+
   belongs_to :taxon, foreign_key: "speckey"
   belongs_to :person, foreign_key: "link_id"
 end

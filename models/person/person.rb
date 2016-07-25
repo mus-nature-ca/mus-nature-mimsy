@@ -21,6 +21,9 @@ class Person < ActiveRecord::Base
   custom_attribute :suffix, :suffix_name
   custom_attribute :contacts, :people_contacts
 
+  categorical :language, :title, :honorary_suffix, :gender, :cause_of_death,
+    :nationality, :assessment
+
   belongs_to :catalog_collector, foreign_key: "link_id"
   
   has_many :catalogs, through: :catalog_agents, source: :catalog

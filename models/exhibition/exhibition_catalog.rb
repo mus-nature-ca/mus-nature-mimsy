@@ -20,6 +20,8 @@ class ExhibitionCatalog < ActiveRecord::Base
   custom_attribute :type, :record_type
   custom_attribute :description, :item_summary
 
+  categorical :type, :status
+
   belongs_to :exhibition, foreign_key: "ekey"
   belongs_to :catalog, foreign_key: "m_id"
 end
