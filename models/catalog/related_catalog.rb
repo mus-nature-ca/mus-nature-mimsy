@@ -23,5 +23,7 @@ class RelatedCatalog < ActiveRecord::Base
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
 
+  categorical :relationship
+
   belongs_to :catalog, primary_key: "related_mkey", foreign_key: "mkey"
 end

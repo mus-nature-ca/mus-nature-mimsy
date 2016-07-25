@@ -22,5 +22,7 @@ class CatalogDescription < ActiveRecord::Base
   custom_attribute :description_date, :descript_date
   custom_attribute :description_source, :descript_source
 
+  categorical :description_type
+
   belongs_to :catalog, foreign_key: "mkey"
 end

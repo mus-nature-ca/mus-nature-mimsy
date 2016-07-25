@@ -20,6 +20,8 @@ class AcquisitionCatalog < ActiveRecord::Base
   custom_attribute :acquisition_id, :akey
   custom_attribute :description, :item_summary
 
+  categorical :status, :marking_method
+
   validates :id_number, presence: true
 
   belongs_to :acquisition, foreign_key: "akey"

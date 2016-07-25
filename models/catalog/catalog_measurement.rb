@@ -19,5 +19,10 @@ class CatalogMeasurement < ActiveRecord::Base
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
 
+  categorical :unit1, :unit2, :unit3, :unit4, 
+    :wunit1, :wunit2, 
+    :cunit1, :cunit2, :cunit3, :cunit4, 
+    :cwunit1, :cwunit2
+
   belongs_to :catalog, foreign_key: "mkey"
 end

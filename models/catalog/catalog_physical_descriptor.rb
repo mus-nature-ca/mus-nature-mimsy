@@ -16,5 +16,7 @@ class CatalogPhysicalDescriptor < ActiveRecord::Base
   custom_attribute :sort, :step
   custom_attribute :type, :descriptor_type
 
+  categorical :component
+
   belongs_to :catalog, foreign_key: "mkey"
 end

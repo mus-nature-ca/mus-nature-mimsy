@@ -12,5 +12,7 @@ class CatalogLegalStatus < ActiveRecord::Base
 
   custom_attribute :catalog_id, :mkey
 
+  categorical :legal_staus
+
   belongs_to :catalog, foreign_key: "mkey"
 end

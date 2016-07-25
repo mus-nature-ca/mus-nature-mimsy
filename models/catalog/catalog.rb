@@ -34,7 +34,7 @@ class Catalog < ActiveRecord::Base
   custom_attribute :specimen_nature, :materials
 
   categorical :collection, :collection_code, :whole_part, :legal_status, 
-    :language_of_material
+    :language_of_material, :culture, :condition
 
   validates :id_number, :category1, presence: true
 

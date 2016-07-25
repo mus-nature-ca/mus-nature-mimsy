@@ -18,6 +18,8 @@ class CurrentLocation < ActiveRecord::Base
   custom_attribute :location_id, :loc_id
   custom_attribute :facility_id, :lockey
 
+  categorical :purpose, :inventory_status
+
   belongs_to :catalog, primary_key: "m_id", foreign_key: "m_id"
   belongs_to :location, primary_key: "loc_id", foreign_key: "loc_id"
   belongs_to :facility, primary_key: "lockey", foreign_key: "lockey"

@@ -15,6 +15,8 @@ class CurrentCondition < ActiveRecord::Base
   custom_attribute :catalog_id, :m_id
   custom_attribute :condition_id, :condkey
 
+  categorical :purpose, :status
+
   belongs_to :catalog, foreign_key: "m_id"
   belongs_to :condition, foreign_key: "condkey"
 end

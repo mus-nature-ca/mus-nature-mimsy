@@ -26,6 +26,8 @@ class CatalogTaxon < ActiveRecord::Base
   custom_attribute :attribution_source, :attrib_source
   custom_attribute :sort, :step
 
+  categorical :relationship, :type_status, :attribution_type
+
   validates :mkey, :speckey, presence: true
 
   belongs_to :catalog, foreign_key: "mkey"

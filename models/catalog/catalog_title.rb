@@ -17,6 +17,9 @@ class CatalogTitle < ActiveRecord::Base
   custom_attribute :attribution_date, :attrib_date
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
+  custom_attribute :type, :tna_type
+
+  categorical :type
 
   belongs_to :catalog, foreign_key: "mkey"
 end

@@ -22,5 +22,7 @@ class CatalogInscription < ActiveRecord::Base
   custom_attribute :number, :inscription_number
   custom_attribute :language, :original_language
 
+  categorical :inscription_type
+
   belongs_to :catalog, foreign_key: "mkey"
 end

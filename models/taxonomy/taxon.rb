@@ -22,6 +22,8 @@ class Taxon < ActiveRecord::Base
   custom_attribute :rank, :level_text
   custom_attribute :authority, :source
 
+  categorical :rank, :collection, :endangered_status
+
   validates :taxon_name, presence: true
 
   belongs_to :parent, class_name: "Taxon", foreign_key: "broader_key1"

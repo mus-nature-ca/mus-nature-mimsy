@@ -21,5 +21,7 @@ class CatalogOtherMeasurement < ActiveRecord::Base
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
 
+  categorical :part_measured, :unit
+
   belongs_to :catalog, foreign_key: "mkey"
 end

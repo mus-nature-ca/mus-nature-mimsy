@@ -19,6 +19,8 @@ class TaxonVariation < ActiveRecord::Base
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
 
+  categorical :variation_type, :attribution_type
+
   belongs_to :taxon, foreign_key: "speckey"
 
   def self.search_by_prefix (prefix)
