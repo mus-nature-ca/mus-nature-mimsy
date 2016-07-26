@@ -13,5 +13,7 @@ class CatalogMultifield < ActiveRecord::Base
   custom_attribute :catalog_id, :mkey
   custom_attribute :sort, :step
 
+  categorical :descriptor
+
   belongs_to :catalog, foreign_key: "mkey"
 end

@@ -114,6 +114,7 @@ elsif options[:lists]
 
   Parallel.map(0..processes, progress: "Exporting Lists", in_processes: processes) do |i|
     sub = models.slice(part*i, part)
+    sub << large_models[i].constantize if i < processes
     sub.each do |model|
       CSV.open(dir_zip + "/#{model.name}_lists.csv", 'w') do |csv|
         csv << model.categorical_columns
