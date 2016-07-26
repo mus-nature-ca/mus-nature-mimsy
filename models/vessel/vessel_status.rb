@@ -12,5 +12,7 @@ class VesselStatus < ActiveRecord::Base
 
   custom_attribute :vessel_id, :vbkey
 
+  categorical :legal_status, :collection
+
   belongs_to :vessel, foreign_key: "vbkey"
 end

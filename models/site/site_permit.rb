@@ -12,5 +12,7 @@ class SitePermit < ActiveRecord::Base
 
   custom_attribute :site_id, :skey
 
+  categorical :permit_type
+
   belongs_to :site, foreign_key: "skey"
 end

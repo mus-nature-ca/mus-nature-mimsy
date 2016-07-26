@@ -19,6 +19,8 @@ class PlaceVariation < ActiveRecord::Base
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
 
+  categorical :variation_type
+
   belongs_to :place, foreign_key: "placekey"
 
   def siblings

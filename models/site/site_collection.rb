@@ -12,5 +12,7 @@ class SiteCollection < ActiveRecord::Base
 
   custom_attribute :site_id, :skey
 
+  categorical :count_type, :collection_type
+
   belongs_to :site, foreign_key: "skey"
 end

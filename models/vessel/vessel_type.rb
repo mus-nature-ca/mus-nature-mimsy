@@ -18,5 +18,8 @@ class VesselType < ActiveRecord::Base
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
 
+  categorical :type, :prior_type, :vessel_type, :attribution_type
+    :certainty
+
   belongs_to :vessel, foreign_key: "vbkey"
 end

@@ -22,5 +22,7 @@ class SiteCoordinate < ActiveRecord::Base
   custom_attribute :seconds, :part3
   custom_attribute :decimal_degrees, :decimal_coordinate
 
+  categorical :type, :direction
+
   belongs_to :site, foreign_key: "skey"
 end

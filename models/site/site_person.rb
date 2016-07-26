@@ -16,11 +16,14 @@ class SitePerson < ActiveRecord::Base
   custom_attribute :id, :authlinkkey
   custom_attribute :site_id, :skey
   custom_attribute :person_id, :link_id
+  custom_attribute :person_variation_id, :nvarkey
   custom_attribute :sort, :step
   custom_attribute :attribution_type, :attrib_type
   custom_attribute :attribution_date, :attrib_date
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
+
+  categorical :relationship
 
   validates :skey, :link_id, presence: true
 

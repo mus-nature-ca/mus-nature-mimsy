@@ -9,7 +9,7 @@ class Thesaurus < ActiveRecord::Base
   set_integer_columns :class_id, :mthes_id, :record_view, :broader_id
 
   ignore_columns :step, :record_view, :term1_2, :term2_2, :term3_2, :sort2, 
-    :other_sort, :option1, :option2, :number1, :number2, :date1, :date2
+    :other_sort, :option1, :option2, :number1, :number2, :date1, :date2, :mthes_id
 
   custom_attribute :id, :class_id
   custom_attribute :parent_id, :broader_id
@@ -20,14 +20,15 @@ class Thesaurus < ActiveRecord::Base
   custom_attribute :alternate1_alt_lang, :term2_2
   custom_attribute :alternate2_alt_lang, :term3_2
   custom_attribute :level, :hierarchy_level
+  custom_attribute :thesaurus_system, :thes_system
+
+  categorical :language, :thesaurus_system
 
   belongs_to :parent, class_name: "Thesaurus", foreign_key: "broader_id"
 
   has_many :children, class_name: "Thesaurus", foreign_key: "broader_id"
-
   has_many :catalogs, through: :catalog_terms, source: :catalog
   has_many :catalog_terms, foreign_key: "class_id"
-
   has_many :variations, class_name: "TaxonVariation", foreign_key: "class_id"
 
   def synonyms

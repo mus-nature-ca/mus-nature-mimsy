@@ -13,5 +13,7 @@ class SiteOtherNumber < ActiveRecord::Base
   custom_attribute :site_id, :skey
   custom_attribute :type, :site_othnum_type
 
+  categorical :type
+
   belongs_to :site, foreign_key: "skey"
 end

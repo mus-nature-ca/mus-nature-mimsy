@@ -8,7 +8,7 @@ class Place < ActiveRecord::Base
   # override decimal set
   set_integer_columns :mplac_id, :record_view, :broader_key
 
-  ignore_columns :step, :record_view, :start_latitude_dec, 
+  ignore_columns :mplac_id, :step, :record_view, :start_latitude_dec, 
     :start_longitude_dec, :end_latitude_dec, :end_longitude_dec, 
     :elevation, :elevation_unit, :elevation_direction, 
     :elevation_accuracy, :population, :population_date, :option1, 
@@ -16,6 +16,8 @@ class Place < ActiveRecord::Base
 
   custom_attribute :id, :placekey
   custom_attribute :name, :place1
+
+  categorical :language, :place_type
 
   belongs_to :parent, class_name: "Place", foreign_key: "broader_key"
 

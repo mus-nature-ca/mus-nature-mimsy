@@ -10,10 +10,13 @@ class Site < ActiveRecord::Base
 
   ignore_columns :step, :record_view, :start_direction, :end_direction, 
     :site_length, :site_width, :site_depth, :size_unit, :number1, 
-    :number2, :date1, :date2
+    :number2, :date1, :date2, :msite_id
 
   custom_attribute :id, :skey
   custom_attribute :environment, :site_class
+
+  categorical :language, :uncertainty_unit, :georef_status, :jurisdiction
+    :site_designation
 
   validates :site_id, presence: true
 

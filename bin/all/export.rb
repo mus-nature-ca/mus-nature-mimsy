@@ -45,7 +45,12 @@ end.parse!
 dt = DateTime.now.strftime("%Y-%m-%d-%H-%M")
 dir_zip = output_dir(__FILE__) + "/export/mimsy-#{dt}"
 
-exclusions = ["CatalogAgent"]
+exclusions = [
+  "CatalogAgent", "CatalogVessel", "Vessel", "VesselAccessory",
+  "VesselComponent", "VesselDescription", "VesselMarking",
+  "VesselMeasurement", "VesselMultifield", "VesselName",
+  "VesselOtherNumber", "VesselStatus", "VesselType"
+]
 
 if options[:model]
   start = Time.now

@@ -14,4 +14,6 @@ class Instruction < ActiveRecord::Base
   custom_attribute :id, :instructkey
   custom_attribute :type, :instruction_type
   custom_attribute :regarding, :carryover
+
+  categorical :type
 end

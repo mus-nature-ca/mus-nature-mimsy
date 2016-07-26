@@ -18,5 +18,7 @@ class SiteMeasurement < ActiveRecord::Base
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
 
+  categorical :measure_type, :length_unit, :width_unit, :depth_unit
+
   belongs_to :site, foreign_key: "skey"
 end

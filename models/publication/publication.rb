@@ -12,9 +12,12 @@ class Publication < ActiveRecord::Base
   set_string_columns :illustrated
 
   ignore_columns :step, :record_view, :option2, :number1, :number2, 
-    :date1, :date2
+    :date1, :date2, :mpub_id
 
   custom_attribute :id, :pkey
+  custom_attribute :publication_type, :pub_type
+
+  categorical :language, :publication_type
 
   has_many :catalogs, through: :catalog_publications, source: :catalog
   has_many :catalog_publications, foreign_key: "pkey"

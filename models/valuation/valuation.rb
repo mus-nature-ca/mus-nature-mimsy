@@ -16,6 +16,8 @@ class Valuation < ActiveRecord::Base
   custom_attribute :id, :trans_id
   custom_attribute :catalog_id, :m_id
 
+  categorical :valuation_purpose
+
   belongs_to :catalog, primary_key: "trans_id", foreign_key: "m_id"
 
   has_many :media, through: :valuation_media, source: :medium

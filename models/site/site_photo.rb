@@ -12,5 +12,7 @@ class SitePhoto < ActiveRecord::Base
 
   custom_attribute :site_id, :skey
 
+  categorical :photo_type
+
   belongs_to :site, foreign_key: "skey"
 end
