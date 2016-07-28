@@ -19,5 +19,7 @@ class CatalogCulture < ActiveRecord::Base
   custom_attribute :attribution_comment, :attrib_comment
   custom_attribute :attribution_source, :attrib_source
 
+  categorical :culture
+
   belongs_to :catalog, foreign_key: "mkey"
 end

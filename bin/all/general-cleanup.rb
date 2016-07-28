@@ -3,36 +3,80 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-media = Medium.where.not(locator: nil)
-
-pbar = ProgressBar.create(title: "MediaPaths", total: media.count, autofinish: false, format: '%t %b>> %i| %e')
-media.find_each do |m|
-  pbar.increment
-  if m.locator[0].downcase == "m"
-    m.locator.sub! 'm:\mimsy', '\\n-fs1.mus-nature.ca\dept\MIMSY'
-    m.locator.sub! 'M:\MIMSY', '\\n-fs1.mus-nature.ca\dept\MIMSY'
-    m.save
-  end
+#lowercase
+items = [
+  "Assistant & discoverer",
+	"(has complete specimen)",
+	"Asessor, Collector",
+	"Assesor, Excavator",
+	"Assessor",
+	"Assessor, Collectior",
+	"Assessor, Collector",
+	"Assessor, Collector,  Excavator",
+	"Assessor, Collector, Excavator",
+	"Assessor, Excavator, Collector",
+	"Assistant",
+	"Asssitant",
+	"Co-collector?",
+	"Collector",
+	"Collector (discovered 1924-2)",
+	"Collector (with field party)",
+	"Collector and claim holder",
+	"Collector and discoverer of site",
+	"Collector and vendor",
+	"Collector, Excavator",
+	"Collector, claim holder?",
+	"Collector?",
+	"Cook",
+	"Correspondence",
+	"Discovered specimen 8879",
+	"Discovered specimen 8882",
+	"Discoverer",
+	"Discoverer and assistant",
+	"Discoverer and teamster",
+	"Donator",
+	"Employer of above",
+	"Exchange",
+	"Expedition leader",
+	"Expedition member",
+	"Expedition sponsor",
+	"Identified specimen",
+	"Identified specimens",
+	"Identifier",
+	"Identifier of specimens",
+	"Investigator",
+	"Investigator, Collector",
+	"Miner",
+	"Miner/Collector",
+	"Miner/collector",
+	"Miner?",
+	"Owner of property",
+	"Permit Holder",
+	"Permiting Authority",
+	"Permitting Authority",
+	"Placer Miner/Collector",
+	"Placer mine miner",
+	"Placer miner/collector",
+	"Presenter",
+	"Previous owner",
+	"Purchased material",
+	"Purchased specimen",
+	"Purchaser",
+	"Purchaser of specimens",
+	"Recipient",
+	"Retained counterpart of specimen",
+	"Specimen received via",
+	"Vendor of specimen"
+]
+items.each do |item|
+  SitePerson.where(relationship: item).update_all(relationship: item.downcase)
 end
-pbar.finish
 
 
-=begin
-file = File.join(__dir__, '../../', 'db', 'tables.txt')
-
-CSV.foreach(file) do |row|
-  table = row.first
-  sql = "SELECT COUNT(*) as total FROM #{table}"
-  begin
-    records = ActiveRecord::Base.connection.exec_query(sql)
-    total = records.entries.first["total"]
-    if total == 0
-      puts "#{table}".yellow
-    else
-      puts "#{table} (#{total})".green
-    end
-  rescue ActiveRecord::StatementInvalid
-    puts "#{table}".red
-  end
-end
-=end
+#Duplicates removal
+#dups = CatalogTitle.select("mkey, tna_type, title").group(:mkey, :tna_type, :title).having("count(mkey) > 1").size
+#
+#dups.each do |dup, num|
+#  records = CatalogTitle.where(mkey: dup[0], tna_type: dup[1], title: dup[2])
+#  records.second.destroy
+#end

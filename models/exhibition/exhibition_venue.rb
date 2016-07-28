@@ -19,5 +19,7 @@ class ExhibitionVenue < ActiveRecord::Base
   custom_attribute :installation_end, :install_end
   custom_attribute :person_id, :link_id
 
+  categorical :status
+
   belongs_to :exhibition, foreign_key: "ekey"
 end

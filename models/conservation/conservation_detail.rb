@@ -15,5 +15,7 @@ class ConservationDetail < ActiveRecord::Base
   custom_attribute :id, :consmatkey
   custom_attribute :conservation_id, :conskey
 
+  categorical :area_applied, :material, :reason, :proposed_treatment, :technique
+
   belongs_to :conservation, foreign_key: "conskey"
 end
