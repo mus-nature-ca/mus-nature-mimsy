@@ -40,6 +40,10 @@ optparse = OptionParser.new do |opts|
   opts.on("-l", "--lists", "Export categorical values for lists") do
     options[:lists] = true
   end
+
+  opts.on("-c", "--controlled-lists", "Export administrative, controlled lists in MIMSY") do
+    options[:admin_lists] = true
+  end
 end.parse!
 
 dt = DateTime.now.strftime("%Y-%m-%d-%H-%M")
@@ -82,6 +86,15 @@ elsif options[:fields]
     end
   end
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
+
+elsif options[:admin_lists]
+  Dir.mkdir(dir_zip)
+  lists = List.all_terms
+  CSV.open(dir_zip + "/mimsy_admin_lists.csv", 'w') do |csv|
+    csv << lists.keys
+    values = lists.values
+    interleave(values[0],*values[1..-1]).each{ |i| csv << i }
+  end
 
 elsif options[:lists]
   start = Time.now
