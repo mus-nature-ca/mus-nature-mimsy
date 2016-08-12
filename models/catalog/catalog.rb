@@ -147,4 +147,8 @@ class Catalog < ActiveRecord::Base
     related_catalogs
   end
 
+  def coordinates
+    sites.map{ |s| [s.lat, s.lng].compact }.reject { |c| c.empty? }.uniq
+  end
+
 end

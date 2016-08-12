@@ -23,6 +23,7 @@ gem 'rails-erd'
 gem 'haml'
 gem 'sass'
 gem 'ignorable'
+gem 'simple-mappr'
 
 group :production do
 end

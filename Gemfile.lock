@@ -29,9 +29,9 @@ GEM
     choice (0.2.0)
     chronic (0.10.2)
     colorize (0.8.1)
-    composite_primary_keys (8.1.3)
+    composite_primary_keys (8.1.4)
       activerecord (~> 4.2.0)
-    daemons (1.2.3)
+    daemons (1.2.4)
     diff-lcs (1.2.5)
     domain_name (0.5.20160615)
       unf (>= 0.0.5, < 1.0.0)
@@ -74,7 +74,7 @@ GEM
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)
       rspec-mocks (~> 3.5.0)
-    rspec-core (3.5.1)
+    rspec-core (3.5.2)
       rspec-support (~> 3.5.0)
     rspec-expectations (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -88,6 +88,8 @@ GEM
     ruby-progressbar (1.8.1)
     rubyzip (1.2.0)
     sass (3.4.22)
+    simple-mappr (0.0.6)
+      rest-client (~> 2.0)
     sinatra (1.4.7)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -140,6 +142,7 @@ DEPENDENCIES
   ruby-progressbar
   rubyzip
   sass
+  simple-mappr
   sinatra
   sinatra-contrib
   thin
