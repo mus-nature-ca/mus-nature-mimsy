@@ -3,20 +3,12 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-sites = Site.where.not(utm_start: nil)
+hybrids = TaxonVariation.where("variation like 'x%'")
+pbar = ProgressBar.create(title: "Hybrids", total: hybrids.count, autofinish: false, format: '%t %b>> %i| %e')
 
-pbar = ProgressBar.create(title: "SITES", total: sites.count, autofinish: false, format: '%t %b>> %i| %e')
-
-bits = []
-
-sites.find_each do |site|
-  pbar.increment
-  matched = /NAD/.match(site.utm_start)
-  if matched
-    bits << site.utm_start
-  end
+hybrids.find_each do |hybrid|
+  matched = /^x[A-Z]/.match(hybrid.variation)
+  byebug if matched
 end
 
 pbar.finish
-byebug
-puts ""

@@ -179,6 +179,16 @@ elsif options[:all]
     end
   end
 
+  relation = Taxon.where(collection: "Botany").where("scientific_name LIKE '%×%'")
+  output = File.join(dir_zip, "TaxonHybrid.csv")
+  taxon_hybrids = HybridParser.new(relation,output)
+  taxon_hybrids.export
+
+  relation = TaxonVariation.joins(:taxon).where("taxonomy.taxon_name = 'Botany'").where("variation LIKE '%×%'")
+  output = File.join(dir_zip, "TaxonVariationHybrid.csv")
+  taxon_variation_hybrids = HybridParser.new(relation,output)
+  taxon_variation_hybrids.export
+
   zf = ZipFileGenerator.new(dir_zip, dir_zip + ".zip")
   zf.write()
   FileUtils.rm_rf(dir_zip)
