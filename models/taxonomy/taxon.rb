@@ -48,6 +48,10 @@ class Taxon < ActiveRecord::Base
     self.where("lower(scientific_name) LIKE '#{prefix.downcase}%'")
   end
 
+  def self.hybrids
+    self.where("scientific_name LIKE '%×%' OR level_text = 'hybrid'")
+  end
+
   def synonyms
     variations
   end

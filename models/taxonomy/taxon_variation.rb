@@ -26,4 +26,8 @@ class TaxonVariation < ActiveRecord::Base
   def self.search_by_prefix (prefix)
     self.where("lower(variation) LIKE '#{prefix.downcase}%'")
   end
+
+  def self.hybrids
+    self.where("variation LIKE '%×%'")
+  end
 end

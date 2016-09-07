@@ -179,12 +179,12 @@ elsif options[:all]
     end
   end
 
-  relation = Taxon.where(collection: "Botany").where("scientific_name LIKE '%×%'")
+  relation = Taxon.hybrids.where(collection: "Botany")
   output = File.join(dir_zip, "TaxonHybrid.csv")
   taxon_hybrids = HybridParser.new(relation,output)
   taxon_hybrids.export
 
-  relation = TaxonVariation.joins(:taxon).where("taxonomy.taxon_name = 'Botany'").where("variation LIKE '%×%'")
+  relation = TaxonVariation.hybrids.joins(:taxon).where("taxonomy.taxon_name = 'Botany'")
   output = File.join(dir_zip, "TaxonVariationHybrid.csv")
   taxon_variation_hybrids = HybridParser.new(relation,output)
   taxon_variation_hybrids.export
