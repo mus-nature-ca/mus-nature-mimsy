@@ -179,15 +179,13 @@ elsif options[:all]
     end
   end
 
-  relation = Taxon.hybrids.where(collection: "Botany")
-  output = File.join(dir_zip, "TaxonHybrid.csv")
-  taxon_hybrids = HybridParser.new(relation,output)
-  taxon_hybrids.export
+  output = File.join(dir_zip, "TaxonParse.csv")
+  taxon_parser = TaxonParser.new(Taxon,output)
+  taxon_parser.export
 
-  relation = TaxonVariation.hybrids.joins(:taxon).where("taxonomy.taxon_name = 'Botany'")
-  output = File.join(dir_zip, "TaxonVariationHybrid.csv")
-  taxon_variation_hybrids = HybridParser.new(relation,output)
-  taxon_variation_hybrids.export
+  output = File.join(dir_zip, "TaxonVariationParse.csv")
+  taxon_parser = TaxonParser.new(TaxonVariation,output)
+  taxon_parser.export
 
   zf = ZipFileGenerator.new(dir_zip, dir_zip + ".zip")
   zf.write()

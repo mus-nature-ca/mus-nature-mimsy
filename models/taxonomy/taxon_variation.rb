@@ -30,4 +30,8 @@ class TaxonVariation < ActiveRecord::Base
   def self.hybrids
     self.where("variation LIKE '%×%'")
   end
+
+  def collection
+    taxon.collection
+  end
 end
