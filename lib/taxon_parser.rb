@@ -9,7 +9,7 @@ class TaxonParser
 
   def make_csv_header
     CSV.open(@output, 'w') do |csv|
-      csv << ["id", "verbatim",  "code", "scientific_name", "canonical", "authority", "year", "rank", "hybrid", "hybrid_parent1", "hybrid_parent2"]
+      csv << ["id", "verbatim", "scientific_name", "canonical", "authority", "year", "rank", "hybrid", "hybrid_parent1", "hybrid_parent2"]
     end
   end
 
@@ -18,7 +18,7 @@ class TaxonParser
       obj[key]
     elsif obj.respond_to?(:each)
       r = nil
-      obj.find{ |*a| r=nested_hash_value(a.last,key) }
+      obj.find{ |*a| r = nested_hash_value(a.last,key) }
       r
     end
   end
@@ -30,7 +30,6 @@ class TaxonParser
 
           id = name.id
           verbatim = name.scientific_name
-          code = (name.collection == "Zoology") ? "ICZN" : (name.collection == "Botany") ? "ICBN" : nil
           authority = name.attribute_present?(:source) ? name.authority : nil
           scientific_name = [name.scientific_name, authority].join(" ").strip
           rank = name.attribute_present?(:level_text) ? name.rank : nil
@@ -78,7 +77,7 @@ class TaxonParser
 
           end
 
-          csv << [id, verbatim, code, scientific_name, canonical, authority, year, rank, hybrid] + hybrid_parents
+          csv << [id, verbatim, scientific_name, canonical, authority, year, rank, hybrid] + hybrid_parents
         end
 
       end
