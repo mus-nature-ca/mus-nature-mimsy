@@ -81,4 +81,12 @@ class Medium < ActiveRecord::Base
     related_media
   end
 
+  def locator_linux
+    path = nil
+    if !locator.nil?
+      path = locator.gsub(/\\+/, '/').sub("/n-fs1.mus-nature.ca/dept","")
+    end
+    path
+  end
+
 end

@@ -58,8 +58,21 @@ exclusions = [
 
 if options[:model]
   start = Time.now
-  model = options[:model]
-  File.write(output_dir(__FILE__) + "/#{model}-#{dt}.csv", model.constantize.to_csv)
+  model = options[:model].constantize
+  CSV.open(output_dir(__FILE__) + "/#{model}-#{dt}.csv", 'w') do |csv|
+    if model.to_s == "Medium"
+      csv << model.custom_attribute_names.push("locator_linux")
+      model.find_each do |row|
+        data = row.custom_attributes.values.push(row.locator_linux)
+        csv << data
+      end
+    else
+      csv << model.custom_attribute_names
+      model.find_each do |row|
+        csv << row.custom_attributes.values
+      end
+    end
+  end
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 
 elsif options[:fields]
@@ -171,9 +184,16 @@ elsif options[:all]
     sub << large_models[i].constantize if i < processes
     sub.each do |model|
       CSV.open(dir_zip + "/#{model.name}.csv", 'w') do |csv|
-        csv << model.custom_attribute_names
-        model.find_each do |row|
-          csv << row.custom_attributes.values
+        if model.to_s == "Medium"
+          csv << model.custom_attribute_names.push("locator_linux")
+          model.find_each do |row|
+            csv << row.custom_attributes.values.push(row.locator_linux)
+          end
+        else
+          csv << model.custom_attribute_names
+          model.find_each do |row|
+            csv << row.custom_attributes.values
+          end
         end
       end
     end

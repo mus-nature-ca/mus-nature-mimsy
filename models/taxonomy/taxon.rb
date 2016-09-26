@@ -63,9 +63,9 @@ class Taxon < ActiveRecord::Base
   end
 
   def descendants
-    children.each_with_object(children.to_a) {|child, arr|
-      arr.concat child.descendants
-    }.uniq
+    children.map do |child|
+      [child] + child.descendants
+    end.flatten
   end
 
   def siblings
@@ -78,6 +78,10 @@ class Taxon < ActiveRecord::Base
 
   def self_and_ancestors
     [self] + self.ancestors
+  end
+
+  def self_and_descendants
+    [self] + self.descendants
   end
 
   def root
