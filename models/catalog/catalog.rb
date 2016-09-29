@@ -151,4 +151,8 @@ class Catalog < ActiveRecord::Base
     sites.map{ |s| [s.lat, s.lng].compact }.reject { |c| c.empty? }.uniq
   end
 
+  def has_image?
+    media.map(&:record_type).include?("IMAGE")
+  end
+
 end
