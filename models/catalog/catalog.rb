@@ -18,6 +18,7 @@ class Catalog < ActiveRecord::Base
     :location_originals, :location_copies, 
     :processing_info, :descriptive_rules, :hazards
 
+  # custom attribute names
   custom_attribute :id, :mkey
   custom_attribute :collection, :category1
   custom_attribute :specimen_nature, :materials
