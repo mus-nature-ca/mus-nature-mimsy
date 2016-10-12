@@ -14,5 +14,7 @@ class CatalogOtherNumber < ActiveRecord::Base
   custom_attribute :type, :on_type
   custom_attribute :sort, :step
 
+  categorical :type
+
   belongs_to :catalog, foreign_key: "mkey"
 end

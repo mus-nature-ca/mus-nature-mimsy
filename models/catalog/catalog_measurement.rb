@@ -13,6 +13,7 @@ class CatalogMeasurement < ActiveRecord::Base
     :attrib_comment, :certainty
 
   custom_attribute :catalog_id, :mkey
+  custom_attribute :type, :measurement_type
   custom_attribute :sort, :step
   custom_attribute :attribution_type, :attrib_type
   custom_attribute :attribution_date, :attrib_date
