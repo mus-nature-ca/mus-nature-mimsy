@@ -3,6 +3,26 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
+other_numbers = CatalogOtherNumber.joins(:catalog)
+                                  .where(type: "previous catalogue number")
+                                  .where("catalogue.id_prefix": "CANM")
+
+catalogs = []
+
+other_numbers.each do |other_number|
+  if !other_number.source.nil?
+    if other_number.source.include?("Canadian Hepaticae") || other_number.source.include?("Canadian Liverworts")
+      other_number.type = "exsiccat"
+      other_number.save
+    end
+  end
+end
+
+byebug
+puts ""
+
+
+=begin
 other_number_types = CatalogOtherNumber.pluck(:type).compact.uniq.sort
 
 pbar = ProgressBar.create(title: "OtherNumbers", total: other_number_types.count, autofinish: false, format: '%t %b>> %i| %e')
@@ -20,3 +40,4 @@ CSV.open(output_dir(__FILE__) + "/other-numbers.csv", 'w') do |csv|
   end
 end
 pbar.finish
+=end

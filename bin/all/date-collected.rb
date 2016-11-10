@@ -3,18 +3,23 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-objs = Catalog.where.not(date_collected: nil)
+candidates = []
 
+objs = Catalog.where.not(date_collected: nil)
 pbar = ProgressBar.create(title: "Date Collected", total: objs.count, autofinish: false, format: '%t %b>> %i| %e')
 
-CSV.open(output_dir(__FILE__) + "/many-dates.csv", 'w') do |csv|
-  objs.find_each do |obj|
-    pbar.increment
-    csv << [obj.date_collected]
+objs.find_each do |obj|
+  pbar.increment
+  dates = obj.date_collected.split(" - ")
+  d = Chronic.parse(dates[0])
+  if d && d.year.between?(1860,1870)
+    candidates << obj.catalog_number
   end
 end
-
 pbar.finish
+
+byebug
+puts ""
 
 # Random bits of disconnected regex material to sus out issues with collection dates
 

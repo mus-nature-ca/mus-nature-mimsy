@@ -201,6 +201,8 @@ elsif options[:all]
     end
   end
 
+=begin
+  #No longer necessary, but kept here for postersity
   output = File.join(dir_zip, "TaxonParse.csv")
   taxon_parser = TaxonParser.new(Taxon,output)
   taxon_parser.export
@@ -208,6 +210,7 @@ elsif options[:all]
   output = File.join(dir_zip, "TaxonVariationParse.csv")
   taxon_parser = TaxonParser.new(TaxonVariation,output)
   taxon_parser.export
+=end
 
   zf = ZipFileGenerator.new(dir_zip, dir_zip + ".zip")
   zf.write()

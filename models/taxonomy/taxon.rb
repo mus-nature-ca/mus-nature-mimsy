@@ -98,4 +98,8 @@ class Taxon < ActiveRecord::Base
     children.size.zero?
   end
 
+  def has_catalogs?
+    !catalogs.size.zero?
+  end
+
 end
