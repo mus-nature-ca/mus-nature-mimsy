@@ -1,0 +1,101 @@
+---
+:id:
+  :MIMSY: RIGHTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:table_key:
+  :MIMSY: RIGHTS.TABLE_KEY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:table_name:
+  :MIMSY: RIGHTS.TABLE_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:rights_type:
+  :MIMSY: RIGHTS.RIGHTS_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: RIGHTS.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:right:
+  :MIMSY: RIGHTS.RIGHT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: RIGHTS.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:holder:
+  :MIMSY: RIGHTS.HOLDER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:granting_status:
+  :MIMSY: RIGHTS.GRANTING_STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: RIGHTS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: RIGHTS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag3:
+  :MIMSY: RIGHTS.FLAG3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag4:
+  :MIMSY: RIGHTS.FLAG4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag5:
+  :MIMSY: RIGHTS.FLAG5
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag6:
+  :MIMSY: RIGHTS.FLAG6
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag7:
+  :MIMSY: RIGHTS.FLAG7
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag8:
+  :MIMSY: RIGHTS.FLAG8
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag9:
+  :MIMSY: RIGHTS.FLAG9
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag10:
+  :MIMSY: RIGHTS.FLAG10
+  :module: ''
+  :column: ''
+  :instructions: ''
+:regarding:
+  :MIMSY: RIGHTS.REGARDING
+  :module: ''
+  :column: ''
+  :instructions: ''

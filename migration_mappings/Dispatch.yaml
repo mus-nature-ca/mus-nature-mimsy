@@ -1,0 +1,281 @@
+---
+:id:
+  :MIMSY: DISPATCH.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:record_view:
+  :MIMSY: DISPATCH.RECORD_VIEW
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatch_number:
+  :MIMSY: DISPATCH.DISPATCH_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatcher:
+  :MIMSY: DISPATCH.DISPATCHER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatch_date:
+  :MIMSY: DISPATCH.DISPATCH_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatch_reason:
+  :MIMSY: DISPATCH.DISPATCH_REASON
+  :module: ''
+  :column: ''
+  :instructions: ''
+:lockey:
+  :MIMSY: DISPATCH.LOCKEY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatch_location:
+  :MIMSY: DISPATCH.DISPATCH_LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatch_contact:
+  :MIMSY: DISPATCH.DISPATCH_CONTACT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatch_address:
+  :MIMSY: DISPATCH.DISPATCH_ADDRESS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatch_phone:
+  :MIMSY: DISPATCH.DISPATCH_PHONE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatch_fax:
+  :MIMSY: DISPATCH.DISPATCH_FAX
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatch_email:
+  :MIMSY: DISPATCH.DISPATCH_EMAIL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:link_id:
+  :MIMSY: DISPATCH.LINK_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:nvarkey:
+  :MIMSY: DISPATCH.NVARKEY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:recipient:
+  :MIMSY: DISPATCH.RECIPIENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contact:
+  :MIMSY: DISPATCH.CONTACT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:address:
+  :MIMSY: DISPATCH.ADDRESS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:phone:
+  :MIMSY: DISPATCH.PHONE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:fax:
+  :MIMSY: DISPATCH.FAX
+  :module: ''
+  :column: ''
+  :instructions: ''
+:email:
+  :MIMSY: DISPATCH.EMAIL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: DISPATCH.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: DISPATCH.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:authorized_by:
+  :MIMSY: DISPATCH.AUTHORIZED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_authorized:
+  :MIMSY: DISPATCH.DATE_AUTHORIZED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:shipper:
+  :MIMSY: DISPATCH.SHIPPER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:courier:
+  :MIMSY: DISPATCH.COURIER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_pkg_count:
+  :MIMSY: DISPATCH.TOTAL_PKG_COUNT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_weight:
+  :MIMSY: DISPATCH.TOTAL_WEIGHT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:weight_unit:
+  :MIMSY: DISPATCH.WEIGHT_UNIT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:shipping_agent:
+  :MIMSY: DISPATCH.SHIPPING_AGENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broker1:
+  :MIMSY: DISPATCH.BROKER1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broker2:
+  :MIMSY: DISPATCH.BROKER2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:estimated_cost:
+  :MIMSY: DISPATCH.ESTIMATED_COST
+  :module: ''
+  :column: ''
+  :instructions: ''
+:actual_cost:
+  :MIMSY: DISPATCH.ACTUAL_COST
+  :module: ''
+  :column: ''
+  :instructions: ''
+:estimated_dispatch_date:
+  :MIMSY: DISPATCH.ESTIMATED_DISPATCH_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:estimated_delivery_date:
+  :MIMSY: DISPATCH.ESTIMATED_DELIVERY_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:delivery_date:
+  :MIMSY: DISPATCH.DELIVERY_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:insured_by:
+  :MIMSY: DISPATCH.INSURED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:insured_amount:
+  :MIMSY: DISPATCH.INSURED_AMOUNT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatch_count:
+  :MIMSY: DISPATCH.DISPATCH_COUNT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_requested:
+  :MIMSY: DISPATCH.TOTAL_REQUESTED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:external_file:
+  :MIMSY: DISPATCH.EXTERNAL_FILE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: DISPATCH.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: DISPATCH.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option2:
+  :MIMSY: DISPATCH.OPTION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number1:
+  :MIMSY: DISPATCH.NUMBER1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number2:
+  :MIMSY: DISPATCH.NUMBER2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date1:
+  :MIMSY: DISPATCH.DATE1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date2:
+  :MIMSY: DISPATCH.DATE2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: DISPATCH.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: DISPATCH.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: DISPATCH.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: DISPATCH.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: DISPATCH.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: DISPATCH.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

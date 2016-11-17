@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: MEDIA_TAXONOMY.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: MEDIA_TAXONOMY.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:taxon_id:
+  :MIMSY: MEDIA_TAXONOMY.TAXON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: MEDIA_TAXONOMY.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:taxonomy:
+  :MIMSY: MEDIA_TAXONOMY.TAXONOMY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broader_text:
+  :MIMSY: MEDIA_TAXONOMY.BROADER_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''

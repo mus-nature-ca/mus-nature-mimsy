@@ -1,0 +1,36 @@
+---
+:site_id:
+  :MIMSY: SITE_PHOTOS.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:photo_number:
+  :MIMSY: SITE_PHOTOS.PHOTO_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:photo_type:
+  :MIMSY: SITE_PHOTOS.PHOTO_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:photo_date:
+  :MIMSY: SITE_PHOTOS.PHOTO_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source:
+  :MIMSY: SITE_PHOTOS.SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITE_PHOTOS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: SITE_PHOTOS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''

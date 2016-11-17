@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: EXHIBITION_VENUES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:exhibition_id:
+  :MIMSY: EXHIBITION_VENUES.EXHIBITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: EXHIBITION_VENUES.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:venue:
+  :MIMSY: EXHIBITION_VENUES.VENUE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:display_start:
+  :MIMSY: EXHIBITION_VENUES.DISPLAY_START
+  :module: ''
+  :column: ''
+  :instructions: ''
+:display_end:
+  :MIMSY: EXHIBITION_VENUES.DISPLAY_END
+  :module: ''
+  :column: ''
+  :instructions: ''

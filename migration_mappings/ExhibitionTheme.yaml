@@ -1,0 +1,51 @@
+---
+:id:
+  :MIMSY: EXHIBITION_THEMES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:exhibition_id:
+  :MIMSY: EXHIBITION_THEMES.EXHIBITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:theme_section:
+  :MIMSY: EXHIBITION_THEMES.THEME_SECTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:theme_sub1:
+  :MIMSY: EXHIBITION_THEMES.THEME_SUB1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:theme_sub2:
+  :MIMSY: EXHIBITION_THEMES.THEME_SUB2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:theme_sub3:
+  :MIMSY: EXHIBITION_THEMES.THEME_SUB3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:theme_sub4:
+  :MIMSY: EXHIBITION_THEMES.THEME_SUB4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:theme_sub5:
+  :MIMSY: EXHIBITION_THEMES.THEME_SUB5
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: EXHIBITION_THEMES.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: EXHIBITION_THEMES.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''

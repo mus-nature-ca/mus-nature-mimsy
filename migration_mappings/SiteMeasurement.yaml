@@ -1,0 +1,61 @@
+---
+:id:
+  :MIMSY: SITE_MEASUREMENTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_id:
+  :MIMSY: SITE_MEASUREMENTS.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:measure_type:
+  :MIMSY: SITE_MEASUREMENTS.MEASURE_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:measure_length:
+  :MIMSY: SITE_MEASUREMENTS.MEASURE_LENGTH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:measure_width:
+  :MIMSY: SITE_MEASUREMENTS.MEASURE_WIDTH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:measure_depth:
+  :MIMSY: SITE_MEASUREMENTS.MEASURE_DEPTH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:length_unit:
+  :MIMSY: SITE_MEASUREMENTS.LENGTH_UNIT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:width_unit:
+  :MIMSY: SITE_MEASUREMENTS.WIDTH_UNIT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:depth_unit:
+  :MIMSY: SITE_MEASUREMENTS.DEPTH_UNIT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITE_MEASUREMENTS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:display:
+  :MIMSY: SITE_MEASUREMENTS.DISPLAY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: SITE_MEASUREMENTS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''

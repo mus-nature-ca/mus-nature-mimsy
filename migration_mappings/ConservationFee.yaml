@@ -1,0 +1,46 @@
+---
+:id:
+  :MIMSY: CONSERVATION_FEES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:conservation_id:
+  :MIMSY: CONSERVATION_FEES.CONSERVATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:conservation_detail_id:
+  :MIMSY: CONSERVATION_FEES.CONSERVATION_DETAIL_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:activity:
+  :MIMSY: CONSERVATION_FEES.ACTIVITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:activity_by:
+  :MIMSY: CONSERVATION_FEES.ACTIVITY_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:activity_date:
+  :MIMSY: CONSERVATION_FEES.ACTIVITY_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:estimated_cost:
+  :MIMSY: CONSERVATION_FEES.ESTIMATED_COST
+  :module: ''
+  :column: ''
+  :instructions: ''
+:actual_cost:
+  :MIMSY: CONSERVATION_FEES.ACTUAL_COST
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: CONSERVATION_FEES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: CONDITION_CONSERVATION.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: CONDITION_CONSERVATION.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition_id:
+  :MIMSY: CONDITION_CONSERVATION.CONDITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition:
+  :MIMSY: CONDITION_CONSERVATION.CONDITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:conservation_id:
+  :MIMSY: CONDITION_CONSERVATION.CONSERVATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:conservation:
+  :MIMSY: CONDITION_CONSERVATION.CONSERVATION
+  :module: ''
+  :column: ''
+  :instructions: ''

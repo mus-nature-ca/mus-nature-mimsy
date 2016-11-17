@@ -1,0 +1,41 @@
+---
+:id:
+  :MIMSY: ACCESSORIES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ACCESSORIES.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:accessory:
+  :MIMSY: ACCESSORIES.ACCESSORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:quantity:
+  :MIMSY: ACCESSORIES.QUANTITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: ACCESSORIES.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location_date:
+  :MIMSY: ACCESSORIES.LOCATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition_date:
+  :MIMSY: ACCESSORIES.CONDITION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ACCESSORIES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

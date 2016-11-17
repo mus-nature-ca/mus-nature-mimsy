@@ -1,0 +1,61 @@
+---
+:id:
+  :MIMSY: DAMAGE_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: DAMAGE_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: DAMAGE_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: DAMAGE_MEDIA.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:object:
+  :MIMSY: DAMAGE_MEDIA.OBJECT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:damage_id:
+  :MIMSY: DAMAGE_MEDIA.DAMAGE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:damage:
+  :MIMSY: DAMAGE_MEDIA.DAMAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: DAMAGE_MEDIA.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: DAMAGE_MEDIA.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: DAMAGE_MEDIA.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort:
+  :MIMSY: DAMAGE_MEDIA.SORT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: DAMAGE_MEDIA.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

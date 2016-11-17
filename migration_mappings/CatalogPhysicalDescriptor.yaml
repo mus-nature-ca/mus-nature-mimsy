@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: PHYSICAL_DESCRIPTORS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: PHYSICAL_DESCRIPTORS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:component:
+  :MIMSY: PHYSICAL_DESCRIPTORS.COMPONENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:descriptor:
+  :MIMSY: PHYSICAL_DESCRIPTORS.DESCRIPTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:value:
+  :MIMSY: PHYSICAL_DESCRIPTORS.VALUE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: PHYSICAL_DESCRIPTORS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

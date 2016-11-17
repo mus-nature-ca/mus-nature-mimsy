@@ -1,0 +1,56 @@
+---
+:id:
+  :MIMSY: SITES_PEOPLE.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: SITES_PEOPLE.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_id:
+  :MIMSY: SITES_PEOPLE.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: SITES_PEOPLE.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:affiliation:
+  :MIMSY: SITES_PEOPLE.AFFILIATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: SITES_PEOPLE.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: SITES_PEOPLE.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITES_PEOPLE.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: SITES_PEOPLE.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_variation_id:
+  :MIMSY: SITES_PEOPLE.PERSON_VARIATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:name:
+  :MIMSY: SITES_PEOPLE.NAME
+  :module: ''
+  :column: ''
+  :instructions: ''

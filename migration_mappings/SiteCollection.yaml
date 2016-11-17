@@ -1,0 +1,36 @@
+---
+:site_id:
+  :MIMSY: SITE_COLLECTIONS.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:count_number:
+  :MIMSY: SITE_COLLECTIONS.COUNT_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:count_type:
+  :MIMSY: SITE_COLLECTIONS.COUNT_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:collection_type:
+  :MIMSY: SITE_COLLECTIONS.COLLECTION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:repository:
+  :MIMSY: SITE_COLLECTIONS.REPOSITORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITE_COLLECTIONS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: SITE_COLLECTIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''

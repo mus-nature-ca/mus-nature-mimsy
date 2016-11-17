@@ -1,0 +1,41 @@
+---
+:id:
+  :MIMSY: PLACE_VARIATIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_id:
+  :MIMSY: PLACE_VARIATIONS.PLACE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:variation:
+  :MIMSY: PLACE_VARIATIONS.VARIATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:variation_type:
+  :MIMSY: PLACE_VARIATIONS.VARIATION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: PLACE_VARIATIONS.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: PLACE_VARIATIONS.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: PLACE_VARIATIONS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: PLACE_VARIATIONS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''

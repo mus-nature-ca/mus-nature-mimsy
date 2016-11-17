@@ -1,0 +1,21 @@
+---
+:site_id:
+  :MIMSY: SITE_FEATURES.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:feature_type:
+  :MIMSY: SITE_FEATURES.FEATURE_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITE_FEATURES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: SITE_FEATURES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''

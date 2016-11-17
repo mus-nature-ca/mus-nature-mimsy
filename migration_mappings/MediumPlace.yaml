@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: MEDIA_PLACES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_id:
+  :MIMSY: MEDIA_PLACES.PLACE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: MEDIA_PLACES.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: MEDIA_PLACES.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place:
+  :MIMSY: MEDIA_PLACES.PLACE
+  :module: ''
+  :column: ''
+  :instructions: ''

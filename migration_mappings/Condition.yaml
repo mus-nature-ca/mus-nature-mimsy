@@ -1,0 +1,126 @@
+---
+:catalog_id:
+  :MIMSY: CONDITION.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: CONDITION.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:current_record:
+  :MIMSY: CONDITION.CURRENT_RECORD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition:
+  :MIMSY: CONDITION.CONDITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition_date:
+  :MIMSY: CONDITION.CONDITION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:examined_by:
+  :MIMSY: CONDITION.EXAMINED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:purpose:
+  :MIMSY: CONDITION.PURPOSE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:component_accessory:
+  :MIMSY: CONDITION.COMPONENT_ACCESSORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:conservation_request_date:
+  :MIMSY: CONDITION.CONSERVATION_REQUEST_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: CONDITION.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: CONDITION.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:priority_flag1:
+  :MIMSY: CONDITION.PRIORITY_FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:priority_flag2:
+  :MIMSY: CONDITION.PRIORITY_FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:summary:
+  :MIMSY: CONDITION.SUMMARY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: CONDITION.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:audit_by:
+  :MIMSY: CONDITION.AUDIT_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:audit_date:
+  :MIMSY: CONDITION.AUDIT_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: CONDITION.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: CONDITION.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag3:
+  :MIMSY: CONDITION.FLAG3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag4:
+  :MIMSY: CONDITION.FLAG4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: CONDITION.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: CONDITION.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: CONDITION.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: CONDITION.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''

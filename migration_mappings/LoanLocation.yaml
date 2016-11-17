@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: LOANS_LOCATION.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_id:
+  :MIMSY: LOANS_LOCATION.LOAN_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan:
+  :MIMSY: LOANS_LOCATION.LOAN
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_catalog_id:
+  :MIMSY: LOANS_LOCATION.LOAN_CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location_id:
+  :MIMSY: LOANS_LOCATION.LOCATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: LOANS_LOCATION.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''

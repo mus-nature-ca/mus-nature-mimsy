@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: ITEMS_PLACES_MADE.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_PLACES_MADE.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_id:
+  :MIMSY: ITEMS_PLACES_MADE.PLACE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_PLACES_MADE.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place:
+  :MIMSY: ITEMS_PLACES_MADE.PLACE
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,216 @@
+---
+:id:
+  :MIMSY: HAZARD.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: HAZARD.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:current_record:
+  :MIMSY: HAZARD.CURRENT_RECORD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:hazard:
+  :MIMSY: HAZARD.HAZARD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:component_accessory:
+  :MIMSY: HAZARD.COMPONENT_ACCESSORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: HAZARD.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:position:
+  :MIMSY: HAZARD.POSITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:rating:
+  :MIMSY: HAZARD.RATING
+  :module: ''
+  :column: ''
+  :instructions: ''
+:restrict_handling:
+  :MIMSY: HAZARD.RESTRICT_HANDLING
+  :module: ''
+  :column: ''
+  :instructions: ''
+:may_be_handled_by:
+  :MIMSY: HAZARD.MAY_BE_HANDLED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:handling_instructions:
+  :MIMSY: HAZARD.HANDLING_INSTRUCTIONS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:control_measures:
+  :MIMSY: HAZARD.CONTROL_MEASURES
+  :module: ''
+  :column: ''
+  :instructions: ''
+:identified_by:
+  :MIMSY: HAZARD.IDENTIFIED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_identified:
+  :MIMSY: HAZARD.DATE_IDENTIFIED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:authorized_by:
+  :MIMSY: HAZARD.AUTHORIZED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_authorized:
+  :MIMSY: HAZARD.DATE_AUTHORIZED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:external_file:
+  :MIMSY: HAZARD.EXTERNAL_FILE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:last_evaluation_by:
+  :MIMSY: HAZARD.LAST_EVALUATION_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:last_evaluation_date:
+  :MIMSY: HAZARD.LAST_EVALUATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:disposal_candidate:
+  :MIMSY: HAZARD.DISPOSAL_CANDIDATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: HAZARD.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: HAZARD.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option2:
+  :MIMSY: HAZARD.OPTION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option3:
+  :MIMSY: HAZARD.OPTION3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option4:
+  :MIMSY: HAZARD.OPTION4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option5:
+  :MIMSY: HAZARD.OPTION5
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option6:
+  :MIMSY: HAZARD.OPTION6
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option7:
+  :MIMSY: HAZARD.OPTION7
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option8:
+  :MIMSY: HAZARD.OPTION8
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option9:
+  :MIMSY: HAZARD.OPTION9
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option10:
+  :MIMSY: HAZARD.OPTION10
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number1:
+  :MIMSY: HAZARD.NUMBER1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number2:
+  :MIMSY: HAZARD.NUMBER2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date1:
+  :MIMSY: HAZARD.DATE1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date2:
+  :MIMSY: HAZARD.DATE2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: HAZARD.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: HAZARD.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag3:
+  :MIMSY: HAZARD.FLAG3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag4:
+  :MIMSY: HAZARD.FLAG4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: HAZARD.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: HAZARD.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: HAZARD.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: HAZARD.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

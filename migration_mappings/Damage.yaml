@@ -1,0 +1,121 @@
+---
+:id:
+  :MIMSY: DAMAGE.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: DAMAGE.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:damage_date:
+  :MIMSY: DAMAGE.DAMAGE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:recorded_by:
+  :MIMSY: DAMAGE.RECORDED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: DAMAGE.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:damaged_by:
+  :MIMSY: DAMAGE.DAMAGED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cause:
+  :MIMSY: DAMAGE.CAUSE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: DAMAGE.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: DAMAGE.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:action_taken:
+  :MIMSY: DAMAGE.ACTION_TAKEN
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: DAMAGE.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: DAMAGE.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: DAMAGE.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: DAMAGE.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: DAMAGE.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option2:
+  :MIMSY: DAMAGE.OPTION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date1:
+  :MIMSY: DAMAGE.DATE1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date2:
+  :MIMSY: DAMAGE.DATE2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number1:
+  :MIMSY: DAMAGE.NUMBER1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number2:
+  :MIMSY: DAMAGE.NUMBER2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: DAMAGE.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: DAMAGE.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:external_file:
+  :MIMSY: DAMAGE.EXTERNAL_FILE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:record_view:
+  :MIMSY: DAMAGE.RECORD_VIEW
+  :module: ''
+  :column: ''
+  :instructions: ''

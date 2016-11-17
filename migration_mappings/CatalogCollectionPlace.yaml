@@ -1,0 +1,71 @@
+---
+:id:
+  :MIMSY: ITEMS_PLACES_COLLECTED.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_PLACES_COLLECTED.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_id:
+  :MIMSY: ITEMS_PLACES_COLLECTED.PLACE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:specific_locale:
+  :MIMSY: ITEMS_PLACES_COLLECTED.SPECIFIC_LOCALE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:habitat:
+  :MIMSY: ITEMS_PLACES_COLLECTED.HABITAT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: ITEMS_PLACES_COLLECTED.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:portion:
+  :MIMSY: ITEMS_PLACES_COLLECTED.PORTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attributor:
+  :MIMSY: ITEMS_PLACES_COLLECTED.ATTRIBUTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_date:
+  :MIMSY: ITEMS_PLACES_COLLECTED.ATTRIBUTION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_comment:
+  :MIMSY: ITEMS_PLACES_COLLECTED.ATTRIBUTION_COMMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ITEMS_PLACES_COLLECTED.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_PLACES_COLLECTED.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_variation_id:
+  :MIMSY: ITEMS_PLACES_COLLECTED.PLACE_VARIATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place:
+  :MIMSY: ITEMS_PLACES_COLLECTED.PLACE
+  :module: ''
+  :column: ''
+  :instructions: ''

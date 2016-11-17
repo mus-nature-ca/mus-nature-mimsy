@@ -1,0 +1,211 @@
+---
+:id:
+  :MIMSY: MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:language:
+  :MIMSY: MEDIA.LANGUAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media_id:
+  :MIMSY: MEDIA.MEDIA_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:locator:
+  :MIMSY: MEDIA.LOCATOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:record_type:
+  :MIMSY: MEDIA.RECORD_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:repro_allowed:
+  :MIMSY: MEDIA.REPRO_ALLOWED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:branded:
+  :MIMSY: MEDIA.BRANDED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:format:
+  :MIMSY: MEDIA.FORMAT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:thumbnail:
+  :MIMSY: MEDIA.THUMBNAIL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publish:
+  :MIMSY: MEDIA.PUBLISH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:primary:
+  :MIMSY: MEDIA.PRIMARY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:parent_id:
+  :MIMSY: MEDIA.PARENT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:larger_file:
+  :MIMSY: MEDIA.LARGER_FILE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:stereo:
+  :MIMSY: MEDIA.STEREO
+  :module: ''
+  :column: ''
+  :instructions: ''
+:color:
+  :MIMSY: MEDIA.COLOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:bitdepth_image:
+  :MIMSY: MEDIA.BITDEPTH_IMAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media_type:
+  :MIMSY: MEDIA.MEDIA_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:physical_location:
+  :MIMSY: MEDIA.PHYSICAL_LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location_date:
+  :MIMSY: MEDIA.LOCATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location_status:
+  :MIMSY: MEDIA.LOCATION_STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:caption:
+  :MIMSY: MEDIA.CAPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:credit_line:
+  :MIMSY: MEDIA.CREDIT_LINE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:resolution:
+  :MIMSY: MEDIA.RESOLUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:horizontal_size:
+  :MIMSY: MEDIA.HORIZONTAL_SIZE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:vertical_size:
+  :MIMSY: MEDIA.VERTICAL_SIZE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:orientation:
+  :MIMSY: MEDIA.ORIENTATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media_count:
+  :MIMSY: MEDIA.MEDIA_COUNT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:item_count:
+  :MIMSY: MEDIA.ITEM_COUNT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:file_size:
+  :MIMSY: MEDIA.FILE_SIZE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_captured:
+  :MIMSY: MEDIA.DATE_CAPTURED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:capture_method:
+  :MIMSY: MEDIA.CAPTURE_METHOD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:capture_device:
+  :MIMSY: MEDIA.CAPTURE_DEVICE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:captured_by:
+  :MIMSY: MEDIA.CAPTURED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:storage_media:
+  :MIMSY: MEDIA.STORAGE_MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: MEDIA.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: MEDIA.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: MEDIA.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: MEDIA.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: MEDIA.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: MEDIA.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: MEDIA.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

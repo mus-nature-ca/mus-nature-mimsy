@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: PEOPLE_PLACES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: PEOPLE_PLACES.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_id:
+  :MIMSY: PEOPLE_PLACES.PLACE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: PEOPLE_PLACES.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place:
+  :MIMSY: PEOPLE_PLACES.PLACE
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,36 @@
+---
+:id:
+  :MIMSY: CONDITION_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: CONDITION_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: CONDITION_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: CONDITION_MEDIA.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:object:
+  :MIMSY: CONDITION_MEDIA.OBJECT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition_id:
+  :MIMSY: CONDITION_MEDIA.CONDITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition:
+  :MIMSY: CONDITION_MEDIA.CONDITION
+  :module: ''
+  :column: ''
+  :instructions: ''

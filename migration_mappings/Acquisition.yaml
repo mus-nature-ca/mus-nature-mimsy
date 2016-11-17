@@ -1,0 +1,146 @@
+---
+:id:
+  :MIMSY: ACQUISITIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:acquisition_number:
+  :MIMSY: ACQUISITIONS.ACQUISITION_NUMBER
+  :module: 'eaccessionlots'
+  :column: 'AcqAcquisitionIdentifier'
+  :instructions: ''
+:status:
+  :MIMSY: ACQUISITIONS.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: ACQUISITIONS.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:requested_by:
+  :MIMSY: ACQUISITIONS.REQUESTED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:request_date:
+  :MIMSY: ACQUISITIONS.REQUEST_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:authorized_by:
+  :MIMSY: ACQUISITIONS.AUTHORIZED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_authorized:
+  :MIMSY: ACQUISITIONS.DATE_AUTHORIZED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:method:
+  :MIMSY: ACQUISITIONS.METHOD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:legal_date:
+  :MIMSY: ACQUISITIONS.LEGAL_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:legal_date_display:
+  :MIMSY: ACQUISITIONS.LEGAL_DATE_DISPLAY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reason:
+  :MIMSY: ACQUISITIONS.REASON
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_requested:
+  :MIMSY: ACQUISITIONS.TOTAL_REQUESTED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_approved:
+  :MIMSY: ACQUISITIONS.TOTAL_APPROVED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:decision_reason:
+  :MIMSY: ACQUISITIONS.DECISION_REASON
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_offer_price:
+  :MIMSY: ACQUISITIONS.TOTAL_OFFER_PRICE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_price:
+  :MIMSY: ACQUISITIONS.TOTAL_PRICE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:currency:
+  :MIMSY: ACQUISITIONS.CURRENCY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:terms:
+  :MIMSY: ACQUISITIONS.TERMS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:provisos:
+  :MIMSY: ACQUISITIONS.PROVISOS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:external_file:
+  :MIMSY: ACQUISITIONS.EXTERNAL_FILE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ACQUISITIONS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:collection:
+  :MIMSY: ACQUISITIONS.COLLECTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: ACQUISITIONS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: ACQUISITIONS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: ACQUISITIONS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: ACQUISITIONS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: ACQUISITIONS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: ACQUISITIONS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

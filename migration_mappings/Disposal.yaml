@@ -1,0 +1,116 @@
+---
+:id:
+  :MIMSY: DISPOSALS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reference_number:
+  :MIMSY: DISPOSALS.REFERENCE_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: DISPOSALS.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: DISPOSALS.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:requested_by:
+  :MIMSY: DISPOSALS.REQUESTED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:request_date:
+  :MIMSY: DISPOSALS.REQUEST_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:authorized_by:
+  :MIMSY: DISPOSALS.AUTHORIZED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_authorized:
+  :MIMSY: DISPOSALS.DATE_AUTHORIZED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:method:
+  :MIMSY: DISPOSALS.METHOD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:legal_date:
+  :MIMSY: DISPOSALS.LEGAL_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:recipient:
+  :MIMSY: DISPOSALS.RECIPIENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reason:
+  :MIMSY: DISPOSALS.REASON
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_requested:
+  :MIMSY: DISPOSALS.TOTAL_REQUESTED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_approved:
+  :MIMSY: DISPOSALS.TOTAL_APPROVED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:decision_reason:
+  :MIMSY: DISPOSALS.DECISION_REASON
+  :module: ''
+  :column: ''
+  :instructions: ''
+:external_file:
+  :MIMSY: DISPOSALS.EXTERNAL_FILE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: DISPOSALS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: DISPOSALS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: DISPOSALS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: DISPOSALS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: DISPOSALS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: DISPOSALS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: DISPOSALS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

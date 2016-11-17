@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: ITEMS_PLACES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_PLACES.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_id:
+  :MIMSY: ITEMS_PLACES.PLACE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: ITEMS_PLACES.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_PLACES.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place:
+  :MIMSY: ITEMS_PLACES.PLACE
+  :module: ''
+  :column: ''
+  :instructions: ''

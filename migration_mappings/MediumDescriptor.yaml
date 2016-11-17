@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: MEDIA_DESCRIPTORS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: MEDIA_DESCRIPTORS.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:component:
+  :MIMSY: MEDIA_DESCRIPTORS.COMPONENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:descriptor:
+  :MIMSY: MEDIA_DESCRIPTORS.DESCRIPTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:term:
+  :MIMSY: MEDIA_DESCRIPTORS.TERM
+  :module: ''
+  :column: ''
+  :instructions: ''

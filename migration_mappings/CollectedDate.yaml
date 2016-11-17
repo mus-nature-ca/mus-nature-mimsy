@@ -1,0 +1,96 @@
+---
+:id:
+  :MIMSY: DATE_COLLECTED.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: DATE_COLLECTED.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_date:
+  :MIMSY: DATE_COLLECTED.PRIOR_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_text:
+  :MIMSY: DATE_COLLECTED.DATE_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_type:
+  :MIMSY: DATE_COLLECTED.DATE_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:earliest_year:
+  :MIMSY: DATE_COLLECTED.EARLIEST_YEAR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:latest_year:
+  :MIMSY: DATE_COLLECTED.LATEST_YEAR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:earliest_monthday:
+  :MIMSY: DATE_COLLECTED.EARLIEST_MONTHDAY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:latest_monthday:
+  :MIMSY: DATE_COLLECTED.LATEST_MONTHDAY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:century:
+  :MIMSY: DATE_COLLECTED.CENTURY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:period_era:
+  :MIMSY: DATE_COLLECTED.PERIOD_ERA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_type:
+  :MIMSY: DATE_COLLECTED.ATTRIBUTION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attributor:
+  :MIMSY: DATE_COLLECTED.ATTRIBUTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_date:
+  :MIMSY: DATE_COLLECTED.ATTRIBUTION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_source:
+  :MIMSY: DATE_COLLECTED.ATTRIBUTION_SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:certainty:
+  :MIMSY: DATE_COLLECTED.CERTAINTY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: DATE_COLLECTED.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:collection_method:
+  :MIMSY: DATE_COLLECTED.COLLECTION_METHOD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:context:
+  :MIMSY: DATE_COLLECTED.CONTEXT
+  :module: ''
+  :column: ''
+  :instructions: ''

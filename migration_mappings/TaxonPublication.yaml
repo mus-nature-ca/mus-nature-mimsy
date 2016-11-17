@@ -1,0 +1,51 @@
+---
+:id:
+  :MIMSY: TAXONOMY_PUBLICATIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication_id:
+  :MIMSY: TAXONOMY_PUBLICATIONS.PUBLICATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:taxon_id:
+  :MIMSY: TAXONOMY_PUBLICATIONS.TAXON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: TAXONOMY_PUBLICATIONS.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: TAXONOMY_PUBLICATIONS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: TAXONOMY_PUBLICATIONS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:illustration:
+  :MIMSY: TAXONOMY_PUBLICATIONS.ILLUSTRATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:taxon_variation_id:
+  :MIMSY: TAXONOMY_PUBLICATIONS.TAXON_VARIATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication:
+  :MIMSY: TAXONOMY_PUBLICATIONS.PUBLICATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication_date:
+  :MIMSY: TAXONOMY_PUBLICATIONS.PUBLICATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

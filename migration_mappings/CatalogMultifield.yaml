@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: MULTIFIELDS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: MULTIFIELDS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:descriptor:
+  :MIMSY: MULTIFIELDS.DESCRIPTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:term:
+  :MIMSY: MULTIFIELDS.TERM
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: MULTIFIELDS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,276 @@
+---
+:id:
+  :MIMSY: PEOPLE.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:language:
+  :MIMSY: PEOPLE.LANGUAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:approved:
+  :MIMSY: PEOPLE.APPROVED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:individual:
+  :MIMSY: PEOPLE.INDIVIDUAL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:preferred_name:
+  :MIMSY: PEOPLE.PREFERRED_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:title:
+  :MIMSY: PEOPLE.TITLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:first_name:
+  :MIMSY: PEOPLE.FIRST_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:last_name:
+  :MIMSY: PEOPLE.LAST_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:suffix:
+  :MIMSY: PEOPLE.SUFFIX
+  :module: ''
+  :column: ''
+  :instructions: ''
+:honorary_suffix:
+  :MIMSY: PEOPLE.HONORARY_SUFFIX
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort_name:
+  :MIMSY: PEOPLE.SORT_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:gender:
+  :MIMSY: PEOPLE.GENDER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:deceased:
+  :MIMSY: PEOPLE.DECEASED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:brief_bio:
+  :MIMSY: PEOPLE.BRIEF_BIO
+  :module: ''
+  :column: ''
+  :instructions: ''
+:birth_date:
+  :MIMSY: PEOPLE.BIRTH_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:birth_place:
+  :MIMSY: PEOPLE.BIRTH_PLACE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:death_date:
+  :MIMSY: PEOPLE.DEATH_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:death_place:
+  :MIMSY: PEOPLE.DEATH_PLACE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cause_of_death:
+  :MIMSY: PEOPLE.CAUSE_OF_DEATH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:nationality:
+  :MIMSY: PEOPLE.NATIONALITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:occupation:
+  :MIMSY: PEOPLE.OCCUPATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: PEOPLE.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:website:
+  :MIMSY: PEOPLE.WEBSITE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:appraiser:
+  :MIMSY: PEOPLE.APPRAISER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:authorizer:
+  :MIMSY: PEOPLE.AUTHORIZER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:borrower:
+  :MIMSY: PEOPLE.BORROWER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:collector:
+  :MIMSY: PEOPLE.COLLECTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:conservator:
+  :MIMSY: PEOPLE.CONSERVATOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:copyright_holder:
+  :MIMSY: PEOPLE.COPYRIGHT_HOLDER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:examiner:
+  :MIMSY: PEOPLE.EXAMINER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:identifier:
+  :MIMSY: PEOPLE.IDENTIFIER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:insurer:
+  :MIMSY: PEOPLE.INSURER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:lender:
+  :MIMSY: PEOPLE.LENDER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:maker:
+  :MIMSY: PEOPLE.MAKER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:mover:
+  :MIMSY: PEOPLE.MOVER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:owner:
+  :MIMSY: PEOPLE.OWNER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publisher:
+  :MIMSY: PEOPLE.PUBLISHER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:related:
+  :MIMSY: PEOPLE.RELATED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reproducer:
+  :MIMSY: PEOPLE.REPRODUCER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:shipper:
+  :MIMSY: PEOPLE.SHIPPER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source:
+  :MIMSY: PEOPLE.SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sponsor:
+  :MIMSY: PEOPLE.SPONSOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:staff:
+  :MIMSY: PEOPLE.STAFF
+  :module: ''
+  :column: ''
+  :instructions: ''
+:surveyor:
+  :MIMSY: PEOPLE.SURVEYOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:venue:
+  :MIMSY: PEOPLE.VENUE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:other:
+  :MIMSY: PEOPLE.OTHER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:authorized_by:
+  :MIMSY: PEOPLE.AUTHORIZED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_authorized:
+  :MIMSY: PEOPLE.DATE_AUTHORIZED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:assessment:
+  :MIMSY: PEOPLE.ASSESSMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: PEOPLE.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publish:
+  :MIMSY: PEOPLE.PUBLISH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: PEOPLE.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: PEOPLE.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: PEOPLE.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: PEOPLE.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

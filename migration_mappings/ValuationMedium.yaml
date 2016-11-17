@@ -1,0 +1,61 @@
+---
+:id:
+  :MIMSY: VALUATION_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: VALUATION_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: VALUATION_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:m_id:
+  :MIMSY: VALUATION_MEDIA.M_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:object:
+  :MIMSY: VALUATION_MEDIA.OBJECT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:valuation_id:
+  :MIMSY: VALUATION_MEDIA.VALUATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:valuation:
+  :MIMSY: VALUATION_MEDIA.VALUATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: VALUATION_MEDIA.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: VALUATION_MEDIA.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: VALUATION_MEDIA.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:step:
+  :MIMSY: VALUATION_MEDIA.STEP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: VALUATION_MEDIA.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

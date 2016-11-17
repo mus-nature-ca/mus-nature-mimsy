@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: EVENT_VARIATIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:event_id:
+  :MIMSY: EVENT_VARIATIONS.EVENT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:variation:
+  :MIMSY: EVENT_VARIATIONS.VARIATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: EVENT_VARIATIONS.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: EVENT_VARIATIONS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''

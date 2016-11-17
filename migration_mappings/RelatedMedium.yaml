@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: RELATED_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: RELATED_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:related_medium_id:
+  :MIMSY: RELATED_MEDIA.RELATED_MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: RELATED_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: RELATED_MEDIA.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sysuseonly:
+  :MIMSY: RELATED_MEDIA.SYSUSEONLY
+  :module: ''
+  :column: ''
+  :instructions: ''

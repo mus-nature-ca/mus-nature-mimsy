@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: LOANS_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: LOANS_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: LOANS_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_id:
+  :MIMSY: LOANS_MEDIA.LOAN_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan:
+  :MIMSY: LOANS_MEDIA.LOAN
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: SITES_PLACES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_id:
+  :MIMSY: SITES_PLACES.PLACE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_id:
+  :MIMSY: SITES_PLACES.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: SITES_PLACES.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place:
+  :MIMSY: SITES_PLACES.PLACE
+  :module: ''
+  :column: ''
+  :instructions: ''

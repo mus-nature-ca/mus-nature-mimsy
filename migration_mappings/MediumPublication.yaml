@@ -1,0 +1,36 @@
+---
+:id:
+  :MIMSY: MEDIA_PUBLICATIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication_id:
+  :MIMSY: MEDIA_PUBLICATIONS.PUBLICATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: MEDIA_PUBLICATIONS.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: MEDIA_PUBLICATIONS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:illustration:
+  :MIMSY: MEDIA_PUBLICATIONS.ILLUSTRATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication:
+  :MIMSY: MEDIA_PUBLICATIONS.PUBLICATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication_date:
+  :MIMSY: MEDIA_PUBLICATIONS.PUBLICATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

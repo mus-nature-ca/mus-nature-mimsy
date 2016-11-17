@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: DISPOSALS_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: DISPOSALS_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: DISPOSALS_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:disposal_id:
+  :MIMSY: DISPOSALS_MEDIA.DISPOSAL_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:disposal:
+  :MIMSY: DISPOSALS_MEDIA.DISPOSAL
+  :module: ''
+  :column: ''
+  :instructions: ''

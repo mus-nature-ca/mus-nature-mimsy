@@ -1,0 +1,96 @@
+---
+:id:
+  :MIMSY: ITEM_USAGE.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEM_USAGE.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_use:
+  :MIMSY: ITEM_USAGE.PRIOR_USE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: ITEM_USAGE.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: ITEM_USAGE.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: ITEM_USAGE.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: ITEM_USAGE.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_type:
+  :MIMSY: ITEM_USAGE.ATTRIBUTION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attributor:
+  :MIMSY: ITEM_USAGE.ATTRIBUTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_source:
+  :MIMSY: ITEM_USAGE.ATTRIBUTION_SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_date:
+  :MIMSY: ITEM_USAGE.ATTRIBUTION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:certainty:
+  :MIMSY: ITEM_USAGE.CERTAINTY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_comment:
+  :MIMSY: ITEM_USAGE.ATTRIBUTION_COMMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort:
+  :MIMSY: ITEM_USAGE.SORT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ITEM_USAGE.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: ITEM_USAGE.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option2:
+  :MIMSY: ITEM_USAGE.OPTION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option3:
+  :MIMSY: ITEM_USAGE.OPTION3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option4:
+  :MIMSY: ITEM_USAGE.OPTION4
+  :module: ''
+  :column: ''
+  :instructions: ''

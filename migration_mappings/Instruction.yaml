@@ -1,0 +1,46 @@
+---
+:id:
+  :MIMSY: INSTRUCTIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:table_key:
+  :MIMSY: INSTRUCTIONS.TABLE_KEY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:table_name:
+  :MIMSY: INSTRUCTIONS.TABLE_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: INSTRUCTIONS.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:instruction_date:
+  :MIMSY: INSTRUCTIONS.INSTRUCTION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:instruction:
+  :MIMSY: INSTRUCTIONS.INSTRUCTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: INSTRUCTIONS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: INSTRUCTIONS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:regarding:
+  :MIMSY: INSTRUCTIONS.REGARDING
+  :module: ''
+  :column: ''
+  :instructions: ''

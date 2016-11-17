@@ -1,0 +1,21 @@
+---
+:id:
+  :MIMSY: CULTURES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: CULTURES.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_culture:
+  :MIMSY: CULTURES.PRIOR_CULTURE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:culture:
+  :MIMSY: CULTURES.CULTURE
+  :module: ''
+  :column: ''
+  :instructions: ''

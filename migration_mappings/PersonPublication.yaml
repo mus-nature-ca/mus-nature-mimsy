@@ -1,0 +1,41 @@
+---
+:id:
+  :MIMSY: PEOPLE_PUBLICATIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: PEOPLE_PUBLICATIONS.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication_id:
+  :MIMSY: PEOPLE_PUBLICATIONS.PUBLICATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: PEOPLE_PUBLICATIONS.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: PEOPLE_PUBLICATIONS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:illustration:
+  :MIMSY: PEOPLE_PUBLICATIONS.ILLUSTRATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication:
+  :MIMSY: PEOPLE_PUBLICATIONS.PUBLICATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication_date:
+  :MIMSY: PEOPLE_PUBLICATIONS.PUBLICATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

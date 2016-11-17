@@ -1,0 +1,51 @@
+---
+:id:
+  :MIMSY: SITE_COORDINATES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_id:
+  :MIMSY: SITE_COORDINATES.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: SITE_COORDINATES.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:degrees:
+  :MIMSY: SITE_COORDINATES.DEGREES
+  :module: ''
+  :column: ''
+  :instructions: ''
+:minutes:
+  :MIMSY: SITE_COORDINATES.MINUTES
+  :module: ''
+  :column: ''
+  :instructions: ''
+:seconds:
+  :MIMSY: SITE_COORDINATES.SECONDS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:direction:
+  :MIMSY: SITE_COORDINATES.DIRECTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:decimal_degrees:
+  :MIMSY: SITE_COORDINATES.DECIMAL_DEGREES
+  :module: ''
+  :column: ''
+  :instructions: ''
+:decimal_is_primary:
+  :MIMSY: SITE_COORDINATES.DECIMAL_IS_PRIMARY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITE_COORDINATES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

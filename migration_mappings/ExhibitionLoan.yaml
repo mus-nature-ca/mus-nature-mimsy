@@ -1,0 +1,36 @@
+---
+:id:
+  :MIMSY: EXHIBITIONS_LOANS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:exhibition_id:
+  :MIMSY: EXHIBITIONS_LOANS.EXHIBITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:exhibition:
+  :MIMSY: EXHIBITIONS_LOANS.EXHIBITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_id:
+  :MIMSY: EXHIBITIONS_LOANS.LOAN_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan:
+  :MIMSY: EXHIBITIONS_LOANS.LOAN
+  :module: ''
+  :column: ''
+  :instructions: ''
+:exhibition_catalog_id:
+  :MIMSY: EXHIBITIONS_LOANS.EXHIBITION_CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_catalog_id:
+  :MIMSY: EXHIBITIONS_LOANS.LOAN_CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''

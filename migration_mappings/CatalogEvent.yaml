@@ -1,0 +1,41 @@
+---
+:id:
+  :MIMSY: ITEMS_EVENTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_EVENTS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:event_id:
+  :MIMSY: ITEMS_EVENTS.EVENT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: ITEMS_EVENTS.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: ITEMS_EVENTS.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: ITEMS_EVENTS.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_EVENTS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:event:
+  :MIMSY: ITEMS_EVENTS.EVENT
+  :module: ''
+  :column: ''
+  :instructions: ''

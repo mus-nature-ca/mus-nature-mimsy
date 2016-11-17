@@ -1,0 +1,151 @@
+---
+:id:
+  :MIMSY: ACTIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:actreqkey:
+  :MIMSY: ACTIONS.ACTREQKEY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:table_key:
+  :MIMSY: ACTIONS.TABLE_KEY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:table_name:
+  :MIMSY: ACTIONS.TABLE_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reference_number:
+  :MIMSY: ACTIONS.REFERENCE_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:item_summary:
+  :MIMSY: ACTIONS.ITEM_SUMMARY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:action_type:
+  :MIMSY: ACTIONS.ACTION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:job_number:
+  :MIMSY: ACTIONS.JOB_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:action_by:
+  :MIMSY: ACTIONS.ACTION_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:action_due_date:
+  :MIMSY: ACTIONS.ACTION_DUE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: ACTIONS.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: ACTIONS.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:move_to:
+  :MIMSY: ACTIONS.MOVE_TO
+  :module: ''
+  :column: ''
+  :instructions: ''
+:action_completed_on:
+  :MIMSY: ACTIONS.ACTION_COMPLETED_ON
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ACTIONS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:private:
+  :MIMSY: ACTIONS.PRIVATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:requested_by:
+  :MIMSY: ACTIONS.REQUESTED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: ACTIONS.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option2:
+  :MIMSY: ACTIONS.OPTION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number1:
+  :MIMSY: ACTIONS.NUMBER1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number2:
+  :MIMSY: ACTIONS.NUMBER2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date1:
+  :MIMSY: ACTIONS.DATE1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date2:
+  :MIMSY: ACTIONS.DATE2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: ACTIONS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: ACTIONS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:carryover:
+  :MIMSY: ACTIONS.CARRYOVER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: ACTIONS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: ACTIONS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: ACTIONS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: ACTIONS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

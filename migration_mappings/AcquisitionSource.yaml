@@ -1,0 +1,56 @@
+---
+:id:
+  :MIMSY: ACQUISITION_SOURCES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:acquisition_id:
+  :MIMSY: ACQUISITION_SOURCES.ACQUISITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: ACQUISITION_SOURCES.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_variation_id:
+  :MIMSY: ACQUISITION_SOURCES.PERSON_VARIATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source:
+  :MIMSY: ACQUISITION_SOURCES.SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source_role:
+  :MIMSY: ACQUISITION_SOURCES.SOURCE_ROLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contact:
+  :MIMSY: ACQUISITION_SOURCES.CONTACT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:address:
+  :MIMSY: ACQUISITION_SOURCES.ADDRESS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:amount_paid:
+  :MIMSY: ACQUISITION_SOURCES.AMOUNT_PAID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ACQUISITION_SOURCES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:unlinked_value:
+  :MIMSY: ACQUISITION_SOURCES.UNLINKED_VALUE
+  :module: ''
+  :column: ''
+  :instructions: ''

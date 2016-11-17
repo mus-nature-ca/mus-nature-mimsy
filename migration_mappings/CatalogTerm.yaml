@@ -1,0 +1,41 @@
+---
+:id:
+  :MIMSY: ITEMS_TERMS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_TERMS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:thesaurus_id:
+  :MIMSY: ITEMS_TERMS.THESAURUS_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type_specimen:
+  :MIMSY: ITEMS_TERMS.TYPE_SPECIMEN
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: ITEMS_TERMS.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_TERMS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:term:
+  :MIMSY: ITEMS_TERMS.TERM
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broader_text:
+  :MIMSY: ITEMS_TERMS.BROADER_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,136 @@
+---
+:catalog_id:
+  :MIMSY: CONSERVATION.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: CONSERVATION.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:process:
+  :MIMSY: CONSERVATION.PROCESS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:portion:
+  :MIMSY: CONSERVATION.PORTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:component_accessory:
+  :MIMSY: CONSERVATION.COMPONENT_ACCESSORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:purpose:
+  :MIMSY: CONSERVATION.PURPOSE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:requested_by:
+  :MIMSY: CONSERVATION.REQUESTED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:request_date:
+  :MIMSY: CONSERVATION.REQUEST_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:authorized_by:
+  :MIMSY: CONSERVATION.AUTHORIZED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:conservator:
+  :MIMSY: CONSERVATION.CONSERVATOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: CONSERVATION.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: CONSERVATION.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:projected_start:
+  :MIMSY: CONSERVATION.PROJECTED_START
+  :module: ''
+  :column: ''
+  :instructions: ''
+:actual_start:
+  :MIMSY: CONSERVATION.ACTUAL_START
+  :module: ''
+  :column: ''
+  :instructions: ''
+:actual_end:
+  :MIMSY: CONSERVATION.ACTUAL_END
+  :module: ''
+  :column: ''
+  :instructions: ''
+:summary:
+  :MIMSY: CONSERVATION.SUMMARY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition_id:
+  :MIMSY: CONSERVATION.CONDITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:linked_condition:
+  :MIMSY: CONSERVATION.LINKED_CONDITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:post_treat_condition:
+  :MIMSY: CONSERVATION.POST_TREAT_CONDITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: CONSERVATION.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: CONSERVATION.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag3:
+  :MIMSY: CONSERVATION.FLAG3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag4:
+  :MIMSY: CONSERVATION.FLAG4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: CONSERVATION.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: CONSERVATION.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: CONSERVATION.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: CONSERVATION.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

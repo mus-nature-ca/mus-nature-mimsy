@@ -1,0 +1,61 @@
+---
+:id:
+  :MIMSY: ITEM_NAMES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEM_NAMES.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_name:
+  :MIMSY: ITEM_NAMES.PRIOR_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: ITEM_NAMES.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:scientific_name:
+  :MIMSY: ITEM_NAMES.SCIENTIFIC_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_type:
+  :MIMSY: ITEM_NAMES.ATTRIBUTION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attributor:
+  :MIMSY: ITEM_NAMES.ATTRIBUTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_date:
+  :MIMSY: ITEM_NAMES.ATTRIBUTION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_source:
+  :MIMSY: ITEM_NAMES.ATTRIBUTION_SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:certainty:
+  :MIMSY: ITEM_NAMES.CERTAINTY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_comment:
+  :MIMSY: ITEM_NAMES.ATTRIBUTION_COMMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ITEM_NAMES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

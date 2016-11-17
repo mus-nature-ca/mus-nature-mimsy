@@ -1,0 +1,36 @@
+---
+:id:
+  :MIMSY: TITLES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: TITLES.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_title:
+  :MIMSY: TITLES.PRIOR_TITLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: TITLES.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:title:
+  :MIMSY: TITLES.TITLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attributor:
+  :MIMSY: TITLES.ATTRIBUTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_date:
+  :MIMSY: TITLES.ATTRIBUTION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

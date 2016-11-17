@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: SUBJECT_VARIATIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:subject_id:
+  :MIMSY: SUBJECT_VARIATIONS.SUBJECT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:variation:
+  :MIMSY: SUBJECT_VARIATIONS.VARIATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:variation_type:
+  :MIMSY: SUBJECT_VARIATIONS.VARIATION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: SUBJECT_VARIATIONS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''

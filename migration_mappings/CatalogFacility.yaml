@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: ITEMS_FACILITIES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_FACILITIES.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:facility_id:
+  :MIMSY: ITEMS_FACILITIES.FACILITY_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_FACILITIES.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:facility:
+  :MIMSY: ITEMS_FACILITIES.FACILITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broader_text:
+  :MIMSY: ITEMS_FACILITIES.BROADER_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''

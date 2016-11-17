@@ -1,0 +1,81 @@
+---
+:catalog_id:
+  :MIMSY: VALUATION.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: VALUATION.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:current_record:
+  :MIMSY: VALUATION.CURRENT_RECORD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:valuation:
+  :MIMSY: VALUATION.VALUATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:valuation_date:
+  :MIMSY: VALUATION.VALUATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:valuation_purpose:
+  :MIMSY: VALUATION.VALUATION_PURPOSE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:valuation_by:
+  :MIMSY: VALUATION.VALUATION_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:valuation_source:
+  :MIMSY: VALUATION.VALUATION_SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:external_file:
+  :MIMSY: VALUATION.EXTERNAL_FILE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: VALUATION.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: VALUATION.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: VALUATION.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: VALUATION.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: VALUATION.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: VALUATION.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: VALUATION.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,51 @@
+---
+:id:
+  :MIMSY: ITEM_DATES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEM_DATES.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_date:
+  :MIMSY: ITEM_DATES.PRIOR_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_text:
+  :MIMSY: ITEM_DATES.DATE_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:earliest_year:
+  :MIMSY: ITEM_DATES.EARLIEST_YEAR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:latest_year:
+  :MIMSY: ITEM_DATES.LATEST_YEAR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:earliest_monthday:
+  :MIMSY: ITEM_DATES.EARLIEST_MONTHDAY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:latest_monthday:
+  :MIMSY: ITEM_DATES.LATEST_MONTHDAY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ITEM_DATES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:bp:
+  :MIMSY: ITEM_DATES.BP
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,116 @@
+---
+:id:
+  :MIMSY: ACQUISITION_ITEMS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:acquisition_id:
+  :MIMSY: ACQUISITION_ITEMS.ACQUISITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ACQUISITION_ITEMS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id_number:
+  :MIMSY: ACQUISITION_ITEMS.ID_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: ACQUISITION_ITEMS.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: ACQUISITION_ITEMS.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: ACQUISITION_ITEMS.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:accession_date:
+  :MIMSY: ACQUISITION_ITEMS.ACCESSION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:title_transfer_requested:
+  :MIMSY: ACQUISITION_ITEMS.TITLE_TRANSFER_REQUESTED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:transfer_date:
+  :MIMSY: ACQUISITION_ITEMS.TRANSFER_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_cost:
+  :MIMSY: ACQUISITION_ITEMS.TOTAL_COST
+  :module: ''
+  :column: ''
+  :instructions: ''
+:item_marked:
+  :MIMSY: ACQUISITION_ITEMS.ITEM_MARKED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:marking_method:
+  :MIMSY: ACQUISITION_ITEMS.MARKING_METHOD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reproduction_requested:
+  :MIMSY: ACQUISITION_ITEMS.REPRODUCTION_REQUESTED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ACQUISITION_ITEMS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: ACQUISITION_ITEMS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: ACQUISITION_ITEMS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalogued:
+  :MIMSY: ACQUISITION_ITEMS.CATALOGUED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id_sort:
+  :MIMSY: ACQUISITION_ITEMS.ID_SORT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: ACQUISITION_ITEMS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: ACQUISITION_ITEMS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: ACQUISITION_ITEMS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: ACQUISITION_ITEMS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

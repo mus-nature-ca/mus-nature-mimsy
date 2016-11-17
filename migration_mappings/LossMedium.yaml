@@ -1,0 +1,61 @@
+---
+:id:
+  :MIMSY: LOSS_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: LOSS_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: LOSS_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: LOSS_MEDIA.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:object:
+  :MIMSY: LOSS_MEDIA.OBJECT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loss_id:
+  :MIMSY: LOSS_MEDIA.LOSS_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loss:
+  :MIMSY: LOSS_MEDIA.LOSS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: LOSS_MEDIA.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: LOSS_MEDIA.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: LOSS_MEDIA.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort:
+  :MIMSY: LOSS_MEDIA.SORT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: LOSS_MEDIA.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,71 @@
+---
+:id:
+  :MIMSY: NOTEPAD.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:table_key:
+  :MIMSY: NOTEPAD.TABLE_KEY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:table_name:
+  :MIMSY: NOTEPAD.TABLE_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:column_name:
+  :MIMSY: NOTEPAD.COLUMN_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:module:
+  :MIMSY: NOTEPAD.MODULE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:subject:
+  :MIMSY: NOTEPAD.SUBJECT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contributor:
+  :MIMSY: NOTEPAD.CONTRIBUTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contribution_date:
+  :MIMSY: NOTEPAD.CONTRIBUTION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: NOTEPAD.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:url:
+  :MIMSY: NOTEPAD.URL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:private:
+  :MIMSY: NOTEPAD.PRIVATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: NOTEPAD.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: NOTEPAD.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:carryover:
+  :MIMSY: NOTEPAD.CARRYOVER
+  :module: ''
+  :column: ''
+  :instructions: ''

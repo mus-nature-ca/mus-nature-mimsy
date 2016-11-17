@@ -1,0 +1,26 @@
+---
+:facility_id:
+  :MIMSY: FACILITY_LEVELS.FACILITY_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:level1:
+  :MIMSY: FACILITY_LEVELS.LEVEL1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:level2:
+  :MIMSY: FACILITY_LEVELS.LEVEL2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:unavailable:
+  :MIMSY: FACILITY_LEVELS.UNAVAILABLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: FACILITY_LEVELS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''

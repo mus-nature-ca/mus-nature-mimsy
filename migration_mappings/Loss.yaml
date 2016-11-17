@@ -1,0 +1,76 @@
+---
+:id:
+  :MIMSY: LOSS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: LOSS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loss_date:
+  :MIMSY: LOSS.LOSS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reported_by:
+  :MIMSY: LOSS.REPORTED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:last_seen_by:
+  :MIMSY: LOSS.LAST_SEEN_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: LOSS.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_last_seen:
+  :MIMSY: LOSS.DATE_LAST_SEEN
+  :module: ''
+  :column: ''
+  :instructions: ''
+:object_found:
+  :MIMSY: LOSS.OBJECT_FOUND
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: LOSS.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: LOSS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: LOSS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: LOSS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: LOSS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: LOSS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: LOSS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''

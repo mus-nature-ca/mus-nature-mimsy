@@ -1,0 +1,211 @@
+---
+:id:
+  :MIMSY: PUBLICATIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:language:
+  :MIMSY: PUBLICATIONS.LANGUAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication_type:
+  :MIMSY: PUBLICATIONS.PUBLICATION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:exhibit_catalogue:
+  :MIMSY: PUBLICATIONS.EXHIBIT_CATALOGUE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:title:
+  :MIMSY: PUBLICATIONS.TITLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:brief_title:
+  :MIMSY: PUBLICATIONS.BRIEF_TITLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort_name:
+  :MIMSY: PUBLICATIONS.SORT_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:title_statement:
+  :MIMSY: PUBLICATIONS.TITLE_STATEMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:series_title:
+  :MIMSY: PUBLICATIONS.SERIES_TITLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:author:
+  :MIMSY: PUBLICATIONS.AUTHOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:editor:
+  :MIMSY: PUBLICATIONS.EDITOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:published:
+  :MIMSY: PUBLICATIONS.PUBLISHED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publisher:
+  :MIMSY: PUBLICATIONS.PUBLISHER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication_date:
+  :MIMSY: PUBLICATIONS.PUBLICATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:year_published:
+  :MIMSY: PUBLICATIONS.YEAR_PUBLISHED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_published:
+  :MIMSY: PUBLICATIONS.PLACE_PUBLISHED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:citation:
+  :MIMSY: PUBLICATIONS.CITATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:volume:
+  :MIMSY: PUBLICATIONS.VOLUME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:issue:
+  :MIMSY: PUBLICATIONS.ISSUE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:edition:
+  :MIMSY: PUBLICATIONS.EDITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:volumes:
+  :MIMSY: PUBLICATIONS.VOLUMES
+  :module: ''
+  :column: ''
+  :instructions: ''
+:section:
+  :MIMSY: PUBLICATIONS.SECTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:pages_tracks:
+  :MIMSY: PUBLICATIONS.PAGES_TRACKS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:illustrated:
+  :MIMSY: PUBLICATIONS.ILLUSTRATED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:subject_headings:
+  :MIMSY: PUBLICATIONS.SUBJECT_HEADINGS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: PUBLICATIONS.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:abstract:
+  :MIMSY: PUBLICATIONS.ABSTRACT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:url:
+  :MIMSY: PUBLICATIONS.URL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:issn_isbn:
+  :MIMSY: PUBLICATIONS.ISSN_ISBN
+  :module: ''
+  :column: ''
+  :instructions: ''
+:on_site:
+  :MIMSY: PUBLICATIONS.ON_SITE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: PUBLICATIONS.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:locator_number:
+  :MIMSY: PUBLICATIONS.LOCATOR_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:system_number:
+  :MIMSY: PUBLICATIONS.SYSTEM_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: PUBLICATIONS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publish:
+  :MIMSY: PUBLICATIONS.PUBLISH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: PUBLICATIONS.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: PUBLICATIONS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: PUBLICATIONS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: PUBLICATIONS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: PUBLICATIONS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: PUBLICATIONS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: PUBLICATIONS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

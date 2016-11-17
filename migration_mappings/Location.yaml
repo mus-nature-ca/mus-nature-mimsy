@@ -1,0 +1,171 @@
+---
+:id:
+  :MIMSY: LOCATION.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: LOCATION.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:facility_id:
+  :MIMSY: LOCATION.FACILITY_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:current_record:
+  :MIMSY: LOCATION.CURRENT_RECORD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:future_commit:
+  :MIMSY: LOCATION.FUTURE_COMMIT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: LOCATION.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loc_level1:
+  :MIMSY: LOCATION.LOC_LEVEL1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loc_level2:
+  :MIMSY: LOCATION.LOC_LEVEL2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loc_level3:
+  :MIMSY: LOCATION.LOC_LEVEL3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loc_level4:
+  :MIMSY: LOCATION.LOC_LEVEL4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location_date:
+  :MIMSY: LOCATION.LOCATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:expected_end:
+  :MIMSY: LOCATION.EXPECTED_END
+  :module: ''
+  :column: ''
+  :instructions: ''
+:last_location:
+  :MIMSY: LOCATION.LAST_LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:last_level1:
+  :MIMSY: LOCATION.LAST_LEVEL1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:last_level2:
+  :MIMSY: LOCATION.LAST_LEVEL2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:last_level3:
+  :MIMSY: LOCATION.LAST_LEVEL3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:last_level4:
+  :MIMSY: LOCATION.LAST_LEVEL4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:purpose:
+  :MIMSY: LOCATION.PURPOSE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:inventory_status:
+  :MIMSY: LOCATION.INVENTORY_STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: LOCATION.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:requested_by:
+  :MIMSY: LOCATION.REQUESTED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:request_date:
+  :MIMSY: LOCATION.REQUEST_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:authorized_by:
+  :MIMSY: LOCATION.AUTHORIZED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:job_number:
+  :MIMSY: LOCATION.JOB_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:scheduled_date:
+  :MIMSY: LOCATION.SCHEDULED_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:moved_by:
+  :MIMSY: LOCATION.MOVED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:component_accessory:
+  :MIMSY: LOCATION.COMPONENT_ACCESSORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: LOCATION.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: LOCATION.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: LOCATION.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: LOCATION.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: LOCATION.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: LOCATION.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: LOCATION.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''

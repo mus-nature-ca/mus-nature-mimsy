@@ -1,0 +1,126 @@
+---
+:catalog_id:
+  :MIMSY: CURRENT_CONDITION.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition_id:
+  :MIMSY: CURRENT_CONDITION.CONDITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:current_record:
+  :MIMSY: CURRENT_CONDITION.CURRENT_RECORD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition:
+  :MIMSY: CURRENT_CONDITION.CONDITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition_date:
+  :MIMSY: CURRENT_CONDITION.CONDITION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:examined_by:
+  :MIMSY: CURRENT_CONDITION.EXAMINED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:purpose:
+  :MIMSY: CURRENT_CONDITION.PURPOSE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:component_accessory:
+  :MIMSY: CURRENT_CONDITION.COMPONENT_ACCESSORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:conservation_request_date:
+  :MIMSY: CURRENT_CONDITION.CONSERVATION_REQUEST_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: CURRENT_CONDITION.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: CURRENT_CONDITION.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:priority_flag1:
+  :MIMSY: CURRENT_CONDITION.PRIORITY_FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:priority_flag2:
+  :MIMSY: CURRENT_CONDITION.PRIORITY_FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:summary:
+  :MIMSY: CURRENT_CONDITION.SUMMARY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: CURRENT_CONDITION.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:audit_by:
+  :MIMSY: CURRENT_CONDITION.AUDIT_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:audit_date:
+  :MIMSY: CURRENT_CONDITION.AUDIT_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: CURRENT_CONDITION.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: CURRENT_CONDITION.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag3:
+  :MIMSY: CURRENT_CONDITION.FLAG3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag4:
+  :MIMSY: CURRENT_CONDITION.FLAG4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: CURRENT_CONDITION.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: CURRENT_CONDITION.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: CURRENT_CONDITION.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: CURRENT_CONDITION.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''

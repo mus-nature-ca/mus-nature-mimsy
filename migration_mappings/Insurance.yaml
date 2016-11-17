@@ -1,0 +1,201 @@
+---
+:id:
+  :MIMSY: INSURANCE.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:record_view:
+  :MIMSY: INSURANCE.RECORD_VIEW
+  :module: ''
+  :column: ''
+  :instructions: ''
+:record_type:
+  :MIMSY: INSURANCE.RECORD_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:policy_number:
+  :MIMSY: INSURANCE.POLICY_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:link_id:
+  :MIMSY: INSURANCE.LINK_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:nvarkey:
+  :MIMSY: INSURANCE.NVARKEY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:insured_by:
+  :MIMSY: INSURANCE.INSURED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contact:
+  :MIMSY: INSURANCE.CONTACT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:address:
+  :MIMSY: INSURANCE.ADDRESS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:phone:
+  :MIMSY: INSURANCE.PHONE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:fax:
+  :MIMSY: INSURANCE.FAX
+  :module: ''
+  :column: ''
+  :instructions: ''
+:email:
+  :MIMSY: INSURANCE.EMAIL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:request_by:
+  :MIMSY: INSURANCE.REQUEST_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:request_date:
+  :MIMSY: INSURANCE.REQUEST_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:authorized_by:
+  :MIMSY: INSURANCE.AUTHORIZED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_authorized:
+  :MIMSY: INSURANCE.DATE_AUTHORIZED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: INSURANCE.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: INSURANCE.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: INSURANCE.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: INSURANCE.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:insurance_reason:
+  :MIMSY: INSURANCE.INSURANCE_REASON
+  :module: ''
+  :column: ''
+  :instructions: ''
+:general_liability:
+  :MIMSY: INSURANCE.GENERAL_LIABILITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:general_currency:
+  :MIMSY: INSURANCE.GENERAL_CURRENCY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:minimum_liability:
+  :MIMSY: INSURANCE.MINIMUM_LIABILITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:minimum_currency:
+  :MIMSY: INSURANCE.MINIMUM_CURRENCY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:renewal_history:
+  :MIMSY: INSURANCE.RENEWAL_HISTORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:external_file:
+  :MIMSY: INSURANCE.EXTERNAL_FILE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: INSURANCE.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: INSURANCE.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option2:
+  :MIMSY: INSURANCE.OPTION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number1:
+  :MIMSY: INSURANCE.NUMBER1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number2:
+  :MIMSY: INSURANCE.NUMBER2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date1:
+  :MIMSY: INSURANCE.DATE1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date2:
+  :MIMSY: INSURANCE.DATE2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: INSURANCE.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: INSURANCE.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: INSURANCE.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: INSURANCE.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: INSURANCE.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: INSURANCE.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

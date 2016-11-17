@@ -1,0 +1,36 @@
+---
+:site_id:
+  :MIMSY: SITE_EXCAVATIONS.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:excavator:
+  :MIMSY: SITE_EXCAVATIONS.EXCAVATOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sponsor:
+  :MIMSY: SITE_EXCAVATIONS.SPONSOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: SITE_EXCAVATIONS.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: SITE_EXCAVATIONS.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITE_EXCAVATIONS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: SITE_EXCAVATIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''

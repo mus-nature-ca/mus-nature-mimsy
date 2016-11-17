@@ -1,0 +1,46 @@
+---
+:id:
+  :MIMSY: OTHER_MEASUREMENTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: OTHER_MEASUREMENTS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:part_measured:
+  :MIMSY: OTHER_MEASUREMENTS.PART_MEASURED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: OTHER_MEASUREMENTS.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:measurement:
+  :MIMSY: OTHER_MEASUREMENTS.MEASUREMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:unit:
+  :MIMSY: OTHER_MEASUREMENTS.UNIT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:size:
+  :MIMSY: OTHER_MEASUREMENTS.SIZE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: OTHER_MEASUREMENTS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: OTHER_MEASUREMENTS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''

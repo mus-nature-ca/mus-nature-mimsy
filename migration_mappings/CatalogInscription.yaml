@@ -1,0 +1,21 @@
+---
+:id:
+  :MIMSY: INSCRIPTIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: INSCRIPTIONS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: INSCRIPTIONS.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:text:
+  :MIMSY: INSCRIPTIONS.TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''

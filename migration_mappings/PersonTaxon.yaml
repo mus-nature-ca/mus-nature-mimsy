@@ -1,0 +1,36 @@
+---
+:id:
+  :MIMSY: PEOPLE_TAXONOMY.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: PEOPLE_TAXONOMY.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:taxon_id:
+  :MIMSY: PEOPLE_TAXONOMY.TAXON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: PEOPLE_TAXONOMY.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: PEOPLE_TAXONOMY.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:taxonomy:
+  :MIMSY: PEOPLE_TAXONOMY.TAXONOMY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broader_text:
+  :MIMSY: PEOPLE_TAXONOMY.BROADER_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''

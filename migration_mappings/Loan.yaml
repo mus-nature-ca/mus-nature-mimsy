@@ -1,0 +1,246 @@
+---
+:id:
+  :MIMSY: LOANS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:direction:
+  :MIMSY: LOANS.DIRECTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_number:
+  :MIMSY: LOANS.LOAN_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: LOANS.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_variation_id:
+  :MIMSY: LOANS.PERSON_VARIATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:institution:
+  :MIMSY: LOANS.INSTITUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contact:
+  :MIMSY: LOANS.CONTACT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:address:
+  :MIMSY: LOANS.ADDRESS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:phone:
+  :MIMSY: LOANS.PHONE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:fax:
+  :MIMSY: LOANS.FAX
+  :module: ''
+  :column: ''
+  :instructions: ''
+:email:
+  :MIMSY: LOANS.EMAIL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:requested_by:
+  :MIMSY: LOANS.REQUESTED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:request_date:
+  :MIMSY: LOANS.REQUEST_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:authorized_by:
+  :MIMSY: LOANS.AUTHORIZED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_authorized:
+  :MIMSY: LOANS.DATE_AUTHORIZED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: LOANS.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: LOANS.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:handled_by:
+  :MIMSY: LOANS.HANDLED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:purpose:
+  :MIMSY: LOANS.PURPOSE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_start:
+  :MIMSY: LOANS.LOAN_START
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_end:
+  :MIMSY: LOANS.LOAN_END
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_items:
+  :MIMSY: LOANS.TOTAL_ITEMS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_requested:
+  :MIMSY: LOANS.TOTAL_REQUESTED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:renewal_history:
+  :MIMSY: LOANS.RENEWAL_HISTORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:acknowledge_date:
+  :MIMSY: LOANS.ACKNOWLEDGE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prelim_agree_date:
+  :MIMSY: LOANS.PRELIM_AGREE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:approval_date:
+  :MIMSY: LOANS.APPROVAL_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reject_date:
+  :MIMSY: LOANS.REJECT_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cancel_date:
+  :MIMSY: LOANS.CANCEL_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contract_date:
+  :MIMSY: LOANS.CONTRACT_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contract_terms:
+  :MIMSY: LOANS.CONTRACT_TERMS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prelim_conditions:
+  :MIMSY: LOANS.PRELIM_CONDITIONS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:actual_cost:
+  :MIMSY: LOANS.ACTUAL_COST
+  :module: ''
+  :column: ''
+  :instructions: ''
+:projected_cost:
+  :MIMSY: LOANS.PROJECTED_COST
+  :module: ''
+  :column: ''
+  :instructions: ''
+:insurance_paid_by:
+  :MIMSY: LOANS.INSURANCE_PAID_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:shipping_paid_by:
+  :MIMSY: LOANS.SHIPPING_PAID_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reviewed_by:
+  :MIMSY: LOANS.REVIEWED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:review_date:
+  :MIMSY: LOANS.REVIEW_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:review_comments:
+  :MIMSY: LOANS.REVIEW_COMMENTS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:external_file:
+  :MIMSY: LOANS.EXTERNAL_FILE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: LOANS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: LOANS.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date1:
+  :MIMSY: LOANS.DATE1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: LOANS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: LOANS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: LOANS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: LOANS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: LOANS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: LOANS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,71 @@
+---
+:id:
+  :MIMSY: ITEMS_COLLECTORS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_COLLECTORS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: ITEMS_COLLECTORS.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: ITEMS_COLLECTORS.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:affiliation:
+  :MIMSY: ITEMS_COLLECTORS.AFFILIATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:position:
+  :MIMSY: ITEMS_COLLECTORS.POSITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attributor:
+  :MIMSY: ITEMS_COLLECTORS.ATTRIBUTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_date:
+  :MIMSY: ITEMS_COLLECTORS.ATTRIBUTION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_comment:
+  :MIMSY: ITEMS_COLLECTORS.ATTRIBUTION_COMMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ITEMS_COLLECTORS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: ITEMS_COLLECTORS.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_COLLECTORS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_variation_id:
+  :MIMSY: ITEMS_COLLECTORS.PERSON_VARIATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:name:
+  :MIMSY: ITEMS_COLLECTORS.NAME
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,56 @@
+---
+:id:
+  :MIMSY: ITEMS_PUBLICATIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_PUBLICATIONS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication_id:
+  :MIMSY: ITEMS_PUBLICATIONS.PUBLICATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: ITEMS_PUBLICATIONS.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:plate_figure:
+  :MIMSY: ITEMS_PUBLICATIONS.PLATE_FIGURE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ITEMS_PUBLICATIONS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_PUBLICATIONS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:illustated:
+  :MIMSY: ITEMS_PUBLICATIONS.ILLUSTATED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:pages:
+  :MIMSY: ITEMS_PUBLICATIONS.PAGES
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication:
+  :MIMSY: ITEMS_PUBLICATIONS.PUBLICATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication_date:
+  :MIMSY: ITEMS_PUBLICATIONS.PUBLICATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

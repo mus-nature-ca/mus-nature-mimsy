@@ -1,0 +1,36 @@
+---
+:site_id:
+  :MIMSY: SITE_MAPS.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:map:
+  :MIMSY: SITE_MAPS.MAP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:map_type:
+  :MIMSY: SITE_MAPS.MAP_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:map_date:
+  :MIMSY: SITE_MAPS.MAP_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source:
+  :MIMSY: SITE_MAPS.SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITE_MAPS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: SITE_MAPS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,131 @@
+---
+:id:
+  :MIMSY: ITEMS_SUBJECTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_SUBJECTS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:subject_id:
+  :MIMSY: ITEMS_SUBJECTS.SUBJECT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort:
+  :MIMSY: ITEMS_SUBJECTS.SORT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: ITEMS_SUBJECTS.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:affiliation:
+  :MIMSY: ITEMS_SUBJECTS.AFFILIATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: ITEMS_SUBJECTS.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: ITEMS_SUBJECTS.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:portion:
+  :MIMSY: ITEMS_SUBJECTS.PORTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:position:
+  :MIMSY: ITEMS_SUBJECTS.POSITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_type:
+  :MIMSY: ITEMS_SUBJECTS.ATTRIBUTION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attributor:
+  :MIMSY: ITEMS_SUBJECTS.ATTRIBUTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_date:
+  :MIMSY: ITEMS_SUBJECTS.ATTRIBUTION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_source:
+  :MIMSY: ITEMS_SUBJECTS.ATTRIBUTION_SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:certainty:
+  :MIMSY: ITEMS_SUBJECTS.CERTAINTY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_comment:
+  :MIMSY: ITEMS_SUBJECTS.ATTRIBUTION_COMMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ITEMS_SUBJECTS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: ITEMS_SUBJECTS.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option2:
+  :MIMSY: ITEMS_SUBJECTS.OPTION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option3:
+  :MIMSY: ITEMS_SUBJECTS.OPTION3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option4:
+  :MIMSY: ITEMS_SUBJECTS.OPTION4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:unlinked_value:
+  :MIMSY: ITEMS_SUBJECTS.UNLINKED_VALUE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_SUBJECTS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:importance:
+  :MIMSY: ITEMS_SUBJECTS.IMPORTANCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:subject_variation_id:
+  :MIMSY: ITEMS_SUBJECTS.SUBJECT_VARIATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:subject:
+  :MIMSY: ITEMS_SUBJECTS.SUBJECT
+  :module: ''
+  :column: ''
+  :instructions: ''

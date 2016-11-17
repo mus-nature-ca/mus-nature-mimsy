@@ -1,0 +1,36 @@
+---
+:id:
+  :MIMSY: ITEMS_OWNERS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_OWNERS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: ITEMS_OWNERS.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: ITEMS_OWNERS.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: ITEMS_OWNERS.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_OWNERS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:name:
+  :MIMSY: ITEMS_OWNERS.NAME
+  :module: ''
+  :column: ''
+  :instructions: ''

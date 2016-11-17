@@ -1,0 +1,286 @@
+---
+:id:
+  :MIMSY: SITES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:language:
+  :MIMSY: SITES.LANGUAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_id:
+  :MIMSY: SITES.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_type:
+  :MIMSY: SITES.SITE_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_name:
+  :MIMSY: SITES.SITE_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:environment:
+  :MIMSY: SITES.ENVIRONMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: SITES.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_date:
+  :MIMSY: SITES.SITE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: SITES.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location_accuracy:
+  :MIMSY: SITES.LOCATION_ACCURACY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:start_latitude:
+  :MIMSY: SITES.START_LATITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:start_longitude:
+  :MIMSY: SITES.START_LONGITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_latitude:
+  :MIMSY: SITES.END_LATITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_longitude:
+  :MIMSY: SITES.END_LONGITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:utm_start:
+  :MIMSY: SITES.UTM_START
+  :module: ''
+  :column: ''
+  :instructions: ''
+:utm_end:
+  :MIMSY: SITES.UTM_END
+  :module: ''
+  :column: ''
+  :instructions: ''
+:start_latitude_dec:
+  :MIMSY: SITES.START_LATITUDE_DEC
+  :module: ''
+  :column: ''
+  :instructions: ''
+:start_longitude_dec:
+  :MIMSY: SITES.START_LONGITUDE_DEC
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_latitude_dec:
+  :MIMSY: SITES.END_LATITUDE_DEC
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_longitude_dec:
+  :MIMSY: SITES.END_LONGITUDE_DEC
+  :module: ''
+  :column: ''
+  :instructions: ''
+:decimal_is_primary:
+  :MIMSY: SITES.DECIMAL_IS_PRIMARY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:coord_uncertainty:
+  :MIMSY: SITES.COORD_UNCERTAINTY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:coord_uncertainty_verb:
+  :MIMSY: SITES.COORD_UNCERTAINTY_VERB
+  :module: ''
+  :column: ''
+  :instructions: ''
+:uncertainty_unit:
+  :MIMSY: SITES.UNCERTAINTY_UNIT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:georef_status:
+  :MIMSY: SITES.GEOREF_STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:georef_source:
+  :MIMSY: SITES.GEOREF_SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:geodetic_datum:
+  :MIMSY: SITES.GEODETIC_DATUM
+  :module: ''
+  :column: ''
+  :instructions: ''
+:measurements:
+  :MIMSY: SITES.MEASUREMENTS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:elevation:
+  :MIMSY: SITES.ELEVATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:topography:
+  :MIMSY: SITES.TOPOGRAPHY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:ecological_zones:
+  :MIMSY: SITES.ECOLOGICAL_ZONES
+  :module: ''
+  :column: ''
+  :instructions: ''
+:vegetation:
+  :MIMSY: SITES.VEGETATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:disturbance_factors:
+  :MIMSY: SITES.DISTURBANCE_FACTORS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition:
+  :MIMSY: SITES.CONDITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:owner:
+  :MIMSY: SITES.OWNER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:register_status:
+  :MIMSY: SITES.REGISTER_STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:archaeological_status:
+  :MIMSY: SITES.ARCHAEOLOGICAL_STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:jurisdiction:
+  :MIMSY: SITES.JURISDICTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_designation:
+  :MIMSY: SITES.SITE_DESIGNATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:research_activity:
+  :MIMSY: SITES.RESEARCH_ACTIVITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:recommendations:
+  :MIMSY: SITES.RECOMMENDATIONS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publish:
+  :MIMSY: SITES.PUBLISH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: SITES.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option2:
+  :MIMSY: SITES.OPTION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: SITES.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: SITES.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort_prefix:
+  :MIMSY: SITES.SORT_PREFIX
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort1:
+  :MIMSY: SITES.SORT1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort2:
+  :MIMSY: SITES.SORT2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort3:
+  :MIMSY: SITES.SORT3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort4:
+  :MIMSY: SITES.SORT4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort5:
+  :MIMSY: SITES.SORT5
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: SITES.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: SITES.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: SITES.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: SITES.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''

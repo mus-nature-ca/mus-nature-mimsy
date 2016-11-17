@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: MEDIA_PEOPLE.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: MEDIA_PEOPLE.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: MEDIA_PEOPLE.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: MEDIA_PEOPLE.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: MEDIA_PEOPLE.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:name:
+  :MIMSY: MEDIA_PEOPLE.NAME
+  :module: ''
+  :column: ''
+  :instructions: ''

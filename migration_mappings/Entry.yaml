@@ -1,0 +1,176 @@
+---
+:id:
+  :MIMSY: ENTRY.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:record_view:
+  :MIMSY: ENTRY.RECORD_VIEW
+  :module: ''
+  :column: ''
+  :instructions: ''
+:receipt_number:
+  :MIMSY: ENTRY.RECEIPT_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:entry_date:
+  :MIMSY: ENTRY.ENTRY_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:record_type:
+  :MIMSY: ENTRY.RECORD_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reason:
+  :MIMSY: ENTRY.REASON
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: ENTRY.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: ENTRY.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: ENTRY.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: ENTRY.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_variation_id:
+  :MIMSY: ENTRY.PERSON_VARIATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:depositor:
+  :MIMSY: ENTRY.DEPOSITOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contact:
+  :MIMSY: ENTRY.CONTACT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:address:
+  :MIMSY: ENTRY.ADDRESS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:phone:
+  :MIMSY: ENTRY.PHONE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:fax:
+  :MIMSY: ENTRY.FAX
+  :module: ''
+  :column: ''
+  :instructions: ''
+:email:
+  :MIMSY: ENTRY.EMAIL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:received_by:
+  :MIMSY: ENTRY.RECEIVED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:return_instructions:
+  :MIMSY: ENTRY.RETURN_INSTRUCTIONS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_objects:
+  :MIMSY: ENTRY.TOTAL_OBJECTS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:total_recorded:
+  :MIMSY: ENTRY.TOTAL_RECORDED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:external_file:
+  :MIMSY: ENTRY.EXTERNAL_FILE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ENTRY.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: ENTRY.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option2:
+  :MIMSY: ENTRY.OPTION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number1:
+  :MIMSY: ENTRY.NUMBER1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number2:
+  :MIMSY: ENTRY.NUMBER2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date1:
+  :MIMSY: ENTRY.DATE1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date2:
+  :MIMSY: ENTRY.DATE2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: ENTRY.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: ENTRY.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: ENTRY.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: ENTRY.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: ENTRY.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: ENTRY.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

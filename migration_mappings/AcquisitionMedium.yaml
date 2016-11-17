@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: ACQUISITIONS_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: ACQUISITIONS_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: ACQUISITIONS_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:acquisition_id:
+  :MIMSY: ACQUISITIONS_MEDIA.ACQUISITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:acquisition:
+  :MIMSY: ACQUISITIONS_MEDIA.ACQUISITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ACQUISITIONS_MEDIA.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

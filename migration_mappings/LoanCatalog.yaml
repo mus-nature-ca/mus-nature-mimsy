@@ -1,0 +1,106 @@
+---
+:id:
+  :MIMSY: LOAN_ITEMS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_id:
+  :MIMSY: LOAN_ITEMS.LOAN_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: LOAN_ITEMS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id_number:
+  :MIMSY: LOAN_ITEMS.ID_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: LOAN_ITEMS.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: LOAN_ITEMS.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_date:
+  :MIMSY: LOAN_ITEMS.LOAN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:due_date:
+  :MIMSY: LOAN_ITEMS.DUE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:return_date:
+  :MIMSY: LOAN_ITEMS.RETURN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:return_confirmed_by:
+  :MIMSY: LOAN_ITEMS.RETURN_CONFIRMED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:renewal_history:
+  :MIMSY: LOAN_ITEMS.RENEWAL_HISTORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: LOAN_ITEMS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: LOAN_ITEMS.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: LOAN_ITEMS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: LOAN_ITEMS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalogued:
+  :MIMSY: LOAN_ITEMS.CATALOGUED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id_sort:
+  :MIMSY: LOAN_ITEMS.ID_SORT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: LOAN_ITEMS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: LOAN_ITEMS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: LOAN_ITEMS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: LOAN_ITEMS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

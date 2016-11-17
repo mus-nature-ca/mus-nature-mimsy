@@ -1,0 +1,121 @@
+---
+:id:
+  :MIMSY: PEOPLE_CONTACTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: PEOPLE_CONTACTS.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:address_type:
+  :MIMSY: PEOPLE_CONTACTS.ADDRESS_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:active_flag:
+  :MIMSY: PEOPLE_CONTACTS.ACTIVE_FLAG
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_active:
+  :MIMSY: PEOPLE_CONTACTS.DATE_ACTIVE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: PEOPLE_CONTACTS.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contact:
+  :MIMSY: PEOPLE_CONTACTS.CONTACT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contact_title:
+  :MIMSY: PEOPLE_CONTACTS.CONTACT_TITLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:salutation:
+  :MIMSY: PEOPLE_CONTACTS.SALUTATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:institution:
+  :MIMSY: PEOPLE_CONTACTS.INSTITUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:department:
+  :MIMSY: PEOPLE_CONTACTS.DEPARTMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:address1:
+  :MIMSY: PEOPLE_CONTACTS.ADDRESS1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:address2:
+  :MIMSY: PEOPLE_CONTACTS.ADDRESS2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:address3:
+  :MIMSY: PEOPLE_CONTACTS.ADDRESS3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:city:
+  :MIMSY: PEOPLE_CONTACTS.CITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:state_province:
+  :MIMSY: PEOPLE_CONTACTS.STATE_PROVINCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:postal_code:
+  :MIMSY: PEOPLE_CONTACTS.POSTAL_CODE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:country:
+  :MIMSY: PEOPLE_CONTACTS.COUNTRY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:work_phone:
+  :MIMSY: PEOPLE_CONTACTS.WORK_PHONE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:home_phone:
+  :MIMSY: PEOPLE_CONTACTS.HOME_PHONE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:fax:
+  :MIMSY: PEOPLE_CONTACTS.FAX
+  :module: ''
+  :column: ''
+  :instructions: ''
+:e_mail:
+  :MIMSY: PEOPLE_CONTACTS.E_MAIL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:www_address:
+  :MIMSY: PEOPLE_CONTACTS.WWW_ADDRESS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:telex:
+  :MIMSY: PEOPLE_CONTACTS.TELEX
+  :module: ''
+  :column: ''
+  :instructions: ''

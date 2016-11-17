@@ -1,0 +1,31 @@
+---
+:site_id:
+  :MIMSY: SITE_CULTURES.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:culture:
+  :MIMSY: SITE_CULTURES.CULTURE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:phase:
+  :MIMSY: SITE_CULTURES.PHASE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:period:
+  :MIMSY: SITE_CULTURES.PERIOD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITE_CULTURES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: SITE_CULTURES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''

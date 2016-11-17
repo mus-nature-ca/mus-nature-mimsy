@@ -1,0 +1,41 @@
+---
+:id:
+  :MIMSY: CONSERVATION_DETAILS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:conservation_id:
+  :MIMSY: CONSERVATION_DETAILS.CONSERVATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:material:
+  :MIMSY: CONSERVATION_DETAILS.MATERIAL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:area_applied:
+  :MIMSY: CONSERVATION_DETAILS.AREA_APPLIED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:applied_by:
+  :MIMSY: CONSERVATION_DETAILS.APPLIED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_applied:
+  :MIMSY: CONSERVATION_DETAILS.DATE_APPLIED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_removed:
+  :MIMSY: CONSERVATION_DETAILS.DATE_REMOVED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: CONSERVATION_DETAILS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,81 @@
+---
+:id:
+  :MIMSY: ITEMS_TAXONOMY.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_TAXONOMY.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:taxon_id:
+  :MIMSY: ITEMS_TAXONOMY.TAXON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: ITEMS_TAXONOMY.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type_status:
+  :MIMSY: ITEMS_TAXONOMY.TYPE_STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_type:
+  :MIMSY: ITEMS_TAXONOMY.ATTRIBUTION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:identified_by:
+  :MIMSY: ITEMS_TAXONOMY.IDENTIFIED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_identified:
+  :MIMSY: ITEMS_TAXONOMY.DATE_IDENTIFIED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attribution_source:
+  :MIMSY: ITEMS_TAXONOMY.ATTRIBUTION_SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:identifier_comment:
+  :MIMSY: ITEMS_TAXONOMY.IDENTIFIER_COMMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ITEMS_TAXONOMY.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_TAXONOMY.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:taxon_variation_id:
+  :MIMSY: ITEMS_TAXONOMY.TAXON_VARIATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type_specimen:
+  :MIMSY: ITEMS_TAXONOMY.TYPE_SPECIMEN
+  :module: ''
+  :column: ''
+  :instructions: ''
+:scientific_name:
+  :MIMSY: ITEMS_TAXONOMY.SCIENTIFIC_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:higher_taxonomy:
+  :MIMSY: ITEMS_TAXONOMY.HIGHER_TAXONOMY
+  :module: ''
+  :column: ''
+  :instructions: ''

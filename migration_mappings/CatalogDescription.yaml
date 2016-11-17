@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: ITEM_DESCRIPTIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEM_DESCRIPTIONS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_description:
+  :MIMSY: ITEM_DESCRIPTIONS.PRIOR_DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description_type:
+  :MIMSY: ITEM_DESCRIPTIONS.DESCRIPTION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: ITEM_DESCRIPTIONS.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description_date:
+  :MIMSY: ITEM_DESCRIPTIONS.DESCRIPTION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

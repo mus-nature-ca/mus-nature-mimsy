@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: EVENTS_PUBLICATIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:event_id:
+  :MIMSY: EVENTS_PUBLICATIONS.EVENT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication_id:
+  :MIMSY: EVENTS_PUBLICATIONS.PUBLICATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: EVENTS_PUBLICATIONS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:illustrated:
+  :MIMSY: EVENTS_PUBLICATIONS.ILLUSTRATED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publication:
+  :MIMSY: EVENTS_PUBLICATIONS.PUBLICATION
+  :module: ''
+  :column: ''
+  :instructions: ''

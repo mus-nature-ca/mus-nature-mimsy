@@ -1,0 +1,136 @@
+---
+:id:
+  :MIMSY: FACILITIES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: FACILITIES.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: FACILITIES.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort_name:
+  :MIMSY: FACILITIES.SORT_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:address_line1:
+  :MIMSY: FACILITIES.ADDRESS_LINE1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:city:
+  :MIMSY: FACILITIES.CITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:state_province:
+  :MIMSY: FACILITIES.STATE_PROVINCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:country:
+  :MIMSY: FACILITIES.COUNTRY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:postal_code:
+  :MIMSY: FACILITIES.POSTAL_CODE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: FACILITIES.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:parent_id:
+  :MIMSY: FACILITIES.PARENT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broader_text:
+  :MIMSY: FACILITIES.BROADER_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:hierarchy_level:
+  :MIMSY: FACILITIES.HIERARCHY_LEVEL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:insured:
+  :MIMSY: FACILITIES.INSURED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:networked:
+  :MIMSY: FACILITIES.NETWORKED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:computer_onsite:
+  :MIMSY: FACILITIES.COMPUTER_ONSITE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:freight_elevator:
+  :MIMSY: FACILITIES.FREIGHT_ELEVATOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loading_dock:
+  :MIMSY: FACILITIES.LOADING_DOCK
+  :module: ''
+  :column: ''
+  :instructions: ''
+:number_of_exits:
+  :MIMSY: FACILITIES.NUMBER_OF_EXITS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:available:
+  :MIMSY: FACILITIES.AVAILABLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publish:
+  :MIMSY: FACILITIES.PUBLISH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: FACILITIES.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: FACILITIES.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: FACILITIES.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: FACILITIES.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: FACILITIES.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: FACILITIES.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,81 @@
+---
+:id:
+  :MIMSY: SUBJECTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:language:
+  :MIMSY: SUBJECTS.LANGUAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:candidate:
+  :MIMSY: SUBJECTS.CANDIDATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:subject:
+  :MIMSY: SUBJECTS.SUBJECT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort_name:
+  :MIMSY: SUBJECTS.SORT_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:subject_category:
+  :MIMSY: SUBJECTS.SUBJECT_CATEGORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: SUBJECTS.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SUBJECTS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publish:
+  :MIMSY: SUBJECTS.PUBLISH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date1:
+  :MIMSY: SUBJECTS.DATE1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: SUBJECTS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: SUBJECTS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: SUBJECTS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: SUBJECTS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: SUBJECTS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: SUBJECTS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

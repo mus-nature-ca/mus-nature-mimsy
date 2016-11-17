@@ -1,0 +1,76 @@
+---
+:id:
+  :MIMSY: SITE_DESCRIPTIONS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_id:
+  :MIMSY: SITE_DESCRIPTIONS.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: SITE_DESCRIPTIONS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description_type:
+  :MIMSY: SITE_DESCRIPTIONS.DESCRIPTION_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: SITE_DESCRIPTIONS.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:descript_source:
+  :MIMSY: SITE_DESCRIPTIONS.DESCRIPT_SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:descript_date:
+  :MIMSY: SITE_DESCRIPTIONS.DESCRIPT_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attrib_type:
+  :MIMSY: SITE_DESCRIPTIONS.ATTRIB_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attributor:
+  :MIMSY: SITE_DESCRIPTIONS.ATTRIBUTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attrib_date:
+  :MIMSY: SITE_DESCRIPTIONS.ATTRIB_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attrib_source:
+  :MIMSY: SITE_DESCRIPTIONS.ATTRIB_SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:attrib_comment:
+  :MIMSY: SITE_DESCRIPTIONS.ATTRIB_COMMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:certainty:
+  :MIMSY: SITE_DESCRIPTIONS.CERTAINTY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:step:
+  :MIMSY: SITE_DESCRIPTIONS.STEP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITE_DESCRIPTIONS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

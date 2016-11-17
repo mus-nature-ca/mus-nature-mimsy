@@ -1,0 +1,31 @@
+---
+:site_id:
+  :MIMSY: SITE_SURVEYS.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:surveyor:
+  :MIMSY: SITE_SURVEYS.SURVEYOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: SITE_SURVEYS.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: SITE_SURVEYS.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITE_SURVEYS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: SITE_SURVEYS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''

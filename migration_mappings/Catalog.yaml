@@ -1,0 +1,281 @@
+---
+:id:
+  :MIMSY: CATALOGUE.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:language:
+  :MIMSY: CATALOGUE.LANGUAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_number:
+  :MIMSY: CATALOGUE.CATALOG_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:collection_code:
+  :MIMSY: CATALOGUE.COLLECTION_CODE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:collection:
+  :MIMSY: CATALOGUE.COLLECTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:scientific_name:
+  :MIMSY: CATALOGUE.SCIENTIFIC_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:specimen_name:
+  :MIMSY: CATALOGUE.SPECIMEN_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:maker:
+  :MIMSY: CATALOGUE.MAKER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:collector:
+  :MIMSY: CATALOGUE.COLLECTOR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_collected:
+  :MIMSY: CATALOGUE.PLACE_COLLECTED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_collected:
+  :MIMSY: CATALOGUE.DATE_COLLECTED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_made:
+  :MIMSY: CATALOGUE.PLACE_MADE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site:
+  :MIMSY: CATALOGUE.SITE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:culture:
+  :MIMSY: CATALOGUE.CULTURE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_made:
+  :MIMSY: CATALOGUE.DATE_MADE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:specimen_nature:
+  :MIMSY: CATALOGUE.SPECIMEN_NATURE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sex:
+  :MIMSY: CATALOGUE.SEX
+  :module: ''
+  :column: ''
+  :instructions: ''
+:geologic_age:
+  :MIMSY: CATALOGUE.GEOLOGIC_AGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:stage:
+  :MIMSY: CATALOGUE.STAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:measurements:
+  :MIMSY: CATALOGUE.MEASUREMENTS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: CATALOGUE.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:acquisition_number:
+  :MIMSY: CATALOGUE.ACQUISITION_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:item_count:
+  :MIMSY: CATALOGUE.ITEM_COUNT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:system_count:
+  :MIMSY: CATALOGUE.SYSTEM_COUNT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:parent_key:
+  :MIMSY: CATALOGUE.PARENT_KEY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broader_text:
+  :MIMSY: CATALOGUE.BROADER_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:whole_part:
+  :MIMSY: CATALOGUE.WHOLE_PART
+  :module: ''
+  :column: ''
+  :instructions: ''
+:home_location:
+  :MIMSY: CATALOGUE.HOME_LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: CATALOGUE.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:language_of_material:
+  :MIMSY: CATALOGUE.LANGUAGE_OF_MATERIAL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: CATALOGUE.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option2:
+  :MIMSY: CATALOGUE.OPTION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option3:
+  :MIMSY: CATALOGUE.OPTION3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option4:
+  :MIMSY: CATALOGUE.OPTION4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option5:
+  :MIMSY: CATALOGUE.OPTION5
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option6:
+  :MIMSY: CATALOGUE.OPTION6
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option7:
+  :MIMSY: CATALOGUE.OPTION7
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: CATALOGUE.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: CATALOGUE.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag3:
+  :MIMSY: CATALOGUE.FLAG3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:gbif:
+  :MIMSY: CATALOGUE.GBIF
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publish:
+  :MIMSY: CATALOGUE.PUBLISH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_allowed:
+  :MIMSY: CATALOGUE.LOAN_ALLOWED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:offsite:
+  :MIMSY: CATALOGUE.OFFSITE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: CATALOGUE.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: CATALOGUE.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: CATALOGUE.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: CATALOGUE.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: CATALOGUE.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location_date:
+  :MIMSY: CATALOGUE.LOCATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location_levels:
+  :MIMSY: CATALOGUE.LOCATION_LEVELS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition:
+  :MIMSY: CATALOGUE.CONDITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition_date:
+  :MIMSY: CATALOGUE.CONDITION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:valuation:
+  :MIMSY: CATALOGUE.VALUATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:valuation_date:
+  :MIMSY: CATALOGUE.VALUATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:legal_status:
+  :MIMSY: CATALOGUE.LEGAL_STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,61 @@
+---
+:id:
+  :MIMSY: CONSERVATION_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: CONSERVATION_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: CONSERVATION_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: CONSERVATION_MEDIA.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:object:
+  :MIMSY: CONSERVATION_MEDIA.OBJECT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:conservation_id:
+  :MIMSY: CONSERVATION_MEDIA.CONSERVATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:conservation:
+  :MIMSY: CONSERVATION_MEDIA.CONSERVATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: CONSERVATION_MEDIA.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: CONSERVATION_MEDIA.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: CONSERVATION_MEDIA.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort:
+  :MIMSY: CONSERVATION_MEDIA.SORT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: CONSERVATION_MEDIA.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

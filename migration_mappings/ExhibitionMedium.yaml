@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: EXHIBITIONS_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: EXHIBITIONS_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: EXHIBITIONS_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:exhibition_id:
+  :MIMSY: EXHIBITIONS_MEDIA.EXHIBITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:exhibition:
+  :MIMSY: EXHIBITIONS_MEDIA.EXHIBITION
+  :module: ''
+  :column: ''
+  :instructions: ''

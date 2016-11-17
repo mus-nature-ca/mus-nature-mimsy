@@ -1,0 +1,51 @@
+---
+:catalog_id:
+  :MIMSY: CURRENT_LEGAL_STATUS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:legal_status:
+  :MIMSY: CURRENT_LEGAL_STATUS.LEGAL_STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: CURRENT_LEGAL_STATUS.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:owner:
+  :MIMSY: CURRENT_LEGAL_STATUS.OWNER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:department:
+  :MIMSY: CURRENT_LEGAL_STATUS.DEPARTMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:collection:
+  :MIMSY: CURRENT_LEGAL_STATUS.COLLECTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:notes:
+  :MIMSY: CURRENT_LEGAL_STATUS.NOTES
+  :module: ''
+  :column: ''
+  :instructions: ''
+:physical_holder:
+  :MIMSY: CURRENT_LEGAL_STATUS.PHYSICAL_HOLDER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:current_record:
+  :MIMSY: CURRENT_LEGAL_STATUS.CURRENT_RECORD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: CURRENT_LEGAL_STATUS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''

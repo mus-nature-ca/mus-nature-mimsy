@@ -1,0 +1,61 @@
+---
+:id:
+  :MIMSY: GROUPS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:module:
+  :MIMSY: GROUPS.MODULE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:group_area:
+  :MIMSY: GROUPS.GROUP_AREA
+  :module: ''
+  :column: ''
+  :instructions: ''
+:name:
+  :MIMSY: GROUPS.NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:private_public:
+  :MIMSY: GROUPS.PRIVATE_PUBLIC
+  :module: ''
+  :column: ''
+  :instructions: ''
+:group_type:
+  :MIMSY: GROUPS.GROUP_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:group_owner:
+  :MIMSY: GROUPS.GROUP_OWNER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:department:
+  :MIMSY: GROUPS.DEPARTMENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: GROUPS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: GROUPS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: GROUPS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: GROUPS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

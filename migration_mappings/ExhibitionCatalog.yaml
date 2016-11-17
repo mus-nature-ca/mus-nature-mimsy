@@ -1,0 +1,121 @@
+---
+:id:
+  :MIMSY: EXHIBITION_ITEMS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:exhibition_id:
+  :MIMSY: EXHIBITION_ITEMS.EXHIBITION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: EXHIBITION_ITEMS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: EXHIBITION_ITEMS.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id_number:
+  :MIMSY: EXHIBITION_ITEMS.ID_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: EXHIBITION_ITEMS.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: EXHIBITION_ITEMS.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:theme_section:
+  :MIMSY: EXHIBITION_ITEMS.THEME_SECTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:theme_sub1:
+  :MIMSY: EXHIBITION_ITEMS.THEME_SUB1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:theme_sub2:
+  :MIMSY: EXHIBITION_ITEMS.THEME_SUB2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:theme_sub3:
+  :MIMSY: EXHIBITION_ITEMS.THEME_SUB3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: EXHIBITION_ITEMS.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalogued_item:
+  :MIMSY: EXHIBITION_ITEMS.CATALOGUED_ITEM
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: EXHIBITION_ITEMS.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: EXHIBITION_ITEMS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: EXHIBITION_ITEMS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag3:
+  :MIMSY: EXHIBITION_ITEMS.FLAG3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag4:
+  :MIMSY: EXHIBITION_ITEMS.FLAG4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalogued:
+  :MIMSY: EXHIBITION_ITEMS.CATALOGUED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id_sort:
+  :MIMSY: EXHIBITION_ITEMS.ID_SORT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: EXHIBITION_ITEMS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: EXHIBITION_ITEMS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: EXHIBITION_ITEMS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: EXHIBITION_ITEMS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

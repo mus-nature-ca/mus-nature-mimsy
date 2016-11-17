@@ -1,0 +1,46 @@
+---
+:id:
+  :MIMSY: EVENTS_PEOPLE.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:event_id:
+  :MIMSY: EVENTS_PEOPLE.EVENT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: EVENTS_PEOPLE.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: EVENTS_PEOPLE.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: EVENTS_PEOPLE.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: EVENTS_PEOPLE.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: EVENTS_PEOPLE.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: EVENTS_PEOPLE.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:name:
+  :MIMSY: EVENTS_PEOPLE.NAME
+  :module: ''
+  :column: ''
+  :instructions: ''

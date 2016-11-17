@@ -1,0 +1,36 @@
+---
+:id:
+  :MIMSY: LOAN_VENUES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:loan_id:
+  :MIMSY: LOAN_VENUES.LOAN_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: LOAN_VENUES.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:venue:
+  :MIMSY: LOAN_VENUES.VENUE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contact:
+  :MIMSY: LOAN_VENUES.CONTACT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: LOAN_VENUES.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: LOAN_VENUES.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

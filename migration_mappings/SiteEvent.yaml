@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: SITES_EVENTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:event_id:
+  :MIMSY: SITES_EVENTS.EVENT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_id:
+  :MIMSY: SITES_EVENTS.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: SITES_EVENTS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:event:
+  :MIMSY: SITES_EVENTS.EVENT
+  :module: ''
+  :column: ''
+  :instructions: ''

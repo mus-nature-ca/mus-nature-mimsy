@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: MEDIA_EVENTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:event_id:
+  :MIMSY: MEDIA_EVENTS.EVENT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: MEDIA_EVENTS.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: MEDIA_EVENTS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:event:
+  :MIMSY: MEDIA_EVENTS.EVENT
+  :module: ''
+  :column: ''
+  :instructions: ''

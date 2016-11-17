@@ -37,6 +37,10 @@ optparse = OptionParser.new do |opts|
     options[:fields] = true
   end
 
+  opts.on("-m", "--migration-templates", "Export default yaml migration templates for all models") do
+    options[:migration_templates] = true
+  end
+
   opts.on("-l", "--lists", "Export categorical values for lists") do
     options[:lists] = true
   end
@@ -75,6 +79,26 @@ if options[:model]
   end
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 
+elsif options[:migration_templates]
+  start = Time.now
+  output_dir = File.join(ENV['PWD'], 'migration_mappings')
+
+  models = ActiveRecord::Base.descendants
+  models.delete_if{|m| exclusions.include?(m.name)}
+
+  models.each do |model|
+    yaml = model.custom_attribute_names
+                .map{|an| [an, { 
+                  "MIMSY" => [model.table_name.upcase, an.upcase].join("."), 
+                  "module" => "", 
+                  "column" => "", 
+                  "instructions" => "" }.symbolize_keys!]}
+                .to_h.symbolize_keys!.to_yaml
+    File.open(output_dir + "/#{model.name}.yaml", 'w') {|f| f.write yaml }
+  end
+
+  puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
+
 elsif options[:fields]
   start = Time.now
   processes = options[:processes] || 4
@@ -84,23 +108,42 @@ elsif options[:fields]
   models.delete_if{|m| exclusions.include?(m.name)}
   part = models.length/processes
 
+  mappings_dir = File.join(ENV['PWD'], 'migration_mappings')
+
   Parallel.map(0..processes, progress: "Exporting Fields", in_processes: processes) do |i|
     sub = models.slice(part*i, part)
     sub.each do |model|
       CSV.open(dir_zip + "/#{model.name}_fields.csv", 'w') do |csv|
-        csv << ["field_name", "MIMSY_field_name", "field_type", "field_length", "field_example"]
+        if File.file?(File.join(mappings_dir, "#{model.name}.yaml"))
+          csv << ["field_name", "MIMSY_field_name", "field_type", "field_length", "field_example", "emu_module", "emu_column", "migration_instructions"]
+        else
+          csv << ["field_name", "MIMSY_field_name", "field_type", "field_length", "field_example"]
+        end
         original = model.attribute_names.map{|n| [model.table_name.upcase, n.upcase].join(".")}
         custom = model.custom_attribute_names
         type = model.columns.collect(&:type).map(&:to_s)
         length = model.columns.collect(&:limit)
-        sample = model.attribute_names.map{|a| model.where.not("#{a}": nil).first[a] rescue nil}
-        columns = custom.zip(original, type, length, sample)
+        sample = model.attribute_names.map{|a| model.limit(5_000).pluck(a).compact.sample rescue nil}
+        if File.file?(File.join(mappings_dir, "#{model.name}.yaml"))
+          mappings = YAML.load_file(File.join(mappings_dir, "#{model.name}.yaml"))
+          emu_module = model.custom_attribute_names.map{|a| mappings[a.to_sym][:module]}
+          emu_column = model.custom_attribute_names.map{|a| mappings[a.to_sym][:column]}
+          emu_instructions = model.custom_attribute_names.map{|a| mappings[a.to_sym][:instructions]}
+          columns = custom.zip(original, type, length, sample, emu_module, emu_column, emu_instructions)
+        else
+          columns = custom.zip(original, type, length, sample)
+        end
         columns.each do |data|
           csv << data
         end
       end
     end
   end
+
+  zf = ZipFileGenerator.new(dir_zip, dir_zip + ".zip")
+  zf.write()
+  FileUtils.rm_rf(dir_zip)
+
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 
 elsif options[:admin_lists]
@@ -201,17 +244,6 @@ elsif options[:all]
       end
     end
   end
-
-=begin
-  #No longer necessary, but kept here for postersity
-  output = File.join(dir_zip, "TaxonParse.csv")
-  taxon_parser = TaxonParser.new(Taxon,output)
-  taxon_parser.export
-
-  output = File.join(dir_zip, "TaxonVariationParse.csv")
-  taxon_parser = TaxonParser.new(TaxonVariation,output)
-  taxon_parser.export
-=end
 
   zf = ZipFileGenerator.new(dir_zip, dir_zip + ".zip")
   zf.write()

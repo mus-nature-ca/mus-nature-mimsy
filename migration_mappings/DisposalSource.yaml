@@ -1,0 +1,56 @@
+---
+:id:
+  :MIMSY: DISPOSAL_SOURCES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:disposal_id:
+  :MIMSY: DISPOSAL_SOURCES.DISPOSAL_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_id:
+  :MIMSY: DISPOSAL_SOURCES.PERSON_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:person_variation_id:
+  :MIMSY: DISPOSAL_SOURCES.PERSON_VARIATION_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source:
+  :MIMSY: DISPOSAL_SOURCES.SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source_role:
+  :MIMSY: DISPOSAL_SOURCES.SOURCE_ROLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:contact:
+  :MIMSY: DISPOSAL_SOURCES.CONTACT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:address:
+  :MIMSY: DISPOSAL_SOURCES.ADDRESS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:amount_paid:
+  :MIMSY: DISPOSAL_SOURCES.AMOUNT_PAID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: DISPOSAL_SOURCES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:unlinked_value:
+  :MIMSY: DISPOSAL_SOURCES.UNLINKED_VALUE
+  :module: ''
+  :column: ''
+  :instructions: ''

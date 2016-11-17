@@ -1,0 +1,71 @@
+---
+:id:
+  :MIMSY: ITEMS_SITES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_SITES.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_id:
+  :MIMSY: ITEMS_SITES.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:specific_locale:
+  :MIMSY: ITEMS_SITES.SPECIFIC_LOCALE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:habitat:
+  :MIMSY: ITEMS_SITES.HABITAT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: ITEMS_SITES.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:position:
+  :MIMSY: ITEMS_SITES.POSITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: ITEMS_SITES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_SITES.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site:
+  :MIMSY: ITEMS_SITES.SITE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:start_latitude:
+  :MIMSY: ITEMS_SITES.START_LATITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:start_longitude:
+  :MIMSY: ITEMS_SITES.START_LONGITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_latitude:
+  :MIMSY: ITEMS_SITES.END_LATITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_longitude:
+  :MIMSY: ITEMS_SITES.END_LONGITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''

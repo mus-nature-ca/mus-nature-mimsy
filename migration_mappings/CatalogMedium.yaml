@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: ITEMS_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: ITEMS_MEDIA.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: ITEMS_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: ITEMS_MEDIA.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: ITEMS_MEDIA.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: ITEMS_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''

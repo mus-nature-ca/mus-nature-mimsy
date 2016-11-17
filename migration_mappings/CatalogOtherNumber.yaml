@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: OTHER_NUMBERS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: OTHER_NUMBERS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:other_number:
+  :MIMSY: OTHER_NUMBERS.OTHER_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: OTHER_NUMBERS.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source:
+  :MIMSY: OTHER_NUMBERS.SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: OTHER_NUMBERS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

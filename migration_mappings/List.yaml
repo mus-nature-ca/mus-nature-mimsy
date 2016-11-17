@@ -1,0 +1,36 @@
+---
+:list_key:
+  :MIMSY: LISTS.LIST_KEY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:field:
+  :MIMSY: LISTS.FIELD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:view_value:
+  :MIMSY: LISTS.VIEW_VALUE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:term1:
+  :MIMSY: LISTS.TERM1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:term2:
+  :MIMSY: LISTS.TERM2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:term3:
+  :MIMSY: LISTS.TERM3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: LISTS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

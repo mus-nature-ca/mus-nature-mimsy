@@ -1,0 +1,176 @@
+---
+:id:
+  :MIMSY: PLACES.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:language:
+  :MIMSY: PLACES.LANGUAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:name:
+  :MIMSY: PLACES.NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place2:
+  :MIMSY: PLACES.PLACE2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place3:
+  :MIMSY: PLACES.PLACE3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort_name:
+  :MIMSY: PLACES.SORT_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:place_type:
+  :MIMSY: PLACES.PLACE_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:geographic_name:
+  :MIMSY: PLACES.GEOGRAPHIC_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:political_name:
+  :MIMSY: PLACES.POLITICAL_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:modified:
+  :MIMSY: PLACES.MODIFIED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:guide_term:
+  :MIMSY: PLACES.GUIDE_TERM
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publish:
+  :MIMSY: PLACES.PUBLISH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: PLACES.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broader_key:
+  :MIMSY: PLACES.BROADER_KEY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broader_text:
+  :MIMSY: PLACES.BROADER_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:hierarchy_level:
+  :MIMSY: PLACES.HIERARCHY_LEVEL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:start_qualifier:
+  :MIMSY: PLACES.START_QUALIFIER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:start_latitude:
+  :MIMSY: PLACES.START_LATITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:start_longitude:
+  :MIMSY: PLACES.START_LONGITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:start_direction:
+  :MIMSY: PLACES.START_DIRECTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_qualifier:
+  :MIMSY: PLACES.END_QUALIFIER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_latitude:
+  :MIMSY: PLACES.END_LATITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_longitude:
+  :MIMSY: PLACES.END_LONGITUDE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_direction:
+  :MIMSY: PLACES.END_DIRECTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:latitude_accuracy:
+  :MIMSY: PLACES.LATITUDE_ACCURACY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:longitude_accuracy:
+  :MIMSY: PLACES.LONGITUDE_ACCURACY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source:
+  :MIMSY: PLACES.SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source_date:
+  :MIMSY: PLACES.SOURCE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: PLACES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: PLACES.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: PLACES.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: PLACES.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: PLACES.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: PLACES.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: PLACES.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''

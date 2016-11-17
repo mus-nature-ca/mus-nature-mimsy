@@ -1,0 +1,166 @@
+---
+:id:
+  :MIMSY: TAXONOMY.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:language:
+  :MIMSY: TAXONOMY.LANGUAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:collection:
+  :MIMSY: TAXONOMY.COLLECTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reference_number:
+  :MIMSY: TAXONOMY.REFERENCE_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:scientific_name:
+  :MIMSY: TAXONOMY.SCIENTIFIC_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:parent_path:
+  :MIMSY: TAXONOMY.PARENT_PATH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:parent_id:
+  :MIMSY: TAXONOMY.PARENT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:second_parent_path:
+  :MIMSY: TAXONOMY.SECOND_PARENT_PATH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broader_key2:
+  :MIMSY: TAXONOMY.BROADER_KEY2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:hierarchy_level:
+  :MIMSY: TAXONOMY.HIERARCHY_LEVEL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:rank:
+  :MIMSY: TAXONOMY.RANK
+  :module: ''
+  :column: ''
+  :instructions: ''
+:authority:
+  :MIMSY: TAXONOMY.AUTHORITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source_date:
+  :MIMSY: TAXONOMY.SOURCE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:identification:
+  :MIMSY: TAXONOMY.IDENTIFICATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: TAXONOMY.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:habitat:
+  :MIMSY: TAXONOMY.HABITAT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:range_distribution:
+  :MIMSY: TAXONOMY.RANGE_DISTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:endangered_status:
+  :MIMSY: TAXONOMY.ENDANGERED_STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_note:
+  :MIMSY: TAXONOMY.STATUS_NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:remarks:
+  :MIMSY: TAXONOMY.REMARKS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: TAXONOMY.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:info_history:
+  :MIMSY: TAXONOMY.INFO_HISTORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:modified:
+  :MIMSY: TAXONOMY.MODIFIED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:guide_term:
+  :MIMSY: TAXONOMY.GUIDE_TERM
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publish:
+  :MIMSY: TAXONOMY.PUBLISH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort_number:
+  :MIMSY: TAXONOMY.SORT_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:option1:
+  :MIMSY: TAXONOMY.OPTION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: TAXONOMY.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: TAXONOMY.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: TAXONOMY.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: TAXONOMY.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: TAXONOMY.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: TAXONOMY.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

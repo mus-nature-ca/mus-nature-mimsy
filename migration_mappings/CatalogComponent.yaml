@@ -1,0 +1,46 @@
+---
+:id:
+  :MIMSY: COMPONENTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: COMPONENTS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:component:
+  :MIMSY: COMPONENTS.COMPONENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:quantity:
+  :MIMSY: COMPONENTS.QUANTITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location:
+  :MIMSY: COMPONENTS.LOCATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:location_date:
+  :MIMSY: COMPONENTS.LOCATION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition:
+  :MIMSY: COMPONENTS.CONDITION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:condition_date:
+  :MIMSY: COMPONENTS.CONDITION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: COMPONENTS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

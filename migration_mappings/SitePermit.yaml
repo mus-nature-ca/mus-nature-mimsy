@@ -1,0 +1,51 @@
+---
+:site_id:
+  :MIMSY: SITE_PERMITS.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:permit_number:
+  :MIMSY: SITE_PERMITS.PERMIT_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:permit_type:
+  :MIMSY: SITE_PERMITS.PERMIT_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:issued_to:
+  :MIMSY: SITE_PERMITS.ISSUED_TO
+  :module: ''
+  :column: ''
+  :instructions: ''
+:issued_by:
+  :MIMSY: SITE_PERMITS.ISSUED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_issued:
+  :MIMSY: SITE_PERMITS.DATE_ISSUED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: SITE_PERMITS.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: SITE_PERMITS.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: SITE_PERMITS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: SITE_PERMITS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''

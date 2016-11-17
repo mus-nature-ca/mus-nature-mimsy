@@ -1,0 +1,116 @@
+---
+:id:
+  :MIMSY: THESAURUS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:language:
+  :MIMSY: THESAURUS.LANGUAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:thesaurus_system:
+  :MIMSY: THESAURUS.THESAURUS_SYSTEM
+  :module: ''
+  :column: ''
+  :instructions: ''
+:term:
+  :MIMSY: THESAURUS.TERM
+  :module: ''
+  :column: ''
+  :instructions: ''
+:alternate1:
+  :MIMSY: THESAURUS.ALTERNATE1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:alternate2:
+  :MIMSY: THESAURUS.ALTERNATE2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:level:
+  :MIMSY: THESAURUS.LEVEL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:parent_id:
+  :MIMSY: THESAURUS.PARENT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:broader_text:
+  :MIMSY: THESAURUS.BROADER_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: THESAURUS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:comments:
+  :MIMSY: THESAURUS.COMMENTS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:modified:
+  :MIMSY: THESAURUS.MODIFIED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:guide_term:
+  :MIMSY: THESAURUS.GUIDE_TERM
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source:
+  :MIMSY: THESAURUS.SOURCE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:source_date:
+  :MIMSY: THESAURUS.SOURCE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort1:
+  :MIMSY: THESAURUS.SORT1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publish:
+  :MIMSY: THESAURUS.PUBLISH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: THESAURUS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: THESAURUS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: THESAURUS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: THESAURUS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: THESAURUS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: THESAURUS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

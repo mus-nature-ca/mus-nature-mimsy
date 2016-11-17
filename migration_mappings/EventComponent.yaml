@@ -1,0 +1,16 @@
+---
+:event_id:
+  :MIMSY: EVENT_COMPONENTS.EVENT_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:component:
+  :MIMSY: EVENT_COMPONENTS.COMPONENT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id:
+  :MIMSY: EVENT_COMPONENTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,36 @@
+---
+:id:
+  :MIMSY: DATE_MADE.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: DATE_MADE.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_date:
+  :MIMSY: DATE_MADE.PRIOR_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_text:
+  :MIMSY: DATE_MADE.DATE_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:earliest_year:
+  :MIMSY: DATE_MADE.EARLIEST_YEAR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:latest_year:
+  :MIMSY: DATE_MADE.LATEST_YEAR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:bp:
+  :MIMSY: DATE_MADE.BP
+  :module: ''
+  :column: ''
+  :instructions: ''

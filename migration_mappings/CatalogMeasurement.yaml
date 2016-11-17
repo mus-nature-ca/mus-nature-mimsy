@@ -1,0 +1,161 @@
+---
+:id:
+  :MIMSY: MEASUREMENTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: MEASUREMENTS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:part_measured:
+  :MIMSY: MEASUREMENTS.PART_MEASURED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:type:
+  :MIMSY: MEASUREMENTS.TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:imperial:
+  :MIMSY: MEASUREMENTS.IMPERIAL
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dimension1:
+  :MIMSY: MEASUREMENTS.DIMENSION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:unit1:
+  :MIMSY: MEASUREMENTS.UNIT1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dimension2:
+  :MIMSY: MEASUREMENTS.DIMENSION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:unit2:
+  :MIMSY: MEASUREMENTS.UNIT2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dimension3:
+  :MIMSY: MEASUREMENTS.DIMENSION3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:unit3:
+  :MIMSY: MEASUREMENTS.UNIT3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dimension4:
+  :MIMSY: MEASUREMENTS.DIMENSION4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:unit4:
+  :MIMSY: MEASUREMENTS.UNIT4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:weight1:
+  :MIMSY: MEASUREMENTS.WEIGHT1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:wunit1:
+  :MIMSY: MEASUREMENTS.WUNIT1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:weight2:
+  :MIMSY: MEASUREMENTS.WEIGHT2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:wunit2:
+  :MIMSY: MEASUREMENTS.WUNIT2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cdimension1:
+  :MIMSY: MEASUREMENTS.CDIMENSION1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cunit1:
+  :MIMSY: MEASUREMENTS.CUNIT1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cdimension2:
+  :MIMSY: MEASUREMENTS.CDIMENSION2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cunit2:
+  :MIMSY: MEASUREMENTS.CUNIT2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cdimension3:
+  :MIMSY: MEASUREMENTS.CDIMENSION3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cunit3:
+  :MIMSY: MEASUREMENTS.CUNIT3
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cdimension4:
+  :MIMSY: MEASUREMENTS.CDIMENSION4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cunit4:
+  :MIMSY: MEASUREMENTS.CUNIT4
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cweight1:
+  :MIMSY: MEASUREMENTS.CWEIGHT1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cwunit1:
+  :MIMSY: MEASUREMENTS.CWUNIT1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cweight2:
+  :MIMSY: MEASUREMENTS.CWEIGHT2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:cwunit2:
+  :MIMSY: MEASUREMENTS.CWUNIT2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:display:
+  :MIMSY: MEASUREMENTS.DISPLAY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: MEASUREMENTS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: MEASUREMENTS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''

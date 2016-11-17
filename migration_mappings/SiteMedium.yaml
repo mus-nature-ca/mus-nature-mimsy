@@ -1,0 +1,26 @@
+---
+:id:
+  :MIMSY: SITES_MEDIA.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:medium_id:
+  :MIMSY: SITES_MEDIA.MEDIUM_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:site_id:
+  :MIMSY: SITES_MEDIA.SITE_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: SITES_MEDIA.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:media:
+  :MIMSY: SITES_MEDIA.MEDIA
+  :module: ''
+  :column: ''
+  :instructions: ''

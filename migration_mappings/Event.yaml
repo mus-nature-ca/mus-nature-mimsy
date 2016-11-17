@@ -1,0 +1,106 @@
+---
+:id:
+  :MIMSY: EVENTS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:mev_id:
+  :MIMSY: EVENTS.MEV_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:language:
+  :MIMSY: EVENTS.LANGUAGE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:full_name:
+  :MIMSY: EVENTS.FULL_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:brief_name:
+  :MIMSY: EVENTS.BRIEF_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:category:
+  :MIMSY: EVENTS.CATEGORY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:occurrence_type:
+  :MIMSY: EVENTS.OCCURRENCE_TYPE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:begin_date:
+  :MIMSY: EVENTS.BEGIN_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:end_date:
+  :MIMSY: EVENTS.END_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:duration:
+  :MIMSY: EVENTS.DURATION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:duration_unit:
+  :MIMSY: EVENTS.DURATION_UNIT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:current_status:
+  :MIMSY: EVENTS.CURRENT_STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: EVENTS.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:publish:
+  :MIMSY: EVENTS.PUBLISH
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag1:
+  :MIMSY: EVENTS.FLAG1
+  :module: ''
+  :column: ''
+  :instructions: ''
+:flag2:
+  :MIMSY: EVENTS.FLAG2
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sort_name:
+  :MIMSY: EVENTS.SORT_NAME
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: EVENTS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: EVENTS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: EVENTS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: EVENTS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

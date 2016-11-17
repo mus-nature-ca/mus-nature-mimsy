@@ -1,0 +1,106 @@
+---
+:id:
+  :MIMSY: DISPOSAL_ITEMS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:disposal_id:
+  :MIMSY: DISPOSAL_ITEMS.DISPOSAL_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: DISPOSAL_ITEMS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id_number:
+  :MIMSY: DISPOSAL_ITEMS.ID_NUMBER
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: DISPOSAL_ITEMS.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status:
+  :MIMSY: DISPOSAL_ITEMS.STATUS
+  :module: ''
+  :column: ''
+  :instructions: ''
+:status_date:
+  :MIMSY: DISPOSAL_ITEMS.STATUS_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:deaccession_date:
+  :MIMSY: DISPOSAL_ITEMS.DEACCESSION_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:disposal_method:
+  :MIMSY: DISPOSAL_ITEMS.DISPOSAL_METHOD
+  :module: ''
+  :column: ''
+  :instructions: ''
+:disposal_date:
+  :MIMSY: DISPOSAL_ITEMS.DISPOSAL_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:title_transfer_requested:
+  :MIMSY: DISPOSAL_ITEMS.TITLE_TRANSFER_REQUESTED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:transfer_date:
+  :MIMSY: DISPOSAL_ITEMS.TRANSFER_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:reproduction_requested:
+  :MIMSY: DISPOSAL_ITEMS.REPRODUCTION_REQUESTED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:dispatch_requested:
+  :MIMSY: DISPOSAL_ITEMS.DISPATCH_REQUESTED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: DISPOSAL_ITEMS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalogued:
+  :MIMSY: DISPOSAL_ITEMS.CATALOGUED
+  :module: ''
+  :column: ''
+  :instructions: ''
+:id_sort:
+  :MIMSY: DISPOSAL_ITEMS.ID_SORT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:created_by:
+  :MIMSY: DISPOSAL_ITEMS.CREATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:create_date:
+  :MIMSY: DISPOSAL_ITEMS.CREATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:updated_by:
+  :MIMSY: DISPOSAL_ITEMS.UPDATED_BY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:update_date:
+  :MIMSY: DISPOSAL_ITEMS.UPDATE_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''

@@ -1,0 +1,46 @@
+---
+:id:
+  :MIMSY: RELATED_ITEMS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:catalog_id:
+  :MIMSY: RELATED_ITEMS.CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:related_catalog_id:
+  :MIMSY: RELATED_ITEMS.RELATED_CATALOG_ID
+  :module: ''
+  :column: ''
+  :instructions: ''
+:object:
+  :MIMSY: RELATED_ITEMS.OBJECT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:title:
+  :MIMSY: RELATED_ITEMS.TITLE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:relationship:
+  :MIMSY: RELATED_ITEMS.RELATIONSHIP
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: RELATED_ITEMS.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:prior_attribution:
+  :MIMSY: RELATED_ITEMS.PRIOR_ATTRIBUTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:sysuseonly:
+  :MIMSY: RELATED_ITEMS.SYSUSEONLY
+  :module: ''
+  :column: ''
+  :instructions: ''
