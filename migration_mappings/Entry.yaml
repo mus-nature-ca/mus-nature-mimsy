@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: ENTRY.ID
+  :MIMSY: ENTRY.IKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -45,12 +45,12 @@
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: ENTRY.PERSON_ID
+  :MIMSY: ENTRY.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''
 :person_variation_id:
-  :MIMSY: ENTRY.PERSON_VARIATION_ID
+  :MIMSY: ENTRY.NVARKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -95,7 +95,7 @@
   :column: ''
   :instructions: ''
 :total_objects:
-  :MIMSY: ENTRY.TOTAL_OBJECTS
+  :MIMSY: ENTRY.ENTRY_COUNT
   :module: ''
   :column: ''
   :instructions: ''

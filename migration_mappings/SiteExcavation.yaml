@@ -1,6 +1,6 @@
 ---
 :site_id:
-  :MIMSY: SITE_EXCAVATIONS.SITE_ID
+  :MIMSY: SITE_EXCAVATIONS.SKEY
   :module: ''
   :column: ''
   :instructions: ''

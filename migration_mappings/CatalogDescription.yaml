@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEM_DESCRIPTIONS.CATALOG_ID
+  :MIMSY: ITEM_DESCRIPTIONS.MKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -25,7 +25,7 @@
   :column: ''
   :instructions: ''
 :description_date:
-  :MIMSY: ITEM_DESCRIPTIONS.DESCRIPTION_DATE
+  :MIMSY: ITEM_DESCRIPTIONS.DESCRIPT_DATE
   :module: ''
   :column: ''
   :instructions: ''

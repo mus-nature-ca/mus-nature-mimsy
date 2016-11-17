@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: PEOPLE_PUBLICATIONS.ID
+  :MIMSY: PEOPLE_PUBLICATIONS.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: PEOPLE_PUBLICATIONS.PERSON_ID
+  :MIMSY: PEOPLE_PUBLICATIONS.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''
 :publication_id:
-  :MIMSY: PEOPLE_PUBLICATIONS.PUBLICATION_ID
+  :MIMSY: PEOPLE_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
   :instructions: ''

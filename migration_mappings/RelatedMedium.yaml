@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: RELATED_MEDIA.ID
+  :MIMSY: RELATED_MEDIA.RELRECKEY
   :module: ''
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: RELATED_MEDIA.MEDIUM_ID
+  :MIMSY: RELATED_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
 :related_medium_id:
-  :MIMSY: RELATED_MEDIA.RELATED_MEDIUM_ID
+  :MIMSY: RELATED_MEDIA.RELATED_MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''

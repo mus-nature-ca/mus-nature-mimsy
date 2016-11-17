@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: AUDITS.ID
+  :MIMSY: AUDITS.AUDKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :reason:
-  :MIMSY: AUDITS.REASON
+  :MIMSY: AUDITS.AUDIT_REASON
   :module: ''
   :column: ''
   :instructions: ''
@@ -65,7 +65,7 @@
   :column: ''
   :instructions: ''
 :number_missing:
-  :MIMSY: AUDITS.NUMBER_MISSING
+  :MIMSY: AUDITS.NUMBER_NOT_FOUND
   :module: ''
   :column: ''
   :instructions: ''

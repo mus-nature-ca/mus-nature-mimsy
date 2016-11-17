@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: HAZARD.ID
+  :MIMSY: HAZARD.HKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: HAZARD.CATALOG_ID
+  :MIMSY: HAZARD.M_ID
   :module: ''
   :column: ''
   :instructions: ''

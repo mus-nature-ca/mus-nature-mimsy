@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: PEOPLE_CONTACTS.PERSON_ID
+  :MIMSY: PEOPLE_CONTACTS.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''

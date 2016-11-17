@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: ITEMS_SITES.ID
+  :MIMSY: ITEMS_SITES.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEMS_SITES.CATALOG_ID
+  :MIMSY: ITEMS_SITES.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :site_id:
-  :MIMSY: ITEMS_SITES.SITE_ID
+  :MIMSY: ITEMS_SITES.SKEY
   :module: ''
   :column: ''
   :instructions: ''

@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: DISPATCH.ID
+  :MIMSY: DISPATCH.DISPKEY
   :module: ''
   :column: ''
   :instructions: ''

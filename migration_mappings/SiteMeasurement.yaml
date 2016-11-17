@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :site_id:
-  :MIMSY: SITE_MEASUREMENTS.SITE_ID
+  :MIMSY: SITE_MEASUREMENTS.SKEY
   :module: ''
   :column: ''
   :instructions: ''

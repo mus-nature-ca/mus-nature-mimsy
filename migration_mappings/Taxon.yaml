@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: TAXONOMY.ID
+  :MIMSY: TAXONOMY.SPECKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -10,7 +10,7 @@
   :column: ''
   :instructions: ''
 :collection:
-  :MIMSY: TAXONOMY.COLLECTION
+  :MIMSY: TAXONOMY.TAXON_NAME
   :module: ''
   :column: ''
   :instructions: ''
@@ -25,17 +25,17 @@
   :column: ''
   :instructions: ''
 :parent_path:
-  :MIMSY: TAXONOMY.PARENT_PATH
+  :MIMSY: TAXONOMY.MALE_SINGLE_PARENT
   :module: ''
   :column: ''
   :instructions: ''
 :parent_id:
-  :MIMSY: TAXONOMY.PARENT_ID
+  :MIMSY: TAXONOMY.BROADER_KEY1
   :module: ''
   :column: ''
   :instructions: ''
 :second_parent_path:
-  :MIMSY: TAXONOMY.SECOND_PARENT_PATH
+  :MIMSY: TAXONOMY.FEMALE_MULTI_PARENT
   :module: ''
   :column: ''
   :instructions: ''
@@ -50,12 +50,12 @@
   :column: ''
   :instructions: ''
 :rank:
-  :MIMSY: TAXONOMY.RANK
+  :MIMSY: TAXONOMY.LEVEL_TEXT
   :module: ''
   :column: ''
   :instructions: ''
 :authority:
-  :MIMSY: TAXONOMY.AUTHORITY
+  :MIMSY: TAXONOMY.SOURCE
   :module: ''
   :column: ''
   :instructions: ''

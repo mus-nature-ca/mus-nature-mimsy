@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: EVENTS_PUBLICATIONS.ID
+  :MIMSY: EVENTS_PUBLICATIONS.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :event_id:
-  :MIMSY: EVENTS_PUBLICATIONS.EVENT_ID
+  :MIMSY: EVENTS_PUBLICATIONS.VKEY
   :module: ''
   :column: ''
   :instructions: ''
 :publication_id:
-  :MIMSY: EVENTS_PUBLICATIONS.PUBLICATION_ID
+  :MIMSY: EVENTS_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -20,7 +20,7 @@
   :column: ''
   :instructions: ''
 :illustrated:
-  :MIMSY: EVENTS_PUBLICATIONS.ILLUSTRATED
+  :MIMSY: EVENTS_PUBLICATIONS.ILLUSTRATION
   :module: ''
   :column: ''
   :instructions: ''

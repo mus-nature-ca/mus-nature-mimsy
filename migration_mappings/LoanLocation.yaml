@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :loan_id:
-  :MIMSY: LOANS_LOCATION.LOAN_ID
+  :MIMSY: LOANS_LOCATION.LKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,12 +15,12 @@
   :column: ''
   :instructions: ''
 :loan_catalog_id:
-  :MIMSY: LOANS_LOCATION.LOAN_CATALOG_ID
+  :MIMSY: LOANS_LOCATION.LITMKEY
   :module: ''
   :column: ''
   :instructions: ''
 :location_id:
-  :MIMSY: LOANS_LOCATION.LOCATION_ID
+  :MIMSY: LOANS_LOCATION.LOC_ID
   :module: ''
   :column: ''
   :instructions: ''

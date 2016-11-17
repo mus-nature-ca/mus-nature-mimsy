@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: THESAURUS_VARIATIONS.ID
+  :MIMSY: THESAURUS_VARIATIONS.THESVARKEY
   :module: ''
   :column: ''
   :instructions: ''
 :thesaurus_id:
-  :MIMSY: THESAURUS_VARIATIONS.THESAURUS_ID
+  :MIMSY: THESAURUS_VARIATIONS.CLASS_ID
   :module: ''
   :column: ''
   :instructions: ''

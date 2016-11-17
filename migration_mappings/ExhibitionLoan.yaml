@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :exhibition_id:
-  :MIMSY: EXHIBITIONS_LOANS.EXHIBITION_ID
+  :MIMSY: EXHIBITIONS_LOANS.EKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :loan_id:
-  :MIMSY: EXHIBITIONS_LOANS.LOAN_ID
+  :MIMSY: EXHIBITIONS_LOANS.LKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -25,12 +25,12 @@
   :column: ''
   :instructions: ''
 :exhibition_catalog_id:
-  :MIMSY: EXHIBITIONS_LOANS.EXHIBITION_CATALOG_ID
+  :MIMSY: EXHIBITIONS_LOANS.EIKEY
   :module: ''
   :column: ''
   :instructions: ''
 :loan_catalog_id:
-  :MIMSY: EXHIBITIONS_LOANS.LOAN_CATALOG_ID
+  :MIMSY: EXHIBITIONS_LOANS.LITMKEY
   :module: ''
   :column: ''
   :instructions: ''

@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: SITES_MEDIA.ID
+  :MIMSY: SITES_MEDIA.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: SITES_MEDIA.MEDIUM_ID
+  :MIMSY: SITES_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
 :site_id:
-  :MIMSY: SITES_MEDIA.SITE_ID
+  :MIMSY: SITES_MEDIA.SKEY
   :module: ''
   :column: ''
   :instructions: ''

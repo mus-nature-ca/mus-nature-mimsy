@@ -1,11 +1,11 @@
 ---
 :catalog_id:
-  :MIMSY: CONSERVATION.CATALOG_ID
+  :MIMSY: CONSERVATION.M_ID
   :module: ''
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: CONSERVATION.ID
+  :MIMSY: CONSERVATION.CONSKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -45,7 +45,7 @@
   :column: ''
   :instructions: ''
 :conservator:
-  :MIMSY: CONSERVATION.CONSERVATOR
+  :MIMSY: CONSERVATION.PERFORMED_BY
   :module: ''
   :column: ''
   :instructions: ''
@@ -80,7 +80,7 @@
   :column: ''
   :instructions: ''
 :condition_id:
-  :MIMSY: CONSERVATION.CONDITION_ID
+  :MIMSY: CONSERVATION.CONDKEY
   :module: ''
   :column: ''
   :instructions: ''

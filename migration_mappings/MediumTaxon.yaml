@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: MEDIA_TAXONOMY.ID
+  :MIMSY: MEDIA_TAXONOMY.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: MEDIA_TAXONOMY.MEDIUM_ID
+  :MIMSY: MEDIA_TAXONOMY.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
 :taxon_id:
-  :MIMSY: MEDIA_TAXONOMY.TAXON_ID
+  :MIMSY: MEDIA_TAXONOMY.SPECKEY
   :module: ''
   :column: ''
   :instructions: ''

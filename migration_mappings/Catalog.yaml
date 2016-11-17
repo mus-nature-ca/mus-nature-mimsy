@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: CATALOGUE.ID
+  :MIMSY: CATALOGUE.MKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -10,27 +10,27 @@
   :column: ''
   :instructions: ''
 :catalog_number:
-  :MIMSY: CATALOGUE.CATALOG_NUMBER
+  :MIMSY: CATALOGUE.ID_NUMBER
   :module: ''
   :column: ''
   :instructions: ''
 :collection_code:
-  :MIMSY: CATALOGUE.COLLECTION_CODE
+  :MIMSY: CATALOGUE.ID_PREFIX
   :module: ''
   :column: ''
   :instructions: ''
 :collection:
-  :MIMSY: CATALOGUE.COLLECTION
+  :MIMSY: CATALOGUE.CATEGORY1
   :module: ''
   :column: ''
   :instructions: ''
 :scientific_name:
-  :MIMSY: CATALOGUE.SCIENTIFIC_NAME
+  :MIMSY: CATALOGUE.ITEM_NAME
   :module: ''
   :column: ''
   :instructions: ''
 :specimen_name:
-  :MIMSY: CATALOGUE.SPECIMEN_NAME
+  :MIMSY: CATALOGUE.TITLE
   :module: ''
   :column: ''
   :instructions: ''
@@ -75,7 +75,7 @@
   :column: ''
   :instructions: ''
 :specimen_nature:
-  :MIMSY: CATALOGUE.SPECIMEN_NATURE
+  :MIMSY: CATALOGUE.MATERIALS
   :module: ''
   :column: ''
   :instructions: ''
@@ -85,7 +85,7 @@
   :column: ''
   :instructions: ''
 :geologic_age:
-  :MIMSY: CATALOGUE.GEOLOGIC_AGE
+  :MIMSY: CATALOGUE.AGE
   :module: ''
   :column: ''
   :instructions: ''
@@ -105,7 +105,7 @@
   :column: ''
   :instructions: ''
 :acquisition_number:
-  :MIMSY: CATALOGUE.ACQUISITION_NUMBER
+  :MIMSY: CATALOGUE.CREDIT_LINE
   :module: ''
   :column: ''
   :instructions: ''
@@ -200,7 +200,7 @@
   :column: ''
   :instructions: ''
 :gbif:
-  :MIMSY: CATALOGUE.GBIF
+  :MIMSY: CATALOGUE.FLAG4
   :module: ''
   :column: ''
   :instructions: ''

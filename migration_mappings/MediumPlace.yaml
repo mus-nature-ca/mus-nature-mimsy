@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: MEDIA_PLACES.ID
+  :MIMSY: MEDIA_PLACES.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :place_id:
-  :MIMSY: MEDIA_PLACES.PLACE_ID
+  :MIMSY: MEDIA_PLACES.PLACEKEY
   :module: ''
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: MEDIA_PLACES.MEDIUM_ID
+  :MIMSY: MEDIA_PLACES.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''

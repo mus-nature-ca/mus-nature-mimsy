@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: PEOPLE_VARIATIONS.ID
+  :MIMSY: PEOPLE_VARIATIONS.NVARKEY
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: PEOPLE_VARIATIONS.PERSON_ID
+  :MIMSY: PEOPLE_VARIATIONS.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :type:
-  :MIMSY: PEOPLE_VARIATIONS.TYPE
+  :MIMSY: PEOPLE_VARIATIONS.NVAR_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -30,7 +30,7 @@
   :column: ''
   :instructions: ''
 :attribution_source:
-  :MIMSY: PEOPLE_VARIATIONS.ATTRIBUTION_SOURCE
+  :MIMSY: PEOPLE_VARIATIONS.ATTRIB_SOURCE
   :module: ''
   :column: ''
   :instructions: ''

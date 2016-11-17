@@ -5,12 +5,12 @@
   :column: ''
   :instructions: ''
 :exhibition_id:
-  :MIMSY: EXHIBITION_VENUES.EXHIBITION_ID
+  :MIMSY: EXHIBITION_VENUES.EKEY
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: EXHIBITION_VENUES.PERSON_ID
+  :MIMSY: EXHIBITION_VENUES.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''

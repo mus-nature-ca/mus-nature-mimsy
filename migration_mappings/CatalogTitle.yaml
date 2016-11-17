@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: TITLES.CATALOG_ID
+  :MIMSY: TITLES.MKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :type:
-  :MIMSY: TITLES.TYPE
+  :MIMSY: TITLES.TNA_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -30,7 +30,7 @@
   :column: ''
   :instructions: ''
 :attribution_date:
-  :MIMSY: TITLES.ATTRIBUTION_DATE
+  :MIMSY: TITLES.ATTRIB_DATE
   :module: ''
   :column: ''
   :instructions: ''

@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: PEOPLE.ID
+  :MIMSY: PEOPLE.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''
@@ -25,22 +25,22 @@
   :column: ''
   :instructions: ''
 :title:
-  :MIMSY: PEOPLE.TITLE
+  :MIMSY: PEOPLE.TITLE_NAME
   :module: ''
   :column: ''
   :instructions: ''
 :first_name:
-  :MIMSY: PEOPLE.FIRST_NAME
+  :MIMSY: PEOPLE.FIRSTMID_NAME
   :module: ''
   :column: ''
   :instructions: ''
 :last_name:
-  :MIMSY: PEOPLE.LAST_NAME
+  :MIMSY: PEOPLE.LASTSUFF_NAME
   :module: ''
   :column: ''
   :instructions: ''
 :suffix:
-  :MIMSY: PEOPLE.SUFFIX
+  :MIMSY: PEOPLE.SUFFIX_NAME
   :module: ''
   :column: ''
   :instructions: ''

@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: SITES.ID
+  :MIMSY: SITES.SKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -25,7 +25,7 @@
   :column: ''
   :instructions: ''
 :environment:
-  :MIMSY: SITES.ENVIRONMENT
+  :MIMSY: SITES.SITE_CLASS
   :module: ''
   :column: ''
   :instructions: ''

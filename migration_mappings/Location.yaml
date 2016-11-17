@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: LOCATION.ID
+  :MIMSY: LOCATION.LOC_ID
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: LOCATION.CATALOG_ID
+  :MIMSY: LOCATION.M_ID
   :module: ''
   :column: ''
   :instructions: ''
 :facility_id:
-  :MIMSY: LOCATION.FACILITY_ID
+  :MIMSY: LOCATION.LOCKEY
   :module: ''
   :column: ''
   :instructions: ''

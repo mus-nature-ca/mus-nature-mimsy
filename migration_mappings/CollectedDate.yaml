@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: DATE_COLLECTED.ID
+  :MIMSY: DATE_COLLECTED.TIMEKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: DATE_COLLECTED.CATALOG_ID
+  :MIMSY: DATE_COLLECTED.MKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -55,7 +55,7 @@
   :column: ''
   :instructions: ''
 :attribution_type:
-  :MIMSY: DATE_COLLECTED.ATTRIBUTION_TYPE
+  :MIMSY: DATE_COLLECTED.ATTRIB_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -65,12 +65,12 @@
   :column: ''
   :instructions: ''
 :attribution_date:
-  :MIMSY: DATE_COLLECTED.ATTRIBUTION_DATE
+  :MIMSY: DATE_COLLECTED.ATTRIB_DATE
   :module: ''
   :column: ''
   :instructions: ''
 :attribution_source:
-  :MIMSY: DATE_COLLECTED.ATTRIBUTION_SOURCE
+  :MIMSY: DATE_COLLECTED.ATTRIB_SOURCE
   :module: ''
   :column: ''
   :instructions: ''
@@ -90,7 +90,7 @@
   :column: ''
   :instructions: ''
 :context:
-  :MIMSY: DATE_COLLECTED.CONTEXT
+  :MIMSY: DATE_COLLECTED.COLLECTION_POSITION
   :module: ''
   :column: ''
   :instructions: ''

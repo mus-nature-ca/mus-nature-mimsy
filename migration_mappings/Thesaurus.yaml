@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: THESAURUS.ID
+  :MIMSY: THESAURUS.CLASS_ID
   :module: ''
   :column: ''
   :instructions: ''
@@ -10,32 +10,32 @@
   :column: ''
   :instructions: ''
 :thesaurus_system:
-  :MIMSY: THESAURUS.THESAURUS_SYSTEM
+  :MIMSY: THESAURUS.THES_SYSTEM
   :module: ''
   :column: ''
   :instructions: ''
 :term:
-  :MIMSY: THESAURUS.TERM
+  :MIMSY: THESAURUS.TERM1_1
   :module: ''
   :column: ''
   :instructions: ''
 :alternate1:
-  :MIMSY: THESAURUS.ALTERNATE1
+  :MIMSY: THESAURUS.TERM2_1
   :module: ''
   :column: ''
   :instructions: ''
 :alternate2:
-  :MIMSY: THESAURUS.ALTERNATE2
+  :MIMSY: THESAURUS.TERM3_1
   :module: ''
   :column: ''
   :instructions: ''
 :level:
-  :MIMSY: THESAURUS.LEVEL
+  :MIMSY: THESAURUS.HIERARCHY_LEVEL
   :module: ''
   :column: ''
   :instructions: ''
 :parent_id:
-  :MIMSY: THESAURUS.PARENT_ID
+  :MIMSY: THESAURUS.BROADER_ID
   :module: ''
   :column: ''
   :instructions: ''

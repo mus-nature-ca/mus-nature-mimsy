@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: SITES_PUBLICATIONS.ID
+  :MIMSY: SITES_PUBLICATIONS.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :publication_id:
-  :MIMSY: SITES_PUBLICATIONS.PUBLICATION_ID
+  :MIMSY: SITES_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
   :instructions: ''
 :site_id:
-  :MIMSY: SITES_PUBLICATIONS.SITE_ID
+  :MIMSY: SITES_PUBLICATIONS.SKEY
   :module: ''
   :column: ''
   :instructions: ''

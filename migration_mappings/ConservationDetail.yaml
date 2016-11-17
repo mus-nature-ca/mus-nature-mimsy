@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: CONSERVATION_DETAILS.ID
+  :MIMSY: CONSERVATION_DETAILS.CONSMATKEY
   :module: ''
   :column: ''
   :instructions: ''
 :conservation_id:
-  :MIMSY: CONSERVATION_DETAILS.CONSERVATION_ID
+  :MIMSY: CONSERVATION_DETAILS.CONSKEY
   :module: ''
   :column: ''
   :instructions: ''

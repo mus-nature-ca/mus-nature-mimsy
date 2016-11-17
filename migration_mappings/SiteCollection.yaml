@@ -1,6 +1,6 @@
 ---
 :site_id:
-  :MIMSY: SITE_COLLECTIONS.SITE_ID
+  :MIMSY: SITE_COLLECTIONS.SKEY
   :module: ''
   :column: ''
   :instructions: ''

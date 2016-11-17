@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: SUBJECT_VARIATIONS.ID
+  :MIMSY: SUBJECT_VARIATIONS.SVARKEY
   :module: ''
   :column: ''
   :instructions: ''
 :subject_id:
-  :MIMSY: SUBJECT_VARIATIONS.SUBJECT_ID
+  :MIMSY: SUBJECT_VARIATIONS.SUBKEY
   :module: ''
   :column: ''
   :instructions: ''

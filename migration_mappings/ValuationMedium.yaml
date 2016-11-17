@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: VALUATION_MEDIA.MEDIUM_ID
+  :MIMSY: VALUATION_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -25,7 +25,7 @@
   :column: ''
   :instructions: ''
 :valuation_id:
-  :MIMSY: VALUATION_MEDIA.VALUATION_ID
+  :MIMSY: VALUATION_MEDIA.TRANS_ID
   :module: ''
   :column: ''
   :instructions: ''

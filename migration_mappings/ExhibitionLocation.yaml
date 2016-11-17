@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :location_id:
-  :MIMSY: EXHIBITIONS_LOCATION.LOCATION_ID
+  :MIMSY: EXHIBITIONS_LOCATION.LOC_ID
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :exhibition_id:
-  :MIMSY: EXHIBITIONS_LOCATION.EXHIBITION_ID
+  :MIMSY: EXHIBITIONS_LOCATION.EKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -25,7 +25,7 @@
   :column: ''
   :instructions: ''
 :exhibition_catalog_id:
-  :MIMSY: EXHIBITIONS_LOCATION.EXHIBITION_CATALOG_ID
+  :MIMSY: EXHIBITIONS_LOCATION.EIKEY
   :module: ''
   :column: ''
   :instructions: ''

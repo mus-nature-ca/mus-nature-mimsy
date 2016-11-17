@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: LOANS_MEDIA.MEDIUM_ID
+  :MIMSY: LOANS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :loan_id:
-  :MIMSY: LOANS_MEDIA.LOAN_ID
+  :MIMSY: LOANS_MEDIA.LKEY
   :module: ''
   :column: ''
   :instructions: ''

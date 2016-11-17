@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: DATE_MADE.ID
+  :MIMSY: DATE_MADE.TIMEKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: DATE_MADE.CATALOG_ID
+  :MIMSY: DATE_MADE.MKEY
   :module: ''
   :column: ''
   :instructions: ''

@@ -1,6 +1,6 @@
 ---
 :site_id:
-  :MIMSY: SITE_PERMITS.SITE_ID
+  :MIMSY: SITE_PERMITS.SKEY
   :module: ''
   :column: ''
   :instructions: ''

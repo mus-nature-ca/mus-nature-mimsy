@@ -5,12 +5,12 @@
   :column: ''
   :instructions: ''
 :acquisition_id:
-  :MIMSY: ACQUISITION_ITEMS.ACQUISITION_ID
+  :MIMSY: ACQUISITION_ITEMS.AKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ACQUISITION_ITEMS.CATALOG_ID
+  :MIMSY: ACQUISITION_ITEMS.M_ID
   :module: ''
   :column: ''
   :instructions: ''
@@ -20,7 +20,7 @@
   :column: ''
   :instructions: ''
 :description:
-  :MIMSY: ACQUISITION_ITEMS.DESCRIPTION
+  :MIMSY: ACQUISITION_ITEMS.ITEM_SUMMARY
   :module: ''
   :column: ''
   :instructions: ''

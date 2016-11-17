@@ -1,6 +1,6 @@
 ---
 :site_id:
-  :MIMSY: SITE_MAPS.SITE_ID
+  :MIMSY: SITE_MAPS.SKEY
   :module: ''
   :column: ''
   :instructions: ''

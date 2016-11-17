@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: ITEMS_COLLECTORS.ID
+  :MIMSY: ITEMS_COLLECTORS.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEMS_COLLECTORS.CATALOG_ID
+  :MIMSY: ITEMS_COLLECTORS.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: ITEMS_COLLECTORS.PERSON_ID
+  :MIMSY: ITEMS_COLLECTORS.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''
@@ -35,12 +35,12 @@
   :column: ''
   :instructions: ''
 :attribution_date:
-  :MIMSY: ITEMS_COLLECTORS.ATTRIBUTION_DATE
+  :MIMSY: ITEMS_COLLECTORS.ATTRIB_DATE
   :module: ''
   :column: ''
   :instructions: ''
 :attribution_comment:
-  :MIMSY: ITEMS_COLLECTORS.ATTRIBUTION_COMMENT
+  :MIMSY: ITEMS_COLLECTORS.ATTRIB_COMMENT
   :module: ''
   :column: ''
   :instructions: ''
@@ -60,7 +60,7 @@
   :column: ''
   :instructions: ''
 :person_variation_id:
-  :MIMSY: ITEMS_COLLECTORS.PERSON_VARIATION_ID
+  :MIMSY: ITEMS_COLLECTORS.NVARKEY
   :module: ''
   :column: ''
   :instructions: ''

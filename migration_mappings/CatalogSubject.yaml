@@ -1,21 +1,21 @@
 ---
 :id:
-  :MIMSY: ITEMS_SUBJECTS.ID
+  :MIMSY: ITEMS_SUBJECTS.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEMS_SUBJECTS.CATALOG_ID
+  :MIMSY: ITEMS_SUBJECTS.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :subject_id:
-  :MIMSY: ITEMS_SUBJECTS.SUBJECT_ID
+  :MIMSY: ITEMS_SUBJECTS.SUBKEY
   :module: ''
   :column: ''
   :instructions: ''
 :sort:
-  :MIMSY: ITEMS_SUBJECTS.SORT
+  :MIMSY: ITEMS_SUBJECTS.STEP
   :module: ''
   :column: ''
   :instructions: ''
@@ -50,7 +50,7 @@
   :column: ''
   :instructions: ''
 :attribution_type:
-  :MIMSY: ITEMS_SUBJECTS.ATTRIBUTION_TYPE
+  :MIMSY: ITEMS_SUBJECTS.ATTRIB_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -60,12 +60,12 @@
   :column: ''
   :instructions: ''
 :attribution_date:
-  :MIMSY: ITEMS_SUBJECTS.ATTRIBUTION_DATE
+  :MIMSY: ITEMS_SUBJECTS.ATTRIB_DATE
   :module: ''
   :column: ''
   :instructions: ''
 :attribution_source:
-  :MIMSY: ITEMS_SUBJECTS.ATTRIBUTION_SOURCE
+  :MIMSY: ITEMS_SUBJECTS.ATTRIB_SOURCE
   :module: ''
   :column: ''
   :instructions: ''
@@ -75,7 +75,7 @@
   :column: ''
   :instructions: ''
 :attribution_comment:
-  :MIMSY: ITEMS_SUBJECTS.ATTRIBUTION_COMMENT
+  :MIMSY: ITEMS_SUBJECTS.ATTRIB_COMMENT
   :module: ''
   :column: ''
   :instructions: ''
@@ -120,7 +120,7 @@
   :column: ''
   :instructions: ''
 :subject_variation_id:
-  :MIMSY: ITEMS_SUBJECTS.SUBJECT_VARIATION_ID
+  :MIMSY: ITEMS_SUBJECTS.SVARKEY
   :module: ''
   :column: ''
   :instructions: ''

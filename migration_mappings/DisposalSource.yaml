@@ -5,17 +5,17 @@
   :column: ''
   :instructions: ''
 :disposal_id:
-  :MIMSY: DISPOSAL_SOURCES.DISPOSAL_ID
+  :MIMSY: DISPOSAL_SOURCES.AKEY
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: DISPOSAL_SOURCES.PERSON_ID
+  :MIMSY: DISPOSAL_SOURCES.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''
 :person_variation_id:
-  :MIMSY: DISPOSAL_SOURCES.PERSON_VARIATION_ID
+  :MIMSY: DISPOSAL_SOURCES.NVARKEY
   :module: ''
   :column: ''
   :instructions: ''

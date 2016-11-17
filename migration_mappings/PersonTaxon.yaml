@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: PEOPLE_TAXONOMY.ID
+  :MIMSY: PEOPLE_TAXONOMY.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: PEOPLE_TAXONOMY.PERSON_ID
+  :MIMSY: PEOPLE_TAXONOMY.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''
 :taxon_id:
-  :MIMSY: PEOPLE_TAXONOMY.TAXON_ID
+  :MIMSY: PEOPLE_TAXONOMY.SPECKEY
   :module: ''
   :column: ''
   :instructions: ''

@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: MEASUREMENTS.CATALOG_ID
+  :MIMSY: MEASUREMENTS.MKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :type:
-  :MIMSY: MEASUREMENTS.TYPE
+  :MIMSY: MEASUREMENTS.MEASUREMENT_TYPE
   :module: ''
   :column: ''
   :instructions: ''

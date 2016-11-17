@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: CONDITION_MEDIA.MEDIUM_ID
+  :MIMSY: CONDITION_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: CONDITION_MEDIA.CATALOG_ID
+  :MIMSY: CONDITION_MEDIA.M_ID
   :module: ''
   :column: ''
   :instructions: ''
@@ -25,7 +25,7 @@
   :column: ''
   :instructions: ''
 :condition_id:
-  :MIMSY: CONDITION_MEDIA.CONDITION_ID
+  :MIMSY: CONDITION_MEDIA.CONDKEY
   :module: ''
   :column: ''
   :instructions: ''

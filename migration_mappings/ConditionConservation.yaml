@@ -5,12 +5,12 @@
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: CONDITION_CONSERVATION.CATALOG_ID
+  :MIMSY: CONDITION_CONSERVATION.M_ID
   :module: ''
   :column: ''
   :instructions: ''
 :condition_id:
-  :MIMSY: CONDITION_CONSERVATION.CONDITION_ID
+  :MIMSY: CONDITION_CONSERVATION.CONDKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -20,7 +20,7 @@
   :column: ''
   :instructions: ''
 :conservation_id:
-  :MIMSY: CONDITION_CONSERVATION.CONSERVATION_ID
+  :MIMSY: CONDITION_CONSERVATION.CONSKEY
   :module: ''
   :column: ''
   :instructions: ''

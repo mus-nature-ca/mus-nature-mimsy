@@ -5,12 +5,12 @@
   :column: ''
   :instructions: ''
 :conservation_id:
-  :MIMSY: CONSERVATION_FEES.CONSERVATION_ID
+  :MIMSY: CONSERVATION_FEES.CONSKEY
   :module: ''
   :column: ''
   :instructions: ''
 :conservation_detail_id:
-  :MIMSY: CONSERVATION_FEES.CONSERVATION_DETAIL_ID
+  :MIMSY: CONSERVATION_FEES.CONSMATKEY
   :module: ''
   :column: ''
   :instructions: ''

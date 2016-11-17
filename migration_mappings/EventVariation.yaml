@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: EVENT_VARIATIONS.ID
+  :MIMSY: EVENT_VARIATIONS.VVARKEY
   :module: ''
   :column: ''
   :instructions: ''
 :event_id:
-  :MIMSY: EVENT_VARIATIONS.EVENT_ID
+  :MIMSY: EVENT_VARIATIONS.VKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :type:
-  :MIMSY: EVENT_VARIATIONS.TYPE
+  :MIMSY: EVENT_VARIATIONS.VARIATION_TYPE
   :module: ''
   :column: ''
   :instructions: ''

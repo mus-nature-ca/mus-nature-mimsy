@@ -1,26 +1,26 @@
 ---
 :id:
-  :MIMSY: TAXONOMY_VARIATIONS.ID
+  :MIMSY: TAXONOMY_VARIATIONS.TAXVARKEY
   :module: ''
   :column: ''
   :instructions: ''
 :taxon_id:
-  :MIMSY: TAXONOMY_VARIATIONS.TAXON_ID
+  :MIMSY: TAXONOMY_VARIATIONS.SPECKEY
   :module: ''
   :column: ''
   :instructions: ''
 :scientific_name:
-  :MIMSY: TAXONOMY_VARIATIONS.SCIENTIFIC_NAME
+  :MIMSY: TAXONOMY_VARIATIONS.VARIATION
   :module: ''
   :column: ''
   :instructions: ''
 :variation_type:
-  :MIMSY: TAXONOMY_VARIATIONS.VARIATION_TYPE
+  :MIMSY: TAXONOMY_VARIATIONS.VAR_TYPE
   :module: ''
   :column: ''
   :instructions: ''
 :attribution_type:
-  :MIMSY: TAXONOMY_VARIATIONS.ATTRIBUTION_TYPE
+  :MIMSY: TAXONOMY_VARIATIONS.ATTRIB_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -30,17 +30,17 @@
   :column: ''
   :instructions: ''
 :attribution_date:
-  :MIMSY: TAXONOMY_VARIATIONS.ATTRIBUTION_DATE
+  :MIMSY: TAXONOMY_VARIATIONS.ATTRIB_DATE
   :module: ''
   :column: ''
   :instructions: ''
 :attribution_source:
-  :MIMSY: TAXONOMY_VARIATIONS.ATTRIBUTION_SOURCE
+  :MIMSY: TAXONOMY_VARIATIONS.ATTRIB_SOURCE
   :module: ''
   :column: ''
   :instructions: ''
 :attribution_comment:
-  :MIMSY: TAXONOMY_VARIATIONS.ATTRIBUTION_COMMENT
+  :MIMSY: TAXONOMY_VARIATIONS.ATTRIB_COMMENT
   :module: ''
   :column: ''
   :instructions: ''

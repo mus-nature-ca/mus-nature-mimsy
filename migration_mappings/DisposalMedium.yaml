@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: DISPOSALS_MEDIA.MEDIUM_ID
+  :MIMSY: DISPOSALS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :disposal_id:
-  :MIMSY: DISPOSALS_MEDIA.DISPOSAL_ID
+  :MIMSY: DISPOSALS_MEDIA.AKEY
   :module: ''
   :column: ''
   :instructions: ''

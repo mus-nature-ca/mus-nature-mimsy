@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: FACILITIES.ID
+  :MIMSY: FACILITIES.LOCKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -10,7 +10,7 @@
   :column: ''
   :instructions: ''
 :type:
-  :MIMSY: FACILITIES.TYPE
+  :MIMSY: FACILITIES.LOC_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -20,7 +20,7 @@
   :column: ''
   :instructions: ''
 :address_line1:
-  :MIMSY: FACILITIES.ADDRESS_LINE1
+  :MIMSY: FACILITIES.ADDRESS1
   :module: ''
   :column: ''
   :instructions: ''
@@ -50,7 +50,7 @@
   :column: ''
   :instructions: ''
 :parent_id:
-  :MIMSY: FACILITIES.PARENT_ID
+  :MIMSY: FACILITIES.BROADER_LOCKEY
   :module: ''
   :column: ''
   :instructions: ''

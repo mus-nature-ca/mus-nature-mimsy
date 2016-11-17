@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: PEOPLE_PLACES.ID
+  :MIMSY: PEOPLE_PLACES.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: PEOPLE_PLACES.PERSON_ID
+  :MIMSY: PEOPLE_PLACES.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''
 :place_id:
-  :MIMSY: PEOPLE_PLACES.PLACE_ID
+  :MIMSY: PEOPLE_PLACES.PLACEKEY
   :module: ''
   :column: ''
   :instructions: ''

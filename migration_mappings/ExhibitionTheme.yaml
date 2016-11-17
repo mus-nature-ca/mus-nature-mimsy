@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :exhibition_id:
-  :MIMSY: EXHIBITION_THEMES.EXHIBITION_ID
+  :MIMSY: EXHIBITION_THEMES.EKEY
   :module: ''
   :column: ''
   :instructions: ''

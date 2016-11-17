@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: SITES_PLACES.ID
+  :MIMSY: SITES_PLACES.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :place_id:
-  :MIMSY: SITES_PLACES.PLACE_ID
+  :MIMSY: SITES_PLACES.PLACEKEY
   :module: ''
   :column: ''
   :instructions: ''
 :site_id:
-  :MIMSY: SITES_PLACES.SITE_ID
+  :MIMSY: SITES_PLACES.SKEY
   :module: ''
   :column: ''
   :instructions: ''

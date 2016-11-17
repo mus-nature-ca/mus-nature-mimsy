@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: INSTRUCTIONS.ID
+  :MIMSY: INSTRUCTIONS.INSTRUCTKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :type:
-  :MIMSY: INSTRUCTIONS.TYPE
+  :MIMSY: INSTRUCTIONS.INSTRUCTION_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -40,7 +40,7 @@
   :column: ''
   :instructions: ''
 :regarding:
-  :MIMSY: INSTRUCTIONS.REGARDING
+  :MIMSY: INSTRUCTIONS.CARRYOVER
   :module: ''
   :column: ''
   :instructions: ''

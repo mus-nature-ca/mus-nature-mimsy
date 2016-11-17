@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: EVENTS.ID
+  :MIMSY: EVENTS.VKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -25,12 +25,12 @@
   :column: ''
   :instructions: ''
 :category:
-  :MIMSY: EVENTS.CATEGORY
+  :MIMSY: EVENTS.CATEGORY1
   :module: ''
   :column: ''
   :instructions: ''
 :occurrence_type:
-  :MIMSY: EVENTS.OCCURRENCE_TYPE
+  :MIMSY: EVENTS.OCCURENCE_TYPE
   :module: ''
   :column: ''
   :instructions: ''

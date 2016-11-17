@@ -5,12 +5,12 @@
   :column: ''
   :instructions: ''
 :loan_id:
-  :MIMSY: LOAN_VENUES.LOAN_ID
+  :MIMSY: LOAN_VENUES.LKEY
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: LOAN_VENUES.PERSON_ID
+  :MIMSY: LOAN_VENUES.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''

@@ -1,11 +1,11 @@
 ---
 :catalog_id:
-  :MIMSY: CONDITION.CATALOG_ID
+  :MIMSY: CONDITION.M_ID
   :module: ''
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: CONDITION.ID
+  :MIMSY: CONDITION.CONDKEY
   :module: ''
   :column: ''
   :instructions: ''

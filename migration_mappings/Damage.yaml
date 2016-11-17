@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: DAMAGE.ID
+  :MIMSY: DAMAGE.DKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: DAMAGE.CATALOG_ID
+  :MIMSY: DAMAGE.M_ID
   :module: ''
   :column: ''
   :instructions: ''

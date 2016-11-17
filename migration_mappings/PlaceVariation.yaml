@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: PLACE_VARIATIONS.ID
+  :MIMSY: PLACE_VARIATIONS.PLACEVARKEY
   :module: ''
   :column: ''
   :instructions: ''
 :place_id:
-  :MIMSY: PLACE_VARIATIONS.PLACE_ID
+  :MIMSY: PLACE_VARIATIONS.PLACEKEY
   :module: ''
   :column: ''
   :instructions: ''

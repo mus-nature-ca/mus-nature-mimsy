@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: PLACES.ID
+  :MIMSY: PLACES.PLACEKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -10,7 +10,7 @@
   :column: ''
   :instructions: ''
 :name:
-  :MIMSY: PLACES.NAME
+  :MIMSY: PLACES.PLACE1
   :module: ''
   :column: ''
   :instructions: ''

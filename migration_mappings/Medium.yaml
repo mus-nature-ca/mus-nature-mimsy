@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: MEDIA.ID
+  :MIMSY: MEDIA.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -60,7 +60,7 @@
   :column: ''
   :instructions: ''
 :parent_id:
-  :MIMSY: MEDIA.PARENT_ID
+  :MIMSY: MEDIA.BROADER_KEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -120,12 +120,12 @@
   :column: ''
   :instructions: ''
 :horizontal_size:
-  :MIMSY: MEDIA.HORIZONTAL_SIZE
+  :MIMSY: MEDIA.H_SIZE
   :module: ''
   :column: ''
   :instructions: ''
 :vertical_size:
-  :MIMSY: MEDIA.VERTICAL_SIZE
+  :MIMSY: MEDIA.V_SIZE
   :module: ''
   :column: ''
   :instructions: ''

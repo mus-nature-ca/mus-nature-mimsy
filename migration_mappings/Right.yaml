@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: RIGHTS.ID
+  :MIMSY: RIGHTS.RIGHTSKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -25,17 +25,17 @@
   :column: ''
   :instructions: ''
 :right:
-  :MIMSY: RIGHTS.RIGHT
+  :MIMSY: RIGHTS.RIGHTS_TEXT
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: RIGHTS.PERSON_ID
+  :MIMSY: RIGHTS.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''
 :holder:
-  :MIMSY: RIGHTS.HOLDER
+  :MIMSY: RIGHTS.RIGHTS_HOLDER
   :module: ''
   :column: ''
   :instructions: ''
@@ -95,7 +95,7 @@
   :column: ''
   :instructions: ''
 :regarding:
-  :MIMSY: RIGHTS.REGARDING
+  :MIMSY: RIGHTS.CARRYOVER
   :module: ''
   :column: ''
   :instructions: ''

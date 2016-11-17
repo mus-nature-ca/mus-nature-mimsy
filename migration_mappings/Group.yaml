@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: GROUPS.ID
+  :MIMSY: GROUPS.GROUP_ID
   :module: ''
   :column: ''
   :instructions: ''
 :module:
-  :MIMSY: GROUPS.MODULE
+  :MIMSY: GROUPS.LINK_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :name:
-  :MIMSY: GROUPS.NAME
+  :MIMSY: GROUPS.GROUP_NAME
   :module: ''
   :column: ''
   :instructions: ''

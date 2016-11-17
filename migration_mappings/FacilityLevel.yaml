@@ -1,6 +1,6 @@
 ---
 :facility_id:
-  :MIMSY: FACILITY_LEVELS.FACILITY_ID
+  :MIMSY: FACILITY_LEVELS.LOCKEY
   :module: ''
   :column: ''
   :instructions: ''

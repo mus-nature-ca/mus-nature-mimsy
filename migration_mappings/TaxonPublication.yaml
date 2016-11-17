@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: TAXONOMY_PUBLICATIONS.ID
+  :MIMSY: TAXONOMY_PUBLICATIONS.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :publication_id:
-  :MIMSY: TAXONOMY_PUBLICATIONS.PUBLICATION_ID
+  :MIMSY: TAXONOMY_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
   :instructions: ''
 :taxon_id:
-  :MIMSY: TAXONOMY_PUBLICATIONS.TAXON_ID
+  :MIMSY: TAXONOMY_PUBLICATIONS.SPECKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -35,7 +35,7 @@
   :column: ''
   :instructions: ''
 :taxon_variation_id:
-  :MIMSY: TAXONOMY_PUBLICATIONS.TAXON_VARIATION_ID
+  :MIMSY: TAXONOMY_PUBLICATIONS.TAXVARKEY
   :module: ''
   :column: ''
   :instructions: ''

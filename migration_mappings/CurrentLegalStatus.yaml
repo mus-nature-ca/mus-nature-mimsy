@@ -1,6 +1,6 @@
 ---
 :catalog_id:
-  :MIMSY: CURRENT_LEGAL_STATUS.CATALOG_ID
+  :MIMSY: CURRENT_LEGAL_STATUS.MKEY
   :module: ''
   :column: ''
   :instructions: ''

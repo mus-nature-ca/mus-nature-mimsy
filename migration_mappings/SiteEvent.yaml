@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: SITES_EVENTS.ID
+  :MIMSY: SITES_EVENTS.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :event_id:
-  :MIMSY: SITES_EVENTS.EVENT_ID
+  :MIMSY: SITES_EVENTS.VKEY
   :module: ''
   :column: ''
   :instructions: ''
 :site_id:
-  :MIMSY: SITES_EVENTS.SITE_ID
+  :MIMSY: SITES_EVENTS.SKEY
   :module: ''
   :column: ''
   :instructions: ''

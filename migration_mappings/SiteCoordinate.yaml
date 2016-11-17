@@ -5,27 +5,27 @@
   :column: ''
   :instructions: ''
 :site_id:
-  :MIMSY: SITE_COORDINATES.SITE_ID
+  :MIMSY: SITE_COORDINATES.SKEY
   :module: ''
   :column: ''
   :instructions: ''
 :type:
-  :MIMSY: SITE_COORDINATES.TYPE
+  :MIMSY: SITE_COORDINATES.COORD_TYPE
   :module: ''
   :column: ''
   :instructions: ''
 :degrees:
-  :MIMSY: SITE_COORDINATES.DEGREES
+  :MIMSY: SITE_COORDINATES.PART1
   :module: ''
   :column: ''
   :instructions: ''
 :minutes:
-  :MIMSY: SITE_COORDINATES.MINUTES
+  :MIMSY: SITE_COORDINATES.PART2
   :module: ''
   :column: ''
   :instructions: ''
 :seconds:
-  :MIMSY: SITE_COORDINATES.SECONDS
+  :MIMSY: SITE_COORDINATES.PART3
   :module: ''
   :column: ''
   :instructions: ''
@@ -35,7 +35,7 @@
   :column: ''
   :instructions: ''
 :decimal_degrees:
-  :MIMSY: SITE_COORDINATES.DECIMAL_DEGREES
+  :MIMSY: SITE_COORDINATES.DECIMAL_COORDINATE
   :module: ''
   :column: ''
   :instructions: ''

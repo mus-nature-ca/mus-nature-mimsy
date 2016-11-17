@@ -1,6 +1,6 @@
 ---
 :site_id:
-  :MIMSY: SITE_CULTURES.SITE_ID
+  :MIMSY: SITE_CULTURES.SKEY
   :module: ''
   :column: ''
   :instructions: ''

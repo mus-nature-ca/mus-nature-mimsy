@@ -1,18 +1,18 @@
 ---
 :id:
-  :MIMSY: ACQUISITIONS.ID
+  :MIMSY: ACQUISITIONS.AKEY
   :module: ''
   :column: ''
   :instructions: ''
 :acquisition_number:
-  :MIMSY: ACQUISITIONS.ACQUISITION_NUMBER
+  :MIMSY: ACQUISITIONS.REF_NUMBER
   :module: 'eaccessionlots'
   :column: 'AcqAcquisitionIdentifier'
   :instructions: ''
 :status:
   :MIMSY: ACQUISITIONS.STATUS
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'LotRecordType'
   :instructions: ''
 :status_date:
   :MIMSY: ACQUISITIONS.STATUS_DATE
@@ -21,33 +21,33 @@
   :instructions: ''
 :requested_by:
   :MIMSY: ACQUISITIONS.REQUESTED_BY
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'AcqRecommededBy'
   :instructions: ''
 :request_date:
   :MIMSY: ACQUISITIONS.REQUEST_DATE
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'AcqRecommendedDate'
   :instructions: ''
 :authorized_by:
   :MIMSY: ACQUISITIONS.AUTHORIZED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eaccessionlots'
+  :column: 'AppApprovedBy_tab'
+  :instructions: 'Individual people names separated by semi-colons'
 :date_authorized:
   :MIMSY: ACQUISITIONS.DATE_AUTHORIZED
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'AcqDateApproved'
   :instructions: ''
 :method:
   :MIMSY: ACQUISITIONS.METHOD
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'AcqAcquisitionMethod'
   :instructions: ''
 :legal_date:
   :MIMSY: ACQUISITIONS.LEGAL_DATE
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'AcqDateOwnership'
   :instructions: ''
 :legal_date_display:
   :MIMSY: ACQUISITIONS.LEGAL_DATE_DISPLAY
@@ -56,8 +56,8 @@
   :instructions: ''
 :reason:
   :MIMSY: ACQUISITIONS.REASON
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'AcqDescriptionOfRationale'
   :instructions: ''
 :total_requested:
   :MIMSY: ACQUISITIONS.TOTAL_REQUESTED
@@ -66,8 +66,8 @@
   :instructions: ''
 :total_approved:
   :MIMSY: ACQUISITIONS.TOTAL_APPROVED
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'LotQuantity_tab'
   :instructions: ''
 :decision_reason:
   :MIMSY: ACQUISITIONS.DECISION_REASON
@@ -96,8 +96,8 @@
   :instructions: ''
 :provisos:
   :MIMSY: ACQUISITIONS.PROVISOS
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'AcqRestrictionsProvisos_tab'
   :instructions: ''
 :external_file:
   :MIMSY: ACQUISITIONS.EXTERNAL_FILE
@@ -106,13 +106,13 @@
   :instructions: ''
 :note:
   :MIMSY: ACQUISITIONS.NOTE
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'AcqAcquisitionRemarks'
   :instructions: ''
 :collection:
-  :MIMSY: ACQUISITIONS.COLLECTION
-  :module: ''
-  :column: ''
+  :MIMSY: ACQUISITIONS.OPTION1
+  :module: 'eaccessionlots'
+  :column: 'LotObjectType_tab'
   :instructions: ''
 :flag1:
   :MIMSY: ACQUISITIONS.FLAG1

@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: ITEMS_PUBLICATIONS.ID
+  :MIMSY: ITEMS_PUBLICATIONS.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEMS_PUBLICATIONS.CATALOG_ID
+  :MIMSY: ITEMS_PUBLICATIONS.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :publication_id:
-  :MIMSY: ITEMS_PUBLICATIONS.PUBLICATION_ID
+  :MIMSY: ITEMS_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -20,7 +20,7 @@
   :column: ''
   :instructions: ''
 :plate_figure:
-  :MIMSY: ITEMS_PUBLICATIONS.PLATE_FIGURE
+  :MIMSY: ITEMS_PUBLICATIONS.POSITION
   :module: ''
   :column: ''
   :instructions: ''
@@ -35,7 +35,7 @@
   :column: ''
   :instructions: ''
 :illustated:
-  :MIMSY: ITEMS_PUBLICATIONS.ILLUSTATED
+  :MIMSY: ITEMS_PUBLICATIONS.ILLUSTRATION
   :module: ''
   :column: ''
   :instructions: ''

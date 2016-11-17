@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: ITEMS_FACILITIES.ID
+  :MIMSY: ITEMS_FACILITIES.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEMS_FACILITIES.CATALOG_ID
+  :MIMSY: ITEMS_FACILITIES.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :facility_id:
-  :MIMSY: ITEMS_FACILITIES.FACILITY_ID
+  :MIMSY: ITEMS_FACILITIES.LOCKEY
   :module: ''
   :column: ''
   :instructions: ''

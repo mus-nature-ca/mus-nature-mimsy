@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: ITEMS_PEOPLE.ID
+  :MIMSY: ITEMS_PEOPLE.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEMS_PEOPLE.CATALOG_ID
+  :MIMSY: ITEMS_PEOPLE.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: ITEMS_PEOPLE.PERSON_ID
+  :MIMSY: ITEMS_PEOPLE.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''

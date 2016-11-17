@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: ITEMS_EVENTS.ID
+  :MIMSY: ITEMS_EVENTS.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEMS_EVENTS.CATALOG_ID
+  :MIMSY: ITEMS_EVENTS.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :event_id:
-  :MIMSY: ITEMS_EVENTS.EVENT_ID
+  :MIMSY: ITEMS_EVENTS.VKEY
   :module: ''
   :column: ''
   :instructions: ''

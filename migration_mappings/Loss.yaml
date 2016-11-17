@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: LOSS.ID
+  :MIMSY: LOSS.LOSSKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: LOSS.CATALOG_ID
+  :MIMSY: LOSS.M_ID
   :module: ''
   :column: ''
   :instructions: ''

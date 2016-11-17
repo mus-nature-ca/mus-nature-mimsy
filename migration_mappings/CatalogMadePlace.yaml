@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: ITEMS_PLACES_MADE.ID
+  :MIMSY: ITEMS_PLACES_MADE.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEMS_PLACES_MADE.CATALOG_ID
+  :MIMSY: ITEMS_PLACES_MADE.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :place_id:
-  :MIMSY: ITEMS_PLACES_MADE.PLACE_ID
+  :MIMSY: ITEMS_PLACES_MADE.PLACEKEY
   :module: ''
   :column: ''
   :instructions: ''

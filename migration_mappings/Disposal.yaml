@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: DISPOSALS.ID
+  :MIMSY: DISPOSALS.AKEY
   :module: ''
   :column: ''
   :instructions: ''
 :reference_number:
-  :MIMSY: DISPOSALS.REFERENCE_NUMBER
+  :MIMSY: DISPOSALS.REF_NUMBER
   :module: ''
   :column: ''
   :instructions: ''

@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEM_NAMES.CATALOG_ID
+  :MIMSY: ITEM_NAMES.MKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,17 +15,17 @@
   :column: ''
   :instructions: ''
 :type:
-  :MIMSY: ITEM_NAMES.TYPE
+  :MIMSY: ITEM_NAMES.TNA_TYPE
   :module: ''
   :column: ''
   :instructions: ''
 :scientific_name:
-  :MIMSY: ITEM_NAMES.SCIENTIFIC_NAME
+  :MIMSY: ITEM_NAMES.ITEM_NAME
   :module: ''
   :column: ''
   :instructions: ''
 :attribution_type:
-  :MIMSY: ITEM_NAMES.ATTRIBUTION_TYPE
+  :MIMSY: ITEM_NAMES.ATTRIB_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -35,12 +35,12 @@
   :column: ''
   :instructions: ''
 :attribution_date:
-  :MIMSY: ITEM_NAMES.ATTRIBUTION_DATE
+  :MIMSY: ITEM_NAMES.ATTRIB_DATE
   :module: ''
   :column: ''
   :instructions: ''
 :attribution_source:
-  :MIMSY: ITEM_NAMES.ATTRIBUTION_SOURCE
+  :MIMSY: ITEM_NAMES.ATTRIB_SOURCE
   :module: ''
   :column: ''
   :instructions: ''
@@ -50,7 +50,7 @@
   :column: ''
   :instructions: ''
 :attribution_comment:
-  :MIMSY: ITEM_NAMES.ATTRIBUTION_COMMENT
+  :MIMSY: ITEM_NAMES.ATTRIB_COMMENT
   :module: ''
   :column: ''
   :instructions: ''

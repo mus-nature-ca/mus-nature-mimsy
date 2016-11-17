@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: DAMAGE_MEDIA.MEDIUM_ID
+  :MIMSY: DAMAGE_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: DAMAGE_MEDIA.CATALOG_ID
+  :MIMSY: DAMAGE_MEDIA.M_ID
   :module: ''
   :column: ''
   :instructions: ''
@@ -25,7 +25,7 @@
   :column: ''
   :instructions: ''
 :damage_id:
-  :MIMSY: DAMAGE_MEDIA.DAMAGE_ID
+  :MIMSY: DAMAGE_MEDIA.DKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -50,7 +50,7 @@
   :column: ''
   :instructions: ''
 :sort:
-  :MIMSY: DAMAGE_MEDIA.SORT
+  :MIMSY: DAMAGE_MEDIA.STEP
   :module: ''
   :column: ''
   :instructions: ''

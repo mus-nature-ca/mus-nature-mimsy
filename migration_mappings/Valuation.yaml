@@ -1,11 +1,11 @@
 ---
 :catalog_id:
-  :MIMSY: VALUATION.CATALOG_ID
+  :MIMSY: VALUATION.M_ID
   :module: ''
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: VALUATION.ID
+  :MIMSY: VALUATION.TRANS_ID
   :module: ''
   :column: ''
   :instructions: ''

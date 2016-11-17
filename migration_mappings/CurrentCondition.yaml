@@ -1,11 +1,11 @@
 ---
 :catalog_id:
-  :MIMSY: CURRENT_CONDITION.CATALOG_ID
+  :MIMSY: CURRENT_CONDITION.M_ID
   :module: ''
   :column: ''
   :instructions: ''
 :condition_id:
-  :MIMSY: CURRENT_CONDITION.CONDITION_ID
+  :MIMSY: CURRENT_CONDITION.CONDKEY
   :module: ''
   :column: ''
   :instructions: ''

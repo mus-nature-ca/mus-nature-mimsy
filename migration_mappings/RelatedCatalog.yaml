@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: RELATED_ITEMS.ID
+  :MIMSY: RELATED_ITEMS.RELRECKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: RELATED_ITEMS.CATALOG_ID
+  :MIMSY: RELATED_ITEMS.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :related_catalog_id:
-  :MIMSY: RELATED_ITEMS.RELATED_CATALOG_ID
+  :MIMSY: RELATED_ITEMS.RELATED_MKEY
   :module: ''
   :column: ''
   :instructions: ''

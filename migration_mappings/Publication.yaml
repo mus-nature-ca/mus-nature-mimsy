@@ -1,6 +1,6 @@
 ---
 :id:
-  :MIMSY: PUBLICATIONS.ID
+  :MIMSY: PUBLICATIONS.PKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -10,7 +10,7 @@
   :column: ''
   :instructions: ''
 :publication_type:
-  :MIMSY: PUBLICATIONS.PUBLICATION_TYPE
+  :MIMSY: PUBLICATIONS.PUB_TYPE
   :module: ''
   :column: ''
   :instructions: ''

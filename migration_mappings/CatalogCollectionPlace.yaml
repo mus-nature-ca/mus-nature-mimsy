@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: ITEMS_PLACES_COLLECTED.ID
+  :MIMSY: ITEMS_PLACES_COLLECTED.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEMS_PLACES_COLLECTED.CATALOG_ID
+  :MIMSY: ITEMS_PLACES_COLLECTED.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :place_id:
-  :MIMSY: ITEMS_PLACES_COLLECTED.PLACE_ID
+  :MIMSY: ITEMS_PLACES_COLLECTED.PLACEKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -40,12 +40,12 @@
   :column: ''
   :instructions: ''
 :attribution_date:
-  :MIMSY: ITEMS_PLACES_COLLECTED.ATTRIBUTION_DATE
+  :MIMSY: ITEMS_PLACES_COLLECTED.ATTRIB_DATE
   :module: ''
   :column: ''
   :instructions: ''
 :attribution_comment:
-  :MIMSY: ITEMS_PLACES_COLLECTED.ATTRIBUTION_COMMENT
+  :MIMSY: ITEMS_PLACES_COLLECTED.ATTRIB_COMMENT
   :module: ''
   :column: ''
   :instructions: ''
@@ -60,7 +60,7 @@
   :column: ''
   :instructions: ''
 :place_variation_id:
-  :MIMSY: ITEMS_PLACES_COLLECTED.PLACE_VARIATION_ID
+  :MIMSY: ITEMS_PLACES_COLLECTED.PLACEVARKEY
   :module: ''
   :column: ''
   :instructions: ''

@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: MEDIA_PEOPLE.ID
+  :MIMSY: MEDIA_PEOPLE.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: MEDIA_PEOPLE.PERSON_ID
+  :MIMSY: MEDIA_PEOPLE.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: MEDIA_PEOPLE.MEDIUM_ID
+  :MIMSY: MEDIA_PEOPLE.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''

@@ -5,17 +5,17 @@
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: INSCRIPTIONS.CATALOG_ID
+  :MIMSY: INSCRIPTIONS.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :type:
-  :MIMSY: INSCRIPTIONS.TYPE
+  :MIMSY: INSCRIPTIONS.INSCRIPTION_TYPE
   :module: ''
   :column: ''
   :instructions: ''
 :text:
-  :MIMSY: INSCRIPTIONS.TEXT
+  :MIMSY: INSCRIPTIONS.INSCRIPTION_TEXT
   :module: ''
   :column: ''
   :instructions: ''

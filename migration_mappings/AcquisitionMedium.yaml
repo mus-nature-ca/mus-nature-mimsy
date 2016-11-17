@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: ACQUISITIONS_MEDIA.MEDIUM_ID
+  :MIMSY: ACQUISITIONS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :acquisition_id:
-  :MIMSY: ACQUISITIONS_MEDIA.ACQUISITION_ID
+  :MIMSY: ACQUISITIONS_MEDIA.AKEY
   :module: ''
   :column: ''
   :instructions: ''

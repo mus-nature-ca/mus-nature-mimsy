@@ -87,9 +87,10 @@ elsif options[:migration_templates]
   models.delete_if{|m| exclusions.include?(m.name)}
 
   models.each do |model|
+    map_cols = model.custom_attribute_names.zip(model.attribute_names).to_h
     yaml = model.custom_attribute_names
                 .map{|an| [an, { 
-                  "MIMSY" => [model.table_name.upcase, an.upcase].join("."), 
+                  "MIMSY" => [model.table_name.upcase, map_cols[an].upcase].join("."), 
                   "module" => "", 
                   "column" => "", 
                   "instructions" => "" }.symbolize_keys!]}

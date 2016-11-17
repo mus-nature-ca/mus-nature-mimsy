@@ -1,11 +1,11 @@
 ---
 :id:
-  :MIMSY: ITEM_USAGE.ID
+  :MIMSY: ITEM_USAGE.USEKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEM_USAGE.CATALOG_ID
+  :MIMSY: ITEM_USAGE.MKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :type:
-  :MIMSY: ITEM_USAGE.TYPE
+  :MIMSY: ITEM_USAGE.USE_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -35,7 +35,7 @@
   :column: ''
   :instructions: ''
 :attribution_type:
-  :MIMSY: ITEM_USAGE.ATTRIBUTION_TYPE
+  :MIMSY: ITEM_USAGE.ATTRIB_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -45,12 +45,12 @@
   :column: ''
   :instructions: ''
 :attribution_source:
-  :MIMSY: ITEM_USAGE.ATTRIBUTION_SOURCE
+  :MIMSY: ITEM_USAGE.ATTRIB_SOURCE
   :module: ''
   :column: ''
   :instructions: ''
 :attribution_date:
-  :MIMSY: ITEM_USAGE.ATTRIBUTION_DATE
+  :MIMSY: ITEM_USAGE.ATTRIB_DATE
   :module: ''
   :column: ''
   :instructions: ''
@@ -60,12 +60,12 @@
   :column: ''
   :instructions: ''
 :attribution_comment:
-  :MIMSY: ITEM_USAGE.ATTRIBUTION_COMMENT
+  :MIMSY: ITEM_USAGE.ATTRIB_COMMENT
   :module: ''
   :column: ''
   :instructions: ''
 :sort:
-  :MIMSY: ITEM_USAGE.SORT
+  :MIMSY: ITEM_USAGE.STEP
   :module: ''
   :column: ''
   :instructions: ''

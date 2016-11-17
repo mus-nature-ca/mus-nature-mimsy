@@ -5,7 +5,7 @@
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: EXHIBITIONS_MEDIA.MEDIUM_ID
+  :MIMSY: EXHIBITIONS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :exhibition_id:
-  :MIMSY: EXHIBITIONS_MEDIA.EXHIBITION_ID
+  :MIMSY: EXHIBITIONS_MEDIA.EKEY
   :module: ''
   :column: ''
   :instructions: ''

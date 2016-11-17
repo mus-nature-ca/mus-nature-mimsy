@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: MEDIA_PUBLICATIONS.ID
+  :MIMSY: MEDIA_PUBLICATIONS.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :publication_id:
-  :MIMSY: MEDIA_PUBLICATIONS.PUBLICATION_ID
+  :MIMSY: MEDIA_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: MEDIA_PUBLICATIONS.MEDIUM_ID
+  :MIMSY: MEDIA_PUBLICATIONS.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''

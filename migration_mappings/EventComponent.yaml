@@ -1,6 +1,6 @@
 ---
 :event_id:
-  :MIMSY: EVENT_COMPONENTS.EVENT_ID
+  :MIMSY: EVENT_COMPONENTS.VKEY
   :module: ''
   :column: ''
   :instructions: ''

@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: SITES_PEOPLE.ID
+  :MIMSY: SITES_PEOPLE.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :person_id:
-  :MIMSY: SITES_PEOPLE.PERSON_ID
+  :MIMSY: SITES_PEOPLE.LINK_ID
   :module: ''
   :column: ''
   :instructions: ''
 :site_id:
-  :MIMSY: SITES_PEOPLE.SITE_ID
+  :MIMSY: SITES_PEOPLE.SKEY
   :module: ''
   :column: ''
   :instructions: ''
@@ -45,7 +45,7 @@
   :column: ''
   :instructions: ''
 :person_variation_id:
-  :MIMSY: SITES_PEOPLE.PERSON_VARIATION_ID
+  :MIMSY: SITES_PEOPLE.NVARKEY
   :module: ''
   :column: ''
   :instructions: ''

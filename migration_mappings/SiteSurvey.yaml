@@ -1,6 +1,6 @@
 ---
 :site_id:
-  :MIMSY: SITE_SURVEYS.SITE_ID
+  :MIMSY: SITE_SURVEYS.SKEY
   :module: ''
   :column: ''
   :instructions: ''

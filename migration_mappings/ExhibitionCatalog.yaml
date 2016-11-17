@@ -1,21 +1,21 @@
 ---
 :id:
-  :MIMSY: EXHIBITION_ITEMS.ID
+  :MIMSY: EXHIBITION_ITEMS.EIKEY
   :module: ''
   :column: ''
   :instructions: ''
 :exhibition_id:
-  :MIMSY: EXHIBITION_ITEMS.EXHIBITION_ID
+  :MIMSY: EXHIBITION_ITEMS.EKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: EXHIBITION_ITEMS.CATALOG_ID
+  :MIMSY: EXHIBITION_ITEMS.M_ID
   :module: ''
   :column: ''
   :instructions: ''
 :type:
-  :MIMSY: EXHIBITION_ITEMS.TYPE
+  :MIMSY: EXHIBITION_ITEMS.RECORD_TYPE
   :module: ''
   :column: ''
   :instructions: ''
@@ -65,7 +65,7 @@
   :column: ''
   :instructions: ''
 :description:
-  :MIMSY: EXHIBITION_ITEMS.DESCRIPTION
+  :MIMSY: EXHIBITION_ITEMS.ITEM_SUMMARY
   :module: ''
   :column: ''
   :instructions: ''

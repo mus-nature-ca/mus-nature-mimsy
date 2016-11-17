@@ -1,16 +1,16 @@
 ---
 :id:
-  :MIMSY: ITEMS_MEDIA.ID
+  :MIMSY: ITEMS_MEDIA.AUTHLINKKEY
   :module: ''
   :column: ''
   :instructions: ''
 :catalog_id:
-  :MIMSY: ITEMS_MEDIA.CATALOG_ID
+  :MIMSY: ITEMS_MEDIA.MKEY
   :module: ''
   :column: ''
   :instructions: ''
 :medium_id:
-  :MIMSY: ITEMS_MEDIA.MEDIUM_ID
+  :MIMSY: ITEMS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
   :instructions: ''
