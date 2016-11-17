@@ -88,12 +88,13 @@ elsif options[:fields]
     sub = models.slice(part*i, part)
     sub.each do |model|
       CSV.open(dir_zip + "/#{model.name}_fields.csv", 'w') do |csv|
-        csv << ["original", "custom", "type", "length"]
-        original = model.attribute_names
+        csv << ["field_name", "MIMSY_field_name", "field_type", "field_length", "field_example"]
+        original = model.attribute_names.map{|n| [model.table_name.upcase, n.upcase].join(".")}
         custom = model.custom_attribute_names
         type = model.columns.collect(&:type).map(&:to_s)
         length = model.columns.collect(&:limit)
-        columns = original.zip(custom, type, length)
+        sample = model.attribute_names.map{|a| model.where.not("#{a}": nil).first[a] rescue nil}
+        columns = custom.zip(original, type, length, sample)
         columns.each do |data|
           csv << data
         end
