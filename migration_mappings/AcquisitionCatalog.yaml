@@ -8,12 +8,12 @@
   :MIMSY: ACQUISITION_ITEMS.AKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Linking for ecatalogue::AccAccessionLot'
 :catalog_id:
   :MIMSY: ACQUISITION_ITEMS.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Linking for ecatalogue::AccAccessionLot'
 :id_number:
   :MIMSY: ACQUISITION_ITEMS.ID_NUMBER
   :module: ''

@@ -11,18 +11,18 @@
   :instructions: ''
 :catalog_number:
   :MIMSY: CATALOGUE.ID_NUMBER
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'CatId'
   :instructions: ''
 :collection_code:
   :MIMSY: CATALOGUE.ID_PREFIX
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'CatPrefix'
   :instructions: ''
 :collection:
   :MIMSY: CATALOGUE.CATEGORY1
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'CatCollection'
   :instructions: ''
 :scientific_name:
   :MIMSY: CATALOGUE.ITEM_NAME
@@ -106,13 +106,13 @@
   :instructions: ''
 :acquisition_number:
   :MIMSY: CATALOGUE.CREDIT_LINE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'AccAccessionLot'
   :instructions: ''
 :item_count:
   :MIMSY: CATALOGUE.ITEM_COUNT
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'PreTotalSpecimenCount'
   :instructions: ''
 :system_count:
   :MIMSY: CATALOGUE.SYSTEM_COUNT
