@@ -16,6 +16,7 @@ class Place < ActiveRecord::Base
 
   custom_attribute :id, :placekey
   custom_attribute :name, :place1
+  custom_attribute :parent_path, :broader_text
 
   categorical :language, :place_type
 

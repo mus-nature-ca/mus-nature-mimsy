@@ -11,13 +11,13 @@
   :instructions: ''
 :thesaurus_system:
   :MIMSY: THESAURUS.THES_SYSTEM
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'HieThesaurus'
   :instructions: ''
 :term:
   :MIMSY: THESAURUS.TERM1_1
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'TerTerm'
   :instructions: ''
 :alternate1:
   :MIMSY: THESAURUS.TERM2_1
@@ -36,9 +36,9 @@
   :instructions: ''
 :parent_id:
   :MIMSY: THESAURUS.BROADER_ID
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ethesaurus'
+  :column: 'HieBroaderTerms_tab'
+  :instructions: 'Follow this parent_id to get the parent term'
 :broader_text:
   :MIMSY: THESAURUS.BROADER_TEXT
   :module: ''
@@ -46,8 +46,8 @@
   :instructions: ''
 :note:
   :MIMSY: THESAURUS.NOTE
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'TerScopeNotes'
   :instructions: ''
 :comments:
   :MIMSY: THESAURUS.COMMENTS
@@ -66,8 +66,8 @@
   :instructions: ''
 :source:
   :MIMSY: THESAURUS.SOURCE
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'HisSource_tab'
   :instructions: ''
 :source_date:
   :MIMSY: THESAURUS.SOURCE_DATE
@@ -96,21 +96,21 @@
   :instructions: ''
 :created_by:
   :MIMSY: THESAURUS.CREATED_BY
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'HisAuthor_tab'
   :instructions: ''
 :create_date:
   :MIMSY: THESAURUS.CREATE_DATE
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'HisDateChanged0'
   :instructions: ''
 :updated_by:
   :MIMSY: THESAURUS.UPDATED_BY
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'HisAuthor_tab'
   :instructions: ''
 :update_date:
   :MIMSY: THESAURUS.UPDATE_DATE
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'HisDateChanged0'
   :instructions: ''

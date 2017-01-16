@@ -11,8 +11,8 @@
   :instructions: ''
 :media_id:
   :MIMSY: MEDIA.MEDIA_ID
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'MulTitle'
   :instructions: ''
 :locator:
   :MIMSY: MEDIA.LOCATOR
@@ -21,8 +21,8 @@
   :instructions: ''
 :record_type:
   :MIMSY: MEDIA.RECORD_TYPE
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'DetResourceType'
   :instructions: ''
 :repro_allowed:
   :MIMSY: MEDIA.REPRO_ALLOWED
@@ -41,8 +41,8 @@
   :instructions: ''
 :format:
   :MIMSY: MEDIA.FORMAT
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'ChaMediaForm'
   :instructions: ''
 :thumbnail:
   :MIMSY: MEDIA.THUMBNAIL
@@ -51,8 +51,8 @@
   :instructions: ''
 :publish:
   :MIMSY: MEDIA.PUBLISH
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'AdmPublishWebNoPassword'
   :instructions: ''
 :primary:
   :MIMSY: MEDIA.PRIMARY
@@ -111,8 +111,8 @@
   :instructions: ''
 :credit_line:
   :MIMSY: MEDIA.CREDIT_LINE
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'DetRights'
   :instructions: ''
 :resolution:
   :MIMSY: MEDIA.RESOLUTION
@@ -151,8 +151,8 @@
   :instructions: ''
 :date_captured:
   :MIMSY: MEDIA.DATE_CAPTURED
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'DetDate0'
   :instructions: ''
 :capture_method:
   :MIMSY: MEDIA.CAPTURE_METHOD
@@ -161,13 +161,13 @@
   :instructions: ''
 :capture_device:
   :MIMSY: MEDIA.CAPTURE_DEVICE
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'DetSource'
   :instructions: ''
 :captured_by:
   :MIMSY: MEDIA.CAPTURED_BY
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'MulCreator_tab'
   :instructions: ''
 :storage_media:
   :MIMSY: MEDIA.STORAGE_MEDIA
@@ -176,8 +176,8 @@
   :instructions: ''
 :note:
   :MIMSY: MEDIA.NOTE
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'SupNotes0'
   :instructions: ''
 :flag1:
   :MIMSY: MEDIA.FLAG1
