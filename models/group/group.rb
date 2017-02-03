@@ -34,4 +34,9 @@ class Group < ActiveRecord::Base
       nil
     end
   end
+
+  def full_title
+    "#{group_owner} - #{name}"
+  end
+
 end

@@ -70,6 +70,11 @@ if options[:model]
         data = row.custom_attributes.values.push(row.locator_linux)
         csv << data
       end
+    elsif model.to_s == "Group"
+      csv << model.custom_attribute_names.push("table", "full_title")
+      model.find_each do |row|
+        csv << row.custom_attributes.values.push(row.table, row.full_title)
+      end
     else
       csv << model.custom_attribute_names
       model.find_each do |row|
@@ -237,9 +242,9 @@ elsif options[:all]
             csv << row.custom_attributes.values.push(row.locator_linux)
           end
         elsif model.to_s == "Group"
-          csv << model.custom_attribute_names.push("table")
+          csv << model.custom_attribute_names.push("table", "full_title")
           model.find_each do |row|
-            csv << row.custom_attributes.values.push(row.table)
+            csv << row.custom_attributes.values.push(row.table, row.full_title)
           end
         else
           csv << model.custom_attribute_names

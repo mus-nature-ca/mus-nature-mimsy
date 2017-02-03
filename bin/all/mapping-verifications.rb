@@ -16,6 +16,11 @@ MANY_MANY = {
   "Taxon" => "speckey"
 }
 
+ONE_MANY = [
+  "Accessory",
+  ""
+]
+
 models = ActiveRecord::Base.descendants
 models.delete_if{|m| !m.name.include?("Catalog") || m.name == "Catalog"}
 

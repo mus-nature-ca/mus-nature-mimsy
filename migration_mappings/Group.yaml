@@ -21,8 +21,8 @@
   :instructions: ''
 :private_public:
   :MIMSY: GROUPS.PRIVATE_PUBLIC
-  :module: ''
-  :column: ''
+  :module: 'egroups'
+  :column: 'GroupStatus'
   :instructions: ''
 :group_type:
   :MIMSY: GROUPS.GROUP_TYPE
@@ -41,8 +41,8 @@
   :instructions: ''
 :note:
   :MIMSY: GROUPS.NOTE
-  :module: ''
-  :column: ''
+  :module: 'egroups'
+  :column: 'GroupDescription'
   :instructions: ''
 :create_date:
   :MIMSY: GROUPS.CREATE_DATE
@@ -59,3 +59,13 @@
   :module: ''
   :column: ''
   :instructions: ''
+:table:
+  :MIMSY: ''
+  :module: ''
+  :column: ''
+  :instructions: 'Reference to csv file where id(s) for group members can be found'
+:full_title:
+  :MIMSY: ''
+  :module: 'egroups'
+  :column: 'GroupName'
+  :instructions: 'The full title of the group'

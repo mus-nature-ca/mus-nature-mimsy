@@ -1,0 +1,16 @@
+---
+:table_key:
+  :MIMSY: GROUP_MEMBERS.TABLE_KEY
+  :module: ''
+  :column: ''
+  :instructions: 'Foreign key for table indentified in Group'
+:group_id:
+  :MIMSY: GROUP_MEMBERS.GROUP_ID
+  :module: ''
+  :column: ''
+  :instructions: 'Foreign key for Group'
+:id:
+  :MIMSY: GROUP_MEMBERS.ID
+  :module: ''
+  :column: ''
+  :instructions: ''
