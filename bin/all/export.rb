@@ -236,6 +236,11 @@ elsif options[:all]
           model.find_each do |row|
             csv << row.custom_attributes.values.push(row.locator_linux)
           end
+        elsif model.to_s == "Group"
+          csv << model.custom_attribute_names.push("table")
+          model.find_each do |row|
+            csv << row.custom_attributes.values.push(row.table)
+          end
         else
           csv << model.custom_attribute_names
           model.find_each do |row|

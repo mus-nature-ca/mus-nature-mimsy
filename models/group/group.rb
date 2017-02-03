@@ -13,4 +13,25 @@ class Group < ActiveRecord::Base
   custom_attribute :id, :group_id
   custom_attribute :name, :group_name
   custom_attribute :module, :link_type
+
+  has_many :members, class_name: "GroupMember"
+
+  def table
+    case group_area
+    when "catalogue"
+      "Catalog"
+    when "sites"
+      "Site"
+    when "taxonomy"
+      "Taxon"
+    when "publications"
+      "Publication"
+    when "events"
+      "Event"
+    when "media"
+      "Medium"
+    else
+      nil
+    end
+  end
 end
