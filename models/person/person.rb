@@ -43,7 +43,7 @@ class Person < ActiveRecord::Base
   has_many :events, through: :event_people, source: :event
   has_many :event_people, foreign_key: "link_id"
 
-  has_many :loans, through: :loan_venues, source: :loan
+  has_many :loans, foreign_key: "link_id", source: :loan
   has_many :loan_venues, foreign_key: "link_id"
 
   has_many :media, through: :medium_people, source: :medium
