@@ -3,7 +3,8 @@ class Export
     "CatalogAgent", "CatalogVessel", "Vessel", "VesselAccessory",
     "VesselComponent", "VesselDescription", "VesselMarking",
     "VesselMeasurement", "VesselMultifield", "VesselName",
-    "VesselOtherNumber", "VesselStatus", "VesselType"
+    "VesselOtherNumber", "VesselStatus", "VesselType",
+    "ActivityLink", "AuthorityLink"
   ]
 
   def initialize(dir)
