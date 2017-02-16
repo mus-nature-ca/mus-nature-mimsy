@@ -21,12 +21,12 @@ CSV.foreach(file, :headers => true) do |row|
   site.save
 
   #query for created site - damn Oracle!
-  id = Site.find_by_site_id(site.site_id)
+  site = Site.find_by_site_id(site.site_id)
 
   #create site coordinates
   ["latitude", "longitude"].each do |type|
     site_coordinate = SiteCoordinate.new
-    site_coordinate.site_id = id
+    site_coordinate.site_id = site.id
     site_coordinate.coord_type = "start #{type}"
     site_coordinate.decimal_coordinate = site.send("start_#{type}_dec")
     site_coordinate.decimal_is_primary = true
@@ -35,7 +35,7 @@ CSV.foreach(file, :headers => true) do |row|
 
   #create other numbers
   other_number = SiteOtherNumber.new
-  other_number.site_id = id
+  other_number.site_id = site.id
   other_number.other_number = row["SITE_OTHER_NUMBERS.OTHER_NUMBER"]
   other_number.save
 
@@ -44,7 +44,7 @@ CSV.foreach(file, :headers => true) do |row|
     type = row["SITE_MEASUREMENTS.MEASURE_TYPE_#{m}"] rescue nil
     if !type.nil? && !type.empty?
       measurement = SiteMeasurement.new
-      measurement.site_id = id
+      measurement.site_id = site.id
       measurement.measure_type = type
       measurement.measure_length = row["SITE_MEASUREMENTS.MEASURE_LENGTH_#{m}"]
       measurement.length_unit = row["SITE_MEASUREMENTS.LENGTH_UNIT_#{m}"]
