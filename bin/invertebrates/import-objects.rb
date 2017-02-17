@@ -13,10 +13,10 @@ CSV.foreach(file, :headers => true) do |row|
   obj.scientific_name = row["CATALOGUE.ITEM_NAME"].strip
   obj.scientific_name[0] = obj.scientific_name[0].capitalize
   obj.whole_part = "whole"
-  obj.item_count = row["CATALOGUE.ITEM_COUNT"]
-  obj.sex = row["CATALOGUE.SEX"]
+  obj.item_count = row["CATALOGUE.ITEM_COUNT"].strip
+  obj.sex = row["CATALOGUE.SEX"].strip
   obj.collector = row["CATALOGUE.COLLECTOR"].strip
-  obj.date_collected = row["CATALOGUE.DATE_COLLECTED"]
+  obj.date_collected = row["CATALOGUE.DATE_COLLECTED"].strip
   obj.description = row["CATALOGUE.DESCRIPTION"].strip
   obj.note = row["CATALOGUE.NOTE"].strip
   obj.save
