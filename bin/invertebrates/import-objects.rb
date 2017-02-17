@@ -6,27 +6,30 @@ include Sinatra::Mimsy::Helpers
 file = "/Users/dshorthouse/Desktop/inverts-import-objects.csv"
 
 CSV.foreach(file, :headers => true) do |row|
+  #create new catalog record
   obj = Catalog.new
-  obj.catalog_number = row["CATALOGUE.ID_NUMBER"]
-  obj.collection = row["CATALOGUE.CATEGORY1"]
-  obj.scientific_name = row["CATALOGUE.ITEM_NAME"]
+  obj.catalog_number = row["CATALOGUE.ID_NUMBER"].strip
+  obj.collection = row["CATALOGUE.CATEGORY1"].strip
+  obj.scientific_name = row["CATALOGUE.ITEM_NAME"].strip
+  obj.scientific_name[0] = obj.scientific_name[0].capitalize
   obj.whole_part = "whole"
   obj.item_count = row["CATALOGUE.ITEM_COUNT"]
   obj.sex = row["CATALOGUE.SEX"]
-  obj.collector = row["CATALOGUE.COLLECTOR"]
+  obj.collector = row["CATALOGUE.COLLECTOR"].strip
   obj.date_collected = row["CATALOGUE.DATE_COLLECTED"]
-  obj.note = row["CATALOGUE.NOTE"]
+  obj.description = row["CATALOGUE.DESCRIPTION"].strip
+  obj.note = row["CATALOGUE.NOTE"].strip
   obj.save
 
   #Find object again - damn Oracle!
   obj = Catalog.find_by_catalog_number(obj.catalog_number)
 
   #create link to Taxonomy
-  tax = Taxon.find_by_scientific_name(row["ITEMS_TAXONOMY.TAXONOMY"])
+  tax = Taxon.find_by_scientific_name(row["ITEMS_TAXONOMY.TAXONOMY"].strip)
   obj_tax = CatalogTaxon.new
   obj_tax.taxon_id = tax.id
   obj_tax.catalog_id = obj.id
-  obj_tax.attributor = row["ITEMS_TAXONOMY.ATTRIBUTOR"]
+  obj_tax.attributor = row["ITEMS_TAXONOMY.ATTRIBUTOR"].strip
   obj_tax.save
 
   #create link to Person (collector)
@@ -39,14 +42,14 @@ CSV.foreach(file, :headers => true) do |row|
 
   #measurements
   (1..3).each do |num|
-    part = row["MEASUREMENTS.PART_MEASURED_#{num}"] rescue nil
-    if !part.nil? && !part.empty?
+    part = row["MEASUREMENTS.PART_MEASURED_#{num}"].strip rescue nil
+    if !part.nil?
       measurement = CatalogMeasurement.new
       measurement.catalog_id = obj.id
-      measurement.part_measured = part
-      measurement.dimension1 = row["MEASUREMENTS.DIMENSION1_#{num}"]
-      measurement.measurement_type = row["MEASUREMENTS.MEASUREMENT_TYPE_#{m}"]
-      measurement.unit1 = row["MEASUREMENTS.UNIT1_#{m}"]
+      measurement.part_measured = part.downcase
+      measurement.dimension1 = row["MEASUREMENTS.DIMENSION1_#{num}"].strip
+      measurement.measurement_type = row["MEASUREMENTS.MEASUREMENT_TYPE_#{m}"].strip.downcase
+      measurement.unit1 = row["MEASUREMENTS.UNIT1_#{m}"].strip
       measurement.save
     end
   end
@@ -55,9 +58,16 @@ CSV.foreach(file, :headers => true) do |row|
   if row["OTHER_NUMBERS.OTHER_NUMBER"]
     other_number = CatalogOtherNumber.new
     other_number.catalog_id = obj.id
-    other_number.other_number = row["OTHER_NUMBERS.OTHER_NUMBER"]
-    other_number.on_type = row["OTHER_NUMBERS.ON_TYPE"]
+    other_number.other_number = row["OTHER_NUMBERS.OTHER_NUMBER"].strip
+    other_number.on_type = row["OTHER_NUMBERS.ON_TYPE"].strip.downcase
     other_number.save
   end
+
+  #link to site
+  site = Site.find_by_site_id(row["SITES.SITE_ID"].strip)
+  catsite = CatalogSite.new
+  catsite.catalog_id = obj.id
+  catsite.site_id = site.id
+  catsite.save
 
 end
