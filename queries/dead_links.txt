@@ -1,0 +1,27 @@
+#Dead Links
+
+#Catalog Determinations
+CatalogName.joins("LEFT JOIN catalogue ON catalogue.mkey = item_names.mkey").where("item_names.mkey IS NULL")
+
+#Catalog Taxonomy
+CatalogTaxon.joins("LEFT JOIN catalogue ON items_taxonomy.mkey = catalogue.mkey").where("items_taxonomy.mkey IS NULL")
+
+#Taxonomy Variations
+TaxonVariation.joins("LEFT JOIN taxonomy ON taxonomy.speckey = taxonomy_variations.speckey").where("taxonomy_variations.speckey IS NULL")
+
+#Collection Sites
+CatalogCollectionPlace.joins("LEFT JOIN catalogue ON items_places_collected.mkey = catalogue.mkey").where("items_places_collected.mkey IS NULL")
+
+#Collector
+CatalogCollector.joins("LEFT JOIN catalogue ON items_collectors.mkey = catalogue.mkey").where("items_collectors.mkey IS NULL")
+CatalogCollector.joins("LEFT JOIN people ON items_collectors.link_id = people.link_id").where("items_collectors.link_id IS NULL")
+
+#CollectedDate
+CollectedDate.joins("LEFT JOIN catalogue ON date_collected.mkey = catalogue.mkey").where("date_collected.mkey IS NULL")
+
+#CatalogOtherNumber
+CatalogOtherNumber.joins("LEFT JOIN catalogue ON catalogue.mkey = other_numbers.mkey").where("other_numbers.mkey IS NULL")
+
+#CatalogSite
+CatalogSite.joins("LEFT JOIN catalogue ON catalogue.mkey = items_sites.mkey").where("items_sites.mkey IS NULL")
+CatalogSite.joins("LEFT JOIN sites ON sites.skey = items_sites.skey").where("items_sites.skey IS NULL")

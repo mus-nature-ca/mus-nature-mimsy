@@ -38,17 +38,17 @@ CSV.open(output_file, 'w') do |csv|
       existing_catalog_name = CatalogName.where(
         {
           mkey: catalog.id, 
-          scientific_name: current_det.scientific_name,
+          scientific_name: current_det.scientific_name.gsub(/^(x{2}|X{2})/,''),
           attributor: current_det.attributor,
           attrib_date: current_det.attrib_date
         })
 
       if existing_catalog_name.empty?
         cn = catalog.names.new
-        cn.scientific_name = current_det.taxonomy
+        cn.scientific_name = current_det.taxonomy.gsub(/^(x{2}|X{2})/,'')
         cn.attributor = current_det.attributor
         cn.attrib_date = current_det.attrib_date
-        if current_det.taxonomy != new_det
+        if current_det.taxonomy.gsub(/^(x{2}|X{2})/,'') != new_det
           cn.prior_name = true
         end
         cn.save
