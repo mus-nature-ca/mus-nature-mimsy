@@ -2,8 +2,8 @@
 # encoding: utf-8
 require_relative '../../environment.rb'
 
-xx_speckey = 1093095
-valid_speckey = 1169475
+xx_speckey = 1078388
+valid_speckey = 1169651
 
 tax = Taxon.find(xx_speckey)
 
