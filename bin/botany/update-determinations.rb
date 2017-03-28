@@ -29,7 +29,7 @@ CSV.open(output_file, 'w') do |csv|
       csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_speckey, summary]
       next
     elsif catalog.catalog_taxa.count == 1 && catalog.catalog_taxa.first.taxon_id != original_speckey
-      summary = "Not original SpecKey as indicated"
+      summary = "Not original Speckey as indicated"
       csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_speckey, summary]
       next
     elsif catalog.catalog_taxa.count == 1 && catalog.catalog_taxa.first.taxon_id == original_speckey
@@ -71,6 +71,12 @@ CSV.open(output_file, 'w') do |csv|
       #Update the scientific name
       catalog.item_name = new_det
       catalog.save
+
+      #Add to existing Group (id = 4500, group_name = "Floristics (2007)")
+      group_member = GroupMember.new
+      group_member.group_id = 4500
+      group_member.table_key = catalog.id
+      group_member.save
 
       summary = "updated"
       csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_speckey, summary]
