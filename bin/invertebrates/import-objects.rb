@@ -31,6 +31,8 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   obj.note = row["CATALOGUE.NOTE"].strip rescue nil
   obj.site = site.site_id
   obj.place_collected = place_collected
+  obj.home_location = row["CATALOGUE.HOME_LOCATION"].strip rescue nil
+  obj.credit_line = row["CATALOGUE.CREDIT_LINE"].strip rescue nil
   obj.gbif = true
   obj.save
 
@@ -110,6 +112,19 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
       collplace.catalog_id = obj.id
       collplace.place_id = place.first.id
       collplace.save
+    end
+  end
+
+  #link to acquisition
+  if !obj.credit_line.nil?
+    acquisition_number = obj.credit_line
+    acquisition = Acquisition.find_by_ref_number(acquisition_number) rescue nil
+    if !acquisition.nil?
+      acq_cat = AcquisitionCatalog.new
+      acq_cat.catalog_id = obj.id
+      acq_cat.acquisition_id = acquisition.id
+      acq_cat.id_number = obj.catalog_number
+      acq_cat.save
     end
   end
 
