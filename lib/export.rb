@@ -1,3 +1,5 @@
+require "rails_erd/diagram/graphviz"
+
 class Export
   EXCLUSIONS = [
     "CatalogAgent", "CatalogVessel", "Vessel", "VesselAccessory",
@@ -32,6 +34,22 @@ class Export
                   .to_h.symbolize_keys!.to_yaml
       File.open(@dir + "/#{model.name}.yaml", 'w') {|f| f.write yaml }
     end
+  end
+
+  def schema_diagram
+    RailsERD::Domain::Attribute.class_eval do
+      def name
+        @model.custom_attribute_mappings[column.name] || column.name
+      end
+    end
+    config = {
+      filename: @dir,
+      title: "Canadian Museum of Nature :: MIMSY XG",
+      attributes: ['primary_keys', 'foreign_keys', 'content', 'timestamps'],
+      direct: true,
+      exclude: EXCLUSIONS.join(",")
+    }
+    RailsERD::Diagram::Graphviz.create(config)
   end
 
   def all(processes = 4)

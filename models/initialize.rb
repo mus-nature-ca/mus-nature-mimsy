@@ -1,4 +1,6 @@
 # encoding: utf-8
+require_relative '../concerns/model_utility'
+require_relative '../concerns/oracle_utility'
 
 module Sinatra
   module Mimsy
@@ -13,44 +15,21 @@ module Sinatra
             :username => app.settings.username,
             :password => app.settings.password
           )
+          ActiveRecord::Base.send :include, ModelUtility
           require_all 'models'
-          ActiveRecord::Base.class_eval do
-            include ModelUtility
-          end
         end
 
-        ActiveSupport.on_load(:active_record) do
-          ActiveRecord::ConnectionAdapters::OracleEnhancedAdapter.class_eval do
-            # true and false will be stored as 'Y' and 'N'
-            self.emulate_booleans_from_strings = true
-          end
+        ActiveSupport.on_load :active_record do
+          include OracleUtility
         end
 
         ActiveSupport::Inflector.inflections do |inflect|
           inflect.irregular 'accessory', 'accessories'
-        end
-
-        ActiveSupport::Inflector.inflections do |inflect|
           inflect.irregular 'dispatch', 'dispatches'
-        end
-
-        ActiveSupport::Inflector.inflections do |inflect|
           inflect.irregular 'entry', 'entries'
-        end
-
-        ActiveSupport::Inflector.inflections do |inflect|
           inflect.irregular 'loss', 'losses'
-        end
-
-        ActiveSupport::Inflector.inflections do |inflect|
           inflect.irregular 'medium', 'media'
-        end
-
-        ActiveSupport::Inflector.inflections do |inflect|
           inflect.irregular 'person', 'people'
-        end
-
-        ActiveSupport::Inflector.inflections do |inflect|
           inflect.irregular 'taxon', 'taxa'
         end
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 require_relative '../../environment.rb'
+
 include Sinatra::Mimsy::Helpers
 
 ARGV << '-h' if ARGV.empty?
@@ -29,6 +30,10 @@ optparse = OptionParser.new do |opts|
 
   opts.on("-f", "--fields", "Export fields only") do
     options[:fields] = true
+  end
+
+  opts.on("-s", "--schema-diagram", "Export the schema diagram") do
+    options[:schema_diagram] = true
   end
 
   opts.on("-t", "--migration-templates", "Export default yaml migration templates for all models") do
@@ -77,6 +82,11 @@ elsif options[:lists]
   export = Export.new(dir_zip)
   export.lists(processes)
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
+
+elsif options[:schema_diagram]
+  filename = File.join(output_dir(__FILE__), "schema")
+  export = Export.new(filename)
+  export.schema_diagram
 
 elsif options[:all]
   start = Time.now
