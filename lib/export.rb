@@ -44,6 +44,7 @@ class Export
     end
     config = {
       filename: @dir,
+      filetype: "dot",
       title: "Canadian Museum of Nature :: MIMSY XG",
       attributes: ['primary_keys', 'foreign_keys', 'content', 'timestamps'],
       direct: true,

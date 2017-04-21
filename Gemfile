@@ -24,6 +24,8 @@ gem 'haml'
 gem 'sass'
 gem 'ignorable'
 gem 'simple-mappr'
+gem 'builder'
+gem 'nokogiri'
 
 group :production do
 end

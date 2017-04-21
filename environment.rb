@@ -34,6 +34,8 @@ require 'chronic'
 require 'tilt/haml'
 require 'tilt/sass'
 require 'simple-mappr'
+require 'builder'
+require 'nokogiri'
 
 require_all 'lib'
 require_all 'helpers'
