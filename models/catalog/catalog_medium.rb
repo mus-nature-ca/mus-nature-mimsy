@@ -8,7 +8,7 @@ class CatalogMedium < ActiveRecord::Base
   # override decimal set
   set_integer_columns :authlinkkey, :mkey, :mediakey
 
-  ignore_columns :step, :record_view, :affiliation, 
+  ignore_columns :record_view, :affiliation, 
     :begin_date, :end_date, :portion, :position, 
     :attrib_type, :attributor, :attrib_date, 
     :attrib_source, :certainty, :attrib_comment, 
