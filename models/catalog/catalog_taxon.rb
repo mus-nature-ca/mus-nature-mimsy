@@ -10,7 +10,7 @@ class CatalogTaxon < ActiveRecord::Base
 
   ignore_columns :option1, :option2, :option3, :option4, 
     :unlinked_value, :portion, :position, :certainty, 
-    :step, :record_view, :begin_date, :end_date
+    :record_view, :begin_date, :end_date
 
   custom_attribute :id, :authlinkkey
   custom_attribute :catalog_id, :mkey

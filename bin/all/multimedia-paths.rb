@@ -7,7 +7,7 @@ media = []
 
 Medium.find_each do |item|
   begin
-    item.locator.sub!("\\\\n-fs1", "\\\\\\n-nas1")
+    item.locator.sub!("\\n-fs1", "\\\\\\n-nas1")
     item.save
   rescue
     media << item.media_id

@@ -3,8 +3,8 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/MXG_Media_Upload_Luc_Brouillet.txt"
-log = "/Users/dshorthouse/Desktop/MXG_Media_Upload_Luc_Brouillet-log.csv"
+file = "/Users/dshorthouse/Desktop/MXG_Media_Upload_DAO Loan Lythrum salicaria_7.txt"
+log = "/Users/dshorthouse/Desktop/MXG_Media_Upload_DAO Loan Lythrum salicaria_7-log.csv"
 
 missing = []
 
@@ -18,7 +18,7 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   catalog = Catalog.find_by_catalog_number(row["MEDIA_ITEMS.OBJECT"].strip)
 
   if catalog.nil?
-    missing << [row["MEDIA_ITEMS.OBJECT"], "catalog missing"]
+    missing << [row["MEDIA.MEDIA_ID"], "#{row["MEDIA_ITEMS.OBJECT"]} catalog missing"]
   else
 
     #check if image exists
@@ -27,7 +27,12 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
       missing << [row["MEDIA.MEDIA_ID"], "image missing"]
     end
 
-    begin
+    #check if multimedia item already exists
+    item = Medium.find_by_media_id(row["MEDIA.MEDIA_ID"])
+
+    if !item.nil?
+      missing << [row["MEDIA.MEDIA_ID"], "duplicate"]
+    else
       #Save new media record
       m = Medium.new
       m.media_id = row["MEDIA.MEDIA_ID"].strip
@@ -57,8 +62,6 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
       cm.catalog_id = catalog.id
       cm.sort = row["MEDIA_ITEMS.STEP"].strip rescue nil
       cm.save
-    rescue
-      missing << [row["MEDIA.MEDIA_ID"], "failed"]
     end
 
   end
