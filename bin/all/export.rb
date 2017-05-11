@@ -61,7 +61,7 @@ if options[:model]
 #Warning: will overwrite existing yaml mappings
 elsif options[:migration_templates]
   start = Time.now
-  output_dir = File.join(ENV['PWD'], 'migration_mappings')
+  output_dir = File.join(ENV['PWD'], 'migration_mappings', dt)
   export = Export.new(output_dir)
   export.migration_templates
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
