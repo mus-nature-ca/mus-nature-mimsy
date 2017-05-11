@@ -50,11 +50,11 @@ optparse = OptionParser.new do |opts|
 end.parse!
 
 dt = DateTime.now.strftime("%Y-%m-%d-%H-%M")
-dir_zip = output_dir(__FILE__) + "/export/mimsy-#{dt}"
+dir_zip = File.join(ENV['PWD'], 'outputs', 'all', 'export', "mimsy-#{dt}")
 
 if options[:model]
   start = Time.now
-  export = Export.new(output_dir(__FILE__))
+  export = Export.new(File.join(ENV['PWD'], 'outputs', 'all', 'export',))
   export.model(options[:model])
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 
@@ -84,7 +84,7 @@ elsif options[:lists]
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 
 elsif options[:schema_diagram]
-  filename = File.join(output_dir(__FILE__), "schema")
+  filename = File.join(ENV['PWD'], 'outputs', "all" , "schema")
   export = Export.new(filename)
   export.schema_diagram
 
