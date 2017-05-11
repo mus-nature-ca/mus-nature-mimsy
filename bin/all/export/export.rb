@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
-require_relative '../../environment.rb'
+require_relative '../../../environment.rb'
 
 include Sinatra::Mimsy::Helpers
 
@@ -28,7 +28,7 @@ optparse = OptionParser.new do |opts|
     options[:all] = true
   end
 
-  opts.on("-f", "--fields", "Export fields only") do
+  opts.on("-f", "--fields", "Export fields only as csv files for each model. Includes mappings to EMu in migration_mappings/original when present.") do
     options[:fields] = true
   end
 
@@ -58,7 +58,6 @@ if options[:model]
   export.model(options[:model])
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 
-#Warning: will overwrite existing yaml mappings
 elsif options[:migration_templates]
   start = Time.now
   output_dir = File.join(ENV['PWD'], 'migration_mappings', dt)

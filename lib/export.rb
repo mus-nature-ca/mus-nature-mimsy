@@ -20,6 +20,7 @@ class Export
   end
 
   def migration_templates
+    Dir.mkdir(@dir)
     models = ActiveRecord::Base.descendants
     models.delete_if{|m| Export::EXCLUSIONS.include?(m.name)}
 
@@ -189,7 +190,7 @@ class Export
     models.delete_if{|m| EXCLUSIONS.include?(m.name)}
     part = models.length/processes
 
-    mappings_dir = File.join(ENV['PWD'], 'migration_mappings')
+    mappings_dir = File.join(ENV['PWD'], 'migration_mappings', 'original')
 
     Parallel.map(0..processes, progress: "Exporting Fields", in_processes: processes) do |i|
       sub = models.slice(part*i, part)
