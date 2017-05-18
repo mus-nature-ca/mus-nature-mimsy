@@ -11,21 +11,21 @@
   :instructions: ''
 :other_number:
   :MIMSY: SITE_OTHER_NUMBERS.OTHER_NUMBER
-  :module: ''
-  :column: ''
+  :module: 'esites'
+  :column: 'SitOtherNumbers_tab'
   :instructions: ''
 :type:
   :MIMSY: SITE_OTHER_NUMBERS.SITE_OTHNUM_TYPE
-  :module: ''
-  :column: ''
+  :module: 'esites'
+  :column: 'CulDesignationType_tab'
   :instructions: ''
 :source:
   :MIMSY: SITE_OTHER_NUMBERS.SOURCE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'CulOtherRemarks_tab'
+  :instructions: 'Concatenate with note and express as "Source: xxxx; Note: xxxx" when present otherwise as "Source: xxxx"'
 :note:
   :MIMSY: SITE_OTHER_NUMBERS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'CulOtherRemarks_tab'
+  :instructions: 'Concatenate with source and express as "Source: xxxx; Note: xxxx" when present otherwise "Note: xxxx"'
