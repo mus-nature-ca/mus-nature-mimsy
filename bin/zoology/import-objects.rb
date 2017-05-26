@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/MXG_Upload_LeSage_2016_Bufonidae_ST_objects_utf16.txt"
+file = "/Users/dshorthouse/Desktop/MXG_Upload_LeSage_2016_Hylidae_ST_objects_utf16.txt"
 
 log = []
 

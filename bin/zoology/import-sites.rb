@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/MXG_Upload_LeSage_2016_Bufonidae_ST_sites_utf16.txt"
+file = "/Users/dshorthouse/Desktop/MXG_Upload_LeSage_2016_Hylidae_ST_sites_utf16.txt"
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
