@@ -3,24 +3,24 @@
   :MIMSY: SITES_PLACES.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Priamry key. Not mapped.'
 :place_id:
   :MIMSY: SITES_PLACES.PLACEKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Foreign key to Place. Not mapped.'
 :site_id:
   :MIMSY: SITES_PLACES.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Foreign key to Site. Not mapped.'
 :prior_attribution:
   :MIMSY: SITES_PLACES.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped.'
 :place:
   :MIMSY: SITES_PLACES.PLACE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped.'

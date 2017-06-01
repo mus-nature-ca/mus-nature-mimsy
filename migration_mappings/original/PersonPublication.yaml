@@ -3,39 +3,39 @@
   :MIMSY: PEOPLE_PUBLICATIONS.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Primary key. Not mapped.'
 :person_id:
   :MIMSY: PEOPLE_PUBLICATIONS.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Foreign key to Person. Not mapped.'
 :publication_id:
   :MIMSY: PEOPLE_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Foreign key to Publication. Not mapped.'
 :relationship:
   :MIMSY: PEOPLE_PUBLICATIONS.RELATIONSHIP
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: '*Role_tab'
+  :instructions: 'Column name depends on publication type. Values in data are: ["author", "editor", "author (1st)", "co-author"]'
 :prior_attribution:
   :MIMSY: PEOPLE_PUBLICATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :illustration:
   :MIMSY: PEOPLE_PUBLICATIONS.ILLUSTRATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publication:
   :MIMSY: PEOPLE_PUBLICATIONS.PUBLICATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publication_date:
   :MIMSY: PEOPLE_PUBLICATIONS.PUBLICATION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

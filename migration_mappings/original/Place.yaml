@@ -3,7 +3,7 @@
   :MIMSY: PLACES.PLACEKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Primary key. Not mapped.'
 :language:
   :MIMSY: PLACES.LANGUAGE
   :module: ''
@@ -158,19 +158,19 @@
   :MIMSY: PLACES.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: PLACES.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: PLACES.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: PLACES.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

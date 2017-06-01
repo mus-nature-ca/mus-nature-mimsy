@@ -3,274 +3,274 @@
   :MIMSY: PEOPLE.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Primary key. Not mapped.'
 :language:
   :MIMSY: PEOPLE.LANGUAGE
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'NamPrimaryLanguage'
   :instructions: ''
 :approved:
   :MIMSY: PEOPLE.APPROVED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :individual:
   :MIMSY: PEOPLE.INDIVIDUAL
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NamPartyType'
+  :instructions: 'Boolean data in MIMSY: true = "Person", false = "Organisation"'
 :preferred_name:
   :MIMSY: PEOPLE.PREFERRED_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :title:
   :MIMSY: PEOPLE.TITLE_NAME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NamTitle'
+  :instructions: 'Only relevant when individual = true.'
 :first_name:
   :MIMSY: PEOPLE.FIRSTMID_NAME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NamFirst'
+  :instructions: 'Data may contain middle names or middle name initials; additionally parse middle names or middle name initials into eparties:NamMiddle and leave behind cleaner eparties:NamFirst. Only relevant when individual = true.'
 :last_name:
   :MIMSY: PEOPLE.LASTSUFF_NAME
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'NamLast'
   :instructions: ''
 :suffix:
   :MIMSY: PEOPLE.SUFFIX_NAME
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'NamSuffix'
   :instructions: ''
 :honorary_suffix:
   :MIMSY: PEOPLE.HONORARY_SUFFIX
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NamTitle'
+  :instructions: 'When data also have title, ignore this content. Otherwise, populate eparties:NamTitle with these data. Only relevant when individual = true.'
 :sort_name:
   :MIMSY: PEOPLE.SORT_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :gender:
   :MIMSY: PEOPLE.GENDER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NamSex'
+  :instructions: 'Only relevant when individual = true.'
 :deceased:
   :MIMSY: PEOPLE.DECEASED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :brief_bio:
   :MIMSY: PEOPLE.BRIEF_BIO
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'BioCommencementNotes'
+  :instructions: 'Append to eparties:BioCommencementNotes using linebreaks. Only relevant when individual = true.'
 :birth_date:
   :MIMSY: PEOPLE.BIRTH_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'BioBirthDate'
+  :instructions: 'Only relevant when individual = true.'
 :birth_place:
   :MIMSY: PEOPLE.BIRTH_PLACE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'BioBirthPlace'
+  :instructions: 'Only relevant when individual = true.'
 :death_date:
   :MIMSY: PEOPLE.DEATH_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'BioDeathDate'
+  :instructions: 'Only relevant when individual = true.'
 :death_place:
   :MIMSY: PEOPLE.DEATH_PLACE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'BioDeathPlace'
+  :instructions: 'Only relevant when individual = true.'
 :cause_of_death:
   :MIMSY: PEOPLE.CAUSE_OF_DEATH
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :nationality:
   :MIMSY: PEOPLE.NATIONALITY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'BioNationality'
+  :instructions: 'Only relevant when individual = true.'
 :occupation:
   :MIMSY: PEOPLE.OCCUPATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NamPosition'
+  :instructions: 'Only relevant when individual = true.'
 :description:
   :MIMSY: PEOPLE.DESCRIPTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :website:
   :MIMSY: PEOPLE.WEBSITE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'AddWeb'
+  :instructions: 'See PersonContact.www_address'
 :appraiser:
   :MIMSY: PEOPLE.APPRAISER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "appraiser" when true. Only relevant when individual = true.'
 :authorizer:
   :MIMSY: PEOPLE.AUTHORIZER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "appraiser" when true. Only relevant when individual = true.'
 :borrower:
   :MIMSY: PEOPLE.BORROWER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "borrower" when true. Only relevant when individual = true.'
 :collector:
   :MIMSY: PEOPLE.COLLECTOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "collector" when true. Only relevant when individual = true.'
 :conservator:
   :MIMSY: PEOPLE.CONSERVATOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "conservator" when true. Only relevant when individual = true.'
 :copyright_holder:
   :MIMSY: PEOPLE.COPYRIGHT_HOLDER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "copyright holder" when true. Only relevant when individual = true.'
 :examiner:
   :MIMSY: PEOPLE.EXAMINER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "examiner" when true. Only relevant when individual = true.'
 :identifier:
   :MIMSY: PEOPLE.IDENTIFIER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "identifier" when true. Only relevant when individual = true.'
 :insurer:
   :MIMSY: PEOPLE.INSURER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "insurer" when true. Only relevant when individual = true.'
 :lender:
   :MIMSY: PEOPLE.LENDER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "lender" when true. Only relevant when individual = true.'
 :maker:
   :MIMSY: PEOPLE.MAKER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "maker" when true. Only relevant when individual = true.'
 :mover:
   :MIMSY: PEOPLE.MOVER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "mover" when true. Only relevant when individual = true.'
 :owner:
   :MIMSY: PEOPLE.OWNER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "owner" when true. Only relevant when individual = true.'
 :publisher:
   :MIMSY: PEOPLE.PUBLISHER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "publisher" when true. Only relevant when individual = true.'
 :related:
   :MIMSY: PEOPLE.RELATED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :reproducer:
   :MIMSY: PEOPLE.REPRODUCER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "reproducer" when true. Only relevant when individual = true.'
 :shipper:
   :MIMSY: PEOPLE.SHIPPER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "shipper" when true. Only relevant when individual = true.'
 :source:
   :MIMSY: PEOPLE.SOURCE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sponsor:
   :MIMSY: PEOPLE.SPONSOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "sponsor" when true. Only relevant when individual = true.'
 :staff:
   :MIMSY: PEOPLE.STAFF
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "staff" when true. Only relevant when individual = true.'
 :surveyor:
   :MIMSY: PEOPLE.SURVEYOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'NameRoles_tab'
+  :instructions: 'Boolean data. Append role "surveyor" when true. Only relevant when individual = true.'
 :venue:
   :MIMSY: PEOPLE.VENUE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :other:
   :MIMSY: PEOPLE.OTHER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :authorized_by:
   :MIMSY: PEOPLE.AUTHORIZED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_authorized:
   :MIMSY: PEOPLE.DATE_AUTHORIZED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :assessment:
   :MIMSY: PEOPLE.ASSESSMENT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: PEOPLE.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'BioCommencementNotes'
+  :instructions: 'Append to eparties:BioCommencementNotes using linebreaks. Only relevant when individual = true.'
 :publish:
   :MIMSY: PEOPLE.PUBLISH
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: PEOPLE.CREATED_BY
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'AdmInsertedBy'
   :instructions: ''
 :create_date:
   :MIMSY: PEOPLE.CREATE_DATE
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'AdmDateInserted'
   :instructions: ''
 :updated_by:
   :MIMSY: PEOPLE.UPDATED_BY
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'AdmModifiedBy'
   :instructions: ''
 :update_date:
   :MIMSY: PEOPLE.UPDATE_DATE
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'AdmDateModified'
   :instructions: ''

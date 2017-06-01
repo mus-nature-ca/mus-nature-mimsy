@@ -197,9 +197,9 @@ class Export
       sub.each do |model|
         CSV.open(@dir + "/#{model.name}_fields.csv", 'w') do |csv|
           if File.file?(File.join(mappings_dir, "#{model.name}.yaml"))
-            csv << ["field_name", "MIMSY_field_name", "field_type", "field_length", "field_example", "emu_module", "emu_column", "migration_instructions"]
+            csv << ["model", "field_name", "MIMSY_field_name", "field_type", "field_length", "field_example", "emu_module", "emu_column", "migration_instructions"]
           else
-            csv << ["field_name", "MIMSY_field_name", "field_type", "field_length", "field_example"]
+            csv << ["model", "field_name", "MIMSY_field_name", "field_type", "field_length", "field_example"]
           end
           original = model.attribute_names.map{|n| [model.table_name.upcase, n.upcase].join(".")}
           custom = model.custom_attribute_names
@@ -216,9 +216,22 @@ class Export
             columns = custom.zip(original, type, length, sample)
           end
           columns.each do |data|
-            csv << data
+            csv << [model.name] + data
           end
         end
+      end
+    end
+
+    CSV.open(@dir + '/mapping-document.csv','w') do |csv|
+      if Dir[mappings_dir].empty?
+        hs = ["model", "field_name", "MIMSY_field_name", "field_type", "field_length", "field_example"]
+      else
+        hs = ["model", "field_name", "MIMSY_field_name", "field_type", "field_length", "field_example", "emu_module", "emu_column", "migration_instructions"]
+      end
+      csv << hs
+      Dir.glob(@dir + '/*.csv') do |file|
+        next if File.basename(file) == "mapping-document.csv"
+        CSV.foreach(file, headers: true) {|row| csv << row.values_at(*hs) }
       end
     end
 

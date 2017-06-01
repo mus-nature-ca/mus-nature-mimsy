@@ -14,6 +14,11 @@
   :module: ''
   :column: ''
   :instructions: ''
+:sort:
+  :MIMSY: ITEMS_MEDIA.STEP
+  :module: ''
+  :column: ''
+  :instructions: ''
 :relationship:
   :MIMSY: ITEMS_MEDIA.RELATIONSHIP
   :module: ''

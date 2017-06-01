@@ -3,119 +3,119 @@
   :MIMSY: PEOPLE_CONTACTS.ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Primary key. Not mapped.'
 :person_id:
   :MIMSY: PEOPLE_CONTACTS.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Foreign key for Person. Not mapped.'
 :address_type:
   :MIMSY: PEOPLE_CONTACTS.ADDRESS_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. However, use this to populate other address fields depending on value of data here. Because Person:PersonContact is 1:many, you must be selective & choose the most current set of addresses. Values for this field are currently: ["60605", "Korite International", "Primary (Work), Deliveries; physical address for deliveries", "Primary (Work), Postal; office address for general correspondence", "Primary Contact (Archaeology Collection)", "Primary Contact (General Collections Matters)", "Primary Contact (General Matters)", "Primary Contact (MOA Matters)", "Richard Blacquiere", "Russia", "billing", "business", "former postal", "home", "postal", "previous", "primary", "primary (business)", "primary (home)", "primary (work)", "secondary (work)", "shipping", "street"]'
 :active_flag:
   :MIMSY: PEOPLE_CONTACTS.ACTIVE_FLAG
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_active:
   :MIMSY: PEOPLE_CONTACTS.DATE_ACTIVE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: PEOPLE_CONTACTS.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contact:
   :MIMSY: PEOPLE_CONTACTS.CONTACT
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'AssAssociation_tab'
   :instructions: ''
 :contact_title:
   :MIMSY: PEOPLE_CONTACTS.CONTACT_TITLE
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'AssRole_tab'
   :instructions: ''
 :salutation:
   :MIMSY: PEOPLE_CONTACTS.SALUTATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :institution:
   :MIMSY: PEOPLE_CONTACTS.INSTITUTION
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'NamOrganisation'
   :instructions: ''
 :department:
   :MIMSY: PEOPLE_CONTACTS.DEPARTMENT
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'NamDepartment'
   :instructions: ''
 :address1:
   :MIMSY: PEOPLE_CONTACTS.ADDRESS1
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'AddPhysStreet or AddPostStreet'
+  :instructions: 'Column chosen depends on value of address_type.'
 :address2:
   :MIMSY: PEOPLE_CONTACTS.ADDRESS2
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'AddPhysStreet or AddPostStreet'
+  :instructions: 'Append to field with linebreak when data already present. Column chosen depends on value of address_type.'
 :address3:
   :MIMSY: PEOPLE_CONTACTS.ADDRESS3
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'AddPhysStreet or AddPostStreet'
+  :instructions: 'Append to field with linebreak when data already present. Column chosen depends on value of address_type.'
 :city:
   :MIMSY: PEOPLE_CONTACTS.CITY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'AddPhysCity and/or AddPostCity'
+  :instructions: 'Column chosen depends on value of address_type.'
 :state_province:
   :MIMSY: PEOPLE_CONTACTS.STATE_PROVINCE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'AddPhysState or AddPostState'
+  :instructions: 'Column chosen depends on value of address_type.'
 :postal_code:
   :MIMSY: PEOPLE_CONTACTS.POSTAL_CODE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'AddPhysPost or AddPostPost'
+  :instructions: 'Column chosen depends on value of address_type.'
 :country:
   :MIMSY: PEOPLE_CONTACTS.COUNTRY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'AddPhysCountry or AddPostCountry'
+  :instructions: 'Column chosen depends on value of address_type.'
 :work_phone:
   :MIMSY: PEOPLE_CONTACTS.WORK_PHONE
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'NamBusiness_tab'
   :instructions: ''
 :home_phone:
   :MIMSY: PEOPLE_CONTACTS.HOME_PHONE
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'NamHome'
   :instructions: ''
 :fax:
   :MIMSY: PEOPLE_CONTACTS.FAX
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'NamFax'
   :instructions: ''
 :e_mail:
   :MIMSY: PEOPLE_CONTACTS.E_MAIL
-  :module: ''
-  :column: ''
+  :module: 'eparties'
+  :column: 'AddEmail'
   :instructions: ''
 :www_address:
   :MIMSY: PEOPLE_CONTACTS.WWW_ADDRESS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'AddWeb'
+  :instructions: 'Only populate if value from person.website not already used.'
 :telex:
   :MIMSY: PEOPLE_CONTACTS.TELEX
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

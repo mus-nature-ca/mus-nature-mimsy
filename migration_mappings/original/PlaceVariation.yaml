@@ -3,39 +3,39 @@
   :MIMSY: PLACE_VARIATIONS.PLACEVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Primary key. Not mapped.'
 :place_id:
   :MIMSY: PLACE_VARIATIONS.PLACEKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Foriegn key to Place. Not mapped.'
 :variation:
   :MIMSY: PLACE_VARIATIONS.VARIATION
-  :module: ''
-  :column: ''
+  :module: 'esites'
+  :column: 'LocAlternateNames_tab'
   :instructions: ''
 :variation_type:
   :MIMSY: PLACE_VARIATIONS.VARIATION_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'LocNotes'
+  :instructions: 'Prefix with "Place Variation Type: " when present.'
 :begin_date:
   :MIMSY: PLACE_VARIATIONS.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: PLACE_VARIATIONS.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: PLACE_VARIATIONS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'LocNotes'
+  :instructions: 'Prefix with "Place Variation Note: " when present.'
 :prior_attribution:
   :MIMSY: PLACE_VARIATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped.'

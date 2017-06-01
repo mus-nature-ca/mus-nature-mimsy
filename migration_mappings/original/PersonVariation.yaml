@@ -3,34 +3,34 @@
   :MIMSY: PEOPLE_VARIATIONS.NVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Primary key. Not mapped.'
 :person_id:
   :MIMSY: PEOPLE_VARIATIONS.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Foreign key to Person. Not mapped.'
 :variation:
   :MIMSY: PEOPLE_VARIATIONS.VARIATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'SynSynonymy_tab or NamOtherNames_tab'
+  :instructions: 'Content included here is unstructured. Parse where possible, create Parties records & establish as synonyms to the linked Person.id record OR add to NamOtherNames_tab. Specific rule indicated in PersonVariation.type'
 :type:
   :MIMSY: PEOPLE_VARIATIONS.NVAR_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'When value in ["correspondence", "correspondence, variant", "error", "misspelling", "misspelling?", "natural order", "nickname", "primary", "primary, variant", "redundant entry", "title", "transposed order", "variant"] then add variation to eparties:NamOtherNames_tab otherwise values may be in ["former married name", "former name", "maiden name", "prior name", "religious name", "secular name"] then parse variation and make a new synonymous parties record and construct linkout.'
 :note:
   :MIMSY: PEOPLE_VARIATIONS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eparties'
+  :column: 'AdmOriginalData'
+  :instructions: 'Append to AdmOriginalData. Values here may indicate rationale for a synonymous name, may describe familial relationships, data entry considerations, sex change, etc.'
 :prior_attribution:
   :MIMSY: PEOPLE_VARIATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attribution_source:
   :MIMSY: PEOPLE_VARIATIONS.ATTRIB_SOURCE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

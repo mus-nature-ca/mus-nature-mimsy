@@ -3,12 +3,12 @@
   :MIMSY: MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Primary key. Not mapped.'
 :language:
   :MIMSY: MEDIA.LANGUAGE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media_id:
   :MIMSY: MEDIA.MEDIA_ID
   :module: 'emultimedia'
@@ -18,7 +18,7 @@
   :MIMSY: MEDIA.LOCATOR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Windows file path. Not mapped.'
 :record_type:
   :MIMSY: MEDIA.RECORD_TYPE
   :module: 'emultimedia'
