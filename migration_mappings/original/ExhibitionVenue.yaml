@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: EXHIBITION_VENUES.ID
+  :MIMSY: EXHIBITION_VENUESAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :exhibition_id:
   :MIMSY: EXHIBITION_VENUES.EKEY
   :module: ''

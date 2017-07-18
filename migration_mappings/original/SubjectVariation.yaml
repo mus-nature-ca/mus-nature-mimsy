@@ -3,12 +3,12 @@
   :MIMSY: SUBJECT_VARIATIONS.SVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :subject_id:
   :MIMSY: SUBJECT_VARIATIONS.SUBKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Subject.id'
 :variation:
   :MIMSY: SUBJECT_VARIATIONS.VARIATION
   :module: ''

@@ -20,7 +20,7 @@
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: FACILITY_LEVELS.ID
+  :MIMSY: FACILITY_LEVELSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

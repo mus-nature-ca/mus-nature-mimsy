@@ -25,7 +25,7 @@
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: SITE_SURVEYS.ID
+  :MIMSY: SITE_SURVEYSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

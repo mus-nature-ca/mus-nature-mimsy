@@ -3,7 +3,7 @@
   :MIMSY: CATALOGUE.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :language:
   :MIMSY: CATALOGUE.LANGUAGE
   :module: ''
@@ -108,7 +108,7 @@
   :MIMSY: CATALOGUE.CREDIT_LINE
   :module: 'ecatalogue'
   :column: 'AccAccessionLot'
-  :instructions: ''
+  :instructions: 'Linkout to the acquisition is determined with a join, Catalog.id => AquisitionCatalog.catalog_id / AcquisitionCatalog.acquistion_id => Aquisition.id. However, there are approx. 1200 instances where a catalog record has a value in this acqusition_number field but does not have a corresponding entry in the AcquisitionCatalog table (e.g. 1977-341, 00797, etc.). Please create an acquisition record for these cases (i.e. use acquisition_number here to populate a new eaccessionlots::AcqAcquisitionIdentifier) and link the catalog record to this acquisition.'
 :item_count:
   :MIMSY: CATALOGUE.ITEM_COUNT
   :module: 'ecatalogue'
@@ -206,14 +206,14 @@
   :instructions: ''
 :publish:
   :MIMSY: CATALOGUE.PUBLISH
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'AdmPublishWebNoPassword'
+  :instructions: 'If value is false or null, mark both Publish on Internet and Intranet as No; if value is true, mark both as Yes.'
 :loan_allowed:
   :MIMSY: CATALOGUE.LOAN_ALLOWED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'ManLoanAllowed'
+  :instructions: 'Set Yes if value is true, set No if value is false'
 :offsite:
   :MIMSY: CATALOGUE.OFFSITE
   :module: ''

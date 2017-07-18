@@ -8,12 +8,12 @@
   :MIMSY: RELATED_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :related_medium_id:
   :MIMSY: RELATED_MEDIA.RELATED_MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media:
   :MIMSY: RELATED_MEDIA.MEDIA
   :module: ''

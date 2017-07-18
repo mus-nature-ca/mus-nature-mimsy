@@ -3,17 +3,17 @@
   :MIMSY: EXHIBITION_ITEMS.EIKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :exhibition_id:
   :MIMSY: EXHIBITION_ITEMS.EKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Exhibition.id'
 :catalog_id:
   :MIMSY: EXHIBITION_ITEMS.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :type:
   :MIMSY: EXHIBITION_ITEMS.RECORD_TYPE
   :module: ''

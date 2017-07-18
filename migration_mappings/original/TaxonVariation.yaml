@@ -3,12 +3,12 @@
   :MIMSY: TAXONOMY_VARIATIONS.TAXVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :taxon_id:
   :MIMSY: TAXONOMY_VARIATIONS.SPECKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Taxon.id'
 :scientific_name:
   :MIMSY: TAXONOMY_VARIATIONS.VARIATION
   :module: ''

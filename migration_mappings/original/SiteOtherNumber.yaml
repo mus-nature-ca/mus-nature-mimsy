@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: SITE_OTHER_NUMBERS.ID
+  :MIMSY: SITE_OTHER_NUMBERSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :site_id:
   :MIMSY: SITE_OTHER_NUMBERS.SKEY
   :module: ''

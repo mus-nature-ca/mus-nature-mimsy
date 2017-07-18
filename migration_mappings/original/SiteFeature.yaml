@@ -15,7 +15,7 @@
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: SITE_FEATURES.ID
+  :MIMSY: SITE_FEATURESAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -1,14 +1,14 @@
 ---
 :id:
-  :MIMSY: DAMAGE_MEDIA.ID
+  :MIMSY: DAMAGE_MEDIAAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :medium_id:
   :MIMSY: DAMAGE_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media:
   :MIMSY: DAMAGE_MEDIA.MEDIA
   :module: ''

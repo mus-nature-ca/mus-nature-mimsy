@@ -3,7 +3,7 @@
   :MIMSY: PEOPLE.LINK_ID
   :module: ''
   :column: ''
-  :instructions: 'Primary key. Not mapped.'
+  :instructions: 'Not mapped'
 :language:
   :MIMSY: PEOPLE.LANGUAGE
   :module: 'eparties'
@@ -251,9 +251,9 @@
   :instructions: 'Append to eparties:BioCommencementNotes using linebreaks. Only relevant when individual = true.'
 :publish:
   :MIMSY: PEOPLE.PUBLISH
-  :module: ''
-  :column: ''
-  :instructions: 'Not mapped'
+  :module: 'eparties'
+  :column: 'AdmPublishWebNoPassword'
+  :instructions: 'If value is false or null, mark both Publish on Internet and Intranet as No; if value is true, mark both as Yes.'
 :created_by:
   :MIMSY: PEOPLE.CREATED_BY
   :module: 'eparties'

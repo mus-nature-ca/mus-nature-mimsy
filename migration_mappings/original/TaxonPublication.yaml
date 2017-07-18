@@ -3,7 +3,7 @@
   :MIMSY: TAXONOMY_PUBLICATIONS.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publication_id:
   :MIMSY: TAXONOMY_PUBLICATIONS.PKEY
   :module: ''

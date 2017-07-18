@@ -3,12 +3,12 @@
   :MIMSY: ITEMS_OWNERS.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: ITEMS_OWNERS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :person_id:
   :MIMSY: ITEMS_OWNERS.LINK_ID
   :module: ''

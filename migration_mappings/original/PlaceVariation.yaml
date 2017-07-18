@@ -3,7 +3,7 @@
   :MIMSY: PLACE_VARIATIONS.PLACEVARKEY
   :module: ''
   :column: ''
-  :instructions: 'Primary key. Not mapped.'
+  :instructions: 'Not mapped'
 :place_id:
   :MIMSY: PLACE_VARIATIONS.PLACEKEY
   :module: ''
@@ -38,4 +38,4 @@
   :MIMSY: PLACE_VARIATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: 'Not mapped.'
+  :instructions: 'Not mapped'

@@ -3,12 +3,12 @@
   :MIMSY: ACCESSORIES.ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: ACCESSORIES.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :accessory:
   :MIMSY: ACCESSORIES.ACCESSORY
   :module: ''

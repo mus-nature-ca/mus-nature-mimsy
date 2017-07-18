@@ -3,12 +3,12 @@
   :MIMSY: MEDIA_TAXONOMY.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :medium_id:
   :MIMSY: MEDIA_TAXONOMY.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :taxon_id:
   :MIMSY: MEDIA_TAXONOMY.SPECKEY
   :module: ''

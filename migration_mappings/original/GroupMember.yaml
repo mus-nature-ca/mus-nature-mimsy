@@ -10,7 +10,7 @@
   :column: ''
   :instructions: 'Foreign key for Group'
 :id:
-  :MIMSY: GROUP_MEMBERS.ID
+  :MIMSY: GROUP_MEMBERSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

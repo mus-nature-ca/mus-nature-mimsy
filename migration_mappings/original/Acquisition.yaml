@@ -3,7 +3,7 @@
   :MIMSY: ACQUISITIONS.AKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :acquisition_number:
   :MIMSY: ACQUISITIONS.REF_NUMBER
   :module: 'eaccessionlots'

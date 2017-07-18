@@ -3,44 +3,44 @@
   :MIMSY: RELATED_ITEMS.RELRECKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: RELATED_ITEMS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :related_catalog_id:
   :MIMSY: RELATED_ITEMS.RELATED_MKEY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'AssRelatedObjects_tab'
+  :instructions: 'Not mapped. Foreign key to Catalog.id.'
 :object:
   :MIMSY: RELATED_ITEMS.OBJECT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :title:
   :MIMSY: RELATED_ITEMS.TITLE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'AssNotes_tab'
+  :instructions: 'Prefix with "title:" & concatenate with linebreak with RelatedCatalog.note when present'
 :relationship:
   :MIMSY: RELATED_ITEMS.RELATIONSHIP
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'AssRelationShip_tab'
   :instructions: ''
 :note:
   :MIMSY: RELATED_ITEMS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'AssNotes_tab'
+  :instructions: 'Prefix with "note:" & concatenate with linebreak with RelatedCatalog.title when present'
 :prior_attribution:
   :MIMSY: RELATED_ITEMS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sysuseonly:
   :MIMSY: RELATED_ITEMS.SYSUSEONLY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

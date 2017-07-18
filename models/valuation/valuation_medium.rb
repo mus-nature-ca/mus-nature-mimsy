@@ -11,6 +11,7 @@ class ValuationMedium < ActiveRecord::Base
 
   custom_attribute :valuation_id, :trans_id
   custom_attribute :medium_id, :mediakey
+  custom_attribute :catalog_id, :m_id
 
   belongs_to :valuation, foreign_key: "trans_id"
   belongs_to :medium, foreign_key: "mediakey"

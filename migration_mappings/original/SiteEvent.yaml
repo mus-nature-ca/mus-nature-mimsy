@@ -3,7 +3,7 @@
   :MIMSY: SITES_EVENTS.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :event_id:
   :MIMSY: SITES_EVENTS.VKEY
   :module: ''

@@ -3,17 +3,17 @@
   :MIMSY: LOAN_ITEMS.LITMKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :loan_id:
   :MIMSY: LOAN_ITEMS.LKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Loan.id'
 :catalog_id:
   :MIMSY: LOAN_ITEMS.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :id_number:
   :MIMSY: LOAN_ITEMS.ID_NUMBER
   :module: ''

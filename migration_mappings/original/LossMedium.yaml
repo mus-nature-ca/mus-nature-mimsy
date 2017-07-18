@@ -1,14 +1,14 @@
 ---
 :id:
-  :MIMSY: LOSS_MEDIA.ID
+  :MIMSY: LOSS_MEDIAAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :medium_id:
   :MIMSY: LOSS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media:
   :MIMSY: LOSS_MEDIA.MEDIA
   :module: ''

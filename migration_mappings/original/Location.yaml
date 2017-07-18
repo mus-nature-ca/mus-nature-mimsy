@@ -3,17 +3,17 @@
   :MIMSY: LOCATION.LOC_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: LOCATION.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id.'
 :facility_id:
   :MIMSY: LOCATION.LOCKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Facility.id'
 :current_record:
   :MIMSY: LOCATION.CURRENT_RECORD
   :module: ''

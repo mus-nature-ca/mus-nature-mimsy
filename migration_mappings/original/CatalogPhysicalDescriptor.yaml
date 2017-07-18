@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: PHYSICAL_DESCRIPTORS.ID
+  :MIMSY: PHYSICAL_DESCRIPTORSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: PHYSICAL_DESCRIPTORS.MKEY
   :module: ''

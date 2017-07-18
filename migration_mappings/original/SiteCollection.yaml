@@ -30,7 +30,7 @@
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: SITE_COLLECTIONS.ID
+  :MIMSY: SITE_COLLECTIONSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

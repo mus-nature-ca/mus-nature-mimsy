@@ -3,17 +3,17 @@
   :MIMSY: ACQUISITION_SOURCES.ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :acquisition_id:
   :MIMSY: ACQUISITION_SOURCES.AKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Acquisition.id'
 :person_id:
   :MIMSY: ACQUISITION_SOURCES.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :person_variation_id:
   :MIMSY: ACQUISITION_SOURCES.NVARKEY
   :module: ''

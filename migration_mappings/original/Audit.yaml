@@ -3,7 +3,7 @@
   :MIMSY: AUDITS.AUDKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :record_view:
   :MIMSY: AUDITS.RECORD_VIEW
   :module: ''

@@ -1,14 +1,14 @@
 ---
 :id:
-  :MIMSY: LOANS_MEDIA.ID
+  :MIMSY: LOANS_MEDIAAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :medium_id:
   :MIMSY: LOANS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media:
   :MIMSY: LOANS_MEDIA.MEDIA
   :module: ''

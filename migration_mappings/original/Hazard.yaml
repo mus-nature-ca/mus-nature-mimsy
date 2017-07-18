@@ -3,12 +3,12 @@
   :MIMSY: HAZARD.HKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: HAZARD.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :current_record:
   :MIMSY: HAZARD.CURRENT_RECORD
   :module: ''

@@ -16,12 +16,12 @@ optparse = OptionParser.new do |opts|
     exit
   end
 
-  opts.on("-m", "--model [MODEL]", String, "Model to export") do |model|
-    options[:model] = model
-  end
-
   opts.on("-p", "--processes [processes]", Integer, "Number of processes") do |process|
     options[:processes] = process
+  end
+
+  opts.on("-m", "--model [MODEL]", String, "Model to export") do |model|
+    options[:model] = model
   end
 
   opts.on("-a", "--all", "Export all data") do
@@ -38,6 +38,10 @@ optparse = OptionParser.new do |opts|
 
   opts.on("-t", "--migration-templates", "Export default yaml migration templates for all models") do
     options[:migration_templates] = true
+  end
+
+  opts.on("-d", "--data [CATALOGS]", String, "Export data for a string of catalogs, eg 'CAN 1234, CAN 1235'") do |catalogs|
+    options[:data] = catalogs
   end
 
   opts.on("-l", "--lists", "Export categorical values for lists") do
@@ -58,6 +62,14 @@ if options[:model]
   export.model(options[:model])
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 
+elsif options[:data]
+  start = Time.now
+  output_dir = File.join(ENV['PWD'], 'outputs', 'all')
+  export = Export.new(output_dir)
+  export.processes = options[:processes] || 4
+  export.catalogs(options[:data])
+  puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
+
 elsif options[:migration_templates]
   start = Time.now
   output_dir = File.join(ENV['PWD'], 'migration_mappings', dt)
@@ -67,9 +79,9 @@ elsif options[:migration_templates]
 
 elsif options[:fields]
   start = Time.now
-  processes = options[:processes] || 4
   export = Export.new(dir_zip)
-  export.fields(processes)
+  export.processes = options[:processes] || 4
+  export.fields
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 
 elsif options[:admin_lists]
@@ -78,9 +90,9 @@ elsif options[:admin_lists]
 
 elsif options[:lists]
   start = Time.now
-  processes = options[:processes] || 4
   export = Export.new(dir_zip)
-  export.lists(processes)
+  export.processes = options[:processes] || 4
+  export.lists
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 
 elsif options[:schema_diagram]
@@ -90,8 +102,8 @@ elsif options[:schema_diagram]
 
 elsif options[:all]
   start = Time.now
-  processes = options[:processes] || 4
   export = Export.new(dir_zip)
-  export.all(processes)
+  export.processes = options[:processes] || 4
+  export.all
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 end

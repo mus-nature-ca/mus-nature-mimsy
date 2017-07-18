@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/MXG_Upload_LeSage_2016_Hylidae_ST_objects_utf16.txt"
+file = "/Users/dshorthouse/Desktop/MXG_Upload_LeSage_2016_reptiles_v2-objects-utf16.txt"
 
 log = []
 
@@ -119,3 +119,6 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   end
 
 end
+
+byebug
+puts ""

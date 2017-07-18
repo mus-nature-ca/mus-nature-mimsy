@@ -1,14 +1,14 @@
 ---
 :id:
-  :MIMSY: DISPOSAL_ITEMS.ID
+  :MIMSY: DISPOSAL_ITEMSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :disposal_id:
   :MIMSY: DISPOSAL_ITEMS.AKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: DISPOSAL_ITEMS.M_ID
   :module: ''

@@ -30,7 +30,7 @@
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: SITE_MAPS.ID
+  :MIMSY: SITE_MAPSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -3,7 +3,7 @@
   :MIMSY: ITEM_NAMES.ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: ITEM_NAMES.MKEY
   :module: ''

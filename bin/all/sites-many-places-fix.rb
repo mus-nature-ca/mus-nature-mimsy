@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/batch 3 place updates to David (vasculars).txt"
+file = "/Users/dshorthouse/Desktop/Batch 8 place updates to David (vasculars).txt"
 
 problems = []
 

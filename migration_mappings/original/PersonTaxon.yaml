@@ -3,7 +3,7 @@
   :MIMSY: PEOPLE_TAXONOMY.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :person_id:
   :MIMSY: PEOPLE_TAXONOMY.LINK_ID
   :module: ''

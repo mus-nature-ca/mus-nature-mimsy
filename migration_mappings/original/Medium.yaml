@@ -3,7 +3,7 @@
   :MIMSY: MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Primary key. Not mapped.'
+  :instructions: 'Not mapped'
 :language:
   :MIMSY: MEDIA.LANGUAGE
   :module: ''
@@ -53,7 +53,7 @@
   :MIMSY: MEDIA.PUBLISH
   :module: 'emultimedia'
   :column: 'AdmPublishWebNoPassword'
-  :instructions: ''
+  :instructions: 'If value is false or null, mark both Publish on Internet and Intranet as No; if value is true, mark both as Yes.'
 :primary:
   :MIMSY: MEDIA.PRIMARY
   :module: ''

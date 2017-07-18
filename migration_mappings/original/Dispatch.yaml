@@ -3,7 +3,7 @@
   :MIMSY: DISPATCH.DISPKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :record_view:
   :MIMSY: DISPATCH.RECORD_VIEW
   :module: ''

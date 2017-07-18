@@ -3,7 +3,7 @@
   :MIMSY: PLACES.PLACEKEY
   :module: ''
   :column: ''
-  :instructions: 'Primary key. Not mapped.'
+  :instructions: 'Not mapped'
 :language:
   :MIMSY: PLACES.LANGUAGE
   :module: ''
@@ -11,149 +11,149 @@
   :instructions: ''
 :name:
   :MIMSY: PLACES.PLACE1
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'LocContinent_tab OR LocCountry_tab OR LocProvinceStateTerritory_tab OR LocDistrictCountyShire_tab OR LocTownshipName OR LocTownship_tab'
+  :instructions: 'Hierarchy of geographic place names in esites are found through a 4-way join between Site=>CatalogSite=>CatalogCollectionPlace=>Place using site_id, catalog_id and place_id as foreign keys. If political_name == true and hierarchy_level contains a value, populate hierarchy of locality details by walking up the adjacency list using a self join with Place.broader_key. hierarchy_level has values with sematics as follows: 1=Continent, 3=Country, 5=Province/Territory/State, 7=County, 8=Township, 12=City/Town/Village. If geographic_name == true then content could be a water body, mountain range, etc. Additionally populate esites:LocWaterBody, esites:LocIslandGrouping, esites:LocIslandName, and esites:Drainage by parsing name and placing in those fields respective where ever possible (eg using ["lake", "river", "riv.", ...]).'
 :place2:
   :MIMSY: PLACES.PLACE2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :place3:
   :MIMSY: PLACES.PLACE3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sort_name:
   :MIMSY: PLACES.SORT_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :place_type:
   :MIMSY: PLACES.PLACE_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :geographic_name:
   :MIMSY: PLACES.GEOGRAPHIC_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :political_name:
   :MIMSY: PLACES.POLITICAL_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :modified:
   :MIMSY: PLACES.MODIFIED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :guide_term:
   :MIMSY: PLACES.GUIDE_TERM
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publish:
   :MIMSY: PLACES.PUBLISH
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description:
   :MIMSY: PLACES.DESCRIPTION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Prefix on new line with "Place Description: " when present.'
 :broader_key:
   :MIMSY: PLACES.BROADER_KEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :parent_path:
   :MIMSY: PLACES.BROADER_TEXT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :hierarchy_level:
   :MIMSY: PLACES.HIERARCHY_LEVEL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :start_qualifier:
   :MIMSY: PLACES.START_QUALIFIER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :start_latitude:
   :MIMSY: PLACES.START_LATITUDE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :start_longitude:
   :MIMSY: PLACES.START_LONGITUDE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :start_direction:
   :MIMSY: PLACES.START_DIRECTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_qualifier:
   :MIMSY: PLACES.END_QUALIFIER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_latitude:
   :MIMSY: PLACES.END_LATITUDE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_longitude:
   :MIMSY: PLACES.END_LONGITUDE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_direction:
   :MIMSY: PLACES.END_DIRECTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :latitude_accuracy:
   :MIMSY: PLACES.LATITUDE_ACCURACY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :longitude_accuracy:
   :MIMSY: PLACES.LONGITUDE_ACCURACY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :source:
   :MIMSY: PLACES.SOURCE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Prefix on new line with "Place Source: " when present.'
 :source_date:
   :MIMSY: PLACES.SOURCE_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Prefix on new line with "Place Source Date: " when present.'
 :note:
   :MIMSY: PLACES.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Prefix on new line with "Place Notes: " when present.'
 :flag1:
   :MIMSY: PLACES.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: PLACES.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: PLACES.CREATE_DATE
   :module: ''

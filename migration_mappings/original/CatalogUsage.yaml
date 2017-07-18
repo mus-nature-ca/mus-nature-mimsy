@@ -3,12 +3,12 @@
   :MIMSY: ITEM_USAGE.USEKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: ITEM_USAGE.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id.'
 :prior_use:
   :MIMSY: ITEM_USAGE.PRIOR_USE
   :module: ''

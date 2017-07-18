@@ -3,12 +3,12 @@
   :MIMSY: LEGAL_STATUS.ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: LEGAL_STATUS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Foreign key to Catalog.id'
 :current_record:
   :MIMSY: LEGAL_STATUS.CURRENT_RECORD
   :module: ''
@@ -16,8 +16,8 @@
   :instructions: ''
 :legal_status:
   :MIMSY: LEGAL_STATUS.LEGAL_STATUS
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'ManLegalStatus'
   :instructions: ''
 :status_date:
   :MIMSY: LEGAL_STATUS.STATUS_DATE

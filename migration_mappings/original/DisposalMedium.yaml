@@ -1,14 +1,14 @@
 ---
 :id:
-  :MIMSY: DISPOSALS_MEDIA.ID
+  :MIMSY: DISPOSALS_MEDIAAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :medium_id:
   :MIMSY: DISPOSALS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media:
   :MIMSY: DISPOSALS_MEDIA.MEDIA
   :module: ''
@@ -18,7 +18,7 @@
   :MIMSY: DISPOSALS_MEDIA.AKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :disposal:
   :MIMSY: DISPOSALS_MEDIA.DISPOSAL
   :module: ''

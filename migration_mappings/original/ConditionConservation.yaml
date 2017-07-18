@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: CONDITION_CONSERVATION.ID
+  :MIMSY: CONDITION_CONSERVATIONAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: CONDITION_CONSERVATION.M_ID
   :module: ''

@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: SITE_MEASUREMENTS.ID
+  :MIMSY: SITE_MEASUREMENTSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :site_id:
   :MIMSY: SITE_MEASUREMENTS.SKEY
   :module: ''

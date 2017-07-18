@@ -3,12 +3,12 @@
   :MIMSY: ACQUISITIONS_MEDIA.ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :medium_id:
   :MIMSY: ACQUISITIONS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: ACQUISITIONS_MEDIA.MEDIA
   :module: ''
@@ -18,7 +18,7 @@
   :MIMSY: ACQUISITIONS_MEDIA.AKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Acquisition.id'
 :acquisition:
   :MIMSY: ACQUISITIONS_MEDIA.ACQUISITION
   :module: ''

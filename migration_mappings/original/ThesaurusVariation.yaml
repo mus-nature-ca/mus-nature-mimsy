@@ -3,12 +3,12 @@
   :MIMSY: THESAURUS_VARIATIONS.THESVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :thesaurus_id:
   :MIMSY: THESAURUS_VARIATIONS.CLASS_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Thesaurus.id'
 :variation_type:
   :MIMSY: THESAURUS_VARIATIONS.VARIATION_TYPE
   :module: ''

@@ -5,10 +5,9 @@ include Sinatra::Mimsy::Helpers
 
 #site_id = 474901 is "NO SITE", find Sites with more than one catalog
 skeys = CatalogSite.where.not(site_id: 474901).group(:skey).having('count(*) > 1').order("count_all desc").count.keys
-pbar = ProgressBar.create(title: "Sites", total: skeys.count, autofinish: false, format: '%t %b>> %i| %e')
 
 CSV.open(output_dir(__FILE__) + "/sites-many-places.csv", 'w') do |csv|
-  csv << ["collections", "site_id", "site_name", "places"]
+  csv << ["collections", "site_id", "site_name", "placekey", "places"]
 end
 
 Parallel.map(skeys.in_groups_of(10, false), progress: "Problems", in_processes: 4) do |group|
@@ -32,10 +31,10 @@ Parallel.map(skeys.in_groups_of(10, false), progress: "Problems", in_processes: 
         common.in_groups_of(30, false).each do |group|
           collections << Catalog.where(id: group).pluck(:collection).uniq
         end
-        summary << place + " (#{common.count})"
+        summary << place + " [placekey:#{place_id}] (total:#{common.count})"
       end
       CSV.open(output_dir(__FILE__) + "/sites-many-places.csv", 'a') do |csv|
-        csv << [collections.flatten.uniq.sort.join(", "), site.site_id, site.site_name, summary.join(" | ")]
+        csv << [collections.flatten.uniq.sort.join(", "), site.site_id, site.site_name, nil, summary.join(" | ")]
       end
     end
   end

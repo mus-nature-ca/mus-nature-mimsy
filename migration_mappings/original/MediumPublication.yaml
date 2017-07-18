@@ -3,7 +3,7 @@
   :MIMSY: MEDIA_PUBLICATIONS.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publication_id:
   :MIMSY: MEDIA_PUBLICATIONS.PKEY
   :module: ''
@@ -13,7 +13,7 @@
   :MIMSY: MEDIA_PUBLICATIONS.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: MEDIA_PUBLICATIONS.PRIOR_ATTRIBUTION
   :module: ''

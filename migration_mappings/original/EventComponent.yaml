@@ -10,7 +10,7 @@
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: EVENT_COMPONENTS.ID
+  :MIMSY: EVENT_COMPONENTSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -3,7 +3,7 @@
   :MIMSY: SITES_PUBLICATIONS.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publication_id:
   :MIMSY: SITES_PUBLICATIONS.PKEY
   :module: ''

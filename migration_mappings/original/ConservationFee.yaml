@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: CONSERVATION_FEES.ID
+  :MIMSY: CONSERVATION_FEESAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :conservation_id:
   :MIMSY: CONSERVATION_FEES.CONSKEY
   :module: ''

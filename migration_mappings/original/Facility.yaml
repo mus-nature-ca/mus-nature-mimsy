@@ -101,9 +101,9 @@
   :instructions: ''
 :publish:
   :MIMSY: FACILITIES.PUBLISH
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'elocations'
+  :column: 'AdmPublishWebNoPassword'
+  :instructions: 'If value is false or null, mark both Publish on Internet and Intranet as No; if value is true, mark both as Yes.'
 :flag1:
   :MIMSY: FACILITIES.FLAG1
   :module: ''

@@ -3,12 +3,12 @@
   :MIMSY: DAMAGE.DKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: DAMAGE.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :damage_date:
   :MIMSY: DAMAGE.DAMAGE_DATE
   :module: ''

@@ -30,7 +30,7 @@
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: SITE_EXCAVATIONS.ID
+  :MIMSY: SITE_EXCAVATIONSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

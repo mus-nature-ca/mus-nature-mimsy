@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: SITE_DESCRIPTIONS.ID
+  :MIMSY: SITE_DESCRIPTIONSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :site_id:
   :MIMSY: SITE_DESCRIPTIONS.SKEY
   :module: ''

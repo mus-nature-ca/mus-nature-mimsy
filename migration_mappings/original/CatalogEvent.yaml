@@ -3,7 +3,7 @@
   :MIMSY: ITEMS_EVENTS.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: ITEMS_EVENTS.MKEY
   :module: ''

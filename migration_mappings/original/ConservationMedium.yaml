@@ -1,14 +1,14 @@
 ---
 :id:
-  :MIMSY: CONSERVATION_MEDIA.ID
+  :MIMSY: CONSERVATION_MEDIAAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :medium_id:
   :MIMSY: CONSERVATION_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media:
   :MIMSY: CONSERVATION_MEDIA.MEDIA
   :module: ''

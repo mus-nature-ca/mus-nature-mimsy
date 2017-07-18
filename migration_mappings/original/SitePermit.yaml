@@ -45,7 +45,7 @@
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: SITE_PERMITS.ID
+  :MIMSY: SITE_PERMITSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

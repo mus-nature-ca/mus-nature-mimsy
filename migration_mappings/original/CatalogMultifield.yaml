@@ -3,7 +3,7 @@
   :MIMSY: MULTIFIELDS.ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: MULTIFIELDS.MKEY
   :module: ''

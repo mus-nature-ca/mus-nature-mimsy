@@ -1,14 +1,14 @@
 ---
 :id:
-  :MIMSY: LOANS_LOCATION.ID
+  :MIMSY: LOANS_LOCATIONAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :loan_id:
   :MIMSY: LOANS_LOCATION.LKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Foreign key to Loan.id'
 :loan:
   :MIMSY: LOANS_LOCATION.LOAN
   :module: ''
@@ -23,7 +23,7 @@
   :MIMSY: LOANS_LOCATION.LOC_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Location.id'
 :location:
   :MIMSY: LOANS_LOCATION.LOCATION
   :module: ''

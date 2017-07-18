@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: TITLES.ID
+  :MIMSY: TITLESAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: TITLES.MKEY
   :module: ''

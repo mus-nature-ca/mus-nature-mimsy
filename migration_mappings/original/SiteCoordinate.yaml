@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: SITE_COORDINATES.ID
+  :MIMSY: SITE_COORDINATESAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :site_id:
   :MIMSY: SITE_COORDINATES.SKEY
   :module: ''

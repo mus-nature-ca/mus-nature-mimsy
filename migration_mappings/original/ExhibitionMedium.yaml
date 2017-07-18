@@ -1,14 +1,14 @@
 ---
 :id:
-  :MIMSY: EXHIBITIONS_MEDIA.ID
+  :MIMSY: EXHIBITIONS_MEDIAAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :medium_id:
   :MIMSY: EXHIBITIONS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media:
   :MIMSY: EXHIBITIONS_MEDIA.MEDIA
   :module: ''

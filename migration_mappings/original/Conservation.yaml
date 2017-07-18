@@ -3,12 +3,12 @@
   :MIMSY: CONSERVATION.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :id:
   :MIMSY: CONSERVATION.CONSKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :process:
   :MIMSY: CONSERVATION.PROCESS
   :module: ''

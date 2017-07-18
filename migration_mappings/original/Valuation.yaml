@@ -3,12 +3,12 @@
   :MIMSY: VALUATION.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :id:
   :MIMSY: VALUATION.TRANS_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :current_record:
   :MIMSY: VALUATION.CURRENT_RECORD
   :module: ''

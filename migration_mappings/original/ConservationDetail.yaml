@@ -3,12 +3,12 @@
   :MIMSY: CONSERVATION_DETAILS.CONSMATKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :conservation_id:
   :MIMSY: CONSERVATION_DETAILS.CONSKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Conservation.id'
 :material:
   :MIMSY: CONSERVATION_DETAILS.MATERIAL
   :module: ''

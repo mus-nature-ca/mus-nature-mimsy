@@ -3,12 +3,12 @@
   :MIMSY: EVENT_VARIATIONS.VVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :event_id:
   :MIMSY: EVENT_VARIATIONS.VKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Event.id'
 :variation:
   :MIMSY: EVENT_VARIATIONS.VARIATION
   :module: ''

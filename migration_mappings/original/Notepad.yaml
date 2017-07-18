@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: NOTEPAD.ID
+  :MIMSY: NOTEPADAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :table_key:
   :MIMSY: NOTEPAD.TABLE_KEY
   :module: ''

@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: EXHIBITION_THEMES.ID
+  :MIMSY: EXHIBITION_THEMESAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :exhibition_id:
   :MIMSY: EXHIBITION_THEMES.EKEY
   :module: ''

@@ -3,7 +3,7 @@
   :MIMSY: PEOPLE_CONTACTS.ID
   :module: ''
   :column: ''
-  :instructions: 'Primary key. Not mapped.'
+  :instructions: 'Not mapped'
 :person_id:
   :MIMSY: PEOPLE_CONTACTS.LINK_ID
   :module: ''

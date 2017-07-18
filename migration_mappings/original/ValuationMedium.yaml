@@ -1,24 +1,24 @@
 ---
 :id:
-  :MIMSY: VALUATION_MEDIA.ID
+  :MIMSY: VALUATION_MEDIAAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :medium_id:
   :MIMSY: VALUATION_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: VALUATION_MEDIA.MEDIA
   :module: ''
   :column: ''
   :instructions: ''
-:m_id:
+:catalog_id:
   :MIMSY: VALUATION_MEDIA.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :object:
   :MIMSY: VALUATION_MEDIA.OBJECT
   :module: ''
@@ -28,7 +28,7 @@
   :MIMSY: VALUATION_MEDIA.TRANS_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Valuation.id'
 :valuation:
   :MIMSY: VALUATION_MEDIA.VALUATION
   :module: ''

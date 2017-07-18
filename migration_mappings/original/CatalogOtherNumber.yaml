@@ -3,29 +3,29 @@
   :MIMSY: OTHER_NUMBERS.ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: OTHER_NUMBERS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Foreign key to Catalog.id'
 :other_number:
   :MIMSY: OTHER_NUMBERS.OTHER_NUMBER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'ManPreviousAccessionNumber OR '
+  :instructions: 'Only populate ManPreviousAccessionNumber if CatalogOtherNumber.type = "stamped CMN accession number". Otherwise, populate CatOtherNumberValue_tab.'
 :type:
   :MIMSY: OTHER_NUMBERS.ON_TYPE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'CatOtherNumberType_tab'
   :instructions: ''
 :source:
   :MIMSY: OTHER_NUMBERS.SOURCE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'CatOtherNumberAuthority_tab'
   :instructions: ''
 :note:
   :MIMSY: OTHER_NUMBERS.NOTE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'CatOtherNumberNotes_tab'
   :instructions: ''

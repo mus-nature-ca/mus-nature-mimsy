@@ -3,7 +3,7 @@
   :MIMSY: EVENTS.VKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :mev_id:
   :MIMSY: EVENTS.MEV_ID
   :module: ''

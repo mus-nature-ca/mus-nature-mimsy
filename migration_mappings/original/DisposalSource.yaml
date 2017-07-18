@@ -1,14 +1,14 @@
 ---
 :id:
-  :MIMSY: DISPOSAL_SOURCES.ID
+  :MIMSY: DISPOSAL_SOURCESAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :disposal_id:
   :MIMSY: DISPOSAL_SOURCES.AKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :person_id:
   :MIMSY: DISPOSAL_SOURCES.LINK_ID
   :module: ''

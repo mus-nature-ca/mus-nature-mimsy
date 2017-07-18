@@ -3,17 +3,17 @@
   :MIMSY: ITEMS_PEOPLE.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: ITEMS_PEOPLE.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id.'
 :person_id:
   :MIMSY: ITEMS_PEOPLE.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :relationship:
   :MIMSY: ITEMS_PEOPLE.RELATIONSHIP
   :module: ''

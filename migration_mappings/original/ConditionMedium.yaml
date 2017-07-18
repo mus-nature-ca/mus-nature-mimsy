@@ -1,14 +1,14 @@
 ---
 :id:
-  :MIMSY: CONDITION_MEDIA.ID
+  :MIMSY: CONDITION_MEDIAAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :medium_id:
   :MIMSY: CONDITION_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media:
   :MIMSY: CONDITION_MEDIA.MEDIA
   :module: ''

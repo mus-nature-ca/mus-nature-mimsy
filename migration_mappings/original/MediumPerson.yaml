@@ -3,7 +3,7 @@
   :MIMSY: MEDIA_PEOPLE.AUTHLINKKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :person_id:
   :MIMSY: MEDIA_PEOPLE.LINK_ID
   :module: ''
@@ -13,7 +13,7 @@
   :MIMSY: MEDIA_PEOPLE.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :relationship:
   :MIMSY: MEDIA_PEOPLE.RELATIONSHIP
   :module: ''

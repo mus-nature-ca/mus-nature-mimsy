@@ -3,12 +3,12 @@
   :MIMSY: LOSS.LOSSKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: LOSS.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :loss_date:
   :MIMSY: LOSS.LOSS_DATE
   :module: ''

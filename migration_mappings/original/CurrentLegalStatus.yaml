@@ -45,7 +45,7 @@
   :column: ''
   :instructions: ''
 :id:
-  :MIMSY: CURRENT_LEGAL_STATUS.ID
+  :MIMSY: CURRENT_LEGAL_STATUSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -3,12 +3,12 @@
   :MIMSY: CURRENT_CONDITION.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :condition_id:
   :MIMSY: CURRENT_CONDITION.CONDKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Condition.id'
 :current_record:
   :MIMSY: CURRENT_CONDITION.CURRENT_RECORD
   :module: ''

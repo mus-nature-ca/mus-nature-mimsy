@@ -1,14 +1,14 @@
 ---
 :id:
-  :MIMSY: EXHIBITIONS_LOANS.ID
+  :MIMSY: EXHIBITIONS_LOANSAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :exhibition_id:
   :MIMSY: EXHIBITIONS_LOANS.EKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Exhibition.id'
 :exhibition:
   :MIMSY: EXHIBITIONS_LOANS.EXHIBITION
   :module: ''

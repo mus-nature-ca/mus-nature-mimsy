@@ -1,9 +1,9 @@
 ---
 :id:
-  :MIMSY: LOAN_VENUES.ID
+  :MIMSY: LOAN_VENUESAKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :loan_id:
   :MIMSY: LOAN_VENUES.LKEY
   :module: ''
