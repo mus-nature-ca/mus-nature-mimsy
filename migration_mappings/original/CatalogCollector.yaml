@@ -8,12 +8,12 @@
   :MIMSY: ITEMS_COLLECTORS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :person_id:
   :MIMSY: ITEMS_COLLECTORS.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :relationship:
   :MIMSY: ITEMS_COLLECTORS.RELATIONSHIP
   :module: ''

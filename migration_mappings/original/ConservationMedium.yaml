@@ -8,7 +8,7 @@
   :MIMSY: CONSERVATION_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: CONSERVATION_MEDIA.MEDIA
   :module: ''
@@ -18,7 +18,7 @@
   :MIMSY: CONSERVATION_MEDIA.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :object:
   :MIMSY: CONSERVATION_MEDIA.OBJECT
   :module: ''
@@ -28,7 +28,7 @@
   :MIMSY: CONSERVATION_MEDIA.CONSKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Conservation.id'
 :conservation:
   :MIMSY: CONSERVATION_MEDIA.CONSERVATION
   :module: ''

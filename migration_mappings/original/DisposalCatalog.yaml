@@ -8,13 +8,13 @@
   :MIMSY: DISPOSAL_ITEMS.AKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Disposal.id'
 :catalog_id:
   :MIMSY: DISPOSAL_ITEMS.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
-:id_number:
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
+:catalog_number:
   :MIMSY: DISPOSAL_ITEMS.ID_NUMBER
   :module: ''
   :column: ''

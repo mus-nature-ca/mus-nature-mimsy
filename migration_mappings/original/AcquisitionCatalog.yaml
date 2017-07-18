@@ -14,7 +14,7 @@
   :module: ''
   :column: ''
   :instructions: 'Not mapped. Foreign key to Catalog.id'
-:id_number:
+:catalog_number:
   :MIMSY: ACQUISITION_ITEMS.ID_NUMBER
   :module: ''
   :column: ''

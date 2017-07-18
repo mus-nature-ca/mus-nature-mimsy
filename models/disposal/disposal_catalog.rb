@@ -15,6 +15,7 @@ class DisposalCatalog < ActiveRecord::Base
   custom_attribute :disposal_id, :akey
   custom_attribute :catalog_id, :m_id
   custom_attribute :description, :item_summary
+  custom_attribute :catalog_number, :id_number
 
   categorical :status, :disposal_method
 

@@ -3,7 +3,7 @@
   :MIMSY: CURRENT_LEGAL_STATUS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :legal_status:
   :MIMSY: CURRENT_LEGAL_STATUS.LEGAL_STATUS
   :module: ''

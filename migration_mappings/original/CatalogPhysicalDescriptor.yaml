@@ -8,7 +8,7 @@
   :MIMSY: PHYSICAL_DESCRIPTORS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :component:
   :MIMSY: PHYSICAL_DESCRIPTORS.COMPONENT
   :module: ''

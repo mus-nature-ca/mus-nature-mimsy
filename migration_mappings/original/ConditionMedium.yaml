@@ -8,7 +8,7 @@
   :MIMSY: CONDITION_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: CONDITION_MEDIA.MEDIA
   :module: ''
@@ -18,7 +18,7 @@
   :MIMSY: CONDITION_MEDIA.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :object:
   :MIMSY: CONDITION_MEDIA.OBJECT
   :module: ''
@@ -28,7 +28,7 @@
   :MIMSY: CONDITION_MEDIA.CONDKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Condition.id'
 :condition:
   :MIMSY: CONDITION_MEDIA.CONDITION
   :module: ''

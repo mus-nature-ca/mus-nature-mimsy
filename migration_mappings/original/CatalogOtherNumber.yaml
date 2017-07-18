@@ -8,7 +8,7 @@
   :MIMSY: OTHER_NUMBERS.MKEY
   :module: ''
   :column: ''
-  :instructions: 'Foreign key to Catalog.id'
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :other_number:
   :MIMSY: OTHER_NUMBERS.OTHER_NUMBER
   :module: 'ecatalogue'

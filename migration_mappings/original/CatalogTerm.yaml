@@ -8,12 +8,12 @@
   :MIMSY: ITEMS_TERMS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :thesaurus_id:
   :MIMSY: ITEMS_TERMS.CLASS_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Thesaurus.id'
 :type_specimen:
   :MIMSY: ITEMS_TERMS.TYPE_SPECIMEN
   :module: ''

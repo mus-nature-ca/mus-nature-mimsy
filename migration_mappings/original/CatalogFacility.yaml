@@ -8,12 +8,12 @@
   :MIMSY: ITEMS_FACILITIES.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id.'
 :facility_id:
   :MIMSY: ITEMS_FACILITIES.LOCKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Facility.id.'
 :prior_attribution:
   :MIMSY: ITEMS_FACILITIES.PRIOR_ATTRIBUTION
   :module: ''

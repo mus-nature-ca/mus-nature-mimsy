@@ -19,6 +19,7 @@ class ExhibitionCatalog < ActiveRecord::Base
   custom_attribute :catalog_id, :m_id
   custom_attribute :type, :record_type
   custom_attribute :description, :item_summary
+  custom_attribute :catalog_number, :id_number
 
   categorical :type, :status
 

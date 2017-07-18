@@ -8,7 +8,7 @@
   :MIMSY: LEGAL_STATUS.MKEY
   :module: ''
   :column: ''
-  :instructions: 'Foreign key to Catalog.id'
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :current_record:
   :MIMSY: LEGAL_STATUS.CURRENT_RECORD
   :module: ''

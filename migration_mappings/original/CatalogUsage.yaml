@@ -8,7 +8,7 @@
   :MIMSY: ITEM_USAGE.MKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Catalog.id.'
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :prior_use:
   :MIMSY: ITEM_USAGE.PRIOR_USE
   :module: ''

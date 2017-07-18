@@ -8,7 +8,7 @@
   :MIMSY: ITEM_DESCRIPTIONS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :prior_description:
   :MIMSY: ITEM_DESCRIPTIONS.PRIOR_DESCRIPTION
   :module: ''

@@ -13,7 +13,7 @@
   :MIMSY: ITEMS_OWNERS.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :begin_date:
   :MIMSY: ITEMS_OWNERS.BEGIN_DATE
   :module: ''

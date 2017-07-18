@@ -8,7 +8,7 @@
   :MIMSY: OTHER_MEASUREMENTS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :part_measured:
   :MIMSY: OTHER_MEASUREMENTS.PART_MEASURED
   :module: ''

@@ -8,12 +8,12 @@
   :MIMSY: ITEMS_SITES.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :site_id:
   :MIMSY: ITEMS_SITES.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :specific_locale:
   :MIMSY: ITEMS_SITES.SPECIFIC_LOCALE
   :module: ''

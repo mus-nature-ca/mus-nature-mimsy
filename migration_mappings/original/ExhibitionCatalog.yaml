@@ -19,7 +19,7 @@
   :module: ''
   :column: ''
   :instructions: ''
-:id_number:
+:catalog_number:
   :MIMSY: EXHIBITION_ITEMS.ID_NUMBER
   :module: ''
   :column: ''

@@ -8,12 +8,12 @@
   :MIMSY: ITEMS_SUBJECTS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :subject_id:
   :MIMSY: ITEMS_SUBJECTS.SUBKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Subject.id'
 :sort:
   :MIMSY: ITEMS_SUBJECTS.STEP
   :module: ''

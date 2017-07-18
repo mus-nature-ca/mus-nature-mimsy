@@ -8,12 +8,12 @@
   :MIMSY: ITEMS_MEDIA.MKEY
   :module: ''
   :column: ''
-  :instructions: 'Foreign key to Catalog.id'
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :medium_id:
   :MIMSY: ITEMS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Foreign key to Medium.id'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :sort:
   :MIMSY: ITEMS_MEDIA.STEP
   :module: ''

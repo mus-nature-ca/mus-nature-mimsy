@@ -8,12 +8,12 @@
   :MIMSY: CONDITION_CONSERVATION.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :condition_id:
   :MIMSY: CONDITION_CONSERVATION.CONDKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'ot mapped. Foreign key to Condition.id'
 :condition:
   :MIMSY: CONDITION_CONSERVATION.CONDITION
   :module: ''
@@ -23,7 +23,7 @@
   :MIMSY: CONDITION_CONSERVATION.CONSKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Conservation.id'
 :conservation:
   :MIMSY: CONDITION_CONSERVATION.CONSERVATION
   :module: ''

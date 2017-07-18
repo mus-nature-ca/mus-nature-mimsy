@@ -8,7 +8,7 @@
   :MIMSY: INSCRIPTIONS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id.'
 :type:
   :MIMSY: INSCRIPTIONS.INSCRIPTION_TYPE
   :module: ''

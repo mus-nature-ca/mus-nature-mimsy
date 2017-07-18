@@ -8,7 +8,7 @@
   :MIMSY: CONSERVATION_FEES.CONSKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Conservation.id'
 :conservation_detail_id:
   :MIMSY: CONSERVATION_FEES.CONSMATKEY
   :module: ''

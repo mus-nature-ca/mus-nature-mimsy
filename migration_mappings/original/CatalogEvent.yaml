@@ -8,12 +8,12 @@
   :MIMSY: ITEMS_EVENTS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :event_id:
   :MIMSY: ITEMS_EVENTS.VKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Event.id.'
 :relationship:
   :MIMSY: ITEMS_EVENTS.RELATIONSHIP
   :module: ''

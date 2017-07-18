@@ -19,6 +19,7 @@ class AcquisitionCatalog < ActiveRecord::Base
   custom_attribute :catalog_id, :m_id
   custom_attribute :acquisition_id, :akey
   custom_attribute :description, :item_summary
+  custom_attribute :catalog_number, :id_number
 
   categorical :status, :marking_method
 

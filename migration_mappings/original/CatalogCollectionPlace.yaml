@@ -8,11 +8,11 @@
   :MIMSY: ITEMS_PLACES_COLLECTED.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id.'
 :place_id:
   :MIMSY: ITEMS_PLACES_COLLECTED.PLACEKEY
   :module: ''
-  :column: ''
+  :column: 'Not mapped. Foreign key to Place.id'
   :instructions: ''
 :specific_locale:
   :MIMSY: ITEMS_PLACES_COLLECTED.SPECIFIC_LOCALE

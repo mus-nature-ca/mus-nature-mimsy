@@ -21,6 +21,7 @@ class LoanCatalog < ActiveRecord::Base
   custom_attribute :venues, :loan_item_venues
   custom_attribute :shipper, :loan_item_shipping
   custom_attribute :fees, :loan_item_fees
+  custom_attribute :catalog_number, :id_number
 
   categorical :status
 

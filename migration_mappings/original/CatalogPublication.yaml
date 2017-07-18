@@ -8,12 +8,12 @@
   :MIMSY: ITEMS_PUBLICATIONS.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :publication_id:
   :MIMSY: ITEMS_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Publication.id'
 :relationship:
   :MIMSY: ITEMS_PUBLICATIONS.RELATIONSHIP
   :module: ''

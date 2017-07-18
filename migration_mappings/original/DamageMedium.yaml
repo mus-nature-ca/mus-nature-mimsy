@@ -8,7 +8,7 @@
   :MIMSY: DAMAGE_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: DAMAGE_MEDIA.MEDIA
   :module: ''
@@ -18,7 +18,7 @@
   :MIMSY: DAMAGE_MEDIA.M_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :object:
   :MIMSY: DAMAGE_MEDIA.OBJECT
   :module: ''
@@ -28,7 +28,7 @@
   :MIMSY: DAMAGE_MEDIA.DKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Damage.id'
 :damage:
   :MIMSY: DAMAGE_MEDIA.DAMAGE
   :module: ''
