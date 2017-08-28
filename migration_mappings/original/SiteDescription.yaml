@@ -8,7 +8,7 @@
   :MIMSY: SITE_DESCRIPTIONS.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :prior_attribution:
   :MIMSY: SITE_DESCRIPTIONS.PRIOR_ATTRIBUTION
   :module: ''

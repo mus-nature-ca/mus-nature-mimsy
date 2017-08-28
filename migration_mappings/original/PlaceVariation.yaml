@@ -8,7 +8,7 @@
   :MIMSY: PLACE_VARIATIONS.PLACEKEY
   :module: ''
   :column: ''
-  :instructions: 'Foriegn key to Place. Not mapped.'
+  :instructions: 'Not mapped. Foriegn key to Place.id'
 :variation:
   :MIMSY: PLACE_VARIATIONS.VARIATION
   :module: 'esites'

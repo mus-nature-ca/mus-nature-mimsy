@@ -13,7 +13,7 @@
   :MIMSY: ITEMS_EVENTS.VKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Event.id.'
+  :instructions: 'Not mapped. Foreign key to Event.id'
 :relationship:
   :MIMSY: ITEMS_EVENTS.RELATIONSHIP
   :module: ''

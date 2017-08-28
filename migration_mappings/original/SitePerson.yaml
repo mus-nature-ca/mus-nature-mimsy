@@ -8,12 +8,12 @@
   :MIMSY: SITES_PEOPLE.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :site_id:
   :MIMSY: SITES_PEOPLE.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :relationship:
   :MIMSY: SITES_PEOPLE.RELATIONSHIP
   :module: ''
@@ -48,7 +48,7 @@
   :MIMSY: SITES_PEOPLE.NVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to PersonVariation.id'
 :name:
   :MIMSY: SITES_PEOPLE.NAME
   :module: ''

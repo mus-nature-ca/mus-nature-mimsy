@@ -13,7 +13,7 @@
   :MIMSY: RELATED_ITEMS.RELATED_MKEY
   :module: 'ecatalogue'
   :column: 'AssRelatedObjects_tab'
-  :instructions: 'Not mapped. Foreign key to Catalog.id.'
+  :instructions: 'Not mapped. However, construct link using foreign key to Catalog.id'
 :object:
   :MIMSY: RELATED_ITEMS.OBJECT
   :module: ''

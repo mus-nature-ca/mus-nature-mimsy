@@ -8,7 +8,7 @@
   :MIMSY: EXHIBITION_THEMES.EKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Exhibition.id'
 :theme_section:
   :MIMSY: EXHIBITION_THEMES.THEME_SECTION
   :module: ''

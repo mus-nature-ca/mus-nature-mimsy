@@ -9,4 +9,7 @@ class Insurance < ActiveRecord::Base
   set_integer_columns :inskey
 
   custom_attribute :id, :inskey
+  custom_attribute :person_id, :link_id
+
+  belongs_to :person, foreign_key: "link_id"
 end

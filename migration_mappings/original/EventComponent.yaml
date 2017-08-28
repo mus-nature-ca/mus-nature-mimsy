@@ -3,7 +3,7 @@
   :MIMSY: EVENT_COMPONENTS.VKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Event.id'
 :component:
   :MIMSY: EVENT_COMPONENTS.COMPONENT
   :module: ''

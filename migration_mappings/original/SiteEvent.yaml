@@ -8,12 +8,12 @@
   :MIMSY: SITES_EVENTS.VKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Event.id'
 :site_id:
   :MIMSY: SITES_EVENTS.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :prior_attribution:
   :MIMSY: SITES_EVENTS.PRIOR_ATTRIBUTION
   :module: ''

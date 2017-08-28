@@ -3,7 +3,7 @@
   :MIMSY: SITE_PHOTOS.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :photo_number:
   :MIMSY: SITE_PHOTOS.PHOTO_NUMBER
   :module: ''

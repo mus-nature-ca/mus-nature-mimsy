@@ -8,12 +8,12 @@
   :MIMSY: MEDIA_TAXONOMY.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :taxon_id:
   :MIMSY: MEDIA_TAXONOMY.SPECKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Taxon.id'
 :prior_attribution:
   :MIMSY: MEDIA_TAXONOMY.PRIOR_ATTRIBUTION
   :module: ''

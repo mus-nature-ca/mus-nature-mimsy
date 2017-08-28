@@ -3,7 +3,7 @@
   :MIMSY: SITE_SURVEYS.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :surveyor:
   :MIMSY: SITE_SURVEYS.SURVEYOR
   :module: ''

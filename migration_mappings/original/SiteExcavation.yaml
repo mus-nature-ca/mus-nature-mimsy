@@ -3,7 +3,7 @@
   :MIMSY: SITE_EXCAVATIONS.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :excavator:
   :MIMSY: SITE_EXCAVATIONS.EXCAVATOR
   :module: ''

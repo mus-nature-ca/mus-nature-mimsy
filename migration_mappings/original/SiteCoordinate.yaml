@@ -8,7 +8,7 @@
   :MIMSY: SITE_COORDINATES.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :type:
   :MIMSY: SITE_COORDINATES.COORD_TYPE
   :module: ''

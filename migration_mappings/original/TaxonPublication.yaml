@@ -8,12 +8,12 @@
   :MIMSY: TAXONOMY_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Publication.id'
 :taxon_id:
   :MIMSY: TAXONOMY_PUBLICATIONS.SPECKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Taxon.id'
 :relationship:
   :MIMSY: TAXONOMY_PUBLICATIONS.RELATIONSHIP
   :module: ''
@@ -38,7 +38,7 @@
   :MIMSY: TAXONOMY_PUBLICATIONS.TAXVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to TaxonVariation.id'
 :publication:
   :MIMSY: TAXONOMY_PUBLICATIONS.PUBLICATION
   :module: ''

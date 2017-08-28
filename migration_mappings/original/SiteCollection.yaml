@@ -3,7 +3,7 @@
   :MIMSY: SITE_COLLECTIONS.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :count_number:
   :MIMSY: SITE_COLLECTIONS.COUNT_NUMBER
   :module: ''

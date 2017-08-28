@@ -8,12 +8,12 @@
   :MIMSY: SITES_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :site_id:
   :MIMSY: SITES_MEDIA.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :prior_attribution:
   :MIMSY: SITES_MEDIA.PRIOR_ATTRIBUTION
   :module: ''

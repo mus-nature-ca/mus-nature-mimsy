@@ -3,7 +3,7 @@
   :MIMSY: SITE_MAPS.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :map:
   :MIMSY: SITE_MAPS.MAP
   :module: ''

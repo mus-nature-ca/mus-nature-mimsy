@@ -19,11 +19,11 @@
   :module: ''
   :column: ''
   :instructions: ''
-:link_id:
+:person_id:
   :MIMSY: INSURANCE.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :nvarkey:
   :MIMSY: INSURANCE.NVARKEY
   :module: ''

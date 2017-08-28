@@ -3,7 +3,7 @@
   :MIMSY: FACILITY_LEVELS.LOCKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Facility.id'
 :level1:
   :MIMSY: FACILITY_LEVELS.LEVEL1
   :module: ''

@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/MXG_Upload_LeSage_2016_reptiles_v2-objects-utf16.txt"
+file = "/Users/dshorthouse/Desktop/Concatenated MXG_Upload_ABS_v2_OBJECTS.txt"
 
 log = []
 
@@ -17,28 +17,33 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   #Get the linked placekey
   placekey = row["PLACES.PLACEKEY"].strip rescue nil
 
+  #measurements
+  measurement_type = row["MEASUREMENTS.MEASUREMENT_TYPE"].strip.downcase rescue nil
+  measurement_dimension = row["MEASUREMENTS.DIMENSION1"].strip rescue nil
+  measurement_unit = row["MEASUREMENTS.UNIT1"].strip.downcase rescue nil
+
   #create new catalog record
   obj = Catalog.new
   obj.catalog_number = row["ID_NUMBER"].strip
   obj.collection = row["CATEGORY1"].strip
   obj.scientific_name = row["ITEM_NAME"].strip
-  obj.whole_part = row["WHOLE_PART"].strip rescue "whole"
+  obj.whole_part = row["WHOLE_PART"].strip rescue "part"
   obj.item_count = row["ITEM_COUNT"].strip.to_i rescue nil
-
   obj.materials = row["MATERIALS"].strip rescue nil
-  
   obj.collector = row["COLLECTOR"].strip rescue nil
+  obj.sex = row["CATALOGUE.SEX"].strip.downcase rescue nil
+  obj.stage = row["CATALOGUE.STAGE"].strip rescue nil
   obj.date_collected = row["DATE_COLLECTED"].strip rescue nil
-
   obj.site = site.site_name
   obj.place_collected = row["PLACE_COLLECTED"].strip rescue nil
-
   obj.credit_line = row["CATALOGUE.CREDIT_LINE"].strip rescue nil
   obj.gbif = true
-  obj.publish = true
-
+  obj.publish = row["CATALOGUE.PUBLISH"].strip rescue nil
   obj.note = row["NOTE"].strip rescue nil
-
+  obj.description = row["CATALOGUE.DESCRIPTION"] rescue nil
+  if !measurement_type.nil?
+    obj[:measurements] = "whole: " + measurement_dimension.to_s + " " + measurement_unit
+  end
   obj.save
 
   #Find object again - damn Oracle!
@@ -116,6 +121,26 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
       acq_cat.id_number = obj.catalog_number
       acq_cat.save
     end
+  end
+
+  #other numbers
+  other_number = row["OTHER_NUMBERS.OTHER_NUMBER"] rescue nil
+  if !other_number.nil?
+    on = CatalogOtherNumber.new
+    on.other_number = other_number
+    on.on_type = row["OTHER_NUMBERS.ON_TYPE"] rescue nil
+    on.mkey = obj.id
+    on.save
+  end
+
+  if !measurement_type.nil?
+    cm = CatalogMeasurement.new
+    cm.mkey = obj.id
+    cm.part_measured = "whole"
+    cm.measurement_type = measurement_type
+    cm.dimension1 = measurement_dimension
+    cm.unit1 = measurement_unit
+    cm.save
   end
 
 end

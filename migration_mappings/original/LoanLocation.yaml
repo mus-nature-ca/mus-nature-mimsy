@@ -18,7 +18,7 @@
   :MIMSY: LOANS_LOCATION.LITMKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to LoanCatalog.id'
 :location_id:
   :MIMSY: LOANS_LOCATION.LOC_ID
   :module: ''

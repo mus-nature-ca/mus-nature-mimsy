@@ -8,12 +8,12 @@
   :MIMSY: ITEMS_PLACES_MADE.MKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Catalog.id.'
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :place_id:
   :MIMSY: ITEMS_PLACES_MADE.PLACEKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Place.id.'
+  :instructions: 'Not mapped. Foreign key to Place.id'
 :prior_attribution:
   :MIMSY: ITEMS_PLACES_MADE.PRIOR_ATTRIBUTION
   :module: ''

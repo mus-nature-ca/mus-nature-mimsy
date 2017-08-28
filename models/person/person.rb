@@ -25,7 +25,11 @@ class Person < ActiveRecord::Base
     :nationality, :assessment
 
   belongs_to :catalog_collector, foreign_key: "link_id"
-  
+
+  belongs_to :insurance, foreign_key: "link_id"
+
+  belongs_to :reproduction, foreign_key: "link_id"
+
   has_many :catalogs, through: :catalog_agents, source: :catalog
   has_many :catalog_agents, foreign_key: "link_id"
 

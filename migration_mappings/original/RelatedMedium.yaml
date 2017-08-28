@@ -3,17 +3,17 @@
   :MIMSY: RELATED_MEDIA.RELRECKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :medium_id:
   :MIMSY: RELATED_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :related_medium_id:
   :MIMSY: RELATED_MEDIA.RELATED_MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: RELATED_MEDIA.MEDIA
   :module: ''

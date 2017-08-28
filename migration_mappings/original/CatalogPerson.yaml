@@ -8,7 +8,7 @@
   :MIMSY: ITEMS_PEOPLE.MKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Catalog.id.'
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :person_id:
   :MIMSY: ITEMS_PEOPLE.LINK_ID
   :module: ''

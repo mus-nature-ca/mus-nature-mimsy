@@ -18,12 +18,12 @@
   :MIMSY: LOANS.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :person_variation_id:
   :MIMSY: LOANS.NVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to PersonVariation.id'
 :institution:
   :MIMSY: LOANS.NAME
   :module: ''

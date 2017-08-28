@@ -8,7 +8,7 @@
   :MIMSY: EXHIBITIONS_LOCATION.LOC_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Location.id'
 :location:
   :MIMSY: EXHIBITIONS_LOCATION.LOCATION
   :module: ''
@@ -18,7 +18,7 @@
   :MIMSY: EXHIBITIONS_LOCATION.EKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Exhibition.id'
 :exhibition:
   :MIMSY: EXHIBITIONS_LOCATION.EXHIBITION
   :module: ''
@@ -28,4 +28,4 @@
   :MIMSY: EXHIBITIONS_LOCATION.EIKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to ExhibitionCatalog.id'

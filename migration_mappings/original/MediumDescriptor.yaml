@@ -8,7 +8,7 @@
   :MIMSY: MEDIA_DESCRIPTORS.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :component:
   :MIMSY: MEDIA_DESCRIPTORS.COMPONENT
   :module: ''

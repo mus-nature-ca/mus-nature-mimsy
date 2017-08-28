@@ -8,12 +8,12 @@
   :MIMSY: SITES_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Publication.id'
 :site_id:
   :MIMSY: SITES_PUBLICATIONS.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :relationship:
   :MIMSY: SITES_PUBLICATIONS.RELATIONSHIP
   :module: ''

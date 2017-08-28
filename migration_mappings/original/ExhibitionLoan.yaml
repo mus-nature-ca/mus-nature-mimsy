@@ -18,7 +18,7 @@
   :MIMSY: EXHIBITIONS_LOANS.LKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Loan.id'
 :loan:
   :MIMSY: EXHIBITIONS_LOANS.LOAN
   :module: ''
@@ -28,9 +28,9 @@
   :MIMSY: EXHIBITIONS_LOANS.EIKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to ExhibitionCatalog.id'
 :loan_catalog_id:
   :MIMSY: EXHIBITIONS_LOANS.LITMKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to LoanCatalog.id'

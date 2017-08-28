@@ -8,12 +8,12 @@
   :MIMSY: MEDIA_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Publication.id'
 :medium_id:
   :MIMSY: MEDIA_PUBLICATIONS.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :prior_attribution:
   :MIMSY: MEDIA_PUBLICATIONS.PRIOR_ATTRIBUTION
   :module: ''

@@ -3,12 +3,12 @@
   :MIMSY: GROUP_MEMBERS.TABLE_KEY
   :module: ''
   :column: ''
-  :instructions: 'Foreign key for table indentified in Group'
+  :instructions: 'Not mapped. Foreign key for table indentified in Group'
 :group_id:
   :MIMSY: GROUP_MEMBERS.GROUP_ID
   :module: ''
   :column: ''
-  :instructions: 'Foreign key for Group'
+  :instructions: 'Not mapped. Foreign key to Group.id'
 :id:
   :MIMSY: GROUP_MEMBERSAKEY
   :module: ''

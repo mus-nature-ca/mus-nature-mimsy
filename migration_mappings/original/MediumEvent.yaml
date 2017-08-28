@@ -8,12 +8,12 @@
   :MIMSY: MEDIA_EVENTS.VKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Event.id'
 :medium_id:
   :MIMSY: MEDIA_EVENTS.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :prior_attribution:
   :MIMSY: MEDIA_EVENTS.PRIOR_ATTRIBUTION
   :module: ''

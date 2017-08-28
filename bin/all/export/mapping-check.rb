@@ -43,7 +43,7 @@ models.each do |model|
   if File.file?(File.join(mappings_dir, "#{model.name}.yaml"))
     mappings = YAML.load_file(File.join(mappings_dir, "#{model.name}.yaml"))
     mappings.each do |m|
-      if !m.second[:module].empty?
+      if !m.second[:module].empty? || !m.second[:instructions].empty?
         mapped_fields << m.second[:module] + ":" + m.second[:column]
       else
         unmapped_fields << "#{model.name}.#{m.first.to_s}"
@@ -54,7 +54,9 @@ end
 
 if options[:mimsy]
   puts unmapped_fields
-  puts "Total: #{unmapped_fields.count}"
+  puts "Total fields: #{unmapped_fields.count + mapped_fields.count}"
+  puts "Total mapped: #{mapped_fields.count} (#{mapped_fields.count*100/(unmapped_fields.count + mapped_fields.count)}%)"
+  puts "Total unmapped: #{unmapped_fields.count}"
 
 elsif options[:emu]
   missing = emu_fields - mapped_fields

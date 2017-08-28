@@ -8,12 +8,12 @@
   :MIMSY: PEOPLE_PLACES.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :place_id:
   :MIMSY: PEOPLE_PLACES.PLACEKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Place.id'
 :prior_attribution:
   :MIMSY: PEOPLE_PLACES.PRIOR_ATTRIBUTION
   :module: ''

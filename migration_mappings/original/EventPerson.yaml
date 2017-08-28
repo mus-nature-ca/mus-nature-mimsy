@@ -8,12 +8,12 @@
   :MIMSY: EVENTS_PEOPLE.VKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Event.id'
 :person_id:
   :MIMSY: EVENTS_PEOPLE.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :relationship:
   :MIMSY: EVENTS_PEOPLE.RELATIONSHIP
   :module: ''

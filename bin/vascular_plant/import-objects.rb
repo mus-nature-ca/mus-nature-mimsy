@@ -3,14 +3,13 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Object 2017-06-28-utf16.txt"
+file = "/Users/dshorthouse/Desktop/Object-2017-07-iii.txt"
 
 log = []
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
   new_record = true
-
   puts row["ID_NUMBER"]
   
   if !Catalog.find_by_catalog_number(row["ID_NUMBER"]).nil?
@@ -25,6 +24,12 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
     if !obj.nil?
       obj.catalog_number = row["ID_NUMBER"].strip
       obj.save
+      if obj.scientific_name != row["ITEM_NAME"].strip
+        group_member = GroupMember.new
+        group_member.group_id = 4575
+        group_member.table_key = obj.id
+        group_member.save
+      end
       new_record = false
     end
   end

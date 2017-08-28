@@ -13,7 +13,7 @@
   :MIMSY: CONSERVATION_FEES.CONSMATKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :activity:
   :MIMSY: CONSERVATION_FEES.ACTIVITY
   :module: ''

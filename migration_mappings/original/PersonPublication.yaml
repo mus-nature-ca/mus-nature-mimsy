@@ -8,12 +8,12 @@
   :MIMSY: PEOPLE_PUBLICATIONS.LINK_ID
   :module: ''
   :column: ''
-  :instructions: 'Foreign key to Person. Not mapped.'
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :publication_id:
   :MIMSY: PEOPLE_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
-  :instructions: 'Foreign key to Publication. Not mapped.'
+  :instructions: 'Not mapped. Foreign key to Publication.id'
 :relationship:
   :MIMSY: PEOPLE_PUBLICATIONS.RELATIONSHIP
   :module: 'ebibliography'

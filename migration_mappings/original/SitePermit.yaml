@@ -3,7 +3,7 @@
   :MIMSY: SITE_PERMITS.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :permit_number:
   :MIMSY: SITE_PERMITS.PERMIT_NUMBER
   :module: ''

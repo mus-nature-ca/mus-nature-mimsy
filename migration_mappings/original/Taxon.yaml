@@ -3,12 +3,12 @@
   :MIMSY: TAXONOMY.SPECKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :language:
   :MIMSY: TAXONOMY.LANGUAGE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :collection:
   :MIMSY: TAXONOMY.TAXON_NAME
   :module: ''
@@ -51,8 +51,8 @@
   :instructions: ''
 :rank:
   :MIMSY: TAXONOMY.LEVEL_TEXT
-  :module: ''
-  :column: ''
+  :module: 'etaxonomy'
+  :column: 'ClaRank'
   :instructions: ''
 :authority:
   :MIMSY: TAXONOMY.SOURCE

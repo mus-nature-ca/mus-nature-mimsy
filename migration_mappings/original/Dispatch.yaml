@@ -33,7 +33,7 @@
   :MIMSY: DISPATCH.LOCKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Facility.id'
 :dispatch_location:
   :MIMSY: DISPATCH.DISPATCH_LOCATION
   :module: ''

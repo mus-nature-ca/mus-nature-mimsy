@@ -8,7 +8,7 @@
   :MIMSY: PEOPLE_CONTACTS.LINK_ID
   :module: ''
   :column: ''
-  :instructions: 'Foreign key for Person. Not mapped.'
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :address_type:
   :MIMSY: PEOPLE_CONTACTS.ADDRESS_TYPE
   :module: ''

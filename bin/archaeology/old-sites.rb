@@ -17,3 +17,6 @@ group.members.each do |member|
     member.destroy
   end
 end
+
+byebug
+puts ""

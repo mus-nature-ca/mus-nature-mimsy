@@ -8,7 +8,7 @@
   :MIMSY: DISPOSALS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: DISPOSALS_MEDIA.MEDIA
   :module: ''
@@ -18,7 +18,7 @@
   :MIMSY: DISPOSALS_MEDIA.AKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Disposal.id'
 :disposal:
   :MIMSY: DISPOSALS_MEDIA.DISPOSAL
   :module: ''

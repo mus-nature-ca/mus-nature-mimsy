@@ -3,7 +3,7 @@
   :MIMSY: SITE_CULTURES.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :culture:
   :MIMSY: SITE_CULTURES.CULTURE
   :module: ''

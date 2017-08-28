@@ -9,4 +9,7 @@ class Reproduction < ActiveRecord::Base
   set_integer_columns :rreqkey
 
   custom_attribute :id, :rreqkey
+  custom_attribute :person_id, :link_id
+
+  belongs_to :person, foreign_key: "link_id"
 end

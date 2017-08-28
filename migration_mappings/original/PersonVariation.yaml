@@ -8,7 +8,7 @@
   :MIMSY: PEOPLE_VARIATIONS.LINK_ID
   :module: ''
   :column: ''
-  :instructions: 'Foreign key to Person. Not mapped.'
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :variation:
   :MIMSY: PEOPLE_VARIATIONS.VARIATION
   :module: 'eparties'

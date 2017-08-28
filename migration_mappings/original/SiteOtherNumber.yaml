@@ -8,7 +8,7 @@
   :MIMSY: SITE_OTHER_NUMBERS.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :other_number:
   :MIMSY: SITE_OTHER_NUMBERS.OTHER_NUMBER
   :module: 'esites'

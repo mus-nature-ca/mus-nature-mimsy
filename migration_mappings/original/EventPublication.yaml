@@ -8,12 +8,12 @@
   :MIMSY: EVENTS_PUBLICATIONS.VKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Event.id'
 :publication_id:
   :MIMSY: EVENTS_PUBLICATIONS.PKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Publication.id'
 :prior_attribution:
   :MIMSY: EVENTS_PUBLICATIONS.PRIOR_ATTRIBUTION
   :module: ''

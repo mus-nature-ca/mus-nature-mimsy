@@ -8,7 +8,7 @@
   :MIMSY: EXHIBITIONS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: EXHIBITIONS_MEDIA.MEDIA
   :module: ''
@@ -18,7 +18,7 @@
   :MIMSY: EXHIBITIONS_MEDIA.EKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Exhibition.id'
 :exhibition:
   :MIMSY: EXHIBITIONS_MEDIA.EXHIBITION
   :module: ''

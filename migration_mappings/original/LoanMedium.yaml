@@ -8,7 +8,7 @@
   :MIMSY: LOANS_MEDIA.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: LOANS_MEDIA.MEDIA
   :module: ''
@@ -18,7 +18,7 @@
   :MIMSY: LOANS_MEDIA.LKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Loan.id'
 :loan:
   :MIMSY: LOANS_MEDIA.LOAN
   :module: ''

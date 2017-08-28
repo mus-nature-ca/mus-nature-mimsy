@@ -3,12 +3,12 @@
   :MIMSY: DATE_MADE.TIMEKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: DATE_MADE.MKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :prior_date:
   :MIMSY: DATE_MADE.PRIOR_DATE
   :module: ''

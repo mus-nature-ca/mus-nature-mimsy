@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/MXG_Upload_LeSage_2016_reptiles-sites-utf16.txt"
+file = "/Users/dshorthouse/Desktop/Concatenated MXG_Upload_ABS_v2_SITES.txt"
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
@@ -23,6 +23,7 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   site.site_date = row["SITES.SITE_DATE"].strip rescue nil
   site.location = row["SITES.LOCATION"].strip rescue nil
   site.publish = true
+  site.register_status = row["SITES.REGISTER_STATUS"] rescue nil
   site.save
 
   #query for created site - damn Oracle!

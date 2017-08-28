@@ -8,12 +8,12 @@
   :MIMSY: LOAN_VENUES.LKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Loan.id'
 :person_id:
   :MIMSY: LOAN_VENUES.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :venue:
   :MIMSY: LOAN_VENUES.VENUE
   :module: ''

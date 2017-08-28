@@ -8,12 +8,12 @@
   :MIMSY: EXHIBITION_VENUES.EKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Exhibition.id'
 :person_id:
   :MIMSY: EXHIBITION_VENUES.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :venue:
   :MIMSY: EXHIBITION_VENUES.VENUE
   :module: ''

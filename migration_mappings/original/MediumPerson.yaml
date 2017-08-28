@@ -8,12 +8,12 @@
   :MIMSY: MEDIA_PEOPLE.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :medium_id:
   :MIMSY: MEDIA_PEOPLE.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Medium.id'
 :relationship:
   :MIMSY: MEDIA_PEOPLE.RELATIONSHIP
   :module: ''

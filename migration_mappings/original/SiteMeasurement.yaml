@@ -8,7 +8,7 @@
   :MIMSY: SITE_MEASUREMENTS.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :measure_type:
   :MIMSY: SITE_MEASUREMENTS.MEASURE_TYPE
   :module: ''

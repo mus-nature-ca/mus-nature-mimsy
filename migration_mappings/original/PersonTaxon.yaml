@@ -8,12 +8,12 @@
   :MIMSY: PEOPLE_TAXONOMY.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :taxon_id:
   :MIMSY: PEOPLE_TAXONOMY.SPECKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Taxon.id'
 :relationship:
   :MIMSY: PEOPLE_TAXONOMY.RELATIONSHIP
   :module: ''

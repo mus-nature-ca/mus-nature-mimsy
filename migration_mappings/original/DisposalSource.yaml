@@ -8,17 +8,17 @@
   :MIMSY: DISPOSAL_SOURCES.AKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Foreign key to Disposal.id'
 :person_id:
   :MIMSY: DISPOSAL_SOURCES.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
 :person_variation_id:
   :MIMSY: DISPOSAL_SOURCES.NVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to PersonVariation.id'
 :source:
   :MIMSY: DISPOSAL_SOURCES.SOURCE
   :module: ''

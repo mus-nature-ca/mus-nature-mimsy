@@ -3,7 +3,7 @@
   :MIMSY: SITE_FEATURES.SKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Site.id'
 :feature_type:
   :MIMSY: SITE_FEATURES.FEATURE_TYPE
   :module: ''

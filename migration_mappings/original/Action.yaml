@@ -8,7 +8,7 @@
   :MIMSY: ACTIONS.ACTREQKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :table_key:
   :MIMSY: ACTIONS.TABLE_KEY
   :module: ''
