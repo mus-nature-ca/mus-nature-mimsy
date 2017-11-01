@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Lesage3-sites.txt"
+file = "/Users/dshorthouse/Desktop/robillard_sites_test.txt"
 
 def coord_convert_dd(input)
   coord = input
@@ -38,6 +38,9 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   site = Site.new
   site.site_id = row["SITES.SITE_ID"].strip
   site.site_name = row["SITES.SITE_NAME"].strip
+  site.environment = row["SITES.SITE_CLASS"].strip rescue nil
+  site.elevation = row["SITES.ELEVATION"].strip rescue nil
+  site.vegetation = row["SITES.VEGETATION"].strip rescue nil
   site.site_date = row["SITES.SITE_DATE"].strip rescue nil
   site.description = row["SITES.DESCRIPTION"].strip rescue nil
   site.register_status = row["SITES.REGISTER_STATUS"].strip rescue nil
@@ -54,7 +57,8 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   orig_lat = site.start_latitude.dup if !site.start_latitude.nil?
   orig_lng = site.start_longitude.dup if !site.start_longitude.nil?
 
-  if !site.start_latitude.nil? && (/[NEWS]/).match(site.start_latitude) && site.location_accuracy.include?("secondary(LL)")
+  if !site.start_latitude.nil? && (/[NEWS]/).match(site.start_latitude) 
+    && !site.location_accuracy.nil? && site.location_accuracy.include?("secondary(LL)")
     site.start_latitude_dec = coord_convert_dd(site.start_latitude)
     site.start_longitude_dec = coord_convert_dd(site.start_longitude)
     coord_is_ll = true
@@ -64,10 +68,12 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
     site.decimal_is_primary = true
   end
 
-  site.environment = row["SITES.ENVIRONMENT"].strip rescue nil
   site.publish = true
   site.location = row["SITES.LOCATION"].strip rescue nil
   site.note = row["SITES.NOTE"] rescue nil
+
+  byebug
+  puts ""
 
   site.save
 

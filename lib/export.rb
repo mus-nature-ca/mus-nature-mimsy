@@ -191,7 +191,17 @@ class Export
     end
   end
 
-  def catalogs(catalogs = [])
+  def group(name = "")
+    group = Group.find_by_name(name)
+    catalog_ids = group.members.pluck(:table_key)
+    cats = []
+    catalog_ids.in_groups_of(40, false) do |ids|
+      cats << Catalog.where(id: ids).pluck(:catalog_number)
+    end
+    catalogs(cats.flatten.join(","))
+  end
+
+  def catalogs(catalogs = "")
     CSV.open(@dir + "/catalog_exports.csv", 'w') do |csv|
       csv << [
         "id_number",

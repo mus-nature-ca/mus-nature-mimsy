@@ -8,7 +8,7 @@
   :MIMSY: LOCATION.M_ID
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Catalog.id.'
+  :instructions: 'Not mapped. Foreign key to Catalog.id'
 :facility_id:
   :MIMSY: LOCATION.LOCKEY
   :module: ''

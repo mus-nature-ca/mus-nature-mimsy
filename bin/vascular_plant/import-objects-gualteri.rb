@@ -3,9 +3,10 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Object-2017-07-iii.txt"
+file = "/Users/dshorthouse/Desktop/Object 2017-10-iv.txt"
+log = "/Users/dshorthouse/Desktop/Object 2017-10-iv-log.csv"
 
-log = []
+missing = []
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
@@ -89,7 +90,7 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
       obj_tax.attrib_date = row["ITEMS_TAXONOMY.ATTRIB_DATE"].strip rescue nil
       obj_tax.save
     else
-      log << [obj.catalog_number, "Taxon missing"]
+      missing << [obj.catalog_number, "Taxon missing"]
     end
 
     #create link to Catalog Name
@@ -172,5 +173,9 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
 
 end
 
-byebug
-puts ""
+CSV.open(log, 'w') do |csv|
+  csv << ["Item", "Note"]
+  missing.each do |item|
+    csv << item
+  end
+end

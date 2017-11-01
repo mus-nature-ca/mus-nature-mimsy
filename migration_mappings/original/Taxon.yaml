@@ -11,9 +11,9 @@
   :instructions: 'Not mapped'
 :collection:
   :MIMSY: TAXONOMY.TAXON_NAME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'ClaApplicableCode'
+  :instructions: 'If taxon.collection = "Zoology", make this = "ICZN"; if taxon.collection = "Botany", make this = "ICNAFP"'
 :reference_number:
   :MIMSY: TAXONOMY.REFERENCE_NUMBER
   :module: ''
@@ -21,9 +21,9 @@
   :instructions: ''
 :scientific_name:
   :MIMSY: TAXONOMY.SCIENTIFIC_NAME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'ClaScientificName'
+  :instructions: 'Make etaxonomy::ClaScientificNameAuto = No'
 :parent_path:
   :MIMSY: TAXONOMY.MALE_SINGLE_PARENT
   :module: ''
@@ -31,9 +31,9 @@
   :instructions: ''
 :parent_id:
   :MIMSY: TAXONOMY.BROADER_KEY1
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'RanParent'
+  :instructions: 'Populate link to Parent by using this self-referential, foreign key to Taxon.id'
 :second_parent_path:
   :MIMSY: TAXONOMY.FEMALE_MULTI_PARENT
   :module: ''

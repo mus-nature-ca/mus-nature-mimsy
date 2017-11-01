@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/inverts-import-objects-utf16.txt"
+file = "/Users/dshorthouse/Desktop/Lesage-Sept 22-2017.txt"
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
@@ -14,14 +14,14 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
 
   #Get the linked place
   place_collected = row["CATALOGUE.PLACE_COLLECTED"].strip rescue nil
+  place_key = row["PLACES.PLACEKEY"].strip rescue nil
 
   #create new catalog record
   obj = Catalog.new
   obj.catalog_number = row["CATALOGUE.ID_NUMBER"].strip
   obj.collection = row["CATALOGUE.CATEGORY1"].strip
   obj.scientific_name = row["CATALOGUE.ITEM_NAME"].strip
-  obj.scientific_name[0] = obj.scientific_name[0].capitalize
-  obj.whole_part = row["CATALOGUE.WHOLE_PART"].strip rescue nil
+  obj.whole_part = row["CATALOGUE.WHOLE_PART"].strip rescue "whole"
   obj.materials = row["CATALOGUE.MATERIALS"].strip rescue nil
   obj.item_count = row["CATALOGUE.ITEM_COUNT"].strip.to_i rescue nil
   obj.sex = row["CATALOGUE.SEX"].strip rescue nil
@@ -33,25 +33,29 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   obj.place_collected = place_collected
   obj.home_location = row["CATALOGUE.HOME_LOCATION"].strip rescue nil
   obj.credit_line = row["CATALOGUE.CREDIT_LINE"].strip rescue nil
+  obj.stage = row["CATALOGUE.STAGE"].strip rescue nil
   obj.gbif = true
+  obj.publish = true
   obj.save
 
   #Find object again - damn Oracle!
   obj = Catalog.find_by_catalog_number(obj.catalog_number)
 
   #create link to Taxonomy
-  taxon = row["ITEMS_TAXONOMY.TAXONOMY"].strip
-  tax = Taxon.find_by_scientific_name(taxon)
-  #Find a variant if verbatim not found
-  if tax.nil?
-    tax = TaxonVariation.find_by_scientific_name(taxon).taxon rescue nil
-  end
-  if !tax.nil?
-    obj_tax = CatalogTaxon.new
-    obj_tax.taxon_id = tax.id
-    obj_tax.catalog_id = obj.id
-    obj_tax.attributor = row["ITEMS_TAXONOMY.ATTRIBUTOR"].strip rescue nil
-    obj_tax.save
+  taxon = row["ITEMS_TAXONOMY.TAXONOMY"].strip rescue nil
+    if !taxon.nil?
+    tax = Taxon.find_by_scientific_name(taxon)
+    #Find a variant if verbatim not found
+    if tax.nil?
+      tax = TaxonVariation.find_by_scientific_name(taxon).taxon rescue nil
+    end
+    if !tax.nil?
+      obj_tax = CatalogTaxon.new
+      obj_tax.taxon_id = tax.id
+      obj_tax.catalog_id = obj.id
+      obj_tax.attributor = row["ITEMS_TAXONOMY.ATTRIBUTOR"].strip rescue nil
+      obj_tax.save
+    end
   end
 
   #create link to Catalog Name
@@ -61,12 +65,18 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   cn.save
 
   #create link to Person (collector)
-  pers = Person.find_by_preferred_name(obj.collector)
-  cat_coll = CatalogCollector.new
-  cat_coll.catalog_id = obj.id
-  cat_coll.person_id = pers.id
-  cat_coll.relationship = "collector"
-  cat_coll.save
+  if !obj.collector.nil?
+    obj.collector.split("; ").each do |collector|
+      pers = Person.find_by_preferred_name(collector)
+      if !pers.nil?
+        cat_coll = CatalogCollector.new
+        cat_coll.catalog_id = obj.id
+        cat_coll.person_id = pers.id
+        cat_coll.relationship = "collector"
+        cat_coll.save
+      end
+    end
+  end
 
   #create link to collected date
   cd = CollectedDate.new
@@ -88,13 +98,16 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
     end
   end
 
-  #other number
-  if row["OTHER_NUMBERS.OTHER_NUMBER"]
-    other_number = CatalogOtherNumber.new
-    other_number.catalog_id = obj.id
-    other_number.other_number = row["OTHER_NUMBERS.OTHER_NUMBER"].strip rescue nil
-    other_number.on_type = row["OTHER_NUMBERS.ON_TYPE"].strip.downcase rescue nil
-    other_number.save
+  #other numbers
+  (1..5).each do |num|
+    number = row["OTHER_NUMBERS.OTHER_NUMBER_#{num}"].strip rescue nil
+    if !number.nil?
+      other_number = CatalogOtherNumber.new
+      other_number.catalog_id = obj.id
+      other_number.other_number = number
+      other_number.on_type = row["OTHER_NUMBERS.ON_TYPE_#{num}"].strip.downcase rescue nil
+      other_number.save
+    end
   end
 
   #link to site
@@ -104,7 +117,12 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   catsite.save
 
   #link to place collected
-  if !place_collected.nil?
+  if !place_key.nil?
+    collplace = CatalogCollectionPlace.new
+    collplace.catalog_id = obj.id
+    collplace.place_id = place_key
+    collplace.save
+  elsif !place_collected.nil?
     split_place = place_collected.split(": ")
     place = Place.where("broader_text LIKE '%#{split_place[0]}'").where(place1: split_place[1])
     if place.count == 1

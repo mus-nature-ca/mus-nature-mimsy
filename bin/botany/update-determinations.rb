@@ -3,12 +3,12 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Taxonomic Updates - Floristics 2017_ToBeAdded.csv"
-output_file = "/Users/dshorthouse/Desktop/Taxonomic Updates - Floristics 2017_ToBeAdded-log.csv"
-
+file = "/Users/dshorthouse/Desktop/UpdateDets.txt"
+output_file = "/Users/dshorthouse/Desktop/UpdateDets-log.csv"
+  
 CSV.open(output_file, 'w') do |csv|
   csv << ["ID Number", "Original Det", "Original SpecKey", "Determiner", "New Det", "New SpecKey", "Summary"]
-  CSV.foreach(file, :headers => true) do |row|
+  CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
     catalog_id = row["ID Number"]
     original_det = row["Original Det"]
     original_speckey = row["Original SpecKey"].to_i
