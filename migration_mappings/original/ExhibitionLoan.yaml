@@ -13,7 +13,7 @@
   :MIMSY: EXHIBITIONS_LOANS.EXHIBITION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :loan_id:
   :MIMSY: EXHIBITIONS_LOANS.LKEY
   :module: ''
@@ -23,7 +23,7 @@
   :MIMSY: EXHIBITIONS_LOANS.LOAN
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :exhibition_catalog_id:
   :MIMSY: EXHIBITIONS_LOANS.EIKEY
   :module: ''

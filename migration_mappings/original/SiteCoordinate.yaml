@@ -13,39 +13,39 @@
   :MIMSY: SITE_COORDINATES.COORD_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :degrees:
   :MIMSY: SITE_COORDINATES.PART1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :minutes:
   :MIMSY: SITE_COORDINATES.PART2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :seconds:
   :MIMSY: SITE_COORDINATES.PART3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :direction:
   :MIMSY: SITE_COORDINATES.DIRECTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :decimal_degrees:
   :MIMSY: SITE_COORDINATES.DECIMAL_COORDINATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :decimal_is_primary:
   :MIMSY: SITE_COORDINATES.DECIMAL_IS_PRIMARY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: SITE_COORDINATES.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

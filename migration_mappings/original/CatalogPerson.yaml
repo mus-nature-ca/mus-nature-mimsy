@@ -16,31 +16,31 @@
   :instructions: 'Not mapped. Foreign key to Person.id'
 :relationship:
   :MIMSY: ITEMS_PEOPLE.RELATIONSHIP
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'AssPartyRole_tab'
   :instructions: ''
 :begin_date:
   :MIMSY: ITEMS_PEOPLE.BEGIN_DATE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'AssPartyStartDate0'
   :instructions: ''
 :end_date:
   :MIMSY: ITEMS_PEOPLE.END_DATE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'AssPartyEndDate0'
   :instructions: ''
 :note:
   :MIMSY: ITEMS_PEOPLE.NOTE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'AssPartyRemarks_tab'
   :instructions: ''
 :prior_attribution:
   :MIMSY: ITEMS_PEOPLE.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :name:
   :MIMSY: ITEMS_PEOPLE.NAME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'AssOtherParty_tab'
+  :instructions: 'Attach Party record through association with Catalog.id = CatalogPerson.catalog_id AND Person.id = CatalogPerson.person.id'

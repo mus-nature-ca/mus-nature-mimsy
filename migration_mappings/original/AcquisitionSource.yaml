@@ -18,39 +18,39 @@
   :MIMSY: ACQUISITION_SOURCES.NVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :source:
   :MIMSY: ACQUISITION_SOURCES.SOURCE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eaccessionlots'
+  :column: 'AcqSource_tab'
+  :instructions: 'Attach Party record by following Person.id = AcquisitionSource.person_id association'
 :source_role:
   :MIMSY: ACQUISITION_SOURCES.SOURCE_ROLE
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'AcqSourceRole_tab'
   :instructions: ''
 :contact:
   :MIMSY: ACQUISITION_SOURCES.CONTACT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :address:
   :MIMSY: ACQUISITION_SOURCES.ADDRESS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :amount_paid:
   :MIMSY: ACQUISITION_SOURCES.AMOUNT_PAID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: ACQUISITION_SOURCES.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :unlinked_value:
   :MIMSY: ACQUISITION_SOURCES.UNLINKED_VALUE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

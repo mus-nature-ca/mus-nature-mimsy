@@ -16,41 +16,41 @@
   :instructions: 'Not mapped. Foreign key to Publication.id'
 :relationship:
   :MIMSY: ITEMS_PUBLICATIONS.RELATIONSHIP
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'RefKind_tab'
   :instructions: ''
 :plate_figure:
   :MIMSY: ITEMS_PUBLICATIONS.POSITION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'RefPageFigurePlate_tab'
+  :instructions: 'Append to field, prefix with "Plate/Figure:"'
 :note:
   :MIMSY: ITEMS_PUBLICATIONS.NOTE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'RefBibliographyNotes0'
   :instructions: ''
 :prior_attribution:
   :MIMSY: ITEMS_PUBLICATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :illustated:
   :MIMSY: ITEMS_PUBLICATIONS.ILLUSTRATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :pages:
   :MIMSY: ITEMS_PUBLICATIONS.PAGES
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'RefPageFigurePlate_tab'
+  :instructions: 'Append to field, prefix with "Pages:"'
 :publication:
   :MIMSY: ITEMS_PUBLICATIONS.PUBLICATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'BibBibliography_tab'
+  :instructions: 'Attach bibliographic record through Catalog.id = CatalogPublication.catalog_id and Publication.id = CatalogPublication.publication_id 1:many associations'
 :publication_date:
   :MIMSY: ITEMS_PUBLICATIONS.PUBLICATION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

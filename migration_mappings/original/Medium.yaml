@@ -6,9 +6,9 @@
   :instructions: 'Not mapped'
 :language:
   :MIMSY: MEDIA.LANGUAGE
-  :module: ''
-  :column: ''
-  :instructions: 'Not mapped'
+  :module: 'emultimedia'
+  :column: 'DetLanguage_tab'
+  :instructions: 'en = English; fr = Français'
 :media_id:
   :MIMSY: MEDIA.MEDIA_ID
   :module: 'emultimedia'
@@ -26,18 +26,18 @@
   :instructions: ''
 :repro_allowed:
   :MIMSY: MEDIA.REPRO_ALLOWED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'DetRights'
+  :instructions: 'If value is false, append: "Reproduction not permitted". There are other fields with this destination.'
 :branded:
   :MIMSY: MEDIA.BRANDED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media:
   :MIMSY: MEDIA.MEDIA
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'DetCoverage'
   :instructions: ''
 :format:
   :MIMSY: MEDIA.FORMAT
@@ -48,7 +48,7 @@
   :MIMSY: MEDIA.THUMBNAIL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publish:
   :MIMSY: MEDIA.PUBLISH
   :module: 'emultimedia'
@@ -58,97 +58,97 @@
   :MIMSY: MEDIA.PRIMARY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :parent_id:
   :MIMSY: MEDIA.BROADER_KEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :larger_file:
   :MIMSY: MEDIA.LARGER_FILE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :stereo:
   :MIMSY: MEDIA.STEREO
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :color:
   :MIMSY: MEDIA.COLOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'ChaImageColorDepth'
+  :instructions: 'Populate along with Medium.bitdepth_image color count only if this field cannot be computed from image file upon import.'
 :bitdepth_image:
   :MIMSY: MEDIA.BITDEPTH_IMAGE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'ChaImageColorDepth'
+  :instructions: 'Populate along with Medium.color only if this field cannot be computed from image file upon import.'
 :media_type:
   :MIMSY: MEDIA.MEDIA_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'NotNotes'
+  :instructions: 'Append to field when present and prefix with "Media Type:"'
 :physical_location:
   :MIMSY: MEDIA.PHYSICAL_LOCATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'NotNotes'
+  :instructions: 'Append to field when present and prefix with "Physical Location:"'
 :location_date:
   :MIMSY: MEDIA.LOCATION_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'NotNotes'
+  :instructions: 'Append to field when present and prefix with "Location Date: "'
 :location_status:
   :MIMSY: MEDIA.LOCATION_STATUS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'NotNotes'
+  :instructions: 'Append to field when present and prefix with "Location Status: "'
 :caption:
   :MIMSY: MEDIA.CAPTION
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'MulDescription'
   :instructions: ''
 :credit_line:
   :MIMSY: MEDIA.CREDIT_LINE
   :module: 'emultimedia'
   :column: 'DetRights'
-  :instructions: ''
+  :instructions: 'Append to field, prefix with "Credit Line: " when present. Also append mapping entries for Right fields when present.'
 :resolution:
   :MIMSY: MEDIA.RESOLUTION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'ChaImageResolution'
+  :instructions: 'Populate only if this field cannot be computed from image file upon import.'
 :horizontal_size:
   :MIMSY: MEDIA.H_SIZE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'ChaImageWidth'
+  :instructions: 'Populate only if this field cannot be computed from image file upon import.'
 :vertical_size:
   :MIMSY: MEDIA.V_SIZE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'ChaImageHeight'
+  :instructions: 'Populate only if this field cannot be computed from image file upon import.'
 :orientation:
   :MIMSY: MEDIA.ORIENTATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'NotNotes'
+  :instructions: 'Append to field when present and prefix with "Orientation: "'
 :media_count:
   :MIMSY: MEDIA.MEDIA_COUNT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :item_count:
   :MIMSY: MEDIA.ITEM_COUNT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :file_size:
   :MIMSY: MEDIA.FILE_SIZE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'ChaFileSize'
+  :instructions: 'Populate only if this field cannot be computed from image file upon import.'
 :date_captured:
   :MIMSY: MEDIA.DATE_CAPTURED
   :module: 'emultimedia'
@@ -156,24 +156,24 @@
   :instructions: ''
 :capture_method:
   :MIMSY: MEDIA.CAPTURE_METHOD
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'NotNotes'
+  :instructions: 'Append to field when present and prefix with "Capture Method: "'
 :capture_device:
   :MIMSY: MEDIA.CAPTURE_DEVICE
   :module: 'emultimedia'
-  :column: 'DetSource'
-  :instructions: ''
+  :column: 'NotNotes'
+  :instructions: 'Append to field when present and prefix with "Capture Device: "'
 :captured_by:
   :MIMSY: MEDIA.CAPTURED_BY
   :module: 'emultimedia'
   :column: 'MulCreator_tab'
-  :instructions: ''
+  :instructions: 'Attach/create Party record as required; may additionally use the Medium.id = MediumPerson.medium_id and Person.id = MediumPerson.person_id to walk the associations to the Party record so as not to create seemingly duplicate Party records'
 :storage_media:
   :MIMSY: MEDIA.STORAGE_MEDIA
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'NotNotes'
+  :instructions: 'Append to field when present and prefix with "Storage Media: "'
 :note:
   :MIMSY: MEDIA.NOTE
   :module: 'emultimedia'
@@ -183,34 +183,34 @@
   :MIMSY: MEDIA.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: MEDIA.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: MEDIA.CREATED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'AdtUser_tab'
+  :instructions: 'Populate single record in audit trail with Operation (AdtOperation_tab) = "Created record"'
 :create_date:
   :MIMSY: MEDIA.CREATE_DATE
-  :module: ''
-  :column: ''
+  :module: 'emultimedia'
+  :column: 'AdtDate_tab'
   :instructions: ''
 :updated_by:
   :MIMSY: MEDIA.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: MEDIA.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :locator_linux:
   :MIMSY: ''
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Linux-based file path. Not mapped.'

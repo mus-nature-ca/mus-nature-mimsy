@@ -18,19 +18,19 @@
   :MIMSY: SITES_PUBLICATIONS.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: SITES_PUBLICATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :illustration:
   :MIMSY: SITES_PUBLICATIONS.ILLUSTRATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publication:
   :MIMSY: SITES_PUBLICATIONS.PUBLICATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'SitBibliographic_tab'
+  :instructions: 'Attach bibliographic record through Publication.id = SitePublication.publication_id and Site.id = SitePublication.site_id 1:many assocations'

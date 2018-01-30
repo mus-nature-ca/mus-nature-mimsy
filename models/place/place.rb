@@ -64,8 +64,8 @@ class Place < ActiveRecord::Base
     parent.children
   end
 
-  def self_and_ancestors
-    [self] + self.ancestors
+  def ancestors_and_self
+    self.ancestors + [self]
   end
 
   def root
@@ -80,6 +80,16 @@ class Place < ActiveRecord::Base
 
   def leaf?
     children.size.zero?
+  end
+
+  def location_hierarchy
+    place_hierarchy = (ancestors_and_self - [Place.find(29202)]) #remove Earth
+    list = place_hierarchy.map(&:name)
+    if place_hierarchy.first.hierarchy_level == 1 #Check if first term is a continent
+      list.shift + ": " + list.join(", ")
+    else
+      list.join(", ")
+    end
   end
 
 end

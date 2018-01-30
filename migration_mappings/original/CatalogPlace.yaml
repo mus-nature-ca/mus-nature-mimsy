@@ -18,14 +18,14 @@
   :MIMSY: ITEMS_PLACES.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: ITEMS_PLACES.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :place:
   :MIMSY: ITEMS_PLACES.PLACE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'If there is no corresponding CatalogCollectionPlace record for the linked Catalog record, then use this as the Place record. Not that there are very few CatalogPlace records and in all likelihood, there is already a CatalogCollectionPlace record.'

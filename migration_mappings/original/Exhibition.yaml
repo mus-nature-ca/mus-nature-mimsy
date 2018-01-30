@@ -3,124 +3,124 @@
   :MIMSY: EXHIBITIONS.PEXH_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :id:
   :MIMSY: EXHIBITIONS.EKEY
-  :module: ''
-  :column: ''
-  :instructions: 'Not mapped'
+  :module: 'eevents'
+  :column: 'EveEventNumber'
+  :instructions: 'Prefix with "Exhibition:"'
 :language:
   :MIMSY: EXHIBITIONS.LANGUAGE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :full_name:
   :MIMSY: EXHIBITIONS.FULL_NAME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'EveEventTitle'
+  :instructions: 'Also populate eevents::EveTypeOfEvent = "Exhibition"'
 :brief_name:
   :MIMSY: EXHIBITIONS.BRIEF_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :exhibit_start:
   :MIMSY: EXHIBITIONS.EXHIBIT_START
-  :module: ''
-  :column: ''
+  :module: 'eevents'
+  :column: 'DatCommencementDate'
   :instructions: ''
 :exhibit_end:
   :MIMSY: EXHIBITIONS.EXHIBIT_END
-  :module: ''
-  :column: ''
+  :module: 'eevents'
+  :column: 'DatCompletionDate'
   :instructions: ''
 :description:
   :MIMSY: EXHIBITIONS.DESCRIPTION
-  :module: ''
-  :column: ''
+  :module: 'eevents'
+  :column: 'EveEventDescription'
   :instructions: ''
 :status:
   :MIMSY: EXHIBITIONS.STATUS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Status: "'
 :status_date:
   :MIMSY: EXHIBITIONS.STATUS_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Status Date: "'
 :authorized_by:
   :MIMSY: EXHIBITIONS.AUTHORIZED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'DatPreparationRequirements'
+  :instructions: 'Append to field, prefix with "Authorized By: "'
 :date_authorized:
   :MIMSY: EXHIBITIONS.DATE_AUTHORIZED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'DatPreparationRequirements'
+  :instructions: 'Append to field, prefix with "Authorization Date: "'
 :initiated_by:
   :MIMSY: EXHIBITIONS.INITIATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_initiated:
   :MIMSY: EXHIBITIONS.DATE_INITIATED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :venues:
   :MIMSY: EXHIBITIONS.VENUES
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'VenVenueName'
+  :instructions: 'Attach AND/OR create Party record with eparties::NamPartyType = "Organization"'
 :total_venues:
   :MIMSY: EXHIBITIONS.TOTAL_VENUES
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :total_cost:
   :MIMSY: EXHIBITIONS.TOTAL_COST
-  :module: ''
-  :column: ''
+  :module: 'eevents'
+  :column: 'FinTotalCost'
   :instructions: ''
 :reference_number:
   :MIMSY: EXHIBITIONS.REFERENCE_NUMBER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Reference Number: "'
 :publish:
   :MIMSY: EXHIBITIONS.PUBLISH
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: EXHIBITIONS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: EXHIBITIONS.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: EXHIBITIONS.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: EXHIBITIONS.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: EXHIBITIONS.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: EXHIBITIONS.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

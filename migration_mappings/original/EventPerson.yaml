@@ -18,29 +18,29 @@
   :MIMSY: EVENTS_PEOPLE.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. But see EventPerson.name'
 :begin_date:
   :MIMSY: EVENTS_PEOPLE.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: EVENTS_PEOPLE.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: EVENTS_PEOPLE.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: EVENTS_PEOPLE.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :name:
   :MIMSY: EVENTS_PEOPLE.NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'When Event.relationship = "co-sponsor" || "sponsor", create/link Party record for eevents::EveAssocFundEvent by following the Event.id = EventPerson.event_id association.'

@@ -13,12 +13,12 @@
   :MIMSY: CONDITION_CONSERVATION.CONDKEY
   :module: ''
   :column: ''
-  :instructions: 'ot mapped. Foreign key to Condition.id'
+  :instructions: 'Not mapped. Foreign key to Condition.id'
 :condition:
   :MIMSY: CONDITION_CONSERVATION.CONDITION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :conservation_id:
   :MIMSY: CONDITION_CONSERVATION.CONSKEY
   :module: ''
@@ -28,4 +28,4 @@
   :MIMSY: CONDITION_CONSERVATION.CONSERVATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

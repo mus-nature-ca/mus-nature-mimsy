@@ -6,24 +6,24 @@
   :instructions: 'Not mapped. Foreign key to Site.id'
 :surveyor:
   :MIMSY: SITE_SURVEYS.SURVEYOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Append single line on corresponding site record through Site.id = SiteSurvey.site_id association as follows: "Surveyor:" SiteSurvey.surveyor; Survey Date: SiteSurvey.begin_date - SiteSurvey.end_date; Survey Note: SiteSurvey.note'
 :begin_date:
   :MIMSY: SITE_SURVEYS.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteSurvey.surveyor for instructions'
 :end_date:
   :MIMSY: SITE_SURVEYS.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteSurvey.surveyor for instructions'
 :note:
   :MIMSY: SITE_SURVEYS.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteSurvey.surveyor for instructions'
 :id:
   :MIMSY: SITE_SURVEYSAKEY
   :module: ''

@@ -13,7 +13,7 @@
   :MIMSY: CONSERVATION_MEDIA.MEDIA
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: CONSERVATION_MEDIA.M_ID
   :module: ''
@@ -23,7 +23,7 @@
   :MIMSY: CONSERVATION_MEDIA.OBJECT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :conservation_id:
   :MIMSY: CONSERVATION_MEDIA.CONSKEY
   :module: ''
@@ -33,29 +33,29 @@
   :MIMSY: CONSERVATION_MEDIA.CONSERVATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :relationship:
   :MIMSY: CONSERVATION_MEDIA.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :begin_date:
   :MIMSY: CONSERVATION_MEDIA.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: CONSERVATION_MEDIA.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sort:
   :MIMSY: CONSERVATION_MEDIA.STEP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: CONSERVATION_MEDIA.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

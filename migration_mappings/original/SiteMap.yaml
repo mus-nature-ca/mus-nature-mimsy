@@ -6,29 +6,29 @@
   :instructions: 'Not mapped. Foreign key to Site.id'
 :map:
   :MIMSY: SITE_MAPS.MAP
-  :module: ''
-  :column: ''
+  :module: 'esites'
+  :column: 'MapName'
   :instructions: ''
 :map_type:
   :MIMSY: SITE_MAPS.MAP_TYPE
-  :module: ''
-  :column: ''
+  :module: 'esites'
+  :column: 'MapType'
   :instructions: ''
 :map_date:
   :MIMSY: SITE_MAPS.MAP_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :source:
   :MIMSY: SITE_MAPS.SOURCE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'MapNumber'
+  :instructions: 'Append to field, prefix with "Source: "'
 :note:
   :MIMSY: SITE_MAPS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'MapNumber'
+  :instructions: 'Append to field, prefix with "Note: "'
 :id:
   :MIMSY: SITE_MAPSAKEY
   :module: ''

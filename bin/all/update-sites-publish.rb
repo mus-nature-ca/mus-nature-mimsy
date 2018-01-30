@@ -1,0 +1,93 @@
+#!/usr/bin/env ruby
+# encoding: utf-8
+require_relative '../../environment.rb'
+include Sinatra::Mimsy::Helpers
+
+site_ids = [
+"FWG 1970-05-12 Carling",
+"FWG 1970-06-08 2017",
+"FWG 1970-10-18 2095",
+"FWG&MM 1970-06-04 1991",
+"FWS 1976-07-04 FWS08238",
+"FWS 1990-05-10 B0542",
+"FWS 1994-10-06 94/195",
+"FWS 1995-08-28 95/099/d",
+"FWS 1995-08-28 95/101/ea",
+"FWS 1995-08-28 95/101/eb",
+"FWS 1995-08-28 95/102/b",
+"FWS 1995-08-28 95/102/c",
+"FWS 1995-10-13 95/139/ce",
+"FWS 1995-10-13 95/139/cfb",
+"FWS 1995-10-13 95/139/cg",
+"FWS 1995-10-13 95/142",
+"FWS 1996-08-03 96/171",
+"FWS 1997-05-02 97/074/ga",
+"FWS 1997-05-02 97/074/gb",
+"FWS 1998-07-30 98/186/b",
+"FWS 1998-07-30 98/187/a",
+"FWS 1999-06-23 99/121/ak",
+"FWS 2000-08-19 2000/187/b",
+"FWS 2007-10-18 2007/200/ga",
+"FWS 2007-10-18 2007/200/h",
+"FWS 2007-10-18 2007/200/i",
+"FWS 2009-08-13 2009/198/ig",
+"FWS 2009-08-13 2009/198/ih",
+"FWS 2009-08-13 2009/198/md",
+"FWS 2009-08-13 2009/198/me",
+"FWS 2009-09-04 2000/200",
+"FWS&AKS 1976-08-09 6933",
+"FWS&AKS 1996-07-20 96/155/aa",
+"FWS&AKS 1996-07-20 96/155/ab",
+"FWS&AKS 1996-07-20 96/155/b",
+"FWS&AKS 1996-07-20 96/155/ca",
+"FWS&AKS 1996-07-20 96/155/cb",
+"FWS&AKS 1996-07-20 96/155/da",
+"FWS&AKS&JP&RH 2006-07-20 2006/158/b",
+"FWS&ES 2001-08-24 2001/162/ae",
+"FWS&ES 2001-08-24 2001/162/af",
+"FWS&ES 2001-08-24 2001/162/ag",
+"FWS&ES 2001-08-24 2001/162/e",
+"FWS&ES 2001-08-24 2001/162/eb",
+"FWS&JHS 1995-10-03 95/130/ba",
+"FWS&JHS 1995-10-03 95/130/bb",
+"FWS&JHS 1995-10-03 95/130/bc",
+"FWS&JHS 1996-09-01 96/194/e",
+"FWS&JHS 1996-09-01 96/194/f",
+"FWS&JHS 1996-09-01 96/194/faa",
+"FWS&JHS 1996-09-01 96/194/fab",
+"FWS&JHS&BP 1997-07-14 97/143/a",
+"FWS&JHS&BP 1997-07-14 97/143/b",
+"FWS&JHS&BP 1997-07-15 97/145/ab",
+"FWS&JHS&BP 1997-07-15 97/145/db",
+"FWS&JHS&BP 1997-07-15 97/145/ec",
+"FWS&JHS&MS&DS 2003-07-28 2003/143/ja",
+"FWS&JHS&MS&DS 2003-07-28 2003/143/jb",
+"FWS&JHS&MS&DS 2003-07-28 2003/144/ab",
+"FWS&JHS&MS&DS 2003-07-28 2003/144/bd",
+"FWS&JHS&MS&DS 2003-07-28 2003/144/bf",
+"FWS&JHS&MS&DS 2003-07-28 2003/144/db",
+"FWS&MGK 2007-10-16 2007/195/a",
+"FWS&MGK 2007-10-16 2007/195/ba",
+"FWS&MGK 2007-10-16 2007/195/bb",
+"GRP 1964-06-01 11",
+"GRP 1964-07-10 42",
+"Hughes 1977-08-03 23-2",
+"Hughes 1977-08-03 23-3",
+"JGO 1944-07-06 O-1325",
+"JPK 1964-05-25 5",
+"JPK 1964-05-27 26",
+"JPK 1964-07-07 57",
+"JVE 1979-05-14 12"
+]
+
+site_ids.each do |id|
+  site = Site.find_by_site_id(id)
+  cs = CatalogSite.where(site_id: site.id)
+  collections = Catalog.where(id: cs.map(&:catalog_id)).pluck(:collection).uniq
+  if collections.count == 1
+    site.publish = true
+    site.save
+  else
+    puts id
+  end
+end

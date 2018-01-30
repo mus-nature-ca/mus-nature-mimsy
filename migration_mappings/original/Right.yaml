@@ -3,99 +3,99 @@
   :MIMSY: RIGHTS.RIGHTSKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Primary key.'
 :table_key:
   :MIMSY: RIGHTS.TABLE_KEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Media.id'
 :table_name:
   :MIMSY: RIGHTS.TABLE_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'All records in this table relate to the table_name = "MEDIA". As a result, table_key is the foreign key to Media.id.'
 :rights_type:
   :MIMSY: RIGHTS.RIGHTS_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'DetRights'
+  :instructions: 'Append to field, prefix with "Rights Type: " when present'
 :begin_date:
   :MIMSY: RIGHTS.BEGIN_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'DetRights'
+  :instructions: 'Append to field, prefix with "Begin Date: " when present'
 :right:
   :MIMSY: RIGHTS.RIGHTS_TEXT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'DetRights'
+  :instructions: 'Append to field, prefix with "Begin Date: " when present'
 :person_id:
   :MIMSY: RIGHTS.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :holder:
   :MIMSY: RIGHTS.RIGHTS_HOLDER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'DetRights'
+  :instructions: 'Append to field, prefix with "Rights Holder: " when present'
 :granting_status:
   :MIMSY: RIGHTS.GRANTING_STATUS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'DetRights'
+  :instructions: 'Append to field, prefix with "Granting Status: " when present'
 :flag1:
   :MIMSY: RIGHTS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: RIGHTS.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag3:
   :MIMSY: RIGHTS.FLAG3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag4:
   :MIMSY: RIGHTS.FLAG4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag5:
   :MIMSY: RIGHTS.FLAG5
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag6:
   :MIMSY: RIGHTS.FLAG6
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag7:
   :MIMSY: RIGHTS.FLAG7
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag8:
   :MIMSY: RIGHTS.FLAG8
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag9:
   :MIMSY: RIGHTS.FLAG9
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag10:
   :MIMSY: RIGHTS.FLAG10
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :regarding:
   :MIMSY: RIGHTS.CARRYOVER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -18,54 +18,54 @@
   :MIMSY: ITEMS_SITES.SPECIFIC_LOCALE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Data come from the Site record itself through the CatalogSite.site_id  = Site.id association. The should only be one Site record per Catalog record.'
 :habitat:
   :MIMSY: ITEMS_SITES.HABITAT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :relationship:
   :MIMSY: ITEMS_SITES.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :position:
   :MIMSY: ITEMS_SITES.POSITION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: ITEMS_SITES.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: ITEMS_SITES.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :site:
   :MIMSY: ITEMS_SITES.SITE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :start_latitude:
   :MIMSY: ITEMS_SITES.START_LATITUDE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :start_longitude:
   :MIMSY: ITEMS_SITES.START_LONGITUDE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_latitude:
   :MIMSY: ITEMS_SITES.END_LATITUDE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_longitude:
   :MIMSY: ITEMS_SITES.END_LONGITUDE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

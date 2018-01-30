@@ -13,9 +13,9 @@
   :MIMSY: CULTURES.PRIOR_CULTURE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :culture:
   :MIMSY: CULTURES.CULTURE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'ProCulturalAffiliation_tab'
   :instructions: ''

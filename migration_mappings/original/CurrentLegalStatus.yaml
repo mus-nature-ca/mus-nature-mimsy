@@ -8,42 +8,42 @@
   :MIMSY: CURRENT_LEGAL_STATUS.LEGAL_STATUS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status_date:
   :MIMSY: CURRENT_LEGAL_STATUS.STATUS_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :owner:
   :MIMSY: CURRENT_LEGAL_STATUS.OWNER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :department:
   :MIMSY: CURRENT_LEGAL_STATUS.DEPARTMENT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :collection:
   :MIMSY: CURRENT_LEGAL_STATUS.COLLECTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :notes:
   :MIMSY: CURRENT_LEGAL_STATUS.NOTES
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :physical_holder:
   :MIMSY: CURRENT_LEGAL_STATUS.PHYSICAL_HOLDER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :current_record:
   :MIMSY: CURRENT_LEGAL_STATUS.CURRENT_RECORD
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :id:
   :MIMSY: CURRENT_LEGAL_STATUSAKEY
   :module: ''

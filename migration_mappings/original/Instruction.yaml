@@ -8,39 +8,39 @@
   :MIMSY: INSTRUCTIONS.TABLE_KEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Catalog.id (if table_name = "CATALOGUE") or LoanItem.id (if table_name = "LOAN_ITEMS")'
 :table_name:
   :MIMSY: INSTRUCTIONS.TABLE_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :type:
   :MIMSY: INSTRUCTIONS.INSTRUCTION_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'If table_name = "CATALOGUE", and instruction = "no loan", ecatalogue::ManLoanAllowed = "No"; If table_name = "CATALOGUE" and instruction = "short-term loan" || instruction = "loan requires Director''s approval" then append to ecatalogue::NotNotes as "Loan Restriction: "'
 :instruction_date:
   :MIMSY: INSTRUCTIONS.INSTRUCTION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :instruction:
   :MIMSY: INSTRUCTIONS.INSTRUCTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See Instruction.type for instructions'
 :note:
   :MIMSY: INSTRUCTIONS.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: INSTRUCTIONS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :regarding:
   :MIMSY: INSTRUCTIONS.CARRYOVER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

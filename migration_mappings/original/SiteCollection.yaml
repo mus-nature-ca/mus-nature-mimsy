@@ -6,29 +6,29 @@
   :instructions: 'Not mapped. Foreign key to Site.id'
 :count_number:
   :MIMSY: SITE_COLLECTIONS.COUNT_NUMBER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append single row containing concatenation of fields expressed as "Collection Type: " + SiteCollection.collection_type + "; Repository: " + SiteCollection.repository + "; Count Type: " + SiteCollection.count_type + "; Count Number: " + SiteCollection.count_number + "; Note: " + SiteCollection.note'
 :count_type:
   :MIMSY: SITE_COLLECTIONS.COUNT_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteCollection.count_number for instructions'
 :collection_type:
   :MIMSY: SITE_COLLECTIONS.COLLECTION_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteCollection.count_number for instructions'
 :repository:
   :MIMSY: SITE_COLLECTIONS.REPOSITORY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteCollection.count_number for instructions'
 :note:
   :MIMSY: SITE_COLLECTIONS.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteCollection.count_number for instructions'
 :id:
   :MIMSY: SITE_COLLECTIONSAKEY
   :module: ''

@@ -18,24 +18,24 @@
   :MIMSY: ITEMS_TERMS.TYPE_SPECIMEN
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :relationship:
   :MIMSY: ITEMS_TERMS.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: ITEMS_TERMS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :term:
   :MIMSY: ITEMS_TERMS.TERM
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :broader_text:
   :MIMSY: ITEMS_TERMS.BROADER_TEXT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

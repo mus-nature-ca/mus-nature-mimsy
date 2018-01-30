@@ -18,7 +18,7 @@
   :MIMSY: ACQUISITIONS.STATUS_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :requested_by:
   :MIMSY: ACQUISITIONS.REQUESTED_BY
   :module: 'eaccessionlots'
@@ -53,7 +53,7 @@
   :MIMSY: ACQUISITIONS.LEGAL_DATE_DISPLAY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :reason:
   :MIMSY: ACQUISITIONS.REASON
   :module: 'eaccessionlots'
@@ -61,9 +61,9 @@
   :instructions: ''
 :total_requested:
   :MIMSY: ACQUISITIONS.TOTAL_REQUESTED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eaccessionlots'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Total Requested: " when present'
 :total_approved:
   :MIMSY: ACQUISITIONS.TOTAL_APPROVED
   :module: 'eaccessionlots'
@@ -71,29 +71,29 @@
   :instructions: ''
 :decision_reason:
   :MIMSY: ACQUISITIONS.DECISION_REASON
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eaccessionlots'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Decision Reason: " when present'
 :total_offer_price:
   :MIMSY: ACQUISITIONS.TOTAL_OFFER_PRICE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eaccessionlots'
+  :column: 'NotNotes'
+  :instructions: 'Append to file, prefix with "Total Offer Price: " when present'
 :total_price:
   :MIMSY: ACQUISITIONS.TOTAL_PRICE
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'ValPurchasePrice_tab'
   :instructions: ''
 :currency:
   :MIMSY: ACQUISITIONS.CURRENCY
-  :module: ''
-  :column: ''
+  :module: 'eaccessionlots'
+  :column: 'ValPurchaseCurrency_tab'
   :instructions: ''
 :terms:
   :MIMSY: ACQUISITIONS.TERMS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eaccessionlots'
+  :column: 'AcqAcquisitionRemarks'
+  :instructions: 'Append to field, prefix with "Terms: "'
 :provisos:
   :MIMSY: ACQUISITIONS.PROVISOS
   :module: 'eaccessionlots'
@@ -101,9 +101,9 @@
   :instructions: ''
 :external_file:
   :MIMSY: ACQUISITIONS.EXTERNAL_FILE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eaccessionlots'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "External File: "'
 :note:
   :MIMSY: ACQUISITIONS.NOTE
   :module: 'eaccessionlots'
@@ -118,29 +118,29 @@
   :MIMSY: ACQUISITIONS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: ACQUISITIONS.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: ACQUISITIONS.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: ACQUISITIONS.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: ACQUISITIONS.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: ACQUISITIONS.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

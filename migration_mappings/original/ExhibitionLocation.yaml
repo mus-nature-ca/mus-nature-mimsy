@@ -13,7 +13,7 @@
   :MIMSY: EXHIBITIONS_LOCATION.LOCATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :exhibition_id:
   :MIMSY: EXHIBITIONS_LOCATION.EKEY
   :module: ''
@@ -23,7 +23,7 @@
   :MIMSY: EXHIBITIONS_LOCATION.EXHIBITION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :exhibition_catalog_id:
   :MIMSY: EXHIBITIONS_LOCATION.EIKEY
   :module: ''

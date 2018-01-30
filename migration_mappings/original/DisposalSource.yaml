@@ -23,34 +23,34 @@
   :MIMSY: DISPOSAL_SOURCES.SOURCE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :source_role:
   :MIMSY: DISPOSAL_SOURCES.SOURCE_ROLE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contact:
   :MIMSY: DISPOSAL_SOURCES.CONTACT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :address:
   :MIMSY: DISPOSAL_SOURCES.ADDRESS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :amount_paid:
   :MIMSY: DISPOSAL_SOURCES.AMOUNT_PAID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: DISPOSAL_SOURCES.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :unlinked_value:
   :MIMSY: DISPOSAL_SOURCES.UNLINKED_VALUE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

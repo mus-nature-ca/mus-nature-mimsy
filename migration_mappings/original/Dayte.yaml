@@ -13,39 +13,39 @@
   :MIMSY: ITEM_DATES.PRIOR_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_text:
   :MIMSY: ITEM_DATES.DATE_TEXT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :earliest_year:
   :MIMSY: ITEM_DATES.EARLIEST_YEAR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :latest_year:
   :MIMSY: ITEM_DATES.LATEST_YEAR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :earliest_monthday:
   :MIMSY: ITEM_DATES.EARLIEST_MONTHDAY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :latest_monthday:
   :MIMSY: ITEM_DATES.LATEST_MONTHDAY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: ITEM_DATES.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :bp:
   :MIMSY: ITEM_DATES.BP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -8,7 +8,7 @@
   :MIMSY: CATALOGUE.LANGUAGE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_number:
   :MIMSY: CATALOGUE.ID_NUMBER
   :module: 'ecatalogue'
@@ -26,84 +26,84 @@
   :instructions: ''
 :scientific_name:
   :MIMSY: CATALOGUE.ITEM_NAME
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'DetVerbatim_tab'
   :instructions: ''
 :specimen_name:
   :MIMSY: CATALOGUE.TITLE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'CatObjectTitle'
   :instructions: ''
 :maker:
   :MIMSY: CATALOGUE.MAKER
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'ProMaker_tab'
   :instructions: ''
 :collector:
   :MIMSY: CATALOGUE.COLLECTOR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See CatalogCollector'
 :place_collected:
   :MIMSY: CATALOGUE.PLACE_COLLECTED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See CatalogCollectionPlace.'
 :date_collected:
   :MIMSY: CATALOGUE.DATE_COLLECTED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'ColDateVisitedFromLocal & ColDateVisitedToLocal'
+  :instructions: 'Parse range of date_collected when present to populate both fields'
 :place_made:
   :MIMSY: CATALOGUE.PLACE_MADE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'ProManufactureLocationMint_tab'
   :instructions: ''
 :site:
   :MIMSY: CATALOGUE.SITE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See CatalogSite'
 :culture:
   :MIMSY: CATALOGUE.CULTURE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'ProCulturalAffiliation_tab'
   :instructions: ''
 :date_made:
   :MIMSY: CATALOGUE.DATE_MADE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Date Made: "'
 :specimen_nature:
   :MIMSY: CATALOGUE.MATERIALS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'CatSpecimenNature'
+  :instructions: 'If contains text "fluid" || "jar" || "tank" || "slide", see CatalogPhysicalDescriptor'
 :sex:
   :MIMSY: CATALOGUE.SEX
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'PreSex_tab'
   :instructions: ''
 :geologic_age:
   :MIMSY: CATALOGUE.AGE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Geologic Age: "'
 :stage:
   :MIMSY: CATALOGUE.STAGE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'PreStage_tab'
   :instructions: ''
 :measurements:
   :MIMSY: CATALOGUE.MEASUREMENTS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See CatalogMeasurement'
 :description:
   :MIMSY: CATALOGUE.DESCRIPTION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Description: "'
 :acquisition_number:
   :MIMSY: CATALOGUE.CREDIT_LINE
   :module: 'ecatalogue'
@@ -118,92 +118,92 @@
   :MIMSY: CATALOGUE.SYSTEM_COUNT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :parent_key:
   :MIMSY: CATALOGUE.PARENT_KEY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'ParParent_tab'
+  :instructions: 'Create attachment to parent through Catalog.id = Catalog.parent_key'
 :broader_text:
   :MIMSY: CATALOGUE.BROADER_TEXT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :whole_part:
   :MIMSY: CATALOGUE.WHOLE_PART
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :home_location:
   :MIMSY: CATALOGUE.HOME_LOCATION
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'CatHomeLocation'
   :instructions: ''
 :note:
   :MIMSY: CATALOGUE.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field.'
 :language_of_material:
   :MIMSY: CATALOGUE.LANGUAGE_OF_MATERIAL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option1:
   :MIMSY: CATALOGUE.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option2:
   :MIMSY: CATALOGUE.OPTION2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option3:
   :MIMSY: CATALOGUE.OPTION3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option4:
   :MIMSY: CATALOGUE.OPTION4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option5:
   :MIMSY: CATALOGUE.OPTION5
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option6:
   :MIMSY: CATALOGUE.OPTION6
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option7:
   :MIMSY: CATALOGUE.OPTION7
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: CATALOGUE.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: CATALOGUE.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag3:
   :MIMSY: CATALOGUE.FLAG3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :gbif:
   :MIMSY: CATALOGUE.FLAG4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publish:
   :MIMSY: CATALOGUE.PUBLISH
   :module: 'ecatalogue'
@@ -218,64 +218,69 @@
   :MIMSY: CATALOGUE.OFFSITE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. However, if Catalogue object is on active loan or event, make either ManOnExhibit or ManOnLoan = "Yes"'
 :create_date:
   :MIMSY: CATALOGUE.CREATE_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'AdtDate_tab'
+  :instructions: 'Populate single record in audit trail with Operation (AdtOperation_tab) = "Created record"'
 :created_by:
   :MIMSY: CATALOGUE.CREATED_BY
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'AdtUser_tab'
   :instructions: ''
 :update_date:
   :MIMSY: CATALOGUE.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: CATALOGUE.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :location:
   :MIMSY: CATALOGUE.LOCATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See Location mapping.'
 :location_date:
   :MIMSY: CATALOGUE.LOCATION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :location_levels:
   :MIMSY: CATALOGUE.LOCATION_LEVELS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped.'
 :condition:
   :MIMSY: CATALOGUE.CONDITION
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'ConConditionDetails'
   :instructions: ''
 :condition_date:
   :MIMSY: CATALOGUE.CONDITION_DATE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'ConDateChecked'
   :instructions: ''
 :valuation:
   :MIMSY: CATALOGUE.VALUATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See Valuation.'
 :valuation_date:
   :MIMSY: CATALOGUE.VALUATION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See Valuation'
 :legal_status:
   :MIMSY: CATALOGUE.LEGAL_STATUS
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'ManLegalStatus'
   :instructions: ''
+:uuid:
+  :MIMSY: CATALOGUE.UUID
+  :module: 'ecatalogue'
+  :column: 'AdmGUIDValue_tab'
+  :instructions: 'Set ecatalogue.AdmGUIDUIsPreferred_tab to "Yes" and ecatalogue.AdmGUIDType_tab = "UUID4"'

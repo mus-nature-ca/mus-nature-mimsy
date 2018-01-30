@@ -11,9 +11,9 @@
   :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: ACQUISITIONS_MEDIA.MEDIA
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eaccessionlots'
+  :column: 'MulMultiMediaRef_tab'
+  :instructions: 'Attach multimedia record(s) to Acquisition through 1:many Acquisition.id = AcquisitionMedium.acquisition_id and AcquisitioMedium.medium_id = Medium.id associations'
 :acquisition_id:
   :MIMSY: ACQUISITIONS_MEDIA.AKEY
   :module: ''
@@ -23,9 +23,9 @@
   :MIMSY: ACQUISITIONS_MEDIA.ACQUISITION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: ACQUISITIONS_MEDIA.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

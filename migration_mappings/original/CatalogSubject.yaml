@@ -18,114 +18,114 @@
   :MIMSY: ITEMS_SUBJECTS.STEP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :relationship:
   :MIMSY: ITEMS_SUBJECTS.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :affiliation:
   :MIMSY: ITEMS_SUBJECTS.AFFILIATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :begin_date:
   :MIMSY: ITEMS_SUBJECTS.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: ITEMS_SUBJECTS.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :portion:
   :MIMSY: ITEMS_SUBJECTS.PORTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :position:
   :MIMSY: ITEMS_SUBJECTS.POSITION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attribution_type:
   :MIMSY: ITEMS_SUBJECTS.ATTRIB_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attributor:
   :MIMSY: ITEMS_SUBJECTS.ATTRIBUTOR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attribution_date:
   :MIMSY: ITEMS_SUBJECTS.ATTRIB_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attribution_source:
   :MIMSY: ITEMS_SUBJECTS.ATTRIB_SOURCE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :certainty:
   :MIMSY: ITEMS_SUBJECTS.CERTAINTY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attribution_comment:
   :MIMSY: ITEMS_SUBJECTS.ATTRIB_COMMENT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: ITEMS_SUBJECTS.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option1:
   :MIMSY: ITEMS_SUBJECTS.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option2:
   :MIMSY: ITEMS_SUBJECTS.OPTION2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option3:
   :MIMSY: ITEMS_SUBJECTS.OPTION3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option4:
   :MIMSY: ITEMS_SUBJECTS.OPTION4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :unlinked_value:
   :MIMSY: ITEMS_SUBJECTS.UNLINKED_VALUE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: ITEMS_SUBJECTS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :importance:
   :MIMSY: ITEMS_SUBJECTS.IMPORTANCE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :subject_variation_id:
   :MIMSY: ITEMS_SUBJECTS.SVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :subject:
   :MIMSY: ITEMS_SUBJECTS.SUBJECT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -16,56 +16,56 @@
   :instructions: 'Not mapped. Foreign key to Person.id'
 :relationship:
   :MIMSY: ITEMS_COLLECTORS.RELATIONSHIP
-  :module: ''
-  :column: ''
+  :module: 'ecollectionevents'
+  :column: 'ColParticipantRole_tab'
   :instructions: ''
 :affiliation:
   :MIMSY: ITEMS_COLLECTORS.AFFILIATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with CatalogCollector.name " - " Affliation: '
 :position:
   :MIMSY: ITEMS_COLLECTORS.POSITION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with CatalogCollector.name " - " Position: '
 :attributor:
   :MIMSY: ITEMS_COLLECTORS.ATTRIBUTOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with CatalogCollector.name " - " Attributor: '
 :attribution_date:
   :MIMSY: ITEMS_COLLECTORS.ATTRIB_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with CatalogCollector.name " - " Attribution Date: '
 :attribution_comment:
   :MIMSY: ITEMS_COLLECTORS.ATTRIB_COMMENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with CatalogCollector.name " - " Attribution Comment: '
 :note:
   :MIMSY: ITEMS_COLLECTORS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with CatalogCollector.name " - " Note: '
 :option1:
   :MIMSY: ITEMS_COLLECTORS.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: ITEMS_COLLECTORS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :person_variation_id:
   :MIMSY: ITEMS_COLLECTORS.NVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to PersonVariation.id'
 :name:
   :MIMSY: ITEMS_COLLECTORS.NAME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'ColParticipant_tab'
+  :instructions: 'Populate Party attachment through association Catalog.id = CatalogCollector.catalog_id AND CatalogCollector.person_id = Person.id'

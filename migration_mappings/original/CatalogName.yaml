@@ -13,49 +13,49 @@
   :MIMSY: ITEM_NAMES.PRIOR_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'If true, ecatalogue::DetCurrentLabelName_tab = No; if false, ecatalogue::DetCurrentLabelName_tab = Yes'
 :type:
   :MIMSY: ITEM_NAMES.TNA_TYPE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'DetIdentityType_tab'
   :instructions: ''
 :scientific_name:
   :MIMSY: ITEM_NAMES.ITEM_NAME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DetVerbatim_tab'
+  :instructions: 'There is no functional link to Taxonomy from CatalogName.'
 :attribution_type:
   :MIMSY: ITEM_NAMES.ATTRIB_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DetNameNotes_tab'
+  :instructions: 'Append to field, prefix with "Attribution Type: " when present'
 :attributor:
   :MIMSY: ITEM_NAMES.ATTRIBUTOR
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'DetDeterminer_nesttab'
   :instructions: ''
 :attribution_date:
   :MIMSY: ITEM_NAMES.ATTRIB_DATE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'DetDate0'
   :instructions: ''
 :attribution_source:
   :MIMSY: ITEM_NAMES.ATTRIB_SOURCE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DetNameNotes_tab'
+  :instructions: 'Append to field, prefix with "Attribution Source: " whene present'
 :certainty:
   :MIMSY: ITEM_NAMES.CERTAINTY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DetNameNotes_tab'
+  :instructions: 'Append to field, prefix with "Certainty: " when present'
 :attribution_comment:
   :MIMSY: ITEM_NAMES.ATTRIB_COMMENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DetNameNotes_tab'
+  :instructions: 'Append to field, prefix with "Attribution Comment: " when present'
 :note:
   :MIMSY: ITEM_NAMES.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DetNameNotes_tab'
+  :instructions: 'Append to field when present'

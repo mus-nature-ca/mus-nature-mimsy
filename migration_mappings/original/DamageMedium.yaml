@@ -13,7 +13,7 @@
   :MIMSY: DAMAGE_MEDIA.MEDIA
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: DAMAGE_MEDIA.M_ID
   :module: ''
@@ -23,7 +23,7 @@
   :MIMSY: DAMAGE_MEDIA.OBJECT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :damage_id:
   :MIMSY: DAMAGE_MEDIA.DKEY
   :module: ''
@@ -33,29 +33,29 @@
   :MIMSY: DAMAGE_MEDIA.DAMAGE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :relationship:
   :MIMSY: DAMAGE_MEDIA.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :begin_date:
   :MIMSY: DAMAGE_MEDIA.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: DAMAGE_MEDIA.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sort:
   :MIMSY: DAMAGE_MEDIA.STEP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: DAMAGE_MEDIA.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -8,99 +8,99 @@
   :MIMSY: EVENTS.MEV_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :language:
   :MIMSY: EVENTS.LANGUAGE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :full_name:
   :MIMSY: EVENTS.FULL_NAME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'EveEventTitle'
+  :instructions: 'Also make eevents::EveInternalOrExternalEvent = "Unknown"'
 :brief_name:
   :MIMSY: EVENTS.BRIEF_NAME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Short Name: "'
 :category:
   :MIMSY: EVENTS.CATEGORY1
-  :module: ''
-  :column: ''
+  :module: 'eevents'
+  :column: 'EveTypeOfEvent'
   :instructions: ''
 :occurrence_type:
   :MIMSY: EVENTS.OCCURENCE_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'EveEventDescription'
+  :instructions: 'Append to field after Event.description, prefix with "Recurrence:" '
 :begin_date:
   :MIMSY: EVENTS.BEGIN_DATE
-  :module: ''
-  :column: ''
+  :module: 'eevents'
+  :column: 'DatCommencementDate'
   :instructions: ''
 :end_date:
   :MIMSY: EVENTS.END_DATE
-  :module: ''
-  :column: ''
+  :module: 'eevents'
+  :column: 'DatCompletionDate'
   :instructions: ''
 :duration:
   :MIMSY: EVENTS.DURATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'EveEventDescription'
+  :instructions: 'Append to field after Event.description, prefix with "Duration: " Event.duration + " " + Event.duration_unit'
 :duration_unit:
   :MIMSY: EVENTS.DURATION_UNIT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See Event.duration.'
 :current_status:
   :MIMSY: EVENTS.CURRENT_STATUS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description:
   :MIMSY: EVENTS.DESCRIPTION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'events'
+  :column: 'EveEventDescription'
+  :instructions: 'Append to field'
 :publish:
   :MIMSY: EVENTS.PUBLISH
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: EVENTS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: EVENTS.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sort_name:
   :MIMSY: EVENTS.SORT_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: EVENTS.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: EVENTS.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: EVENTS.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: EVENTS.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

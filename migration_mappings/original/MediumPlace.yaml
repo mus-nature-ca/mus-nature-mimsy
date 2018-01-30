@@ -18,9 +18,9 @@
   :MIMSY: MEDIA_PLACES.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :place:
   :MIMSY: MEDIA_PLACES.PLACE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'MulMultiMediaRef_tab'
+  :instructions: 'When Place records are collapsed into Site records, attach Medium record(s) to the Site record using necessary associations'

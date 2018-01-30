@@ -11,9 +11,9 @@
   :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: LOANS_MEDIA.MEDIA
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eloans'
+  :column: 'MulMultiMediaRef_tab'
+  :instructions: 'Attach multimedia record to loan through the Medium.id = LoanMedium.medium_id and Loan.id = LoanMedium.loan_id associations'
 :loan_id:
   :MIMSY: LOANS_MEDIA.LKEY
   :module: ''
@@ -23,4 +23,4 @@
   :MIMSY: LOANS_MEDIA.LOAN
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

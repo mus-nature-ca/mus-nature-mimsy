@@ -18,89 +18,89 @@
   :MIMSY: DISPOSAL_ITEMS.ID_NUMBER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description:
   :MIMSY: DISPOSAL_ITEMS.ITEM_SUMMARY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status:
   :MIMSY: DISPOSAL_ITEMS.STATUS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status_date:
   :MIMSY: DISPOSAL_ITEMS.STATUS_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :deaccession_date:
   :MIMSY: DISPOSAL_ITEMS.DEACCESSION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :disposal_method:
   :MIMSY: DISPOSAL_ITEMS.DISPOSAL_METHOD
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :disposal_date:
   :MIMSY: DISPOSAL_ITEMS.DISPOSAL_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :title_transfer_requested:
   :MIMSY: DISPOSAL_ITEMS.TITLE_TRANSFER_REQUESTED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :transfer_date:
   :MIMSY: DISPOSAL_ITEMS.TRANSFER_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :reproduction_requested:
   :MIMSY: DISPOSAL_ITEMS.REPRODUCTION_REQUESTED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dispatch_requested:
   :MIMSY: DISPOSAL_ITEMS.DISPATCH_REQUESTED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: DISPOSAL_ITEMS.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalogued:
   :MIMSY: DISPOSAL_ITEMS.CATALOGUED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :id_sort:
   :MIMSY: DISPOSAL_ITEMS.ID_SORT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: DISPOSAL_ITEMS.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: DISPOSAL_ITEMS.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: DISPOSAL_ITEMS.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: DISPOSAL_ITEMS.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

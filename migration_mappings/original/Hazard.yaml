@@ -13,204 +13,204 @@
   :MIMSY: HAZARD.CURRENT_RECORD
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :hazard:
   :MIMSY: HAZARD.HAZARD
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :component_accessory:
   :MIMSY: HAZARD.COMPONENT_ACCESSORY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description:
   :MIMSY: HAZARD.DESCRIPTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :position:
   :MIMSY: HAZARD.POSITION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :rating:
   :MIMSY: HAZARD.RATING
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :restrict_handling:
   :MIMSY: HAZARD.RESTRICT_HANDLING
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :may_be_handled_by:
   :MIMSY: HAZARD.MAY_BE_HANDLED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :handling_instructions:
   :MIMSY: HAZARD.HANDLING_INSTRUCTIONS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :control_measures:
   :MIMSY: HAZARD.CONTROL_MEASURES
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :identified_by:
   :MIMSY: HAZARD.IDENTIFIED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_identified:
   :MIMSY: HAZARD.DATE_IDENTIFIED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :authorized_by:
   :MIMSY: HAZARD.AUTHORIZED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_authorized:
   :MIMSY: HAZARD.DATE_AUTHORIZED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :external_file:
   :MIMSY: HAZARD.EXTERNAL_FILE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :last_evaluation_by:
   :MIMSY: HAZARD.LAST_EVALUATION_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :last_evaluation_date:
   :MIMSY: HAZARD.LAST_EVALUATION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :disposal_candidate:
   :MIMSY: HAZARD.DISPOSAL_CANDIDATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: HAZARD.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option1:
   :MIMSY: HAZARD.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option2:
   :MIMSY: HAZARD.OPTION2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option3:
   :MIMSY: HAZARD.OPTION3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option4:
   :MIMSY: HAZARD.OPTION4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option5:
   :MIMSY: HAZARD.OPTION5
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option6:
   :MIMSY: HAZARD.OPTION6
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option7:
   :MIMSY: HAZARD.OPTION7
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option8:
   :MIMSY: HAZARD.OPTION8
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option9:
   :MIMSY: HAZARD.OPTION9
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option10:
   :MIMSY: HAZARD.OPTION10
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number1:
   :MIMSY: HAZARD.NUMBER1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number2:
   :MIMSY: HAZARD.NUMBER2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date1:
   :MIMSY: HAZARD.DATE1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date2:
   :MIMSY: HAZARD.DATE2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: HAZARD.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: HAZARD.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag3:
   :MIMSY: HAZARD.FLAG3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag4:
   :MIMSY: HAZARD.FLAG4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: HAZARD.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: HAZARD.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: HAZARD.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: HAZARD.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

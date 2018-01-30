@@ -11,36 +11,36 @@
   :instructions: 'Not mapped. Foreign key to Catalog.id'
 :component:
   :MIMSY: COMPONENTS.COMPONENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, concatenate all fields together on single line as Field Name: Value;'
 :quantity:
   :MIMSY: COMPONENTS.QUANTITY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See CatalogComponet.component.'
 :location:
   :MIMSY: COMPONENTS.LOCATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See CatalogComponet.component.'
 :location_date:
   :MIMSY: COMPONENTS.LOCATION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See CatalogComponet.component.'
 :condition:
   :MIMSY: COMPONENTS.CONDITION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See CatalogComponet.component.'
 :condition_date:
   :MIMSY: COMPONENTS.CONDITION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See CatalogComponet.component.'
 :note:
   :MIMSY: COMPONENTS.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See CatalogComponet.component.'

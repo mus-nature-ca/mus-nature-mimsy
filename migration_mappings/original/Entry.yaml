@@ -8,169 +8,169 @@
   :MIMSY: ENTRY.RECORD_VIEW
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :receipt_number:
   :MIMSY: ENTRY.RECEIPT_NUMBER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :entry_date:
   :MIMSY: ENTRY.ENTRY_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :record_type:
   :MIMSY: ENTRY.RECORD_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :reason:
   :MIMSY: ENTRY.REASON
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status:
   :MIMSY: ENTRY.STATUS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status_date:
   :MIMSY: ENTRY.STATUS_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description:
   :MIMSY: ENTRY.DESCRIPTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :person_id:
   :MIMSY: ENTRY.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :person_variation_id:
   :MIMSY: ENTRY.NVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :depositor:
   :MIMSY: ENTRY.DEPOSITOR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contact:
   :MIMSY: ENTRY.CONTACT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :address:
   :MIMSY: ENTRY.ADDRESS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :phone:
   :MIMSY: ENTRY.PHONE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :fax:
   :MIMSY: ENTRY.FAX
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :email:
   :MIMSY: ENTRY.EMAIL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :received_by:
   :MIMSY: ENTRY.RECEIVED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :return_instructions:
   :MIMSY: ENTRY.RETURN_INSTRUCTIONS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :total_objects:
   :MIMSY: ENTRY.ENTRY_COUNT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :total_recorded:
   :MIMSY: ENTRY.TOTAL_RECORDED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :external_file:
   :MIMSY: ENTRY.EXTERNAL_FILE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: ENTRY.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option1:
   :MIMSY: ENTRY.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option2:
   :MIMSY: ENTRY.OPTION2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number1:
   :MIMSY: ENTRY.NUMBER1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number2:
   :MIMSY: ENTRY.NUMBER2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date1:
   :MIMSY: ENTRY.DATE1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date2:
   :MIMSY: ENTRY.DATE2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: ENTRY.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: ENTRY.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: ENTRY.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: ENTRY.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: ENTRY.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: ENTRY.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

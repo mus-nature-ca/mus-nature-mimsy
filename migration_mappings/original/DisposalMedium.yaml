@@ -13,7 +13,7 @@
   :MIMSY: DISPOSALS_MEDIA.MEDIA
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :disposal_id:
   :MIMSY: DISPOSALS_MEDIA.AKEY
   :module: ''
@@ -23,4 +23,4 @@
   :MIMSY: DISPOSALS_MEDIA.DISPOSAL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

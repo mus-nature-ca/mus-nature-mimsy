@@ -13,24 +13,24 @@
   :MIMSY: TITLES.PRIOR_TITLE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :type:
   :MIMSY: TITLES.TNA_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append concatenation of type, title, attributor, attribution_date fields as key:value pairs, separated by semi-colons and prefixed by "Specimen Name - " for Catalog.collection = "NU Fossil Vertebrate" or "NU Arachaeology" where these should be prefixed by "Artifact Name -"'
 :title:
   :MIMSY: TITLES.TITLE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See CatalogTitle.tyoe for instructions'
 :attributor:
   :MIMSY: TITLES.ATTRIBUTOR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See CatalogTitle.tyoe for instructions'
 :attribution_date:
   :MIMSY: TITLES.ATTRIB_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See CatalogTitle.tyoe for instructions'

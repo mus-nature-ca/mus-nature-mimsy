@@ -18,19 +18,19 @@
   :MIMSY: ITEMS_OWNERS.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: ITEMS_OWNERS.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: ITEMS_OWNERS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :name:
   :MIMSY: ITEMS_OWNERS.NAME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Owner: "'

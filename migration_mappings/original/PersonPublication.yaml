@@ -17,7 +17,7 @@
 :relationship:
   :MIMSY: PEOPLE_PUBLICATIONS.RELATIONSHIP
   :module: 'ebibliography'
-  :column: '*Role_tab'
+  :column: 'Role_tab'
   :instructions: 'Column name depends on publication type. Values in data are: ["author", "editor", "author (1st)", "co-author"]'
 :prior_attribution:
   :MIMSY: PEOPLE_PUBLICATIONS.PRIOR_ATTRIBUTION

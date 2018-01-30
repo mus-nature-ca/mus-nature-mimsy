@@ -18,7 +18,7 @@
   :MIMSY: LOAN_ITEMS.ID_NUMBER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See associated Excel files and additional Excel mapping documents.'
 :status:
   :MIMSY: LOAN_ITEMS.STATUS
   :module: ''

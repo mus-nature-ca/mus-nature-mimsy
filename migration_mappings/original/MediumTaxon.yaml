@@ -8,24 +8,24 @@
   :MIMSY: MEDIA_TAXONOMY.MEDIAKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Medium.id'
+  :instructions: 'Not directly mapped. Foreign key to Medium.id. Once Multimedia and Taxonomy entries are created, attach the Multimedia item to the Taxon record.'
 :taxon_id:
   :MIMSY: MEDIA_TAXONOMY.SPECKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Taxon.id'
+  :instructions: 'Not directly mapped. Foreign key to Taxon.id. Once Multimedia and Taxonomy entries are created, attach the Multimedia item to the Taxon record.'
 :prior_attribution:
   :MIMSY: MEDIA_TAXONOMY.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :taxonomy:
   :MIMSY: MEDIA_TAXONOMY.TAXONOMY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :broader_text:
   :MIMSY: MEDIA_TAXONOMY.BROADER_TEXT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

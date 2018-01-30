@@ -6,43 +6,43 @@
   :instructions: 'Not mapped. Foreign key to Site.id'
 :permit_number:
   :MIMSY: SITE_PERMITS.PERMIT_NUMBER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'erights'
+  :column: 'RigPermitNumber'
+  :instructions: 'Also attach to ecollectionevents::ColPermitNumber_tab'
 :permit_type:
   :MIMSY: SITE_PERMITS.PERMIT_TYPE
-  :module: ''
-  :column: ''
+  :module: 'erights'
+  :column: 'PerPermissionType'
   :instructions: ''
 :issued_to:
   :MIMSY: SITE_PERMITS.ISSUED_TO
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'erights'
+  :column: 'SitAuthorisedCollectors_tab'
+  :instructions: 'Create/attach Party record'
 :issued_by:
   :MIMSY: SITE_PERMITS.ISSUED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'erights'
+  :column: 'PerIssuedBy'
+  :instructions: 'Create/attach Party record'
 :date_issued:
   :MIMSY: SITE_PERMITS.DATE_ISSUED
-  :module: ''
-  :column: ''
+  :module: 'erights'
+  :column: 'PerDateIssued'
   :instructions: ''
 :begin_date:
   :MIMSY: SITE_PERMITS.BEGIN_DATE
-  :module: ''
-  :column: ''
+  :module: 'erights'
+  :column: 'RigCommencementDate'
   :instructions: ''
 :end_date:
   :MIMSY: SITE_PERMITS.END_DATE
-  :module: ''
-  :column: ''
+  :module: 'erights'
+  :column: 'RigExpiryDate'
   :instructions: ''
 :note:
   :MIMSY: SITE_PERMITS.NOTE
-  :module: ''
-  :column: ''
+  :module: 'erights'
+  :column: 'NotNotes'
   :instructions: ''
 :id:
   :MIMSY: SITE_PERMITSAKEY

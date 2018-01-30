@@ -3,124 +3,124 @@
   :MIMSY: CONDITION.M_ID
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Catalog.id'
+  :instructions: 'Not mapped. Foreign key to Catalog.id. Use to link to the Object.'
 :id:
   :MIMSY: CONDITION.CONDKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped'
+  :instructions: 'Not mapped. Primary key.'
 :current_record:
   :MIMSY: CONDITION.CURRENT_RECORD
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :condition:
   :MIMSY: CONDITION.CONDITION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append to field prefixed by "Condition: " when present. Populate econdition::ConConditionStatus with "unknown".'
 :condition_date:
   :MIMSY: CONDITION.CONDITION_DATE
-  :module: ''
-  :column: ''
+  :module: 'econdition'
+  :column: 'ConDateChecked'
   :instructions: ''
 :examined_by:
   :MIMSY: CONDITION.EXAMINED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConCheckedBy'
+  :instructions: 'Create and/or link to record in Parties.'
 :purpose:
   :MIMSY: CONDITION.PURPOSE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append to field prefixed by "Purpose: " when present'
 :component_accessory:
   :MIMSY: CONDITION.COMPONENT_ACCESSORY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append to field prefixed by "Component Accessory: " when present'
 :conservation_request_date:
   :MIMSY: CONDITION.CONSERVATION_REQUEST_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append to field prefixed by "Conservation Request Date: " when present'
 :status:
   :MIMSY: CONDITION.STATUS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append to field prefixed by "Status: " when present'
 :status_date:
   :MIMSY: CONDITION.STATUS_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append to field prefixed by "Status Date: " when present'
 :priority_flag1:
   :MIMSY: CONDITION.PRIORITY_FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :priority_flag2:
   :MIMSY: CONDITION.PRIORITY_FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :summary:
   :MIMSY: CONDITION.SUMMARY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append to field prefixed by "Summary: " when present'
 :note:
   :MIMSY: CONDITION.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append to field prefixed by "Note: " when present'
 :audit_by:
   :MIMSY: CONDITION.AUDIT_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :audit_date:
   :MIMSY: CONDITION.AUDIT_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: CONDITION.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: CONDITION.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag3:
   :MIMSY: CONDITION.FLAG3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag4:
   :MIMSY: CONDITION.FLAG4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: CONDITION.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: CONDITION.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: CONDITION.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: CONDITION.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

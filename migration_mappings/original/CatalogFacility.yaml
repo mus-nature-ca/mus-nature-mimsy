@@ -18,14 +18,14 @@
   :MIMSY: ITEMS_FACILITIES.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :facility:
   :MIMSY: ITEMS_FACILITIES.FACILITY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :broader_text:
   :MIMSY: ITEMS_FACILITIES.BROADER_TEXT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

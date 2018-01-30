@@ -18,19 +18,19 @@
   :MIMSY: PEOPLE_TAXONOMY.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: PEOPLE_TAXONOMY.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :taxonomy:
   :MIMSY: PEOPLE_TAXONOMY.TAXONOMY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :broader_text:
   :MIMSY: PEOPLE_TAXONOMY.BROADER_TEXT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

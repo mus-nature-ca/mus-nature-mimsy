@@ -11,16 +11,16 @@
   :instructions: 'Not mapped. Foreign key to Event.id'
 :variation:
   :MIMSY: EVENT_VARIATIONS.VARIATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'events'
+  :column: 'NotNotes'
+  :instructions: 'Append to field in parent record where EventVariation.event_id = Event.id, prefix with "Alternate Event Name: " + EventVariation.variation + "(" + EventVariation.variation_type + ")"'
 :type:
   :MIMSY: EVENT_VARIATIONS.VARIATION_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See EventVariation.variation for instructions.'
 :prior_attribution:
   :MIMSY: EVENT_VARIATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

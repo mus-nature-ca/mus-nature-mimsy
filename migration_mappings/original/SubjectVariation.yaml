@@ -13,14 +13,14 @@
   :MIMSY: SUBJECT_VARIATIONS.VARIATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :variation_type:
   :MIMSY: SUBJECT_VARIATIONS.VARIATION_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: SUBJECT_VARIATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -3,7 +3,7 @@
   :MIMSY: CONSERVATION.M_ID
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Catalog.id'
+  :instructions: 'Not mapped. Foreign key to Catalog.id. Populate econservation::ObjObjectsConserved_tab through this linkage.'
 :id:
   :MIMSY: CONSERVATION.CONSKEY
   :module: ''
@@ -11,126 +11,126 @@
   :instructions: 'Not mapped'
 :process:
   :MIMSY: CONSERVATION.PROCESS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'TreDetailedTreatment'
+  :instructions: 'Append to field and prefix with "Process: " when present.'
 :portion:
   :MIMSY: CONSERVATION.PORTION
-  :module: ''
-  :column: ''
+  :module: 'econservation'
+  :column: 'ObjObjectNotes_tab'
   :instructions: ''
 :component_accessory:
   :MIMSY: CONSERVATION.COMPONENT_ACCESSORY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservtation'
+  :column: 'ObjObjectNotes_tab'
+  :instructions: 'Append to field, concatenated with ";" if content already in row.'
 :purpose:
   :MIMSY: CONSERVATION.PURPOSE
-  :module: ''
-  :column: ''
+  :module: 'econservation'
+  :column: 'ReqConservationPurpose'
   :instructions: ''
 :requested_by:
   :MIMSY: CONSERVATION.REQUESTED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'ReqRequestedBy'
+  :instructions: 'Create and/or link to Party record.'
 :request_date:
   :MIMSY: CONSERVATION.REQUEST_DATE
-  :module: ''
-  :column: ''
+  :module: 'econservation'
+  :column: 'ReqDateRequested'
   :instructions: ''
 :authorized_by:
   :MIMSY: CONSERVATION.AUTHORIZED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'AutAuthorizedBy'
+  :instructions: 'Create or link to a Party record.'
 :conservator:
   :MIMSY: CONSERVATION.PERFORMED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'TreTreatedBy_tab'
+  :instructions: 'Create and/or link to Party record.'
 :status:
   :MIMSY: CONSERVATION.STATUS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status_date:
   :MIMSY: CONSERVATION.STATUS_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :projected_start:
   :MIMSY: CONSERVATION.PROJECTED_START
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :actual_start:
   :MIMSY: CONSERVATION.ACTUAL_START
-  :module: ''
-  :column: ''
+  :module: 'econservation'
+  :column: 'TreDateCommenced'
   :instructions: ''
 :actual_end:
   :MIMSY: CONSERVATION.ACTUAL_END
-  :module: ''
-  :column: ''
+  :module: 'econservation'
+  :column: 'TreDateCompleted'
   :instructions: ''
 :summary:
   :MIMSY: CONSERVATION.SUMMARY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'TreDetailedTreatment'
+  :instructions: 'Append to field, prefix with "Summary: " when present.'
 :condition_id:
   :MIMSY: CONSERVATION.CONDKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. Foreign key to Conditio.id.'
 :linked_condition:
   :MIMSY: CONSERVATION.LINKED_CONDITION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :post_treat_condition:
   :MIMSY: CONSERVATION.POST_TREAT_CONDITION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'TredetailedTreatment'
+  :instructions: 'Append to field and prefix with "Post-treatment Condition: " if present.'
 :flag1:
   :MIMSY: CONSERVATION.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: CONSERVATION.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag3:
   :MIMSY: CONSERVATION.FLAG3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag4:
   :MIMSY: CONSERVATION.FLAG4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: CONSERVATION.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: CONSERVATION.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: CONSERVATION.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: CONSERVATION.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

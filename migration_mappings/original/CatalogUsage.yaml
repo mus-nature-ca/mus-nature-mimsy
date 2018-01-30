@@ -13,84 +13,84 @@
   :MIMSY: ITEM_USAGE.PRIOR_USE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :type:
   :MIMSY: ITEM_USAGE.USE_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :begin_date:
   :MIMSY: ITEM_USAGE.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: ITEM_USAGE.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description:
   :MIMSY: ITEM_USAGE.DESCRIPTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attribution_type:
   :MIMSY: ITEM_USAGE.ATTRIB_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attributor:
   :MIMSY: ITEM_USAGE.ATTRIBUTOR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attribution_source:
   :MIMSY: ITEM_USAGE.ATTRIB_SOURCE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attribution_date:
   :MIMSY: ITEM_USAGE.ATTRIB_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :certainty:
   :MIMSY: ITEM_USAGE.CERTAINTY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attribution_comment:
   :MIMSY: ITEM_USAGE.ATTRIB_COMMENT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sort:
   :MIMSY: ITEM_USAGE.STEP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: ITEM_USAGE.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option1:
   :MIMSY: ITEM_USAGE.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option2:
   :MIMSY: ITEM_USAGE.OPTION2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option3:
   :MIMSY: ITEM_USAGE.OPTION3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option4:
   :MIMSY: ITEM_USAGE.OPTION4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

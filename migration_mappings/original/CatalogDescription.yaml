@@ -13,19 +13,19 @@
   :MIMSY: ITEM_DESCRIPTIONS.PRIOR_DESCRIPTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description_type:
   :MIMSY: ITEM_DESCRIPTIONS.DESCRIPTION_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description:
   :MIMSY: ITEM_DESCRIPTIONS.DESCRIPTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description_date:
   :MIMSY: ITEM_DESCRIPTIONS.DESCRIPT_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -8,12 +8,12 @@
   :MIMSY: REPRODUCTION.RECORD_VIEW
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :order_number:
   :MIMSY: REPRODUCTION.ORDER_NUMBER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :person_id:
   :MIMSY: REPRODUCTION.LINK_ID
   :module: ''
@@ -23,299 +23,299 @@
   :MIMSY: REPRODUCTION.NVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :requested_by:
   :MIMSY: REPRODUCTION.REQUESTED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :request_date:
   :MIMSY: REPRODUCTION.REQUEST_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :deadline_date:
   :MIMSY: REPRODUCTION.DEADLINE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contact:
   :MIMSY: REPRODUCTION.CONTACT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :bill_to:
   :MIMSY: REPRODUCTION.BILL_TO
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :bill_to_phone:
   :MIMSY: REPRODUCTION.BILL_TO_PHONE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :bill_to_fax:
   :MIMSY: REPRODUCTION.BILL_TO_FAX
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :bill_to_email:
   :MIMSY: REPRODUCTION.BILL_TO_EMAIL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :ship_to:
   :MIMSY: REPRODUCTION.SHIP_TO
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :ship_to_phone:
   :MIMSY: REPRODUCTION.SHIP_TO_PHONE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :ship_to_fax:
   :MIMSY: REPRODUCTION.SHIP_TO_FAX
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :ship_to_email:
   :MIMSY: REPRODUCTION.SHIP_TO_EMAIL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :authorized_by:
   :MIMSY: REPRODUCTION.AUTHORIZED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status:
   :MIMSY: REPRODUCTION.STATUS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status_date:
   :MIMSY: REPRODUCTION.STATUS_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :reason:
   :MIMSY: REPRODUCTION.REASON
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :pkey:
   :MIMSY: REPRODUCTION.PKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publication:
   :MIMSY: REPRODUCTION.PUBLICATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :license_type:
   :MIMSY: REPRODUCTION.LICENSE_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :license_start:
   :MIMSY: REPRODUCTION.LICENSE_START
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :license_end:
   :MIMSY: REPRODUCTION.LICENSE_END
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :license_history:
   :MIMSY: REPRODUCTION.LICENSE_HISTORY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :distribution_area:
   :MIMSY: REPRODUCTION.DISTRIBUTION_AREA
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :print_run:
   :MIMSY: REPRODUCTION.PRINT_RUN
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :use:
   :MIMSY: REPRODUCTION.USE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contract_date:
   :MIMSY: REPRODUCTION.CONTRACT_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contract_signed_date:
   :MIMSY: REPRODUCTION.CONTRACT_SIGNED_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contract_terms:
   :MIMSY: REPRODUCTION.CONTRACT_TERMS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contract_note:
   :MIMSY: REPRODUCTION.CONTRACT_NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :total_items:
   :MIMSY: REPRODUCTION.TOTAL_ITEMS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :total_requested:
   :MIMSY: REPRODUCTION.TOTAL_REQUESTED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :projected_start:
   :MIMSY: REPRODUCTION.PROJECTED_START
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :projected_duration:
   :MIMSY: REPRODUCTION.PROJECTED_DURATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :proj_duration_unit:
   :MIMSY: REPRODUCTION.PROJ_DURATION_UNIT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :projected_cost:
   :MIMSY: REPRODUCTION.PROJECTED_COST
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :actual_start:
   :MIMSY: REPRODUCTION.ACTUAL_START
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :actual_end:
   :MIMSY: REPRODUCTION.ACTUAL_END
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :actual_duration:
   :MIMSY: REPRODUCTION.ACTUAL_DURATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :act_duration_unit:
   :MIMSY: REPRODUCTION.ACT_DURATION_UNIT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :actual_cost:
   :MIMSY: REPRODUCTION.ACTUAL_COST
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :paid:
   :MIMSY: REPRODUCTION.PAID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :payment_date:
   :MIMSY: REPRODUCTION.PAYMENT_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :external_file:
   :MIMSY: REPRODUCTION.EXTERNAL_FILE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: REPRODUCTION.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option1:
   :MIMSY: REPRODUCTION.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option2:
   :MIMSY: REPRODUCTION.OPTION2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option3:
   :MIMSY: REPRODUCTION.OPTION3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option4:
   :MIMSY: REPRODUCTION.OPTION4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option5:
   :MIMSY: REPRODUCTION.OPTION5
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number1:
   :MIMSY: REPRODUCTION.NUMBER1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number2:
   :MIMSY: REPRODUCTION.NUMBER2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date1:
   :MIMSY: REPRODUCTION.DATE1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date2:
   :MIMSY: REPRODUCTION.DATE2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: REPRODUCTION.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: REPRODUCTION.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: REPRODUCTION.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: REPRODUCTION.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: REPRODUCTION.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: REPRODUCTION.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

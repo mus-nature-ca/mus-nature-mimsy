@@ -6,29 +6,29 @@
   :instructions: 'Not mapped. Foreign key to Site.id'
 :photo_number:
   :MIMSY: SITE_PHOTOS.PHOTO_NUMBER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Append to field in corresponding Site record through SitePhoto.site_id = Site.id relationship, prefix with "Photo Number: " when present'
 :photo_type:
   :MIMSY: SITE_PHOTOS.PHOTO_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Append to field in corresponding Site record through SitePhoto.site_id = Site.id relationship, prefix with "Photo Type: " when present'
 :photo_date:
   :MIMSY: SITE_PHOTOS.PHOTO_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Append to field in corresponding Site record through SitePhoto.site_id = Site.id relationship, prefix with "Photo Date: " when present'
 :source:
   :MIMSY: SITE_PHOTOS.SOURCE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Append to field in corresponding Site record through SitePhoto.site_id = Site.id relationship, prefix with "Photo Number: " when present'
 :note:
   :MIMSY: SITE_PHOTOS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Append to field in corresponding Site record through SitePhoto.site_id = Site.id relationship, prefix with "Photo Note: " when present'
 :id:
   :MIMSY: SITE_PHOTOSAKEY
   :module: ''

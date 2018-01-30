@@ -13,74 +13,74 @@
   :MIMSY: ITEMS_TAXONOMY.SPECKEY
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Taxon.id'
+  :instructions: 'Not mapped. Foreign key to Taxon.id. Content here is only relevant when there are 2+ associated Taxon records through CatalogTaxon.taxon_id = Taxon.id. Must use type_status or relationship to uncover the nature of the relationship to attach Other Associated Taxa. '
 :sort:
   :MIMSY: ITEMS_TAXONOMY.STEP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :relationship:
   :MIMSY: ITEMS_TAXONOMY.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'If contains any value, then also follow instructions indicated in CatalogTaxon.taxon_id. Value here is also to be placed in ecatalogue::OthNatureOfAssociation_tab'
 :type_status:
   :MIMSY: ITEMS_TAXONOMY.AFFILIATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'OthNatureOfAssociation_tab'
+  :instructions: 'If type_status = "associated species" || "host" || "nest parasite" || "parasite" || "secondary specimen"'
 :attribution_type:
   :MIMSY: ITEMS_TAXONOMY.ATTRIB_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'OthNotes_tab'
+  :instructions: 'Append to field, prefix with "Attribution Type: "'
 :identified_by:
   :MIMSY: ITEMS_TAXONOMY.ATTRIBUTOR
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'OthDeterminedBy_tab'
   :instructions: ''
 :date_identified:
   :MIMSY: ITEMS_TAXONOMY.ATTRIB_DATE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'OthDeterminationDate0'
   :instructions: ''
 :attribution_source:
   :MIMSY: ITEMS_TAXONOMY.ATTRIB_SOURCE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'OthNotes_tab'
+  :instructions: 'Append to field, prefix with "Attribution Source: "'
 :identifier_comment:
   :MIMSY: ITEMS_TAXONOMY.ATTRIB_COMMENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'OthNotes_tab'
+  :instructions: 'Append to field, prefix with "Identifier Comment: "'
 :note:
   :MIMSY: ITEMS_TAXONOMY.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'OthNotes_tab'
+  :instructions: 'Append to field'
 :prior_attribution:
   :MIMSY: ITEMS_TAXONOMY.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :taxon_variation_id:
   :MIMSY: ITEMS_TAXONOMY.TAXVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :type_specimen:
   :MIMSY: ITEMS_TAXONOMY.TYPE_SPECIMEN
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'If checked, this is a type specimen in which case ecatalogue::DetTypeStatus_tab = CatalogTaxon.type_status'
 :scientific_name:
   :MIMSY: ITEMS_TAXONOMY.TAXONOMY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :higher_taxonomy:
   :MIMSY: ITEMS_TAXONOMY.BROADER_TEXT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -8,7 +8,7 @@
   :MIMSY: SITES.LANGUAGE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :site_id:
   :MIMSY: SITES.SITE_ID
   :module: 'esites'
@@ -26,8 +26,8 @@
   :instructions: ''
 :environment:
   :MIMSY: SITES.SITE_CLASS
-  :module: ''
-  :column: ''
+  :module: 'esites'
+  :column: 'LocEnvironment'
   :instructions: ''
 :description:
   :MIMSY: SITES.DESCRIPTION
@@ -43,7 +43,7 @@
   :MIMSY: SITES.LOCATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :location_accuracy:
   :MIMSY: SITES.LOCATION_ACCURACY
   :module: 'esites'
@@ -101,9 +101,9 @@
   :instructions: ''
 :decimal_is_primary:
   :MIMSY: SITES.DECIMAL_IS_PRIMARY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'LatComment_nesttab'
+  :instructions: 'If true, set = "Decimal is primary"'
 :coord_uncertainty:
   :MIMSY: SITES.COORD_UNCERTAINTY
   :module: 'esites'
@@ -122,8 +122,8 @@
 :georef_status:
   :MIMSY: SITES.GEOREF_STATUS
   :module: 'esites'
-  :column: ''
-  :instructions: ''
+  :column: '???'
+  :instructions: 'Georef. Status field in client has Column = LatRadiusProbability_tab and Type = Float. Needs fix in client.'
 :georef_source:
   :MIMSY: SITES.GEOREF_SOURCE
   :module: 'esites'
@@ -138,7 +138,7 @@
   :MIMSY: SITES.MEASUREMENTS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See associated SiteMeasurement records through Site.id = SiteMeasurement.site_id'
 :elevation:
   :MIMSY: SITES.ELEVATION
   :module: 'esites'
@@ -208,7 +208,7 @@
   :MIMSY: SITES.NOTE
   :module: 'esites'
   :column: 'NotNotes'
-  :instructions: ''
+  :instructions: 'Append to field'
 :publish:
   :MIMSY: SITES.PUBLISH
   :module: 'esites'
@@ -216,71 +216,71 @@
   :instructions: 'If value is false or null, mark both Publish on Internet and Intranet as No; if value is true, mark both as Yes.'
 :option1:
   :MIMSY: SITES.OPTION1
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Append to field'
 :option2:
   :MIMSY: SITES.OPTION2
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Append to field'
 :flag1:
   :MIMSY: SITES.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: SITES.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sort_prefix:
   :MIMSY: SITES.SORT_PREFIX
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sort1:
   :MIMSY: SITES.SORT1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sort2:
   :MIMSY: SITES.SORT2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sort3:
   :MIMSY: SITES.SORT3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sort4:
   :MIMSY: SITES.SORT4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sort5:
   :MIMSY: SITES.SORT5
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: SITES.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: SITES.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: SITES.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: SITES.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

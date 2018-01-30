@@ -6,29 +6,29 @@
   :instructions: 'Not mapped. Foreign key to Site.id'
 :excavator:
   :MIMSY: SITE_EXCAVATIONS.EXCAVATOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Append to field as follows: "Excavation: " + SiteExcavation.excavator + " (excavator); " + SiteExcavation.sponsor + " (sponsor); Date: " + SiteExcavation.begin_date + "-" + SiteExcavation.end_date + "; Note: " + SiteExcavation.note'
 :sponsor:
   :MIMSY: SITE_EXCAVATIONS.SPONSOR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteExcavation.excavator for instructions'
 :begin_date:
   :MIMSY: SITE_EXCAVATIONS.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteExcavation.excavator for instructions'
 :end_date:
   :MIMSY: SITE_EXCAVATIONS.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteExcavation.excavator for instructions'
 :note:
   :MIMSY: SITE_EXCAVATIONS.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteExcavation.excavator for instructions'
 :id:
   :MIMSY: SITE_EXCAVATIONSAKEY
   :module: ''

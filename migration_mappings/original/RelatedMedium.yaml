@@ -18,14 +18,14 @@
   :MIMSY: RELATED_MEDIA.MEDIA
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: RELATED_MEDIA.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :sysuseonly:
   :MIMSY: RELATED_MEDIA.SYSUSEONLY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

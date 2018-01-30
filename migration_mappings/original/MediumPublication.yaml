@@ -18,19 +18,19 @@
   :MIMSY: MEDIA_PUBLICATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :illustration:
   :MIMSY: MEDIA_PUBLICATIONS.ILLUSTRATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publication:
   :MIMSY: MEDIA_PUBLICATIONS.PUBLICATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'MulMultiMediaRef_tab'
+  :instructions: 'Attach multimedia record(s) through Medium.id = MediumPublication.medium_id and Publication.id = MediumPublication.publication_id associations.'
 :publication_date:
   :MIMSY: MEDIA_PUBLICATIONS.PUBLICATION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

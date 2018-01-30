@@ -6,9 +6,9 @@
   :instructions: 'Not mapped. Foreign key to Event.id'
 :component:
   :MIMSY: EVENT_COMPONENTS.COMPONENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field (having used the Event.id = EventComponent.event_id association), prefix with "Event Component: ".'
 :id:
   :MIMSY: EVENT_COMPONENTSAKEY
   :module: ''

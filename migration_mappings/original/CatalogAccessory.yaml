@@ -11,31 +11,31 @@
   :instructions: 'Not mapped. Foreign key to Catalog.id'
 :accessory:
   :MIMSY: ACCESSORIES.ACCESSORY
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'AssAccessory_tab'
   :instructions: ''
 :quantity:
   :MIMSY: ACCESSORIES.QUANTITY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'AssStorageRemarks_tab'
+  :instructions: 'Append to field, prefix with "Quantity: "'
 :location:
   :MIMSY: ACCESSORIES.LOCATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'AssStorageRemarks_tab'
+  :instructions: 'Append to field, prefix with "Location: "'
 :location_date:
   :MIMSY: ACCESSORIES.LOCATION_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'AssStorageRemarks_tab'
+  :instructions: 'Append to field, prefix with "Location Date: "'
 :condition_date:
   :MIMSY: ACCESSORIES.CONDITION_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'AssStorageRemarks_tab'
+  :instructions: 'Append to field, prefix with "Condition Date: "'
 :note:
   :MIMSY: ACCESSORIES.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'AssStorageRemarks_tab'
+  :instructions: 'Append to field, prefix with "Note: "'

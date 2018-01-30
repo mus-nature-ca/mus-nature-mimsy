@@ -11,21 +11,21 @@
   :instructions: 'Not mapped. Foreign key to Catalog.id'
 :component:
   :MIMSY: PHYSICAL_DESCRIPTORS.COMPONENT
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'PreElement_tab'
   :instructions: ''
 :descriptor:
   :MIMSY: PHYSICAL_DESCRIPTORS.DESCRIPTOR
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'PrePreservationMedium_tab'
   :instructions: ''
 :value:
   :MIMSY: PHYSICAL_DESCRIPTORS.TERM
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'PreConcentration_tab'
+  :instructions: 'Populate only if value contains a "%" and then strip it out'
 :note:
   :MIMSY: PHYSICAL_DESCRIPTORS.NOTE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'PreContainerSize_tab'
   :instructions: ''

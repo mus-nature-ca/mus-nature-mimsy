@@ -8,134 +8,134 @@
   :MIMSY: AUDITS.RECORD_VIEW
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :audit_number:
   :MIMSY: AUDITS.AUDIT_NUMBER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :reason:
   :MIMSY: AUDITS.AUDIT_REASON
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :authorized_by:
   :MIMSY: AUDITS.AUTHORIZED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_authorized:
   :MIMSY: AUDITS.DATE_AUTHORIZED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :audit_by:
   :MIMSY: AUDITS.AUDIT_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :begin_date:
   :MIMSY: AUDITS.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: AUDITS.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status:
   :MIMSY: AUDITS.STATUS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status_date:
   :MIMSY: AUDITS.STATUS_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number_audited:
   :MIMSY: AUDITS.NUMBER_AUDITED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :total_requested:
   :MIMSY: AUDITS.TOTAL_REQUESTED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number_missing:
   :MIMSY: AUDITS.NUMBER_NOT_FOUND
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :external_file:
   :MIMSY: AUDITS.EXTERNAL_FILE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: AUDITS.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option1:
   :MIMSY: AUDITS.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option2:
   :MIMSY: AUDITS.OPTION2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number1:
   :MIMSY: AUDITS.NUMBER1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number2:
   :MIMSY: AUDITS.NUMBER2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date1:
   :MIMSY: AUDITS.DATE1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date2:
   :MIMSY: AUDITS.DATE2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: AUDITS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: AUDITS.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: AUDITS.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: AUDITS.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: AUDITS.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: AUDITS.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

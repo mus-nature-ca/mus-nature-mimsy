@@ -18,14 +18,14 @@
   :MIMSY: EXHIBITION_VENUES.VENUE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :display_start:
   :MIMSY: EXHIBITION_VENUES.DISPLAY_START
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :display_end:
   :MIMSY: EXHIBITION_VENUES.DISPLAY_END
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

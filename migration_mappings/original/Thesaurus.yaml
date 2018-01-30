@@ -8,7 +8,7 @@
   :MIMSY: THESAURUS.LANGUAGE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :thesaurus_system:
   :MIMSY: THESAURUS.THES_SYSTEM
   :module: 'ethesaurus'
@@ -21,29 +21,29 @@
   :instructions: ''
 :alternate1:
   :MIMSY: THESAURUS.TERM2_1
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'TerAlternateTerms_tab'
   :instructions: ''
 :alternate2:
   :MIMSY: THESAURUS.TERM3_1
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'TerAlternateTerms_tab'
   :instructions: ''
 :level:
   :MIMSY: THESAURUS.HIERARCHY_LEVEL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :parent_id:
   :MIMSY: THESAURUS.BROADER_ID
   :module: 'ethesaurus'
   :column: 'HieBroaderTerms_tab'
-  :instructions: 'Follow this parent_id to get the parent term'
+  :instructions: 'Follow this parent_id through a self-referential association to another Thesaurus.id to get the parent term'
 :broader_text:
   :MIMSY: THESAURUS.BROADER_TEXT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped.'
 :note:
   :MIMSY: THESAURUS.NOTE
   :module: 'ethesaurus'
@@ -51,49 +51,49 @@
   :instructions: ''
 :comments:
   :MIMSY: THESAURUS.COMMENTS
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'NoteNotes'
   :instructions: ''
 :modified:
   :MIMSY: THESAURUS.MODIFIED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :guide_term:
   :MIMSY: THESAURUS.GUIDE_TERM
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :source:
   :MIMSY: THESAURUS.SOURCE
   :module: 'ethesaurus'
   :column: 'HisSource_tab'
-  :instructions: ''
+  :instructions: 'Append to field'
 :source_date:
   :MIMSY: THESAURUS.SOURCE_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ethesaurus'
+  :column: 'HisSource_tab'
+  :instructions: 'Append to field, prefix with "Date: " when present'
 :sort1:
   :MIMSY: THESAURUS.SORT1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publish:
   :MIMSY: THESAURUS.PUBLISH
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: THESAURUS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: THESAURUS.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: THESAURUS.CREATED_BY
   :module: 'ethesaurus'

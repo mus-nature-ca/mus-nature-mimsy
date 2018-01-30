@@ -13,69 +13,69 @@
   :MIMSY: VALUATION.CURRENT_RECORD
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :valuation:
   :MIMSY: VALUATION.VALUATION
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'ValValuationAmount'
   :instructions: ''
 :valuation_date:
   :MIMSY: VALUATION.VALUATION_DATE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'ValDateValued'
   :instructions: ''
 :valuation_purpose:
   :MIMSY: VALUATION.VALUATION_PURPOSE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'ValReasonForValuation'
+  :instructions: 'Not mapped'
 :valuation_by:
   :MIMSY: VALUATION.VALUATION_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'ValValuedBy'
+  :instructions: 'Create/link to Party record when present'
 :valuation_source:
   :MIMSY: VALUATION.VALUATION_SOURCE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :external_file:
   :MIMSY: VALUATION.EXTERNAL_FILE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: VALUATION.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: VALUATION.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: VALUATION.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: VALUATION.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: VALUATION.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: VALUATION.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: VALUATION.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

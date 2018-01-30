@@ -8,64 +8,64 @@
   :MIMSY: NOTEPAD.TABLE_KEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :table_name:
   :MIMSY: NOTEPAD.TABLE_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :column_name:
   :MIMSY: NOTEPAD.COLUMN_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :module:
   :MIMSY: NOTEPAD.MODULE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :subject:
   :MIMSY: NOTEPAD.SUBJECT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contributor:
   :MIMSY: NOTEPAD.CONTRIBUTOR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contribution_date:
   :MIMSY: NOTEPAD.CONTRIBUTION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: NOTEPAD.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :url:
   :MIMSY: NOTEPAD.URL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :private:
   :MIMSY: NOTEPAD.PRIVATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: NOTEPAD.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: NOTEPAD.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :carryover:
   :MIMSY: NOTEPAD.CARRYOVER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

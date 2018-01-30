@@ -18,29 +18,29 @@
   :MIMSY: CONSERVATION_FEES.ACTIVITY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :activity_by:
   :MIMSY: CONSERVATION_FEES.ACTIVITY_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :activity_date:
   :MIMSY: CONSERVATION_FEES.ACTIVITY_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :estimated_cost:
   :MIMSY: CONSERVATION_FEES.ESTIMATED_COST
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :actual_cost:
   :MIMSY: CONSERVATION_FEES.ACTUAL_COST
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: CONSERVATION_FEES.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -11,9 +11,9 @@
   :instructions: 'Not mapped. Foreign key to Medium.id'
 :media:
   :MIMSY: EXHIBITIONS_MEDIA.MEDIA
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'MulMultiMediaRef_tab'
+  :instructions: 'Use Medium.id = Exhibition.medium_id association to attach Multimedia record'
 :exhibition_id:
   :MIMSY: EXHIBITIONS_MEDIA.EKEY
   :module: ''
@@ -23,4 +23,4 @@
   :MIMSY: EXHIBITIONS_MEDIA.EXHIBITION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

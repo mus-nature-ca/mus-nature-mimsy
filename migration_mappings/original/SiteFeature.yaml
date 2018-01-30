@@ -6,14 +6,14 @@
   :instructions: 'Not mapped. Foreign key to Site.id'
 :feature_type:
   :MIMSY: SITE_FEATURES.FEATURE_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Site Feature: " + SiteFeature.feature_type + "; Note: " + SiteFeature.note'
 :note:
   :MIMSY: SITE_FEATURES.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteFeature.feature_type for mapping instructions'
 :id:
   :MIMSY: SITE_FEATURESAKEY
   :module: ''

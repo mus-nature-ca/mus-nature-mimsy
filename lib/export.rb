@@ -211,6 +211,7 @@ class Export
         "id_date",
         "type_status",
         "higher_taxa",
+        "all_dets",
         "count",
         "sex",
         "coll_num",
@@ -231,17 +232,20 @@ class Export
 
     catalogs = catalogs.split(",").map(&:strip)
 
-    Parallel.map(catalogs.in_groups_of(40, false), progress: "Catalogs", in_processes: processes) do |group|
+    Parallel.map(catalogs.in_groups_of(20, false), progress: "Catalogs", in_processes: processes) do |group|
       CSV.open(@dir + "/catalog_exports.csv", 'a') do |csv|
         group.each do |id|
           catalog = Catalog.find_by_catalog_number(id)
           id_number = catalog.catalog_number
           label_name = catalog.scientific_name
-          taxon_link = catalog.catalog_taxa.first.scientific_name rescue nil
-          ident = catalog.catalog_taxa.first.identified_by rescue nil
-          id_date = catalog.catalog_taxa.first.date_identified.to_s rescue nil
-          type_status = catalog.catalog_taxa.first.type_status rescue nil
-          higher_taxa = catalog.catalog_taxa.first.higher_taxonomy rescue nil
+          ct = catalog.catalog_taxa
+          ct_first = ct.first
+          taxon_link = ct_first.scientific_name rescue nil
+          ident = ct_first.identified_by rescue nil
+          id_date = ct_first.date_identified.to_s rescue nil
+          type_status = ct_first.type_status rescue nil
+          higher_taxa = ct_first.higher_taxonomy rescue nil
+          all_dets = ct.map{|d| "#{d.scientific_name} % #{d.identified_by} % #{d.date_identified}" }.join(" | ")
           count = catalog.item_count.to_s
           sex = catalog.sex
           coll_num = catalog.other_numbers.map{|other| other.other_number if other.on_type == "collector no./field no."}.first.to_s rescue nil
@@ -251,13 +255,15 @@ class Export
           spec_nature = catalog.specimen_nature
           description = catalog.description
           acq_number = catalog.acquisition_number.to_s
-          site_desc = catalog.sites.first.description rescue nil
-          altitude = catalog.sites.first.elevation.to_s rescue nil
-          lat = catalog.sites.first.start_latitude_dec.to_f rescue nil
-          long = catalog.sites.first.start_longitude_dec.to_f rescue nil
-          #p_s = catalog.sites.first.decimal_is_primary? ? "P" : "S" rescue nil
-          site_notes = catalog.sites.first.recommendations rescue nil
+          st = catalog.sites.first
+          site_desc = st.description rescue nil
+          altitude = st.elevation.to_s rescue nil
+          lat = st.start_latitude_dec.to_f rescue nil
+          long = st.start_longitude_dec.to_f rescue nil
+          #p_s = st.decimal_is_primary? ? "P" : "S" rescue nil
+          site_notes = st.recommendations rescue nil
           home_loc = catalog.home_location
+
           csv << [
             id_number,
             label_name,
@@ -266,6 +272,7 @@ class Export
             id_date,
             type_status,
             higher_taxa,
+            all_dets,
             count,
             sex,
             coll_num,
@@ -282,6 +289,7 @@ class Export
             site_notes,
             home_loc
           ]
+
         end
       end
     end

@@ -3,18 +3,30 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/robillard_sites_test.txt"
+file = "/Users/dshorthouse/Desktop/Pedicularis Data (Erin - August 2015) for David_Sites.txt"
+
+PARSED_COORDS = {}
+
+def parse_coord(input)
+  (/(\d+)°(\d+\')?(\d+\")?\s+([NSEW])/).match(input) do |m|
+    type = (m[4] == "N" || m[4] == "S") ? "start latitude" : "start longitude"
+    PARSED_COORDS[type] = {
+      degrees: m[1].to_f,
+      minutes: m[2].to_f,
+      seconds: m[3].to_f,
+      direction: m[4]
+    }
+  end
+end
 
 def coord_convert_dd(input)
   coord = input
-  (/(\d+) (\d+\s)?(\d+|\d+[,.]\d+)\s([NSEW])/).match(input) do |m|
-    if m[2].nil?
-      coord = m[1].to_f + m[3].to_f/60
-    else
+    if !input.include?("-")
+    (/(\d+)°(\d+\')?(\d+\")?\s+([NSEW])/).match(input) do |m|
       coord = m[1].to_f + m[2].to_f/60 + m[3].to_f/3600
-    end
-    if m[4] == "S" || m[4] == "W"
-      coord = -coord
+      if m[4] == "S" || m[4] == "W"
+        coord = -coord
+      end
     end
   end
   coord
@@ -22,17 +34,21 @@ end
 
 def coord_convert_symbols(input)
   coord = input
-  (/(\d+) (\d+\s)?(\d+|\d+[,.]\d+)\s([NSEW])/).match(input) do |m|
-    deg = "#{m[1]}° "
-    min = m[2].nil? ? "#{m[3]}' " : "#{m[2]}' "
-    sec = m[2].nil? ? "" : "#{m[3]}\" "
-    card = m[4]
-    coord = deg+min+sec+card
+  if !input.include?("-")
+    (/(\d+)°(\d+\')?(\d+\")?\s+([NSEW])/).match(input) do |m|
+      deg = "#{m[1]}° "
+      min = m[2].nil? ? "" : "#{m[2]} "
+      sec = m[3].nil? ? "" : "#{m[3]} "
+      card = m[4]
+      coord = deg+min+sec+card
+    end
   end
   coord
 end
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
+
+  puts row["SITES.SITE_ID"]
 
   #create new site record
   site = Site.new
@@ -44,37 +60,40 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   site.site_date = row["SITES.SITE_DATE"].strip rescue nil
   site.description = row["SITES.DESCRIPTION"].strip rescue nil
   site.register_status = row["SITES.REGISTER_STATUS"].strip rescue nil
+  site.location = row["SITES.LOCATION"].strip rescue nil
+  site.note = row["SITES.NOTE"] rescue nil
 
   site.recommendations = row["SITES.RECOMMENDATIONS"].strip rescue nil
-  site.start_latitude = row["SITES.START_LATITUDE"].strip.gsub(/([NEWS])/, ' \1') rescue nil
-  site.start_latitude_dec = row["SITES.START_LATITUDE"].strip.to_f rescue nil
-  site.start_longitude = row["SITES.START_LONGITUDE"].strip.gsub(/([NEWS])/, ' \1') rescue nil
-  site.start_longitude_dec = row["SITES.START_LONGITUDE"].strip.to_f rescue nil
+  site.start_latitude = row["SITES.START_LATITUDE"].strip rescue nil
+  site.start_latitude_dec = nil
+  site.start_longitude = row["SITES.START_LONGITUDE"].strip rescue nil
+  site.start_longitude_dec = nil
   site.location_accuracy = row["SITES.LOCATION_ACCURACY"].strip rescue nil
+  site.archaeological_status = row["SITES.ARCHAEOLOGICAL_STATUS"].strip rescue nil
 
+  site.publish = true
   coord_is_ll = false
 
   orig_lat = site.start_latitude.dup if !site.start_latitude.nil?
   orig_lng = site.start_longitude.dup if !site.start_longitude.nil?
 
-  if !site.start_latitude.nil? && (/[NEWS]/).match(site.start_latitude) 
-    && !site.location_accuracy.nil? && site.location_accuracy.include?("secondary(LL)")
-    site.start_latitude_dec = coord_convert_dd(site.start_latitude)
-    site.start_longitude_dec = coord_convert_dd(site.start_longitude)
-    coord_is_ll = true
+  parse_coord(orig_lat)
+  parse_coord(orig_lng)
+
+  if !site.start_latitude.nil? && 
+     !site.start_longitude.nil? &&
+     !site.start_latitude.include?("-") &&
+     !site.start_longitude.include?("-") &&
+     (/[NEWS]/).match(site.start_latitude) && 
+     !site.location_accuracy.nil? && 
+     site.location_accuracy.include?("secondary(LL)")
+
+      site.start_latitude_dec = coord_convert_dd(site.start_latitude)
+      site.start_longitude_dec = coord_convert_dd(site.start_longitude)
+      coord_is_ll = true
   end
 
-  if !site.start_latitude_dec.nil? && !site.start_longitude_dec.nil?
-    site.decimal_is_primary = true
-  end
-
-  site.publish = true
-  site.location = row["SITES.LOCATION"].strip rescue nil
-  site.note = row["SITES.NOTE"] rescue nil
-
-  byebug
-  puts ""
-
+  site.decimal_is_primary = true
   site.save
 
   #query for created site - damn Oracle!
@@ -88,6 +107,13 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
     site.save
     
     site.reload
+    site.decimal_is_primary = false
+    site.save
+  end
+
+  if !site.start_latitude.nil? &&
+     !site.start_longitude.nil? && 
+     (site.start_latitude.include?("-") || site.start_longitude.include?("-"))
     site.decimal_is_primary = false
     site.save
   end
@@ -107,6 +133,11 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
     if !site.decimal_is_primary
       coord.decimal_is_primary = false
     end
+    parsed = PARSED_COORDS[coord.coord_type]
+    coord.degrees = parsed[:degrees]
+    coord.minutes = parsed[:minutes]
+    coord.seconds = parsed[:seconds]
+    coord.direction = parsed[:direction]
     coord.save
   end
 

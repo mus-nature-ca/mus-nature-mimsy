@@ -13,39 +13,39 @@
   :MIMSY: LEGAL_STATUS.CURRENT_RECORD
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :legal_status:
   :MIMSY: LEGAL_STATUS.LEGAL_STATUS
   :module: 'ecatalogue'
   :column: 'ManLegalStatus'
-  :instructions: ''
+  :instructions: 'Also create and attach a Rights record, populate erights::RigStatus'
 :status_date:
   :MIMSY: LEGAL_STATUS.STATUS_DATE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'LegDateGranted0'
   :instructions: ''
 :owner:
   :MIMSY: LEGAL_STATUS.OWNER
-  :module: ''
-  :column: ''
+  :module: 'erights'
+  :column: 'RigOwnership'
   :instructions: ''
 :physical_holder:
   :MIMSY: LEGAL_STATUS.PHYSICAL_HOLDER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'If CatalogLegalStatus.current_record = true, append to field & prefix with "Legal Status Physical Holder: "'
 :department:
   :MIMSY: LEGAL_STATUS.DEPARTMENT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :collection:
   :MIMSY: LEGAL_STATUS.COLLECTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: LEGAL_STATUS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'If CatalogLegalStatus.current_record = true, append to field & prefix with "Legal Status Note: "'

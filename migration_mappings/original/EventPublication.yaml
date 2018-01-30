@@ -18,14 +18,14 @@
   :MIMSY: EVENTS_PUBLICATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :illustrated:
   :MIMSY: EVENTS_PUBLICATIONS.ILLUSTRATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publication:
   :MIMSY: EVENTS_PUBLICATIONS.PUBLICATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'EveBibliography_tab'
+  :instructions: 'Attach bibiographic record by following the Publication.id = EventPublication.publication_id association.'

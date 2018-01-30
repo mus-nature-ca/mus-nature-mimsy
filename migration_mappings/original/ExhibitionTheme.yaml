@@ -11,41 +11,41 @@
   :instructions: 'Not mapped. Foreign key to Exhibition.id'
 :theme_section:
   :MIMSY: EXHIBITION_THEMES.THEME_SECTION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'NotNotes'
+  :instructions: 'Use Exhibition.id = ExhibitionTheme.event_id association. Append to field and prefix with "Theme: " when present'
 :theme_sub1:
   :MIMSY: EXHIBITION_THEMES.THEME_SUB1
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'NotNotes'
+  :instructions: 'Use Exhibition.id = ExhibitionTheme.event_id association. Append to field and prefix with "Subtheme: " when present'
 :theme_sub2:
   :MIMSY: EXHIBITION_THEMES.THEME_SUB2
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'NotNotes'
+  :instructions: 'Use Exhibition.id = ExhibitionTheme.event_id association. Append to field and prefix with "Subtheme: " when present'
 :theme_sub3:
   :MIMSY: EXHIBITION_THEMES.THEME_SUB3
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'NotNotes'
+  :instructions: 'Use Exhibition.id = ExhibitionTheme.event_id association. Append to field and prefix with "Subtheme: " when present'
 :theme_sub4:
   :MIMSY: EXHIBITION_THEMES.THEME_SUB4
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'NotNotes'
+  :instructions: 'Use Exhibition.id = ExhibitionTheme.event_id association. Append to field and prefix with "Subtheme: " when present'
 :theme_sub5:
   :MIMSY: EXHIBITION_THEMES.THEME_SUB5
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'NotNotes'
+  :instructions: 'Use Exhibition.id = ExhibitionTheme.event_id association. Append to field and prefix with "Subtheme: " when present'
 :description:
   :MIMSY: EXHIBITION_THEMES.DESCRIPTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :location:
   :MIMSY: EXHIBITION_THEMES.LOCATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

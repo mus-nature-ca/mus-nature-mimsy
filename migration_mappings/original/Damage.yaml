@@ -8,114 +8,114 @@
   :MIMSY: DAMAGE.M_ID
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Catalog.id'
+  :instructions: 'Not mapped. Foreign key to Catalog.id. Use this to create link to the Object'
 :damage_date:
   :MIMSY: DAMAGE.DAMAGE_DATE
-  :module: ''
-  :column: ''
+  :module: 'econdition'
+  :column: 'ConDateChecked'
   :instructions: ''
 :recorded_by:
   :MIMSY: DAMAGE.RECORDED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :location:
   :MIMSY: DAMAGE.LOCATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append content to field prefixed by "Location: " when present'
 :damaged_by:
   :MIMSY: DAMAGE.DAMAGED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append content to field prefixed by "Damaged by: " when present'
 :cause:
   :MIMSY: DAMAGE.CAUSE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append content to field prefixed by "Cause: " when present'
 :description:
   :MIMSY: DAMAGE.DESCRIPTION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append content to field prefixed by "Description: " when present. Populate econdition::ConConditionStatus with "unknown" and econdition::ConEvidentDamage = "Yes" when present'
 :note:
   :MIMSY: DAMAGE.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append content to field prefixed by "Note: " when present'
 :action_taken:
   :MIMSY: DAMAGE.ACTION_TAKEN
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append content to field prefixed by "Action Taken: " when present'
 :create_date:
   :MIMSY: DAMAGE.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: DAMAGE.CREATED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econdition'
+  :column: 'ConConditionDetails'
+  :instructions: 'Append content to field prefixed by "Created By: " when present'
 :update_date:
   :MIMSY: DAMAGE.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: DAMAGE.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option1:
   :MIMSY: DAMAGE.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option2:
   :MIMSY: DAMAGE.OPTION2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date1:
   :MIMSY: DAMAGE.DATE1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date2:
   :MIMSY: DAMAGE.DATE2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number1:
   :MIMSY: DAMAGE.NUMBER1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number2:
   :MIMSY: DAMAGE.NUMBER2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: DAMAGE.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: DAMAGE.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :external_file:
   :MIMSY: DAMAGE.EXTERNAL_FILE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :record_view:
   :MIMSY: DAMAGE.RECORD_VIEW
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

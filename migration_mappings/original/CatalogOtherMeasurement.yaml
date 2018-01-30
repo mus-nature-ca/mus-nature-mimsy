@@ -11,36 +11,36 @@
   :instructions: 'Not mapped. Foreign key to Catalog.id'
 :part_measured:
   :MIMSY: OTHER_MEASUREMENTS.PART_MEASURED
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'MeaMeasurementOf_tab'
   :instructions: ''
 :type:
   :MIMSY: OTHER_MEASUREMENTS.OM_TYPE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'MeaMeasurementType_tab'
   :instructions: ''
 :measurement:
   :MIMSY: OTHER_MEASUREMENTS.MEASUREMENT
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartValue_tab'
   :instructions: ''
 :unit:
   :MIMSY: OTHER_MEASUREMENTS.UNIT
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartUnit_tab'
   :instructions: ''
 :size:
   :MIMSY: OTHER_MEASUREMENTS.SIZE_MEASURE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartValue_tab'
+  :instructions: 'Create a new measurement record with ecatalogue::MeaMeasurementType_tab = "size"'
 :note:
   :MIMSY: OTHER_MEASUREMENTS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaMeasurementNotes'
+  :instructions: 'Append to field'
 :prior_attribution:
   :MIMSY: OTHER_MEASUREMENTS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

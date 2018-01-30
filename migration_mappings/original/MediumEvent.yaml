@@ -18,9 +18,9 @@
   :MIMSY: MEDIA_EVENTS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :event:
   :MIMSY: MEDIA_EVENTS.EVENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'MulMultiMediaRef_tab'
+  :instructions: 'Attach multimedia record(s) through Medium.id = MediumEvent.medium_id and Event.id = MediumEvent.event_id associations'

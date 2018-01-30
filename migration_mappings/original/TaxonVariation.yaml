@@ -11,51 +11,51 @@
   :instructions: 'Not mapped. Foreign key to Taxon.id'
 :scientific_name:
   :MIMSY: TAXONOMY_VARIATIONS.VARIATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'SynName_tab'
+  :instructions: 'All taxa in TaxonVariation must also have Taxonony records and linked as synonyms to the related Taxon record through their TaxonVariation.taxon_id = Taxon.id association. So, this field is also etaxonomy::ClaScientificName and when the Taxon record is created, etaxonomy::ClaCurrentlyAccepted  = false and the accepted Taxon record linked through taxon_id is link to populate etaxonomy::ClaCurrentName.'
 :variation_type:
   :MIMSY: TAXONOMY_VARIATIONS.VAR_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'SynKind_tab'
+  :instructions: 'Specify this synonym type for the accepted/valid name'
 :attribution_type:
   :MIMSY: TAXONOMY_VARIATIONS.ATTRIB_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'NotNotes'
+  :instructions: 'When creating the currently unaccepted Taxon record for this entry, append with the prefix "Attribution Type: "'
 :attributor:
   :MIMSY: TAXONOMY_VARIATIONS.ATTRIBUTOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'NotNotes'
+  :instructions: 'When creating the currently unaccepted Taxon record for this entry, append with the prefix "Attributor: "'
 :attribution_date:
   :MIMSY: TAXONOMY_VARIATIONS.ATTRIB_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'NotNotes'
+  :instructions: 'When creating the currently unaccepted Taxon record for this entry, append with the prefix "Attribution Date: "'
 :attribution_source:
   :MIMSY: TAXONOMY_VARIATIONS.ATTRIB_SOURCE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'NotNotes'
+  :instructions: 'When creating the currently unaccepted Taxon record for this entry, append with the prefix "Attribution Source: "'
 :attribution_comment:
   :MIMSY: TAXONOMY_VARIATIONS.ATTRIB_COMMENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'NotNotes'
+  :instructions: 'When creating the currently unaccepted Taxon record for this entry, append with the prefix "Attribution Comment: "'
 :note:
   :MIMSY: TAXONOMY_VARIATIONS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'NotNotes'
+  :instructions: 'When creating the currently unaccepted Taxon record for this entry, append with the prefix "Note: "'
 :prior_attribution:
   :MIMSY: TAXONOMY_VARIATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :authority:
   :MIMSY: TAXONOMY_VARIATIONS.AUTHORITY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'SynAuthority_tab'
+  :instructions: 'When creating the currently unaccepted Taxon record for this entry, parse and populate fields in the Authors tab is done for Taxon.authority'

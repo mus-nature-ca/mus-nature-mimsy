@@ -18,14 +18,14 @@
   :MIMSY: MEDIA_PEOPLE.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: MEDIA_PEOPLE.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :name:
   :MIMSY: MEDIA_PEOPLE.NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped, but see Medium.captured_by for use.'

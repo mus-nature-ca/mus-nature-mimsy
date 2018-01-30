@@ -18,24 +18,24 @@
   :MIMSY: ITEMS_EVENTS.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :begin_date:
   :MIMSY: ITEMS_EVENTS.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: ITEMS_EVENTS.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: ITEMS_EVENTS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :event:
   :MIMSY: ITEMS_EVENTS.EVENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'ObjAttachedObjects_tab'
+  :instructions: 'Attach Catalog record to parent Event record through CatalogEvent.event_id = Event.id association.'

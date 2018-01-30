@@ -13,84 +13,84 @@
   :MIMSY: DATE_COLLECTED.PRIOR_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_text:
   :MIMSY: DATE_COLLECTED.DATE_TEXT
-  :module: ''
-  :column: ''
+  :module: 'ecollectionevents'
+  :column: 'ColVerbatimDate'
   :instructions: ''
 :date_type:
   :MIMSY: DATE_COLLECTED.DATE_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :earliest_year:
   :MIMSY: DATE_COLLECTED.EARLIEST_YEAR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :latest_year:
   :MIMSY: DATE_COLLECTED.LATEST_YEAR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :earliest_monthday:
   :MIMSY: DATE_COLLECTED.EARLIEST_MONTHDAY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :latest_monthday:
   :MIMSY: DATE_COLLECTED.LATEST_MONTHDAY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :century:
   :MIMSY: DATE_COLLECTED.CENTURY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :period_era:
   :MIMSY: DATE_COLLECTED.PERIOD_ERA
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Date Collected Period: "'
 :attribution_type:
   :MIMSY: DATE_COLLECTED.ATTRIB_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Date Collected Attribution Type: "'
 :attributor:
   :MIMSY: DATE_COLLECTED.ATTRIBUTOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Date Collected Attributor: "'
 :attribution_date:
   :MIMSY: DATE_COLLECTED.ATTRIB_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Date Collected Attribution Date: "'
 :attribution_source:
   :MIMSY: DATE_COLLECTED.ATTRIB_SOURCE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Date Collected Attribution Source: "'
 :certainty:
   :MIMSY: DATE_COLLECTED.CERTAINTY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'ColOtherNumbers_tab'
+  :instructions: 'Also place "Collection Date Certainty" in ecollectionevents::ColOtherNumbersDescription_tab'
 :note:
   :MIMSY: DATE_COLLECTED.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Date Collected Note: "'
 :collection_method:
   :MIMSY: DATE_COLLECTED.COLLECTION_METHOD
-  :module: ''
-  :column: ''
+  :module: 'ecollectionevents'
+  :column: 'ColCollectionMethod'
   :instructions: ''
 :context:
   :MIMSY: DATE_COLLECTED.COLLECTION_POSITION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Date Collected Context: "'

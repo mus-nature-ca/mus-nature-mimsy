@@ -8,17 +8,17 @@
   :MIMSY: INSURANCE.RECORD_VIEW
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :record_type:
   :MIMSY: INSURANCE.RECORD_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :policy_number:
   :MIMSY: INSURANCE.POLICY_NUMBER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :person_id:
   :MIMSY: INSURANCE.LINK_ID
   :module: ''
@@ -28,174 +28,174 @@
   :MIMSY: INSURANCE.NVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :insured_by:
   :MIMSY: INSURANCE.INSURED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contact:
   :MIMSY: INSURANCE.CONTACT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :address:
   :MIMSY: INSURANCE.ADDRESS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :phone:
   :MIMSY: INSURANCE.PHONE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :fax:
   :MIMSY: INSURANCE.FAX
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :email:
   :MIMSY: INSURANCE.EMAIL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :request_by:
   :MIMSY: INSURANCE.REQUEST_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :request_date:
   :MIMSY: INSURANCE.REQUEST_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :authorized_by:
   :MIMSY: INSURANCE.AUTHORIZED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_authorized:
   :MIMSY: INSURANCE.DATE_AUTHORIZED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :begin_date:
   :MIMSY: INSURANCE.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: INSURANCE.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status:
   :MIMSY: INSURANCE.STATUS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status_date:
   :MIMSY: INSURANCE.STATUS_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :insurance_reason:
   :MIMSY: INSURANCE.INSURANCE_REASON
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :general_liability:
   :MIMSY: INSURANCE.GENERAL_LIABILITY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :general_currency:
   :MIMSY: INSURANCE.GENERAL_CURRENCY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :minimum_liability:
   :MIMSY: INSURANCE.MINIMUM_LIABILITY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :minimum_currency:
   :MIMSY: INSURANCE.MINIMUM_CURRENCY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :renewal_history:
   :MIMSY: INSURANCE.RENEWAL_HISTORY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :external_file:
   :MIMSY: INSURANCE.EXTERNAL_FILE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: INSURANCE.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option1:
   :MIMSY: INSURANCE.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option2:
   :MIMSY: INSURANCE.OPTION2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number1:
   :MIMSY: INSURANCE.NUMBER1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number2:
   :MIMSY: INSURANCE.NUMBER2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date1:
   :MIMSY: INSURANCE.DATE1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date2:
   :MIMSY: INSURANCE.DATE2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: INSURANCE.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: INSURANCE.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: INSURANCE.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: INSURANCE.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: INSURANCE.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: INSURANCE.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

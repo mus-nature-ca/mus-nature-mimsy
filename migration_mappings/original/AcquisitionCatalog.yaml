@@ -6,111 +6,111 @@
   :instructions: 'Not mapped'
 :acquisition_id:
   :MIMSY: ACQUISITION_ITEMS.AKEY
-  :module: ''
-  :column: ''
-  :instructions: 'Not mapped. Foreign key to Acquisition.id'
+  :module: 'ecatalogue'
+  :column: 'AccAccessionLot'
+  :instructions: 'Not mapped. Foreign key to Acquisition.id. Attached Catalog record to Acquisition.'
 :catalog_id:
   :MIMSY: ACQUISITION_ITEMS.M_ID
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. Foreign key to Catalog.id'
+  :instructions: 'Not mapped. Foreign key to Catalog.id. Attach Catalog object to Acquisition '
 :catalog_number:
   :MIMSY: ACQUISITION_ITEMS.ID_NUMBER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description:
   :MIMSY: ACQUISITION_ITEMS.ITEM_SUMMARY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Acquisition Description: "'
 :status:
   :MIMSY: ACQUISITION_ITEMS.STATUS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Acquisition Status: "'
 :status_date:
   :MIMSY: ACQUISITION_ITEMS.STATUS_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Acquisition Status: "'
 :accession_date:
   :MIMSY: ACQUISITION_ITEMS.ACCESSION_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Acquisition Date: "'
 :title_transfer_requested:
   :MIMSY: ACQUISITION_ITEMS.TITLE_TRANSFER_REQUESTED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :transfer_date:
   :MIMSY: ACQUISITION_ITEMS.TRANSFER_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :total_cost:
   :MIMSY: ACQUISITION_ITEMS.TOTAL_COST
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :item_marked:
   :MIMSY: ACQUISITION_ITEMS.ITEM_MARKED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Acquisition Item Marked: "'
 :marking_method:
   :MIMSY: ACQUISITION_ITEMS.MARKING_METHOD
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Acquisition Marking Method: "'
 :reproduction_requested:
   :MIMSY: ACQUISITION_ITEMS.REPRODUCTION_REQUESTED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: ACQUISITION_ITEMS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Acquisition Note: "'
 :flag1:
   :MIMSY: ACQUISITION_ITEMS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: ACQUISITION_ITEMS.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalogued:
   :MIMSY: ACQUISITION_ITEMS.CATALOGUED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :id_sort:
   :MIMSY: ACQUISITION_ITEMS.ID_SORT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: ACQUISITION_ITEMS.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: ACQUISITION_ITEMS.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: ACQUISITION_ITEMS.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: ACQUISITION_ITEMS.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

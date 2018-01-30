@@ -18,9 +18,9 @@
   :MIMSY: SITES_MEDIA.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media:
   :MIMSY: SITES_MEDIA.MEDIA
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'MulMultiMediaRef_tab'
+  :instructions: 'Attach multimedia record(s) through SiteMedium.id = Site.id and SiteMedium.medium_id = Medium.id associations'

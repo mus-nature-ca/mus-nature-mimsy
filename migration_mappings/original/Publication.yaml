@@ -6,169 +6,169 @@
   :instructions: 'Not mapped'
 :language:
   :MIMSY: PUBLICATIONS.LANGUAGE
-  :module: ''
+  :module: 'ebibliography'
   :column: ''
-  :instructions: ''
+  :instructions: 'Column for language dependent on the publication_type. For example, a publication_type = "journal article", the mapped field would be "JouPublicationLanguage"'
 :publication_type:
   :MIMSY: PUBLICATIONS.PUB_TYPE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'BibRecordType'
+  :instructions: 'Map to existing BibRecordType as best as possible. Anything not remotely similar, choose "Other"'
 :exhibit_catalogue:
   :MIMSY: PUBLICATIONS.EXHIBIT_CATALOGUE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :title:
   :MIMSY: PUBLICATIONS.TITLE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'ArtTitle'
+  :instructions: 'Mapped field depends on value of publication_type. For example, a publication_type = "book", the mapped field is instead ebibliography::BooTitle'
 :brief_title:
   :MIMSY: PUBLICATIONS.BRIEF_TITLE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'BooAbbreviatedTitle'
+  :instructions: 'Mapped field depends on value of publication_type where option exists. For example, a publication_type = "book", the mapped field is instead ebibliography::BooAbbreviatedTitle'
 :sort_name:
   :MIMSY: PUBLICATIONS.SORT_NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :title_statement:
   :MIMSY: PUBLICATIONS.TITLE_STATEMENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field and prefix with "Title Statement: "'
 :series_title:
   :MIMSY: PUBLICATIONS.SERIES_TITLE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'ArtParent'
+  :instructions: 'Mapped field depends on value of publication_type. There are no pre-existing journal entries here. So for example, if the series title is that of a journal title, then a Bibliography record must be created and/or mapped as a type Journal.'
 :author:
   :MIMSY: PUBLICATIONS.AUTHOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'ArtAuthors_tab'
+  :instructions: 'Parse entries here with semicolons and ampersands used as separator and create/link Party records as required. The first author in the list should have ArtRole_tab = "First Author" (field depends on the publication type of course)'
 :editor:
   :MIMSY: PUBLICATIONS.EDITOR
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'ArtAuthors_tab'
+  :instructions: 'Parse entries here with semicolons and ampersands used as separator and create/link Party records as required. Authors in the list should have ArtRole_tab = "Editor" (field depends on the publication type of course)'
 :published:
   :MIMSY: PUBLICATIONS.PUBLISHED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'If published = false, append to field with statement "Not published"'
 :publisher:
   :MIMSY: PUBLICATIONS.PUBLISHER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'BooPublishedBy'
+  :instructions: 'Mapped field depends on value of publication_type. Mapping here is provided for publication_type = "book", but this mapping will be different for publication_type = "article".'
 :publication_date:
   :MIMSY: PUBLICATIONS.PUBLICATION_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'BooPublicationDate'
+  :instructions: 'Mapped field depends on value of publication_type.'
 :year_published:
   :MIMSY: PUBLICATIONS.YEAR_PUBLISHED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :place_published:
   :MIMSY: PUBLICATIONS.PLACE_PUBLISHED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'BooPublicationCity'
+  :instructions: 'Mapped field depends on value of publication_type and where a destination field exists for the publication_type. If none exists for a publication_type, append to ebibliography::NotNotes with "Place Published:" '
 :citation:
   :MIMSY: PUBLICATIONS.CITATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Citation: "'
 :volume:
   :MIMSY: PUBLICATIONS.VOLUME
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'ArtVolume'
+  :instructions: 'Mapped field depends on value of publication_type. For example, a publication_type = "book", the mapped field is instead ebibliography::BooVolume'
 :issue:
   :MIMSY: PUBLICATIONS.ISSUE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'ArtIssue'
+  :instructions: 'Mapped field depends on value of publication_type and where a destination field exists for that publication_type.'
 :edition:
   :MIMSY: PUBLICATIONS.EDITION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'BooEdition'
+  :instructions: 'Mapped field depends on value of publication_type and where a destination field exists for that publication_type.'
 :volumes:
   :MIMSY: PUBLICATIONS.VOLUMES
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Total Volumes: "'
 :section:
   :MIMSY: PUBLICATIONS.SECTION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Section: "'
 :pages_tracks:
   :MIMSY: PUBLICATIONS.PAGES_TRACKS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'BooPages'
+  :instructions: 'Mapped field depends on value of publication_type and where a destination field exists for that publication_type.'
 :illustrated:
   :MIMSY: PUBLICATIONS.ILLUSTRATED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Illustrated: "'
 :subject_headings:
   :MIMSY: PUBLICATIONS.SUBJECT_HEADINGS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Subject Headings: "'
 :description:
   :MIMSY: PUBLICATIONS.DESCRIPTION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Description: "'
 :abstract:
   :MIMSY: PUBLICATIONS.ABSTRACT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Abstract: "'
 :url:
   :MIMSY: PUBLICATIONS.URL
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "URL: "'
 :issn_isbn:
   :MIMSY: PUBLICATIONS.ISSN_ISBN
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'BooISBN'
+  :instructions: 'Mapped field depends on value of publication_type and where a destination field exists for that publication_type.'
 :on_site:
   :MIMSY: PUBLICATIONS.ON_SITE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "On Site: "'
 :location:
   :MIMSY: PUBLICATIONS.LOCATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Location: "'
 :locator_number:
   :MIMSY: PUBLICATIONS.LOCATOR_NUMBER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Call Number: "'
 :system_number:
   :MIMSY: PUBLICATIONS.SYSTEM_NUMBER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Other Number: "'
 :note:
   :MIMSY: PUBLICATIONS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ebibliography'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Note: "'
 :publish:
   :MIMSY: PUBLICATIONS.PUBLISH
   :module: 'ebibliography'
@@ -178,34 +178,34 @@
   :MIMSY: PUBLICATIONS.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: PUBLICATIONS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: PUBLICATIONS.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: PUBLICATIONS.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: PUBLICATIONS.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: PUBLICATIONS.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: PUBLICATIONS.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

@@ -13,64 +13,64 @@
   :MIMSY: SITE_DESCRIPTIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description_type:
   :MIMSY: SITE_DESCRIPTIONS.DESCRIPTION_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description:
   :MIMSY: SITE_DESCRIPTIONS.DESCRIPTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :descript_source:
   :MIMSY: SITE_DESCRIPTIONS.DESCRIPT_SOURCE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :descript_date:
   :MIMSY: SITE_DESCRIPTIONS.DESCRIPT_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attrib_type:
   :MIMSY: SITE_DESCRIPTIONS.ATTRIB_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attributor:
   :MIMSY: SITE_DESCRIPTIONS.ATTRIBUTOR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attrib_date:
   :MIMSY: SITE_DESCRIPTIONS.ATTRIB_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attrib_source:
   :MIMSY: SITE_DESCRIPTIONS.ATTRIB_SOURCE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attrib_comment:
   :MIMSY: SITE_DESCRIPTIONS.ATTRIB_COMMENT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :certainty:
   :MIMSY: SITE_DESCRIPTIONS.CERTAINTY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :step:
   :MIMSY: SITE_DESCRIPTIONS.STEP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: SITE_DESCRIPTIONS.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

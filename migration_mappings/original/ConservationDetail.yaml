@@ -11,31 +11,31 @@
   :instructions: 'Not mapped. Foreign key to Conservation.id'
 :material:
   :MIMSY: CONSERVATION_DETAILS.MATERIAL
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'TreDetailedTreatment'
+  :instructions: 'Append to field, prefix with "Material: "'
 :area_applied:
   :MIMSY: CONSERVATION_DETAILS.AREA_APPLIED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'TreDetailedTreatment'
+  :instructions: 'Append to field, prefix with "Area Applied: "'
 :applied_by:
   :MIMSY: CONSERVATION_DETAILS.APPLIED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'TreTreatedBy_tab'
+  :instructions: 'Attach and/or create Party record'
 :date_applied:
   :MIMSY: CONSERVATION_DETAILS.DATE_APPLIED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'TreDetailedTreatment'
+  :instructions: 'Append to field, prefix with "Date Applied: "'
 :date_removed:
   :MIMSY: CONSERVATION_DETAILS.DATE_REMOVED
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'TreDetailedTreatment'
+  :instructions: 'Append to field, prefix with "Date Removed: "'
 :note:
   :MIMSY: CONSERVATION_DETAILS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'econservation'
+  :column: 'TreDetailedTreatment'
+  :instructions: 'Append to field, prefix with "Note: "'

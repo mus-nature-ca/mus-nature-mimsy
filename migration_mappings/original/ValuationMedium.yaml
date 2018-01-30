@@ -13,7 +13,7 @@
   :MIMSY: VALUATION_MEDIA.MEDIA
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: VALUATION_MEDIA.M_ID
   :module: ''
@@ -23,7 +23,7 @@
   :MIMSY: VALUATION_MEDIA.OBJECT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :valuation_id:
   :MIMSY: VALUATION_MEDIA.TRANS_ID
   :module: ''
@@ -33,29 +33,29 @@
   :MIMSY: VALUATION_MEDIA.VALUATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :relationship:
   :MIMSY: VALUATION_MEDIA.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :begin_date:
   :MIMSY: VALUATION_MEDIA.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: VALUATION_MEDIA.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :step:
   :MIMSY: VALUATION_MEDIA.STEP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: VALUATION_MEDIA.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

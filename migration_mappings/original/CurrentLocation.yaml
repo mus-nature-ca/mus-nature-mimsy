@@ -18,154 +18,154 @@
   :MIMSY: CURRENT_LOCATION.CURRENT_RECORD
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :future_commit:
   :MIMSY: CURRENT_LOCATION.FUTURE_COMMIT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :location:
   :MIMSY: CURRENT_LOCATION.LOCATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :loc_level1:
   :MIMSY: CURRENT_LOCATION.LOC_LEVEL1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :loc_level2:
   :MIMSY: CURRENT_LOCATION.LOC_LEVEL2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :loc_level3:
   :MIMSY: CURRENT_LOCATION.LOC_LEVEL3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :loc_level4:
   :MIMSY: CURRENT_LOCATION.LOC_LEVEL4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :location_date:
   :MIMSY: CURRENT_LOCATION.LOCATION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :expected_end:
   :MIMSY: CURRENT_LOCATION.EXPECTED_END
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :last_location:
   :MIMSY: CURRENT_LOCATION.LAST_LOCATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :last_level1:
   :MIMSY: CURRENT_LOCATION.LAST_LEVEL1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :last_level2:
   :MIMSY: CURRENT_LOCATION.LAST_LEVEL2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :last_level3:
   :MIMSY: CURRENT_LOCATION.LAST_LEVEL3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :last_level4:
   :MIMSY: CURRENT_LOCATION.LAST_LEVEL4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :purpose:
   :MIMSY: CURRENT_LOCATION.PURPOSE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :inventory_status:
   :MIMSY: CURRENT_LOCATION.INVENTORY_STATUS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status_date:
   :MIMSY: CURRENT_LOCATION.STATUS_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :requested_by:
   :MIMSY: CURRENT_LOCATION.REQUESTED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :request_date:
   :MIMSY: CURRENT_LOCATION.REQUEST_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :authorized_by:
   :MIMSY: CURRENT_LOCATION.AUTHORIZED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :job_number:
   :MIMSY: CURRENT_LOCATION.JOB_NUMBER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :scheduled_date:
   :MIMSY: CURRENT_LOCATION.SCHEDULED_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :moved_by:
   :MIMSY: CURRENT_LOCATION.MOVED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :component_accessory:
   :MIMSY: CURRENT_LOCATION.COMPONENT_ACCESSORY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: CURRENT_LOCATION.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: CURRENT_LOCATION.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: CURRENT_LOCATION.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: CURRENT_LOCATION.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: CURRENT_LOCATION.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: CURRENT_LOCATION.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: CURRENT_LOCATION.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

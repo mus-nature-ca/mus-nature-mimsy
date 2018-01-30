@@ -12,60 +12,60 @@
 :place_id:
   :MIMSY: ITEMS_PLACES_COLLECTED.PLACEKEY
   :module: ''
-  :column: 'Not mapped. Foreign key to Place.id'
-  :instructions: ''
+  :column: ''
+  :instructions: 'Not mapped. Foreign key to Place.id'
 :specific_locale:
   :MIMSY: ITEMS_PLACES_COLLECTED.SPECIFIC_LOCALE
-  :module: ''
-  :column: ''
+  :module: 'esites'
+  :column: 'LocPreciseLocation'
   :instructions: ''
 :habitat:
   :MIMSY: ITEMS_PLACES_COLLECTED.HABITAT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'SamNotes_tab'
+  :instructions: 'Append to field, prefix with "Habitat: "'
 :relationship:
   :MIMSY: ITEMS_PLACES_COLLECTED.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :portion:
   :MIMSY: ITEMS_PLACES_COLLECTED.PORTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attributor:
   :MIMSY: ITEMS_PLACES_COLLECTED.ATTRIBUTOR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attribution_date:
   :MIMSY: ITEMS_PLACES_COLLECTED.ATTRIB_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :attribution_comment:
   :MIMSY: ITEMS_PLACES_COLLECTED.ATTRIB_COMMENT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: ITEMS_PLACES_COLLECTED.NOTE
-  :module: ''
-  :column: ''
+  :module: 'ecollectionevents'
+  :column: 'NotNotes'
   :instructions: ''
 :prior_attribution:
   :MIMSY: ITEMS_PLACES_COLLECTED.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :place_variation_id:
   :MIMSY: ITEMS_PLACES_COLLECTED.PLACEVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :place:
   :MIMSY: ITEMS_PLACES_COLLECTED.PLACE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. However, Locality Details panel in Sites is populated through several 1:many joins. See Place.name for instuctions.'

@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Lesage3-sites.txt"
+file = "/Users/dshorthouse/Desktop/Oldham-Grimm batch upload 2018-sites.txt"
 
 def coord_convert_dd(input)
   coord = input
@@ -44,10 +44,13 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
 
   site.recommendations = row["SITES.RECOMMENDATIONS"].strip rescue nil
   site.start_latitude = row["SITES.START_LATITUDE"].strip.gsub(/([NEWS])/, ' \1') rescue nil
-  site.start_latitude_dec = row["SITES.START_LATITUDE"].strip.to_f rescue nil
+  site.start_latitude_dec = row["SITES.START_LATITUDE_DEC"].strip.to_f rescue nil
   site.start_longitude = row["SITES.START_LONGITUDE"].strip.gsub(/([NEWS])/, ' \1') rescue nil
-  site.start_longitude_dec = row["SITES.START_LONGITUDE"].strip.to_f rescue nil
+  site.start_longitude_dec = row["SITES.START_LONGITUDE_DEC"].strip.to_f rescue nil
   site.location_accuracy = row["SITES.LOCATION_ACCURACY"].strip rescue nil
+  site.utm_start = row["SITES.UTM_START"] rescue nil
+  site.elevation = row["SITES.ELEVATION"] rescue nil
+  site.geodetic_datum = row["SITES.GEODETIC_DATUM"] rescue nil
 
   coord_is_ll = false
 
@@ -67,6 +70,12 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   site.environment = row["SITES.ENVIRONMENT"].strip rescue nil
   site.publish = true
   site.location = row["SITES.LOCATION"].strip rescue nil
+
+  if site.location.nil? && row["PLACES.PLACEKEY"]
+    hierarchy = Place.find(row["PLACES.PLACEKEY"]).location_hierarchy
+    site.location = hierarchy
+  end
+
   site.note = row["SITES.NOTE"] rescue nil
 
   site.save
@@ -105,11 +114,14 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   end
 
   #create other numbers
-  other_number = SiteOtherNumber.new
-  other_number.site_id = site.id
-  other_number.other_number = row["SITE_OTHER_NUMBERS.OTHER_NUMBER"].strip rescue nil
-  if !other_number.other_number.nil?
-    other_number.save
+  other_number = row["SITE_OTHER_NUMBERS.OTHER_NUMBER"].strip rescue nil
+  if !other_number.nil?
+    other_number = SiteOtherNumber.new
+    other_number.site_id = site.id
+    other_number.other_number = other_number
+    if !other_number.other_number.nil?
+      other_number.save
+    end
   end
 
   #create measurements

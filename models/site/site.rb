@@ -88,4 +88,5 @@ class Site < ActiveRecord::Base
     lngs = [minx, maxx].sort
     [lngs[0], lats[0], lngs[1], lats[1]]
   end
+
 end

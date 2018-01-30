@@ -6,24 +6,24 @@
   :instructions: 'Not mapped. Foreign key to Site.id'
 :culture:
   :MIMSY: SITE_CULTURES.CULTURE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Culture: " + SiteCulture.culture + "; Phase: " + SiteCulture.phase + "; Period: " + SiteCulture.period + "; Note: " + SiteCulture.note + " when present'
 :phase:
   :MIMSY: SITE_CULTURES.PHASE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteCulture.culture for instructions.'
 :period:
   :MIMSY: SITE_CULTURES.PERIOD
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteCulture.culture for instructions.'
 :note:
   :MIMSY: SITE_CULTURES.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped. See SiteCulture.culture for instructions.'
 :id:
   :MIMSY: SITE_CULTURESAKEY
   :module: ''

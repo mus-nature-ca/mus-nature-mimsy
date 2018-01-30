@@ -11,66 +11,66 @@
   :instructions: 'Not mapped. Foreign key to Catalog.id'
 :loss_date:
   :MIMSY: LOSS.LOSS_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionDate'
+  :instructions: 'Also make ecatalogue::DeaDeaccessionMethod = "Lost"'
 :reported_by:
   :MIMSY: LOSS.REPORTED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Append to field, prefix with "Reported By: "'
 :last_seen_by:
   :MIMSY: LOSS.LAST_SEEN_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Append to field, prefix with "Last Seen By: "'
 :location:
   :MIMSY: LOSS.LOCATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_last_seen:
   :MIMSY: LOSS.DATE_LAST_SEEN
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Append to field, prefix with "Date Last Seen: "'
 :object_found:
   :MIMSY: LOSS.OBJECT_FOUND
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :description:
   :MIMSY: LOSS.DESCRIPTION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Append to field, prefix with "Description: "'
 :create_date:
   :MIMSY: LOSS.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: LOSS.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: LOSS.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: LOSS.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: LOSS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: LOSS.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

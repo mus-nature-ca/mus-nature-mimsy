@@ -11,16 +11,16 @@
   :instructions: 'Not mapped. Foreign key to Thesaurus.id'
 :variation_type:
   :MIMSY: THESAURUS_VARIATIONS.VARIATION_TYPE
-  :module: ''
-  :column: ''
+  :module: 'ethesaurus'
+  :column: 'RelRelationshipType_tab'
   :instructions: ''
 :variation:
   :MIMSY: THESAURUS_VARIATIONS.VARIATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ethesaurus'
+  :column: 'RelRelatedTerms'
+  :instructions: 'As is done with TaxonVariation, must create Thesaurus terms in ThesaurusVariation.variation and then specify the relatedness by following Thesaurus.id = ThesaurusVariation.thesaurus_id relationship. So, the term specified here must also be created in ethesaurus::TerTerm and ethesaurus::HieThesaurus will be that of the parent term.'
 :prior_attribution:
   :MIMSY: THESAURUS_VARIATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

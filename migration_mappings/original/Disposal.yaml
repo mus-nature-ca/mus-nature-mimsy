@@ -6,111 +6,111 @@
   :instructions: 'Not mapped'
 :reference_number:
   :MIMSY: DISPOSALS.REF_NUMBER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Populate relevant Catalogue entry through the join table, DisposalCatalog. Prefix entry with "Reference Number: " when present.'
 :status:
   :MIMSY: DISPOSALS.STATUS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Populate relevant Catalogue entry through the join table, DisposalCatalog. Prefix entry with "Status: " when present. Populate ecatalogue::ManLegalStatus = "deaccessioned" when present'
 :status_date:
   :MIMSY: DISPOSALS.STATUS_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :requested_by:
   :MIMSY: DISPOSALS.REQUESTED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Populate relevant Catalogue entry through the join table, DisposalCatalog. Prefix entry with "Requested By: " when present.'
 :request_date:
   :MIMSY: DISPOSALS.REQUEST_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Populate relevant Catalogue entry through the join table, DisposalCatalog. Prefix entry with "Request Date: " when present.'
 :authorized_by:
   :MIMSY: DISPOSALS.AUTHORIZED_BY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaAuthorisedBy'
+  :instructions: 'Link and/or create Party record'
 :date_authorized:
   :MIMSY: DISPOSALS.DATE_AUTHORIZED
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDateAuthorized'
   :instructions: ''
 :method:
   :MIMSY: DISPOSALS.METHOD
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionMethod'
+  :instructions: 'Populate relevant Catalogue entry through the join table, DisposalCatalog.'
 :legal_date:
   :MIMSY: DISPOSALS.LEGAL_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionDate'
+  :instructions: 'Populate relevant Catalogue entry through the join table, DisposalCatalog.'
 :recipient:
   :MIMSY: DISPOSALS.RECIPIENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaccessionNotes'
+  :instructions: 'Populate relevant Catalogue entry through the join table, DisposalCatalog. Prefix entry with "Recipient: " when present. Also populate ecatalogue::LocCurrentLocation when present.'
 :reason:
   :MIMSY: DISPOSALS.REASON
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Populate relevant Catalogue entry through the join table, DisposalCatalog. Prefix entry with "Reason: " when present.'
 :total_requested:
   :MIMSY: DISPOSALS.TOTAL_REQUESTED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :total_approved:
   :MIMSY: DISPOSALS.TOTAL_APPROVED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :decision_reason:
   :MIMSY: DISPOSALS.DECISION_REASON
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Populate relevant Catalogue entry through the join table, DisposalCatalog. Prefix entry with "Decision Reason: " when present.'
 :external_file:
   :MIMSY: DISPOSALS.EXTERNAL_FILE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Populate relevant Catalogue entry through the join table, DisposalCatalog. Prefix entry with "External File: " when present.'
 :note:
   :MIMSY: DISPOSALS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'DeaDeaccessionNotes'
+  :instructions: 'Populate relevant Catalogue entry through the join table, DisposalCatalog. Prefix entry with "Note: " when present.'
 :flag1:
   :MIMSY: DISPOSALS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: DISPOSALS.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: DISPOSALS.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: DISPOSALS.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: DISPOSALS.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: DISPOSALS.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

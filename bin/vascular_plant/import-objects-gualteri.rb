@@ -3,8 +3,8 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Object 2017-10-iv.txt"
-log = "/Users/dshorthouse/Desktop/Object 2017-10-iv-log.csv"
+file = "/Users/dshorthouse/Desktop/Object 2017-12-i.txt"
+log = "/Users/dshorthouse/Desktop/Object 2017-12-i-log.csv"
 
 missing = []
 
@@ -25,6 +25,7 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
     if !obj.nil?
       obj.catalog_number = row["ID_NUMBER"].strip
       obj.save
+      # Add to group if names are not matched
       if obj.scientific_name != row["ITEM_NAME"].strip
         group_member = GroupMember.new
         group_member.group_id = 4575

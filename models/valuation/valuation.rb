@@ -18,7 +18,7 @@ class Valuation < ActiveRecord::Base
 
   categorical :valuation_purpose
 
-  belongs_to :catalog, primary_key: "trans_id", foreign_key: "m_id"
+  belongs_to :catalog, primary_key: "m_id", foreign_key: "m_id"
 
   has_many :media, through: :valuation_media, source: :medium
   has_many :valuation_media, foreign_key: "trans_id"

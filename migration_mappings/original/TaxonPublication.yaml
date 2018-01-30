@@ -16,24 +16,24 @@
   :instructions: 'Not mapped. Foreign key to Taxon.id'
 :relationship:
   :MIMSY: TAXONOMY_PUBLICATIONS.RELATIONSHIP
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'CitRemarks_tab'
+  :instructions: 'Append to field with prefix "Relationship: " when present'
 :note:
   :MIMSY: TAXONOMY_PUBLICATIONS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'CitRemarks_tab'
+  :instructions: 'Append to field with prefix "Note: " when present'
 :prior_attribution:
   :MIMSY: TAXONOMY_PUBLICATIONS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :illustration:
   :MIMSY: TAXONOMY_PUBLICATIONS.ILLUSTRATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'CitRemalrs_tab'
+  :instructions: 'When true, append to field with statement: "includes illustation"'
 :taxon_variation_id:
   :MIMSY: TAXONOMY_PUBLICATIONS.TAXVARKEY
   :module: ''
@@ -41,11 +41,11 @@
   :instructions: 'Not mapped. Foreign key to TaxonVariation.id'
 :publication:
   :MIMSY: TAXONOMY_PUBLICATIONS.PUBLICATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'CitCitedIn_tab'
+  :instructions: 'Not mapped. However, attach bibliographic record through the TaxonPublication.publication_id = Publication.id association.'
 :publication_date:
   :MIMSY: TAXONOMY_PUBLICATIONS.PUBLICATION_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

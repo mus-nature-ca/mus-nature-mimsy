@@ -3,11 +3,11 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/UpdateDets.txt"
-output_file = "/Users/dshorthouse/Desktop/UpdateDets-log.csv"
+file = "/Users/dshorthouse/Desktop/MXG updates 2018.01a.txt"
+output_file = "/Users/dshorthouse/Desktop/MXG updates 2018.01a-log.csv"
   
 CSV.open(output_file, 'w') do |csv|
-  csv << ["ID Number", "Original Det", "Original SpecKey", "Determiner", "New Det", "New SpecKey", "Summary"]
+  csv << ["ID Number", "Original Det", "Original SpecKey", "Determiner", "New Det", "Determination Date", "New SpecKey", "Summary"]
   CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
     catalog_id = row["ID Number"]
     original_det = row["Original Det"]
@@ -22,15 +22,15 @@ CSV.open(output_file, 'w') do |csv|
     #logic here for all the data
     if catalog.nil?
       summary = "ID Number not found"
-      csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_speckey, summary]
+      csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_det_date, new_speckey, summary]
       next
     elsif catalog.catalog_taxa.count > 1
       summary = "2+ taxa found for ID Number"
-      csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_speckey, summary]
+      csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_det_date, new_speckey, summary]
       next
     elsif catalog.catalog_taxa.count == 1 && catalog.catalog_taxa.first.taxon_id != original_speckey
       summary = "Not original Speckey as indicated"
-      csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_speckey, summary]
+      csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_det_date, new_speckey, summary]
       next
     elsif catalog.catalog_taxa.count == 1 && catalog.catalog_taxa.first.taxon_id == original_speckey
       #Add current det as new row if needed
@@ -72,21 +72,21 @@ CSV.open(output_file, 'w') do |csv|
       catalog.item_name = new_det
       catalog.save
 
-      #Add to existing Group (id = 4500, group_name = "Floristics (2007)") if not present
-      group_count = GroupMember.where({ group_id:4500, table_key: catalog.id }).count
-      if group_count == 0
-        group_member = GroupMember.new
-        group_member.group_id = 4500
-        group_member.table_key = catalog.id
-        group_member.save
-      end
+#      #Add to existing Group (id = 4500, group_name = "Floristics (2007)") if not present
+#      group_count = GroupMember.where({ group_id:4500, table_key: catalog.id }).count
+#      if group_count == 0
+#        group_member = GroupMember.new
+#        group_member.group_id = 4500
+#        group_member.table_key = catalog.id
+#        group_member.save
+#      end
 
       summary = "updated"
-      csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_speckey, summary]
+      csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_det_date, new_speckey, summary]
       next
     else
       summary = "not updated"
-      csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_speckey, summary]
+      csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_det_date, new_speckey, summary]
     end
   end
 end

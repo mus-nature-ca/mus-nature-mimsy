@@ -11,51 +11,51 @@
   :instructions: 'Not mapped. Foreign key to Site.id'
 :measure_type:
   :MIMSY: SITE_MEASUREMENTS.MEASURE_TYPE
-  :module: ''
+  :module: 'esites'
   :column: ''
-  :instructions: ''
+  :instructions: 'Populate aquatic details panel when measure_type corresponds to each element, paying attention to the units provided in length_unit, width_unit, and depth_unit. When measure_type does not logically correspond to any options in the Habitat tab, these measures likely corresond to entries in a Collection Event.'
 :measure_length:
   :MIMSY: SITE_MEASUREMENTS.MEASURE_LENGTH
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See SiteMeasurement.measure_type for instructions'
 :measure_width:
   :MIMSY: SITE_MEASUREMENTS.MEASURE_WIDTH
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See SiteMeasurement.measure_type for instructions'
 :measure_depth:
   :MIMSY: SITE_MEASUREMENTS.MEASURE_DEPTH
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See SiteMeasurement.measure_type for instructions'
 :length_unit:
   :MIMSY: SITE_MEASUREMENTS.LENGTH_UNIT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See SiteMeasurement.measure_type for instructions'
 :width_unit:
   :MIMSY: SITE_MEASUREMENTS.WIDTH_UNIT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See SiteMeasurement.measure_type for instructions'
 :depth_unit:
   :MIMSY: SITE_MEASUREMENTS.DEPTH_UNIT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'See SiteMeasurement.measure_type for instructions'
 :note:
   :MIMSY: SITE_MEASUREMENTS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'HabHabitatRemarks'
+  :instructions: 'Append to field, separate multiple notes with pipe, " | "'
 :display:
   :MIMSY: SITE_MEASUREMENTS.DISPLAY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: SITE_MEASUREMENTS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

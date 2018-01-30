@@ -11,16 +11,16 @@
   :instructions: 'Not mapped. Foreign key to Medium.id'
 :component:
   :MIMSY: MEDIA_DESCRIPTORS.COMPONENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'emultimedia'
+  :column: 'NotNotes'
+  :instructions: 'Append single line to field as "Component:" + MediumDescriptor.component + "; Descriptor:" + MediumDescriptor.descriptor + "; Term:" + MediumDescriptor.term. For example, the single line entry for one record should appear like "Component:IPTC; Descriptor:Directory Version; Term:2"'
 :descriptor:
   :MIMSY: MEDIA_DESCRIPTORS.DESCRIPTOR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped but see MediumDescriptor.component for details'
 :term:
   :MIMSY: MEDIA_DESCRIPTORS.TERM
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped but see MediumDescriptor.component for details'

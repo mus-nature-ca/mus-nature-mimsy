@@ -13,9 +13,9 @@
   :MIMSY: INSCRIPTIONS.INSCRIPTION_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :text:
   :MIMSY: INSCRIPTIONS.INSCRIPTION_TEXT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

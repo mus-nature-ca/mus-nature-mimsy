@@ -11,151 +11,151 @@
   :instructions: 'Not mapped. Foreign key to Catalog.id'
 :part_measured:
   :MIMSY: MEASUREMENTS.PART_MEASURED
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'MeaMeasurementOf_tab'
   :instructions: ''
 :type:
   :MIMSY: MEASUREMENTS.MEASUREMENT_TYPE
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'MeaMeasurementType_tab'
   :instructions: ''
 :imperial:
   :MIMSY: MEASUREMENTS.IMPERIAL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dimension1:
   :MIMSY: MEASUREMENTS.DIMENSION1
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartValue_tab'
+  :instructions: 'There are potentially multiple measurements across columns that need to be related and potentially parsed according to a singular type. For example, a type = "length x width x height" whill have values and units in dimension1, unit1, dimension2, unit2, and dimension3, unit3, respectively. These require three separate measurement records, the type for each being "length", "width", "height". If however, CatalogMeasurement.type contains the word "range" then dimension2 and unit2 become the end range value and unit.'
 :unit1:
   :MIMSY: MEASUREMENTS.UNIT1
-  :module: ''
-  :column: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartUnit_tab'
   :instructions: ''
 :dimension2:
   :MIMSY: MEASUREMENTS.DIMENSION2
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartValue_tab OR MeaOriginalEndValue_tab'
+  :instructions: 'See instructions in CatalogMeasurement.dimension1.'
 :unit2:
   :MIMSY: MEASUREMENTS.UNIT2
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartUnit_tab OR MeaOriginalEndUnit_tab'
+  :instructions: 'See instructions in CatalogMeasurement.dimension1.'
 :dimension3:
   :MIMSY: MEASUREMENTS.DIMENSION3
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartValue_tab'
+  :instructions: 'See instructions in CatalogMeasurement.dimension1.'
 :unit3:
   :MIMSY: MEASUREMENTS.UNIT3
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartUnit_tab'
+  :instructions: 'See instructions in CatalogMeasurement.dimension1.'
 :dimension4:
   :MIMSY: MEASUREMENTS.DIMENSION4
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartValue_tab'
+  :instructions: 'See instructions in CatalogMeasurement.dimension1.'
 :unit4:
   :MIMSY: MEASUREMENTS.UNIT4
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartUnit_tab'
+  :instructions: 'See instructions in CatalogMeasurement.dimension1.'
 :weight1:
   :MIMSY: MEASUREMENTS.WEIGHT1
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartValue_tab'
+  :instructions: 'See instructions in CatalogMeasurement.dimension1.'
 :wunit1:
   :MIMSY: MEASUREMENTS.WUNIT1
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartUnit_tab'
+  :instructions: 'See instructions in CatalogMeasurement.dimension1.'
 :weight2:
   :MIMSY: MEASUREMENTS.WEIGHT2
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartValue_tab'
+  :instructions: 'See instructions in CatalogMeasurement.dimension1.'
 :wunit2:
   :MIMSY: MEASUREMENTS.WUNIT2
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaOriginalStartUnit_tab'
+  :instructions: 'See instructions in CatalogMeasurement.dimension1.'
 :cdimension1:
   :MIMSY: MEASUREMENTS.CDIMENSION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :cunit1:
   :MIMSY: MEASUREMENTS.CUNIT1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :cdimension2:
   :MIMSY: MEASUREMENTS.CDIMENSION2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :cunit2:
   :MIMSY: MEASUREMENTS.CUNIT2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :cdimension3:
   :MIMSY: MEASUREMENTS.CDIMENSION3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :cunit3:
   :MIMSY: MEASUREMENTS.CUNIT3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :cdimension4:
   :MIMSY: MEASUREMENTS.CDIMENSION4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :cunit4:
   :MIMSY: MEASUREMENTS.CUNIT4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :cweight1:
   :MIMSY: MEASUREMENTS.CWEIGHT1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :cwunit1:
   :MIMSY: MEASUREMENTS.CWUNIT1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :cweight2:
   :MIMSY: MEASUREMENTS.CWEIGHT2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :cwunit2:
   :MIMSY: MEASUREMENTS.CWUNIT2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :display:
   :MIMSY: MEASUREMENTS.DISPLAY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: MEASUREMENTS.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MeaMeasurementNotes'
+  :instructions: 'Append to field'
 :prior_attribution:
   :MIMSY: MEASUREMENTS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

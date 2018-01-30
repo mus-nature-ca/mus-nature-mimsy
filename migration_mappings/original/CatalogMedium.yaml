@@ -18,19 +18,19 @@
   :MIMSY: ITEMS_MEDIA.STEP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :relationship:
   :MIMSY: ITEMS_MEDIA.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: ITEMS_MEDIA.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :media:
   :MIMSY: ITEMS_MEDIA.MEDIA
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MulMultiMediaRef_tab'
+  :instructions: 'Attach multimedia record(s) to Catalogue record through 1:many Catalog.id = CatalogMedium.catalog_id and Medium.id = CatalogMedium.medium_id associations'

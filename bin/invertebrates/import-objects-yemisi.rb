@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Lesage-Sept 22-2017.txt"
+file = "/Users/dshorthouse/Desktop/Oldham-Grimm batch upload 2018-objects.txt"
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
@@ -15,6 +15,10 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   #Get the linked place
   place_collected = row["CATALOGUE.PLACE_COLLECTED"].strip rescue nil
   place_key = row["PLACES.PLACEKEY"].strip rescue nil
+
+  if place_collected.nil? && !place_key.nil?
+    place_collected_text = Place.find(place_key).location_hierarchy
+  end
 
   #create new catalog record
   obj = Catalog.new
@@ -30,7 +34,7 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   obj.description = row["CATALOGUE.DESCRIPTION"].strip rescue nil
   obj.note = row["CATALOGUE.NOTE"].strip rescue nil
   obj.site = site.site_id
-  obj.place_collected = place_collected
+  obj.place_collected = place_collected_text
   obj.home_location = row["CATALOGUE.HOME_LOCATION"].strip rescue nil
   obj.credit_line = row["CATALOGUE.CREDIT_LINE"].strip rescue nil
   obj.stage = row["CATALOGUE.STAGE"].strip rescue nil
@@ -54,6 +58,7 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
       obj_tax.taxon_id = tax.id
       obj_tax.catalog_id = obj.id
       obj_tax.attributor = row["ITEMS_TAXONOMY.ATTRIBUTOR"].strip rescue nil
+      obj_tax.attrib_date = row["ITEMS_TAXONOMY.ATTRIB_DATE"].strip rescue nil
       obj_tax.save
     end
   end

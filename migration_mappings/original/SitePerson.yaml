@@ -16,34 +16,34 @@
   :instructions: 'Not mapped. Foreign key to Site.id'
 :relationship:
   :MIMSY: SITES_PEOPLE.RELATIONSHIP
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'esites'
+  :column: 'SitSiteOwner_tab'
+  :instructions: 'If regex /owner/ig then create and/or link to Party record. Otherwise, get all instances of Person linked to SitePerson and append to esites::NotNotes (one each line) the following: "Associated Party: [Person.preferred_name] (SitePerson.relationship)"'
 :affiliation:
   :MIMSY: SITES_PEOPLE.AFFILIATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :begin_date:
   :MIMSY: SITES_PEOPLE.BEGIN_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :end_date:
   :MIMSY: SITES_PEOPLE.END_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: SITES_PEOPLE.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: SITES_PEOPLE.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :person_variation_id:
   :MIMSY: SITES_PEOPLE.NVARKEY
   :module: ''
@@ -53,4 +53,4 @@
   :MIMSY: SITES_PEOPLE.NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

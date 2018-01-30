@@ -16,39 +16,39 @@
   :instructions: 'If taxon.collection = "Zoology", make this = "ICZN"; if taxon.collection = "Botany", make this = "ICNAFP"'
 :reference_number:
   :MIMSY: TAXONOMY.REFERENCE_NUMBER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'DesDescrition0'
+  :instructions: 'Use "Reference Number" for etaxonomy::DesLabel0 when value present.'
 :scientific_name:
   :MIMSY: TAXONOMY.SCIENTIFIC_NAME
   :module: 'etaxonomy'
   :column: 'ClaScientificName'
-  :instructions: 'Make etaxonomy::ClaScientificNameAuto = No'
+  :instructions: 'If is a hybrid formula containing symbol × then see other fields for instructions.'
 :parent_path:
   :MIMSY: TAXONOMY.MALE_SINGLE_PARENT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :parent_id:
   :MIMSY: TAXONOMY.BROADER_KEY1
   :module: 'etaxonomy'
   :column: 'RanParent'
-  :instructions: 'Populate link to Parent by using this self-referential, foreign key to Taxon.id'
+  :instructions: 'Populate link to Parent by using this self-referential, foreign key to Taxon.id. If Taxon.scientific_name contains a hybrid symbol then etaxonomy::ClaHybridParent1Sex = "Male" and use parent_id as self-referential foreign key to Taxon.id & create link for etaxonomy::ClaHybridParent1Name.'
 :second_parent_path:
   :MIMSY: TAXONOMY.FEMALE_MULTI_PARENT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'NotNotes'
+  :instructions: 'If Taxonomy.scientific_name is not a hybrid, containing the hybrid formula symbol ×, then append second_parent_path to this field when present, prefix with "Second Parent: "'
 :broader_key2:
   :MIMSY: TAXONOMY.BROADER_KEY2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'If Taxonomy.scientific_name is a hybrid combination and this is populated, make etaxonomy::ClaHybridParent2Sex = "Female" and use this broader_key2 as self-referential foreign key to Taxon.id & then create link for etaxonomy::ClaHybridParent2Name.'
 :hierarchy_level:
   :MIMSY: TAXONOMY.HIERARCHY_LEVEL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :rank:
   :MIMSY: TAXONOMY.LEVEL_TEXT
   :module: 'etaxonomy'
@@ -56,69 +56,69 @@
   :instructions: ''
 :authority:
   :MIMSY: TAXONOMY.SOURCE
-  :module: ''
+  :module: 'etaxonomy'
   :column: ''
-  :instructions: ''
+  :instructions: 'Requires parsing here into either etaxonomy::AutCombAuthors_tab + etaxonomy::AutCombYear (when brackets present in string) AND/OR etaxonomy::AutBasionymAuthors_tab + etaxonomy::AutBasionymYear (when no brackets present), being very careful to preserve ordering. Instances of etaxonomy::AutCombAuthorsRole_tab AND/OR etaxonomy::AutBasionymAuthorsRole_tab are all designated as "author". Please also create Party records and link.'
 :source_date:
   :MIMSY: TAXONOMY.SOURCE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Can ordinarily be ignored, but should be equal to the year used in either etaxonomy::AutCombYear OR etaxonomy::AutBasionymYear. If there is no year to be found in Taxon.authority then use this as etaxonomy::AutCombYear OR etaxonomy::AutBasionymYear.'
 :identification:
   :MIMSY: TAXONOMY.IDENTIFICATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'extaxonomy'
+  :column: 'DesDescription0'
+  :instructions: 'Use "Identification" for etaxonomy::DesLabel0 when populating this value'
 :description:
   :MIMSY: TAXONOMY.DESCRIPTION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'extaxonomy'
+  :column: 'DesDescription0'
+  :instructions: 'Use "Description" for etaxonomy::DesLabel0 when populating this value'
 :habitat:
   :MIMSY: TAXONOMY.HABITAT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'DesDescription0'
+  :instructions: 'Use "Habitat" for etaxonomy::DesLabel0 when populating this value'
 :range_distribution:
   :MIMSY: TAXONOMY.RANGE_DISTRIBUTION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'DesDescription0'
+  :instructions: 'Use "Range Distribution" for etaxonomy::DesLabel0 when populating this value'
 :endangered_status:
   :MIMSY: TAXONOMY.ENDANGERED_STATUS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'DesDescription0'
+  :instructions: 'Use "Endangered Status" for etaxonomy::DesLabel0 when populating this value'
 :status_note:
   :MIMSY: TAXONOMY.STATUS_NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'DescDescription0'
+  :instructions: 'Use "Status Note" for etaxonomy::DesLabel0 when populating this value'
 :remarks:
   :MIMSY: TAXONOMY.REMARKS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'NotNotes'
+  :instructions: 'Append to field when present'
 :note:
   :MIMSY: TAXONOMY.NOTE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'NotNotes'
+  :instructions: 'Append to field when present'
 :info_history:
   :MIMSY: TAXONOMY.INFO_HISTORY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'DescDescription0'
+  :instructions: 'Use "Information History" for etaxonomy::DesLabel0 when populating this value'
 :modified:
   :MIMSY: TAXONOMY.MODIFIED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :guide_term:
   :MIMSY: TAXONOMY.GUIDE_TERM
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :publish:
   :MIMSY: TAXONOMY.PUBLISH
   :module: 'etaxonomy'
@@ -126,41 +126,41 @@
   :instructions: 'If value is false or null, mark both Publish on Internet and Intranet as No; if value is true, mark both as Yes.'
 :sort_number:
   :MIMSY: TAXONOMY.SORT_NUMBER
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'DescDescription0'
+  :instructions: 'Use "C Number" for etaxonomy::DesLabel0 when populating this value'
 :option1:
   :MIMSY: TAXONOMY.OPTION1
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'etaxonomy'
+  :column: 'DescDescription0'
+  :instructions: 'Use "Shelf Aid" for etaxonomy::DesLabel0 when populating this value'
 :flag1:
   :MIMSY: TAXONOMY.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: TAXONOMY.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: TAXONOMY.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: TAXONOMY.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: TAXONOMY.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: TAXONOMY.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

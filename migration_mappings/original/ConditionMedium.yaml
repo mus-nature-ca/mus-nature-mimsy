@@ -13,7 +13,7 @@
   :MIMSY: CONDITION_MEDIA.MEDIA
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_id:
   :MIMSY: CONDITION_MEDIA.M_ID
   :module: ''
@@ -23,7 +23,7 @@
   :MIMSY: CONDITION_MEDIA.OBJECT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :condition_id:
   :MIMSY: CONDITION_MEDIA.CONDKEY
   :module: ''
@@ -31,6 +31,6 @@
   :instructions: 'Not mapped. Foreign key to Condition.id'
 :condition:
   :MIMSY: CONDITION_MEDIA.CONDITION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'MulMultiMediaRef_tab'
+  :instructions: 'The multimedia tab does not exist for Condition Checks. Instead, attach media items to the Catalog record by usint ConditionMedium.catalog_id = Catalog.id and Medium.id = ConditionMedium.medium_id 1:many associations'

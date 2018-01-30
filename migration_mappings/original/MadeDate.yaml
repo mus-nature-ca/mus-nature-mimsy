@@ -13,24 +13,24 @@
   :MIMSY: DATE_MADE.PRIOR_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_text:
   :MIMSY: DATE_MADE.DATE_TEXT
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'ecatalogue'
+  :column: 'NotNotes'
+  :instructions: 'Append to field, prefix with "Date Made: "'
 :earliest_year:
   :MIMSY: DATE_MADE.EARLIEST_YEAR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :latest_year:
   :MIMSY: DATE_MADE.LATEST_YEAR
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :bp:
   :MIMSY: DATE_MADE.BP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

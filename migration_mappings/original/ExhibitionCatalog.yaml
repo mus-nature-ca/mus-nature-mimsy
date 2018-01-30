@@ -18,104 +18,104 @@
   :MIMSY: EXHIBITION_ITEMS.RECORD_TYPE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalog_number:
   :MIMSY: EXHIBITION_ITEMS.ID_NUMBER
-  :module: ''
-  :column: ''
+  :module: 'eevents'
+  :column: 'ObjEventCatalogueNumber_tab'
   :instructions: ''
 :status:
   :MIMSY: EXHIBITION_ITEMS.STATUS
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'ObjAttachedObjectsNotes_tab'
+  :instructions: 'Append to field, prefix with "Status: "'
 :status_date:
   :MIMSY: EXHIBITION_ITEMS.STATUS_DATE
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'ObjAttachedObjectsNotes_tab'
+  :instructions: 'Append to field, prefix with "Status Date: "'
 :theme_section:
   :MIMSY: EXHIBITION_ITEMS.THEME_SECTION
-  :module: ''
-  :column: ''
+  :module: 'eevents'
+  :column: 'ObjEventSection_tab'
   :instructions: ''
 :theme_sub1:
   :MIMSY: EXHIBITION_ITEMS.THEME_SUB1
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'ObjAttachedObjectsNotes_tab'
+  :instructions: 'Append to field when present, prefix with "Subsection:" '
 :theme_sub2:
   :MIMSY: EXHIBITION_ITEMS.THEME_SUB2
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'ObjAttachedObjectsNotes_tab'
+  :instructions: 'Append to field when present, prefix with "Subsection:" '
 :theme_sub3:
   :MIMSY: EXHIBITION_ITEMS.THEME_SUB3
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'ObjAttachedObjectsNotes_tab'
+  :instructions: 'Append to field when present, prefix with "Subsection:" '
 :location:
   :MIMSY: EXHIBITION_ITEMS.LOCATION
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'ObjAttachedObjectsNotes_tab'
+  :instructions: 'Append to fields, prefix with "Location: "'
 :catalogued_item:
   :MIMSY: EXHIBITION_ITEMS.CATALOGUED_ITEM
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'ObjAttachedObjectsNotes_tab'
+  :instructions: 'Append to field when present, prefix with "Catalogue #:" '
 :description:
   :MIMSY: EXHIBITION_ITEMS.ITEM_SUMMARY
-  :module: ''
-  :column: ''
-  :instructions: ''
+  :module: 'eevents'
+  :column: 'ObjAttachedObjectsNotes_tab'
+  :instructions: 'Append to fields, prefix with "Description: "'
 :flag1:
   :MIMSY: EXHIBITION_ITEMS.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: EXHIBITION_ITEMS.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag3:
   :MIMSY: EXHIBITION_ITEMS.FLAG3
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag4:
   :MIMSY: EXHIBITION_ITEMS.FLAG4
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :catalogued:
   :MIMSY: EXHIBITION_ITEMS.CATALOGUED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :id_sort:
   :MIMSY: EXHIBITION_ITEMS.ID_SORT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: EXHIBITION_ITEMS.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: EXHIBITION_ITEMS.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: EXHIBITION_ITEMS.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: EXHIBITION_ITEMS.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

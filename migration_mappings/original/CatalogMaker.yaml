@@ -18,24 +18,24 @@
   :MIMSY: ITEMS_MAKERS.RELATIONSHIP
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :affiliation:
   :MIMSY: ITEMS_MAKERS.AFFILIATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :prior_attribution:
   :MIMSY: ITEMS_MAKERS.PRIOR_ATTRIBUTION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :name:
   :MIMSY: ITEMS_MAKERS.NAME
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :brief_bio:
   :MIMSY: ITEMS_MAKERS.BRIEF_BIO
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'

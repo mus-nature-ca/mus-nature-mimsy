@@ -8,27 +8,27 @@
   :MIMSY: DISPATCH.RECORD_VIEW
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dispatch_number:
   :MIMSY: DISPATCH.DISPATCH_NUMBER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dispatcher:
   :MIMSY: DISPATCH.DISPATCHER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dispatch_date:
   :MIMSY: DISPATCH.DISPATCH_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dispatch_reason:
   :MIMSY: DISPATCH.DISPATCH_REASON
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :lockey:
   :MIMSY: DISPATCH.LOCKEY
   :module: ''
@@ -38,244 +38,244 @@
   :MIMSY: DISPATCH.DISPATCH_LOCATION
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dispatch_contact:
   :MIMSY: DISPATCH.DISPATCH_CONTACT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dispatch_address:
   :MIMSY: DISPATCH.DISPATCH_ADDRESS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dispatch_phone:
   :MIMSY: DISPATCH.DISPATCH_PHONE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dispatch_fax:
   :MIMSY: DISPATCH.DISPATCH_FAX
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dispatch_email:
   :MIMSY: DISPATCH.DISPATCH_EMAIL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :link_id:
   :MIMSY: DISPATCH.LINK_ID
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :nvarkey:
   :MIMSY: DISPATCH.NVARKEY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :recipient:
   :MIMSY: DISPATCH.RECIPIENT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :contact:
   :MIMSY: DISPATCH.CONTACT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :address:
   :MIMSY: DISPATCH.ADDRESS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :phone:
   :MIMSY: DISPATCH.PHONE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :fax:
   :MIMSY: DISPATCH.FAX
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :email:
   :MIMSY: DISPATCH.EMAIL
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status:
   :MIMSY: DISPATCH.STATUS
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :status_date:
   :MIMSY: DISPATCH.STATUS_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :authorized_by:
   :MIMSY: DISPATCH.AUTHORIZED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date_authorized:
   :MIMSY: DISPATCH.DATE_AUTHORIZED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :shipper:
   :MIMSY: DISPATCH.SHIPPER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :courier:
   :MIMSY: DISPATCH.COURIER
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :total_pkg_count:
   :MIMSY: DISPATCH.TOTAL_PKG_COUNT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :total_weight:
   :MIMSY: DISPATCH.TOTAL_WEIGHT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :weight_unit:
   :MIMSY: DISPATCH.WEIGHT_UNIT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :shipping_agent:
   :MIMSY: DISPATCH.SHIPPING_AGENT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :broker1:
   :MIMSY: DISPATCH.BROKER1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :broker2:
   :MIMSY: DISPATCH.BROKER2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :estimated_cost:
   :MIMSY: DISPATCH.ESTIMATED_COST
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :actual_cost:
   :MIMSY: DISPATCH.ACTUAL_COST
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :estimated_dispatch_date:
   :MIMSY: DISPATCH.ESTIMATED_DISPATCH_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :estimated_delivery_date:
   :MIMSY: DISPATCH.ESTIMATED_DELIVERY_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :delivery_date:
   :MIMSY: DISPATCH.DELIVERY_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :insured_by:
   :MIMSY: DISPATCH.INSURED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :insured_amount:
   :MIMSY: DISPATCH.INSURED_AMOUNT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :dispatch_count:
   :MIMSY: DISPATCH.DISPATCH_COUNT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :total_requested:
   :MIMSY: DISPATCH.TOTAL_REQUESTED
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :external_file:
   :MIMSY: DISPATCH.EXTERNAL_FILE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :note:
   :MIMSY: DISPATCH.NOTE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option1:
   :MIMSY: DISPATCH.OPTION1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :option2:
   :MIMSY: DISPATCH.OPTION2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number1:
   :MIMSY: DISPATCH.NUMBER1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :number2:
   :MIMSY: DISPATCH.NUMBER2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date1:
   :MIMSY: DISPATCH.DATE1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :date2:
   :MIMSY: DISPATCH.DATE2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag1:
   :MIMSY: DISPATCH.FLAG1
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :flag2:
   :MIMSY: DISPATCH.FLAG2
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: DISPATCH.CREATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :create_date:
   :MIMSY: DISPATCH.CREATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :updated_by:
   :MIMSY: DISPATCH.UPDATED_BY
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :update_date:
   :MIMSY: DISPATCH.UPDATE_DATE
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
