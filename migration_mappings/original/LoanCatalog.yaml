@@ -83,7 +83,7 @@
   :MIMSY: LOAN_ITEMS.ID_SORT
   :module: ''
   :column: ''
-  :instructions: ''
+  :instructions: 'Not mapped'
 :created_by:
   :MIMSY: LOAN_ITEMS.CREATED_BY
   :module: ''
