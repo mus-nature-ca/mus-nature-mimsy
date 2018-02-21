@@ -3,8 +3,8 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/MXG updates 2018.01a.txt"
-output_file = "/Users/dshorthouse/Desktop/MXG updates 2018.01a-log.csv"
+file = "/Users/dshorthouse/Desktop/MXG updates 2018.02.txt"
+output_file = "/Users/dshorthouse/Desktop/MXG updates 2018.02-log.csv"
   
 CSV.open(output_file, 'w') do |csv|
   csv << ["ID Number", "Original Det", "Original SpecKey", "Determiner", "New Det", "Determination Date", "New SpecKey", "Summary"]
@@ -72,14 +72,15 @@ CSV.open(output_file, 'w') do |csv|
       catalog.item_name = new_det
       catalog.save
 
-#      #Add to existing Group (id = 4500, group_name = "Floristics (2007)") if not present
-#      group_count = GroupMember.where({ group_id:4500, table_key: catalog.id }).count
-#      if group_count == 0
-#        group_member = GroupMember.new
-#        group_member.group_id = 4500
-#        group_member.table_key = catalog.id
-#        group_member.save
-#      end
+      #Add to existing Group (id = 4500, group_name = "Floristics (2007)") if not present
+      # GroupID = 4673 is "Coppermine Paper"
+      group_count = GroupMember.where({ group_id:4673, table_key: catalog.id }).count
+      if group_count == 0
+        group_member = GroupMember.new
+        group_member.group_id = 4673
+        group_member.table_key = catalog.id
+        group_member.save
+      end
 
       summary = "updated"
       csv << [catalog_id, original_det, original_speckey, determiner, new_det, new_det_date, new_speckey, summary]

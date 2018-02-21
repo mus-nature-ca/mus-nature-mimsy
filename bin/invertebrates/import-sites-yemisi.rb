@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Oldham-Grimm batch upload 2018-sites.txt"
+file = "/Users/dshorthouse/Desktop/Hovingh- Batch upload- 2018-Jan 22-sites.txt"
 
 def coord_convert_dd(input)
   coord = input
@@ -29,10 +29,12 @@ def coord_convert_symbols(input)
     card = m[4]
     coord = deg+min+sec+card
   end
-  coord
+  coord.split.join(" ")
 end
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
+
+  puts row["SITES.SITE_ID"]
 
   #create new site record
   site = Site.new
@@ -41,7 +43,8 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   site.site_date = row["SITES.SITE_DATE"].strip rescue nil
   site.description = row["SITES.DESCRIPTION"].strip rescue nil
   site.register_status = row["SITES.REGISTER_STATUS"].strip rescue nil
-
+  site.site_class = row["SITES.SITE_CLASS"].strip rescue nil
+  site.site_type = row["SITES.SITE_TYPE"].strip rescue nil
   site.recommendations = row["SITES.RECOMMENDATIONS"].strip rescue nil
   site.start_latitude = row["SITES.START_LATITUDE"].strip.gsub(/([NEWS])/, ' \1') rescue nil
   site.start_latitude_dec = row["SITES.START_LATITUDE_DEC"].strip.to_f rescue nil
@@ -114,11 +117,12 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   end
 
   #create other numbers
-  other_number = row["SITE_OTHER_NUMBERS.OTHER_NUMBER"].strip rescue nil
-  if !other_number.nil?
+  o_number = row["SITE_OTHER_NUMBERS.OTHER_NUMBER"].strip rescue nil
+  if !o_number.nil?
     other_number = SiteOtherNumber.new
     other_number.site_id = site.id
-    other_number.other_number = other_number
+    other_number.other_number = o_number
+    other_number.type = row["SITE_OTHER_NUMBERS.SITE_OTHNUM_TYPE"].strip rescue nil
     if !other_number.other_number.nil?
       other_number.save
     end
@@ -126,13 +130,13 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
 
   #create measurements
   (1..12).each do |m|
-    type = row["SITE_MEASUREMENTS.MEASURE_TYPE_#{m}"].strip.downcase rescue nil
+    type = row["SITE_MEASUREMENTS.MEASURE_TYPE#{m}"].strip rescue nil
     if !type.nil?
       measurement = SiteMeasurement.new
       measurement.site_id = site.id
       measurement.measure_type = type
-      measurement.measure_length = row["SITE_MEASUREMENTS.MEASURE_LENGTH_#{m}"].strip
-      measurement.length_unit = row["SITE_MEASUREMENTS.LENGTH_UNIT_#{m}"].strip
+      measurement.measure_length = row["SITE_MEASUREMENTS.MEASURE_LENGTH#{m}"].strip rescue nil
+      measurement.length_unit = row["SITE_MEASUREMENTS.LENGTH_UNIT#{m}"].strip rescue nil
       measurement.save
     end
   end

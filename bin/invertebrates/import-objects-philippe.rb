@@ -3,11 +3,15 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Hovingh- Batch upload- 2018-Feb 1-objects.txt"
+file = "/Users/dshorthouse/Desktop/Objects_Resolute_Mollusca_Reference Collection.txt"
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
   puts row["CATALOGUE.ID_NUMBER"]
+  exists = Catalog.find_by_catalog_number(row["CATALOGUE.ID_NUMBER"])
+  if !exists.nil?
+    next
+  end
 
   #Get the linked site
   site = Site.find_by_site_id(row["SITES.SITE_ID"].strip)
@@ -113,9 +117,18 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
       other_number = CatalogOtherNumber.new
       other_number.catalog_id = obj.id
       other_number.other_number = number
-      other_number.on_type = row["OTHER_NUMBERS.ON_TYPE#{num}"].strip.downcase rescue nil
+      other_number.on_type = row["OTHER_NUMBERS.ON_TYPE#{num}"].strip rescue nil
       other_number.save
     end
+  end
+
+  number = row["OTHER_NUMBERS.OTHER_NUMBER"].strip rescue nil
+  if !number.nil?
+    other_number = CatalogOtherNumber.new
+    other_number.catalog_id = obj.id
+    other_number.other_number = number
+    other_number.on_type = row["OTHER_NUMBERS.ON_TYPE#"].strip rescue nil
+    other_number.save
   end
 
   #link to site

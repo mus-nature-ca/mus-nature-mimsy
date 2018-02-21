@@ -43,7 +43,7 @@
   :MIMSY: MEDIA.FORMAT
   :module: 'emultimedia'
   :column: 'ChaMediaForm'
-  :instructions: ''
+  :instructions: 'If the value is JPEG, JPG, or BMP, first see if there is an identically named media_id except with the extension .tif or .tiff. If there is, do not create a record in EMu or import the file.'
 :thumbnail:
   :MIMSY: MEDIA.THUMBNAIL
   :module: ''

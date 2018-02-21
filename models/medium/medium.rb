@@ -84,7 +84,9 @@ class Medium < ActiveRecord::Base
   def locator_linux
     path = nil
     if !locator.nil?
-      path = locator.gsub(/\\+/, '/').sub("/n-fs1.mus-nature.ca/dept","")
+      path = locator.gsub(/\\+/, '/')
+                    .sub("/n-nas1.mus-nature.ca/dept","")
+                    .sub("/n-nas1.mus-nature.ca/botany", "")
     end
     path
   end
