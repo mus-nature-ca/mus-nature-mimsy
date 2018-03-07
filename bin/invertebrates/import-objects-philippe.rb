@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Objects_Resolute_Mollusca_Reference Collection.txt"
+file = "/Users/dshorthouse/Desktop/Objects not imported corrected - second round.txt"
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
@@ -127,7 +127,7 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
     other_number = CatalogOtherNumber.new
     other_number.catalog_id = obj.id
     other_number.other_number = number
-    other_number.on_type = row["OTHER_NUMBERS.ON_TYPE#"].strip rescue nil
+    other_number.on_type = row["OTHER_NUMBERS.ON_TYPE"].strip rescue nil
     other_number.save
   end
 

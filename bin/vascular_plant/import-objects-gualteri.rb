@@ -3,8 +3,8 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Object 2018-02-i.txt"
-log = "/Users/dshorthouse/Desktop/Object 2018-02-i-log.csv"
+file = "/Users/dshorthouse/Desktop/Object 2018-02-vi.txt"
+log = "/Users/dshorthouse/Desktop/Object 2018-02-vi-log.csv"
 
 missing = []
 

@@ -1,0 +1,11 @@
+2018-02-28 11:06:59.823 EST [9256] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-02-28 11:06:59.823 EST [9256] LOG:  listening on IPv6 address "::1", port 5432
+2018-02-28 11:06:59.824 EST [9256] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-02-28 11:06:59.835 EST [9257] LOG:  database system was shut down at 2018-02-28 11:05:53 EST
+2018-02-28 11:06:59.838 EST [9256] LOG:  database system is ready to accept connections
+2018-02-28 11:07:02.372 EST [9265] FATAL:  database "dshorthouse" does not exist
+2018-02-28 11:07:30.711 EST [9256] LOG:  received fast shutdown request
+2018-02-28 11:07:30.713 EST [9256] LOG:  aborting any active transactions
+2018-02-28 11:07:30.713 EST [9256] LOG:  worker process: logical replication launcher (PID 9263) exited with exit code 1
+2018-02-28 11:07:30.714 EST [9258] LOG:  shutting down
+2018-02-28 11:07:30.719 EST [9256] LOG:  database system is shut down

@@ -10,11 +10,24 @@ REPLACE = {
   'CAN_' => 'CAN'
 }
 
+def all_nested_tiffs(dir)
+  puts "Finding all tiffs in #{dir}...".yellow
+  `find #{dir} -name \*.tif -type f`.split("\n")
+end
+
 def output(file, locator)
   file_name = File.basename(file)
-  puts file_name
-  matches = file_name.gsub(/#{REPLACE.keys.join('|')}/, REPLACE).match(/^(CAN[ALM]{1}?)([0-9]{1,})/)
-  catalog_number = "#{matches[1]} #{matches[2].to_i.to_s}" rescue nil
+
+  if Medium.find_by_media_id(file_name)
+    puts file_name.red
+    return []
+  else
+    puts file_name.green
+  end
+
+  matches = file_name.gsub(/#{REPLACE.keys.join('|')}/, REPLACE).match(/^(CAN[ALM]{1}?)\s+?([0-9]{1,})([A-Ha-h]{1}\.)?/)
+  suffix = (matches && !matches[3].nil?) ? matches[3].first : nil
+  catalog_number = "#{matches[1]} #{matches[2]}#{suffix}" rescue nil
 
   if catalog_number
     catalog = Catalog.find_by_catalog_number(catalog_number)
@@ -85,12 +98,14 @@ CSV.open(log, 'w') do |csv|
     "MEDIA.PUBLISH"
   ]
 
-  Dir.glob('/Volumes/botany/!!HERBARIUM PHOTO ARCHIVE/**/*.tif') do |file|
+  archive_dir = "/Volumes/botany/\\\!\\\!HERBARIUM\\\ PHOTO\\\ ARCHIVE"
+  all_nested_tiffs(archive_dir).each do |file|
     locator = "\\\\n-nas1.mus-nature.ca\\botany\\Botany_Images_Archival\\" + File.dirname(file).sub("/Volumes/botany/","").gsub("/", "\\") + "\\"
     csv << output(file, locator)
   end
 
-  Dir.glob('/Volumes/dept/BotanySpecimenImages/BotanyTempLocation/**/*.tif') do |file|
+  temp_dir = "/Volumes/dept/BotanySpecimenImages/BotanyTempLocation"
+  all_nested_tiffs(temp_dir).each do |file|
     locator = "\\\\n-nas1.mus-nature.ca\\" + File.dirname(file).sub("/Volumes/","").gsub("/", "\\") + "\\"
     csv << output(file, locator)
   end
