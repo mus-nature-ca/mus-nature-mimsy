@@ -184,6 +184,16 @@
   :module: ''
   :column: ''
   :instructions: 'Not mapped'
+:provenience_group:
+  :MIMSY: CATALOGUE.OPTION8
+  :module: ''
+  :column: ''
+  :instructions: 'See https://jira.kesoftware.com/browse/CMN-341'
+:collecting_event_code:
+  :MIMSY: CATALOGUE.OPTION9
+  :module: 'ecollectionevents'
+  :column: 'ColCollectionEventCode'
+  :instructions: 'Use this value to attach groups of catalog records that share the same collecting event code'
 :flag1:
   :MIMSY: CATALOGUE.FLAG1
   :module: ''

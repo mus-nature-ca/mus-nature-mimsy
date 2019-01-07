@@ -12,15 +12,14 @@ scheduled = []
 #CSV.open(output_dir(__FILE__) + "/xx-candidate-variant-deletions.csv", 'w') do |csv|
 #  csv << ["taxvarkey", "speckey", "xxScientific Name", "Taxonomic System"]
   xxtaxa.each do |xxtaxon|
-    pbar.increment
-    variants = TaxonVariation.where(speckey: xxtaxon.speckey).map(&:scientific_name)
-    taxon_name = Taxon.find(xxtaxon.speckey)
-    ct = CatalogTaxon.where(speckey: xxtaxon.speckey)
-    if variants.include?(xxtaxon.scientific_name[2..-1]) && 
-      taxon_name.scientific_name != xxtaxon.scientific_name
+    taxon = Taxon.find(xxtaxon.speckey)
+    if taxon.variations.count > 1
       scheduled << xxtaxon
-#      xxtaxon.destroy
+      xxtaxon.destroy
     end
   end
   #end
 pbar.finish
+
+byebug
+puts ""

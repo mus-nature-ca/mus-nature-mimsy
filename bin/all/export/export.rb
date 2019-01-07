@@ -48,6 +48,10 @@ optparse = OptionParser.new do |opts|
     options[:group] = group
   end
 
+  opts.on("-x", "--collection [COLLECTION]", String, "Export data for a whole collection (category1) by name, eg 'Vascular Plant'") do |collection|
+    options[:collection] = collection
+  end
+
   opts.on("-l", "--lists", "Export categorical values for lists") do
     options[:lists] = true
   end
@@ -80,6 +84,14 @@ elsif options[:group]
   export = Export.new(output_dir)
   export.processes = options[:processes] || 4
   export.group(options[:group])
+  puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
+
+elsif options[:collection]
+  start = Time.now
+  output_dir = File.join(ENV['PWD'], 'outputs', 'all')
+  export = Export.new(output_dir)
+  export.processes = options[:processes] || 4
+  export.collection(options[:collection])
   puts "Duration " + Time.at(Time.now-start).utc.strftime("%H:%M:%S")
 
 elsif options[:migration_templates]

@@ -3,9 +3,6 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Media 2018-02-vi.txt"
-log = "/Users/dshorthouse/Desktop/Media 2018-02-vi-log.csv"
-
 def add_image(row, catalog)
   #Save new media record
   m = Medium.new
@@ -39,92 +36,103 @@ def add_image(row, catalog)
   cm.save
 end
 
-missing = []
+numbers = (9..10)
 
-CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
+numbers.each do |num|
 
-  next if row["MEDIA.MEDIA_ID_1"].nil?
+  padded = sprintf'%02d', num
+  date = "2018-12-B#{padded}"
+  file = "/Users/dshorthouse/Desktop/uploads/Media #{date}.txt"
+  log = "/Users/dshorthouse/Desktop/uploads/Media #{date}-log.csv"
 
-  puts row["MEDIA.MEDIA_ID_1"]
+  missing = []
 
-  #Get the linked object
-  catalog = Catalog.find_by_catalog_number(row["MEDIA_ITEMS.OBJECT"].strip)
+  CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
-  if catalog.nil?
-    missing << [row["MEDIA.MEDIA_ID_1"], "#{row["MEDIA_ITEMS.OBJECT"]} catalog missing"]
-  else
+    next if row["MEDIA.MEDIA_ID_1"].nil?
 
-    #check if images exist
-    path_1 = row["MEDIA.LOCATOR_1"].gsub(/\\+/, '/').sub("n-nas1.mus-nature.ca","Volumes")
-    if !File.exists?(File.join(path_1, row["MEDIA.MEDIA_ID_1"]))
-      missing << [row["MEDIA.MEDIA_ID_1"], "image missing"]
-    end
-    path_2 = row["MEDIA.LOCATOR_2"].gsub(/\\+/, '/').sub("n-nas1.mus-nature.ca","Volumes")
-    if !File.exists?(File.join(path_2, row["MEDIA.MEDIA_ID_2"]))
-      missing << [row["MEDIA.MEDIA_ID_2"], "image missing"]
-    end
+    puts row["MEDIA.MEDIA_ID_1"]
 
-    #check if first of two item already exists
-    item = Medium.find_by_media_id(row["MEDIA.MEDIA_ID_1"])
-    if !item.nil?
-      missing << [row["MEDIA.MEDIA_ID_1"], "duplicate"]
+    #Get the linked object
+    catalog = Catalog.find_by_catalog_number(row["MEDIA_ITEMS.OBJECT"].strip)
+
+    if catalog.nil?
+      missing << [row["MEDIA.MEDIA_ID_1"], "#{row["MEDIA_ITEMS.OBJECT"]} catalog missing"]
     else
-      data = {
-        media_id: row["MEDIA.MEDIA_ID_1"],
-        locator: row["MEDIA.LOCATOR_1"],
-        record_type: row["MEDIA.RECORD_TYPE"],
-        media: row["MEDIA.MEDIA"],
-        format: row["MEDIA.FORMAT_1"],
-        thumbnail: row["MEDIA.THUMBNAIL_1"],
-        date_captured: row["MEDIA.DATE_CAPTURED"],
-        capture_method: row["MEDIA.CAPTURE_METHOD"],
-        captured_by: row["MEDIA.CAPTURED_BY"],
-        media_type: row["MEDIA.MEDIA_TYPE"],
-        credit_line: row["MEDIA.CREDIT_LINE"],
-        caption: row["MEDIA.CAPTION"],
-        repro_allowed: row["MEDIA.REPRO_ALLOWED"],
-        publish: row["Publish"],
-        physical_location: row["MEDIA.PHYSICAL_LOCATION"],
-        location_date: row["MEDIA.LOCATION_DATE"],
-        step: row["MEDIA_ITEMS.STEP"]
-      }
-      add_image(data, catalog)
-    end
 
-    #check if second of two item already exists
-    item = Medium.find_by_media_id(row["MEDIA.MEDIA_ID_2"])
-    if !item.nil?
-      missing << [row["MEDIA.MEDIA_ID_2"], "duplicate"]
-    else
-      data = {
-        media_id: row["MEDIA.MEDIA_ID_2"],
-        locator: row["MEDIA.LOCATOR_2"],
-        record_type: row["MEDIA.RECORD_TYPE"],
-        media: row["MEDIA.MEDIA"],
-        format: row["MEDIA.FORMAT_2"],
-        thumbnail: row["MEDIA.THUMBNAIL_2"],
-        date_captured: row["MEDIA.DATE_CAPTURED"],
-        capture_method: row["MEDIA.CAPTURE_METHOD"],
-        captured_by: row["MEDIA.CAPTURED_BY"],
-        media_type: row["MEDIA.MEDIA_TYPE"],
-        credit_line: row["MEDIA.CREDIT_LINE"],
-        caption: row["MEDIA.CAPTION"],
-        repro_allowed: row["MEDIA.REPRO_ALLOWED"],
-        publish: row["Publish"],
-        physical_location: row["MEDIA.PHYSICAL_LOCATION"],
-        location_date: row["MEDIA.LOCATION_DATE"],
-        step: row["MEDIA_ITEMS.STEP"]
-      }
-      add_image(data, catalog)
+      #check if images exist
+      path_1 = row["MEDIA.LOCATOR_1"].gsub(/\\+/, '/').sub("n-nas1.mus-nature.ca","Volumes")
+      if !File.exists?(File.join(path_1, row["MEDIA.MEDIA_ID_1"]))
+        missing << [row["MEDIA.MEDIA_ID_1"], "image missing"]
+      end
+      path_2 = row["MEDIA.LOCATOR_2"].gsub(/\\+/, '/').sub("n-nas1.mus-nature.ca","Volumes")
+      if !File.exists?(File.join(path_2, row["MEDIA.MEDIA_ID_2"]))
+        missing << [row["MEDIA.MEDIA_ID_2"], "image missing"]
+      end
+
+      #check if first of two item already exists
+      item = Medium.find_by_media_id(row["MEDIA.MEDIA_ID_1"])
+      if !item.nil?
+        missing << [row["MEDIA.MEDIA_ID_1"], "duplicate"]
+      else
+        data = {
+          media_id: row["MEDIA.MEDIA_ID_1"],
+          locator: row["MEDIA.LOCATOR_1"],
+          record_type: row["MEDIA.RECORD_TYPE"],
+          media: row["MEDIA.MEDIA"],
+          format: row["MEDIA.FORMAT_1"],
+          thumbnail: row["MEDIA.THUMBNAIL_1"],
+          date_captured: row["MEDIA.DATE_CAPTURED"],
+          capture_method: row["MEDIA.CAPTURE_METHOD"],
+          captured_by: row["MEDIA.CAPTURED_BY"],
+          media_type: row["MEDIA.MEDIA_TYPE"],
+          credit_line: row["MEDIA.CREDIT_LINE"],
+          caption: row["MEDIA.CAPTION"],
+          repro_allowed: row["MEDIA.REPRO_ALLOWED"],
+          publish: row["Publish"],
+          physical_location: row["MEDIA.PHYSICAL_LOCATION"],
+          location_date: row["MEDIA.LOCATION_DATE"],
+          step: row["MEDIA_ITEMS.STEP"]
+        }
+        add_image(data, catalog)
+      end
+
+      #check if second of two item already exists
+      item = Medium.find_by_media_id(row["MEDIA.MEDIA_ID_2"])
+      if !item.nil?
+        missing << [row["MEDIA.MEDIA_ID_2"], "duplicate"]
+      else
+        data = {
+          media_id: row["MEDIA.MEDIA_ID_2"],
+          locator: row["MEDIA.LOCATOR_2"],
+          record_type: row["MEDIA.RECORD_TYPE"],
+          media: row["MEDIA.MEDIA"],
+          format: row["MEDIA.FORMAT_2"],
+          thumbnail: row["MEDIA.THUMBNAIL_2"],
+          date_captured: row["MEDIA.DATE_CAPTURED"],
+          capture_method: row["MEDIA.CAPTURE_METHOD"],
+          captured_by: row["MEDIA.CAPTURED_BY"],
+          media_type: row["MEDIA.MEDIA_TYPE"],
+          credit_line: row["MEDIA.CREDIT_LINE"],
+          caption: row["MEDIA.CAPTION"],
+          repro_allowed: row["MEDIA.REPRO_ALLOWED"],
+          publish: row["Publish"],
+          physical_location: row["MEDIA.PHYSICAL_LOCATION"],
+          location_date: row["MEDIA.LOCATION_DATE"],
+          step: row["MEDIA_ITEMS.STEP"]
+        }
+        add_image(data, catalog)
+      end
+
     end
 
   end
 
-end
-
-CSV.open(log, 'w') do |csv|
-  csv << ["Item", "Note"]
-  missing.each do |item|
-    csv << item
+  CSV.open(log, 'w') do |csv|
+    csv << ["Item", "Note"]
+    missing.each do |item|
+      csv << item
+    end
   end
+
 end

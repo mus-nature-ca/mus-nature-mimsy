@@ -58,6 +58,10 @@ class Site < ActiveRecord::Base
 
   has_many :surveys, class_name: "SiteSurvey", foreign_key: "skey"
 
+  def self.search_by_prefix (prefix)
+    self.where("lower(site_id) LIKE '#{prefix.downcase}%'")
+  end
+
   def lat
     start_latitude_dec.present? ? start_latitude_dec.to_f : nil
   end

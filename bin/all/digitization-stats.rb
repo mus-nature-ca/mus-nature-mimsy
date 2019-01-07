@@ -36,13 +36,25 @@ begin
     end_date = Date.parse(options[:end_date])
   end
   case options[:type]
-  when "new"
+  when "added"
     puts Catalog.group("category1").where(create_date: start_date..end_date).order("category1").count
-  when "edit"
+  when "edited"
     puts Catalog.group("category1").where(update_date: start_date..end_date).order("category1").count
   when "acquisition"
+    puts "acquisition count".red
     puts Acquisition.group("option1").where(legal_date: start_date..end_date).order("option1").count
     acqs = Acquisition.where(legal_date: start_date..end_date).map{|acq| { acq.option1 => acq.total_approved }}
+    puts "acquisition total approved".red
+    puts acqs.inject{|memo, el| memo.merge(el){|k, old_v, new_v| old_v + new_v}}.sort.to_h
+  when "all"
+    puts "added".green
+    puts Catalog.group("category1").where(create_date: start_date..end_date).order("category1").count
+    puts "edited".yellow
+    puts Catalog.group("category1").where(update_date: start_date..end_date).order("category1").count
+    puts "acquisition count".red
+    puts Acquisition.group("option1").where(legal_date: start_date..end_date).order("option1").count
+    acqs = Acquisition.where(legal_date: start_date..end_date).map{|acq| { acq.option1 => acq.total_approved }}
+    puts "acquisition total approved".red
     puts acqs.inject{|memo, el| memo.merge(el){|k, old_v, new_v| old_v + new_v}}.sort.to_h
   else
     puts "Start date / End date ignored"

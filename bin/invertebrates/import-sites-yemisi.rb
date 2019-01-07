@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Hovingh- Batch upload- 2018-Jan 22-sites.txt"
+file = "/Users/dshorthouse/Desktop/polychaetes-Final- upload May 07-sites.txt"
 
 def coord_convert_dd(input)
   coord = input
@@ -50,19 +50,30 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   site.start_latitude_dec = row["SITES.START_LATITUDE_DEC"].strip.to_f rescue nil
   site.start_longitude = row["SITES.START_LONGITUDE"].strip.gsub(/([NEWS])/, ' \1') rescue nil
   site.start_longitude_dec = row["SITES.START_LONGITUDE_DEC"].strip.to_f rescue nil
+  site.end_latitude = row["SITES.END_LATITUDE"].strip.gsub(/([NEWS])/, ' \1') rescue nil
+  site.end_latitude_dec = row["SITES.END_LATITUDE_DEC"].strip.to_f rescue nil
+  site.end_longitude = row["SITES.END_LONGITUDE"].strip.gsub(/([NEWS])/, ' \1') rescue nil
+  site.end_longitude_dec = row["SITES.END_LONGITUDE_DEC"].strip.to_f rescue nil
   site.location_accuracy = row["SITES.LOCATION_ACCURACY"].strip rescue nil
   site.utm_start = row["SITES.UTM_START"] rescue nil
   site.elevation = row["SITES.ELEVATION"] rescue nil
   site.geodetic_datum = row["SITES.GEODETIC_DATUM"] rescue nil
+  site.topography = row["SITES.TOPOGRAPHY"] rescue nil
+  site.ecological_zones = row["SITES.ECOLOGICAL_ZONES"] rescue nil
+  site.archaeological_status = row["SITES.ARCHAEOLOGICAL_STATUS"] rescue nil
 
   coord_is_ll = false
 
-  orig_lat = site.start_latitude.dup if !site.start_latitude.nil?
-  orig_lng = site.start_longitude.dup if !site.start_longitude.nil?
+  orig_lat_start = site.start_latitude.dup if !site.start_latitude.nil?
+  orig_lng_start = site.start_longitude.dup if !site.start_longitude.nil?
+  orig_lat_end = site.end_latitude.dup if !site.end_latitude.nil?
+  orig_lng_end = site.end_longitude.dup if !site.end_longitude.nil?
 
-  if !site.start_latitude.nil? && (/[NEWS]/).match(site.start_latitude) && site.location_accuracy.include?("secondary(LL)")
+  if !site.start_latitude.nil? && (/[NEWS]/).match(site.start_latitude)
     site.start_latitude_dec = coord_convert_dd(site.start_latitude)
     site.start_longitude_dec = coord_convert_dd(site.start_longitude)
+    site.end_latitude_dec = coord_convert_dd(site.end_latitude)
+    site.end_longitude_dec = coord_convert_dd(site.end_longitude)
     coord_is_ll = true
   end
 
@@ -89,8 +100,10 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   #fix coordinate text
 
   if coord_is_ll
-    site.start_latitude = coord_convert_symbols(orig_lat)
-    site.start_longitude = coord_convert_symbols(orig_lng)
+    site.start_latitude = coord_convert_symbols(orig_lat_start)
+    site.start_longitude = coord_convert_symbols(orig_lng_start)
+    site.end_latitude = coord_convert_symbols(orig_lat_end) rescue nil
+    site.end_longitude = coord_convert_symbols(orig_lng_end) rescue nil
     site.save
     
     site.reload
@@ -104,6 +117,16 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
     end
     if !site.start_longitude.nil?
       site.start_longitude.gsub!(",", ".")
+    end
+    site.save
+  end
+
+  if !site.end_latitude.nil? || !site.end_longitude.nil?
+    if !site.end_latitude.nil?
+      site.end_latitude.gsub!(",", ".")
+    end
+    if !site.end_longitude.nil?
+      site.end_longitude.gsub!(",", ".")
     end
     site.save
   end

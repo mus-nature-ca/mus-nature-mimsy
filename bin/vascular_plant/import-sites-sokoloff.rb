@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/!MXG Upload Sokoloff 2018.01-sites.txt"
+file = "/Users/dshorthouse/Desktop/!MXG Upload Sokoloff 2018.09b_Sites.txt"
 
 PARSED_COORDS = {}
 
@@ -72,6 +72,8 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   site.geodetic_datum = row["SITES.GEODETIC_DATUM"].strip rescue nil
   site.georef_source = row["SITES.GEOREF_SOURCE"].strip rescue nil
   site.coord_uncertainty = row["SITES.COORD_UNCERTAINTY"].strip rescue nil
+  site.uncertainty_unit = row["SITES.UNCERTAINTY_UNIT"].strip rescue nil
+  site.coord_uncertainty_verb = row["SITES.COORD_UNCERTAINTY_VERB"].strip rescue nil
   site.publish = true
 
 =begin

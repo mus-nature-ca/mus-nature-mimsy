@@ -3,8 +3,8 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/!MXG Upload Sokoloff 2018.01-objects.txt"
-log = "/Users/dshorthouse/Desktop/!MXG Upload Sokoloff 2018.01-objects-log.csv"
+file = "/Users/dshorthouse/Desktop/!MXG Upload Sokoloff 2018.09b_Objects.txt"
+log = "/Users/dshorthouse/Desktop/!MXG Upload Sokoloff 2018.09b_Objects-log.csv"
 
 log_entries = []
 
@@ -42,6 +42,7 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   obj.collector = row["CATALOGUE.COLLECTOR"].strip rescue nil
   obj.date_collected = row["CATALOGUE.DATE_COLLECTED"].strip rescue nil
   obj.place_collected = row["CATALOGUE.PLACE_COLLECTED"].strip rescue nil
+  obj.note = row["CATALOGUE.NOTE"].strip rescue nil
   obj.gbif = true
   obj.publish = true
 

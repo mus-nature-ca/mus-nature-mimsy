@@ -122,8 +122,8 @@
 :georef_status:
   :MIMSY: SITES.GEOREF_STATUS
   :module: 'esites'
-  :column: '???'
-  :instructions: 'Georef. Status field in client has Column = LatRadiusProbability_tab and Type = Float. Needs fix in client.'
+  :column: 'LatGeorefStatus_tab'
+  :instructions: ''
 :georef_source:
   :MIMSY: SITES.GEOREF_SOURCE
   :module: 'esites'
@@ -143,7 +143,7 @@
   :MIMSY: SITES.ELEVATION
   :module: 'esites'
   :column: 'LocElevationASLFromMt'
-  :instructions: 'Values here may include all manner of values, ranges, and units. Please parse and convert these values into meters when required and also populate LocElevationASLToMt as appropriate when ranges are indicated.'
+  :instructions: 'Values here may include all manner of values, ranges, and units. Please parse and convert these values into meters when required and also populate LocElevationASLToMt as appropriate when ranges are indicated. Content that cannot be safely parsed should be placed in LocNotes and prefixed with "Elevation:"'
 :topography:
   :MIMSY: SITES.TOPOGRAPHY
   :module: 'esites'
@@ -196,9 +196,9 @@
   :instructions: ''
 :research_activity:
   :MIMSY: SITES.RESEARCH_ACTIVITY
-  :module: 'esites'
-  :column: 'CulResearchActivity_tab'
-  :instructions: ''
+  :module: 'ecollectionevents'
+  :column: 'ExpNotes'
+  :instructions: 'Add prefix Research Activity: '
 :recommendations:
   :MIMSY: SITES.RECOMMENDATIONS
   :module: 'esites'

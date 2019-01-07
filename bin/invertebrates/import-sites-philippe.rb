@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Sites_Barrow Canyon & North Slope Jamstec.txt"
+file = "/Users/dshorthouse/Desktop/Sites_ABS_FB, Hunter, Misc, Echinodermata series update.txt"
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
@@ -44,14 +44,16 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   site.decimal_is_primary = true
 
   #create other numbers
-  o_number = row["SITE_OTHER_NUMBERS.OTHER_NUMBER"].strip rescue nil
-  if !o_number.nil?
-    other_number = SiteOtherNumber.new
-    other_number.site_id = site.id
-    other_number.other_number = o_number
-    other_number.type = row["SITE_OTHER_NUMBERS.SITE_OTHNUM_TYPE"].strip rescue nil
-    if !other_number.other_number.nil?
-      other_number.save
+  (1..5).each do |num|
+    o_number = row["SITE_OTHER_NUMBERS.OTHER_NUMBER_#{num}"].strip rescue nil
+    if !o_number.nil?
+      other_number = SiteOtherNumber.new
+      other_number.site_id = site.id
+      other_number.other_number = o_number
+      other_number.type = row["SITE_OTHER_NUMBERS.SITE_OTHNUM_TYPE_#{num}"].strip rescue nil
+      if !other_number.other_number.nil?
+        other_number.save
+      end
     end
   end
 

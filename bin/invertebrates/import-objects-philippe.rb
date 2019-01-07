@@ -3,14 +3,16 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Objects not imported corrected - second round.txt"
+file = "/Users/dshorthouse/Desktop/Objects_ABS_Hunter Series.txt"
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
-  puts row["CATALOGUE.ID_NUMBER"]
   exists = Catalog.find_by_catalog_number(row["CATALOGUE.ID_NUMBER"])
   if !exists.nil?
+    puts row["CATALOGUE.ID_NUMBER"].red
     next
+  else
+    puts row["CATALOGUE.ID_NUMBER"].green
   end
 
   #Get the linked site
@@ -52,6 +54,27 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   obj = Catalog.find_by_catalog_number(obj.catalog_number)
 
   #create link to Taxonomy
+  (1..2).each do |num|
+    taxon = row["ITEMS_TAXONOMY.TAXONOMY_#{num}"].strip rescue nil
+      if !taxon.nil?
+      tax = Taxon.find_by_scientific_name(taxon)
+      #Find a variant if verbatim not found
+      if tax.nil?
+        tax = TaxonVariation.find_by_scientific_name(taxon).taxon rescue nil
+      end
+      if !tax.nil?
+        obj_tax = CatalogTaxon.new
+        obj_tax.taxon_id = tax.id
+        obj_tax.catalog_id = obj.id
+        obj_tax.attributor = row["ITEMS_TAXONOMY.ATTRIBUTOR_#{num}"].strip rescue nil
+        obj_tax.attrib_date = row["ITEMS_TAXONOMY.ATTRIB_DATE_#{num}"].strip rescue nil
+        obj_tax.affiliation = row["ITEMS_TAXONOMY.AFFILIATION_#{num}"].strip rescue nil
+        obj_tax.note = row["ITEMS_TAXONOMY.NOTE_#{num}"].strip rescue nil
+        obj_tax.save
+      end
+    end
+  end
+
   taxon = row["ITEMS_TAXONOMY.TAXONOMY"].strip rescue nil
     if !taxon.nil?
     tax = Taxon.find_by_scientific_name(taxon)
@@ -65,6 +88,7 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
       obj_tax.catalog_id = obj.id
       obj_tax.attributor = row["ITEMS_TAXONOMY.ATTRIBUTOR"].strip rescue nil
       obj_tax.attrib_date = row["ITEMS_TAXONOMY.ATTRIB_DATE"].strip rescue nil
+      obj_tax.affiliation = row["ITEMS_TAXONOMY.AFFILIATION"].strip rescue nil
       obj_tax.save
     end
   end
@@ -77,8 +101,8 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
 
   #create link to Person (collector)
   if !obj.collector.nil?
-    obj.collector.split("; ").each do |collector|
-      pers = Person.find_by_preferred_name(collector)
+    obj.collector.split(";").each do |collector|
+      pers = Person.find_by_preferred_name(collector.strip)
       if !pers.nil?
         cat_coll = CatalogCollector.new
         cat_coll.catalog_id = obj.id
@@ -112,12 +136,12 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
 
   #other numbers
   (1..5).each do |num|
-    number = row["OTHER_NUMBERS.OTHER_NUMBER#{num}"].strip rescue nil
+    number = row["OTHER_NUMBERS.OTHER_NUMBER_#{num}"].strip rescue nil
     if !number.nil?
       other_number = CatalogOtherNumber.new
       other_number.catalog_id = obj.id
       other_number.other_number = number
-      other_number.on_type = row["OTHER_NUMBERS.ON_TYPE#{num}"].strip rescue nil
+      other_number.on_type = row["OTHER_NUMBERS.ON_TYPE_#{num}"].strip rescue nil
       other_number.save
     end
   end

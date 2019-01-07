@@ -28,7 +28,7 @@
   :MIMSY: MEASUREMENTS.DIMENSION1
   :module: 'ecatalogue'
   :column: 'MeaOriginalStartValue_tab'
-  :instructions: 'There are potentially multiple measurements across columns that need to be related and potentially parsed according to a singular type. For example, a type = "length x width x height" whill have values and units in dimension1, unit1, dimension2, unit2, and dimension3, unit3, respectively. These require three separate measurement records, the type for each being "length", "width", "height". If however, CatalogMeasurement.type contains the word "range" then dimension2 and unit2 become the end range value and unit.'
+  :instructions: 'There are potentially multiple measurements across columns that need to be related and potentially parsed according to a singular type. For example, a type = "length x width x height" will have values and units in dimension1, unit1, dimension2, unit2, and dimension3, unit3, respectively. These require three separate measurement records, the type for each being "length", "width", "height". If however, CatalogMeasurement.type contains the word "range" then dimension2 and unit2 become the end range value and unit.'
 :unit1:
   :MIMSY: MEASUREMENTS.UNIT1
   :module: 'ecatalogue'

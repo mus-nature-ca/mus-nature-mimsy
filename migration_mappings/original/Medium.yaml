@@ -43,7 +43,7 @@
   :MIMSY: MEDIA.FORMAT
   :module: 'emultimedia'
   :column: 'ChaMediaForm'
-  :instructions: 'If the value is JPEG, JPG, or BMP, first see if there is an identically named media_id except with the extension .tif or .tiff. If there is, do not create a record in EMu or import the file.'
+  :instructions: 'If the value is JPEG, JPG, or BMP, first see if there is an identically named media_id with the extension .tif or .tiff. If there is, do not create a record in EMu or import the file for the non-tiff version. As part of image processing, we want a 90x90 jpg pixel thumbnail and a 4500X4500 pixel version created and referenced in the Resolutions tab for all images except those whose dimensions on any one side are already less than 4500 pixels.'
 :thumbnail:
   :MIMSY: MEDIA.THUMBNAIL
   :module: ''

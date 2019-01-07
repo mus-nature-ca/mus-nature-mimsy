@@ -1,4 +1,7 @@
 class Taxon < ActiveRecord::Base
+
+  PARSER = ScientificNameParser.new
+
   # specify schema and table name
   self.table_name = :taxonomy
 
@@ -57,9 +60,11 @@ class Taxon < ActiveRecord::Base
   end
 
   def ancestors
-    node, nodes = self, []
-    nodes << node = node.parent while node.parent
-    nodes.reverse
+    @ancestors ||= begin
+      node, nodes = self, []
+      nodes << node = node.parent while node.parent
+      nodes.reverse
+    end
   end
 
   def descendants
@@ -100,6 +105,18 @@ class Taxon < ActiveRecord::Base
 
   def has_catalogs?
     !catalogs.size.zero?
+  end
+
+  def parsed
+    PARSER.parse(scientific_name) rescue {}
+  end
+
+  def parent_path_ids
+    ancestors.map(&:id)
+  end
+
+  def parent_path_ranks
+    ancestors.map(&:rank)
   end
 
 end

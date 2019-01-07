@@ -25,7 +25,7 @@ def output(file, locator)
     puts file_name.green
   end
 
-  matches = file_name.gsub(/#{REPLACE.keys.join('|')}/, REPLACE).match(/^(CAN[ALM]{1}?)\s+?([0-9]{1,})([A-Ha-h]{1}\.)?/)
+  matches = file_name.gsub(/#{REPLACE.keys.join('|')}/, REPLACE).match(/^(CAN[ALM]{1}?)\s?([0-9]{1,})([A-Ha-h]{1}\.)?/)
   suffix = (matches && !matches[3].nil?) ? matches[3].first : nil
   catalog_number = "#{matches[1]} #{matches[2]}#{suffix}" rescue nil
 

@@ -11,7 +11,7 @@ class Catalog < ActiveRecord::Base
 
   ignore_columns :m_id, :record_view, :id_sort1, 
     :id_sort2, :id_sort3, :id_sort4, :id_sort5, 
-    :id_sort6, :option8, :option9, :option10, 
+    :id_sort6, :option10, 
     :number1, :number2, :date1, :date2, :extent, 
     :portion, :use, :custodial_history, :appraisal, 
     :arrangement, :access_restrictions, 
@@ -34,9 +34,11 @@ class Catalog < ActiveRecord::Base
   custom_attribute :gbif, :flag4
   custom_attribute :gbif_export_date, :date2
   custom_attribute :specimen_nature, :materials
+  custom_attribute :provenience_group, :option8
+  custom_attribute :collecting_event_code, :option9
 
   categorical :collection, :collection_code, :whole_part, :legal_status, 
-    :language_of_material, :culture, :condition
+    :language_of_material, :culture, :condition, :provenience_group
 
   validates :id_number, :category1, presence: true
 
@@ -141,6 +143,10 @@ class Catalog < ActiveRecord::Base
     self.find_by_id_number(id)
   end
 
+  def self.search_by_prefix (prefix)
+    self.where("lower(id_number) LIKE '#{prefix.downcase}%'")
+  end
+
   def determinations
     names
   end
@@ -155,6 +161,10 @@ class Catalog < ActiveRecord::Base
 
   def has_image?
     media.map(&:record_type).include?("IMAGE")
+  end
+
+  def measurement_attribute
+    read_attribute(:measurements)
   end
 
 end

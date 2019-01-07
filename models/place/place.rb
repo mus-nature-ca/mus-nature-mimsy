@@ -44,10 +44,18 @@ class Place < ActiveRecord::Base
 
   has_many :variations, class_name: "PlaceVariation", foreign_key: "placekey", dependent: :destroy
 
+  def self.search_by_prefix (prefix)
+    self.where("lower(place1) LIKE '#{prefix.downcase}%'")
+  end
+
   def ancestors
     node, nodes = self, []
     nodes << node = node.parent while node.parent
     nodes.reverse
+  end
+
+  def ancestors_parts(levels = (1..12))
+    ancestors_and_self.map{ |a| a if levels.include? a.hierarchy_level }.compact
   end
 
   def descendants

@@ -13,12 +13,12 @@
   :MIMSY: MULTIFIELDS.DESCRIPTOR
   :module: 'ecatalogue'
   :column: 'NotNotes'
-  :instructions: 'Append to field, concatenate columns descriptor, term, note with semicolons when present into key:value pairs. Example: Multifield Descriptor: xxx; Multifield Term: xxx; Multifield Note: xxx"'
+  :instructions: 'Append to field, concatenate columns descriptor, term, note with semicolons when present into key:value pairs. Example: Multifield Descriptor: xxx; Multifield Term: xxx; Multifield Note: xxx. However, if the Catalog record has a collection value "Botany", "Lichen", "Alga", or "Vascular Plant" and the value of this field is "substrate" then populate ecatalogue::ColSiteSubstrate_tab with the value from CataloguMiltifield.term'
 :term:
   :MIMSY: MULTIFIELDS.TERM
   :module: ''
   :column: ''
-  :instructions: 'Not mapped. See CatalogMultifield.descriptor.'
+  :instructions: 'Not mapped. However, see CatalogMultifield.descriptor for additional, collection-specific instructions.'
 :note:
   :MIMSY: MULTIFIELDS.NOTE
   :module: ''

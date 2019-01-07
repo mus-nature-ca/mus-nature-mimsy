@@ -59,3 +59,8 @@
   :module: 'etaxonomy'
   :column: 'SynAuthority_tab'
   :instructions: 'When creating the currently unaccepted Taxon record for this entry, parse and populate fields in the Authors tab is done for Taxon.authority'
+:parsed:
+  :MIMSY: ''
+  :module: ''
+  :column: ''
+  :instructions: 'Contains parsed data for the scientific_name'

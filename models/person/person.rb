@@ -41,6 +41,8 @@ class Person < ActiveRecord::Base
   has_many :acquisitions, through: :acquisition_sources, source: :acquisition
   has_many :acquisition_sources, foreign_key: "link_id"
 
+  has_many :biographies, foreign_key: "link_id", source: :person_biography
+
   has_many :disposals, through: :disposal_sources, source: :disposal
   has_many :disposal_sources, foreign_key: "link_id"
 
@@ -66,4 +68,9 @@ class Person < ActiveRecord::Base
   has_many :person_taxa, foreign_key: "link_id"
 
   has_many :variations, class_name: "PersonVariation", foreign_key: "link_id"
+
+  def self.search_by_prefix (prefix)
+    self.where("lower(preferred_name) LIKE '#{prefix.downcase}%'")
+  end
+
 end

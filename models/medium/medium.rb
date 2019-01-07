@@ -77,6 +77,10 @@ class Medium < ActiveRecord::Base
   has_many :taxa, through: :medium_taxa, source: :taxon
   has_many :medium_taxa, foreign_key: "mediakey"
 
+  def self.search_by_prefix (prefix)
+    self.where("lower(media_id) LIKE '#{prefix.downcase}%'")
+  end
+
   def related
     related_media
   end
@@ -85,10 +89,18 @@ class Medium < ActiveRecord::Base
     path = nil
     if !locator.nil?
       path = locator.gsub(/\\+/, '/')
-                    .sub("/n-nas1.mus-nature.ca/dept","")
-                    .sub("/n-nas1.mus-nature.ca/botany", "")
+                    .sub("n-nas1.mus-nature.ca/dept","")
+                    .sub("n-nas1.mus-nature.ca/botany", "")
     end
     path
   end
 
+  def locator_mac
+    path = nil
+    if !locator.nil?
+      path = locator.gsub(/\\+/, '/')
+                    .sub("n-nas1.mus-nature.ca/","Volumes/")
+    end
+    path
+  end
 end

@@ -3,6 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
+=begin
 collections = ["Amphibian and Reptile", "Annelid", "Bird", "Crustacea", "Fish", "General Invertebrate", "Insect", "Mammal", "Mollusc", "Parasite"]
 
 cms = CatalogMeasurement.joins(:catalog).where("catalogue.category1": collections)
@@ -26,3 +27,18 @@ CSV.open(output_dir(__FILE__) + "/CatalogOtherMeasurement_list.csv", 'w') do |cs
     csv << [cm, id_number]
   end
 end
+=end
+
+cats = Catalog.where("measurements IS NOT NULL")
+
+problems = []
+
+cats.find_each do |c|
+  if c.measurements.empty?
+    gm = GroupMember.new
+    gm.group_id = 4752
+    gm.table_key = c.id
+    gm.save
+  end
+end
+

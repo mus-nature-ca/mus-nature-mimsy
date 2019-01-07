@@ -164,3 +164,18 @@
   :module: ''
   :column: ''
   :instructions: 'Not mapped'
+:parsed:
+  :MIMSY: ''
+  :module: ''
+  :column: ''
+  :instructions: 'Contains parsed data for the scientific_name'
+:parent_path_ranks:
+  :MIMSY: ''
+  :module: ''
+  :column: ''
+  :instructions: 'Contains ranks in order of ancestors in parent_path'
+:parent_path_ids:
+  :MIMSY: ''
+  :module: ''
+  :column: ''
+  :instructions: 'Contains ids in order of ancestors in parent_path'

@@ -25,5 +25,5 @@ class RelatedCatalog < ActiveRecord::Base
 
   categorical :relationship
 
-  belongs_to :catalog, primary_key: "related_mkey", foreign_key: "mkey"
+  belongs_to :catalog, class_name: "Catalog", foreign_key: "related_mkey"
 end

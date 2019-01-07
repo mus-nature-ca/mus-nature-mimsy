@@ -1,0 +1,61 @@
+---
+:id:
+  :MIMSY: PEOPLE_DATES.TIMEKEY
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped'
+:person_id:
+  :MIMSY: PEOPLE_DATES.LINK_ID
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped. Foreign key to Person.id'
+:prior_date:
+  :MIMSY: PEOPLE_DATES.PRIOR_DATE
+  :module: ''
+  :column: ''
+  :instructions: ''
+:date_text:
+  :MIMSY: PEOPLE_DATES.DATE_TEXT
+  :module: ''
+  :column: ''
+  :instructions: ''
+:activity:
+  :MIMSY: PEOPLE_DATES.ACTIVITY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:earliest_year:
+  :MIMSY: PEOPLE_DATES.EARLIEST_YEAR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:earliest_monthday:
+  :MIMSY: PEOPLE_DATES.EARLIEST_MONTHDAY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:latest_year:
+  :MIMSY: PEOPLE_DATES.LATEST_YEAR
+  :module: ''
+  :column: ''
+  :instructions: ''
+:latest_monthday:
+  :MIMSY: PEOPLE_DATES.LATEST_MONTHDAY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:century:
+  :MIMSY: PEOPLE_DATES.CENTURY
+  :module: ''
+  :column: ''
+  :instructions: ''
+:description:
+  :MIMSY: PEOPLE_DATES.DESCRIPTION
+  :module: ''
+  :column: ''
+  :instructions: ''
+:note:
+  :MIMSY: PEOPLE_DATES.NOTE
+  :module: ''
+  :column: ''
+  :instructions: ''

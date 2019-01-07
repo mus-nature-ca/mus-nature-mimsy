@@ -5,21 +5,16 @@ include Sinatra::Mimsy::Helpers
 
 candidates = []
 
-objs = Catalog.where.not(date_collected: nil)
-pbar = ProgressBar.create(title: "Date Collected", total: objs.count, autofinish: false, format: '%t %b>> %i| %e')
+cd = CollectedDate.where("date_text LIKE '% -  %'")
 
-objs.find_each do |obj|
+pbar = ProgressBar.create(title: "Date Collected", total: cd.count, autofinish: false, format: '%t %b>> %i| %e')
+
+cd.find_each do |obj|
   pbar.increment
-  dates = obj.date_collected.split(" - ")
-  d = Chronic.parse(dates[0])
-  if d && d.year.between?(1860,1870)
-    candidates << obj.catalog_number
-  end
+  obj.date_text.gsub!(/\s-\s\s/, ' - ')
+  obj.save
 end
 pbar.finish
-
-byebug
-puts ""
 
 # Random bits of disconnected regex material to sus out issues with collection dates
 
