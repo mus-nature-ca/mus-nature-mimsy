@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Sites_ABS_FB, Hunter, Misc, Echinodermata series update.txt"
+file = "/Users/dshorthouse/Desktop/DFO-ISMER Sites - To submit.txt"
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
@@ -58,7 +58,7 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   end
 
   #create measurements
-  (1..22).each do |m|
+  (1..3).each do |m|
     type = row["SITE_MEASUREMENTS.MEASURE_TYPE_#{m}"].strip rescue nil
     if !type.nil?
       measurement = SiteMeasurement.new

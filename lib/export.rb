@@ -238,6 +238,7 @@ class Export
     CSV.open(@dir + "/#{name}.csv", 'w') do |csv|
       csv << [
         "CATALOGUE.ID_NUMBER",
+        "OTHER_NUMBERS.OTHER_NUMBER",
         "CATALOGUE.ITEM_NAME",
         "ITEMS_TAXONOMY.TAXONOMY",
         "ITEMS_TAXONOMY.ATTRIBUTOR",
@@ -257,6 +258,7 @@ class Export
         "CATALOGUE.DESCRIPTION",
         "CATALOGUE.CREDIT_LINE",
         "CATALOGUE.HOME_LOCATION",
+        "CATALOGUE_MULTIFIELDS",
         "CATALOGUE.CREATED_BY",
         "CATALOGUE.CREATE_DATE",
         "SITES.SITE_ID",
@@ -268,6 +270,7 @@ class Export
         "SITES.LOCATION_ACCURACY",
         "SITES.DESCRIPTION",
         "SITES.ELEVATION",
+        "SITES.DECIMAL_IS_PRIMARY",
         "SITES.START_LATITUDE",
         "SITES.START_LONGITUDE",
         "SITES.START_LATITUDE_DEC",
@@ -296,6 +299,7 @@ class Export
 
       csv << [
         "id_number",
+        "other_number",
         "label_name",
         "taxon_link",
         "ident",
@@ -315,6 +319,7 @@ class Export
         "description",
         "acq_number",
         "home_loc",
+        "descriptor:term",
         "catalog_created_by",
         "catalog_create_date",
         "site_id",
@@ -326,6 +331,7 @@ class Export
         "location_accuracy",
         "site_desc",
         "altitude",
+        "decimal_is_primary",
         "lat_start",
         "long_start",
         "lat_dec_start",
@@ -360,6 +366,7 @@ class Export
         group.each do |id|
           catalog = Catalog.find_by_catalog_number(id)
           id_number = catalog.catalog_number
+          other_number = catalog.other_numbers.where(type: "stamped CMN accession number").first.other_number rescue nil
           label_name = catalog.scientific_name
           ct = catalog.catalog_taxa
           ct_first = ct.first
@@ -392,6 +399,7 @@ class Export
           location_accuracy = st.location_accuracy rescue nil
           site_desc = st.description rescue nil
           altitude = st.elevation.to_s rescue nil
+          decimal_is_primary = st.decimal_is_primary rescue nil
           lat_start = st.start_latitude rescue nil
           long_start = st.start_longitude rescue nil
           lat_dec_start = st.start_latitude_dec.present? ? st.start_latitude_dec.to_f : nil rescue nil
@@ -413,6 +421,7 @@ class Export
           vegetation = st.vegetation rescue nil
           research_activity = st.research_activity rescue nil
           home_loc = catalog.home_location
+          multifields = catalog.multifields.map{|m| [m.descriptor,m.term].join(" : ")  }.join(" | ")
           expedition = st.archaeological_status rescue nil
           vessel_name = st.register_status rescue nil
           site_created_by = st.created_by rescue nil
@@ -420,6 +429,7 @@ class Export
 
           csv << [
             id_number,
+            other_number,
             label_name,
             taxon_link,
             ident,
@@ -439,6 +449,7 @@ class Export
             description,
             acq_number,
             home_loc,
+            multifields,
             catalog_created_by,
             catalog_create_date,
             site_id,
@@ -450,6 +461,7 @@ class Export
             location_accuracy,
             site_desc,
             altitude,
+            decimal_is_primary,
             lat_start,
             long_start,
             lat_dec_start,
@@ -473,7 +485,8 @@ class Export
             expedition,
             vessel_name,
             site_created_by,
-            site_create_date
+            site_create_date,
+            multifields
           ]
 
         end

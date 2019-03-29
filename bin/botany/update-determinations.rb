@@ -3,8 +3,8 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/2018-08-31_annotation_update.txt"
-output_file = "/Users/dshorthouse/Desktop/2018-08-31_annotation_update-log.csv"
+file = "/Users/dshorthouse/Desktop/Cleanup_annotations_Minuartia_2019_01.txt"
+output_file = "/Users/dshorthouse/Desktop/Cleanup_annotations_Minuartia_2019_01-log.csv"
   
 CSV.open(output_file, 'w') do |csv|
   csv << ["ID Number", "Original Det", "Original SpecKey", "Determiner", "New Det", "Determination Date", "New SpecKey", "Summary"]

@@ -34,6 +34,7 @@ class Collection
     "Annelid",
     "Crustacea",
     "General Invertebrate",
+    "Insect",
     "Mollusc",
     "Parasite"
   ]

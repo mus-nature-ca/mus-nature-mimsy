@@ -1,0 +1,31 @@
+---
+:id:
+  :MIMSY: EVENTS_TAXONOMY.AUTHLINKKEY
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped'
+:event_id:
+  :MIMSY: EVENTS_TAXONOMY.VKEY
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped. Foreign key to Event.id'
+:taxon_id:
+  :MIMSY: EVENTS_TAXONOMY.SPECKEY
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped. Foreign key to Taxon.id'
+:taxon_variation_id:
+  :MIMSY: EVENTS_TAXONOMY.TAXVARKEY
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped. Foreign key to TaxonVariation.id'
+:taxonomy:
+  :MIMSY: EVENTS_TAXONOMY.TAXONOMY
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped'
+:parent_path:
+  :MIMSY: EVENTS_TAXONOMY.BROADER_TEXT
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped'

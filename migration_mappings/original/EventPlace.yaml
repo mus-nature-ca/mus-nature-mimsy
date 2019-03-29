@@ -1,0 +1,21 @@
+---
+:id:
+  :MIMSY: EVENTS_PLACES.AUTHLINKKEY
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped'
+:event_id:
+  :MIMSY: EVENTS_PLACES.VKEY
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped. Foreign key to Event.id'
+:place_id:
+  :MIMSY: EVENTS_PLACES.PLACEKEY
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped. Foreign key to Place.id'
+:place:
+  :MIMSY: EVENTS_PLACES.PLACE
+  :module: ''
+  :column: ''
+  :instructions: 'Not mapped'

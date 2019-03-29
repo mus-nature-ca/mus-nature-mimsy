@@ -3,12 +3,12 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-numbers = (9..10)
+numbers = (1..1)
 
 numbers.each do |num|
 
   padded = sprintf'%02d', num
-  date = "2018-11-B#{padded}"
+  date = "2019-02-B#{padded}"
   file = "/Users/dshorthouse/Desktop/uploads/Object #{date}.txt"
   log = "/Users/dshorthouse/Desktop/uploads/Object #{date}-log.csv"
 
@@ -32,11 +32,11 @@ numbers.each do |num|
       end
     end
 
-    other_number = row["OTHER_NUMBERS.OTHER_NUMBER"] rescue nil
-
     #see if a catalog record already exists with this other_number
+    other_number = row["OTHER_NUMBERS.OTHER_NUMBER_1"] rescue nil
+    
     if !other_number.nil?
-      obj = Catalog.find_by_catalog_number(row["OTHER_NUMBERS.OTHER_NUMBER"])
+      obj = Catalog.find_by_catalog_number(row["OTHER_NUMBERS.OTHER_NUMBER_1"])
       if !obj.nil?
         if new_record
           obj.catalog_number = row["ID_NUMBER"].strip
@@ -44,10 +44,10 @@ numbers.each do |num|
         else
           missing << [row["ID_NUMBER"], "Object record AND object with  other_number #{row["OTHER_NUMBERS.OTHER_NUMBER"]} already exist"]
         end
-        # Add to group if names are not matched
+        # Add to group "lichens scientific name to be updated" if names are not matched
         if obj.scientific_name != row["ITEM_NAME"].strip
           group_member = GroupMember.new
-          group_member.group_id = 4575
+          group_member.group_id = 4844
           group_member.table_key = obj.id
           group_member.save
         end
@@ -95,22 +95,22 @@ numbers.each do |num|
       #Find object again - damn Oracle!
       obj = Catalog.find_by_catalog_number(obj.catalog_number)
 
-      #create link to Taxonomy
-      taxon = row["ITEMS_TAXONOMY.TAXONOMY"].strip
-      tax = Taxon.find_by_scientific_name(taxon)
-      #Find a variant if verbatim not found
-      if tax.nil?
-        tax = TaxonVariation.find_by_scientific_name(taxon).taxon rescue nil
-      end
-      if !tax.nil?
-        obj_tax = CatalogTaxon.new
-        obj_tax.taxon_id = tax.id
-        obj_tax.catalog_id = obj.id
-        obj_tax.attributor = row["ITEMS_TAXONOMY.ATTRIBUTOR"].strip rescue nil
-        obj_tax.attrib_date = row["ITEMS_TAXONOMY.ATTRIB_DATE"].strip rescue nil
-        obj_tax.save
-      else
-        missing << [obj.catalog_number, "Taxon missing"]
+      taxon = row["ITEMS_TAXONOMY.TAXONOMY"].strip rescue nil
+        if !taxon.nil?
+        tax = Taxon.find_by_scientific_name(taxon)
+        #Find a variant if verbatim not found
+        if tax.nil?
+          tax = TaxonVariation.find_by_scientific_name(taxon).taxon rescue nil
+        end
+        if !tax.nil?
+          obj_tax = CatalogTaxon.new
+          obj_tax.taxon_id = tax.id
+          obj_tax.catalog_id = obj.id
+          obj_tax.attributor = row["ITEMS_TAXONOMY.ATTRIBUTOR"].strip rescue nil
+          obj_tax.attrib_date = row["ITEMS_TAXONOMY.ATTRIB_DATE"].strip rescue nil
+          obj_tax.affiliation = row["ITEMS_TAXONOMY.AFFILIATION"].strip rescue nil
+          obj_tax.save
+        end
       end
 
       #create link to Catalog Name
@@ -160,14 +160,17 @@ numbers.each do |num|
         obj.save
       end
 
-      #link to other number
-      if !other_number.nil?
-        type = row["OTHER_NUMBERS.ON_TYPE"].strip rescue nil
-        other = CatalogOtherNumber.new
-        other.catalog_id = obj.id
-        other.other_number = other_number
-        other.type = type
-        other.save
+      #link to other numbers
+      #other numbers
+      (1..5).each do |num|
+        number = row["OTHER_NUMBERS.OTHER_NUMBER_#{num}"].strip rescue nil
+        if !number.nil?
+          other_number = CatalogOtherNumber.new
+          other_number.catalog_id = obj.id
+          other_number.other_number = number
+          other_number.on_type = row["OTHER_NUMBERS.ON_TYPE_#{num}"].strip rescue nil
+          other_number.save
+        end
       end
 
       #link to acquisition
@@ -183,9 +186,9 @@ numbers.each do |num|
         end
       end
 
-      #Add to existing Group (id = 4547, "imported skeletal records")
+      #Add to existing Group (id = 4547, "lichens imported skeletal records")
       group_member = GroupMember.new
-      group_member.group_id = 4547
+      group_member.group_id = 4846
       group_member.table_key = obj.id
       group_member.save
 

@@ -36,12 +36,13 @@ def add_image(row, catalog)
   cm.save
 end
 
-numbers = (9..10)
+#numbers = (9..10)
+numbers = [1]
 
 numbers.each do |num|
 
   padded = sprintf'%02d', num
-  date = "2018-12-B#{padded}"
+  date = "2019-02-B#{padded}"
   file = "/Users/dshorthouse/Desktop/uploads/Media #{date}.txt"
   log = "/Users/dshorthouse/Desktop/uploads/Media #{date}-log.csv"
 

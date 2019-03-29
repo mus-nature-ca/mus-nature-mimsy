@@ -36,5 +36,8 @@ class Event < ActiveRecord::Base
   has_many :sites, through: :site_events, source: :site
   has_many :site_events, foreign_key: "vkey"
 
+  has_many :places, through: :event_places, source: :event
+  has_many :event_places, foreign_key: "vkey"
+
   has_many :variations, class_name: "EventVariation", foreign_key: "vkey"
 end

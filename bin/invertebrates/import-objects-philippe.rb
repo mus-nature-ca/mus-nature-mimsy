@@ -3,7 +3,7 @@
 require_relative '../../environment.rb'
 include Sinatra::Mimsy::Helpers
 
-file = "/Users/dshorthouse/Desktop/Objects_ABS_Hunter Series.txt"
+file = "/Users/dshorthouse/Desktop/Parasites - Objects spreadsheet v3.txt"
 
 CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le:utf-8') do |row|
 
@@ -41,6 +41,7 @@ CSV.foreach(file, :headers => true, :col_sep => "\t", :encoding => 'bom|utf-16le
   obj.date_collected = row["CATALOGUE.DATE_COLLECTED"].strip rescue nil
   obj.description = row["CATALOGUE.DESCRIPTION"].strip rescue nil
   obj.note = row["CATALOGUE.NOTE"].strip rescue nil
+  obj.option3 = row["CATALOGUE.OPTION3"].strip rescue nil
   obj.site = site.site_id
   obj.place_collected = place_collected_text
   obj.home_location = row["CATALOGUE.HOME_LOCATION"].strip rescue nil
