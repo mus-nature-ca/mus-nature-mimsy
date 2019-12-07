@@ -135,9 +135,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord (~> 4.2.0)
+  activerecord
   activerecord-import
-  activerecord-oracle_enhanced-adapter (~> 1.6.0)
+  activerecord-oracle_enhanced-adapter
   biodiversity
   builder
   byebug
@@ -155,7 +155,7 @@ DEPENDENCIES
   require_all
   rest-client
   rspec
-  ruby-oci8 (~> 2.2.0)
+  ruby-oci8
   ruby-progressbar
   rubyzip
   sass
@@ -165,7 +165,7 @@ DEPENDENCIES
   thin
 
 RUBY VERSION
-   ruby 2.3.0p0
+   ruby 2.6.3p62
 
 BUNDLED WITH
-   1.12.5
+   1.17.3
