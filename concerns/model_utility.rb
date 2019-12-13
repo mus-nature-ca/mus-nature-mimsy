@@ -40,7 +40,11 @@ module ModelUtility
     def custom_attribute_names
       @custom_attribute_names ||= attribute_names.dup
     end
-    
+
+    def set_integer_columns(*args)
+      connection.set_type_for_columns(table_name,:integer,*args)
+    end
+
     def to_csv
       CSV.generate(headers: true) do |csv|
         csv << custom_attribute_names
