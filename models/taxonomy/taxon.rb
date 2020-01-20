@@ -1,7 +1,5 @@
 class Taxon < ActiveRecord::Base
 
-  PARSER = ScientificNameParser.new
-
   # specify schema and table name
   self.table_name = :taxonomy
 
@@ -11,10 +9,10 @@ class Taxon < ActiveRecord::Base
   # override decimal set
   set_integer_columns :speckey, :broader_key1, :mtax_id, :hierarchy_level, :record_view
 
-  ignore_columns :step, :record_view, :mtax_id, :common_name, :broader_name, 
-    :lifecycle, :gestation, :birth_rate, :seasonality, :reproduction_note, 
-    :diet, :behavior, :social_organization, :conservation, :threats, 
-    :population, :population_date, :option2, :option3, :option4, :number1, 
+  ignore_columns :step, :record_view, :mtax_id, :common_name, :broader_name,
+    :lifecycle, :gestation, :birth_rate, :seasonality, :reproduction_note,
+    :diet, :behavior, :social_organization, :conservation, :threats,
+    :population, :population_date, :option2, :option3, :option4, :number1,
     :number2, :date1, :date2, :sort_name
 
   custom_attribute :id, :speckey
@@ -108,7 +106,7 @@ class Taxon < ActiveRecord::Base
   end
 
   def parsed
-    PARSER.parse(scientific_name) rescue {}
+    Biodiversity::Parser.parse(scientific_name) rescue {}
   end
 
   def parent_path_ids

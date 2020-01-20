@@ -1,7 +1,5 @@
 class TaxonVariation < ActiveRecord::Base
 
-  PARSER = ScientificNameParser.new
-
   # specify schema and table name
   self.table_name = :taxonomy_variations
 
@@ -39,7 +37,7 @@ class TaxonVariation < ActiveRecord::Base
   end
 
   def parsed
-    PARSER.parse(scientific_name) rescue {}
+    Biodiversity::Parser.parse(scientific_name) rescue {}
   end
 
 end

@@ -45,6 +45,10 @@ module ModelUtility
       connection.set_type_for_columns(table_name,:integer,*args)
     end
 
+    def set_string_columns(*args)
+      connection.set_type_for_columns(table_name,:string,*args)
+    end
+
     def to_csv
       CSV.generate(headers: true) do |csv|
         csv << custom_attribute_names
