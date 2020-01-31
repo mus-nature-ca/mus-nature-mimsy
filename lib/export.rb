@@ -35,10 +35,10 @@ class Export
     models.each do |model|
       map_cols = model.custom_attribute_names.zip(model.attribute_names).to_h
       yaml = model.custom_attribute_names
-                  .map{|an| [an, { 
-                    "MIMSY" => [model.table_name.upcase, map_cols[an].upcase].join("."), 
-                    "module" => "", 
-                    "column" => "", 
+                  .map{|an| [an, {
+                    "MIMSY" => [model.table_name.upcase, map_cols[an].upcase].join("."),
+                    "module" => "",
+                    "column" => "",
                     "instructions" => "" }.symbolize_keys!]}
                   .to_h.symbolize_keys!.to_yaml
       File.open(@dir + "/#{model.name}.yaml", 'w') {|f| f.write yaml }

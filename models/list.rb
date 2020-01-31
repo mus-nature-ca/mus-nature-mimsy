@@ -8,6 +8,9 @@ class List < ActiveRecord::Base
   # override decimal set
   set_integer_columns :list_key, :view_value
 
+  # override boolean set
+  set_string_columns :term1, :term2, :term3
+
   def self.all_terms
     values = {}
     pluck(:field).uniq.compact.each do |f|
