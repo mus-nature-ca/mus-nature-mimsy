@@ -111,22 +111,33 @@ class Export
     Parallel.map(models.map(&:name), progress: "Exporting large models", in_processes: processes) do |model|
       file_name = "/#{model}.csv"
       mc = model.constantize
+
+      #Taxon and TaxonVariation are getting hung-up so skip them and do it manually below outside Parallel
+      next if model == "Taxon" || model == "TaxonVariation"
+
       CSV.open(File.join(@dir, file_name), 'w') do |csv|
         if model == "Medium"
           csv << mc.custom_attribute_names.push("locator_linux")
-        elsif model == "Taxon" || model == "TaxonVariation"
-          csv << mc.custom_attribute_names.push("parsed")
         else
           csv << mc.custom_attribute_names
         end
         mc.find_each do |row|
           if model == "Medium"
             csv << row.custom_attributes.values.push(row.locator_linux)
-          elsif model == "Taxon" || model == "TaxonVariation"
-            csv << row.custom_attributes.values.push(row.parsed.deep_stringify_keys)
           else
             csv << row.custom_attributes.values
           end
+        end
+      end
+    end
+
+    ["Taxon", "TaxonVariation"].each do |model|
+      file_name = "/#{model}.csv"
+      mc = model.constantize
+      CSV.open(File.join(@dir, file_name), 'w') do |csv|
+        csv << mc.custom_attribute_names.push("parsed")
+        mc.find_each do |row|
+          csv << row.custom_attributes.values.push(row.parsed.deep_stringify_keys)
         end
       end
     end
